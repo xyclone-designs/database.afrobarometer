@@ -8,8 +8,34 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include=".input\topics.round_01.txt" />
+    <Content Include=".input\topics.round_02.txt" />
+    <Content Include=".input\topics.round_03.txt" />
+    <Content Include=".input\topics.round_04.txt" />
+    <Content Include=".input\topics.round_05.txt" />
+    <Content Include=".input\topics.round_06.txt" />
+    <Content Include=".input\topics.round_07.txt" />
+    <Content Include=".input\topics.round_08.txt" />
+    <Content Include=".input\topics.round_09.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".input\codebooks.zip" />
+    <None Include=".input\data-merged.zip" />
+    <None Include=".input\data-round-1.0.zip" />
+    <None Include=".input\data-round-2.0.zip" />
+    <None Include=".input\data-round-3.0.zip" />
+    <None Include=".input\data-round-4.0.zip" />
+    <None Include=".input\data-round-5.0.zip" />
+    <None Include=".input\data-round-6.0.zip" />
+    <None Include=".input\data-round-7.0.zip" />
+    <None Include=".input\data-round-8.0.zip" />
+    <None Include=".input\data-round-9.0.zip" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="SharpZipLib" Version="1.4.2" />
-    <PackageReference Include="SpssLib" Version="1.1.3" />
+    <PackageReference Include="SpssReader" Version="2022.4.19.2" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
   </ItemGroup>
 
