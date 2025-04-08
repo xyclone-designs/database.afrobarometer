@@ -1,42 +1,30 @@
 # Database.IEC
 Afrobarometer results database built from data supplied by the Afrobarometer and used for the api found at https://api.xyclonedesigns.co.za/afrobarometer/rest
 
-Data for the following elections is present
-- 1994 Provincial
-- 1999 National 
-- 1999 Provincial 
-- 2000 Municipal 
-- 2004 National 
-- 2004 Provincial 
-- 2006 Municipal 
-- 2009 National 
-- 2009 Provincial 
-- 2011 Municipal 
-- 2014 National 
-- 2014 Provincial 
-- 2016 Municipal 
-- 2019 National 
-- 2019 Provincial 
-- 2021 Municipal 
+# * DATABASE CREATION IN PROGRESS *
+
+Data for the following rounds is present
+- Round 01 (1999/2001)
+- Round 02 (2002/2003)
+- Round 03 (2005/2006)
+- Round 04 (2008/2009)
+- Round 05 (2011/2013)
+- Round 06 (2014/2015)
+- Round 07 (2016/2018)
+- Round 08 (2019/2021)
+- Round 09 (2021/2023)
 
 # Data Sources
 
-Various electoral event data curated from Afrobarometer Website and Wikipedia
+Data, (Merged and Single), Instructional Codebooks were sourced from the following links
 
-CSV Data sheets downloaded from the following links
+- https://www.afrobarometer.org/data/data-sets/
+- https://www.afrobarometer.org/data/merged-data/
+- https://www.afrobarometer.org/data/codebooks/
 
-- https://results.elections.org.za/home/Downloads/MBE-Results
-- https://results.elections.org.za/home/Downloads/ME-Results
-- https://results.elections.org.za/home/Downloads/NPE-Results
+Question topic segmentation & sections were sourced and edited from the below link
 
-Municipality information was obtained from following links
-
-- https://municipaldata.treasury.gov.za/api/cubes/municipalities/members/municipality
-- https://municipalmoney.gov.za/api/geography/geography/
-
-Party information list was generated from data, wikipedia and following links
-
-- https://www.elections.org.za/pw/Parties-And-Candidates/Party-Contact-Information  
+- https://www.afrobarometer.org/online-data-analysis/  
 
 # Disclaimer
 

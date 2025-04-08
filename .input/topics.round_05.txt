@@ -1,0 +1,359 @@
+A Socio-Demographics & sample characteristics
+A_01 General
+Gender of respondent
+Race of respondent
+Age
+Language of respondent
+Education of respondent
+Religion of respondent
+Employment status
+A_02 Location
+Country
+Urban or Rural Primary Sampling Unit
+Province or region
+District
+A_03 Local Services
+Electricity grid in the PSU/EA
+Piped water system in the PSU/EA
+Sewage system in the PSU/EA
+Cell phone service in the PSU/EA
+Post-office in the PSU/EA
+School in the PSU/EA
+Police station in the PSU/EA
+Health clinic in the PSU/EA
+Market stalls in the PSU/EA
+Any policemen or police vehicles in the PSU/EA
+Soldiers/army in the PSU/EA
+Roadblocks by police/army in the PSU/EA
+Roadblocks by private security in the PSU/EA
+Roadblocks by local community in the PSU/EA
+Tarred/paved road
+A_04 Household Characteristics
+Number of adults in household
+B Interview conditions
+B_01 Interview Conditions
+Language of interview
+Others present
+Check with others
+Influence by others
+Approached by community/party representatives
+Feel threatened
+Physically threatened
+Proportion difficulty answering
+Date of Interview
+Length of interview (minutes)
+B_02 Respondent Attitude
+Respondent friendly
+Respondent interested
+Respondent cooperative
+Respondent patient
+Respondent at ease
+Respondent honest
+Perceived survey sponsor
+B_03 Interviewer Info
+Interviewer's age
+Interviewer's gender
+Interviewer rural or urban
+Interviewer's home language
+Interviewer's education
+C Economy
+C_01 National Economic Conditions
+Country's present economic condition
+Country's economic condition compared to 12 months ago
+Country's economic condition in 12 months time
+Overall direction of the country
+C_02 Personal Economic Conditions
+Your present living conditions
+Your living conditions vs. others
+Your living conditions compared to 12 months ago
+Your living conditions in 12 months time
+How often gone without food
+How often gone without water
+How often gone without medical care
+How often gone without cooking fuel
+How often gone without a cash income
+Location of toilet or latrine
+Source of water for household use
+Own radio
+Own television
+Own motor vehicle, car or motorcycle
+Type of shelter of respondent
+Roof of respondent's home
+D Democracy and politics
+D_01 Rights and Freedoms
+Freedom to say what you think
+Freedom to join any political organizations
+Freedom to choose who to vote for
+How often careful what you say
+How likely powerful find out your vote
+Government bans organizations vs. join any
+Newspapers free to publish vs. government closes
+D_02 Demand for Democracy
+Reject one-party rule
+Reject military rule
+Reject one-man rule
+Support for democracy
+Choose leaders through elections vs. other methods
+Political parties divisive vs. many parties needed
+Violence never justified vs. sometimes necessary
+Presidential two term limit vs. no term limits
+Level of democracy: in the future
+Government like a parent vs. an employee
+Government gets things done but no citizen influence vs Govt. accountable to citizens
+D_03 Supply of Democracy
+Extent of democracy
+Satisfaction with democracy
+How often news media abuse its freedom
+How often party competition leads to conflict
+How often president ignores laws
+How often opposition parties silenced by government
+How often president ignore parliament
+Level of democracy: today
+Freeness and fairness of the last national election
+Election incentives offered
+D_04 Meaning of Democracy
+Essential characteristics of democracy: equality, fair election, etc.
+Essential characteristics of democracy: law and order, job, etc
+Essential characteristics of democracy: legislature, government, people, etc.
+Essential characteristics of democracy: participation, no corruption, courts
+Level of democracy: ten years ago
+Level of democracy: under previous non-democratic regime
+Level of democracy: China
+Level of democracy: USA
+Level of democracy: Zimbabwe
+Level of democracy: former Colonial Power
+D_05 System Legitimacy
+Courts make binding decisions
+People must obey the law
+People must pay taxes
+Obey government always vs. only if vote for it
+D_07 Horizontal Accountability
+Parliament makes laws vs. president does
+President free to act vs. obey the laws and courts
+President monitored by parliament vs. free to act on own
+Opposition parties examine government vs. cooperate
+Media checks government vs. avoid negative reporting
+How effective the news media reveals government mistakes and corruption
+Leaders help own community vs. treat all equally
+F Institutions and leaders
+F_01 President/Presidency
+Performance: President
+Trust president
+Trust Prime Minister
+Corruption: office of the Presidency
+F_02 MPs/Parliament/National Assembly
+Performance: MP/National Assembly rep.
+Trust parliament/national assembly
+Corruption: Members of Parliament
+MPs listen
+F_03 Local Government Council/Councilors
+Performance: local government councilor
+Trust your elected local government council
+Corruption: local government councilors
+Local government councilors listen
+F_05 Courts and Security
+Trust police
+Trust army
+Trust courts of law
+Corruption: police
+Corruption: judges and magistrates
+F_06 Trust - Others
+Trust national electoral commission
+Trust the ruling party
+How much do you trust the trust tax department?
+Trust opposition political parties
+F_07 Corruption - others
+Corruption: government officials
+Corruption: tax officials
+G Participation-Civic engagement
+G_01 Political Engagement
+G_01_01 How often do you get news from the following sources
+Interest in public affairs
+Discuss politics
+G_02 Political Efficacy and Accountability
+Who responsible: MPs do jobs
+Who responsible: local councilors do jobs
+Who responsible: president does job
+G_03 Membership
+Member of religious group
+Member of voluntary association or community group
+Importance of Religion
+G_04 Civil Action
+Attend a community meeting
+Join others to raise an issue
+Attend a demonstration or protest march
+Refused to pay tax or fee to government
+Used force or violence for a political cause
+Voting in the most recent national election
+Last national election: attend a campaign meeting or rally
+Last national election: persuade others to vote for a certain candidate or party
+Last national election: work for a candidate or party
+G_05 Contacting
+Contact local government councillor
+Contact MP
+Contact official of a government agency
+Contact political party official
+H Government services and performance policy preferences
+H_01 Central Government Performance
+Handling managing the economy
+Handling improving living standards of the poor
+Handling creating jobs
+Handling keeping prices down
+Handling narrowing income gaps
+Handling reducing crime
+Handling improving basic health services
+Handling addressing educational needs
+Handling providing water and sanitation services
+Handling ensuring enough to eat
+Handling fighting corruption
+Handling resolving violent conflict between communities
+Handling combatting HIV/AIDS
+Handling maintaining roads and bridges
+Handling providing reliable electric supply
+Handling empowering women
+Most important problems - 1st response
+Most important problems - 2nd response
+Most important problems - 3rd response
+How likely government will solve this problem within the next five years
+H_02 Local Government Performance
+Local govt. handling maintaining roads
+Local govt. handling maintaining local markets
+Local govt. handling health standards in restaurants
+Local govt. handling keeping community clean
+Local govt. handling the use of land
+J Citizenship and identity
+J_01 Group identity
+Tribe or ethnic group
+Ethnic group treated unfairly
+Ethnic or national identity
+Proud of nationality
+J_02 Citizenship
+Right to be citizen: born in country with one non-citizen parent
+Right to be citizen: born in country with two non-citizen parents
+Right to be citizen: wife of citizen husband
+Right to be citizen: husband of citizen wife
+Right to be citizen: lived and worked in country
+Right to be citizen: hold dual citizenship
+J_03 Political Affiliation
+Close to political party
+Which party
+Vote for which party
+How often avoid paying taxes
+K Equality and gender
+How often people treated unequally
+How often women treated unequally by traditional leaders
+How often women treated unequally by police and courts
+How often women treated unequally by employers
+How often officials unpunished
+How often ordinary people unpunished
+Men only as leaders vs. women leaders ok
+Women have equal rights vs. subject to traditional laws
+Education recipient priority: boy vs ability
+L Taxation
+Citizens must pay taxes vs. no need to tax the people
+Higher taxes with more govt services vs. lower taxes with fewer govt services
+Difficulty to find out what taxes or fees to pay
+Difficulty to find out how government uses the revenues
+Difficulty to avoid paying taxes
+Right or wrong: not paying for the government services
+Right or wrong: not paying the taxes
+Why avoid paying taxes
+Payments required: general sales tax
+Payments made: license fees to local government
+Payments made: property rates or taxes
+Payments made: income taxes
+Payments required: self-employer taxes
+M Crime and security
+Payments required to powerful people
+How much fear political intimidation or violence
+How often felt unsafe walking in neighbourhood
+How often feared crime in home
+Had something stolen from house
+Have been physically attacked
+Reported the incident to the police
+Main reason for not reporting crimes to the police
+If a victim of crime, whom to go to first for assistance
+N Public services
+N_04 Access to public services
+Difficulty to obtain identity document
+Difficulty to obtain household services
+Difficulty to obtain help from the police
+Difficulty to obtain primary school placement
+Difficulty to obtain medical treatment
+N_05 Quality of Public Services
+Problems with schools: too expensive
+Problems with schools: textbooks and supplies
+Problems with schools: poor teaching
+Problems with schools: absent teachers
+Problems with schools: overcrowded classrooms
+Problems with schools: poor facilities
+Problems with public clinic: too expensive
+Problems with public clinic: lack of medicine/supplies
+Problems with public clinic: lack of attention/ respect
+Problems with public clinic: absent doctors
+Problems with public clinic: long waiting time
+Problems with public clinic: dirty facilities
+N_07 Corruption in public services
+Pay bribe for: document or permit
+Pay bribe for: water or sanitation services
+Pay bribe for: avoid problem with police
+Pay bribe for: school placement
+Pay bribe for: treatment at local health clinic or hospital
+How often obtain household services without paying
+Politics and government too complicated
+Received free visits or medicines
+Received food for children
+Received pension or grant
+O Other
+O_01 Social Capital
+Most people can be trusted
+Trust relatives
+Trust neighbours
+Trust other people you know
+O_02 Cosmopolitanism
+How often use a computer
+How often use the internet
+Usage and ownership of mobile phone
+How often use a cell phone
+How often send or receive a text message
+How often send or receive money
+How many mobile phones in household
+P MENA issues
+Reject Islamic law system without elections or political parties
+Democracy is system that contradicts teachings of Islam
+In Muslim country, non-Muslims should enjoy less political rights
+Religious leaders should not interfere in voters’ decisions
+Country is better off if religious people hold public positions
+Under democratic system, country’s economic performance is weak
+Democratic regimes are indecisive
+Democratic systems not effective at maintaining order
+[Country nationals] not prepared for a democratic system
+Democracy negatively affects social and ethical values
+Level of democracy: Iran
+Level of democracy: Turkey
+Level of democracy: Saudi Arabia
+Level of democracy: Israel
+Women and men should have equal work opportunities
+A woman can become prime minister or president of Muslim state
+Women’s share of inheritance should be equal to that of men
+Women and men should have equal rights in decision to divorce
+Use phone/computer to: identify political activities
+Use phone/computer to: express your political opinions
+Use phone/computer to: learn about opposing political opinions
+Main occupation
+How often religious group treated unfairly
+Choose religious or national identity
+Z_BDI Burundi
+Z_BEN Benin
+Z_BOT Botswana
+Z_GHA Ghana
+Z_LES Lesotho
+Z_MAU Mauritius
+Z_MLW Malawi
+Z_NAM Namibia
+Handling managing immigration (South-Africa)
+Z_SAF_91 SAF Specific
+Municipality Code
+Type of Town/Village
+Z_TAN Tanzania
+Z_TOG Togo

@@ -1,0 +1,328 @@
+A Socio-Demographics
+A_1 General
+Gender of respondent
+Race of respondent
+Age of respondent
+Language of respondent
+Number of languages
+Education of respondent
+Religion of respondent
+Importance of religion
+Head of household
+A_2 Group Identity
+Tribe or ethnic group
+Ethnic group's economic conditions
+Ethnic group's political influence
+Ethnic group treated unfairly
+Ethnic or national identity
+B Sample
+B_1 Location
+Country
+Urban or Rural Primary Sampling Unit
+Province or region
+B_2 Local Services
+Electricity grid in the PSU/EA
+Piped water system in the PSU/EA
+Sewage system in the PSU/EA
+Cell phone service in the PSU/EA
+Post office in the PSU/EA
+School in the PSU/EA
+Police station in the PSU/EA
+Health Clinic in the PSU/EA
+EA-FAC-E. Market stalls in the PSU/EA
+Any policemen or police vehicles in the PSU/EA
+Soldiers/army in the PSU/EA
+Tarred/ paved road
+B_3 Household Selection
+Reason for Unsuccessful Call Household 1
+Reason for Unsuccessful Call Household 2
+Reason for Unsuccessful Call Household 3
+Reason for Unsuccessful Call Household 4
+Reason for Unsuccessful Call Household 5
+Reason for Unsuccessful Call Household 6
+Reason for Unsuccessful Call Household 7
+B_4 Household Characteristics
+Number of adult women/men in household
+C Interview conditions
+C_1 Interview Conditions
+Language of interview
+Others present
+Check with others
+Influence by others
+Approached by community/party representatives
+Feel threatened
+Physically threatened
+Proportion difficulty answering
+C_2 Respondent Attitude
+Respondent friendly
+Respondent interested
+Respondent cooperative
+Respondent patient
+Respondent at ease
+Respondent honest
+Perceived survey sponsor
+C_3 Interviewer Info
+Interviewer's age
+Interviewer's gender
+Interviewer rural or urban
+Interviewer's home language
+Interviewer's education
+D Economy
+D_1 National Economic Conditions
+Country's present economic condition
+Country's economic condition compared to 12 months ago
+Country's economic condition in 12 months time
+D_2 Personal Economic Conditions
+Your present living conditions
+Your living conditions vs others
+Your living conditions compared to 12 months ago
+Your living conditions in 12 months time
+How often gone without food
+How often gone without water
+How often gone without medical care
+How often gone without cooking fuel
+How often gone without cash income
+Source of water for household use
+Pay for water
+Employment status
+Own radio
+Own television
+Own motor vehicle, car or motorcycle
+D_3 Economic Attitudes
+Abandon economic reforms vs accept hardships
+Economic policies helped most vs hurt most
+E Democracy and politics
+E_1 Rights and Freedoms
+Freedom to say what you think
+Freedom to join any political organizations
+Freedom to choose who to vote for
+How often careful what you say
+How much fear political intimidation or violence
+How likely powerful find out your vote
+How likely punished for making complaints
+Government bans organizations vs join any
+Government close newspapers vs free to publish
+Govt suppress expression vs people speak minds
+E_2 Demand for Democracy
+Reject one-party rule
+Reject military rule
+Reject one-man rule
+Support for democracy
+Choose leaders through elections vs other methods
+Political parties divisive vs many parties needed
+Parliament makes laws vs president does
+President free to act vs obey the laws and courts
+Presidential two term limit vs no term limits
+Time to deal with problems vs try another form
+E_3 Supply of Democracy
+Extent of democracy
+Satisfaction with democracy
+Elections free and fair
+How often party competition leads to conflict
+How often president ignores laws
+How often people treated unequally
+How often officials unpunished
+How often ordinary people unpunished
+E_4 Meaning of Democracy
+Extent of democracy: Vignette A
+Extent of democracy: Vignette B
+Extent of democracy: Vignette C
+E_5 Election Efficacy
+Elections ensure parliament reflects voters
+Elections enable voters to remove leaders
+E_6 System Legitimacy
+Courts make binding decisions
+People must obey the law
+People must pay taxes
+E_7 Other Political Attitudes
+Question actions of leaders vs respect authority
+Leaders treat all equally vs help own community
+Government like a parent vs an employee
+President monitored by parliament vs free to act on own
+Opposition parties examine government vs cooperate
+Media checks government vs avoid negative reporting
+F Policy preferences
+F_1 National Priorities
+Most important national priority
+Second most important national priority
+F_2 Most Important Problems
+Most important problems - 1st response
+Most important problems - 2nd response
+Most important problems - 3rd response
+G Institutions and leaders
+G_1 President/Presidency
+Performance: President
+Trust president
+Corruption: office of the Presidency
+G_2 MPs/Parliament/National Assembly
+Performance: MP/National Assembly rep
+Trust parliament/national assembly
+Corruption: Members of Parliament
+MPs listen
+Most important responsibility of MP
+Time MPs should spend
+Time MP does spend
+MPs benefit local community vs whole country
+G_3 Local Government Council/Councilors
+Performance: local government councilor
+Trust your elected local government council
+Corruption: local government councilors
+Local government councilors listen
+Local councilor qualifications: education
+Local councilor qualifications: care about community
+Local councilor qualifications: experience managing
+Local councilor qualifications: honesty handling funds
+G_4 Traditional Leaders
+Trust traditional leaders
+Corruption: traditional leaders
+Traditional leaders listen
+Traditional leaders influence governing local community
+Traditional leaders more or less influence
+Traditional leaders sit on local government council
+Traditional leaders non-partisan vs allow party affiliation
+Traditional leaders independent of government vs. Receive salary
+G_5 Courts and Security
+Trust police
+Trust courts of law
+Corruption: police
+Corruption: judges and magistrates
+G_6 Trust - Others
+Trust national electoral commission
+Trust the ruling party
+Trust opposition political parties
+G_7 Corruption - Others
+Corruption: government officials
+Corruption: tax officials
+H Participation-Civic engagement
+H_1 Political Engagement
+Radio news
+Television news
+Newspaper news
+Interest in public affairs
+Discuss politics
+Identify MP
+Identify Minister of Finance
+H_2 Political Efficacy and Accountability
+How much ordinay person can do to solve local problems
+Who responsible: MPs do jobs
+Who responsible: local councilors do jobs
+Who responsible: president does job
+Voice heard between elections
+Make MPs listen
+Make local government councilors listen
+H_3 Membership
+Member of religious group
+Member of voluntary association or community group
+Close to political party
+Which party
+H_4 Civic Action
+Attend a community meeting
+Join others to raise an issue
+Attend a demonstration or protest march
+Voted last election
+Any problems with how local gov't is run in the past year
+How often: discuss with others
+How often: join others to respond
+How often: discuss with community leaders
+How often: write newspaper letter or call radio show
+How often: make complaint to local government officials
+How often: make complaint to other government officials
+H_5 Contacting
+Contact local government councillor
+Contact MP
+Contact official of a government agency
+Contact formal leader alone or with group
+Contact formal leader: community or personal problem
+Contact religious leader
+Contact traditional ruler
+Contact some other influential person
+Contact informal leader alone or with group
+Contact informal leader: community or personal problem
+H_6 Tax Payment
+Payments made: fees for government service
+Payments made: licence fees to local government
+Payments made: property rates or taxes
+Payments made: public utility fees
+Payments made: income taxes
+H_7 Bribing
+Pay bribe for: document or permit
+Pay bribe for: water or sanitation services
+Pay bribe for: avoid problem with police
+I Government performance
+I_1 Distribution of Responsibilities
+Primary responsibility: keeping the community clean
+Primary responsibility: managing schools
+Primary responsibility: managing health clinics
+Primary responsibility: collecting income taxes
+Primary responsibility: solving local disputes
+Primary responsibility: allocating land
+Primary responsibility: protecting rivers and forests
+Primary responsibility: maintaining law and order
+I_2 Central Government Performance
+Handling managing the economy
+Handling improving living standards of the poor
+Handling creating jobs
+Handling keeping prices down
+Handling narrowing income gaps
+Handling reducing crime
+Handling improving basic health services
+Handling addressing educational needs
+Handling providing water and sanitation services
+Handling ensuring enough to eat
+Handling fighting corruption
+Handling combatting HIV/AIDS
+Handling maintaining roads and bridges
+Handling providing reliable electric supply
+Handling protecting rivers and forests
+Handling empowering women
+I_3 Local Government Performance
+Local govt handling maintaining roads
+Local govt handling maintaining local markets
+Local govt. handling health standards in restaurants
+Local govt handling keeping community clean
+Local govt handling collecting license fees
+Local govt handling collecting rates on private houses
+How well local council making work known
+How well local council providing budget information
+How well local council allowing citizen participation
+How well local council consulting others
+How well local council handling complaints
+How well local council using government revenues
+J International attitudes
+J_1 External Benefactors
+How much help country: African Union
+How much help country: ECOWAS
+How much help country: United Nations
+How much help country: international donors/NGOs
+How much help country: International business/investors
+How much help country: Nigeria
+How much help country: South Africa
+How much help country: China
+How much help country: United States
+How much help country: Former colonial power:Britain, France, or Portugal
+How much help country: EU
+J_2 External Influence
+NEPAD/APRM useful initiate vs empty one
+Influence of International donors and NGOs
+Influence of international businesses and investors
+Influence of civic organizations and NGOs
+K Other
+K_1 Personal Security
+How often feared crime in home
+How often something stolen from house
+How often physically attacked
+K_2 Social Capital
+Trust relatives
+Trust other people you know
+Trust other [Nationality]
+K_3 Cosmopolitanism
+How often receive remittances
+How often use a cell phone
+How often use a computer
+How often use the internet
+How often travel 10 km or more
+K_4 HIV/AIDS
+Know died of AIDS
+How many died of AIDS
+K_5 Political Affiliation
+Vote for which party

@@ -1,0 +1,1097 @@
+﻿A Socio-demographics & sample characteristics
+A_01 General
+Gender of respondent
+Race of respondent
+Age
+Respondent's mother tongue
+Language spoken in home
+Education of respondent
+Education condensed
+Religion of respondent
+Occupation of respondent
+Employer of respondent
+Head of household
+Occupation of head of household
+Employment status
+A_02 Household characteristics
+Number of adults in household
+A_03 Location characteristics
+A_03_01 Location
+Urban or rural primary sampling unit
+Province or region
+A_03_02 Local services
+Electricity grid in the PSU/EA
+Piped water system in the PSU/EA
+Sewage system in the PSU/EA
+Cell phone service in the PSU/EA
+Post office in the PSU/EA
+School in the PSU/EA
+Police station in the PSU/EA
+Health Clinic in the PSU/EA
+Market stalls in the PSU/EA
+Bank in the PSU/EA
+EA-FAC-G. Paid transport in the PSU/EA
+Any policemen or police vehicles in the PSU/EA
+Soldiers/army in the PSU/EA
+Roadblocks by police/army in the PSU/EA
+Customs checkpoints in the PSU/EA
+Roadblocks by private security/local community in the PSU/EA
+Road surface at start point
+Road surface last 5 km
+Road condition last 5 km
+B Interview conditions
+B_01 Interview conditions
+Date of interview
+Language of interview
+Others present
+Check with others
+Influence by others
+Approached by community/party representatives
+Feel threatened
+Physically threatened
+Proportion difficulty answering
+B_02 Respondent attitude
+Respondent friendly
+Respondent interested
+Respondent cooperative
+Respondent patient
+Respondent at ease
+Respondent honest
+Perceived survey sponsor
+B_03 Interviewer info
+Interviewer’s age
+Interviewer’s gender
+Interviewer rural or urban
+Interviewer's home language
+Interviewer's education
+Interviewer's tribe or ethnic group
+C Economy
+C_01 National economic conditions
+Country’s present economic condition
+Country’s economic condition compared to 12 months ago
+Country’s economic condition in 12 months’ time
+Overall direction of the country
+C_02 Personal economic conditions
+Your present living conditions
+Your living conditions vs. others
+How often gone without food
+How often gone without water
+How often gone without medical care
+How often gone without cooking fuel
+How often gone without cash income
+LPI_Categorical - Living Poverty Index
+Location of toilet or latrine
+Source of water for household use
+Own radio
+Own television
+Own motor vehicle, car or motorcycle
+Own computer
+Own bank account
+Type of shelter of respondent
+Roof of respondent’s home
+How dependent on receiving remittances
+Electric connection from mains
+Frequency going without basic necessities
+Who decides how money is used
+D Democracy and politics
+D_01 Rights and freedoms
+Freedom to say what you think
+Better or worse: freedom to say what you think
+Better or worse: freedom to join political organizations
+Better or worse: equal opportunities and treatment for women
+How often careful what you say
+Better or worse: media freedom to investigate, report
+Government bans organizations vs. join any
+Better or worse: freedom of NGOs/groups to speak, act
+Free to move when public security threatened vs impose curfews
+Better or worse: freedom of opposition to function
+Government should monitor private communication vs right to privacy
+Newspapers free to publish vs. government control
+Absolute freedom of religion vs government regulates what is said
+Country governed by religious law vs secular law
+D_02 Demand for democracy
+DemandDemo - Demand for Democracy (additive index of 4 democratic commitments)
+Reject one-party rule
+Reject military rule
+Reject one-man rule
+Support for democracy
+Choose leaders through elections vs. other methods
+Political parties divisive vs. many parties needed
+Presidential two term limit vs. no term limits
+Govt gets things done vs. Govt accountable to citizens
+D_03 Supply of democracy
+Supply of Democracy (additive index of 2 items)
+Extent of democracy
+Satisfaction with democracy
+How often party competition leads to conflict
+How often president ignores laws
+How often president ignores parliament
+Freeness and fairness of the last national election
+Elections: opposition prevented from running
+Better or worse: government effectiveness on education
+Armed forces protect from security threats
+Better or worse: get assistance from police
+Armed forces get necessary resources
+Better or worse: government assists people to resolve problems
+Armed forces are professional and respectful to citizens
+Better or worse: MPs listen
+D_04 Meaning of democracy
+D_05 System legitimacy
+Courts make binding decisions
+People must obey the law
+Obey government always vs. only if vote for it
+D_07 Horizontal accountability
+President free to act vs. obey the laws and courts
+President monitored by parliament vs. free to act on own
+E Institutions and leaders
+E_01 President/Presidency
+Trust president
+Performance: President
+E_02 MPs/Parliament/National assembly
+Trust parliament/national assembly
+MPs listen
+Performance: MP/National Assembly rep
+E_03 Local government council/Councilors
+Trust your elected local government council
+Trust traditional leaders
+Local government councillors listen
+Performance: local government councillor
+Performance: traditional leader
+Performance: your Mayor
+Access local government development plan and budget
+E_04 Courts and security
+Trust police
+Trust army
+Trust courts of law
+E_05 Trust - others
+Trust national electoral commission
+Trust the ruling party
+Trust opposition political parties
+Trust religious leaders
+F Participation-civic engagement
+F_01 Political engagement
+F_01_01 How often do you get news from the following sources
+Radio news
+Television news
+Newspaper news
+Internet
+Social media
+Discuss politics
+F_02 Membership
+Member of religious group
+Member of voluntary association or community group
+F_03 Civil action
+Attend a community meeting
+Join others to raise an issue
+Attend a demonstration or protest march
+Voting in the most recent national election
+Last national election: attend a campaign rally
+Last national election: work for a candidate or party
+How often careful how vote
+Get correct amount when buying grain
+F_04 Contacting
+Contact local government councillor
+Contact MP
+Contact official of a government agency
+Contact political party official
+Contact religious leader
+Contact traditional leader
+Contact media
+Contact official for help
+Neighbours: people of different religion
+Neighbours: people of different ethnicity
+Neighbours: homosexuals
+Neighbours: immigrants and foreign workers
+Access school budget
+Access land ownership
+Contact with police in other situations
+Access business registration information
+Requested police assistance
+Contact with public school
+Contact with public clinic or hospital
+F_06 Trust - others
+G Government services and performance policy preferences
+G_01 Central government performance
+Handling managing the economy
+Handling improving living standards of the poor
+Handling creating jobs
+Handling keeping prices stable
+Handling narrowing income gaps
+Handling reducing crime
+Handling improving basic health services
+Handling addressing educational needs
+Handling providing water and sanitation services
+Handling ensuring enough to eat
+Handling fighting corruption
+Handling maintaining roads and bridges
+Handling providing reliable electric supply
+Handling preventing election violence
+Handling preventing or resolving violent community conflict
+Handling countering violence from armed extremists
+Handling promoting equal rights/opportunities for women
+Handling addressing needs of youth
+Handling protecting rights, promoting opportunities for disabled
+Government information for official use only
+G_02 Local government performance
+G_03 Quality of public services
+Difficulty to obtain identity document
+Difficulty to obtain household services
+Difficulty to obtain help from the police
+Difficulty to obtain public school services
+Difficulty to obtain medical treatment
+Tried to obtain identity document
+Time taken to obtain document
+Time taken to receive police assistance
+Tried to obtain household services
+Most important problems
+Who responsible: MPs do jobs
+Who responsible: local councillors do jobs
+Who responsible: president does job
+Respected by public officials
+Treatment by public officials compared to others
+Time taken to receive medical care
+Better or worse: access to medical care
+J Citizenship and identity
+J_01 Group identity
+Tribe or ethnic group
+Ethnic group treated unfairly
+Ethnic or national identity
+J_03 Political affiliation
+Close to political party
+Which party
+Vote for which party
+How often careful which organisations joined
+J_04 Citizenship
+Join others to request government action
+K Equality and gender
+How often people treated unequally
+How often officials unpunished
+How often ordinary people unpunished
+Men only as leaders vs. women leaders
+Men have more right to job
+Women have equal right to land
+Better if woman takes care of household
+Experienced discrimination based on gender
+Experienced discrimination based on religion
+Experienced discrimination based on ethnicity
+Experienced discrimination based on disability
+Girls and boys have equal chance at education
+Women and men have equal chance to earn income
+Women and men have equal chance of paying job
+Women and men have equal chance to own/inherit land
+Justified for men to beat their wives
+Justified for parents to physically discipline children
+L Taxation
+People must pay taxes
+Refuse to pay tax or fee to government
+Ordinary person: pay bribe to avoid taxes
+Rich person: pay bribe to avoid taxes
+M Crime and security
+How much fear political intimidation or violence
+How often felt unsafe walking in neighbourhood
+How often feared crime in home
+Had something stolen from house
+Have been physically attacked
+Feared violence in neighbourhood
+Feared violence at political event
+Likelihood of response: reporting crime
+Feared violence during public protest
+Feared violence by extremists
+Better or worse: personal safety
+Likelihood of response: reporting teacher misconduct
+N Corruption
+Corruption: government officials
+Corruption: local government councillors
+Corruption: traditional leaders
+Corruption: religious leaders
+Corruption: business executives
+Level of corruption
+Corruption: office of the Presidency
+Corruption: Members of Parliament
+Corruption: police
+Corruption: judges and magistrates
+Corruption: non-governmental organisations
+Pay bribe for treatment at public clinic or hospital
+Pay bribe for school services
+Pay bribe for document or permit
+Pay bribe for water or sanitation services
+Pay bribe to receive police assistance
+Pay bribe to avoid problem with police
+Ordinary people can fight corruption
+Ordinary people can report corruption without fear
+Ordinary person: pay bribe to avoid going to court
+Ordinary person: pay bribe to register land not theirs
+Rich person: pay bribe to avoid going to court
+Rich person: pay bribe to register land not theirs
+Likelihood of response: reporting corruption
+O International relations
+Difficulty to move across borders
+Lived outside country
+Considered emigration to other country
+Planned emigration to other country
+Most likely country for emigration
+Most important reason for emigrating
+X Other
+X_01 Use of technology
+Own mobile phone
+Mobile phone access to internet
+How often use a mobile phone
+How often use the internet
+Y Climate
+Climate conditions compared to ten years ago
+Severity of droughts
+Severity of flooding
+Heard about climate change
+Climage change: meaning
+Climate change: main cause
+Climate change: affecting country
+Climate change needs to be stopped? By ordinary people?
+Z Country specific
+Z_BEN Benin
+Responsible for poor results: Baccalaureate
+Attend a public meeting organised by the local council
+Attend a public accounts meeting of the local council
+Contact civil society leader
+Trust civil society organisations
+Handling improving prison conditions
+Handling fight against child marriage
+Handling fight against counterfeit medicines
+Interventions to tackle youth unemployment
+Free schools vs. better to pay for better quality education
+Free primary education helps enrolment
+Free schooling promotes girls education
+Free education at university level
+Responsible for poor results: CEP
+Responsible for poor results: BEPC
+Child marriage allowed vs. banned
+The constitution should be revised to establish a single mandate
+Z_BOT Botswana
+Allow automatic secession of Vice President to Presidency
+Allow direct election of president
+Opposition presents a viable alternative vision/plan
+Law must require senior govt officers to declare assets
+Law must require president to answer to parliament
+State should provide party funding based on electoral performance
+Judges should be appointed by an independent body
+Privatize BOTswana Meat Commission
+Privatize Air BOTswana
+Privatize BOTswana Power Corporation
+Privatize BOTswana Railways
+IEC must determine national/local electoral dates
+MPs who resign from party should vacate seat
+Level of public consultation on electronic voting machines
+Satisfaction with reasons for electronic voting machines
+Parents who can afford private education should pay for tertiary education
+Agricultural subsidies offered on needs-based criteria
+Z_BUR Burkina Faso
+Necessary to know the truth about 2014 uprising vs best to forget
+Pardon those involved in 2014 uprising vs hold them accountable
+Opposition parties participated in uprising must help ruling party govern vs provide an alternative
+Best option for reconciliation and peace in Burkina Faso
+The death penalty is a good deterrent against crime
+Retain the death penalty for violent crimes
+No crime for which the death penalty can be justified
+Adoption of a new Constitution good for country
+Commune mayors should be directly elected
+Burkinabes living abroad allowed vote in our elections even if expensive
+Local security associations are good for the security of our country
+Foreign troops have positive impact on security of country
+Compaoré allowed to return to Burkina without fear of imprisonment
+No difference between Compaoré's and Kaboré's regime
+Strikes by public officials undermine the smooth running of the country
+Peaceful coexistence of religions is eroding in Burkina Faso
+Z_CAM Cameroon
+Confiance en la gendarmerie
+Confiance en le Senat
+Corruption des les Douaniers
+Corruption des les fonctionnaires du MINDCAF
+Corruption des les employés de la CAMWATER ou CDE
+Corruption des les employés de ENEO
+Cause principale de la crise dans la partie anglophone
+Le gouvernement camerounais efficace dans la résolution de la crise anglophone
+Obtenir des services du cadastre et du bureau des terres
+Difficulté à obtenir les services dont vous aviez besoin du Cadastre‎
+Combien de temps après avez-vous obtenu le service dont vous aviez besoin de la part du bureau du Cadastre
+Combien de fois avez-vous dû verser des pots-de-vin à un agent du bureau du Cadastre
+Obtenir des services auprès de la Direction Générale des Douanes
+Difficulté à obtenir les services dont vous aviez besoin
+Combien de temps après avez-vous obtenu le service dont vous aviez besoin de la part du bureau de la douane
+Combien de fois avez-vous dû verser des pots-de-vin à un agent des douanes
+Z_CAP Cape Verde
+Agree or disagree: Regionalization is important so the government of Cape Verde should prioritize it above other needs of the country
+Effects of implementation of the proposed regionalization of Cape Verde_1st response
+Effects of implementation of the proposed regionalization of Cape Verde_2nd response
+Agree or disagree: Voting should be made compulsory for eligible adults
+Agree or disagree: Voter turnout will improve if political office holders are more accountable
+Agree or disagree: Voter turnout will improve if citizens are educated on their rights and responsibilities as voters
+Prime Minister who governs and a President with limited power vs. Preferred to have a system where the President is directly responsible
+Approve or disapprove: government decision to make travel visa-free for EU passport holders will boost tourism to Cape Verde
+Effects of the visa-free travel for EU passport holders_1st response
+Effects of the visa-free travel for EU passport holders_2nd response
+Z_COT Côte d'Ivoire
+TV channels
+Radio stations - 1st response
+Radio stations - 2nd response
+Free to criticise: Your local councillor
+Free to criticise: Your Member of the National Assembly
+Free to criticise: Your traditional leader
+Free to criticise: Civil servants
+Free to criticise: Police
+Free to criticise: Army
+Free to criticise: President Alassane Dramane Ouattara
+Know about new constitution
+New Constitution: creation of an institution of traditional leaders
+New Constitution: independece of executive, legislative and judiciary
+New Constitution: abolition of age limit and health report for eligibility to the Presidency
+Reasons for not paying taxes
+Only vote vs. also participate in national and community affairs between elections
+Child marriage allowed vs. banned
+Z_GAB Gabon
+Reasons citizens do not consult a doctor
+Religious leaders have the right to publicly express their political views vs. They should avoid getting involved in politics
+Traditional leaders have the right to publicly express their political views vs. They should avoid getting involved in politics
+Teachers / unions should not be allowed to organize strikes vs. They have the right to demand the increase of wages / decent working conditions
+Foreign institutions have the right to question election results in Gabon
+France has the right to support the political leaders it wants to see in power in Gabon
+Likelihood: Improvements to the electoral process
+Likelihood: Transformation of institutions involved in the organization of elections
+Likelihood: Ending violence after each election
+Likelihood: Redistribution of electoral districts
+Z_GAM Gambia
+Better or worse: own freedom to participate in decision-making at the local level
+Trust the Truth, Reconciliation and Reparations Commission
+Trust Constitutional Review Commission
+Current government handling problem
+Better or worse: ability of the security services to respond to security problems
+Irregular migration
+Internal rural to urban migration
+Pollution compared to a year ago
+Help your country: ECOWAS
+Help your country: African Union
+Help your country: African Development Bank
+Help your country: The World Bank
+Projects of African Development Bank in: Your community
+Projects of African Development Bank in: Your District
+Projects of African Development Bank in: Your Country
+Suffer: Torture, rape and other brutalities by agents of the state
+Suffer: Disappearance after arrest by security agencies of the state
+Suffer: Arbitrary arrest or detention without trial
+Suffer: Wrongful dismissal from a state institution where one works
+Suffer: State-sponsored murder
+Suffer: Destruction or confiscation of properties or assets by the state
+Suffer: Intimidation and harassment by agents of the state
+First expectation: the Truth, Reconciliation and Reparations Commission
+Second expectation: the Truth, Reconciliation and Reparations Commission
+Agree or disagree: Perpetrators during Jammeh’s regime should be tried in court
+Agree or disagree: Demand the extradition of Jammeh
+Agree or disagree: Cooperate with the government of Ghana to find truth of Ghanaian migrants killed
+Agree or disagree: New constitution should introduce two five-year presidential term limit
+Agree or disagree: New constitution should stipulate that presidential candidates should get majority vote
+Agree or disagree: New constitution should include quota system for women representation in the National Assembly
+Agree or disagree: New constitution should prohibit presidents from removing IEC commissioners from office
+Agree or disagree: New constitution should make it mandatory for National Assembly to vet/approve ministerial nominees
+Agree or disagree: ECOMIG must leave and the
+Provincial Governors elected by voters in the provinces vs. The President should continue to appoint
+Education of respondent's father
+Education of respondent's mother
+Z_GHA Ghana
+Been attacked or murdered by armed robbers
+Presidential candidate voted in most recent national election
+Main reason for the choice of presidential candidate
+Trust your Metropolitan, Municipal or District Chief Executive
+Trust information from government sources
+Trust information from public media institutions
+Trust information from private media institutions
+Trust information from Social Media
+Corruption: Officials of the Electoral Commission (EC)
+Corruption: Your Metropolitan, Municipal or District Chief Executive
+Corruption: Media persons from public media institutions
+Corruption: Media persons from private media institutions
+Confident government with adress most importnat problem in 4-year tenure in office
+Handling fighting illegal mining or ‘galamsey’
+Handling illegal activities of political party vigilante groups
+M/DCEs should be elected by voters vs. elected by the President
+Electoral procedure for electing M/DCEs
+District assembly election for assembly is non-partisan
+Government should devote enough funds toward investigating and punishing corrupt officials
+Governments swift in investigating and punishing corrupt officials who belong to opposition parties compared to those affiliated to the ruling party
+Most appropriate form of punishment for corrupt individuals
+Members of a political party vigilante group attack government appointees
+Members of a political party vigilante group lock up government offices
+Members of a political party vigilante group take over and destroy state properties
+Government must prosecute and punish vigilante groups that engage in acts of lawlessness irrespective of their party affiliation
+Sometimes acceptable for citizens to administer instant justice vs. Citizens should always rely on police
+Citizens should be able to engage in illegal small-scale mining vs. Citizens should not engage in it for any reason
+Government should be responsible for providing alternative livelihoods for those who are engaged in illegal small-scale mining
+Z_GUI Guinea
+Radio station preference for national news
+Free education for all vs. better education
+Main causes of education system problems in Guinea
+Experience health center or public hospital: Too expensive
+Experience health center or public hospital: Lack of medication
+Experience health center or public hospital: Lack of attention
+Experience health center or public hospital: Absent doctors
+Experience health center or public hospital: Long wait
+Experience health center or public hospital: Poor infrastructure
+Electoral change: Allow independent candidates in national and local elections
+Electoral change: 30% minimum quota of female candidates in political parties
+Electoral change: Election neighborhoods / districts
+Z_KEN Kenya
+Better or worse: freedom to form organisation
+Trust county governor
+Trust media
+Corruption: office of the Governor
+Corruption: Kenya Defense Force (KDF)
+Likelihood of response: reporting missing name on voter register
+Feared violence in public space
+Prefer religious law, secular law or both
+Lived outside country (multiple-answer)
+Lived outside country, no
+Lived outside country, Uganda
+Lived outside country, another East African country
+Lived outside country, elsewhere in Africa
+Lived outside country, outside Africa
+Lived outside country, don’t know
+Lived outside country, refused to answer
+Most desired country for emigration
+Climate change: affecting you
+Government invest in infrastructure vs not incur debt
+Girls and boys have equal chance at primary education
+Girls and boys have equal chance at secondary education
+Justified for teachers to physically discipline children
+Kenya governed by presidential system
+Kenya governed by parliamentary system
+Kenya governed by mixed system
+KDF involvement in Somalia necessary
+KDF should withdraw from Somalia
+KDF should withdraw from Somalia
+Removal of IEBC commissioners necessary
+Experienced discrimination based on age
+Treated unequally by traditional or religious leader
+Treated unequally by police or courts
+Treated unequally by employer
+How often received remittances
+Z_LES Lesotho
+Keep current customary law vs allow succession of daughters
+Women should have equal rights vs subject to traditional law
+How often police abuse people in custody
+Trust the King
+Trust Lesotho Revenue Authority
+Trust Directorate on Corruption and Economic Offences, or DCEO
+Trust Office of the Ombudsman
+Trust Police Complaints Authority or PCA
+Corruption: Officials of the Lesotho Revenue Authority
+Justified teachers to physically discipline their students
+Neutral or shows favouritism: Police Complaints Authority (PCA)
+Neutral or shows favouritism: Directorate on Corruption and Economic Offences (DCEO)
+Neutral or shows favouritism: Office of the Ombudsman
+Neutral or shows favouritism: army
+Involvement of security forces in politics
+Security forces aligned with political party or faction
+Level of involvement of security forces
+Provide help: SADC
+Provide help: African Union
+Bring SADC troops in to create political stability
+Involve SADC in reform of political system
+Involve SADC in reform of electoral system
+Involve SADC in reform of security forces
+Amend constitution to give king more political power vs limit his role in politics
+Change law to allow dual South African citizenship
+Change law to allow dual citizenship
+Allow Lesotho to become part of South Africa
+Maintain PR system vs switch to majoritarian system
+Coalition government more effective than one party governments
+Coalition government has more difficulty getting things done
+Coalition governments function as well as one_party governments
+Coalition governments more unstable than one party governments
+Experienced discrimination based on political party affiliation
+Neighbours: people living with HIV and AIDS
+Z_LIB Liberia
+Contact a Senator
+Contact a County Superintendent
+Trust the Senate
+Corruption: Senators
+Corruption: county superintendents
+Senators listen
+Government handling most important problem
+Performance: President George Weah
+Performance:. Your Representative
+Performance: Your local government councillor
+Performance: Your Senator
+Performance: Your mayor or local council chairperson
+Performance: Your county Superintendent
+Who responsible: Senators do their jobs
+Handling of domestic policy issues
+Handling of foreign policy issues
+Handling of national security issues
+Right to citizenship: person born in Liberia with one Liberian and one non-Liberian parent
+Right to citizenship: A person born in Liberia with two non-Liberian parents
+Right to citizenship: The wife of a Liberian man, even if she was born outside of Liberia
+Right to citizenship:. The husband of a Liberian woman, even if he was born outside of Liberia
+Right to citizenship: A person from another country, who has worked in Liberia and wants to stay
+Right to citizenship: A person who wishes to hold dual citizenship
+Maintain law of exclusive black land ownership and citizenship vs. law is discriminatory and should be removed
+Only Liberian citizens can own land vs. abolish law and allow everyone to own land
+Satisfaction with government’s efforts at implementing TRC recommendations
+Experience discrimination: Settlers or Congo people
+Experience discrimination: Native Liberians or country people
+Experience discrimination: Your ethnic group
+Experience discrimination: Muslims
+Experience discrimination: Christians
+Education of respondent's father
+Education of respondent's mother
+Z_MAD Madagascar
+Mob justice in locality/commune
+Agree with practice of mob justice
+Mob justice is effective vs incites violence
+Mob justice justified: Theft of cows
+Mob justice justified: Burglary/Property theft
+Mob justice justified: Shoplifting/Pickpocketing
+Mob justice justified: Rape
+Existence of "Dina" in locality
+Types of "Dina" in locality
+Types of "Dina" sanctions introduced
+The "Dina" promote social order vs it has no merit
+Agree with merger of primary and middle school
+Agree with the removal of the CEPE
+Agree with the change to the school calendar
+Problem with public school: Too expensive
+Problem with public school: Lack of textbooks/supplies
+Problem with public school: Poor quality of teaching
+Problem with public school: Absent teachers
+Problem with public school: Overcrowded classes
+Problem with public school: Poor infrastructure
+Z_MAL Mali
+Islam should become the official religion
+Mali should apply Sharia law
+The crisis of the North has shown that Islam can lead to excesses
+Islam restricts individual freedom
+Islam is incompatible with economic and social progress
+Islam is incompatible with freedom of expression
+Politicians use Islam to rule
+Islam preaches violence against non-Muslims
+Suffered by conflict: left home for other places in Mali
+Suffered by conflict: left home for other places outside Mali
+Suffered by conflict: Support the IDPs
+Suffered by conflict: Closure of business
+Suffered by conflict: Job loss
+Suffered by conflict: Change occupation
+Suffered by conflict: Intimidation or threats
+Suffered by conflict: Injury or killing
+Helping regain unity: The Malian armed forces
+Helping regain unity: UN mission in Mali
+Helping regain unity: The French army
+Helping regain unity: Armed movements
+Helping regain unity: The jihadist groups
+Helping regain unity: Self-defense groups
+Consequences of the conflict in the North - 1st response
+Consequences of the conflict in the North - 2nd response
+Who benefits most from the Government's fertilizer subsidies
+Z_MALW Malawi
+Z_MAU Mauritius
+Trust the President
+Trust Public Hospitals
+Trust Mauritius Revenue Authority
+Trust Public Service Commission
+Trust Independent Commission Against Corruption
+Corruption: The President and Officials in his Office
+Corruption: Tax Officials
+Handling combatting drug trafficking in the country
+Performance: President Amina Gurib-Fakim
+Severity of cyclones
+Drug trafficking: The Police
+Drug trafficking: Customs officers
+Drug trafficking: Politicians
+Drug trafficking: Judges
+Drug trafficking: Magistrates
+Drug trafficking: Lawyers
+Drug trafficking: Prison Officers
+Drug trafficking: Members of the National Assembly
+Drug trafficking: Government Ministers
+Drug trafficking: Municipal and District Council Councilors
+Drug trafficking: Community Leaders
+Drug trafficking: Religious Leaders
+A light rail system will alleviate transport problems
+A nine-year education system will have a positive effect
+Government should present before Parliament the agreement on the island of Agalega
+Prefer to vote for candidate who has served before vs. what matters most is the leader qualities
+Government performance: Youth unemployment
+Government performance: Teenage pregnancy
+Government performance: Drug abuse among the youth
+Government performance: Underage consumption of alcohol
+Government performance: Youth Delinquency
+Government performance: Smoking among the youth
+Government performance: Violence at school
+The government should decriminalize the consumption of Gandia
+The government should give a child allowance to citizens who would have more than two children
+Z_MOR Morocco
+Trust information from government sources
+Trust information from public media institutions
+Trust information from private media institutions
+Trust information from Social Media
+Corruption: media persons from public media institutions
+Corruption: media persons from private media institutions
+How best to tackle youth unemployment
+Best to have free schooling vs. best to improve the quality of education even if need to pay fees
+Free schooling has resulted in high enrolment rates, but at the expense of quality
+Free education promotes girl education up to high school
+Free education should be extended to university level
+Allow refugees, migrants, and other displaced persons to come to Morocco
+Good or bad: More immigrants coming to live in this country
+Good or bad: An immigrant becoming your neighbour
+Good or bad: An immigrant marrying one of your close relatives
+Good or bad: An immigrant starting a business that employs locals
+Morocco has enough migrants and should not allow more people to come
+Migrants are an economic asset
+Migrants take away jobs from locals
+Z_MOZ Mozambique
+Trust Prime Minister
+Trust Provincial government
+Trust Mozambique Tax Revenue
+Corruption: Provincial government
+Corruption: Tax Officials
+Members of the Provincial Assembly listen
+Performance: Prime Minister
+Who responsible: Members of the Municipal Assembly do jobs
+Help your country: SADC
+Help your country: African Union
+Help your country: African Development Bank
+Help your country: The World Bank
+Projects of African Development Bank in: Your community
+Projects of African Development Bank in: Your District
+Projects of African Development Bank in: Your Country
+Commitment to peace process: The Government
+Commitment to peace process: Opposition Political Parties
+Chances of peace process after the death of RENAMO leader
+Government favors some provinces in the distribution of public resources
+Province that benefits the most in receiving public resources
+Education of respondent's father
+Education of respondent's mother
+Z_NAM Namibia
+Been victim of gender based violence
+Contact Regional Councilor
+Contact National Council Representative
+Trust Prime Minister
+Trust National Council
+Trust Regional Council
+Trust appointed Regional Governor
+Trust Inland Revenue Office
+Corruption: Prime Minister
+Corruption: Representatives to the National Council
+Corruption: Regional Councilors
+Corruption: Regional Governors
+Corruption: Tax officials from the Inland Revenue Office
+Representatives to the National Council listen
+Regional Councilors listen
+Traditional Leaders listen
+Handling preventing gender-based violence
+Handling negotiations with Germany regarding genocide reparations
+Performance: Prime Minister
+Performance: Representatives to the National Council
+Performance: elected Regional Councilor
+Performance: appointed Regional Governor
+Who responsible: Regional Councilors do jobs?
+Who responsible: Regional Governors do jobs?
+Level government efficacy in providing serviced land/housing in urban areas
+Level efficacy government land resettlement programme in land redistribution
+Most effective in getting government to pay attention to land issues
+Represents personal view of land reform approach
+Government should reduce defence budget in favour of development/poverty reduction
+Government should raise taxes for poverty reduction
+Government should increase social protection grants
+Political Parties should impose 50/50 gender quota vs make own decision
+Regional council adopt gender quota system vs no change even if women are underrepresented
+Better gender representation effect on government efficacy
+Government get independent team to investigate Lubango Dungeons case
+Namibians who fought for SA security forces should receive veterans' benefits
+German government should pay reparations for genocide committed
+Who should negotiate with German government about reparations
+Contributes to gender-based violence: Cultural and traditional values
+Contributes to gender-based violence: Alcohol abuse
+Contributes to gender-based violence: Poverty
+Contributes to gender-based violence: Unemployment
+Contributes to gender-based violence: Unequal power relations between men and women
+Z_NIG Niger
+Recommended measures to fight jihadist propaganda
+Country’s poverty levels compared to 10 years ago
+Best explanation for poverty in country
+Difficult for poor to find work
+Solution to reduce poverty: Create employment
+Solution to reduce poverty: raise minimum wage
+Solution to reduce poverty: provide financial allowances
+Solution to reduce poverty: better quality education
+Ban migration of women/children to maghreb countries
+Female civil servants can be deployed anywhere regardless of marital status
+Z_NIGA Nigeria
+Z_SAN Sao Tome and Principe
+How often prime minister ignores laws
+How often prime minister ignores parliament
+Trust prime minister
+Corruption: office of the Prime Minister
+Performance: Prime Minister Patrice Trovoada
+Who responsible: Prime Minister does job
+Help your country: Economic Community of Central African States (ECCAS)
+Help your country: African Union
+Help your country: African Development Bank
+Help your country: The World Bank
+Projects of African Development Bank in: Your community
+Projects of African Development Bank in: Your District
+Projects of African Development Bank in: Your Country
+Number of local authority areas
+Public investments discriminatory against Principe
+Prefers a political system in which the President has limited powers vs. responsible for governance
+Education of respondent's father
+Education of respondent's mother
+Z_SEN Senegal
+Priority for government: Houses for guests in religious capitals
+Priority for government: Construction of the ILA TOUBA motorway
+Priority for government: Construction of new international airport 'Blaise Diagne de Diass'
+Priority for government: Construction of the regional express train
+Priority for government: Construction of rural roads
+Priority for government: Construction of rural health clinics
+Priority for government: Construction or rehabilitation of rural boreholes
+Priority for government: Distribution of agricultural equipment for rural women
+Priority for government: Expansion of rural electrification
+Pernment: Provision of univerriority for govsal health coverage
+Priority for government: Provision of grants for vulnerable or poor families
+Priority for government: Create community agricultural spaces to promote entrepreneurship
+Main reason for recent government's construction of infrastructure in religious capitals
+Support for recent government's construction of infrastructure in religious capitals
+Main cause for recent increase in crime and insecurity in Senegal
+Most effective way to reduce delinquency and insecurity in Senegal
+Agree or Disagree: Newly discovered resources will help finance Senegal's future development
+Agree or Disagree: Newly discovered resources will be monopolized by those in power
+Likelihood that revenues generated by the exploitation of resources managed transparently by government
+Likelihood that revenues generated by the exploitation of resources will be source of political/ social conflict
+Best way to manage newly discovered resources
+Agree or Disagree: A leader of a public body has the right to recruit his/her parents
+Agree or Disagree: It is better to work with family and friends, even if they are less qualified
+Agree or Disagree: When we have a parent who has a position of responsibility we are entitled to privileges
+Agree or Disagree: To find a job in this country, kinship and friendship are more important than competence
+Agree or Disagree: Recruitment of a person only based on merit
+Z_SIE Sierra Leone
+Performance: President Bio
+Help your country: ECOWAS
+Help your country: African Union
+Help your country: African Development Bank
+Help your country: The World Bank
+Projects of African Development Bank in: Your community
+Projects of African Development Bank in: Your District
+Projects of African Development Bank in: Your Country
+Dual citizen of Sierra Leone and other country: allowed to vote
+Dual citizen of Sierra Leone and other country: stand for elections
+Aware of previous year's mudslide and floods
+NEC performs its duties as a neutral body vs. it makes decisions that favour particular interests
+Education of respondent's father
+Education of respondent's mother
+Z_SOU South Africa
+Reject Apartheid
+Grade forms of government: System under Apartheid
+Grade forms of government: Regular elections and multiple political parties
+Grade forms of government: Political system as you expect it to be in 10 years time
+Give up regular elections for housing and jobs
+How often magistrates' decisions independent from outside influence
+How often judges' decisions independent from outside influence
+Trust: The Premier of this province
+Trust: Judges
+Trust: Magistrates
+Trust: The South African Revenue Service (SARS)
+Trust: The Public Protector
+Trust: Government broadcasting services
+Trust: Independent broadcasting services
+Corruption: Tax Officials
+Corruption: Judges
+Corruption: Magistrates
+Contact with magistrate courts
+Difficulty to obtain assistance from magistrate courts
+Pay bribe to get assistance from the courts
+Contact with a traditional court
+Difficulty to obtain assistance from traditional court
+Pay bribe to get assistance from traditional court
+Handling uniting all South Africans
+Handling managing immigration
+Performance: Former President Jacob Zuma
+Performance: The Premier of this province
+Help your country: SADC
+Help your country: African Union
+Help your country: African Development Bank
+Help your country: The World Bank
+Projects of African Development Bank in: Your community
+Projects of African Development Bank in: Your District
+Projects of African Development Bank in: Your Country
+In past year household received: Child support grant
+In past year household received: Old age pension
+In past year household received: Disability grant
+The poor should receive a pension or grant
+Elderly people spend too much of their pension on alcoholic drinks
+Citizens become lazy when they rely on government grants or old-age pensions
+The poor to be taken care of by their families vs. government
+High wages and high unemployment vs. full employment and low wages
+Better to have no job than job with low wage vs. better to have job at any wage
+Country should always accept people who are persecuted for political reasons
+Foreigners should not be allowed to work here because they take jobs away from locals
+Keeping refugees in camps is a good way of managing the influx of people into the country
+Greatest challenge to acquire land today
+Type of land that government should prioritise for redistribution
+he government must abide by willing buyer-willing seller policy in acquiring any property
+The government should allow farmers to retain ownership of land on which their labourers live
+Education of respondent's father
+Education of respondent's mother
+Z_SUD Sudan
+Handling providing portable water
+Help your country: IGAD
+Help your country: African Union
+Help your country: African Development Bank
+Help your country: The World Bank
+Projects of African Development Bank in: Your community
+Projects of African Development Bank in: Your Region
+Projects of African Development Bank in: Your Country
+Agree with Sudanese participation in Yemenni war
+Agree that democracy contradicts Islam
+Agree that non-Muslims should have less political rights
+Agree that religious leaders should not interfere in voters' decisions
+Agree that better if religious leaders hold public positions
+Z_SWA Swaziland
+Last national election: work for a candidate
+Elections and Parliament are abolished so that the King can decide everything
+Prime Minister free to act vs. obey the laws and courts
+Elections: parliamentary candidates prevented from running
+Trust the King
+Trust the Queen Mother
+Trust traditional Leaders (Bucopho)
+Trust Swaziland Revenue Authority
+Corruption: Traditional leaders or Bucopho
+Corruption: Tax officials, like Swaziland Revenue Authority officials
+Inkhundla Council Members listen
+Who responsible: MPs do jobs
+Who responsible: local councillors do jobs
+Who responsible: prime minister does job
+Who responsible: local inkhundla councilors
+Feared violence at a political campaign event
+Legalize marijuana cultivation for economic opportunities
+Legalizing cultivation and production of marijuana harmful or good for country
+Report to the police for cultivating or selling marijuana: Your father
+Report to the police for cultivating or selling marijuana: Your mother
+Report to the police for cultivating or selling marijuana: Your son
+Report to the police for cultivating or selling marijuana: Your daughter
+Report to the police for cultivating or selling marijuana: Your brother
+Report to the police for cultivating or selling marijuana: Your sister
+Report to the police for cultivating or selling marijuana: Another relative
+Report to the police for cultivating or selling marijuana: A close friend
+Report to the police for cultivating or selling marijuana: A co-worker
+Report to the police for cultivating or selling marijuana: Other people that you know
+Always honour trade agreements with other countries vs ignore agreements that are against national interest
+Amend constitution to allow for political parties vs keep constitutional ban of political parties
+Free to criticise: Your local councilor
+Free to criticise: Your Member of Parliament
+Free to criticise: Your Traditional leaders or Chiefs
+Free to criticise: Civil servants
+Free to criticise: The police
+Free to criticise: The Judges and magistrates
+Free to criticise: Your Prime Minister
+Z_TAN Tanzania
+Government close media houses vs news media publish without fear
+Trust Prevention and Combating of Corruption Bureau
+Trust Tanzania Revenue Authority
+Corruption: Officials of the Prevention and Combating of Corruption Bureau
+Corruption: Tax Officials from the Tanzania Revenue Authority (TRA)
+Village/ Mtaa chairmen/chairwomen listen
+Heard about The Prevention and Combating of Corruption Bureau
+Heard about The Tanzania Revenue Authority (TRA)
+Efficacy of PCCB in reducing corruption
+Efficacy of TRA to collect taxes and enforce tax code
+Opposition right to peaceful protest vs Government prevent protests
+Tanzanians free to criticize govt/president vs crime to insult president
+Government is like parent vs like employee
+Limit democratic freedoms so govt gets things done vs protect freedoms
+People who criticize the president should be arrested
+Government should have right to close media outlets who criticize govt policies
+Agree with govt decision to ban live broadcast of parliament
+Z_TOG Togo
+Satisfied with process of decentralization
+Attend commune meeting to understand expenditure or be heard
+Return to October 1992 Constitution
+Opposition's claim for the resignation of President Gnassingbé
+President Gnassingbé should not seek re-election if the two-term limit is adopted
+Togolese from the diaspora should be allowed to vote in elections
+Opposition leaders must maintain confrontation with the government for reforms
+Non- partisan, technical CENI better for organizing and proclaiming election results
+Reduce the fertility rate by promoting universal education for girls
+Reduce the fertility rate by promoting financial autonomy for women
+Reduce the fertility rate by adopting 3 child limit recommended by ECOWAS
+CFA should be maintained vs benefits France more than Togo
+Presidential dismissal must follow constitution vs use non-constitutional means
+Z_TUN Tunisia
+Performance: Local government councillor
+Performance: Your leader of the delegation
+Interest in forthcoming municipal elections
+Level of information on forthcoming local government elections
+Freeness and fairness of forthcoming municipal elections
+Likelihood of voting in forthcoming 2018 municipal elections
+Democratic system contradicts Islamic teaching
+In Muslim country, non-Muslims should enjoy less political rights
+Religious leaders should not interfere in voters’ decisions in elections
+Country is better off if religious people hold public positions in the state
+How should government deal with Tunisians who have fought with ISIL
+Z_UGA Uganda
+Most feared perpetrator of political intimidation
+Fewer MPs in order to reduce the financial burden
+MPs should not be appointed to cabinet positions
+MPs should cease to receive free cars from the state
+Losing political parties should accept election results
+Disagreements over 2016 election results highlight the need for national dialogue
+Electoral law to stop over-75 years olds from running vs Discrimination should not be allowed
+Registered in the National Identification registration exercise
+National Identity card holder
+Registered as a member of political party
+Holder of membership card from political party
+Handling of youth employment
+Improving household incomes
+Making student loans available to more people
+Making sure that the Elderly Grant scheme reaches more people
+Tighten the law on campaign financing and accountability
+Improve on transparency during declaration of election results
+Hold electoral officials and security agents individually liable for offences committed under their watch
+Increase the time within which to complete the hearing of and ruling on presidential election petitions
+Enact a law to discourage people who use forged qualifications from standing for elections
+Z_ZAM Zambia
+ECZ is neutral vs favours particular people/parties
+Judiciary is neutral vs favours particular people/parties)
+Free and fairness of electoral campaign: availability of information
+Free and fairness of electoral campaign: treatment of candidates/parties by officials
+Free and fairness of electoral campaign: coverage by state media
+Free and fairness of electoral campaign: coverage by independant media
+Free and fairness of electoral campaign: candidate ability to hold rallies
+Free and fairness of electoral campaign: counting/reporting results
+How often offered something in exchange for vote
+What offered in exhange for vote
+Freedom to criticise: Member of Parliament
+Freedom to criticise: Local Councilor
+Freedom to criticise: Traditional Leader
+Freedom to criticise: Civil Servants
+Freedom to criticise: The Police
+Freedom to criticise: The Army
+Freedom to criticise: Oppositions Leaders
+Freedom to criticise: President Lungu
+Reserve seats for women in National Assembly
+Minimum qualification for elective office candidates
+Z_ZIM Zimbabwe
+Respondent calm
+Trust: The Zimbabwe Revenue Authority or ZIMRA
+Trust: Non Governmental Organizations
+Corruption: Officials of the Zimbabwe Revenue Authority or ZIMRA
+Feeling angry about the government for not doing enough to solve problems
+Non-partisan social movements are what Zimbabwe needs now
+The introduction of bond notes will help ease economic problems
+In order to win the 2018 Presidential election, opposition political parties should work together under a Grand Coalition
+The recent protests are a good way for citizens to express their displeasure with government performance
+Free to criticise: Your local councillor
+Free to criticise: Your traditional leader
+Free to criticise: The police
+Free to criticise: The army
+Free to criticise: Your MP
+Free to criticise: Joice Mujuru
+Free to criticise: Morgan Tsvangirai
+Free to criticise: President Robert Mugabe
+Only vote vs. also participate in national and community affairs between elections
+Indigenizing the economy vs. encouraging foreign investment
