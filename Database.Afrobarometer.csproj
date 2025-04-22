@@ -8,34 +8,59 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include=".input\topics.round_01.txt" />
-    <Content Include=".input\topics.round_02.txt" />
-    <Content Include=".input\topics.round_03.txt" />
-    <Content Include=".input\topics.round_04.txt" />
-    <Content Include=".input\topics.round_05.txt" />
-    <Content Include=".input\topics.round_06.txt" />
-    <Content Include=".input\topics.round_07.txt" />
-    <Content Include=".input\topics.round_08.txt" />
-    <Content Include=".input\topics.round_09.txt" />
+    <Content Include=".input\texts\country.eng.blurb.json" />
+    <Content Include=".input\topics\CivicEngagement.txt" />
+    <Content Include=".input\topics\GovernmentPerformance.txt" />
+    <Content Include=".input\topics\HealthEducationSocialServices.txt" />
+    <Content Include=".input\topics\LifeStylesAndLivingConditions.txt" />
+    <Content Include=".input\topics\CitizenshipAndIdentity.txt" />
+    <Content Include=".input\topics\Democracy.txt" />
+    <Content Include=".input\topics\Economy.txt" />
+    <Content Include=".input\topics\PoliticalInstitutions.txt" />
+    <Content Include=".input\topics\PoliticsAndSociety.txt" />
+    <Content Include=".input\topics\RightsAndFreedoms.txt" />
+    <Content Include=".input\topics\SocioDemographics.txt" />
+    <Content Include=".input\topics\Taxation.txt" />
+    <Content Include=".input\topics\Corruption.txt" />
+    <Content Include=".input\topics\Covid19.txt" />
+    <Content Include=".input\topics\CrimeAndSecurity.txt" />
+    <Content Include=".input\topics\EnvironmentAndClimate.txt" />
+    <Content Include=".input\topics\Geopolitics.txt" />
+    <Content Include=".input\topics\InterviewConditions.txt" />
+    <Content Include=".input\topics\MENAIssues.txt" />
+    <Content Include=".input\topics\Metadata.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include=".input\codebooks.zip" />
-    <None Include=".input\data-merged.zip" />
-    <None Include=".input\data-round-1.0.zip" />
-    <None Include=".input\data-round-2.0.zip" />
-    <None Include=".input\data-round-3.0.zip" />
-    <None Include=".input\data-round-4.0.zip" />
-    <None Include=".input\data-round-5.0.zip" />
-    <None Include=".input\data-round-6.0.zip" />
-    <None Include=".input\data-round-7.0.zip" />
-    <None Include=".input\data-round-8.0.zip" />
-    <None Include=".input\data-round-9.0.zip" />
+    <None Include=".input\codebooks\codebooks-merged.zip" />
+    <None Include=".input\codebooks\codebooks-round-01.rar" />
+    <None Include=".input\codebooks\codebooks-round-02.rar" />
+    <None Include=".input\codebooks\codebooks-round-03.rar" />
+    <None Include=".input\codebooks\codebooks-round-04.rar" />
+    <None Include=".input\codebooks\codebooks-round-05.rar" />
+    <None Include=".input\codebooks\codebooks-round-06.zip" />
+    <None Include=".input\codebooks\codebooks-round-07.zip" />
+    <None Include=".input\codebooks\codebooks-round-08.zip" />
+    <None Include=".input\codebooks\codebooks-round-09.zip" />
+    <None Include=".input\codebooks\codebooks-round-10.zip" />
+    <None Include=".input\data\data-merged.zip" />
+    <None Include=".input\data\data-round-01.zip" />
+    <None Include=".input\data\data-round-02.zip" />
+    <None Include=".input\data\data-round-03.zip" />
+    <None Include=".input\data\data-round-04.zip" />
+    <None Include=".input\data\data-round-05.zip" />
+    <None Include=".input\data\data-round-06.zip" />
+    <None Include=".input\data\data-round-07.zip" />
+    <None Include=".input\data\data-round-08.zip" />
+    <None Include=".input\data\data-round-09.zip" />
+    <None Include=".input\survey-technical-information.zip" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="F23.StringSimilarity" Version="6.0.0" />
+    <PackageReference Include="PdfPig" Version="0.1.10" />
     <PackageReference Include="SharpZipLib" Version="1.4.2" />
-    <PackageReference Include="SpssReader" Version="2022.4.19.2" />
+    <PackageReference Include="Spssly" Version="2.0.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
   </ItemGroup>
 

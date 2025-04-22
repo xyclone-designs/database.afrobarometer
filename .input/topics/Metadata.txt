@@ -1,0 +1,14 @@
+Metadata.Country
+Metadata.HouseholdBackChecked?
+Metadata.UrbanOrRuralPrimarySamplingUnit
+Metadata.Department
+Metadata.ReasonForUnsuccessfulCall1
+Metadata.ReasonForUnsuccessfulCall2
+Metadata.ReasonForUnsuccessfulCall3
+Metadata.ReasonForUnsuccessfulCall4
+Metadata.ReasonForUnsuccessfulCall5
+Metadata.ReasonForUnsuccessfulCall6
+Metadata.ReasonForUnsuccessfulCall7
+Metadata.PreviousInterviewGender
+Metadata.ThisInterviewGender
+Metadata.NumberOfCalls
