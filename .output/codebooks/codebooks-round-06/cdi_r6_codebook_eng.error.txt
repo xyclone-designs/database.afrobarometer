@@ -1,0 +1,16 @@
+QuestionNumber: Q29e
+ValueLabels
+    14=Negative Replies: Corruption / abuse of power, 20 15=Negative Replies: Social / economic hardship
+
+QuestionNumber: Q60pt3
+ValueLabels
+    27=Discrimination/inequality, 35 28=Gender issues/women's rights
+
+QuestionNumber: Q98A
+ValueLabels
+    15=Jehovah’s Witness, 54 16=Seventh Day Adventist
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

@@ -1,0 +1,1596 @@
+Question Number: 1
+Variable Label: Satisfaction with economic conditions
+Question Text: at the moment, are you dissatisfied, neither dissatisfied nor satisfied, or satisfied with economic conditions in [country]
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 2
+Variable Label: Evaluations of Economic Conditions
+Question Text: how do economic conditions in [country] now compare to one year ago?  are they:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 3
+Variable Label: Economic Expectations
+Question Text: what about in twelve months time?  do you expect economic conditions in [country] to be worse, the same, or better than they are now
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 4
+Variable Label: Evaluations of personal economic conditions compared to others.
+Question Text: now let us speak about your personal economic conditions.  would you say they are worse, the same, or better than other [country]ans
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 5A-D
+Variable Label: How do you currently obtain food?
+Question Text: what about you?  describe how you currently obtain the food you and your family eat each month?  is there anything else
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 6A-C
+Variable Label: What other methods would you use to obtain food?
+Question Text: if you could no longer obtain food in this way, what other methods would you be most likely to use?  is there anything else
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 7A-D
+Variable Label: What safety measures do you have for your home?
+Question Text: describe the things you currently rely on for the safety of your home?  is there anything else
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 8A-C
+Variable Label: What other safety measures would you use?
+Question Text: if you could no longer protect your home in this way, what other methods would you be most likely to use?  is there anything else
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 9A-D
+Variable Label: How do you currently obtain health care?
+Question Text: describe the things you currently do to obtain healthcare for yourself or your family?  is there anything else
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 10A-C
+Variable Label: What other methods would you use to obtain health care?
+Question Text: if you could no longer get healthcare in this way, what other methods would you be most likely to use?  is there anything else
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 11A-D
+Variable Label: How do you normally obtain cash income?
+Question Text: please describe how you normally obtain cash income?  is there anything else
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 12A-C
+Variable Label: What other methods would you use to obtain cash income?
+Question Text: if you could no longer get a cash income in this way, what other methods would you be most likely to use?  is there anything else
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 13A
+Variable Label: How often have you gone without enough food to eat?
+Question Text: in the last twelve months, how often have you or your family:  a.  gone without enough food to eat
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 13B
+Variable Label: How often have you felt unsafe from crime in your home?
+Question Text: in the last twelve months, how often have you or your family:  b.  felt unsafe from crime in your home
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 13C
+Variable Label: How often have you gone without necessary medical treatment?
+Question Text: in the last twelve months, how often have you or your family:  c.  gone without medicine or medical treatment that you needed
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 13D
+Variable Label: How often have you gone without a cash income?
+Question Text: in the last twelve months, how often have you or your family:  d.  gone without a cash income
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 13E
+Variable Label: How often have you gone without enough clean water to drink or cook with?
+Question Text: in the last twelve months, how often have you or your family:  e.  gone without enough clean water to drink and cook with
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 13F
+Variable Label: How often have you gone without shelter?
+Question Text: in the last twelve months, how often have you or your family:  f.  gone without shelter
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 13G
+Variable Label: How often have you gone without electricity in your home?
+Question Text: in the last twelve months, how often have you or your family:  g.  gone without electricity in your home
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 13H
+Variable Label: How often have you had insufficient fuel to heat or cook?
+Question Text: in the last twelve months, how often have you or your family:  h.  gone without enough fuel to heat your home or cook your food
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 14A
+Variable Label: How often physical health reduce amount of work?
+Question Text: in the last month, how much of the time ______?  was it often, sometimes, rarely, or never?  a.  has your physical health reduced the amount of work you would normally do inside or outside your home
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 14B
+Variable Label: How often worried, anxious or feel tired?
+Question Text: in the last month, how much of the time ______?  was it often, sometimes, rarely, or never?  b.  have you been so worried or anxious that you have felt tired, worn out, or exhausted
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 15
+Variable Label: Is there a nearby school, which your kids could attend?
+Question Text: is there a school close by where you could afford to send your children
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 16
+Variable Label: Do you have an electricity hook-up into home?
+Question Text: do you have an electricity hook-up into this household
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 17
+Variable Label: Do you have piped water into home?
+Question Text: do you have water piped into your household
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 18A
+Variable Label: How often do you attend church group meetings?
+Question Text: over the past year, how often have you attended meetings of a _____?  a.  church group (other than religious services)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 18B
+Variable Label: Attend self-help association?
+Question Text: over the past year, how often have you attended meetings of a _____?  b.  local self-help association
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 18C
+Variable Label: Attend group concerned with local matters?
+Question Text: over the past year, how often have you attended meetings of a _____?  c.  group concerned with local matters such as schools, housing, or rates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 18D
+Variable Label: Attend local commercial organization?
+Question Text: over the past year, how often have you attended meetings of a _____?  d.  local commercial organization such as a business group or farmers’ association
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 18E
+Variable Label: Attends group that looks after the community?
+Question Text: over the past year, how often have you attended meetings of a _____?  e.  group that does things for the community
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 18F
+Variable Label: Attend a trade union?
+Question Text: over the past year, how often have you attended meetings of a _____?  f.  a trade union
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 19
+Variable Label: People responsible for well-being VS govt. responsible
+Question Text: a.  people should be responsible for their own success and well being.  b.  government should bear the main responsibility for ensuring the success and well-being of people
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 20
+Variable Label: Free to earn VS limited income?
+Question Text: a.  people should be free to earn as much as they can, even if this leads to differences in income.  b.  government should place limits on how much rich people can earn, even if this discourages some people from working hard
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 21
+Variable Label: Start own business VS govt.. employment.
+Question Text: a. the best way to create jobs is to encourage people to start their own large or small businesses.  b.  the government should help to provide employment for everyone who wants to work
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 22
+Variable Label: New business risky VS invest to start business
+Question Text: a.  there is no sense in trying to start a new business because it might lose money.  b.  if a person has a good idea for a business, they should invest their own savings or borrow money to try to make it succeed
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 23A
+Variable Label: Who should take responsibility for schools and clinics?
+Question Text: here is a list of things that are important for the development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  a.  providing schools and clinics
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 23B
+Variable Label: Responsibility for creating jobs?
+Question Text: here is a list of things that are important for the development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  b.  creating jobs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 23C
+Variable Label: Responsibility for building houses?
+Question Text: here is a list of things that are important for the development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  c.  building houses
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 23D
+Variable Label: Responsibility for reducing crime?
+Question Text: here is a list of things that are important for the development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  d.  reducing crime
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 23E
+Variable Label: Responsibility for buying or selling tobacco?
+Question Text: here is a list of things that are important for the development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  e.  buying and selling tobacco
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 23F
+Variable Label: Responsibility to help farmers borrow money?
+Question Text: here is a list of things that are important for the development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  f.  helping farmers borrow money to improve production of livestock and crops
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 24
+Variable Label: Variety of goods at high prices VS shortages at low prices?
+Question Text: a.  it is better to have a wide variety of goods and many goods in the market, even if prices are high.  b.  it is better to have low prices, even if there are shortages of goods
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 25
+Variable Label: Free health care, low stds VS pay for better health care
+Question Text: a.  it is better to be able to visit clinics and get medicine for free, even if it means we cannot raise healthcare standards.  b.  it is better to raise healthcare standards, even if we have to pay medical fees
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 26
+Variable Label: Keep govt. employees VS retrench govt. employees
+Question Text: a.  the number of people who work for government should not be reduced, even if paying their salaries is costly to the country.  b.  the government cannot afford so many public employees and should lay off or retrench some of them
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 27
+Variable Label: Govt. own factories VS privatization
+Question Text: a.  the government should retain ownership of its factories, businesses, and farms.  b.  it is better for the government to sell its businesses to private companies and individuals
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 28A-C
+Variable Label: What does democracy mean?
+Question Text: what, if anything, do you understand by the word “democracy”?  what comes to your mind when you hear the word
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 29
+Variable Label: Who is the vice president?
+Question Text: first of all, can you tell me who presently holds the following positions:  the vice-president of [country]
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 30
+Variable Label: Who is the minister of finance?
+Question Text: first of all, can you tell me who presently holds the following positions:  the minister of finance
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 31
+Variable Label: Member of parliament for this constituency?
+Question Text: first of all, can you tell me who presently holds the following positions:  member of parliament for this constituency
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 32
+Variable Label: Your local councilor?
+Question Text: first of all, can you tell me who presently holds the following positions:  your local councilor
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 33
+Variable Label: Have you contacted govt. official or political party official?
+Question Text: in the past year, have you contacted a government official or political party official about some important problem or to give them your views?  if yes:  was it just once or twice, a few times, or frequently
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 34A-F
+Variable Label: Type of official?
+Question Text: what type of official was it
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 35A
+Variable Label: Paid a govt. official to get a job?
+Question Text: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  a.  a job
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 35B
+Variable Label: Paid govt. official to get a maintenance payment, loan or pension?
+Question Text: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  b.  a government maintenance payment, pension payment, or loan
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 35C
+Variable Label: Paid govt. official to get water or electricity?
+Question Text: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  c.  electricity or water
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 35D       3
+Variable Label: Paid govt. official to get housing or land?
+Question Text: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  d.  housing or land
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 36
+Variable Label: Contacted any other influential person?
+Question Text: in the past year, have you contacted any other influential person such as a church or community leader about some important problem or to give them your views?  if yes:  was it just once or twice, a few times, or frequently
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 37A-F
+Variable Label: What type of influential person did you contact?
+Question Text: what type of person was this
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 38
+Variable Label: Local traditional leader, chief or headman?
+Question Text: i would like to speak about traditional leadership.  do you have a traditional leader, chief, or headman
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 39
+Variable Label: Local chief’s interest in people?
+Question Text: how interested do you think your local chief is in what happens to you or hearing what people like you think?  are they:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 40
+Variable Label: How much of the time can local chief be trusted?
+Question Text: how much of the time can you trust your local chief to do what is right?  is it:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 41
+Variable Label: How many chiefs or traditional leaders involved in corruption?
+Question Text: what about corruption, that is where leaders take money intended for the community and use it for themselves?  how many chiefs or traditional leaders are involved in corruption?  is it:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 42A
+Variable Label: How often do you get news from radio?
+Question Text: how often do you get news from the following sources:  a.  radio
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 42B
+Variable Label: How often do you get news from tv?
+Question Text: how often do you get news from the following sources:  b.  television
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 42C
+Variable Label: How often do you get news from newspapers?
+Question Text: how often do you get news from the following sources:  c.  newspaper
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 43
+Variable Label: Most people can be trusted Vs you must be careful of people?
+Question Text: generally speaking, would you say that most people can be trusted or that you can’t be too careful in dealing with people
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 44
+Variable Label: Discuss political matters with friends?
+Question Text: when you get together with your friends, would you say you discuss political matters…
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 45
+Variable Label: Follow what is happening in govt. and public affairs?
+Question Text: some people seem to follow what’s going on in government and public affairs most of the time, whether there’s an election going on or not.  other’s aren’t that interested.  would you say you follow what’s going on in government and public affairs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 46A
+Variable Label: Feel that you have little or no control over life?
+Question Text: do you agree, neither agree or disagree, or disagree with the following statements?  a.  you feel you have little or no control over what happens to your life
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 46B
+Variable Label: Insufficient info about political life and govt. actions?
+Question Text: do you agree, neither agree or disagree, or disagree with the following statements?  b.  you think that you do not have enough information about political life and the actions of government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 46C
+Variable Label: Sometimes political affairs too complicated to understand? Values :  1-6, 98-99
+Question Text: do you agree, neither agree or disagree, or disagree with the following statements?  c.  sometimes political and government affairs seem so complicated that you can’t really understand what’s going on
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 46D
+Variable Label: Be careful what you do and say with regards to politics in this country? Values :  1-6, 98-99
+Question Text: do you agree, neither agree or disagree, or disagree with the following statements?  d.  in this country, you must be very careful of what you say and do with regard to politics
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 47
+Variable Label: Way  you vote doesn’t matter VS it matters       6
+Question Text: a.  no matter how you vote, it won’t make things any better in the future.  b.  the way you vote could make things better in the future
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 48
+Variable Label: Who is in power makes a difference VS doesn't  matter
+Question Text: a.  it is important who is in power because it can make a difference to what happens.  b.  it doesn’t really matter who is in power, because in the end things go on much the same
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 49
+Variable Label: Freeness and fairness of last national election?
+Question Text: on the whole, how would you rate the freeness and fairness of the last national elections, held in 1996?  was it:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 50A-C
+Variable Label: Most important problems to be addressed by govt.
+Question Text: what are the most important problems facing this country that the government should address?  which of these is most important?  place 1 next to most important problem
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51A
+Variable Label: Anyone can freely say what they think?
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  a.  anyone can freely say what he or she thinks
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51B
+Variable Label: Can join any political organization they choose.
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  b.  people can join any political organization they choose
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51C
+Variable Label: Can live without fear of unjust arrest?
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  b.  people can live without fear of being arrested by the police if they have not done anything wrong
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51D       8
+Variable Label: Free to choose who to vote for?
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  d.  each person can freely choose who to vote for without feeling forced by others
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51E
+Variable Label: Everybody treated equally and fairly by govt.?
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  e.  everybody is treated equally and fairly by the government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51F
+Variable Label: Safe from crime and violence?
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  f.  people are safe from crime and violence
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51G
+Variable Label: Have adequate standard of living?
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  g.  people have an adequate standard of living
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51H
+Variable Label: Access to basic necessities?
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  h.  people have access to basic necessities (like food and water)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 51I
+Variable Label: Zimbabweans are equal to each other?
+Question Text: “some people say that today, under our current system of government, our political and overall life is better than it was under the white minority government  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?”  i.  [country]ans are equal to one another
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 52
+Variable Label: One party to stand for elections and hold office?
+Question Text: if only one political party, or candidates from only one party, were allowed to stand for elections and hold office
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 53
+Variable Label: Decisions to be made by council of elders, traditional leaders or chiefs?
+Question Text: if all decisions were made by a council of elders, traditional leaders, or chiefs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 54
+Variable Label: Army governed the country?
+Question Text: if the army came in to govern the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 55
+Variable Label: President could decide everything?
+Question Text: if parliament and political parties were abolished, so that the president could decide everything
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 56
+Variable Label: All decisions made by economic experts rather than by govt.?
+Question Text: if all important decisions about the economy were made by economic experts rather than an elected government or parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 57
+Variable Label: Country returned to white minority rule?
+Question Text: if the country returned to the old system of white minority rule
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 58
+Variable Label: Govt. elected by accepted procedures?
+Question Text: our government was elected to power by accepted procedures
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 59
+Variable Label: Govt. exercises power in acceptable way?
+Question Text: our government exercises power in an acceptable way
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 60
+Variable Label: Constitution expresses values and aspirations of all Zimbabwean people.
+Question Text: our constitution expresses the values and aspirations of the [country]an people
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 61
+Variable Label: Govt. should have the ultimate decision?
+Question Text: our government has the right to make decisions that all people have to abide by whether or not they agree with them
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62A
+Variable Label: How well is govt. creating jobs?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62B
+Variable Label: How well is govt. building houses?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  b.  building houses
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62C
+Variable Label: How well is govt. ensuring that prices remain stable?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  c.  ensuring that prices remain stable
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62D
+Variable Label: How well does govt. reduce crime?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  d.  reducing crime
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62E
+Variable Label: How well is govt. improving health services?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  e.  improving health services
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62F
+Variable Label: How well does govt. address educational needs of all Zimbabweans?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  f.  addressing the educational needs of all people of [country]
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62G
+Variable Label: How well does govt. manage the economy?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  g.  managing the economy
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62H
+Variable Label: How well does govt. deliver basic services like water and electricity?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  h.  delivering basic services like water and electricity
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 62I
+Variable Label: How well does govt. ensure that everyone has sufficient land?
+Question Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  i.  making sure everyone has enough land
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 63
+Variable Label: How interested is the President in your well-being?
+Question Text: how interested do you think the president is in what happens to you or hearing what people like you think?  is he:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 64
+Variable Label: How much of the time trust the President?
+Question Text: how much of the time can you trust the president to do what is right.  is it:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 65
+Variable Label: What is your opinion of the president's job performance?
+Question Text: what about the way the president has performed his job over the past twelve months?  do you:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 66
+Variable Label: How many govt. officials involved in corruption?
+Question Text: what about corruption?  (corruption is where those in government and the civil service take money or gifts from the people and use it for themselves, or expect people to pay them extra money or a gift to do their job).  how many officials in the government do you think are involved in corruption
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 67
+Variable Label: How interested is parliament in your well-being?
+Question Text: how interested do you think parliament is in what happens to you or hearing what people like you think?  are they:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 68
+Variable Label: How much of the time can you trust parliament?
+Question Text: how much of the time can you trust parliament to do what is right.  is it:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 69
+Variable Label: What do you think about parliament’s job performance?
+Question Text: what about the way parliament has performed its job over the past twelve months?  do you:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 70
+Variable Label: How many people in parliament involved in corruption?
+Question Text: what about corruption?  how many people in parliament do you think are involved in corruption
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 71
+Variable Label: How many civil servants involved in corruption?
+Question Text: how many civil servants, or those who work in government offices and ministries do you think are involved in corruption
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 72
+Variable Label: How interested is your local councilor in your well-being?
+Question Text: how interested do you think your local councilor is in what happens to you or hearing what people like you think?  is he or she:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 73
+Variable Label: How much of the time trust your local govt.?
+Question Text: how much of the time can trust your local government to do what is right.  is it:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 74
+Variable Label: How has your local govt. performed its job?
+Question Text: what about the way your local government has performed its job over the past twelve months?  do you:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 75
+Variable Label: How many officials in local govt. involved in corruption?
+Question Text: what about corruption?  how many officials in your local government do you think are involved in corruption
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 76A
+Variable Label: Comparison of current and past govt. effectiveness       6
+Question Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under white minority rule?  is government of today more, about the same, or less _______ as under white minority rule?  a.  effective in the way it performs its job
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 76B
+Variable Label: Comparison of current and past govt. interest in people.
+Question Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under white minority rule?  is government of today more, about the same, or less _______ as under white minority rule?  b.  interested in hearing what people like you think
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 76C
+Variable Label: Comparison of current and past govt. corruption
+Question Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under white minority rule?  is government of today more, about the same, or less _______ as under white minority rule?  c.  corrupt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 76D
+Variable Label: Comparison of current and past govt. trustworthiness
+Question Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under white minority rule?  is government of today more, about the same, or less _______ as under white minority rule?  d.  trustworthy
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 77A
+Variable Label: How much of the time can you trust the army?
+Question Text: what about the following institutions?  how much of the time can you trust them to do what is right?  a.  the army
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 77B
+Variable Label: How much of the time can you trust the police?       7
+Question Text: what about the following institutions?  how much of the time can you trust them to do what is right?  b.  the police
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 77C
+Variable Label: How much of the time can you trust the courts of law?
+Question Text: what about the following institutions?  how much of the time can you trust them to do what is right?  c.  courts of law
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 77D
+Variable Label: How much of the time can you trust the electoral commission?
+Question Text: what about the following institutions?  how much of the time can you trust them to do what is right?  d.  supervisory electoral commission
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 77E
+Variable Label: How much of the time can you trust Zimbabwean broadcasting?
+Question Text: what about the following institutions?  how much of the time can you trust them to do what is right?  e.  [country] broadcasting corporation
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 77F
+Variable Label: How much of the time can you trust govt. press or newspapers?
+Question Text: what about the following institutions?  how much of the time can you trust them to do what is right?  f.  government press or newspapers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 77G
+Variable Label: How much of the time can you trust independent press or newspapers?
+Question Text: what about the following institutions?  how much of the time can you trust them to do what is right?  g.  independent press or newspapers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 78
+Variable Label: Preference for democratic VS non-democratic govt.
+Question Text: with which of these statements are you most in agreement?  a, b, or c?   a.  democracy is preferable to any other form of government b.  in some circumstances, a non-democratic government can be preferable to a democratic government c.  for someone like me, a democratic or non-democratic regime makes no difference
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 79
+Variable Label: Have you heard about the government’s Economic Structural Adjustment Programme?
+Question Text: have you ever heard anything about the government’s economic structural adjustment programme, or haven’t you had a chance to hear about this yet
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 80
+Variable Label: Economic structural adjustment programme's effect on your life?
+Question Text: what effect do you think it has had on the way you live your life? has it made it worse, had no effect, or made it better, or haven’t you heard enough about this to say
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 81
+Variable Label: ESAP has helped most people VS it has hurt most
+Question Text: here are two statements. please tell me whether you agree more with statement a or b? a: the economic structural adjustment programme (esap) has helped most people; only a minority have suffered. b: the economic structural adjustment programme (esap) has hurt most people and only benefited a minority
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 82
+Variable Label: Besides being citizen of Zimbabwe, which group do you belong to?
+Question Text: we have spoken to many [country]ans and they have all described themselves in different ways.  some people describe themselves in terms of their language, religion, race, and others describe themselves in economic terms, such as working class, middle class, or a farmer.  besides being [country]an which specific group to do you feel you belong to first and foremost
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 83A
+Variable Label: Feel proud to be part of this group
+Question Text: “here are a series of things people might say about how they see their group in relation to other [country]ans.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements. “ a.  you feel proud to be ____
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 83B
+Variable Label: Want children to think of themselves as part of group.
+Question Text: “here are a series of things people might say about how they see their group in relation to other [country]ans.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements. “ b.  you would want your children to think of themselves as ______
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 83C
+Variable Label: People belonging to this group are the best
+Question Text: “here are a series of things people might say about how they see their group in relation to other [country]ans.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements. “ c.  of all the group in this country, ____ people are the best
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 83D
+Variable Label: Stronger ties to group than to other Zimbabweans
+Question Text: “here are a series of things people might say about how they see their group in relation to other [country]ans.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements. “ d.  you feel much stronger ties to ______s than to other [country]ans
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 83E
+Variable Label: It makes you proud to be called a Zimbabwean.       0
+Question Text: “here are a series of things people might say about how they see their group in relation to other [country]ans.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements. “ e.  it makes you proud to be called a [country]an
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 83F
+Variable Label: Children should think of themselves as Zimbabwean.
+Question Text: “here are a series of things people might say about how they see their group in relation to other [country]ans.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements. “ f.  you would want your children to think of themselves as [country]an
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 83G
+Variable Label: All Zimbabweans should be treated equally
+Question Text: “here are a series of things people might say about how they see their group in relation to other [country]ans.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements. “ g.  all people who were born in this country, regardless of what group they belong to, should be treated as equal citizens of [country]
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 83H
+Variable Label: Desirable to create a united Zimbabwe out of all the groups?
+Question Text: “here are a series of things people might say about how they see their group in relation to other [country]ans.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements. “ h.  it is desirable to create one united nation out of all the different group who live in [country]
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 84
+Variable Label: How are your group's economic conditions in comparison to others?
+Question Text: are _____’s (respondent’s identity group from q82) economic conditions worse, the same as, or better than other group in this country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 85
+Variable Label: Identity treated fairly
+Question Text: to what extent are _______(respondent’s identity from q82) people treated unfairly by the government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 86
+Variable Label: Is govt. more or less interested in what your group has to say?
+Question Text: in general, do you feel that people in government are less interested, or more interested in what ______s (respondent’s identity from q82) think compared to other group, or is it about the same
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 87
+Variable Label: Govt. represents interests of all Zimbabweans or just one group?
+Question Text: do you think that the government represents the interests of all [country]ans, or of one group only
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 88
+Variable Label: Which group's interest is mostly represented by govt.?
+Question Text: which group is that?  (if one group is answered)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 89
+Variable Label: Which is true for you with regards to 1996 national election?
+Question Text: with regard to the most recent, 1996 national elections, which statement is true for you
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 90A
+Variable Label: Address problems facing the community with others?
+Question Text: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  a.  participate with others to address an important problem affecting the community or nation (other than an elections)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 90B
+Variable Label: Attend election rally?
+Question Text: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  b.  attend an election rally
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 90C
+Variable Label: Work for political candidate or party?
+Question Text: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  c.  work for a political candidate or party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 90D
+Variable Label: Write a letter to newspaper?
+Question Text: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  d.  write a letter to a newspaper
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 91A
+Variable Label: Claimed govt. benefits to which you are not entitled?
+Question Text: we would like to remind you that your responses to this interview are confidential.  here is a list of actions ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3.  if no-read out options 4-5.  a.  claim government benefits to which you are not entitled (like a pension, maintenance, or unemployment payment)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 91B
+Variable Label: Avoid paying development levy or property taxes?
+Question Text: we would like to remind you that your responses to this interview are confidential.  here is a list of actions ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3.  if no-read out options 4-5.  b.  avoid paying development levy or property taxes
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 91C
+Variable Label: Avoid paying income taxes?
+Question Text: we would like to remind you that your responses to this interview are confidential.  here is a list of actions ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3.  if no-read out options 4-5.  c.  avoid paying income taxes
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 91D
+Variable Label: Get services without paying?
+Question Text: we would like to remind you that your responses to this interview are confidential.  here is a list of actions ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3.  if no-read out options 4-5.  d.  get services like electricity or water without paying for them
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 92A
+Variable Label: Attend a demonstration or protest march
+Question Text: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  a.  attend a demostartion or protest march
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 92B
+Variable Label: Boycott rates, services and taxes?
+Question Text: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  b.  participate in a boycott of rates, services, or taxes
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 92C
+Variable Label: Partake in sit-ins, disruption of govt. meetings       4
+Question Text: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  c.  take part in a sit-in, disruption of government meeting or offices
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 92D
+Variable Label: Use force or violent methods?
+Question Text: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  d.  use force or violent methods (such as damaging public property)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 93
+Variable Label: Support shutting down of newspapers, radio or tv stations?
+Question Text: support shutting down newspapers, or radio, or television stations that were critical of it
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 94A-D
+Variable Label: Response to closing media?
+Question Text: response to closing media
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 95
+Variable Label: Support for dismissing judges?
+Question Text: support for dismissed judges who ruled against the government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 96A-D
+Variable Label: Response to dismissing judges?
+Question Text: what if anything would you do about it
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 97
+Variable Label: Support for banning political parties?
+Question Text: banned political parties
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 98A-D
+Variable Label: Response to banning political parties?
+Question Text: what if anything would you do about it
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 99
+Variable Label: Support for suspension of parliament and cancellation of elections?
+Question Text: suspended the parliament and cancelled the next elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 100A-D
+Variable Label: Response to suspension of parliament and cancellation of elections?
+Question Text: what if anything would you do about it
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 101
+Variable Label: Patience to deal with problems VS solve new
+Question Text: a.  it will take years for our system of government to deal with the problems inherited from white minority rule.  b.  our system of government ought to be able to deal with problems right now regardless of who caused them
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 102A
+Variable Label: Democratic society and majority rule?
+Question Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these:  a.  majority rule
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 102B
+Variable Label: Democratic society and freedom to criticize the govt.?
+Question Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  b. complete freedom for anyone to criticize the government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 102C
+Variable Label: Democratic society and regular elections?
+Question Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  c.  regular elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 102D
+Variable Label: Democratic society and at least 2 parties competing?
+Question Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  d.  at least two political parties competing with each other
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 102E
+Variable Label: Democratic society and basic necessities?
+Question Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  e.  basic necessities like shelter, food, and water for everyone
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 102F
+Variable Label: Democratic society and jobs for everyone?
+Question Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  f.  jobs for everyone
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 102G
+Variable Label: Democratic society and equal education?
+Question Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  g.  equality in education
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 102H
+Variable Label: Democratic society and small income gap between rich and poor?
+Question Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  h.  a small income gap between rich and poor
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 103
+Variable Label: Need a strong leader VS democracy is always best?
+Question Text: “sometimes democracy does not work.  when this happens, some people say that we need a strong leader who does not have to bother with elections.  others say that even when things don’t work, democracy is always best. what do you think.” a.  need strong leader. b.  democracy always best
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 104
+Variable Label: Is Zimbabwe a democracy?
+Question Text: on the whole, is the way [country] is governed:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 105
+Variable Label: How satisfied are you with democracy in Zimbabwe?
+Question Text: overall, how satisfied are you with the way democracy works in [country]
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 106
+Variable Label: Most important changes about way country is governed?
+Question Text: what are the most important things that need to be changed about the way we govern our country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 107
+Variable Label: Are you close to any political party?
+Question Text: do you usually think of yourself as close to any particular political party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 108
+Variable Label: Which party are you close to?
+Question Text: which party is that
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 109
+Variable Label: How close do you feel to this party?
+Question Text: do you feel very close to this party, somewhat close, or not very close?       9
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 110
+Variable Label: How old were you on your last birthday?
+Question Text: how old were you at your last birthday? if respondent can’t answer:  in which year were you born
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 111
+Variable Label: What is your home language?
+Question Text: let’s think for a moment about the languages that you use.  what language do you speak most at home
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 112
+Variable Label: What is the highest grade, std, form completed?
+Question Text: what was the highest grade, standard or form you completed
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 113
+Variable Label: Is your job part-time or full-time or are you looking for work?
+Question Text: do you have a job that pays a weekly or monthly cash income?  is it full-time or part-time?  and are you looking for a cash job (or looking for another one if you are presently working)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 114
+Variable Label: In the last year, been without job more than 1 month?
+Question Text: in the past twelve months, have you been unemployed (that is, without a cash job) at any time for a period of at least one month or more
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 115
+Variable Label: For how many months were you unemployed?
+Question Text: how many months did this amount to?       0
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 116
+Variable Label: Do you do regular work without cash pay?
+Question Text: do you do any regular work without getting paid cash?  if yes, what type of job?  is this a part-time or full-time job
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 117
+Variable Label: What is your present or last occupation?
+Question Text: what is your present occupation or last occupation if unemployed
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 118
+Variable Label: Type of occupation?
+Question Text: would that be:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 119
+Variable Label: Do you know of a close friend or relative who died of AIDS?
+Question Text: do you know a close friend or relative who has died of aids
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 120
+Variable Label: Suburb?
+Question Text: suburb
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 121
+Variable Label: Town/City?
+Question Text: town or city
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 122
+Variable Label: District/ province?
+Question Text: district or province
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 123
+Variable Label: Country:
+Question Text: country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 124
+Variable Label: Language interview was conducted in?
+Question Text: which language or s was the interview conducted in
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 125
+Variable Label: Respondent's gender?
+Question Text: interviewer:  respondent’s gender
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 126
+Variable Label: Respondent’s race?
+Question Text: respondent’s race
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 127
+Variable Label: Did respondent have missing limbs?
+Question Text: did the respondent have any physical disabilities:  missing limbs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 128
+Variable Label: Was respondent blind, or nearly blind?
+Question Text: did the respondent have any physical disabilities:  blind, or nearly blind
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 129
+Variable Label: Did respondent cough repeatedly during the interview?
+Question Text: did the respondent have any physical disabilities:  did the respondent cough repeatedly during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 130
+Variable Label: What type of shelter does respondent live in?
+Question Text: in what type of shelter does the respondent live
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 131
+Variable Label: Did the household have windows?
+Question Text: did the household have windows
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 132
+Variable Label: Did household have glass in windows?
+Question Text: did the household have glass in windows
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 133       3
+Variable Label: What was roof made of?
+Question Text: what was the roof made of:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 134
+Variable Label: Other adults present listening during the interview?
+Question Text: were there any other adults immediately present who might be listening during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 135
+Variable Label: Did respondent consult others to answer questions?
+Question Text: did the respondent check with others for information to answer any question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 136
+Variable Label: Did anyone influence respondent's answers?
+Question Text: do you think anyone influenced the respondent’s answers during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 137
+Variable Label: What proportion of questions did respondent struggle to answer?
+Question Text: what proportion of the questions do you feel the respondent had difficulty answering
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 138
+Variable Label: Where was interview conducted?
+Question Text: was the interview conducted:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 139
+Variable Label: What was respondent’s attitude?
+Question Text: what was the respondent’s attitude toward you during the interview?  friendly or hostile
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 140
+Variable Label: What was respondent's attitude?
+Question Text: what was the respondent’s attitude toward you during the interview?  interested or bored
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 141
+Variable Label: What was respondent's attitude?
+Question Text: what was the respondent’s attitude toward you during the interview?  cooperative or uncooperative
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 142
+Variable Label: What was respondent's attitude?
+Question Text: what was the respondent’s attitude toward you during the interview?  patient or impatient
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 143
+Variable Label: What was respondent's attitude?
+Question Text: what was the respondent’s attitude toward you during the interview?  at ease or suspicious
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 144
+Variable Label: What was respondent's attitude?
+Question Text: what was the respondent’s attitude toward you during the interview?  honest or misleading
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 145
+Variable Label: Did your presence arouse interest from neighbors?
+Question Text: did your presence in the area arouse interest from the neighbors
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 146
+Variable Label: Did your presence arouse suspicion from neighbors?
+Question Text: did your presence in the area arouse suspicion from neighbors
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 147
+Variable Label: Did your presence arouse fear from neighbors?
+Question Text: did your presence in the area arouse fear from neighbors
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 148
+Variable Label: 1-2, 99
+Question Text: were you approached by community or party representatives
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 149
+Variable Label: Did you feel threatened during interview?
+Question Text: did you feel threatened during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 150
+Variable Label: Were you physically threatened during interview?
+Question Text: were you physically threatened during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 151
+Variable Label: Anything else significant happen during interview?
+Question Text: did anything else significant happen during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 152
+Variable Label: Interviewer number?
+Question Text: interview number
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 153
+Variable Label: Interviewer age?
+Question Text: age       6
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 154
+Variable Label: Do you come from rural or urban area?
+Question Text: interviewer:  do you come from a rural or urban area
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 155
+Variable Label: Interviewer's home language?
+Question Text: interviewer’s home language
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 156
+Variable Label: Interviewer's gender?
+Question Text: interviewer:  interviewer’s gender
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 157
+Variable Label: Interviewer's race?
+Question Text: interviewer’s race
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 158
+Variable Label: Interviewer's highest level of education?
+Question Text: interviewer’s highest level of education
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 159       7
+Variable Label: Is there a post-office in primary sampling unit?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  post office
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 160
+Variable Label: Is there a school in the primary sampling unit?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  school
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 161
+Variable Label: Is there a police station in the primary sampling unit?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  police station
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 162
+Variable Label: Is there a regular bus/taxi service in the PSU?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  regular bus or taxi service
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 163
+Variable Label: Is there an electricity grid accessible to most houses?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  electricity grid that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 164
+Variable Label: Is there a piped water system accessible to most houses?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  piped water system that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 165
+Variable Label: Is there a sewage system accessible to most houses?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  sewage system that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 166
+Variable Label: Is there a railway station?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  railway station
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 167
+Variable Label: Is there a health clinic?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  health clinic
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 168
+Variable Label: Are there recreational facilities?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  recreational facilities for eg a sports field
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 169
+Variable Label: Are there any places of worship such as churches, mosques?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  any churches, mosques, temples, or other places of worship
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 170
+Variable Label: Are there any townhalls or community buildings?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  any townhalls or community buildings that can be used for meetings
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 171
+Variable Label: Is there a petrol station?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  petrol station
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 172
+Variable Label: Is there a bottle store?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  bottle store?       9
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 173
+Variable Label: Is there a supermarket (food/ clothing)?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  supermarket (food and or or clothing)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 174
+Variable Label: Are there cafes, corner shops?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  cafes or corner shops or spaza shops
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 175
+Variable Label: Are there any market stalls (selling food/ clothing)?
+Question Text: are the following services present in the primary sampling unit or enumerator area:  market stalls (selling food and or or clothing)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 176
+Variable Label: Were there any police or police vehicles at PSU or EA?
+Question Text: at the psu or ea did you (or any of your colleagues) see:  any policemen or police vehicles
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 177
+Variable Label: Were there any soldiers or army vehicles?
+Question Text: at the psu or ea did you (or any of your colleagues) see:  any soldiers or army vehicles
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 178
+Variable Label: Was there any pavement along roads?
+Question Text: at the psu or ea did you (or any of your colleagues) see:  any pavement along the roads or streets
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 179
+Variable Label: Any household yards with crops/vegetables been grown?
+Question Text: at the psu or ea did you (or any of your colleagues) see:  any gardens or fields attached to households containing evidence of crops or vegetables being grown
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 180
+Variable Label: Any household yards/fields containing livestock?
+Question Text: at the psu or ea did you (or any of your colleagues) see:  any yards or fields attached to households containing livestock such as goats, sheep, cows, or horses
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 181
+Variable Label: Any household yards/fields with trees higher than one story?
+Question Text: at the psu or ea did you (or any of your colleagues) see:  any yards, gardens, or fields attached to households with trees growing in them that were larger than one story in height
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 182
+Variable Label: How many formal houses in PSU?
+Question Text: how many houses within the primary sampling unit are formal houses
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 183
+Variable Label: Type of area in which interview was conducted?
+Question Text: type of area in which interview was conducted
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 184
+Variable Label: Was the PSU clearly sign-posted the last 10km of journey?
+Question Text: thinking of the journey here:  was the psu clearly sign posted along the last 10km of your journey
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 185
+Variable Label: Any stop/give way signs along last 10km of journey?
+Question Text: thinking of the journey here:  were there any stop or give way signs along the last 10km of your journey?       1
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 186
+Variable Label: Any traffic lights or robots along last 10km of journey?
+Question Text: thinking of the journey here:  were there any traffic lights or robots along the last 10km of your journey
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 187
+Variable Label: Were they in working order?
+Question Text: thinking of the journey here:  if yes above, were all of them in working order
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 188
+Variable Label: Did you see a water-filled river in last 1km of journey?
+Question Text: thinking of the journey here:  did you (or any of your colleagues) see a water filled river during the last 1km of your journey
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 189
+Variable Label: Did you see a water-filled dam or lake in last 1km?
+Question Text: thinking of the journey here:  did you (or any of your colleagues) see a water-filled dam or lake during the last 1km of your journey
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 190
+Variable Label: How much of the last 10km was graded sand/dirt roads?
+Question Text: roughly how much of the last 10km of your journey were spent on these different sorts of roads:  graded sand or dirt roads
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 191
+Variable Label: How much of the last 10km was ungraded dirt roads?
+Question Text: roughly how much of the last 10km of your journey were spent on these different sorts of roads:  ungraded dirt roads
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 192
+Variable Label: How much of the last 10km journey was spent off road?
+Question Text: roughly how much of the last 10km of your journey were spent on these different sorts of roads:  off road
+    Variable Label: ''
+    Question Text: ''
+

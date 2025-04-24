@@ -1,0 +1,8 @@
+QuestionNumber: Q63PT2
+ValueLabels
+    25=Political violence, 35 26=Political instability/political divisions/ethnic tensions
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

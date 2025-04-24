@@ -1,0 +1,4 @@
+QuestionNumber: Q81
+ValueLabels
+    864=Karanga, 865-, =Manyika
+

@@ -1,0 +1,8 @@
+QuestionNumber: Q76A-TAN **
+ValueLabels
+    2= Do only if they choose3, =Always so
+
+QuestionNumber: Q77A_TAN **
+ValueLabels
+    3= Agree With Statemen2 4= Agree Very Strongly With Statement 2
+

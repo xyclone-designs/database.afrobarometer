@@ -1,0 +1,906 @@
+0-1, 9, 98, -1
+0-1, 9, 98, -1          49
+0-4, 9, 98, -1
+1-3, 9, 98, -1
+1-5, 9, 98, -1
+116A1.  Interviewer's ethnic community, cultural group or tribe
+Attribué par le superviseur  Numéro de la question: BACKCHK
+BEA-FAC-F. Bank in the PSU/EA
+Country
+Country in R5 Alphabetical Order
+County
+Date of interview
+District
+EA_ROAD_A.Tarred/paved road
+EA_ROAD_B. Impassible Road
+EA_SEC_D.Customs checkpoints in the PSU/EA
+EA_SEC_E. Roadblocks by local community in the PSU/EA
+EA-FAC-A. Post office in the PSU/EA
+EA-FAC-B. School in the PSU/EA
+EA-FAC-C. Police station in the PSU/EA
+EA-FAC-D. Health Clinic in the PSU/EA
+EA-FAC-E. Market stalls in the PSU/EA
+EA-FAC-E. Paid transport in the PSU/EA
+EA-SEC-A. Police in the PSU/EA
+EA-SEC-B. Soldiers/army in the PSU/EA
+EA-SEC-C. Roadblocks by police/army in the PSU/EA
+EA-SVC-A. Electricity grid in the PSU/EA
+EA-SVC-B. Piped water system in the PSU/EA
+EA-SVC-C. Sewage system in the PSU/EA
+EA-SVC-D. Cell phone service in the PSU/EA
+Household back-checked?
+Length of interview
+Number of adults in household
+Number of calls
+Previous interview, gender
+Previous interview, gender          8
+Province
+Province or region
+Q017b. Influence by others
+Q1. Age
+Q100-EGY. Perceived survey sponsor
+Q100. Perceived survey sponsor
+Q101. Gender of respondent
+Q102. Race of respondent
+Q103. Language of interview
+Q104. Type of shelter of respondent
+Q105. Roof of respondent's home
+Q106. Others present
+Q107a. Check with others
+Q107c. Approached by community/ party representatives
+Q107d. Feel threatened
+Q107e. Physically threatened
+Q108. Proportion difficulty answering
+Q109a. Trouble answering- first response
+Q109b. Trouble answering- second response
+Q109c. Trouble answering- third response
+Q10a. How often felt unsafe walking in neighborhood
+Q10a. How often felt unsafe walking in neighbourhood
+Q10b. How often feared crime in home
+Q110a. Respondent friendly
+Q110b. Respondent interested
+Q110c. Respondent cooperative
+Q110d. Respondent patient
+Q110e. Respondent at ease
+Q110f. Respondent honest
+Q112. Interviewer’s number
+Q112. Interviewer‟s number
+Q113. Interviewer’s age
+Q113. Interviewer‟s age
+Q114. Interviewer’s gender
+Q114. Interviewer‟s gender
+Q115. Interviewer urban or rural
+Q116. Interviewer's home language
+Q116. Interviewer’s ethnic community, cultural group or tribe
+Q116. Interviewer’s home language
+Q116. Interviewer‟s home language
+Q116A_1. Interviewer's ethnic community, cultural group or tribe
+Q116A_1. Interviewer’s ethnic community, cultural group or tribe
+Q116A1. Interviewer's ethnic community, cultural group or tribe
+Q116a1. Interviewer's ethnic group
+Q116A1. Interviewer's ethnicity
+Q116A1. Interviewer's Ethnicity
+Q116a1. Interviewer's ethnicity 660- 669, 9990, 9995, 9998-9999, -1
+Q116A1. Interviewer's Tribe/Ethnic Group
+Q116A1. Interviewer's Tribe/Ethnic Group           72
+Q116A1. Interviewer’s ethnic community, cultural group or tribe
+Q117. Interviewer’s education
+Q117. Interviewer‟s education
+Q11a. Had something stolen from your house
+Q11b. Have been physically attacked
+Q11b1-NAM. Been a victim of gender based violence
+Q12a. Radio news
+Q12b. Television news
+Q12c. Newspaper news
+Q12d. Internet
+Q12e.Social media
+Q13. Interest in public affairs
+Q14. Discuss politics
+Q15a. Freedom to say what you think
+Q15b. Freedom to join any political organizations
+Q15c. Freedom to choose who to vote for
+Q16. Government bans organization vs. join any
+Q17. Newspapers free to publish vs. government control
+Q17B-UGA. Citizens freely assemble vs. government control
+Q18. Men only as leaders vs. women leaders OK
+Q19a. Member of religious group
+Q19b. Member of voluntary association or community group
+Q2. Language of respondent
+Q2. Language of respondent       
+Q20a. Attend a community meeting
+Q20b. Join the others to raise an issue
+Q20c-Ken. Attended a county government meeting
+Q21_SEN. Voting in the most recent local election
+Q21. Voting in the most recent national election
+Q22_SEN. Freeness and fairness of the last local election of 2014
+Q22. Freeness and fairness of the last national election
+Q23a_SEN. Last local election: attend a campaign rally
+Q23a. Last national election: attend a campaign rally
+Q23b_SEN. Last local election: attend a campaign meeting
+Q23b. Last national election: Attend a campaign meeting?
+Q23c_SEN. Last local election: persuade others to vote for a certain candidate or party
+Q23c. Last national election: persuade others to vote for a certain candidate
+Q23c. Last national election: persuade others to vote for a certain candidate or party
+Q23d. Last local election: work for a candidate or party
+Q23d. Last national election: work for a candidate
+Q23d. Last national election: work for a candidate or party
+Q23e-Lib Voting in 2014 Special Senatorial Elections
+Q23f-Lib Freeness and fairness of 2014 Special Senatorial Election
+Q24a. Contact local government councilor
+Q24a1-NAM. Contact regional councillor
+Q24b. Contact MP
+Q24c. Contact official of a government agency
+Q24d. Contact political party official
+Q24e. Contact traditional leader
+Q24f. Contact religious leader
+Q24g-Ken. Contact ombudsman (public complaints office)
+Q25a. Contacting alone or in group
+Q25b. Contacting for community or personal problem
+Q26a. Citizens vote
+Q26a. Citizens vote          17
+Q26b. Citizens avoid criticizing government
+Q26b. Citizens avoid criticizing government          17
+Q26b. Citizens avoid criticizing government          18
+Q26c. Citizens complain for poor services
+Q26d_MOR. Citizens request personal assistance from elected leaders
+Q26d. Citizens request personal assistance from elected leaders
+Q26e. Citizens pay taxes
+Q26e. Citizens pay taxes          18
+Q26f. Citizens agree with community on political issues.
+Q27a. Join others to request government action
+Q27b_MOR. Use social media like facebook to request actions from government
+Q27b. Contact media
+Q27c. Contact official for help
+Q27d. Refuse to pay a tax or fee to government
+Q28a. Reject one-party rule
+Q28b. Reject military rule
+Q28c.Reject one-man rule
+Q28d_ARB. A system governed by Islamic law without elections or political parties
+Q28D_ARB.Reject system governed by Islamic law without elections or political parties
+Q28d_SAF. Reject Apartheid
+Q28d_SWZ. Elections and Parliament are abolished so that the King can decide everything
+Q29a. Understand democracy
+Q29b. Democracy- 1st response (verbatim)
+Q29b. Democracy- 1st response (verbatim)          20
+Q29c. Democracy- 2nd response (verbatim)
+Q29c. Democracy- 2nd response (verbatim)          21
+Q29d. Democracy- 3rd response (verbatim)
+Q29e. Democracy- 1st response (code)
+Q29f. Democracy- 2nd response (code)
+Q29g. Democracy- 3rd response (code)
+Q3. Overall direction of the country
+Q30. Support for democracy
+Q30b_SAF. Support non-elected government
+Q31. Government gets things done but no citizen influence vs. government accountable to citizens
+Q32_MOR. Choose representatives through elections vs. other methods
+Q32. Choose leaders through elections vs. other methods
+Q33. Political parties divisive vs. many parties needed
+Q34. President monitored by parliament vs. free to act on own
+Q34. President monitored by parliament vs. free to act on own          23
+Q34. President monitored by the National Assembly vs. free to act on own
+Q35. Opposition parties examine government vs. cooperate
+Q35. Opposition parties examine government vs. cooperate       
+Q36. Media checks government vs. avoid negative reporting
+Q37. Parliament makes laws vs. King does
+Q37. Parliament makes laws vs. president does
+Q37. The National Assembly makes laws vs. president does
+Q38. President free to act vs. obey the laws and courts
+Q38. President free to act vs. obey the laws and courts          23
+Q39_ARB_a. Democracy is a system that contradicts the teachings of Islam
+Q39_ARB_b. In a Muslim country, non-Muslims should enjoy less political rights than Muslims
+Q39_ARB_b. In a Muslim country, non-Muslims should enjoy less political rights than Muslims.
+Q39_ARB_c. Religious leaders like imams, preachers and priests should not interfere in voters' decisions in elections
+Q39_ARB_c. Religious leaders like imams, preachers and priests should not interfere in voters’ decisions in elections
+Q39_ARB_d. Our country is better off if religious people hold public positions in the state
+Q39_ARB_d. Our country is better off if religious people hold public positions in the state.
+Q39_ARB_d. Our country is better off if religious people hold public positions in the state.           27
+Q39. Presidential two term limit vs. no term limits
+Q40. Extent of democracy
+Q40. Extent of democracy          23
+Q41. Satisfaction with democracy
+Q42a. Courts make binding decisions
+Q42b. People must obey the law
+Q42c. People must pay taxes
+Q43. Obey government always vs. only if vote for it
+Q43. Obey government always vs. only if vote for it          24
+Q44. Citizens must pay taxes vs. no need to tax the people
+Q45a. How often news media abuse their freedom
+Q45b. How often party competition leads to conflict
+Q45c. how often president ignores laws
+Q45c1-STP. how often prime minister ignores laws
+Q45d. How often opposition parties silenced by government
+Q45d. How often opposition parties silenced by government          25
+Q45e. How often president ignore parliament
+Q45e. How often president ignore the National Assembly
+Q45e1-STP. How often prime minister ignore parliament
+Q46. How effective the news media reveals government mistakes and corruption
+Q46. How effective the news media reveals government mistakes and corruption          25
+Q47a. Elections ensure voters' views are reflected
+Q47b. Elections enable voters to remove leaders from office
+Q48a. Elections: fair count of votes
+Q48a. Elections: fair count of votes          26
+Q48b. Elections: opposition prevented from running
+Q48c. Elections: fair media coverage
+Q48d. Elections: voters are bribed
+Q48d. Elections: voters are bribed       
+Q48e. Elections: voters have genuine choice
+Q48e. Elections: voters have genuine choice          26
+Q48f. Elections: voters threatened
+Q49. How much fear political intimidation or violence
+Q4A. Country’s present economic condition
+Q4A. Country‟s present economic condition
+Q4B. Your present living conditions
+Q5. Your living conditions vs. others
+Q50. Leaders serve interests of people or their own
+Q50. Leaders serve interests of people or their own          27
+Q51a. How often careful what you say
+Q51b. How often people treated unequally
+Q51b. How often people treated unequally           29
+Q51c. How often officials unpunished
+Q51d. How often ordinary people unpunished
+Q51d. How often ordinary people unpunished          27
+Q51e_SWZ. Do people fear being evicted from their land
+Q51e-Ken. How often ethnic considerations play a role in government appointments
+Q51e-UGA. How often ethnicity influences govt appointments
+Q52-m_Tan. Trust  PCCB
+Q52a. Trust president
+Q52a. Trust prime minister
+Q52a1_MOZ. Trust prime minister
+Q52a1-CVE. Trust prime minister
+Q52a1-NAM. Trust prime minister
+Q52a1. Trust King
+Q52a1. Trust Prime Minister
+Q52b. Trust parliament/national assembly
+Q52b1_SWZ. The Queen Mother
+Q52b1-NAM. Trust national council
+Q52c. Trust national electoral commission
+Q52c1_SAF. Trust the Premier of this province
+Q52d. Trust tax department
+Q52d1-NAM. Trust regional council
+Q52e. Trust your elected local government council
+Q52E1_MOZ. Trust provincial government
+Q52e1-Ken. Trust your county governor
+Q52e1-NAM. Trust your appointed regional governor
+Q52f_egy. Trust the government in power
+Q52f. Trust the ruling party
+Q52g. Trust opposition political parties
+Q52h. Trust police
+Q52h1_SAF. Trust the Office of the Public Protector
+Q52h2_SAF. Trust the National Prosecuting Authority, the NPA
+Q52h3_SAF. Trust the Directorate of Priority Crime Investigations, the Hawks
+Q52i. Trust army
+Q52j. Trust courts of law
+Q52k. Trust traditional leaders
+Q52k1_SWZ. Trust traditional leaders - bucopho
+Q52l. Trust religious leaders
+Q52m_SAF. Trust Government broadcasting service (SABC TV and radio)
+Q52m-Ken. Trust the media
+Q52m-Lib. Trust civil society organizations
+Q52m-Nig. Trust your state Governor
+Q52m-SRL: Trust the Constitutional Review Committee
+Q52m-UGA. Trust the media
+Q52n_SAF. Trust Independent broadcasting services (E TV, Radio 702 and community radio stations)
+Q52n-UGA. Trust Government ministers
+Q53A_EGY.Corruption: officials in the Presidency
+Q53a. Corruption: office of the Presidency
+Q53a. Corruption: office of the Prime Minister
+Q53a1_MOZ. Corruption: office of the Prime Minister
+Q53a1-CVE. Corruption: office of the Prime minister
+Q53a1-NAM. Corruption: Prime Minister
+Q53a1-STP. Corruption: office of the Prime Minister
+Q53b. Corruption: Members of Parliament
+Q53b1-NAM. Corruption: Representatives to the national council
+Q53c. Corruption: government officials
+Q53d. Corruption: local government councilors
+Q53d1_MOZ. Corruption: provincial government councilors
+Q53d1-Ken. Corruption: Office of the Governor
+Q53d1-NAM. Corruption: regional councilors
+Q53d2-NAM. Corruption: regional governors
+Q53e. Corruption: police
+Q53e1-Ken. Corruption: Military (KDF)
+Q53e1-UGA. Corruption: UPDF
+Q53f. Corruption: tax officials
+Q53f. Corruption: tax officials       
+Q53G_EGY. Corruption: court officials
+Q53g. Corruption: judges and magistrates
+Q53h. Corruption: Traditional leaders
+Q53h1_SWZ. Corruption: traditional leaders - bucopho
+Q53i. Corruption: Religious leaders
+Q53j. Corruption: business executives
+Q53k_Tan. Corruption: PCCB
+Q53k-Nig. Corruption: State Governors and officials in their office
+Q53l-Nig. Corruption: state assembly members
+Q53m-Nig. Corruption: local government chairpersons and their officials
+Q54. Level of corruption
+Q54. Level of corruption          32
+Q55a. Difficulty to obtain public school services
+Q55a.Tan. Difficulty to obtain the medical care you needed
+Q55b. Pay bribe for public school services
+Q55b. Pay bribe for public school services          31
+Q55b. Pay bribe for public school services          32
+Q55b.Tan. Pay bribe for treatment at private clinic or hospital
+Q55c. Difficulty to obtain medical treatment
+Q55c. Difficulty to obtain medical treatment          31
+Q55d. Pay bribe for treatment at public clinic or hospital
+Q55d. Pay bribe for treatment at public clinic or hospital          33
+Q55e. Difficulty to obtain identity document
+Q55f. Pay bribe for document or permit
+Q55g. Difficulty to obtain household services
+Q55g. Difficulty to obtain household services       
+Q55h. Pay bribe for water or sanitation services
+Q55i. Difficulty to obtain help from the police
+Q55j. Pay bribe to avoid problem with police
+Q55j. Pay bribe to avoid problem with police          33
+Q55k. Difficulty to obtain assistance from courts
+Q55k. Difficulty to obtain assistance from courts          33
+Q55l. Pay bribe to get assistance from courts
+Q56. Reported payment of bribes to government
+Q57a. Bribery: authorities took action
+Q57b. Bribery: suffered retaliation
+Q58. Main reason for not reporting corruption
+Q59a.  MPs listen
+Q59a1-NAM. Representatives to national council listen
+Q59b_MOZ. Provincial government councilors listen
+Q59b. Local government councilors listen
+Q59b1-NAM. Regional councilors listen
+Q59c_SWZ. Inkhundla Council Members listen
+Q59c_Tan. Village/Mtaa chairperson listen
+Q59C-MOZ. Municipal government councilors listen
+Q59c-NAM. Traditional leaders listen
+Q59c-Nig. State Assembly members listen
+Q6. Country's economic condition compared to 12 months ago
+Q60pt1. Most important problems – 1st response
+Q60pt2. Most important problems – 2nd response
+Q60pt3. Most important problems – 3rd response
+Q61a_SUD. Handling first problem
+Q61a. Handling first problem
+Q61b. Other political party could solve this problem
+Q62. Main difference between ruling and opposition parties
+Q63_egy_a. Ruling vs. opposition: controlling prices
+Q63_egy_b. Ruling vs. opposition: creating jobs
+Q63_egy_c. Ruling vs. opposition: improving health services
+Q63_egy_d. Ruling vs. opposition: fighting corruption
+Q63a. Ruling vs. opposition: controlling prices
+Q63a. Ruling vs. opposition: controlling prices          36
+Q63a. Ruling vs. opposition: controlling prices          37
+Q63b. Ruling vs. opposition: creating jobs
+Q63b. Ruling vs. opposition: creating jobs          37
+Q63c. Ruling vs. opposition: Improving basic health services
+Q63d. Ruling vs. opposition: Fighting corruption in government
+Q63e-Ken. Ruling vs. opposition: Combating insecurity
+Q64. Political opposition is viable alternative
+Q65a. First priority for investment
+Q65a. First priority for investment          37
+Q65b. Second priority for investment
+Q65c. Pay more taxes to increase health spending
+Q65c. Pay more taxes to increase health spending          38
+Q66a. Handling managing the economy
+Q66b. Handling improving living standards of the poor
+Q66c. Handling creating jobs
+Q66d. Handling keeping prices down
+Q66e. Handling narrowing income gaps
+Q66f. Handling reducing crime
+Q66g. Handling improving basic health services
+Q66h. Handling addressing educational needs
+Q66i. Handling providing water and sanitation services
+Q66j. Handling ensuring enough to eat
+Q66k. Handling fighting corruption
+Q66l. Handling and maintaining roads and bridges
+Q66m. Handling providing reliable electric supply
+Q66n_SAF. Handling uniting all South Africans into one nation
+Q66n-Ken. Handling fighting terrorism in Kenya
+Q66n-Lib. Handling managing the Ebola virus outbreak
+Q66n-SRL: Handling managing Ebola virus outbreak
+Q66n-UGA. Handling fighting terrorism in Uganda
+Q66o_SAF. Handling distributing welfare payments to those who are entitled to them
+Q66o-Lib Handling managing National Reconciliation
+Q66o-SRL: Handling stemming armed robberies
+Q66p_SAF. Handling managing immigration
+Q66p-SRL: Handling problem of flooding
+Q66q-SRL: Handling fighting malaria
+Q66r-SRL: Handling addressing environmental degradation
+Q67a. Local govt. handling maintaining roads
+Q67b. Local govt. handling maintaining local markets
+Q67c_SWZ. Inkhundla handling planning and coordinating development
+Q67c-Ken. County govt. handling providing basic health services
+Q67c1_SAF. Rate the way the country was governed under apartheid.
+Q67c2_SAF. Rate the current system of government
+Q67c3_SAF. Rate the political system of this country expected in 10 years time
+Q67d_SWZ. Inkhundla. handling providing and maintaining infrastructure
+Q68a-MOZ. Performance: Prime Minister
+Q68a. Performance: President
+Q68a. Performance: Prime Minister
+Q68a1-CVE. Performance: Prime Minister
+Q68a1-NAM. Performance: Prime Minister
+Q68a1-STP. Performance: Prime Minister
+Q68b. Performance: MP/National Assembly rep.
+Q68b1_SAF. Performance: Premier of this province
+Q68b1-CVE. Performance: Mayor
+Q68b1-NAM. Performance: National Council reps.
+Q68b1-STP. Performance: elected Mayor
+Q68b2-NAM. Performance: Elected Regional Councilor
+Q68c. Performance: local government councilor
+Q68c1-Ken. Performance: County governor
+Q68c1-NAM. Performance: regional governor
+Q68d. Performance: traditional leader
+Q68e-Nig. Performance: Your State Governor
+Q68e-SRL: Performance: Members of Constitutional Review Committee
+Q69a_SWZ. Who responsible: Members of Parliament do jobs
+Q69a. Who responsible: MPs do jobs
+Q69b_SWZ. Who responsible: local councilors do jobs
+Q69b. Who responsible: local councilors do jobs
+Q69B1_MOZ. Who responsible: municipal councilor does job
+Q69c_SWZ. Who responsible: Prime Minister does job
+Q69c. Who responsible: president does job
+Q69c1-CVE. Who responsible: prime minister does job
+Q69c1-NAM. Who responsible: regional governors do jobs
+Q69c1-STP. Who responsible: Prime Minister does job
+Q69d_SWZ. Who responsible: president does job
+Q69d-Nig. Who responsible: state governors do their job
+Q69e-Nig. Who responsible: state assembly members do their job
+Q7. Country's economic condition in 12 months time
+Q70a. Difficulty to find out what taxes or fees to pay
+Q70b. Difficulty to avoid paying taxes
+Q70c_Tan. Difficulty to find out how government spends revenues
+Q71a. People can fight corruption
+Q71b. Most effective way to combat corruption
+Q72. Contact with government court or tribunal
+Q73a. Problems with courts: too expensive
+Q73b. Problems with courts: too complex
+Q73c. Problems with courts: no advice
+Q73d. Problems with courts: judge did not listen
+Q73e. Problems with courts: long delays
+Q74a. 1st reason for not taking case to court
+Q74b. 2nd reason for not taking case to court
+Q75b. Right or wrong: not paying the taxes
+Q76. Free movement across borders vs. limit movement
+Q77. Regional responsibility to prevent abuses vs. respect sovereignty of nations
+Q78. Difficulty of crossing borders
+Q79a. Regional organisation helps country
+Q79b. African Union helps country
+Q79egy_c.COMESA helps country
+Q80a. Model country for development
+Q80b. Country with most influence
+Q80c_SAF. Country SA should prioritize international relations with
+Q81a_SWZ. Taiwan’s influence on economy
+Q81a. China's influence on economy
+Q81b_SWZ. Taiwan‘s influence: positive or negative
+Q81b. China's influence: positive or negative
+Q81c_SWZ. Positive image of Taiwan
+Q81c. Positive image of China
+Q81d_SWZ. Negative image of Taiwan
+Q81d. Negative image of China
+Q81e_SWZ. Taiwan’s assistance does a good job at meeting country's needs
+Q81e. China's assistance does a good job at meeting country's needs
+Q82_BDI. Independence of the judiciary from the executive vs. dependent
+Q82_NGR. Best solution to youth unemployment
+Q82-STP. Prime minister governs vs. President directly governs
+Q82A_ALG. Impact of Arab Spring: Northern Africa
+Q82a_CDI. Best option for lasting peace and reconciliation in country
+Q82A_EGY. Impact of Arab Spring: Northern Africa
+Q82a_MLI. Recent trade union strikes are justified
+Q82A_MOR. Impact of Arab Spring: North African region
+Q82a_MOZ. Public officials have right to privacy vs should disclose assets
+Q82A_NAF. Impact of Arab Spring: Northern Africa
+Q82A_NAM. Factors contributing to gender based violence_Cultural and traditional values
+Q82a_SAF. Trade unions should operate without government influence/control
+Q82A_SEN: Best way to fight high youth unemployment
+Q82A_SUD. Impact of Arab Spring: Northern Africa
+Q82a_SWZ. Confidence in: The Lawyers Society          46
+Q82A_Tan. Three levels of government divisive Vs Three levels of government better
+Q82a_ZIM. Knowledge about new constitution
+Q82a-CVE. Have the President and the Prime Minister worked well together or is their relationship tense
+Q82a-Ken. Support call for a public referendum
+Q82a-Lib. Those standing for election need not confess to crimes against humanity before election vs must first confess
+Q82a-Nig. Supporting extremist groups: Traditional leaders
+Q82a-SRL. Dismiss elected officials who join another party after elections
+Q82a-UGA. President should no longer appoint Electoral Commission Members
+Q82A-ZAM. Amount of time MP should spend in constituency
+Q82B_ALG. Impact of Arab Spring: Algeria
+Q82b_CDI. Solution for ex-combatants
+Q82B_EGY. Impact of Arab Spring: Egypt
+Q82b_MLI. Government's reaction to trade union strikes
+Q82B_MOR Impact of Arab Spring: Morocco
+Q82b_MOZ. National Assembly representatives should not hold other public positions vs can hold
+Q82B_NAF. Impact of Arab Spring in country
+Q82B_NAM. Factors contributing to gender based violence_Alcohol abuse
+Q82b_SAF. COSATU leaders more concerned about political power than workers' interest
+Q82B_SEN: Best way to improve local govt efficacy
+Q82B_SUD. Impact of Arab Spring: Sudan
+Q82b_SWZ. Confidence in: The Chief Justice
+Q82B_Tan. Three levels of government too costly Vs Cost not an issue
+Q82b_ZIM. Best way to enable more Zimbabweans to learn about new constitution          46
+Q82b-CVE. Who is responsible for the deterioration in relations, the President or the Prime Minister
+Q82b-Ken. National government not disbursing adequate funds to counties
+Q82b-Lib. UNMIL can now depart vs should remain until after 2017 elections
+Q82b-Nig. Supporting extremist groups: Local government officials
+Q82b-SRL: Limit number of presidential appointments in public institutions
+Q82b-UGA. Law should bar special assistance voters
+Q82B-ZAM. Amount of time MP spends in the constituency
+Q82bother_ZIM. Best way to enable more Zimbabweans to learn about new constitution (verbatim)
+Q82c_MLI. Which sectors should be excluded from going on strike
+Q82C_NAM. Factors contributing to gender based violence_Poverty
+Q82c_SAF. SA needs new workers' party to defend working class
+Q82C_SEN: Best way to improve public health in Senegal today
+Q82c_SWZ. Confidence in: The judiciary
+Q82C_Tan. Reading of the new draft constitution
+Q82c_ZIM. Main role for CSOs in Zimbabwe today
+Q82c-CVE. Has the relationship between the President and Prime Minister negatively impacted the state's institutions' operations
+Q82c-Ken. County governments can raise enough resources on their own
+Q82c-Nig. Supporting extremist groups: Senior officials in Federal and Central government
+Q82c-SRL: Reserve seats for women in parliament
+Q82c-UGA. Presidential candidates name running-mate before elections
+Q82ca-Lib. Political parties should disclose sources of their funds
+Q82cb-Lib. Political parties that wins 10% of seats in parliament should receive public fund
+Q82cc-Lib. Limit amount of money that an individual or company can contribute to a political party
+Q82D_NAM. Factors contributing to gender based violence_Unemployment
+Q82d_SWZ. Confidence in: Traditional courts
+Q82D_Tan-A. Attended constitution review consultation meetings
+Q82D_Tan-B. Gave views to the Constitution Review Committee
+Q82D_Tan-C. Tried to persuade others to attend consultation
+Q82D_Tan-D. Followed  the debates about the constitution closely
+Q82D_Tan-E. Not aware of consultation process on the constitution going on
+Q82d-Ken. The constitution should be amended to resolve revenue sharing and dispute resolution between county and nation
+Q82d-Nig. Supporting extremist groups :Members of the Nigeria Military
+Q82d-SRL: Satisfaction with implementation of constitutional review process
+Q82d-UGA. Election results should be declared at Constituency level
+Q82e-Ken. Overall satisfaction with implementation of the new constitution
+Q82e-Nig. Supporting extremist groups: Members of the National assembly
+Q82e-UGA. Candidates buying votes should be banned for 5 years
+Q82eSRL: Level of public input in constitutional review process
+Q82f-Nig. Supporting extremist groups: Nigerian Muslims
+Q82f-UGA. Most important issue ahead of 2016 election
+Q82g-Nig. Supporting extremist groups: International extremist groups
+Q83_BDI. Have you ever heard of Reconciliation and Truth Commission
+Q83_NAM Government should adopt Basic Income Grant, even if it means increases taxes
+Q83_ZIM. Citizens should leave running of country to elected leaders vs. Participate in national and community affairs
+Q83-CVE. Prime Minister who governs and a President with limited power vs. President is directly responsible for governance
+Q83-STP. Reduce the number of national assembly representatives
+Q83A_ALG. Freedom of Speech now vs before Arab Spring
+Q83a_CDI. Best for national reconciliation: Victim identification and reparation having regard to the extent of damage suffered
+Q83A_EGY. Freedom of Speech now vs before Arab Spring
+Q83A_MOR. Freedom of Speech now vs before Arab Spring
+Q83a_MOZ. Govt making sure people benefit from country's natural resources
+Q83A_NAF. Freedom of Speech now vs before Arab Spring
+Q83A_NGR. Weak state presence increases risk of terrorism
+Q83a_SAF. Politically persecuted foreigners deserve protection in SA
+Q83A_SEN: Heard of the Court of Repression of Illicit Enrichment (CREI)
+Q83A_SUD. Freedom of Speech now vs before Arab Spring
+Q83a_SWZ. The judiciary should be independent and guided only by the law
+Q83a-Ken. Difficulty to participate in County budgeting and planning
+Q83a-Lib. Know close friend or relative who was infected with Ebola
+Q83a-Nig. Main reason why some people in Nigeria support and assist extremist groups
+Q83a-SRL: Know close friend or relative who was infected with Ebola
+Q83a-UGA. Homosexuality illegal vs. equal rights
+Q83A-ZAM. Parliament vs. Constituency committee to decide how CDFs are utilized
+Q83aother-Nig. Main reason why some people in Nigeria support and assist extremist groups (Verbatim)
+Q83B_A_SEN: The CREI helped build confidence in government institutions
+Q83B_ALG. Govt respect for human rights now vs before Arab Spring
+Q83B_B_SEN: The CREI slowed down international investments with Senegalese companies
+Q83B_C_SEN: The CREI's prejudice not credible; increases popularity of accused
+Q83b_CDI. Best for national reconciliation: Victim identification and return of property
+Q83B_EGY. Govt respect for human right now vs before Arab Spring
+Q83B_MOR. Govt respect for human rights now vs before Arab Spring
+Q83b_MOZ. Group benefits most from exploitation of natural resources
+Q83B_NAF. Govt respect for human rights now vs before Arab Spring
+Q83B_NGR. How should authorities control jihadi and terrorist propaganda
+Q83b_SAF. Foreigners not be allowed to live in SA because they take jobs and benefits
+Q83B_SUD. Govt respect for human rights now vs before Arab Spring
+Q83b_SWZ. Parliament should have the power to  remove the Chief Justice
+Q83b-Ken. Difficulty to influence county decision making
+Q83b-Lib. Know close friend or relative who died of Ebola
+Q83b-Nig. Main reason why some Nigerians join extremist groups
+Q83b-SRL: Know close friend or relative who died of Ebola
+Q83b-UGA. Would not mind having co-worker who's in same-sex relationship
+Q83B-ZAM. Primary source for obtaining news about deliberations in the National Assembly
+Q83bother-Nig. Main reason why some Nigerians join extremist groups (Verbatim)
+Q83C_ALG. Preservation of law, order and stability now vs before Arab Spring
+Q83c_CDI. Best for national reconciliation: Victim identification and compensation for damages in the form of a lump sum
+Q83C_EGY. Preservation of law, order and stability now vs before Arab Spring
+Q83C_MOR. Preservation of law, order and stability now vs before Arab Spring
+Q83C_NAF. Preservation of law, order and stability now vs before Arab Spring
+Q83c_SAF. Immigration policies should favour exceptionally skilled foreigners/foreign investors
+Q83C_SUD. Preservation of law, order and stability now vs before Arab Spring
+Q83c_SWZ. Swazi nationals should be allowed to hold South African citizenship (Dual citizenship)
+Q83c-Ken. Difficulty to access information on county budgets, legislation and project plans
+Q83c-Nig.Effectiveness of Nigeria government efforts to address armed extremists
+Q83c-UGA. Would not mind having supervisor who's in same-sex relationship
+Q83D_ALG. Corruption among public officials now vs before Arab Spring
+Q83d_CDI. Best for national reconciliation: Ensuring the safety of Ivorian refugees and IDPs returning
+Q83D_EGY. Corruption among public officials now vs before Arab Spring
+Q83D_MOR. Corruption among public officials now vs before Arab Spring
+Q83D_NAF. Corruption among public officials now vs before Arab Spring
+Q83D_SUD. Corruption among public officials now vs before Arab Spring
+Q83d-Ken. Overall satisfaction with public participation in the operations of the county government
+Q83d-UGA. Would not mind having religious community member who's in same-sex relationship
+Q83d1-Nig. Way for government to be more effective in addressing extremist groups: 1st Response
+Q83d1other-Nig. Way for government to be more effective in addressing extremist groups: 1st Response (verbatim)
+Q83d2-Nig. Way for government to be more effective in addressing extremist groups: 2nd Response
+Q83d2other-Nig. Way for government to be more effective in addressing extremist groups: 2nd Response (verbatim)
+Q83E_ALG. Income gap between rich and poor now vs before Arab Spring
+Q83e_CDI. Best for national reconciliation: Reintegration of Ivorian refugees and IDPs
+Q83E_EGY. Income gap between rich and poor now vs before Arab Spring
+Q83E_MOR. Income gap between rich and poor now vs before Arab Spring
+Q83E_NAF. Income gap between rich and poor now vs before Arab Spring
+Q83E_SUD. Income gap between rich and poor now vs before Arab Spring
+Q83E_Tan. Most responsible when students perform poorly (verbatim)
+Q83E_Tan. Most responsible when students perform poorly in examinations
+Q83F_ALG. Regional inequality now vs before Arab Spring
+Q83f_CDI. Best for national reconciliation: Unfreezing assets for Ivorian refugees and IDPs
+Q83F_EGY. Regional inequality now vs before Arab Spring
+Q83F_MOR. Regional inequality now vs before Arab Spring
+Q83F_NAF. Regional inequality now vs before Arab Spring
+Q83F_SUD. Regional inequality now vs before Arab Spring
+Q83G_ALG. Public's right to choose leaders now vs before Arab Spring
+Q83G_EGY. Public's right to choose leaders now vs before the Arab Spring
+Q83G_MOR. Public's right to choose leaders now vs before the Arab Spring
+Q83G_NAF. Public's right to choose leaders now vs before Arab Spring
+Q83G_SUD. Public's right to choose leaders now vs before Arab Spring
+Q83H_ALG. Political competition now vs before Arab Spring
+Q83H_EGY. Political competition now vs before the Arab Spring
+Q83H_MOR. Political competition now vs before the Arab Spring
+Q83H_NAF. Political competition now vs before Arab Spring
+Q83H_SUD. Political competition now vs before Arab Spring
+Q83I_ALG. Reputation of Govt now vs before Arab Spring
+Q83I_EGY. Reputation of govt now vs before the Arab Spring
+Q83I_MOR. Reputation of govt now vs before the Arab Spring
+Q83I_NAF. Reputation of Govt now vs before Arab Spring
+Q83I_SUD. Reputation of Govt now vs before Arab Spring
+Q83MLI. Which intervention should Govt promote to tackle youth unemployment?
+Q83Tan_A. Skills taught in schools are compatible with development needs
+Q83Tan_B. The salaries paid to public school  teachers are not sufficient
+Q83Tan_C. Most teachers in this country are not well trained
+Q83Tan_D. The entire education curriculum should be reformed
+Q84_ALG. Govt can violate human rights to ensure peace and security vs never violate human rights
+Q84_BDI. Factors limiting the effectiveness of CVR
+Q84_CDI. Public officials should not hold several positions vs current practice of allowing them to hold several official functions ok
+Q84_EGY. Govt can violate human rights to ensure peace and security vs never violate human rights
+Q84_MOR. Govt can violate human rights to ensure peace and security vs never violate human rights
+Q84_NAF. Govt can violate human rights to ensure peace and security vs never violate human rights
+Q84_SUD. Govt can violate human rights to ensure peace and security vs never violate human rights
+Q84_SWZ. Government should honor trade agreements vs consider national interest
+Q84_ZIM. Male circumcision made mandatory vs. remain voluntary
+Q84-CVE. Government's priority should be to develop the country's infrastructure vs should be to create direct incentives for the private sector
+Q84-STP. Current administrative division too few, too many or about right
+Q84a_MLI. Member of youth organisation
+Q84a_MOZ. Families should never be displaced for exploitation of natural resources
+Q84A_NAM. Too much emphasis placed on rewarding party loyalty at the expense of service delivery
+Q84A_NGR. Some traditional leaders support and help Boko Haram
+Q84a_SAF. Change since 1994 transition: personal/family safety
+Q84A_SEN: Senegalese mining industry contributes to job creation and local development
+Q84a-Ken. Involvement of KDF in Somalia necessary despite terrorist problems resulting from it
+Q84a-Lib. Unable to attend school due to Ebola
+Q84a-Nig. Creation of more states will improve development vs Creation of more states will have no positive impact
+Q84a-SRL: Unable to attend school due to the Ebola
+Q84A-ZAM. Husbands have right to physically punish wives
+Q84b_MLI. Member of women's organisation
+Q84b_MOZ. CSOs should be watchdogs of govt and political parties
+Q84B_NAM. Process handling government tenders should be reformed to get rid of nepotism and favourism
+Q84B_NGR. Some Muslims support and help Boko Haram
+Q84b_SAF. Change since 1994 transition: personal/family economic circumstances
+Q84B_SEN: Senegalese mining industry benefits the foreign mining companies
+Q84b-Ken. The KDF should pull out of Somalia
+Q84b-Lib. Unable to work due to Ebola
+Q84b-Nig. Remain united even if extremist groups continue vs Split into two countries if problems cannot be resolved
+Q84b-SRL: Unable to work due to Ebola
+Q84B-ZAM. Parents have right to physically punish children
+Q84c_MLI. Member of ethnic organisation
+Q84C_NAM. Proposal to increase salaries of Office bearers, parliamentarians and executives of State Owned Enterprises should not be implemented
+Q84C_NGR. Some politicians support and help Boko Haram
+Q84c_SAF. Change since 1994 transition: personal/family employment opportunities
+Q84C_SEN: Mining and natural resources is transparent
+Q84c-Ken. Nyumba kumi security initiative should be supported
+Q84c-Lib. Unable to attend social gatherings due to Ebola
+Q84c-Nig. There should be state police in Nigeria
+Q84c-SRL: Unable to attend social gatherings due to Ebola
+Q84C-ZAM. Teachers have right to physically punish pupils
+Q84d_MLI. Member of family organisation
+Q84D_NGR. Some media support and help Boko Haram
+Q84d_SAF. Change since 1994 transition: race relations
+Q84d-Ken. KDF should be deployed internally Vs KDF should only be used for external aggressions: Statement 1: The Kenya Defense Forces or KDF should be deployed to handle internal security matters just like the police. Statement 2:  The KDF should only be used for matters involving external aggressions.
+Q84d-Lib. Unable to get medical care for other health problems due to Ebola
+Q84d-SRL: Unable to get medical care for other health problems due to Ebola
+Q84e_MLI. Member of savings and credit tontine
+Q84E_NGR. Some regions support and help Boko Haram
+Q84e_SAF. Change since 1994 transition: gap between rich and poor
+Q84E_SEN: Senegalese mining industry leads to environmental degradation
+Q84F_NGR. Some civil society organisations support and help Boko Haram
+Q84F_SEN: Senegalese mining industry has helped the country overall
+Q84G_NGR. Some western countries support and help Boko Haram
+Q84TAN_A.  Handling Making audit findings of the council known to the people
+Q84TAN_B.  Handling complaints about local government councillors or officials
+Q84TAN_C.  Handling guaranteeing that local government revenues are used well
+Q84TAN_D.  Handling managing conflicts over land
+Q85_MOZ. Greatest challenge in acquiring land
+Q85-STP. Set quota of seats for women in the national assembly
+Q85-UGA. Join others in mob-justice
+Q85A_ALG. How active is Islamic movement in Algeria: ISIL
+Q85A_BDI. Have you ever heard of the National Commission of Land and other Assets?
+Q85a_CDI. Public health clinics compared to non-public: Attitude
+Q85A_EGY. How active is Islamic movement in Egypt: ISIL
+Q85a_MLI. Best option in resolving the crisis in the North
+Q85A_MOR. How active is Islamic movement in Morocco: ISIL
+Q85A_NAF. How active is Islamic movement in country: ISIL
+Q85A_NAM. Reduce defense budget in favour of poverty reduction
+Q85A_NGR. Main reason for the agreement between certain individuals and Boko Haram
+Q85a_SAF. Meaning of "reconciliation"
+Q85A_SUD. How active is Islamic movement in Sudan: ISIL
+Q85a_SWZ. Trade Unions operate without any government influence or control vs government control
+Q85a_ZIM. Banning of extra lessons except for examination grades
+Q85a-CVE. Is regionalization a favorable or unfavorable policy for Cape Verde
+Q85a-Ken. Prosecution of Kenyan leaders by the ICC is an important effort in fighting impunity
+Q85a-Lib. Effectiveness in providing care to Ebola victims: Private hospitals and clinic
+Q85a-Nig. Forthcoming 2015 elections: are you ready for the elections
+Q85a-SRL: Effectiveness in providing care to Ebola victims: Private hospitals and clinic
+Q85A-ZAM. Greatest challenge in land acquisition
+Q85B_A_SEN: PSE helps to create jobs for young people
+Q85B_ALG. How active is Islamic movement in Algeria: AQIM
+Q85B_B_SEN: PSE helps to attract international private investment in Senegal
+Q85B_BDI. CNTB plays its role without any political or ethnic leaning vs takes decisions that favour certain groups
+Q85B_C_SEN: PSE betters local govt capacity to promote economic development
+Q85b_CDI. Public health clinics compared to non-public: Cost
+Q85B_EGY. How active is Islamic movement in Egypt: AQIM
+Q85b_MLI. Likelihood of peace agreement between govt and rebels in the North being a success
+Q85B_MOR. How active is Islamic movement in Morocco: AQIM
+Q85B_NAF. How active is Islamic movement in country: AQIM
+Q85B_NAM. Make more money available fo poverty reduction by increasing taxes
+Q85B_NGR. How effective is govt at resolving the Boko Haram problem
+Q85b_SAF. South African need reconciliation after more than twenty years of democracy
+Q85B_SUD. How active is Islamic movement in Sudan: Al Qaeda
+Q85b_SWZ. Amend constitution to allow for the existence of political parties vs maintain ban
+Q85b_ZIM. Banning payment of incentives to teachers
+Q85b-CVE. Regionalization has been heavily discussed vs there is still a need for in-depth discussion
+Q85b-Ken. President Uhuru Kenyatta made right decision to honor ICC summons
+Q85b-Lib. Effectiveness in providing care to Ebola victims: Public hospitals and clinic
+Q85b-Nig. Forthcoming 2015 elections: is INEC ready to hold free and fair elections
+Q85b-SRL: Effectiveness in providing care to Ebola victims: Public hospitals and clinic
+Q85B-ZAM. Chiefs have right to sell land vs. land belongs to all Zambians
+Q85c_CDI. Public health clinics compared to non-public: Quality
+Q85C_SEN: PSE has helped economic development in the country overall
+Q85C_SUD. How active is Islamic movement in Sudan: Boko Haram
+Q85c-Ken. Parliament should pass legislation to withdraw Kenya from the ICC
+Q85c-Lib. Effectiveness in providing care to Ebola victims: Traditional medicine practitioners
+Q85c-Nig. Forthcoming 2015 elections: is country as a whole ready for elections
+Q85c-SRL: Effectiveness in providing care to Ebola victims: Traditional medicine practitioners
+Q85d_CDI. Public health clinics compared to non-public: Satisfaction with service
+Q85d-Ken. The ICC is impartial Vs ICC biased against Kenya and other African countries
+Q85d-Lib. Effectiveness in providing care to Ebola victims: Treatment facilities by local NGOs
+Q85d-SRL: Effectiveness in providing care to Ebola victims: Treatment facilities by local NGOs
+Q85e_CDI. Public health clinics compared to non-public: Quality of infrastructure
+Q85e-Lib. Effectiveness in providing care to Ebola victims: Treatment facilities by international organizations
+Q85e-SRL: Effectiveness in providing care to Ebola victims: Treatment facilities by international organizations
+Q85TAN. Satisfaction with current president's delivery on election promises
+Q86 - STP. NEC is a neutral body versus favours particular people, parties or interests.
+Q86_MOZ. Best way to select provincial governors
+Q86_SWZ. Campaign to remove squatters from state-owned land is a good thing vs its bad
+Q86-CVE. Should the government establish a Constitutional Court or should it strengthen District Courts
+Q86-Ken. What makes you most proud to be a Kenyan?
+Q86-ZAM. Street vendors should be allowed to trade vs. should be banned
+Q86A_ALG. Extent of threat by ASIL and AQIM
+Q86A_BDI. Pre-election context: risk of fragmentation of political parties
+Q86a_CDI. Measures for peaceful, free and fair elections: Independent electoral commission
+Q86A_EGY. Extent of threat by ASIL and AQIM
+Q86a_MLI. Level of govt efficacy in dealing with armed groups in the North
+Q86A_MOR. Extent of threat by ASIL and AQIM
+Q86A_NAF. Extent of threat by ASIL and AQIM
+Q86A_NAM. Government has not consulted sufficiently on recent Constitutional change proposals
+Q86a_SAF. Race-based unequal treatment by courts
+Q86A_SEN: Religious men should not be involved in politics vs can get involved
+Q86A_SUD. Extent of threat by ASIL and Al Qaeda
+Q86a_ZIM. Armed forces must continue to be active in politics vs. Must not be involved
+Q86a-Lib. Effectiveness in bringing Ebola under control: Central or national govt.
+Q86a-Nig. Responsiveness of Federal government to: Ebola virus outbreak
+Q86a-SRL: Effectiveness in bringing Ebola under control: Central or national govt.
+Q86a-UGA. Heard about Black-Monday campaign
+Q86B_BDI. Pre-election context: risk of intimidation or violence by parties not in power
+Q86b_CDI. Measures for peaceful, free and fair elections: Candidates' freedom of expression
+Q86B_NAM. Change without consultation vs. Wide consultation
+Q86b_SAF. Race-based unequal treatment by current/prospective employers
+Q86B_SEN: Politics and religion in opposition vs politicians expressing religious affiliation
+Q86b_ZIM. Indigenizing the economy vs. Encouraging foreign investment
+Q86b-Lib. Effectiveness in bringing Ebola under control: Local govt.
+Q86b-Nig. Responsiveness of Federal government to: Insecurity caused by armed extremist
+Q86b-SRL: Effectiveness in bringing Ebola under control: Local govt.
+Q86b-UGA. Agree or disagree with Black-Monday campaign
+Q86B1_ALG. Main reason people join ASIL - 1st response
+Q86B1_EGY. Main reason people join ASIL - 1st response
+Q86b1_MLI. Most effective way of dealing with problem in the North - 1st response
+Q86B1_MOR. Main reason people join ASIL - 1st response
+Q86B1_NAF. Main reason people join ASIL - 1st response
+Q86B1_SUD. Main reason people join ASIL - 1st response
+Q86B2_ALG. Main reason people join ASIL - 2nd response
+Q86B2_EGY. Main reason people join ASIL - 2nd response
+Q86b2_MLI. Most effective way of dealing with problem in the North - 2nd response
+Q86B2_MOR. Main reason people join ASIL - 2nd response
+Q86B2_NAF. Main reason people join ASIL - 2nd response
+Q86B2_SUD. Main reason people join ASIL - 2nd response
+Q86C_BDI. Pre-election context: risk of intimidation or violence by parties in power
+Q86c_CDI. Measures for peaceful, free and fair elections: Abide by election results
+Q86c_MLI. Best option for a lasting peace and reconciliation in Mali
+Q86c_SAF. Race-based unequal treatment by potential landlords
+Q86C_SEN: Influence of religious brotherhoods in Senegal
+Q86c-Lib. Effectiveness in bringing Ebola under control: Local NGOs
+Q86c-Nig. Responsiveness of Federal government to: Insecurity caused by armed robbers
+Q86c-SRL: Effectiveness in bringing Ebola under control: Local NGOs
+Q86d_CDI. Measures for peaceful, free and fair elections: Display of election results at polling stations
+Q86d-Lib. Effectiveness in bringing Ebola under control: International organizations
+Q86d-Nig. Responsiveness of Federal government to: Insecurity caused by Nigerian armed forces
+Q86d-SRL Effectiveness in bringing Ebola under control: International organizations
+Q86e_CDI. Measures for peaceful, free and fair elections: Deployment of national and international election observers
+Q86e-Lib. Effectiveness in bringing Ebola under control: Governments of other countries
+Q86e-Nig. Responsiveness of Federal government to: Floods
+Q86e-SRL Effectiveness in bringing Ebola under control: Governments of other countries
+Q86f_CDI. Measures for peaceful, free and fair elections: Copy of  voters list to each political party
+Q86f-Lib. Govt of Liberia prepared for Ebola outbreak in future
+Q86f-Nig. Responsiveness of Federal government to: Malaria
+Q86f-SRL: Govt of Sierra Leone prepared for Ebola outbreak in future          51
+Q86g_CDI. Measures for peaceful, free and fair elections: Display of voters list on internet
+Q86g-Lib. Govt should devote more resources to Ebola vs focus on other problems
+Q86g-Nig. Responsiveness of Federal government to: Erosion
+Q86g-SRL: Govt should devote more resources to Ebola vs focus on other problems
+Q86h_CDI. Measures for peaceful, free and fair elections: Electronic transfer of election results from Districts to Abidjan
+Q86h-Nig. Responsiveness of Federal government to: Polio
+Q86pt1_NGR_1st response. Most effective solution to the extremist problem in Niger
+Q86pt2_NGR. Most effective solution to the extremist problem in Niger
+Q86TAN_A. Often powerful people influence police to harass ordinary citizens
+Q86TAN_B. Often powerful people influence police to silence journalists
+Q86TAN_C. Often powerful people influence police to intimidate  civil society activists
+Q87. Tribe or ethnic group
+Q88a. Ethnic group treated unfairly
+Q88b. Ethnic or national identity
+Q88c1_SAF. Children to think of themselves as South African.
+Q88c2_SAF. Being South African is a very important part of how you see yourself.
+Q88c3_SAF. South Africans first, stop thinking of themselves in terms of group they belong to
+Q88c4_SAF. Create one united South African nation all the different groups
+Q88c5_SAF. Create such a united South African nation
+Q89a. Neighbours: people of different religion
+Q89b. Neighbours: people of different ethnicity
+Q89c. Neighbours: homosexuals
+Q89d. Neighbours: people with HIV/AIDS
+Q89e. Neighbours: immigrants and foreign workers
+Q8a. How often gone without food
+Q8b. How often gone without water
+Q8c.How often gone without medical care
+Q8d. How often gone without cooking fuel
+Q8e. How often gone without a cash income
+Q8e1_SAF. How often gone without electricity
+Q8f. Frequency going without food
+Q9_TAN. How often received remittances from friends
+Q9. How often received remittances
+Q90a. Close to political party
+Q90b. Which party
+Q91a. Own radio
+Q91b. Own television
+Q91c. Own motor vehicle, car, or motorcycle
+Q91d. Own mobile phone
+Q92a. How often use a computer
+Q92a. How often use a mobile phone
+Q92b. How often use the internet
+Q93a. Source of water for household use
+Q93b. Location of toilet or latrine
+Q94. Electric connection from mains
+Q95. Employment status
+Q96a. Occupation of respondent
+Q96b. Employer of respondent
+Q97. Education of respondent
+Q98a. Religion of respondent
+Q98b. Religious practice
+Q99. Vote for which party
+Q99b-Nig. Do you intend to vote in 2015 elections
+Q99c-Nig. Party's candidate you expect to win in February 2015 Presidential election
+Reason for Unsuccessful Call Household 1
+Reason for Unsuccessful Call Household 2
+Reason for Unsuccessful Call Household 3
+Reason for Unsuccessful Call Household 3          7
+Reason for Unsuccessful Call Household 4
+Reason for Unsuccessful Call Household 5
+Reason for Unsuccessful Call Household 6
+Reason for Unsuccessful Call Household 7
+Respondent number
+Sub Region
+This interview, gender
+Time interview ended
+Time interview started
+Urban or Rural Primary Sampling Unit
+Urban or rural Primary Sampling Unit SAF
+Wilaya

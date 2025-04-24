@@ -1,0 +1,12 @@
+QuestionNumber: Q29f
+ValueLabels
+    15=Negative Replies: Social / economic hardship, 20 16=Negative Replies: Other negative meanings
+
+QuestionNumber: Q60pt3
+ValueLabels
+    27=Discrimination/inequality, 35 28=Gender issues/women's rights
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

@@ -1,0 +1,35 @@
+QuestionNumber: REGION
+ValueLabels
+    542=Gaza, 3 543=Inhambane
+
+QuestionNumber: Q3
+ValueLabels
+    146=Sembukushu, 8 147=Sebirwa
+
+QuestionNumber: Q56PT3
+ValueLabels
+    8=Food shortage/famine, 31 9=Drought
+
+QuestionNumber: Q79
+ValueLabels
+    662=Serer, 46 663=Mandinka/Bambara
+    743=, =Mngoni
+
+QuestionNumber: Q86
+ValueLabels
+    409=Unity Party (UP), 420-, =TIM
+    823=Patriotic Front, =PF
+
+QuestionNumber: Q97
+ValueLabels
+    409=Unity Party (UP), 420-, =TIM
+    823=Patriotic Front, =PF
+
+QuestionNumber: Q103
+ValueLabels
+    112=Warma, 57 140=Setswana
+
+QuestionNumber: Q114
+ValueLabels
+    199=Bwamu, 61 200=Karaboro
+

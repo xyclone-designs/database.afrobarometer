@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 
 namespace Database.Afrobarometer.Enums
 {
 	public enum Countries
 	{
+		_none,
+		
 		Algeria,
 		Angola,
 		Benin,
@@ -53,19 +56,11 @@ namespace Database.Afrobarometer.Enums
 	{
 		public static Countries FromFilename(this Countries _, string filename)
 		{
-			for (int index = 0; true; index++)
-				if (index switch
-				{
-					0 => filename.Split('_', '.').ElementAtOrDefault(0),
-					1 => filename.Split('_', '.').ElementAtOrDefault(2),
-					2 => filename.Split('_', '.').ElementAtOrDefault(3),
-					3 => filename.Split('-', '.').ElementAtOrDefault(0),
-					4 => filename.Split('_', '-', '.').ElementAtOrDefault(0),
-					5 => filename.Split('_', '.').Reverse().ElementAtOrDefault(0),
-
-					_ => throw new ArgumentException()
-
-				} is string code && code.ToLower() switch
+			if (filename.Contains("merge", StringComparison.OrdinalIgnoreCase))
+				return default;
+		
+			foreach (string split in filename.Split('_', '-', '.'))
+				if (split.ToLower() switch
 				{
 					"alg" => Countries.Algeria,
 					"ang" => Countries.Angola,
@@ -114,7 +109,7 @@ namespace Database.Afrobarometer.Enums
 
 				} is Countries country) return country;
 
-			throw new ArgumentException();
+			throw new ArgumentException(string.Format("Countries not found from '{0}'", filename));
 		}
 		public static string ToString(this Countries country)
 		{
@@ -163,7 +158,7 @@ namespace Database.Afrobarometer.Enums
 				Countries.Zambia => "Zambia",
 				Countries.Zimbabwe => "Zimbabwe",
 
-				_ => throw new ArgumentException()
+				_ => throw new ArgumentException(string.Format("Round '{0}' not found", country))
 			};
 		}
 	}

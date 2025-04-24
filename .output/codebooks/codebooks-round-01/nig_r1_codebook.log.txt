@@ -1,0 +1,4159 @@
+Pk: 0
+QuestionNumber: --
+Question: respondent number
+VariableLabel: respno
+Values: 1-1329
+ValueLabels: Assigned by survey managers,
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: --
+Question: primary sampling unit
+VariableLabel: PSU
+Values: 1-60
+ValueLabels: 1=Lagos
+             2=Ikorodu
+             3=Ibadan
+             4=Ikire
+             5=Egbeda
+             6=Abeokuta
+             7=Igbo-Ora
+             8=Idere
+             9=Ondo
+             10=Owena
+             11=Idanre
+             12=Aba
+             13=Ikot-Ekpene
+             14=Onicha Ngwa
+             15=Enugu
+             16=Aguobu-owa
+             17=Eke
+             18=Nsukka
+             19=Ibagwa
+             20=Obukpa
+             21=Benin
+             22=Sapele
+             23=Ologbo
+             24=Port Harcourt
+             25=Rumuodamaya
+             26=Rukpokwu
+             27=Warri
+             28=Ughelli
+             29=Agbara
+             30=Yenagoa
+             31=Ilorin
+             32=Afon
+             33=Laduba
+             34=Minna
+             35=Kuta
+             36=Che/Gunu
+             37=Gboko
+             38=Buruku
+             39=Kyado
+             40=Abuja
+             41=Kwali
+             42=Giri
+             43=Kano
+             44=Dawakin-kudu
+             45=Tsakuwa fanfala nafiamariya dafan
+             46=Sokoto
+             47=Wamakko
+             48=Asari/Wajeke
+             49=Katsina
+             50=Rimi
+             51=Lambar Rimi/Abukur
+             52=Maiduguri
+             53=Konduga
+             54=Malali
+             55=Jos
+             56=Bukuru
+             57=Bisiehi
+             58=Bauchi
+             59=Katagun
+             60=Turum
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: --
+Question: how many members are there in your household
+VariableLabel: hhold
+Values: 0-66
+ValueLabels: 
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: --
+Question: among these members, how many children are there below 18 years of age
+VariableLabel: children
+Values: 0-24
+ValueLabels: 
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: --
+Question: date of interview
+VariableLabel: date
+Values: 01/21/2000 – 02/07/2000
+ValueLabels: Entered by interviewer,
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: --
+Question: what is the respondent’s gender
+VariableLabel: Sex of Respondent
+Values: 1-2
+ValueLabels: 1=male
+Source: Entered by interviewer.
+Note: 
+
+Pk: 0
+QuestionNumber: 1
+Question: how old were you at your last birthday
+VariableLabel: Age
+Values: 18+
+ValueLabels: 
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 2
+Question: which [country]n language do you speak most often
+VariableLabel: Nigerian language
+Values: 1-87
+ValueLabels: 1=Hausa
+             2=Yoruba
+             3=Ibo
+             4=Tiv
+             5=Ijaw
+             6=Nupe
+             7=Kanuri
+             8=Ibibio-Efik
+             9=Edo
+             10=Others
+             11=Irobo/Urhobo
+             12=Idoma
+             13=Calabar
+             14=Ogoja
+             15=Knale
+             16=Igala
+             17=Boki
+             18=Igbira
+             19=Ikpon
+             20=Isoko
+             21=Ikan
+             22=Ishan/Esan
+             23=Anam
+             24=Annang
+             25=Itsekiri
+             26=Ika
+             27=Ukwale
+             28=Epie
+             29=Tangoa
+             30=Omuku
+             31=Ora
+             32=Auchi
+             33=Okirika
+             34=Esako
+             35=Okpe
+             36=Owan
+             37=Ikwerre
+             38=Ibani
+             39=Kalabari
+             40=Ogoni
+             41=Akassa
+             42=Etche
+             43=Beriberi
+             44=Fulani
+             45=Kagoro
+             46=Bekwarr
+             47=Nkwana
+             48=Babur
+             49=Kiiba
+             50=Nungu
+             51=Kabba/Koro
+             52=Eggon
+             53=Kuba
+             54=Madara
+             55=Bura
+             56=Margi
+             57=Cabarmawa
+             58=Kibaku
+             59=Mafa
+             60=Beron/Birom
+             61=Angas
+             62=Iregwe
+             63=Afizere
+             64=Koro
+             65=Normana
+             66=Miango
+             67=Gyerawa
+             68=Eterco
+             69=Zar
+             70=Lantan
+             71=Mwaghauw
+             72=Pyem
+             73=Chawai
+             74=Gbaji
+             75=Nanba/Wanba
+             76=Jarawa
+             77=Katub
+             78=Tangale
+             79=Waja
+             80=Kanuri
+             81=Jukun
+             82=Bayam
+             83=Shuwa Arab
+             84=Ndochi
+             85=Kare Kare
+             86=Gwari
+             87=Rukuba
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 3A
+Question: can you understand spoken english
+VariableLabel: Understand English
+Values: 0
+ValueLabels: 0=No
+Source: Zambia 96
+Note: This question is asked only if the interview is conducted in a local language.  If the interview is conducted in English, then the code box was filled in without asking the question.
+
+Pk: 0
+QuestionNumber: 3B
+Question: can you  read and write in english
+VariableLabel: Read/write English
+Values: 0
+ValueLabels: 0=No
+Source: Zambia 96
+Note: This question is asked only if the interview is conducted in a local language.  If the interview is conducted in English, then the code box was filled in without asking the question.
+
+Pk: 0
+QuestionNumber: 4
+Question: how much education have you had
+VariableLabel: Education
+Values: 1-10
+ValueLabels: 1= No formal schooling
+             2 = Some primary schooling
+             3 = Primary school completed
+             4 = Some secondary school
+             5 = Secondary school completed
+             6 = Post-secondary qualifications, other than university
+             7 = Some university, college
+             8 = University, college completed
+             9 = Post-graduate
+             10 = Don’t know
+             99=Missing Data
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 5
+Question: what is your religion, if any
+VariableLabel: Religion
+Values: 0-6
+ValueLabels: 0 = None
+             1 = Islam
+             2 = Catholic
+             3 = Protestant (mainstream)
+             4 = Protestant (Evangelical/Pentecostal)
+             5 = African independent Church
+             6 = Traditional religion
+             8 = A Christian, but doesn’t go to Church
+             9 = Free Thinker/Free Man/Pagan
+             10 = Brotherhood of the Star and Cross
+             11 = Jehovah Witness
+             12 = Ekankar
+             13 = Others
+Source: new question
+Note: Options not read out loud.
+
+Pk: 0
+QuestionNumber: 6A
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  a. church, mosque, or religious organization
+VariableLabel: Church assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 6B
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that type of organization?:   b.  sport or recreation organization
+VariableLabel: Sport/rec assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 6C
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  c.  art, music, or educational organization
+VariableLabel: Art/educ assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 6D
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  d.  trade union or farmers organization
+VariableLabel: Trade/Farmer’s assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 6E
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  e.  professional or business organization
+VariableLabel: Prof/business assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 6F
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  f.  development association
+VariableLabel: Devel. Assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: Question Number  6G
+
+Pk: 0
+QuestionNumber: 6H
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  h.  pro-democracy or human rights organization
+VariableLabel: Democ. Assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 6I
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  i.  environmental association
+VariableLabel: Enviro. Assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 6J
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  j.  charitable organization
+VariableLabel: Charitable assoc.
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 6K
+Question: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an active member, an inactive member, or not a member of that organization?:  k.  other (specify)
+VariableLabel: Others
+Values: 0-2
+ValueLabels: 0=Not a member
+             1=Inactive Member
+             2=Active Member
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 7
+Question: do you hold an official leadership position in any of these organizations
+VariableLabel: Assoc. leader
+Values: 0-1
+ValueLabels: 0=No
+             1=Yes
+             9=Not Applicable
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 8
+Question: what is your main occupation
+VariableLabel: Occupation
+Values: 0-15
+        17-28
+        99
+ValueLabels: 0=Unemployed
+             1=Farmer/fisherman
+             2=Informal Marketer
+             3=Businessperson
+             4=Clerical Worker/Sales Girl
+             5=Artisan/Apprentice/Carpenter
+             6=Domestic Worker
+             7=Miner
+             8=Technical Worker/Company Worker
+             9=Teacher
+             10=Government Worker
+             11=NGO Worker
+             12=Professional/Nurse/Accountant
+             13=Retired
+             14=Housewife
+             15=Undergraduate Student
+             17=Politician
+             18=Religious Leader
+             19=Transporter
+             20=Security Worker
+             21=Sportsman
+             22=Mgm/Adm Church
+             23=Traditional doctor/healer
+             24=Manual Laborer
+             25=Sand dealer
+             26=Youth Corper
+             27=Gadama
+             28=Other [Specify]
+             99=Missing Data
+Source: Zambia 96
+Note: Options not read out loud.
+
+Pk: 0
+QuestionNumber: 9
+Question: in the past year, have you been unemployed (that is, without a cash job) at any time for a period of at least one month or more
+VariableLabel: Unemployed
+Values: 0-2
+ValueLabels: 0=No
+             1=Yes
+             2=Don’t remember
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 10A
+Question: considering all your economic activities (that is, your main occupation plus other things you do to earn money), do you currently:  a.  buy goods and sell goods
+VariableLabel: Buy and sell goods
+Values: 0-1
+ValueLabels: 0=No
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 10B
+Question: considering all your economic activities (that is, your main occupation plus other things you do to earn money), do you currently:  b:  sell your skills or services to other people
+VariableLabel: Sell Skills
+Values: 0-1
+ValueLabels: 0=No
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 10C
+Question: considering all your economic activities (that is, your main occupation plus other things you do to earn money), do you currently:  c.  employ other people to work for you
+VariableLabel: Employ others
+Values: 0-1
+ValueLabels: 0=No
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 10D
+Question: considering all your economic activities (that is, your main occupation plus other things you do to earn money), do you currently:  d.  operate a bank or savings account
+VariableLabel: Operate bank account
+Values: 0-1
+ValueLabels: 0=No
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 10E
+Question: considering all your economic activities (that is, your main occupation plus other things you do to earn money), do you currently:  e.  owe money that you have borrowed for business purposes
+VariableLabel: Owe money
+Values: 0-1
+ValueLabels: 0=No
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 11A
+Question: over the past year, how often, if ever, have gone without:  a.  food for your family
+VariableLabel: Without food
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=frequently
+             3=always
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 11B
+Question: over the past year, how often, if ever, have gone without:  b.  water for domestic use
+VariableLabel: Without water
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=frequently
+             3=always
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 11C
+Question: over the past year, how often, if ever, have gone without:  c.  schooling for children
+VariableLabel: Without school
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=frequently
+             3=always
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 11D
+Question: over the past year, how often, if ever, have gone without:  d.  healthcare for your family
+VariableLabel: Without health care
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=frequently
+             3=always
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 12A
+Question: to whom do you usually turn when you are unable to get:  a.  food for your family
+VariableLabel: Turn food
+Values: 0-5
+ValueLabels: 0=no-one
+             1=kin
+             2=local community or group
+             3=private provision
+             4=government provision
+             5=Illicit provision
+             9=not applicable
+Source: NDB
+Note: Enumerator prompted if necessary.
+
+Pk: 0
+QuestionNumber: 12B
+Question: to whom do you usually turn when you are unable to get:  b.  water for domestic use
+VariableLabel: Turn water
+Values: 0-5
+ValueLabels: 0=no-one
+             1=kin
+             2=local community or group
+             3=private provision
+             4=government provision
+             5=Illicit provision
+             9=not applicable
+Source: NDB
+Note: Enumerator prompted if necessary.
+
+Pk: 0
+QuestionNumber: 12C
+Question: to whom do you usually turn when you are unable to get:  c.  schooling for children
+VariableLabel: Turn school
+Values: 0-5
+ValueLabels: 0=no-one
+             1=kin
+             2=local community or group
+             3=private provision
+             4=government provision
+             5=Illicit provision
+             9=not applicable
+Source: NDB
+Note: Enumerator prompted if necessary.
+
+Pk: 0
+QuestionNumber: 12D
+Question: to whom do you usually turn when you are unable to get:  d.  healthcare for your family
+VariableLabel: Turn health care
+Values: 0-5
+ValueLabels: 0=no-one
+             1=kin
+             2=local community or group
+             3=private provision
+             4=government provision
+             5=Illicit provision
+             9=not applicable
+Source: NDB
+Note: Enumerator prompted if necessary.
+
+Pk: 0
+QuestionNumber: 13A
+Question: how satisfied are you:  a.  with the general state of the [country]n economy today
+VariableLabel: Satisfied Nigerian economy
+Values: 1-4
+ValueLabels: 1=Not at all satisfied
+             2=Not very satisfied
+             3=Somewhat satisfied
+             4=Very satisfied
+Source: NDB; Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 13B
+Question: how satisfied are you:  b.  with your own living conditions today
+VariableLabel: Satisfied own conditions
+Values: 1-4
+ValueLabels: 1=Not at all satisfied
+             2=Not very satisfied
+             3=Somewhat satisfied
+             4=Very satisfied
+Source: NDB; Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 14
+Question: would you say that your own living conditions are worse, the same, or better than other [country]ns
+VariableLabel: Conditions worse/better
+Values: 1-5
+ValueLabels: 1=Much worse
+             2=Worse
+             3=About the same
+             4=Better
+             5=Much better
+             9=Don’t Know
+Source: NDB; Zambia96
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 15
+Question: when you look at your life today, how satisfied do you feel compared with five years ago
+VariableLabel: Satisfied five years ago
+Values: 1-5
+ValueLabels: 1=Much less satisfied
+             2=Slightly less satisfied
+             3=About the same
+             4=Slightly more satisfied
+             5=Much more satisfied
+             9=Don’t Know
+Source: NDB; Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 16
+Question: when you look forward at your life’s prospects, how satisfied do you expect to be in one year’s time
+VariableLabel: Satisfied future
+Values: 1-5
+ValueLabels: 1=Much less satisfied
+             2=Slightly less satisfied
+             3=About the same
+             4=Slightly more satisfied
+             5=Much more satisfied
+             9=Don’t Know
+Source: NDB; Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 17
+Question: in your opinion, who is responsible for the current economic conditions in [country]
+VariableLabel: Responsible economic conditions
+Values: 1-9
+ValueLabels: 1=the previous government
+             2=the current government
+             3=the IMF/World Bank
+             4=we, the people
+             5=Structural Adjustment Programme
+             6=internal opposition forces
+             7=international economic forces
+             8= Others (God/Satan/Demons/Economy)
+             9 = don’t know
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 18A
+Question: how well would you say the government is handling the following problems?  a.  creating jobs
+VariableLabel: Handling jobs
+Values: 1-4
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 18B
+Question: how well would you say the government is handling the following problems?  b.  keeping prices low
+VariableLabel: Handling prices
+Values: 1-4
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 18C
+Question: how well would you say the government is handling the following problems?  c.  narrowing income gaps between rich and poor
+VariableLabel: Handling gaps
+Values: 1-4
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 18D
+Question: how well would you say the government is handling the following problems?  d.  reducing crime
+VariableLabel: Handling crime
+Values: 1-4
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know       0
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 18E
+Question: how well would you say the government is handling the following problems?  e.  addressing the educational needs of all [country]ns
+VariableLabel: Handling educational
+Values: 1-4
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 18F
+Question: how well would you say the government is handling the following problems?  f.  improving basic health services
+VariableLabel: Handling basic
+Values: 1-4
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 18G
+Question: how well would you say the government is handling the following problems?  g.  assuring that all [country]ns have enough to eat
+VariableLabel: Handling food security
+Values: 1-4
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 18H
+Question: how well would you say the government is handling the following problems?  h.  fighting corruption in government
+VariableLabel: Handling corruption
+Values: 1-4
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 19
+Question: what is your overall assessment of the performance of the current government
+VariableLabel: Government Performance
+Values: 1-5
+ValueLabels: 1=Very bad
+             2=Bad
+             3=Neither bad nor good
+             4=Good
+             5=Very good
+             9=Don’t Know
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 20A
+Question: how long do you think it will take:  a.  before the government fulfills the promises it has made
+VariableLabel: How long promises?
+Values: 1-5
+ValueLabels: 1=within two years
+             2=within four years
+             3=within eight years
+             4=more than eight years
+             5=never
+             9=Don’t Know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 20B       1
+Question: how long do you think it will take:  b.  before your own living standards meet your expectations
+VariableLabel: How long living standards?
+Values: 1-5
+ValueLabels: 1=within two years
+             2=within four years
+             3=within eight years
+             4=more than eight years
+             5=never
+             9=Don’t Know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 21A
+Question: how often do you get news from:  a.  the radio
+VariableLabel: Radio News Values, 0-5, 9
+Values: 0=Never
+        1=Less than once a month
+        2=About once a month
+        3=About once a week
+        4=Several times a week
+        5=Every day
+        9=Don’t Know
+ValueLabels: adapted from Zambia96
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 21B
+Question: how often do you get news from:  b.  the television
+VariableLabel: TV News Values, 0-5, 9
+Values: 0=Never
+        1=Less than once a month
+        2=About once a month
+        3=About once a week
+        4=Several times a week
+        5=Every day
+        9=Don’t Know
+ValueLabels: new question
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 21C
+Question: how often do you get news from:  c.  newspaper
+VariableLabel: Newspapers Values, 0-5, 9
+Values: 0=Never
+        1=Less than once a month
+        2=About once a month
+        3=About once a week
+        4=Several times a week
+        5=Every day
+        9=Don’t Know
+ValueLabels: adapted from Zambia96
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 22A
+Question: in your opinion, do these various news sources promote public understanding on important issues or do they stir up conflict among people?  a.  radio
+VariableLabel: Radio consequence
+Values: 0-3
+ValueLabels: 0=Not Applicable
+             1=Promote Understanding
+             2=Neither
+             3=Stir Up Conflict
+             9=Don’t Know,
+Source: new question
+Note: Enumerator coded only for news sources that respondent used, otherwise coded as 0, not applicable.
+
+Pk: 0
+QuestionNumber: 22B
+Question: in your opinion, do these various news sources promote public understanding on important issues or do they stir up conflict among people?  b.  television
+VariableLabel: TV consequence
+Values: 0-3
+ValueLabels: 0=Not Applicable
+             1=Promote Understanding
+             2=Neither
+             3=Stir Up Conflict
+             9=Don’t Know,
+Source: new question
+Note: Enumerator coded only for news sources that respondent used, otherwise coded as 0, not applicable.
+
+Pk: 0
+QuestionNumber: 22C       2
+Question: in your opinion, do these various news sources promote public understanding on important issues or do they stir up conflict among people?  c.  newspapers
+VariableLabel: Newspaper consequence
+Values: 0-3
+ValueLabels: 0=Not Applicable
+             1=Promote Understanding
+             2=Neither
+             3=Stir Up Conflict
+             9=Don’t Know,
+Source: new question
+Note: Enumerator coded only for news sources that respondent used, otherwise coded as 0, not applicable.
+
+Pk: 0
+QuestionNumber: 23
+Question: how interested are you in politics and government
+VariableLabel: Interested in politics
+Values: 0-2
+ValueLabels: 0= Not interested
+             1 = Somewhat interested
+             2 = Very interested
+             9=Don’t Know
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 24
+Question: how often do you discuss politics and government with other people
+VariableLabel: Discuss politics
+Values: 0-2
+ValueLabels: 0=Never
+             1=Sometimes
+             2=Often
+             9=Don’t Know
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 25A
+Question: can you tell me the name of:  a.  the local government chairman or woman for this area
+VariableLabel: Name LG Chairman
+Values: 0-1
+ValueLabels: 0=Incorrect
+             1=Correct
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 0 (incorrect) or 1 (correct). Blank responses were later postcoded as 9 (Don’t know).
+
+Pk: 0
+QuestionNumber: 25B
+Question: can you tell me the name of:  the member of the house of representatives for this area
+VariableLabel: Name HR Member
+Values: 0-1
+        9
+        99
+ValueLabels: 0=Incorrect
+             1=Correct
+             9=Don’t know
+             99=Missing Data
+Source: Zambia 96
+Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 0 (incorrect) or 1 (correct). Blank responses were later postcoded as 9 (Don’t know).
+
+Pk: 0
+QuestionNumber: 25C
+Question: can you tell me the name of:  c.  the governor of this state
+VariableLabel: Name Governor
+Values: 0-1
+ValueLabels: 0=Incorrect
+             1=Correct
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 0 (incorrect) or 1 (correct). Blank responses were later postcoded as 9 (Don’t know).
+
+Pk: 0
+QuestionNumber: 25D
+Question: can you tell me the name of:  d.  the minister of finance
+VariableLabel: Name Finance Minister       3
+Values: 0-1
+        9
+        99
+ValueLabels: 0=Incorrect
+             1=Correct
+             9=Don’t know
+             99=Missing Data
+Source: Zambia 96
+Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 0 (incorrect) or 1 (correct). Blank responses were later postcoded as 9 (Don’t know).
+
+Pk: 0
+QuestionNumber: 25E
+Question: can you tell me the name of:  e.  the vice-president of [country]
+VariableLabel: Name Vice-President
+Values: 0-1
+ValueLabels: 0=Incorrect
+             1=Correct
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 0 (incorrect) or 1 (correct). Blank responses were later postcoded as 9 (Don’t know).
+
+Pk: 0
+QuestionNumber: 26A
+Question: in [country], is there a difference between what the following organizations do or do they do the same thing?  a.  the traditional rulers and the government
+VariableLabel: Trad rulers and government
+Values: 1-2
+ValueLabels: 1=Same
+             2=Different
+             9=Don’t Know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 26B
+Question: in [country], is there a difference between what the following organizations do or do they do the same thing?  b.  the army and the government
+VariableLabel: Army and government
+Values: 1-2
+ValueLabels: 1=Same
+             2=Different
+             9=Don’t Know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 26C
+Question: in [country], is there a difference between what the following organizations do or do they do the same thing?  c.  a political party and the government
+VariableLabel: Political Party and government
+Values: 1-2
+ValueLabels: 1=Same
+             2=Different
+             9=Don’t Know
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 26D
+Question: in [country], is there a difference between what the following organizations do or do they do the same thing?  d.  federal government and local government
+VariableLabel: Federal government and local government
+Values: 1-2
+ValueLabels: 1=Same
+             2=Different
+             9=Don’t Know
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 27
+Question: a. in discussions about politics with friends and neighbors, i can influence the opinions of others.  b.  as far as politics is concerned, friends and neighbors do not listen to me
+VariableLabel: Influence others?
+Values: 1-5
+ValueLabels: 1=A, agree strongly,
+             2=A, agree somewhat,
+             3=B, agree somewhat,
+             4=B, agree strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 28
+Question: a.  the way the government operates sometimes seems so complicated i cannot really understand what is going on.  b.  i can usually understand the way that government works
+VariableLabel: Cannot understand?
+Values: 1-5
+ValueLabels: 1=A, agree strongly,
+             2=A, agree somewhat,
+             3=B, agree somewhat,
+             4=B, agree strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 29
+Question: a.  as a community, we are generally able to make our elected representatives listen to our problems.  b.  we are usually unable to make our elected representatives listen to us
+VariableLabel: Representatives listen?
+Values: 1-5
+ValueLabels: 1=A, agree strongly,
+             2=A, agree somewhat,
+             3=B, agree somewhat,
+             4=B, agree strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 30
+Question: a.  in [country] today, there is not enough respect for authority.  b.  we [country]ns should be more active in questioning the authority of our leaders
+VariableLabel: Respect authority
+Values: 1-5
+ValueLabels: 1=A, agree strongly,
+             2=A, agree somewhat,
+             3=B, agree somewhat,
+             4=B, agree strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 31
+Question: a.  no matter who we vote for, things will not get any better in the future.  b.  we can use our power as voters to choose leaders who will help us improve our lives
+VariableLabel: Not get any better?
+Values: 1-5
+ValueLabels: 1=A, agree strongly,
+             2=A, agree somewhat,
+             3=B, agree somewhat,
+             4=B, agree strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 32       5
+Question: when you hear the word “democracy,” what is the first thing that comes to your mind
+VariableLabel: Meaning of democracy
+Values: 1-17
+ValueLabels: 0=Civil politics or government
+             1=Civil liberties/personal freedom
+             2=Political/Election Rights
+             3=Social and Economic Development
+             4=Government of the people, by the people, for the people
+             5=Peace and Unity
+             6=Good governance/government that can make things happen
+             7=Other good
+             8=Equality/Justice
+             31=Conflict and Confusion
+             32=Corruption, Abuse of Power
+             33=Social or Economic hardship
+             34=Government of the rich/”special interests, ”
+             35=It is poorly implemented in Nigeria
+             39=Other neutral or unclear
+             40=Don’t Know
+Source: Ghana 97
+Note: The enumerator prompted if necessary: “What, if anything, does ‘democracy’ mean to you?”
+
+Pk: 0
+QuestionNumber: 33A
+Question: people associate democracy with many different meanings such as the ones that i will mention now.  in order for a society to be called democratic, how important is each of these.  a.  the majority rules
+VariableLabel: Majority Rules
+Values: 1-4
+ValueLabels: 1=Very important
+             2=Important
+             3=Not Very Important
+             4=Not at all important
+             9=Don’t Know
+Source: new question
+Note: Enumerator probed for strength of opinion
+
+Pk: 0
+QuestionNumber: 33B
+Question: people associate democracy with many different meanings such as the ones that i will mention now.  in order for a society to be called democratic, how important is each of these.  b. anyone is free to criticize the government
+VariableLabel: Free to criticize
+Values: 1-4
+ValueLabels: 1=Very important
+             2=Important
+             3=Not Very Important
+             4=Not at all important
+             9=Don’t Know
+Source: new question
+Note: Enumerator probed for strength of opinion
+
+Pk: 0
+QuestionNumber: 33C
+Question: people associate democracy with many different meanings such as the ones that i will mention now.  in order for a society to be called democratic, how important is each of these.  c.  elections are held regularly
+VariableLabel: Regular elections
+Values: 1-4
+ValueLabels: 1=Very important
+             2=Important
+             3=Not Very Important
+             4=Not at all important
+             9=Don’t Know
+Source: new question
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 33D
+Question: people associate democracy with many different meanings such as the ones that i will mention now.  in order for a society to be called democratic, how important is each of these.  d.  at least two political parties compete with each other
+VariableLabel: Parties compete
+Values: 1-4
+ValueLabels: 1=Very important
+             2=Important
+             3=Not Very Important
+             4=Not at all important
+             9=Don’t Know
+Source: new question
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 33E
+Question: people associate democracy with many different meanings such as the ones that i will mention now.  in order for a society to be called democratic, how important is each of these.  e.  everyone enjoys basic necessities like shelter, food, and water
+VariableLabel: Basic Necessities
+Values: 1-4
+ValueLabels: 1=Very important
+             2=Important
+             3=Not Very Important
+             4=Not at all important
+             9=Don’t Know       6
+Source: new question
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 33F
+Question: people associate democracy with many different meanings such as the ones that i will mention now.  in order for a society to be called democratic, how important is each of these.  f.  jobs for everyone
+VariableLabel: Jobs for everyone
+Values: 1-4
+ValueLabels: 1=Very important
+             2=Important
+             3=Not Very Important
+             4=Not at all important
+             9=Don’t Know
+Source: new question
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 33G
+Question: people associate democracy with many different meanings such as the ones that i will mention now.  in order for a society to be called democratic, how important is each of these.  g.  education for everyone
+VariableLabel: Educ. For everyone
+Values: 1-4
+        9
+        99
+ValueLabels: 1=Very important
+             2=Important
+             3=Not Very Important
+             4=Not at all important
+             9=Don’t Know
+             99=Missing Data
+Source: new question
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 33H
+Question: people associate democracy with many different meanings such as the ones that i will mention now.  in order for a society to be called democratic, how important is each of these.  h.  a small income gap between rich and poor
+VariableLabel: Small gap
+Values: 1-4
+ValueLabels: 1=Very important
+             2=Important
+             3=Not Very Important
+             4=Not at all important
+             9=Don’t Know
+Source: new question
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 34
+Question: in your opinion, was the change to democracy in 1999 good or bad for the country
+VariableLabel: Change good or bad?
+Values: 1-5
+ValueLabels: 1=Very Bad
+             2=Bad
+             3=Neither bad nor good
+             4= Good
+             5=Very good
+             9=Don’t Know
+Source: Ghana99
+Note: Enumerator probed to see how strongly opinion is held.
+
+Pk: 0
+QuestionNumber: 35
+Question: in your opinion, how much of a democracy is [country] today
+VariableLabel: Nigeria Democracy?
+Values: 0-3
+        9
+        99
+ValueLabels: 0=Not a democracy
+             1=Major problems, but still a democracy
+             2=Minor problems, but still a democracy
+             3=Full democracy
+             9=Not applicable
+             99=Missing Data
+Source: Ghana 97
+Note: The enumerator asked this question only if the respondent had some idea what democracy is.
+
+Pk: 0
+QuestionNumber: 36
+Question: which of the following statements is closest to your own opinion? a.  democracy is preferable to any other form of government b.  in certain situations, a non-democratic government can be preferable. c.  to people like me, it doesn’t matter what form of government we have
+VariableLabel: Support for democracy
+Values: 1-3
+ValueLabels: 1=A
+             2=B
+             3=C
+             99=Missing Data
+Source: Latinobarometer (LB)
+Note: 
+
+Pk: 0
+QuestionNumber: 37
+Question: a.  it is dangerous and confusing to allow the expression of too many different points of view.  b.  if people have different views than i do, they should be allowed to express them
+VariableLabel: Allow expression?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying:  “Now we will return to pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or B.”  Then, the enumerator probed by asking, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 38
+Question: a.  all people should be permitted to vote, even if they do not fully understand all the issues in an election.  b.  only those who are sufficiently well educated should be allowed to vote
+VariableLabel: Permitted to vote?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying:  “Now we will return to pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or B.”  Then, the enumerator probed by asking, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 39
+Question: a.  the president of [country] should be able to change the constitution whenever he chooses.  b.  in [country], even the president should obey the constitution
+VariableLabel: President change Constitution?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying:  “Now we will return to pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or B.”  Then, the enumerator probed by asking, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 40
+Question: a.  in [country], it is sometimes alright to use violence in trying to reach political goals.  b.  the use of violence is never justified in [country]n politics
+VariableLabel: Violence O.K.?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying:  “Now we will return to pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or B.”  Then, the enumerator probed by asking, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 41
+Question: a.  the best form of government is a government elected by the people.  b.  the best form of government is a government that gets things done
+VariableLabel: Best form of government?       8
+Values: 1-5
+        9
+        99
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t know
+             99=Missing Data
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying:  “Now we will return to pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or B.”  Then, the enumerator probed by asking, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 42A
+Question: we are now going to discuss how much you like different kinds of government  i would like you to give marks out of ten. let us say that the best government gets 10 out of 10 and the worst kind of government gets only 1 out of 10.  what mark would you give to:  a.  our present system of government with free elections and many parties
+VariableLabel: Elections and parties
+Values: 1-10
+ValueLabels: 1=worst kind of government
+             10=best kind of government
+             99=Missing Data
+Source: New Democracies Barometer (NDB)
+Note: 
+
+Pk: 0
+QuestionNumber: 42B
+Question: we are now going to discuss how much you like different kinds of government  i would like you to give marks out of ten. let us say that the best government gets 10 out of 10 and the worst kind of government gets only 1 out of 10.  what mark would you give to:  b.  the former system of military rule
+VariableLabel: Military rule
+Values: 1-10
+ValueLabels: 1=worst kind of government
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 42C
+Question: we are now going to discuss how much you like different kinds of government  i would like you to give marks out of ten. let us say that the best government gets 10 out of 10 and the worst kind of government gets only 1 out of 10.  what mark would you give to:  c.  the former colonial system (that is, when the british ruled)
+VariableLabel: Colonial system
+Values: 1-10
+ValueLabels: 1=worst kind of government
+             10=best kind of government
+             99=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 42D
+Question: we are now going to discuss how much you like different kinds of government  i would like you to give marks out of ten. let us say that the best government gets 10 out of 10 and the worst kind of government gets only 1 out of 10.  what mark would you give to:  d.  the old system of government by traditional rulers
+VariableLabel: Traditional system
+Values: 1-10
+ValueLabels: 1=worst kind of government
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 42E
+Question: we are now going to discuss how much you like different kinds of government  i would like you to give marks out of ten. let us say that the best government gets 10 out of 10 and the worst kind of government gets only 1 out of 10.  what mark would you give to:  e.  the system of government that you expect [country] to have in five years time
+VariableLabel: Future system
+Values: 1-10       9
+ValueLabels: 1=worst kind of government
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 43A
+Question: “we are going to compare our present system of government with the former system of  military rule.  please tell me if the following things are better or worse now than they used to be.”  a.  people are free to say what they think
+VariableLabel: Free to say
+Values: 1-5
+ValueLabels: 1=Much Worse
+             2=Somewhat Worse
+             3=No Change
+             4=Somewhat Better
+             5=Much Better
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 43B
+Question: “we are going to compare our present system of government with the former system of  military rule.  please tell me if the following things are better or worse now than they used to be.”  b.  people can join any organization they want
+VariableLabel: Join any organization
+Values: 1-5
+ValueLabels: 1=Much Worse
+             2=Somewhat Worse
+             3=No Change
+             4=Somewhat Better
+             5=Much Better
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 43C
+Question: “we are going to compare our present system of government with the former system of  military rule.  please tell me if the following things are better or worse now than they used to be.”  c.  each person can freely choose who to vote for without feeling pressured
+VariableLabel: Free to choose
+Values: 1-5
+ValueLabels: 1=Much Worse
+             2=Somewhat Worse
+             3=No Change
+             4=Somewhat Better
+             5=Much Better
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 43D
+Question: “we are going to compare our present system of government with the former system of  military rule.  please tell me if the following things are better or worse now than they used to be.”  d.  ordinary people can influence what government does
+VariableLabel: Influence government
+Values: 1-5
+ValueLabels: 1=Much Worse
+             2=Somewhat Worse
+             3=No Change
+             4=Somewhat Better
+             5=Much Better
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 43E
+Question: “we are going to compare our present system of government with the former system of  military rule.  please tell me if the following things are better or worse now than they used to be.”  e.  everybody is treated equally and fairly by the government
+VariableLabel: Treated equally
+Values: 1-5
+ValueLabels: 1=Much Worse
+             2=Somewhat Worse
+             3=No Change
+             4=Somewhat Better
+             5=Much Better
+             9=Don’t Know       0
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 43F
+Question: “we are going to compare our present system of government with the former system of  military rule.  please tell me if the following things are better or worse now than they used to be.”  f.  people have an adequate standard of living
+VariableLabel: Adequate living standard
+Values: 1-5
+ValueLabels: 1=Much Worse
+             2=Somewhat Worse
+             3=No Change
+             4=Somewhat Better
+             5=Much Better
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 44A
+Question: “some people say that we would be better off if the country was governed differently.  what do you think about the following options?”  a.  we should get rid of elections so that a strong leader can decide everything
+VariableLabel: Strong leader
+Values: 1-4
+        9
+        99
+ValueLabels: 1=Strongly Disagree
+             2=Disagree
+             3=Agree
+             4=Strongly Agree
+             9=Don’t Know
+             99=Missing Data
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 44B
+Question: “some people say that we would be better off if the country was governed differently.  what do you think about the following options?”  b.  we should have only one political party
+VariableLabel: One political party
+Values: 1-4
+ValueLabels: 1=Strongly Disagree
+             2=Disagree
+             3=Agree
+             4=Strongly Agree
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 44C
+Question: “some people say that we would be better off if the country was governed differently.  what do you think about the following options?”  c.  the army should come in to govern the country
+VariableLabel: Army come in
+Values: 1-4
+ValueLabels: 1=Strongly Disagree
+             2=Disagree
+             3=Agree
+             4=Strongly Agree
+             9=Don’t Know
+Source: adapted from NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 44D
+Question: “some people say that we would be better off if the country was governed differently.  what do you think about the following options?”  d.  the most important decisions, for example on the economy, should be left to experts
+VariableLabel: Government by experts
+Values: 1-4
+ValueLabels: 1=Strongly Disagree
+             2=Disagree
+             3=Agree
+             4=Strongly Agree
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 45
+Question: overall, how satisfied or dissatisfied are you with the way democracy works in [country]
+VariableLabel: Satisfaction with democracy
+Values: 1-4
+        9
+        99       1
+ValueLabels: 1=very dissatisfied,
+             2=somewhat dissatisfied,
+             3=somewhat satisfied,
+             4=very satisfied
+             9=don’t know
+             99=Missing Data
+Source: Eurobarometer
+Note: Enumerator probed to see how strongly opinion is held.
+
+Pk: 0
+QuestionNumber: 46
+Question: a.  our present system of elected government should be able to deal with inherited problems, even if this takes time.  b.  if democracy can’t produce results soon, we should try another form of government
+VariableLabel: Deal with inherited problems?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: adapted from NDB
+Note: The enumerator introduced the pair of statements by saying, “Once again, please choose whether you agree with Statement A or B.”  Then, the enumerator probed by asking, “Do you agree strongly or somewhat?”
+
+Pk: 0
+QuestionNumber: 47A
+Question: i am going to read out some things that people sometimes say about a democratic political system.  could you please tell me if you agree or disagree after i read out each one?  a.  in a democracy, the economic system runs badly
+VariableLabel: Economic runs badly
+Values: 1-4
+ValueLabels: 1=Strongly disagree
+             2=Disagree
+             3=Agree
+             4=Strongly Agree
+             9=Don’t Know
+Source: new question
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 47B
+Question: i am going to read out some things that people sometimes say about a democratic political system.  could you please tell me if you agree or disagree after i read out each one?  b.  democracies are indecisive and have too much squabbling
+VariableLabel: Indecisive squabbling
+Values: 1-4
+ValueLabels: 1=Strongly disagree
+             2=Disagree
+             3=Agree
+             4=Strongly Agree
+             9=Don’t Know
+Source: new question
+Note: Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 47C
+Question: i am going to read out some things that people sometimes say about a democratic political system.  could you please tell me if you agree or disagree after i read out each one?  c.  democracies aren’t good at maintaining order
+VariableLabel: Maintaining order
+Values: 1-4
+ValueLabels: 1=Strongly disagree
+             2=Disagree
+             3=Agree
+             4=Strongly Agree
+             9=Don’t Know
+Source: new question
+Note: Enumerator, probe for strength of opinion.
+
+Pk: 0
+QuestionNumber: 47D
+Question: i am going to read out some things that people sometimes say about a democratic political system.  could you please tell me if you agree or disagree after i read out each one?  d.  democracy may have problems, but its better than any other form of government
+VariableLabel: Problems, but better?
+Values: 1-4
+ValueLabels: 1=Strongly disagree
+             2=Disagree
+             3=Agree
+             4=Strongly Agree
+             9=Don’t Know
+Source: Enumerator probed for strength of opinion.
+Note: 
+
+Pk: 0
+QuestionNumber: 48       2
+Question: generally speaking, would you say that most people can be trusted or that you must be very careful in dealing with people
+VariableLabel: Trust generally
+Values: 1-2
+        9
+        99
+ValueLabels: 1=Most people can be trusted
+             2=You must be very careful
+             9=Don’t Know
+             99=Missing Data
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 49A
+Question: “i am now going to read you a list of people. i would like to know whether, generally speaking, you trust them to do what is right.”  do you trust the following people?  a.  your relatives
+VariableLabel: Trust relatives
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Zambia 96
+Note: Enumerator probed to see whether or not views were held strongly.
+
+Pk: 0
+QuestionNumber: 49B
+Question: “i am now going to read you a list of people. i would like to know whether, generally speaking, you trust them to do what is right.”  do you trust the following people?  b.  your neighbors
+VariableLabel: Trust neighbors
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Zambia 96
+Note: Enumerator probed to see whether or not views were held strongly.
+
+Pk: 0
+QuestionNumber: 49C
+Question: “i am now going to read you a list of people. i would like to know whether, generally speaking, you trust them to do what is right.”  do you trust the following people?  c.  someone in your own tribe
+VariableLabel: Trust own tribe
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Zambia 96
+Note: Enumerator probed to see whether or not views were held strongly.
+
+Pk: 0
+QuestionNumber: 49D
+Question: “i am now going to read you a list of people. i would like to know whether, generally speaking, you trust them to do what is right.”  do you trust the following people?  d.  [country]ns from other tribes
+VariableLabel: Trust other tribes
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Zambia 96
+Note: Enumerator probed to see whether or not views were held strongly.
+
+Pk: 0
+QuestionNumber: 49E
+Question: “i am now going to read you a list of people. i would like to know whether, generally speaking, you trust them to do what is right.”  do you trust the following people?  d.  president obasanjo
+VariableLabel: Trust President
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Zambia 96       3
+Note: Enumerator probed to see whether or not views were held strongly.
+
+Pk: 0
+QuestionNumber: 50A
+Question: do you trust the following institutions?  a.  traditional rulers
+VariableLabel: Trust chiefs
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 50B
+Question: do you trust the following institutions?  b.  local government authorities
+VariableLabel: Trust Local Government
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Zambia 96 Notes
+Note: 
+
+Pk: 0
+QuestionNumber: 50C
+Question: do you trust the following institutions?  c.  the police
+VariableLabel: Trust police
+Values: 1-4
+        9
+        99
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+             99=Missing Data
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 50D
+Question: do you trust the following institutions?  d.  courts of law
+VariableLabel: Trust law courts
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 50E
+Question: do you trust the following institutions?  e.  political parties
+VariableLabel: Trust political parties
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 50F
+Question: do you trust the following institutions?  f.  the army
+VariableLabel: Trust army
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Ghana99
+Note: 4
+
+Pk: 0
+QuestionNumber: 50G
+Question: do you trust the following institutions?  g.  the national assembly
+VariableLabel: Trust National Assembly
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 50H
+Question: do you trust the following institutions?  h.  the independent national electoral commission (nec)
+VariableLabel: Trust Electoral Commission
+Values: 1-4
+        9
+        99
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+             99=Missing Data
+Source: adapted from Ghana 97
+Note: 
+
+Pk: 0
+QuestionNumber: 51A
+Question: and do you trust the following social institutions?  a.  churches
+VariableLabel: Trust churches
+Values: 1-4
+        9
+        99
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+             99=Missing Data
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 51B
+Question: and do you trust the following social institutions? b. mosques
+VariableLabel: Trust mosques
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 51C
+Question: and do you trust the following social institutions?  c. trade unions (urban) or farmers’ organizations (rural)
+VariableLabel: Trust trade /farmer unions
+Values: 1-4
+        9
+        99
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+             99=Missing Data
+Source: adapted from Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 51D
+Question: and do you trust the following social institutions?  d.  ngo’s
+VariableLabel: Trust NGO’s
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 51E
+Question: and do you trust the following social institutions?  e.  banks       5
+VariableLabel: Trust banks
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 51F
+Question: and do you trust the following social institutions?  f.  businesses
+VariableLabel: Trust businesses
+Values: 1-4
+ValueLabels: 1=I do not trust them at all
+             2=I distrust them somewhat
+             3=I trust them somewhat
+             4=I trust them a lot
+             9=Don’t know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 52A
+Question: we know that some people obey the law and others do not.  in your opinion, how often do [country]ns break the law by engaging in the following acts?  a.  throwing rubbish in public places
+VariableLabel: Throwing rubbish
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=most of the time
+             3=always
+             9=don’t know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 52B
+Question: we know that some people obey the law and others do not.  in your opinion, how often do [country]ns break the law by engaging in the following acts?  b.  disregarding traffic signs and traffic lights
+VariableLabel: Traffic signs
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=most of the time
+             3=always
+             9=don’t know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 52C
+Question: we know that some people obey the law and others do not.  in your opinion, how often do [country]ns break the law by engaging in the following acts?  c.  selling goods without a trader’s licence
+VariableLabel: Trader’s license
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=most of the time
+             3=always
+             9=don’t know
+Source: adapted from NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 52D
+Question: we know that some people obey the law and others do not.  in your opinion, how often do [country]ns break the law by engaging in the following acts?  d.  not paying for services like piped water
+VariableLabel: Water fees
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=most of the time
+             3=always
+             9=don’t know
+Source: adapted from NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 52E
+Question: we know that some people obey the law and others do not.  in your opinion, how often do [country]ns break the law by engaging in the following acts?  e.  evading income taxes
+VariableLabel: Income tax       6
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=most of the time
+             3=always
+             9=don’t know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 52F
+Question: we know that some people obey the law and others do not.  in your opinion, how often do [country]ns break the law by engaging in the following acts?  f.  offering bribes to public servants
+VariableLabel: Offering bribes
+Values: 0-3
+ValueLabels: 0=never
+             1=occasionally
+             2=most of the time
+             3=always
+             9=don’t know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 53
+Question: have you ever heard about the structural adjustment programme (sap)
+VariableLabel: SAP
+Values: 0-1
+ValueLabels: 0=No
+             1=Yes
+             99=Missing Data
+Source: Ghana 97
+Note: Enumerator prompted, if necessary, “You know, the reforms to the economy introduced in the 1980s.” If answer is no, enumerator goes to question 56.
+
+Pk: 0
+QuestionNumber: 54
+Question: what, in your opinion ,is the structural adjustment programme supposed to do
+VariableLabel: SAP supposed to do
+Values: 1-24
+ValueLabels: 0=Don’t Know
+             1=Improve Economy
+             2=Improve Living Conditions
+             3=Increase jobs and or productivity
+             4=Stabilization and Fiscal Balance
+             5=Reform economic institutions
+             6=Provide government services
+             7=To make goods available
+             8=To bring the country together
+             9=Self-reliance
+             10=Other good
+             11=Increase investment
+             12=Reduce inflation
+             13=Hard work
+             14=To develop our own natural resources
+             15=To promote financial transparency
+             16=To protect people’s health
+             31=To bring hardship and difficulty
+             32=To benefit the rich
+             33=Devaluation of currency
+             34=Increase inflation
+             35=Corruption, looting, etc,
+             36=Just politics
+             97=Not Applicable
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 55
+Question: how satisfied or unsatisfied are you with the sap
+VariableLabel: Satisfied SAP
+Values: 0-5
+ValueLabels: 0=Not Applicable
+             1=Very unsatisfied
+             2=Unsatisfied
+             3=Neutral
+             4=Satisfied
+             5=Very Satisfied
+             9=Don’t Know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 56
+Question: a.  it is not wise to plan too far ahead, because many things turn out to be a matter of luck.  b.  i always try to plan ahead because i feel i can make my plans work
+VariableLabel: Not wise to plan?
+Values: 1-5
+        9
+        99
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+             99=Missing Data
+Source: new question
+Note: The enumerator introduced the pair of statements by saying, “I am again going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”       7
+
+Pk: 0
+QuestionNumber: 57
+Question: a.  people should look after themselves and be responsible for their own success in life.  b.  the government should bear the main responsibility for ensuring the well-being of people
+VariableLabel: Own success in life?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Ghana99
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 58
+Question: a. the best way to create jobs is to encourage people to start their own businesses.  b.  the government should provide employment for everyone who wants to work
+VariableLabel: Provide employment?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Finifter and Mickiewicz
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 59
+Question: a.  everyone should be free to earn as much as they can, even if this leads to differences in income between  people.  b.  the government should place limits on how much the rich can earn, even if this discourages some people from working hard
+VariableLabel: Free to earn?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: adapted from NDB
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 60
+Question: a.  in rural areas, land should be owned by the community and allocated by the traditional rulers.  b.  people should be able to own their own land, including buying and selling it, even in rural areas
+VariableLabel: Own land?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Ghana99
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 61
+Question: a.  there is no sense in trying to start a new business because many enterprises lose money.  b.  if a person has a good idea for a business, they should invest their own savings or borrow money to try to make it succeed
+VariableLabel: Start new business?       8
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Jackson and Rodkey
+Note: The enumerator introduced the pair of statements by saying, “I am now going to give you several pairs of statements.  Please tell me which one you agree with most.  Choose Statement A or Statement B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 62A
+Question: i am going to read out a list of things that are important for the development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  a.  protecting the nation’s borders
+VariableLabel: Protecting borders
+Values: 1-7
+ValueLabels: 1=government
+             2=private companies
+             3=individuals
+             4=government and businesses
+             5=government and individuals
+             6=businesses and individuals
+             7=all three
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 62B
+Question: i am going to read out a list of things that are important for development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  b.  building your house
+VariableLabel: Building house
+Values: 1-7
+ValueLabels: 1=government
+             2=private companies
+             3=individuals
+             4=government and businesses
+             5=government and individuals
+             6=businesses and individuals
+             7=all three
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 62C
+Question: i am going to read out a list of things that are important for development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  c.  extending agricultural credit
+VariableLabel: Agricultural credit
+Values: 1-7
+ValueLabels: 1=government
+             2=private companies
+             3=individuals
+             4=government and businesses
+             5=government and individuals
+             6=businesses and individuals
+             7=all three
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 62D
+Question: i am going to read out a list of things that are important for development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  d.  producing and marketing oil
+VariableLabel: producing oil
+Values: 1-7
+ValueLabels: 1=government
+             2=private companies
+             3=individuals
+             4=government and businesses
+             5=government and individuals
+             6=businesses and individuals
+             7=all three
+             99=Missing Data
+Source: adapted from Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 62E
+Question: i am going to read out a list of things that are important for development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  e.  selling consumer goods        9
+VariableLabel: Selling consumer goods
+Values: 1-7
+ValueLabels: 1=government
+             2=private companies
+             3=individuals
+             4=government and businesses
+             5=government and individuals
+             6=businesses and individuals
+             7=all three
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 62F
+Question: i am going to read out a list of things that are important for development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  f.  providing schools and clinics
+VariableLabel: Providing schools/clinics
+Values: 1-7
+ValueLabels: 1=government
+             2=private companies
+             3=individuals
+             4=government and businesses
+             5=government and individuals
+             6=businesses and individuals
+             7=all three
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 62G
+Question: i am going to read out a list of things that are important for development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  g.  creating jobs
+VariableLabel: Creating jobs
+Values: 1-7
+ValueLabels: 1=government
+             2=private companies
+             3=individuals
+             4=government and businesses
+             5=government and individuals
+             6=businesses and individuals
+             7=all three
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 62H
+Question: i am going to read out a list of things that are important for development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  h.  reducing crime
+VariableLabel: Reducing crime
+Values: 1-7
+ValueLabels: 1=government
+             2=private companies
+             3=individuals
+             4=government and businesses
+             5=government and individuals
+             6=businesses and individuals
+             7=all three
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 63
+Question: a.  it is better to have goods available in the market, even if the prices are high.  b.  it is better to have low prices, even if there are shortages of goods
+VariableLabel: Goods available?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “Once again, please choose whether you agree most with Statement A or B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 64
+Question: a.  it is better to have free schooling for our children, even if the quality of education is low.  b.  it is better to raise educational standards, even if we have to pay school fees
+VariableLabel: Free schooling?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “Once again, please choose whether you agree most with Statement A or B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 65
+Question: a.  all civil servants should keep their jobs, even if paying their salaries is costly to the country.  b.  the government cannot afford so many public employees and should lay some of them off
+VariableLabel: Civil servant jobs?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “Once again, please choose whether you agree most with Statement A or B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 66
+Question: a.  the government should retain ownership of its factories, businesses, and farms.  b.  it is better for the government to sell its businesses to private companies and individuals
+VariableLabel: Own factories?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “Once again, please choose whether you agree most with Statement A or B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 67
+Question: a.  in order to create jobs, the government should encourage foreign companies to invest in our country.  b.  the government should be wary of foreign investors because they may gain control of our national wealth
+VariableLabel: Foreign investment?
+Values: 1-5
+        9
+        99
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+             99=Missing Data
+Source: Zambia 93
+Note: The enumerator introduced the pair of statements by saying, “Once again, please choose whether you agree most with Statement A or B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 68
+Question: a.  the costs of reforming the economy are too high;  the government should therefore change its economic policies.  b.  in order for the economy to get better in the future, it is necessary for us to accept some hardships now
+VariableLabel: Change economic policies?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: Zambia 96
+Note: The enumerator introduced the pair of statements by saying, “Once again, please choose whether you agree most with Statement A or B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 69
+Question: a.  the government’s economic policies have helped most people; only a few have suffered.  b.  the government’s economic policies have hurt most people and only benefited a few
+VariableLabel: Few have suffered?
+Values: 1-5
+ValueLabels: 1=A, strongly,
+             2=A, somewhat,
+             3=B, somewhat,
+             4=B, strongly
+             5=Do not agree with either
+             9=Don’t Know
+Source: adapted from Ghana99
+Note: The enumerator introduced the pair of statements by saying, “Once again, please choose whether you agree most with Statement A or B.”  Then, the enumerator probed, “Do you agree strongly or just somewhat?”
+
+Pk: 0
+QuestionNumber: 70
+Question: in your opinion, which group has benefited the most? variable level:  which group has benefited
+VariableLabel: 1-5,
+Values: 1=People close to the government
+        2=Foreign businesses
+        3=Rural dwellers
+        4=People in selected regions of Nigeria (specify region)
+        5=Other
+        10=Northern region/Hausas’
+        13=The southerners
+        31=The elites
+        32=The rich
+        33=The poor
+        34=students
+        35=Salary earners
+        36=The Egba’s
+        37=Politicians
+        38=Representative of National Assembly
+        39=Army/military
+        40=The influential people/the upper class
+        41=Government officers/ministers and commissioners
+        42=People in the urban class
+        43=Yorubas
+        44=Employed People
+        45=Farmers
+        46=Contractors
+        47=Church
+        48=Igbo’s
+        49=Rural Areas
+        50=Traditional Rulers
+        51=Computer engineer
+        52=Don’t Know
+        97=Not Applicable
+ValueLabels: new question
+Source: The enumerator only asked this question if the respondent chose 69B.
+Note: 
+
+Pk: 0
+QuestionNumber: 71
+Question: are you a registered voter
+VariableLabel: Registered voter
+Values: 0-1
+ValueLabels: 0=No
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 72
+Question: [if no]  why not
+VariableLabel: Why not registered
+Values: 0-12
+ValueLabels: 0=Not Applicable
+             1=missed registration
+             2=ill health
+             3=absent from area
+             4=registration process was not credible
+             5=voter card not available
+             6=under 18 during reg
+             7=not interested in voting
+             8=otherwise engaged
+             9=My family does not allow me to register
+             10=Not properly informed
+             11=Cannot vote without eating
+             12=Old Age
+             99=Missing Data
+Source: Zambia 96
+Note: If answer to question 71 is yes, then the enumerator enters 0= not applicable. Enumerator then goes to Question 75
+
+Pk: 0
+QuestionNumber: 73A
+Question: understanding that some [country]ns choose not to vote, let me ask you:  did you vote:  a.  in the presidential election of february 1999
+VariableLabel: Voted President
+Values: 0-1
+ValueLabels: 0=No
+             1=Yes
+             97=Not Applicable
+Source: adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 73B
+Question: understanding that some [country]ns choose not to vote, let me ask you:  did you vote:  b. in the national assembly elections of february 1999
+VariableLabel: Voted at Assembly
+Values: 0-1
+ValueLabels: 0=No
+             1=Yes
+             97=Not Applicable
+Source: adapted from Zambia96       2
+Note: 
+
+Pk: 0
+QuestionNumber: 73C
+Question: understanding that some [country]ns choose not to vote, let me ask you:  did you vote:  c.  in the state government elections of january 1999
+VariableLabel: Voted state assembly
+Values: 0-1
+ValueLabels: 0=No
+             1=Yes
+             97=Not Applicable
+Source: adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 73D
+Question: understanding that some [country]ns choose not to vote, let me ask you:  did you vote:  d.  in the local government elections of december 1998
+VariableLabel: Voted local government
+Values: 0-1
+ValueLabels: 0=No
+             1=Yes
+             97=Not Applicable
+Source: adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 74
+Question: when you voted for the national assembly, did you vote for an individual or for a political party
+VariableLabel: Individual or party
+Values: 1-2
+        9
+        97
+ValueLabels: 1=Individual
+             2=Party
+             9=Don’t Know
+             97=Not Applicable
+Source: Zambia 96
+Note: Enumerator asked only if respondent answered “yes” to Question 63A or B.
+
+Pk: 0
+QuestionNumber: 75A
+Question: in your opinion, were the following elections conducted honestly or dishonestly?  a.  the presidential elections of february 1999
+VariableLabel: Presidential elections honest
+Values: 1-4
+ValueLabels: 1-Very Dishonestly
+             2=Somewhat Dishonestly
+             3=Quite Honestly
+             4=Very Honestly
+             9=Don’t Know,
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 75B
+Question: in your opinion, were the following elections conducted honestly or dishonestly?  b.  the state government elections of january 1999
+VariableLabel: State elections honest
+Values: 1-4
+        9
+        99
+ValueLabels: 1-Very Dishonestly
+             2=Somewhat Dishonestly
+             3=Quite Honestly
+             4=Very Honestly
+             9=Don’t Know
+             99=Missing Data
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 76A
+Question: since the last election, how satisfied have you been with the performance of:  a.  your representative to the national assembly
+VariableLabel: National Rep performance
+Values: 1-4
+ValueLabels: 1=very unsatisfied
+             2=somewhat unsatisfied
+             3=somewhat satisfied
+             4=very satisfied
+             9=Don’t Know
+Source: adapted from Zambia96
+Note: 3
+
+Pk: 0
+QuestionNumber: 76B
+Question: since the last election, how satisfied have you been with the performance of:  b.  your representative to the state assembly
+VariableLabel: State Rep. performance
+Values: 1-4
+ValueLabels: 1=very unsatisfied
+             2=somewhat unsatisfied
+             3=somewhat satisfied
+             4=very satisfied
+             9=Don’t Know
+Source: adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 76C
+Question: since the last election, how satisfied have you been with the performance of:  c.  the governor of this state
+VariableLabel: Governor performance
+Values: 1-4
+ValueLabels: 1=very unsatisfied
+             2=somewhat unsatisfied
+             3=somewhat satisfied
+             4=very satisfied
+             9=Don’t Know
+Source: adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 76D
+Question: since the last election, how satisfied have you been with the performance of:  d.  the local government chairman or woman for this area
+VariableLabel: LG Chair performance
+Values: 1-4
+ValueLabels: 1=very unsatisfied
+             2=somewhat unsatisfied
+             3=somewhat satisfied
+             4=very satisfied
+             9=Don’t Know
+Source: adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: 76E
+Question: since the last election, how satisfied have you been with the performance of:  e.  any judge or lawyer you have encountered
+VariableLabel: Judge/Lawyer performance
+Values: 0-4
+ValueLabels: 0=Not Applicable
+             1=very unsatisfied
+             2=somewhat unsatisfied
+             3=somewhat satisfied
+             4=very satisfied
+             9=Don’t Know
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 76F
+Question: since the last election, how satisfied have you been with the performance of:  f.  political parties
+VariableLabel: Party performance
+Values: 1-4
+ValueLabels: 1=very unsatisfied
+             2=somewhat unsatisfied
+             3=somewhat satisfied
+             4=very satisfied
+             9=Don’t Know
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 77A
+Question: i will read out a list of things that people sometimes do as citizens.  please tell me how often you, personally, have done any of these things during the last five years.  a.  attending a community meeting
+VariableLabel: Attend community meeting
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 77B       4
+Question: i will read out a list of things that people sometimes do as citizens.  please tell me how often you, personally, have done any of these things during the last five years.  b.  getting together with others to raise an issue
+VariableLabel: Raise an issue
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 77C
+Question: i will read out a list of things that people sometimes do as citizens.  please tell me how often you, personally, have done any of these things during the last five years.  c.  attending an election rally
+VariableLabel: Attend election rally
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 77D
+Question: i will read out a list of things that people sometimes do as citizens.  please tell me how often you, personally, have done any of these things during the last five years.  d.  working for a political candidate or party
+VariableLabel: Work for candidate
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 77E
+Question: i will read out a list of things that people sometimes do as citizens.  please tell me how often you, personally, have done any of these things during the last five years.  e.  signing a petition
+VariableLabel: Sign petition
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 77F
+Question: i will read out a list of things that people sometimes do as citizens.  please tell me how often you, personally, have done any of these things during the last five years.  f.  writing a letter to a newspaper
+VariableLabel: Write newspaper
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 77G
+Question: i will read out a list of things that people sometimes do as citizens.  please tell me how often you, personally, have done any of these things during the last five years.  g. attending a demostartion
+VariableLabel: Attend demonstration
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 78A
+Question: during the last five years, how often have you contacted any of the following persons for help to solve a problem?  a.  a traditional ruler       5
+VariableLabel: Contact traditional ruler
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+             99=Missing Data
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 78B
+Question: during the last five years, how often have you contacted any of the following persons for help to solve a problem?  b.  a local government chairman or councillor
+VariableLabel: Contact LG Chair
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 78C
+Question: during the last five years, how often have you contacted any of the following persons for help to solve a problem?  c.  a national assembly representative
+VariableLabel: Contact Nat. Rep.
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 78D
+Question: during the last five years, how often have you contacted any of the following persons for help to solve a problem?  d.  a state assembly representative
+VariableLabel: Contact State Rep
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 78E
+Question: during the last five years, how often have you contacted any of the following persons for help to solve a problem?  e.  an official of a government ministry
+VariableLabel: Contact government official
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 78F
+Question: during the last five years, how often have you contacted any of the following persons for help to solve a problem?  d.  a religious leader
+VariableLabel: contact religious leader
+Values: 0-3
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: adapted from Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 78G
+Question: during the last five years, how often have you contacted any of the following persons for help to solve a problem?  g.  some other influential person
+VariableLabel: Contact influential person
+Values: 0-3       6
+ValueLabels: 0=never
+             1=only once
+             2=sometimes
+             3=often
+Source: adapted from Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 79A
+Question: what would you do if the government took any of the following actions:  a.  told you which religion you had to follow
+VariableLabel: Follow religion
+Values: 0-4
+ValueLabels: 0=Nothing
+             1=Contact an elected representative
+             2=support an opposition party
+             3=join a protest or boycott
+             4=Other
+             8=Support the government
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 79B
+Question: what would you do if the government took any of the following actions:  b.  stopped you from traveling freely within the country
+VariableLabel: Stop travel
+Values: 0-4
+ValueLabels: 0=Nothing
+             1=Contact an elected representative
+             2=support an opposition party
+             3=join a protest or boycott
+             4=Other
+             8=Support the government
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 79C
+Question: what would you do if the government took any of the following actions:  c.  shut down newspapers that criticized the government
+VariableLabel: Shut newspapers
+Values: 0-4
+ValueLabels: 0=Nothing
+             1=Contact an elected representative
+             2=support an opposition party
+             3=join a protest or boycott
+             4=Other
+             8=Support the government
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 79D
+Question: what would you do if the government took any of the following actions:  d.  dismissed judges who ruled against the government
+VariableLabel: Dismiss judges
+Values: 0-4
+ValueLabels: 0=Nothing
+             1=Contact an elected representative
+             2=support an opposition party
+             3=join a protest or boycott
+             4=Other
+             8=Support the government
+             9=Don’t Know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 79E
+Question: what would you do if the government took any of the following actions:  e.  suspended the national assembly and canceled the next elections
+VariableLabel: Cancel elections
+Values: 0-4
+        8-9
+        99
+ValueLabels: 0=Nothing
+             1=Contact an elected representative
+             2=support an opposition party
+             3=join a protest or boycott
+             4=Other
+             8=Support the government
+             9=Don’t Know
+             99=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 80       7
+Question: “please say whether you agree or disagree with the following statements.  there are no right or wrong answers.  just tell me what you think.”  the best way to get ahead in this life is to have contacts with important people in high places
+VariableLabel: People in high places
+Values: 1-4
+        9
+        99
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=agree
+             4=strongly agree
+             9=don’t know
+             99=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 81
+Question: “please say whether you agree or disagree with the following statements.  there are no right or wrong answers.  just tell me what you think.”  politicians and civil servants are trying their best to look after the interests of people like me
+VariableLabel: Look after the interests
+Values: 1-4
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=agree
+             4=strongly agree
+             9=don’t know
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 82
+Question: “please say whether you agree or disagree with the following statements.  there are no right or wrong answers.  just tell me what you think.”  rather than protecting his friends, the president will fight corruption wherever he finds it
+VariableLabel: President fights corruption
+Values: 1-4
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=agree
+             4=strongly agree
+             9=don’t know
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 83
+Question: “please say whether you agree or disagree with the following statements.  there are no right or wrong answers.  just tell me what you think.”  bribery is not common among public officials in [country]
+VariableLabel: Bribery not common
+Values: 1-4
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=agree
+             4=strongly agree
+             9=don’t know
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 84
+Question: “please say whether you agree or disagree with the following statements.  there are no right or wrong answers.  just tell me what you think.”  the president’s region of the country gets more government services than any other region
+VariableLabel: President’s region
+Values: 1-4
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=agree
+             4=strongly agree
+             9=don’t know
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 85
+Question: “please say whether you agree or disagree with the following statements.  there are no right or wrong answers.  just tell me what you think.”  corruption was a worse problem under the old military government than these days
+VariableLabel: Corruption worse
+Values: 1-4
+        9
+        99
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=agree
+             4=strongly agree
+             9=don’t know
+             99=Missing Data
+Source: adapted from Zambia 96       8
+Note: 
+
+Pk: 0
+QuestionNumber: 86
+Question: how often, if ever, has a public official asked you for a bribe or a favor in return for getting something you were entitled to
+VariableLabel: How often bribe?
+Values: 0-3
+ValueLabels: 0=never
+             1=once
+             2=a few times
+             3=often
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: 87A (1st group mentioned)
+Question: which office(s) or agency(ies) did the official work for
+VariableLabel: Which office(s)
+Values: 1-58
+        97
+        99
+ValueLabels: 1=Local government
+             2=School/Teachers
+             3=Joint Admission Matriculation Board (JAMB)
+             4=West African Examination Council (W, A, E, C, )
+             5=National Electric Power Authority (N, E, P, A, )
+             6=Hospitals
+             7=Police/Law enforcement agencies
+             8=Army
+             9=Government agencies/paraministry
+             10=Customs
+             11=Nitel
+             12=Licence office
+             13=Water corporation
+             14=Federal Secretariat
+             15=Immigration
+             16=Private organizations
+             17=Task force
+             18=Road Safety Corps
+             19=University/College/Lecture
+             20=Nigerian Port Authority (NPA)
+             21=National Population Commission
+             22=Post Office
+             23=Court
+             24=State Liaison Offices
+             25=Nigerian National Petroleum Corp (N, N, P, C, )
+             26=Nigerian Airways
+             27=Ministry of Communication
+             28=Cabinet Office/Parmanent secretary
+             29=Ministry of Education/Education Board
+             30=Ministry of Works
+             31=Internal Affairs Ministry
+             32=National Profident Fund
+             33=Revenue board (tax collectors)
+             34=Civil Defense
+             35=Ministry of Health/Health officer
+             36=N, Y, S, C, Office
+             37=Accountant/general officer
+             38=Agricultural ministry
+             39=Business Premises
+             40=Ministry of Establishment
+             41=Minister of sports
+             42=Political party
+             43=V, I, O,
+             44=Bank workers
+             45=Insurance agency
+             46=Ministry of Petroleum
+             47=Ministry of employment
+             48=INEC (Electoral officers),
+             49=Women center
+             50=NURTW
+             51=Traditional council
+             52=Nigerian Air Force
+             53=WRECA
+             54=NDLEA (Drug Abuse)
+             55=Ministry of Finance
+             56=Ministry of Information
+             57=Nigerian Airport Authority
+             58=Vigilante Group
+             99=Missing Data
+Source: Ghana99
+Note: Enumerator asked the question only if respondent answers 1, 2, or 3 to Question 86. Respondent may give up to two responses.
+
+Pk: 0
+QuestionNumber: 87B (2nd office mentioned).
+Question: which office(s) or agency(ies) did the official work for
+VariableLabel: Which office(s)
+Values: 1-58
+ValueLabels: 1=Local government
+             2=School/Teachers
+             3=Joint Admission Matriculation Board (JAMB)
+             4=West African Examination Council (W, A, E, C, )
+             5=National Electric Power Authority (N, E, P, A, )
+             6=Hospitals
+             7=Police/Law enforcement agencies
+             8=Army
+             9=Government agencies/paraministry
+             10=Customs
+             11=Nitel
+             12=Licence office
+             13=Water corporation
+             14=Federal Secretariat
+             15=Immigration
+             16=Private organizations
+             17=Task force
+             18=Road Safety Corps
+             19=University/College/Lecture
+             20=Nigerian Port Authority (NPA)
+             21=National Population Commission
+             22=Post Office
+             23=Court
+             24=State Liaison Offices
+             25=Nigerian National Petroleum Corp (N, N, P, C, )
+             26=Nigerian Airways
+             27=Ministry of Communication
+             28=Cabinet Office/Parmanent secretary
+             29=Ministry of Education/Education Board
+             30=Ministry of Works
+             31=Internal Affairs Ministry
+             32=National Profident Fund
+             33=Revenue board (tax collectors)
+             34=Civil Defense
+             35=Ministry of Health/Health officer
+             36=N, Y, S, C, Office
+             37=Accountant/general officer
+             38=Agricultural ministry
+             39=Business Premises
+             40=Ministry of Establishment
+             41=Minister of sports
+             42=Political party
+             43=V, I, O,
+             44=Bank workers
+             45=Insurance agency
+             46=Ministry of Petroleum
+             47=Ministry of employment
+             48=INEC (Electoral officers),
+             49=Women center
+             50=NURTW
+             51=Traditional council
+             52=Nigerian Air Force
+             53=WRECA
+             54=NDLEA (Drug Abuse)
+             55=Ministry of Finance
+             56=Ministry of Information
+             57=Nigerian Airport Authority
+             58=Vigilante Group
+             99=Missing Data
+Source: Ghana99
+Note: Enumerator asked the question only if respondent answers 1, 2, or 3 to Question 86. Respondent may give up to two responses.       9
+
+Pk: 0
+QuestionNumber: 88A1
+Question: in the past two years, have you or anyone else you know been attacked or robbed when moving about in public?  a.  no, no one
+VariableLabel: No one attacked or robbed
+Values: 0
+ValueLabels: 0=No, no one
+Source: NDB
+Note: Questions 88A was asked as one question, with four response options:  no, no one; friend or acquaintance; family member; or yes, self.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 88A1, 88A2, 88A3, and 88A4, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 88A2
+Question: in the past two years, have you or anyone else you know been attacked or robbed when moving about in public?  b.  friends or acquaintances
+VariableLabel: Friends attacked or robbed?
+Values: 1
+ValueLabels: 1=friend or acquaintance
+Source: NDB
+Note: Questions 88A was asked as one question, with four response options:  no, no one; friend or acquaintance; family member; or yes, self.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 88A1, 88A2, 88A3, and 88A4, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 88A3
+Question: in the past two years, have your or anyone else you know been attacked or robbed when moving about in public?  c.  family member
+VariableLabel: Family member attacked or robbed?
+Values: 2
+ValueLabels: 2=family member
+Source: NDB
+Note: Questions 88A was asked as one question, with four response options:  no, no one; friend or acquaintance; family member; or yes, self.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 88A1, 88A2, 88A3, and 88A4, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 88A4
+Question: in the past two years, have you or anyone else you know been attacked or robbed when moving about in public? d.  yes, self
+VariableLabel: Self attacked or robbed
+Values: 3
+ValueLabels: 3=yes, self
+Source: NDB
+Note: Questions 88A was asked as one question, with four response options:  no, no one; friend or acquaintance; family member; or yes, self.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 88A1, 88A2, 88A3, and 88A4, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 88B1
+Question: in the past two years, have you or anyone else you know had your or their house broken into and had something stolen?  a.  no, no one
+VariableLabel: No one Home broken into
+Values: 0
+ValueLabels: 0=No, no-one
+Source: NDB
+Note: Questions 88B was asked as one question, with four response options:  no, no one; friend or acquaintance; family member; or yes, self.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 88B1, 88B2, 88B3, and 88B4, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 88B2
+Question: in the past two years, have you or anyone else you know had their house broken into and had something stolen?  b.  friend or acquaintance
+VariableLabel: Friend Home broken into
+Values: 1
+ValueLabels: 1=friend or acquaintance
+Source: NDB
+Note: Questions 88B was asked as one question, with four response options:  no, no one; friend or acquaintance; family member; or yes, self.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 88B1, 88B2, 88B3, and 88B4, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 88B3
+Question: in the past two years, have you or anyone else you know had their house broken into and had something stolen?  c.  family member
+VariableLabel: Family member Home broken into
+Values: 2
+ValueLabels: 2=family member
+Source: NDB
+Note: Questions 88B was asked as one question, with four response options:  no, no one; friend or acquaintance; family member; or yes, self.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 88B1, 88B2, 88B3, and 88B4, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 88B4
+Question: in the past two years, have you or anyone else you know had your house broken into and had something stolen?  d.  yes, self
+VariableLabel: Self Home broken into
+Values: 3
+ValueLabels: 3=yes, self
+Source: NDB
+Note: Questions 88B was asked as one question, with four response options:  no, no one; friend or acquaintance; family member; or yes, self.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 88B1, 88B2, 88B3, and 88B4, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 89
+Question: compared with five years ago, do you feel more or less safe when walking about alone
+VariableLabel: Safety five years ago
+Values: 1-5
+ValueLabels: 1=much less safe
+             2=somewhat less safe
+             3=about the same
+             4=somewhat more safe
+             5=much more safe
+             99=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 90A
+Question: if you ever felt unsafe in your surroundings, how likely would you be to take the following actions:  a.  report to the police
+VariableLabel: Report to the police       1
+Values: 0-3
+ValueLabels: 0=never
+             1=sometimes
+             2=often
+             3=always
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 90B
+Question: if you ever felt unsafe in your surroundings, how likely would you be to take the following actions:  b.  carry something for protection, like a weapon
+VariableLabel: Carry a weapon
+Values: 0-3
+ValueLabels: 0=never
+             1=sometimes
+             2=often
+             3=always
+             99=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 90C
+Question: if you ever felt unsafe in your surroundings, how likely would you be to take the following actions:  c.  have other people with you when going out
+VariableLabel: Have other people
+Values: 0-3
+ValueLabels: 0=never
+             1=sometimes
+             2=often
+             3=always
+             99=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 90D
+Question: if you ever felt unsafe in your surroundings, how likely would you be to take the following actions:  d.  try to form a group with other citizens to combat crime
+VariableLabel: Form a group
+Values: 0-3
+ValueLabels: 0=never
+             1=sometimes
+             2=often
+             3=always
+             99=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: 91
+Question: we have spoken to many [country]ns and they have all described themselves in different ways.  some people describe themselves in terms of their language, ethnic group, or religion, and others describe themselves in economic terms, such as working class, middle class, or a farmer.  besides being [country]n, which specific group to do you feel you belong to first and foremost
+VariableLabel: Identity
+Values: 1-200
+ValueLabels: 1=Christian
+             2=Muslim
+             3=Clergyman/Evangelist/Pastor
+             4=Alfa
+             5=Jehovah Witness
+             6=Religious Followers/groups
+             7=Churches
+             8=Free Thinker
+             9=Eckist
+             10=Yoruba
+             11=Igbo/Ibo
+             12=Egba
+             13=Delta/Urhobo
+             14=Ibibio/Calabar
+             15=Edo/Ologbo
+             16=Hausa
+             17=Ijebu
+             18=Owo
+             19=Akwa Ibom
+             20=Oyo
+             21=Awori
+             22=Osun
+             23=Ekiti
+             24=Idanre/Efik
+             25=Tiv
+             26=Ijesha
+             27=Ibarapa people
+             28=Ibadan Indigenous
+             29=Igbira
+             30=Ijaw
+             31=Abriba
+             32=Annang/Annangman
+             33=Ngwa
+             34=Aguobo-owa
+             35=Enugu state
+             36=Eke
+             37=Obonohia
+             38=Okpe
+             39=Ethnic group
+             40=Isoko
+             41=Odwyn
+             42=Itsekiri
+             43=Ishan man/Esan
+             44=Auchi
+             45=Kwale
+             46=Igoto
+             47=Ikwerre
+             48=Kalabari
+             49=Efche
+             50=Okirika
+             51=Igala
+             52=Biafrar
+             53=Burah
+             54=Northerners
+             55=Eggon
+             56=Southerners
+             57=Dan Katsina
+             58=Dan Laribar Rimi
+             59=Kanuri
+             60=Fulani
+             61=Marghi
+             62=Gwori
+             63=Mandara
+             64=Geornai
+             65=Angas
+             66=Kiibo
+             67=Ngas
+             68=Niggi
+             69=Birom
+             70=Ronkwlere
+             71=Berum
+             72=Chawai
+             73=Mwaghavul
+             74=Jarawa
+             75=Ridri
+             76=Yeskwa
+             77=Ankua
+             78=Youm
+             79=Rukuba
+             80=Miamgo
+             81=Jukun
+             82=Iregwe
+             83=Mada
+             84=Kabba/Koro
+             85=Buji
+             86=Zar
+             87=Minnor
+             88=Barbari
+             89=Biru
+             90=Bagere
+             91=Ogah
+             92=Tangale
+             93=Bauchi
+             94=Gyerawa
+             95=Bagara
+             96=Sayawa
+             97=Waga
+             98=Lungada
+             99=Marqi
+             100=Idoma
+             101=Fyeru
+             102=Matakun
+             103=Shuwa
+             104=Udochi
+             105=Babur
+             106=Shuwan Arab
+             107=Ortaregh
+             108=Mbala
+             109=Ormbalaa
+             110=Peace Maker
+             111=House wife
+             112=Human rights activist/campaigner
+             113=Democratic
+             114=Queen
+             115=Ordinary person
+             116=Great Person
+             117=A woman
+             118=Hardworking man/lady
+             119=Responsible person
+             120=Godly people
+             121=Independent person/woman
+             122=Honest person
+             123=Ambitious person
+             124=Gentle man
+             125=Simple man
+             126=Respectful fellow
+             127=A Good Samaritan
+             2128=Patriotic citizen
+             129=Communication forum
+             130=Literate person
+             131=Considerate person
+             132=Sociable person
+             133=Sports man/Footballer
+             134=A Nigerian with a conscience
+             135=Confidential person
+             136=Poor woman/man
+             137=Young adult
+             138=Elderly man/old man
+             139=Effective man
+             140=A graduate
+             141=Hajiyan
+             142=Black race
+             143=Common man
+             144=Faithful Nigerian/Loyal person
+             145=Huister
+             146=Black man
+             147=Millionaire
+             148=Generous person
+             149=As a leader
+             150=Ethnic champion
+             151=Businessman/women/market woman
+             152=Trader
+             153=Civil servant/government worker
+             154=Professionals
+             155=Technicians/Electricians
+             156=Teacher
+             157=Lawyers
+             158=Contractors/Bricklayers
+             159=Security man
+             160=Accountant/Chief auditor
+             161=Pharmacist
+             162=Farmer
+             163=Computer scientist
+             164=Fashion designer/tailor
+             165=Butcher
+             166=Retired man/woman
+             167=Fisher
+             168=Driver
+             169=Mechanic
+             170=Artist
+             171=Hairdresser
+             172=Nurse
+             173=Furniture maker/carpenter
+             174=Bridgade
+             175=Engineer
+             176=Non-governmental organization
+             177=Native doctor/traditional healer
+             178=Unemployed/applicant
+             179=Welder
+             180=Doctor
+             181=Soldier
+             182=Musician
+             183=Professional Architect
+             184=Trade union
+             185=Vulcanizer
+             186=Journalist
+             187=Working class
+             188=Middle class/Average Nigerian
+             189=Student/Scholar
+             190=Lower class/low income earners/masses
+             191=Upper class/rich man
+             192=Elites
+             193=Politician/counselors
+             194=The intellectuals
+             195=Youth
+             196=My language
+             197=Parliamentary
+             198=Waizam
+             199=Dairimi, 200-Missing Data
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 92A
+Question: “here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree or agree with these statements. “ a.  you feel proud to be ____
+VariableLabel: Proud identity
+Values: 1-5
+        9
+        99
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=neither agree or disagree
+             4=agree
+             5=strongly agree
+             9=don’t know
+             99=Missing Data
+Source: new question
+Note: Enumerator read respondent’s identity group from Q91 in the blank space.  Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 92B
+Question: “here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree or agree with these statements. “  b.  you would want your children to think of themselves as ______
+VariableLabel: Children identity
+Values: 1-5
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=neither agree or disagree
+             4=agree
+             5=strongly agree
+             9=don’t know
+Source: new question
+Note: Enumerator read respondent’s identity group from Q91 in blank space.  Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 92C
+Question: “here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree or agree with these statements. “ c.  of all the group in this country, ____ people are the best
+VariableLabel: Identity is best
+Values: 1-5
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=neither agree or disagree
+             4=agree
+             5=strongly agree
+             9=don’t know
+Source: new question
+Note: Enumerator read respondent’s identity group from Q91 in blank space.  Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 92D       3
+Question: “here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree or agree with these statements. “  d.  you feel much stronger ties to ______s than to other [country]ns
+VariableLabel: Identity ties
+Values: 1-5
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=neither agree or disagree
+             4=agree
+             5=strongly agree
+             9=don’t know
+Source: new question
+Note: Enumerator read respondent’s identity group from Q91 in blank space.  Enumerator probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: 92E
+Question: “here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree or agree with these statements. “   e.  it makes you proud to be called a [country]n
+VariableLabel: Proud Nigerian
+Values: 1-5
+        9
+        99
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=neither agree or disagree
+             4=agree
+             5=strongly agree
+             9=don’t know
+             99=Missing Data
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 92F
+Question: “here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree or agree with these statements. “  f.  you would want your children to think of themselves as [country]n
+VariableLabel: Children Nigerian
+Values: 1-5
+        9
+        99
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=neither agree or disagree
+             4=agree
+             5=strongly agree
+             9=don’t know
+             99=Missing Data
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 92G
+Question: “here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree or agree with these statements. “   g.  all people who were born in this country, regardless of what group they belong to, should be treated as equal citizens of [country]
+VariableLabel: Equal Nigerian
+Values: 1-5
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=neither agree or disagree
+             4=agree
+             5=strongly agree
+             9=don’t know
+Source: new question
+Note: 
+
+Pk: 0
+QuestionNumber: 92H
+Question: “here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree or agree with these statements. “   h.  people who were not born in this country should be allowed to become [country]n citizens
+VariableLabel: Nigerian citizens
+Values: 1-5
+        9
+        99
+ValueLabels: 1=strongly disagree
+             2=disagree
+             3=neither agree or disagree
+             4=agree
+             5=strongly agree
+             9=don’t know
+             99=Missing Data
+Source: new question
+Note: 4
+
+Pk: 0
+QuestionNumber: 93
+Question: are _____’s (respondent’s identity group from q91) economic conditions worse, the same as, or better than other group in this country
+VariableLabel: Identity conditions
+Values: 1-5
+        9
+        99 Value Labels1:  1=much worse
+        2=worse
+        3=about the same
+        4=better
+        5=much better
+        9-don’t know
+        99=Missing Data
+ValueLabels: new question
+Source: Enumerator probed for strength of opinion.
+Note: 
+
+Pk: 0
+QuestionNumber: 94
+Question: in your opinion, how often are _______(respondent’s identity from q91) people treated unfairly by the government
+VariableLabel: Identity treated fairly
+Values: 1-5
+        9
+        99
+ValueLabels: 1=always
+             2=to a large extent
+             3=to some extent
+             4=hardly at all
+             5=never
+             9=don’t know
+             99=Missing Data
+Source: new question Notes
+Note: 
+
+Pk: 0
+QuestionNumber: 95
+Question: do you think that the government represents the interests of all [country]ns, the interests of just a few group, or the interests of one group only
+VariableLabel: All Nigerians?
+Values: 1-3
+ValueLabels: 1=One group only
+             2=Just a few groups
+             3=All Nigerians
+             9=Don’t Know
+Source: new question
+Note: If respondent answers 3, skip to question 97
+
+Pk: 0
+QuestionNumber: 96A (1st group mentioned)
+Question: which group do you mean
+VariableLabel: Which identity groups
+Values: 1-46
+        97
+        99
+ValueLabels: 1=The government people/people at the corridor of power
+             2=The Hausas, Yorubas, and Ibo’s
+             3=Those that are in the realm of affairs
+             4=Yorubas
+             5=Their family interest and their pocket
+             6=The elite
+             7=The upperclassmen/rich men/the interest of the money
+             8=The Hausa people
+             9=Friends
+             10=Supporter
+             11=Ogoni
+             12=Top military personnel
+             13=Ibos/Igbos
+             14=Itsekiris
+             15=Politicians
+             16=Contractors
+             17=The Islamic group
+             18=Civil servant/government worker
+             19=Educated people/academic literates
+             20=Poor masses
+             21=Those that are living in the urban area
+             22=The Egbo’s
+             23=South West
+             24=The tribe’s group
+             25=People selected from a particular region
+             26=Community leaders
+             27=Kanuris
+             28=Uvwie
+             29=Edos
+             30=Footballers
+             31=Urhobo
+             32=Eastern groups
+             33=Middle belt
+             34=Religious leaders
+             35=Merchant
+             36=Traditional rulers
+             37=Those from F, C, T,
+             38=Christians
+             39=Business organizations
+             40=Women
+             41=The lucky ones
+             42=Working class
+             43=A capitalist
+             44=Medical services
+             45=Leader of a church
+             46=Leader of a Mosque
+             97=Not Applicable
+             99=Nothing/cannot say
+Source: new question
+Note: Respondent may give up to 3 answers
+
+Pk: 0
+QuestionNumber: 96B (2nd group mentioned)
+Question: which group do you mean
+VariableLabel: Which identity groups
+Values: 1-46
+ValueLabels: 1=The government people/people at the corridor of power
+             2=The Hausas, Yorubas, and Ibo’s
+             3=Those that are in the realm of affairs
+             4=Yorubas
+             5=Their family interest and their pocket
+             6=The elite
+             7=The upperclassmen/rich men/the interest of the money
+             8=The Hausa people
+             9=Friends
+             10=Supporter
+             11=Ogoni
+             12=Top military personnel
+             13=Ibos/Igbos
+             14=Itsekiris
+             15=Politicians
+             16=Contractors
+             17=The Islamic group
+             518=Civil servant/government worker
+             19=Educated people/academic literates
+             20=Poor masses
+             21=Those that are living in the urban area
+             22=The Egbo’s
+             23=South West
+             24=The tribe’s group
+             25=People selected from a particular region
+             26=Community leaders
+             27=Kanuris
+             28=Uvwie
+             29=Edos
+             30=Footballers
+             31=Urhobo
+             32=Eastern groups
+             33=Middle belt
+             34=Religious leaders
+             35=Merchant
+             36=Traditional rulers
+             37=Those from F, C, T,
+             38=Christians
+             39=Business organizations
+             40=Women
+             41=The lucky ones
+             42=Working class
+             43=A capitalist
+             44=Medical services
+             45=Leader of a church
+             46=Leader of a Mosque
+             97=Not Applicable
+Source: new question
+Note: Respondent may give up to 3 answers
+
+Pk: 0
+QuestionNumber: 96C (3rd group mentioned)
+Question: which group do you mean
+VariableLabel: Which identity groups
+Values: 1-46
+ValueLabels: 1=The government people/people at the corridor of power
+             2=The Hausas, Yorubas, and Ibo’s
+             3=Those that are in the realm of affairs
+             4=Yorubas
+             5=Their family interest and their pocket
+             6=The elite
+             7=The upperclassmen/rich men/the interest of the money
+             8=The Hausa people
+             9=Friends
+             10=Supporter
+             11=Ogoni
+             12=Top military personnel
+             13=Ibos/Igbos
+             14=Itsekiris
+             15=Politicians
+             16=Contractors
+             17=The Islamic group
+             18=Civil servant/government worker
+             19=Educated people/academic literates
+             20=Poor masses
+             21=Those that are living in the urban area
+             22=The Egbo’s
+             23=South West
+             24=The tribe’s group
+             25=People selected from a particular region
+             26=Community leaders
+             27=Kanuris
+             28=Uvwie
+             29=Edos
+             30=Footballers
+             31=Urhobo
+             32=Eastern groups
+             33=Middle belt
+             34=Religious leaders
+             35=Merchant
+             36=Traditional rulers
+             37=Those from F, C, T,
+             38=Christians
+             39=Business organizations
+             40=Women
+             41=The lucky ones
+             42=Working class
+             43=A capitalist
+             44=Medical services
+             45=Leader of a church
+             46=Leader of a Mosque
+             97=Not Applicable
+Source: new question
+Note: Respondent may give up to 3 answers
+
+Pk: 0
+QuestionNumber: 97
+Question: do you feel close to any political party
+VariableLabel: Close to party
+Values: 0-1
+ValueLabels: 0 = No
+Source: Zambia 96
+Note: If no, then the enumerator goes to Question 99 after entering “0" for Question 98.
+
+Pk: 0
+QuestionNumber: 98
+Question: which one
+VariableLabel: Which party
+Values: 1-4
+ValueLabels: 0=Not Applicable
+             1=People’s Democratic Party (PDP)
+             2=All People’s Party (APP)
+             3=Alliance for Democracy (AD)
+             4= Other (specify)
+             9=Don’t Know
+Source: Zambia 96
+Note: Only asked if respondent answered “yes” to question 97.
+
+Pk: 0
+QuestionNumber: 99
+Question: roughly how much money do you (and your spouse together) earn per month
+VariableLabel: Monthly earnings
+Values: 0-8
+ValueLabels: 0= none
+             1= less than 1, 000 naira
+             2= 1, 000-5, 000 naira
+             3= 5, 000-10, 000 naira
+             4= 10, 000-20, 000 naira
+             5= 20, 000-30, 000 naira
+             6= 30, 000-40, 000 naira
+             7= 40, 000-50, 000 naira
+             8= over 50, 000 naira
+             99=Missing Data
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: 100
+Question: how would you describe your financial situation during the past year?  did you save money, spend all your income, spend some of your own savings, or borrow money?       6
+VariableLabel: Financial situation
+Values: 1-5
+ValueLabels: 1=Save
+             2=Spend Income
+             3=Spend Savings
+             4=Borrow
+             5=Spend Savings AND Borrow
+             99=Missing Data
+Source: Ghana99
+Note: The Following Questions were completed by the enumerator after the interview had ended.
+
+Pk: 0
+QuestionNumber: 101
+Question: state
+VariableLabel: State
+Values: 1-38
+ValueLabels: 1=Abia
+             2=Adamawa
+             3=Akwa-Iborn
+             4=Anambra
+             5=Bauchi
+             6=Beyelsa
+             7=Benue
+             8=Borno
+             9=Cross River
+             10=Delta
+             11=Ebonyi
+             12=Edo
+             13=Ekiti
+             14=Enugu
+             15=F, C, T,
+             16=Gombe
+             17=Imo
+             18=Jigawa
+             19=Kaduna
+             20=Kano,
+             21=Katsina
+             22=Kebbi
+             23=Kogi
+             24=Kwara
+             25=Lagos
+             26=Nassarawa
+             27=Niger
+             28=Ogun
+             29=Ondo
+             30=Osun
+             31=Oyo
+             32=Plateau
+             33=Rivers
+             34=Sokoto
+             35=Taraba
+             36=Yobe
+             37=Zamfara,
+             38=No Answer
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 102
+Question: generally speaking, how would you describe the locality
+VariableLabel: Urban/Rural (interviewer)
+Values: 1-2
+ValueLabels: 1=Urban
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 103
+Question: more specifically, what sort of settlement was it
+VariableLabel: Settlement type
+Values: 1-9
+ValueLabels: 1=Urban (formal)
+             2=Suburban (formal)
+             3=Rural township/town
+             4=Rural village
+             5=Rural, individual homestead
+             6=Urban, non-permanent, informal settlement
+             7=Rural, non-permanent, informal settlement
+             8=Don’t know
+             9=No Answer
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 104
+Question: in what type of shelter did the respondent live
+VariableLabel: House Type
+Values: 1-7
+ValueLabels: 1=Non-traditional (formal house)
+             2=Traditional house
+             3=Temporary structure on own plot
+             4=Temporary structure in backyard
+             5=Flat in block of flats
+             6=Single room in larger dwelling structure
+             7=Other
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 105
+Question: what was the roof made of:
+VariableLabel: Roofing
+Values: 1-7
+ValueLabels: 1=Metal, tin, zinc
+             2=Tiles
+             3=Shingles
+             4=Thatch
+             5=Plastic sheets
+             6=Asbestos
+             7=Multiple materials
+             99=Missing Data
+Source: new question       7
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 106
+Question: how many houses within the locality are formal houses
+VariableLabel: Formality
+Values: 0-3
+ValueLabels: 0=None
+             1=Some
+             2=Most
+             3=All
+             9=Don’t Know, Can’t determine
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 107A
+Question: roughly how much of the last 10km of your journey were spent on these different sorts of roads?  a.  graded sand or dirt roads
+VariableLabel: Graded dirt
+Values: 0-3
+ValueLabels: 0=0 kms
+             1=<5 kms
+             2=5-9 kms
+             3=All
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 107B
+Question: roughly how much of the last 10km of your journey were spent on these different sorts of roads?  b.  ungraded dirt roads
+VariableLabel: Ungraded dirt
+Values: 0-3
+ValueLabels: 0=0 kms
+             1=<5 kms
+             2=5-9 kms
+             3=All
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 107C
+Question: roughly how much of the last 10km of your journey were spent on these different sorts of roads?  c.  off road
+VariableLabel: Off road
+Values: 0-3
+ValueLabels: 0=0 kms
+             1=<5 kms
+             2=5-9 kms
+             3=All
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 107D
+Question: roughly how much of the last 10km of your journey were spent on these different sorts of roads?  d.  tarred or concrete roads
+VariableLabel: Tarred
+Values: 0-3
+ValueLabels: 0=0 kms
+             1=<5 kms
+             2=5-9 kms
+             3=All
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 108A
+Question: were there any other people immediately present who might be listening during the interview?  a.  no one present
+VariableLabel: No one present
+Values: 0
+ValueLabels: 0=No one present
+Source: new question
+Note: Questions 108 was asked as one question, with five response options:  no one; spouse; children; a few others; or a small crowd.  Because some individuals gave more then one answer, the results are recorded in four       8separate categories, 108A, 108B, 108C, and 108D, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 108B
+Question: were there any other people immediately present who might be listening during the interview?  b.  spouse present
+VariableLabel: Spouse present
+Values: 1
+ValueLabels: 1=Spouse present
+Source: new question
+Note: Questions 108 was asked as one question, with five response options:  no one; spouse; children; a few others; or a small crowd.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 108A, 108B, 108C, and 108D, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 108C
+Question: were there any other people immediately present who might be listening during the interview?  c.  children only present
+VariableLabel: Children present
+Values: 2
+ValueLabels: 2=Children present
+Source: new question
+Note: Questions 108 was asked as one question, with five response options:  no one; spouse; children; a few others; or a small crowd.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 108A, 108B, 108C, and 108D, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 108D
+Question: were there any other people immediately present who might be listening during the interview?  d.  a few others present
+VariableLabel: A few others present
+Values: 3
+ValueLabels: 3=A few others present
+Source: new question
+Note: Questions 108 was asked as one question, with five response options:  no one; spouse; children; a few others; or a small crowd.  Because some individuals gave more then one answer, the results are recorded in four separate categories, 108A, 108B, 108C, and 108D, which records those who answered affirmatively for each option (with those who did not select an option labeled as “not applicable.”)
+
+Pk: 0
+QuestionNumber: 109
+Question: did the respondent check with others for information to answer any question
+VariableLabel: Check with others?
+Values: 0-1
+ValueLabels: 0=No
+             1=Yes
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 110
+Question: do you think anyone influenced the respondent’s answers during the interview
+VariableLabel: Influenced by others
+Values: 0-1
+ValueLabels: 0=No
+             1=Yes
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 111       9
+Question: what proportion of the questions do you feel the respondent had difficulty answering
+VariableLabel: Difficulty answering?
+Values: 0-4
+ValueLabels: 0=None
+             1=Few
+             2=Some
+             3=Most
+             4=All
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 112A
+Question: what was the respondent’s attitude toward you during the interview?  a.  friendly or hostile
+VariableLabel: Respondent friendly?
+Values: 1-3
+ValueLabels: 1=Friendly
+             2=In between
+             3=Hostile
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 112B
+Question: what was the respondent’s attitude toward you during the interview?  b.  interested or bored
+VariableLabel: Respondent Interested?
+Values: 1-3
+ValueLabels: 1=Interested
+             2=In between
+             3=Bored
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 112C
+Question: what was the respondent’s attitude toward you during the interview?  c.  cooperative or uncooperative
+VariableLabel: Respondent Cooperative?
+Values: 1-3
+ValueLabels: 1=Cooperative
+             2=In between
+             3=Uncooperative
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 112D
+Question: what was the respondent’s attitude toward you during the interview?  d.  patient or impatient
+VariableLabel: Respondent Patient?
+Values: 1-3
+ValueLabels: 1=Patient
+             2=In between
+             3=Impatient
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 112E
+Question: what was the respondent’s attitude toward you during the interview?  e.  at ease or suspicious
+VariableLabel: Respondent at ease?
+Values: 1-3
+ValueLabels: 1=At ease
+             2=In between
+             3=Suspicious
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 112F
+Question: what was the respondent’s attitude toward you during the interview?  f.  honest or misleading
+VariableLabel: Respondent honest?
+Values: 1-3
+ValueLabels: 1=Honest
+             2=In between
+             3=Misleading
+             99=Missing Data
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 113A       0
+Question: did your presence in the area arouse interest from the neighbors
+VariableLabel: Neighbors interested?
+Values: 0-1
+ValueLabels: 0=No
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 113B
+Question: did your presence in the area arouse suspicion from neighbors
+VariableLabel: Neighbors suspicious?
+Values: 0-1
+ValueLabels: 0=No
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 113C
+Question: were you approached by community and or or political representatives
+VariableLabel: Political representatives?
+Values: 0-1
+ValueLabels: 0=No
+Source: new question
+Note: Question was answered by enumerator. .
+
+Pk: 0
+QuestionNumber: 113D
+Question: did you feel threatened during the interview
+VariableLabel: Feel threatened?
+Values: 0-1
+ValueLabels: 0=No
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 113E
+Question: were you physically threatened during the interview
+VariableLabel: Physically threatened?
+Values: 0-1
+ValueLabels: 0=No
+Source: new question
+Note: Question was answered by enumerator.
+
+Pk: 0
+QuestionNumber: 114
+Question: interviewer:  do you come from a rural or urban area
+VariableLabel: Interviewer origin
+Values: 1-2
+ValueLabels: 1=Urban
+Source: new question
+Note: Question was answered by enumerator.
+

@@ -1,0 +1,2196 @@
+Question Number: RESPNO
+Variable Label: Respondent number
+Question Text: respondent number
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: DECNO
+Variable Label: Data Entry Clerk number
+Question Text: data entry clerk number
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: INTVNO
+Variable Label: Interviewer number
+Question Text: interviewer number
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: BACKCHK
+Variable Label: Household back-checked?
+Question Text: household back-checked
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: URBRUR
+Variable Label: Urban or Rural Primary Sampling Unit
+Question Text: psu or ea
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: REGION
+Variable Label: Province or region
+Question Text: region or province
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: DISTRICT
+Variable Label: District
+Question Text: district
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: COUNTY
+Variable Label: County
+Question Text: county
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: SUBCOUNTY
+Variable Label: Sub-County
+Question Text: sub-county
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: PARISH
+Variable Label: Parish or PSU
+Question Text: parish or ward
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: TOWNVILL
+Variable Label: Town/Village
+Question Text: town  or village
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EANUMB_AB
+Variable Label: AB Assigned EA Number
+Question Text: ab assigned ea number
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SVC_A
+Variable Label: Electricity grid in the PSU/EA
+Question Text: are the following services present in the primary sampling unit or enumeration area: electricity grid that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SVC_B
+Variable Label: Piped water system in the PSU/EA
+Question Text: are the following services present in the primary sampling unit or enumeration area: piped water system that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SVC_C
+Variable Label: Sewage system in the PSU/EA
+Question Text: are the following services present in the primary sampling unit or enumeration area: sewage system that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SVC_D
+Variable Label: Cell phone service in the PSU/EA
+Question Text: are the following services present in the primary sampling unit or enumeration area: cell phone service
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_A
+Variable Label: Post-office in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: post-office
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_B
+Variable Label: School in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: school
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_C
+Variable Label: Police station in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: police station
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_D
+Variable Label: Health clinic in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: health clinic
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_E
+Variable Label: Market stalls in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: market stalls (selling groceries and or or clothing)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SEC_A
+Variable Label: Police in the PSU/EA
+Question Text: in the psu or ea, did you (or any of your colleagues) see: any policemen or police vehicles
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SEC_B
+Variable Label: Soldiers/army in the PSU/EA
+Question Text: in the psu or ea, did you (or any of your colleagues) see: any soldiers or army vehicles
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_ROAD
+Variable Label: Tarred/paved road
+Question Text: thinking of your journey here: was the road at the start point in the psu or ea paved or tarred or concrete
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_1
+Variable Label: Reason for Unsuccessful Call Household 1
+Question Text: reasons for unsuccessful calls: household 1
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_2
+Variable Label: Reason for Unsuccessful Call Household 2
+Question Text: reasons for unsuccessful calls: household 2
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_3
+Variable Label: Reason for Unsuccessful Call Household 3
+Question Text: reasons for unsuccessful calls: household 3
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_4
+Variable Label: Reason for Unsuccessful Call Household 4
+Question Text: reasons for unsuccessful calls: household 4
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_5
+Variable Label: Reason for Unsuccessful Call Household 5
+Question Text: reasons for unsuccessful calls: household 5
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_6
+Variable Label: Reason for Unsuccessful Call Household 6
+Question Text: reasons for unsuccessful calls: household 6
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_7
+Variable Label: Reason for Unsuccessful Call Household 7
+Question Text: reasons for unsuccessful calls: household 7
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_OTHER         7
+Variable Label: Other reason for Unsuccessful Call
+Question Text: reasons for unsuccessful calls: other
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: PREVINT
+Variable Label: Previous interview, gender
+Question Text: previous interview was with a:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: THISINT
+Variable Label: This interview, gender
+Question Text: this interview must be with a:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: ADULT_CT
+Variable Label: Number of adult women/men in household
+Question Text: number of women or men in the household (adult citizens)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: CALLS
+Variable Label: Number of calls
+Question Text: how many calls were made to the household where the interview actually took place
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: DATEINTR
+Variable Label: Date of interview
+Question Text: date of interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: STRTIME
+Variable Label: Time interview started
+Question Text: time interview started
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q1
+Variable Label: Age
+Question Text: how old are you
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q2
+Variable Label: Language of respondent
+Question Text: which [country]n language is your home language
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q2OTHER
+Variable Label: Language of respondent
+Question Text: which [country]n language is your home language? (other, verbatim)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q3A
+Variable Label: Country’s present economic condition
+Question Text: in general, how would you describe: the present economic condition of this country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q3B
+Variable Label: Your present living conditions
+Question Text: in general, how would you describe: your own present living conditions
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q4
+Variable Label: Your living conditions vs others
+Question Text: in general, how do you rate your living conditions compared to those of other [country]ns
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q5A
+Variable Label: Country’s economic condition compared to 12 months ago
+Question Text: looking back, how do you rate the following compared to twelve months ago: economic conditions in this country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q5B
+Variable Label: Your living conditions compared to 12 months ago
+Question Text: looking back, how do you rate the following compared to twelve months ago: your living conditions
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q6A
+Variable Label: Country’s economic condition in 12 months time
+Question Text: looking ahead, do you expect the following to be better or worse: economic conditions in this country in twelve months time
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q6B
+Variable Label: Your living conditions in 12 months time
+Question Text: looking ahead, do you expect the following to be better or worse: your living conditions in twelve months time
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q7A
+Variable Label: How often gone without food
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: enough food to eat
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q7B
+Variable Label: How often gone without water
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: enough clean water for home use
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q7C
+Variable Label: How often gone without medical care
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: medicines or medical treatment
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q7D
+Variable Label: How often gone without cooking fuel
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: enough fuel to cook your food
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q7E
+Variable Label: How often gone without a cash income
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: a cash income
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q8
+Variable Label: Economic policies helped most vs. hurt most
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.  statement 1: the government’s economic policies have helped most people; only a few have suffered. statement 2: the government’s economic policies have hurt most people and only benefited a few
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q9
+Variable Label: Interest in public affairs
+Question Text: how interested would you say you are in public affairs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q10
+Variable Label: Discuss politics
+Question Text: when you get together with your friends or family, would you say you discuss political matters:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q11A
+Variable Label: Radio news
+Question Text: how often do you get news from the following sources: radio
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q11B
+Variable Label: Television news
+Question Text: how often do you get news from the following sources: television
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q11C
+Variable Label: Newspaper news
+Question Text: how often do you get news from the following sources: newspapers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q12A
+Variable Label: Freedom to say what you think
+Question Text: in this country, how free are you: to say what you think
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q12B
+Variable Label: Freedom to join any political organization
+Question Text: in this country, how free are you: to join any political organization you want
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q12C
+Variable Label: Freedom to choose who to vote for
+Question Text: in this country, how free are you: to choose who to vote for without feeling pressured
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q12D
+Variable Label: Freedom to hold a political rally
+Question Text: in this country, how free are you: to hold a political rally
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q13
+Variable Label: Leaders treat all equally vs. help own community
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.     statement 1: since leaders represent everyone, they should not favour their own family or group. statement 2: once in office, leaders are obliged to help their home community
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q14
+Variable Label: Government close newspapers vs. free to publish
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.     statement 1: government should be able to close newspapers that print stories it does not like. statement 2: the news media should be free to publish any story that they see fit without fear of being shut down
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q15
+Variable Label: Government suppress expression vs. people speak minds
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.     statement 1: government should not allow the expression of political views that are fundamentally different from the views of the majority. statement 2: people should be able to speak their minds about politics free of government influence, no matter how unpopular their views may be
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q16
+Variable Label: Right to peaceful political assembly vs Gvt should control
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.     statement 1: people should always have the right to hold peaceful political gatherings, rallies or demostartions without first seeking the permission of government or the police. statement 2: the government and the police should be able to control when and where people are allowed to hold political gatherings, rallies or demostartions
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17A
+Variable Label: Member of religious group
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a religious group (e.g., church, mosque)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17B
+Variable Label: Member of political party
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a political party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17C
+Variable Label: Member of Farmers’ association
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a farmers’ association
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17D
+Variable Label: Member of professional or business association
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a professional or business association
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17E
+Variable Label: Member of local development group
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: some a local development group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17F
+Variable Label: Member of cultural group
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a cultural group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17G
+Variable Label: Member of other voluntary association or community group
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: some other voluntary association or community group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q18A
+Variable Label: Discussed how to vote: religious group
+Question Text: thinking about the group or group in which you are member, have you and other members of the group discussed how and who to vote for: a religious group (e.g., church, mosque)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q18B
+Variable Label: Discussed how to vote: political party
+Question Text: thinking about the group or group in which you are member, have you and other members of the group discussed how and who to vote for: a political party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q18C
+Variable Label: Discussed how to vote: Farmers’ association
+Question Text: thinking about the group or group in which you are member, have you and other members of the group discussed how and who to vote for: a farmers’ association
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q18D
+Variable Label: Discussed how to vote:  professional or business association
+Question Text: thinking about the group or group in which you are member, have you and other members of the group discussed how and who to vote for:  a professional or business association
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q18E
+Variable Label: Discussed how to vote: local development group
+Question Text: thinking about the group or group in which you are member, have you and other members of the group discussed how and who to vote for:  some a local development group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q18F
+Variable Label: Discussed how to vote: cultural group
+Question Text: thinking about the group or group in which you are member, have you and other members of the group discussed how and who to vote for: a cultural group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q18G
+Variable Label: Discussed how to vote: other voluntary association or community group
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: some other voluntary association or community group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19A
+Variable Label: Attend a community meeting
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: attended a community meeting
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19B
+Variable Label: Join others to raise an issue
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: got together with others to raise an issue
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19C
+Variable Label: Attend a demonstration or protest march
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: attended a demostartion or protest march
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19D
+Variable Label: Attend a voter education meeting
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: attended a voter education meeting
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19E
+Variable Label: Get together with others to discuss who to vote for
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: got together with others to discuss who to vote for
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19F
+Variable Label: Attend an election rally
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: attended an election rally
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19G
+Variable Label: Work to get a candidate or party elected
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: worked to get a candidate or party elected
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19H
+Variable Label: Participate in a political party primary
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: participated in a political party primary
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19I
+Variable Label: Report campaign malpractice or incident
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: reported campaign malpractice or incident
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19J
+Variable Label: Call talk show to discuss an election related issue
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: called into a radio or tv talk show to discuss an election related issue
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q20A
+Variable Label: Reject one-party rule
+Question Text: there are many ways to govern a country. would you disapprove or approve of the following alternatives: only one political party is allowed to stand for election and hold office
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q20B
+Variable Label: Reject military rule
+Question Text: there are many ways to govern a country. would you disapprove or approve of the following alternatives: the army comes in to govern the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q20C
+Variable Label: Reject one-man rule
+Question Text: there are many ways to govern a country. would you disapprove or approve of the following alternatives: elections and the parliament are abolished so that the president can decide everything
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q21
+Variable Label: Support for democracy
+Question Text: which of these three statements is closest to your own opinion?  statement 1: democracy is preferable to any other kind of government statement 2: in some circumstances, a non-democratic government can be preferable. statement 3: for someone like me, it doesn’t matter what kind of government we have
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q22
+Variable Label: Choose leaders through elections vs. other methods
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.  statement 1: we should choose our leaders in this country through regular, open and honest elections. statement 2: since elections sometimes produce bad results, we should adopt other methods for choosing this country’s leaders
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q23
+Variable Label: Political parties divisive vs. many parties needed
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.   statement 1: political parties create division and confusion; it is therefore unnecessary to have many political parties in [country]. statement 2: many political parties are needed to make sure that [country]ns have real choices in who governs them
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q24
+Variable Label: Opposition parties examine government vs. cooperate
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2 statement 1: opposition parties should regularly examine and criticize government policies and actions. statement 2: opposition parties should concentrate on cooperating with government and helping it develop the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q25
+Variable Label: Media checks government vs. avoid negative reporting
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2 statement 1: the news media should constantly investigate and report on corruption and the mistakes made by the government statement 2: too much reporting on negative events, like corruption, only harms the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q26
+Variable Label: Presidential two term limits vs. no term limits
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2 statement 1: the constitution should limit the president to serving a maximum of two terms in office. statement 2: there should be no constitutional limit on how long the president can serve
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q27A
+Variable Label: Most important national priority
+Question Text: if you had to choose, which one of the following things: is most important
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q27B
+Variable Label: Second most important national priority
+Question Text: if you had to choose, which one of the following things: and which would be the next most important
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28A1
+Variable Label: Know: year of next election (verbatim)
+Question Text: can you tell me:  the year and month in which the next presidential and parliamentary elections will be held
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28A2
+Variable Label: Know: year of next election
+Question Text: can you tell me:  the year and month in which the next presidential and parliamentary elections will be held
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28A3
+Variable Label: Know: month of next election (verbatim)
+Question Text: can you tell me:  the year and month in which the next presidential and parliamentary elections will be held
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28A4
+Variable Label: Know: year of next election
+Question Text: can you tell me:  the year and month in which the next presidential and parliamentary elections will be held
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28B1
+Variable Label: Name candidate: first response (verbatim)
+Question Text: can you tell me:  the names of at least three candidates who are running for president in the upcoming presidential election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28B2
+Variable Label: Name candidate: first response
+Question Text: can you tell me:  the names of at least three candidates who are running for president in the upcoming presidential election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28B3
+Variable Label: Name candidate: second response (verbatim)
+Question Text: can you tell me:  the names of at least three candidates who are running for president in the upcoming presidential election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28B4
+Variable Label: Name candidate: second response
+Question Text: can you tell me:  the names of at least three candidates who are running for president in the upcoming presidential election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28B5
+Variable Label: Name candidate: third response (verbatim)
+Question Text: can you tell me:  the names of at least three candidates who are running for president in the upcoming presidential election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28B6
+Variable Label: candidate: third response
+Question Text: can you tell me:  the names of at least three candidates who are running for president in the upcoming presidential election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q29
+Variable Label: Extent of democracy
+Question Text: in your opinion how much of a democracy is [country] today
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q30
+Variable Label: Satisfaction with democracy
+Question Text: overall, how satisfied are you with the way democracy works in [country]? are you:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q31A
+Variable Label: Courts make binding decisions
+Question Text: for each of the following statements, please tell me whether you disagree or agree: the courts have the right to make decisions that people always have to abide by
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q31B
+Variable Label: People must obey the law
+Question Text: for each of the following statements, please tell me whether you disagree or agree: the police always have the right to make people obey the law
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q31C
+Variable Label: People must pay taxes
+Question Text: for each of the following statements, please tell me whether you disagree or agree: the tax department always has the right to make people pay taxes
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q32A
+Variable Label: How often party competition leads to conflict
+Question Text: in your opinion, how often, in this country: does competition between political parties lead to violent conflict
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q32B
+Variable Label: How often president ignores laws
+Question Text: in your opinion, how often, in this country: does the president ignore the laws of the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q32C
+Variable Label: How often people treated unequally
+Question Text: in your opinion, how often, in this country: are people treated unequally under the law
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q32D
+Variable Label: How often officials unpunished
+Question Text: in your opinion, how often, in this country: do officials who commit crimes go unpunished
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q32E
+Variable Label: How often ordinary people unpunished
+Question Text: in your opinion, how often, in this country: do ordinary people who break the law go unpunished
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q33
+Variable Label: How often careful what you say
+Question Text: in this country, how often: do people have to be careful of what they say about politics
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34A
+Variable Label: Trust president
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the president
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34B
+Variable Label: Trust parliament/national assembly
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34C
+Variable Label: Trust national electoral commission
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the electoral commission of [country]
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34D
+Variable Label: Trust your elected local government council
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: your elected local government council
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34E
+Variable Label: Trust the ruling party (NRM)
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the ruling party, that is the nrm
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34F
+Variable Label: Trust opposition political parties
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: opposition political parties
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34G
+Variable Label: Trust police
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the police
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34H
+Variable Label: Trust courts of law
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: courts of law
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34I
+Variable Label: Trust Religious groups
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: religious group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34J
+Variable Label: Trust Private Newspapers and Radio stations
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: private newspapers and radio stations
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34K
+Variable Label: Trust Government Newspapers and radio Stations
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: government newspapers and radio stations
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34L
+Variable Label: Trust domestic election observers and monitors
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: domestic civil society organizations involved in election observation and monitoring efforts
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35A
+Variable Label: Corruption: office of the Presidency
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: the president and officials in his office
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35B
+Variable Label: Corruption: Members of Parliament
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: members of parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35C
+Variable Label: Corruption: local government councilors
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: elected local government councillors
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35D
+Variable Label: Corruption: government officials
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: government officials
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35E
+Variable Label: Corruption: police
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: police
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35F
+Variable Label: Corruption: tax and customs officials
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: tax and customs officials (e.g. ministry of finance officials or local government tax collectors)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35G
+Variable Label: Corruption: judges and magistrates
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: judges and magistrates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35H
+Variable Label: Corruption: Cabinet Ministers
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: cabinet ministers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q36
+Variable Label: MPs benefit local community vs whole country
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2  statement 1: in electing a member of parliament, i prefer to vote for a candidate who can deliver goods and services to people in this community? statement 2: in electing a member of parliament, i prefer to vote for a candidate who can make policies that benefit everyone in our country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q37A
+Variable Label: Most important problems – 1st response
+Question Text: in your opinion, what are the most important problems facing this country that the forthcoming 2011 elections should address
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q37B
+Variable Label: Most important problems – 2nd response
+Question Text: in your opinion, what are the most important problems facing this country that government should address
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q37C
+Variable Label: Most important problems – 3rd response
+Question Text: in your opinion, what are the most important problems facing this country that government should address
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q37PT3_OTHER
+Variable Label: Most important problems – 3rd response (verbatim)
+Question Text: in your opinion, what are the most important problems facing this country that government should address
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38A
+Variable Label: Handling managing the economy
+Question Text: now let’s speak about the present government of this country. how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: managing the economy
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38B
+Variable Label: Handling improving living standards of the poor
+Question Text: now let’s speak about the present government of this country. how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: improving the living standards of the poor
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38C
+Variable Label: Handling creating jobs
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: creating jobs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38D
+Variable Label: Handling keeping prices down
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: keeping prices down
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38E
+Variable Label: Handling narrowing income gaps
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: narrowing gaps between rich and poor
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38F
+Variable Label: Handling reducing crime
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: reducing crime
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38G
+Variable Label: Handling improving basic health services
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: improving basic health services
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38H
+Variable Label: Handling addressing educational needs
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: addressing educational needs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38I
+Variable Label: Handling providing water and sanitation services
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: providing water and sanitation services
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38J
+Variable Label: Handling ensuring enough to eat
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: ensuring everyone has enough to eat
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38K
+Variable Label: Handling fighting corruption
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: fighting corruption in government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38L
+Variable Label: Handling combating HIV/AIDS
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: combating hiv or aids
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38M
+Variable Label: Handling and maintaining roads and bridges
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: maintaining roads and bridges
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38N
+Variable Label: Handling providing reliable electric supply
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: providing a reliable supply of electricity
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38O
+Variable Label: Handling protecting rivers and forests
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: protecting our rivers and forests
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38P
+Variable Label: Handling empowering women
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: empowering women
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q39A
+Variable Label: Quality of electricity supply
+Question Text: how would you rate the quality of the following public services in your area? would you say that the quality of the service is very good, fairly good, fairly poor or very poor?  or is the service not available in your area: electricity supply
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q39B
+Variable Label: Quality of public roads
+Question Text: how would you rate the quality of the following public services in your area? would you say that the quality of the service is very good, fairly good, fairly poor or very poor?  or is the service not available in your area: public roads
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q39C
+Variable Label: Quality of Public health and medical facilities
+Question Text: how would you rate the quality of the following public services in your area? would you say that the quality of the service is very good, fairly good, fairly poor or very poor?  or is the service not available in your area: public health and medical facilities
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q39D
+Variable Label: Quality of universal primary education
+Question Text: how would you rate the quality of the following public services in your area? would you say that the quality of the service is very good, fairly good, fairly poor or very poor?  or is the service not available in your area: universal primary education
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q39E
+Variable Label: Quality of safety from crime/violence
+Question Text: how would you rate the quality of the following public services in your area? would you say that the quality of the service is very good, fairly good, fairly poor or very poor?  or is the service not available in your area: safety from crime and violence
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q40A
+Variable Label: Quality of electricity supply better or worse
+Question Text: please tell me if the quality of each of these public services in your area has gotten worse or better now than it was before the last elections in 2006, or is it about the same?  or is the service not available in your area: electricity supply
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q40B
+Variable Label: Quality of public roads better or worse
+Question Text: please tell me if the quality of each of these public services in your area has gotten worse or better now than it was before the last elections in 2006, or is it about the same?  or is the service not available in your area: public roads
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q40C
+Variable Label: Quality of Public health and medical facilities better or worse
+Question Text: please tell me if the quality of each of these public services in your area has gotten worse or better now than it was before the last elections in 2006, or is it about the same?  or is the service not available in your area: public health and medical facilities
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q40D
+Variable Label: Quality of universal primary better or worse
+Question Text: please tell me if the quality of each of these public services in your area has gotten worse or better now than it was before the last elections in 2006, or is it about the same?  or is the service not available in your area: universal primary education
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q40E
+Variable Label: Quality of safety from crime/violence better or worse
+Question Text: please tell me if the quality of each of these public services in your area has gotten worse or better now than it was before the last elections in 2006, or is it about the same?  or is the service not available in your area: safety from crime and violence
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q41A
+Variable Label: Performance: President
+Question Text: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: president yoweri museveni
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q41B
+Variable Label: Performance: Member of Parliament./National Assembly rep.
+Question Text: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: your member of parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q41C
+Variable Label: Performance: Local Council III Chairperson
+Question Text: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: your lc iii chairperson
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q41D
+Variable Label: Performance: Local Council V Chairperson
+Question Text: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: your lc v chairperson
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q41E
+Variable Label: Performance: Chairman of the Electoral Commission?
+Question Text: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: the chairman of the electoral commission
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q42
+Variable Label: 2006 Election free and fair
+Question Text: on the whole, how would you rate the freeness and fairness of the last national election, held in 2006
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q43A
+Variable Label: 2006 Election free and fair::equal treatment of all candidates
+Question Text: let’s break down the various parts of the 2006 elections.   how free and fair were these elections in terms of: equal treatment of all candidates and parties by election officials and law enforcement agencies
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q43B
+Variable Label: 2006 Election free and fair::counting/reporting of results
+Question Text: let’s break down the various parts of the 2006 elections.   how free and fair were these elections in terms of: the counting and reporting of results
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q44A
+Variable Label: 2006 Election: how frequent use of violence
+Question Text: and during the 2006 elections, how frequently did the following occur: the use of violence by candidates or parties
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q44B
+Variable Label: 2006 Elections: how frequent vote buying
+Question Text: and during the 2006 elections, how frequently did the following occur: the buying of votes by candidates or parties
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q45A
+Variable Label: NRM primaries free and fair
+Question Text: what about the recently concluded political party primaries?  how would you rate the freeness and fairness of the recently concluded party primaries for the flag bearers for each of the following political parties?  were they: national resistance movement or nrm
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q45B
+Variable Label: FDC/IPC primaries free and fair
+Question Text: what about the recently concluded political party primaries?  how would you rate the freeness and fairness of the recently concluded party primaries for the flag bearers for each of the following political parties?  were they: forum for democratic change and the inter party cooperation (fdc and ipc)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q45C
+Variable Label: DP primaries free and fair
+Question Text: what about the recently concluded political party primaries?  how would you rate the freeness and fairness of the recently concluded party primaries for the flag bearers for each of the following political parties?  were they: democratic party (dp)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q45D
+Variable Label: UPC primaries free and fair
+Question Text: what about the recently concluded political party primaries?  how would you rate the freeness and fairness of the recently concluded party primaries for the flag bearers for each of the following political parties?  were they: [country] people’s congress (upc)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q46A
+Variable Label: Elections ensure parliament reflects voters
+Question Text: think about how elections work in practice in this country.  how well do elections: ensure that the members of parliament reflect the views of voters
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q46B
+Variable Label: elections enable voters to remove leaders
+Question Text: think about how elections work in practice in this country.  how well do elections: enable voters to remove from office leaders who do not do what the people want
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47A
+Variable Label: How often parties and candidates ignore election laws
+Question Text: in your opinion, how often, during elections in this country: do political parties and candidates ignore election laws
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47B
+Variable Label: How often parties or candidates buy votes
+Question Text: in your opinion, how often, during elections in this country: do political parties or candidates buy votes
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47C
+Variable Label: How often parties or candidates use violence
+Question Text: in your opinion, how often, during elections in this country: do political parties or candidates use violence
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47D
+Variable Label: How often election officials commit election crimes
+Question Text: in your opinion, how often, during elections in this country: do election officials commit election crimes
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q48A
+Variable Label: How likely: parties and candidates punished for election crimes
+Question Text: in this country, how likely do you think it is: that political parties and candidates who commit election crimes will be punished
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q48B
+Variable Label: How likely: election officials punished for election crimes
+Question Text: in this country, how likely do you think it is: that election officials who commit election crimes will be punished
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q49
+Variable Label: Close to political party
+Question Text: do you feel close to any particular political party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q50
+Variable Label: Which party
+Question Text: which party is that
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q51A
+Variable Label: Interest in presidential election
+Question Text: how interested are you in the forthcoming 2011 elections for: the president
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q 51B
+Variable Label: Interest in MP elections
+Question Text: how interested are you in the forthcoming 2011 elections for: members of parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q51C
+Variable Label: Interest in District and LCV elections
+Question Text: how interested are you in the forthcoming 2011 elections for: district chairpersons and lc v councillors
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q51D
+Variable Label: Interest in Sub-county and municipal election
+Question Text: how interested are you in the forthcoming 2011 elections for: sub-county and municipal chairpersons and councillors
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q52
+Variable Label: How well prepared is electoral commission
+Question Text: in your opinion, how well prepared is the electoral commission of [country] for the 2011 elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q53A
+Variable Label: How effective: posting results at polling stations
+Question Text: please tell me how effective you think each of the following measures will be in helping to ensure that the 2011 elections will be free and fair: the posting of election results at polling stations
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q53B
+Variable Label: How effective: domestic and international observers
+Question Text: please tell me how effective you think each of the following measures will be in helping to ensure that the 2011 elections will be free and fair: the deployment of domestic and international election observers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q53C
+Variable Label: How effective: giving parties copies of voters register
+Question Text: please tell me how effective you think each of the following measures will be in helping to ensure that the 2011 elections will be free and fair: giving each political party a copy of the voters register
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q53D
+Variable Label: How effective: display voters register on the internet
+Question Text: please tell me how effective you think each of the following measures will be in helping to ensure that the 2011 elections will be free and fair: the display of the voters register on the internet
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q53E
+Variable Label: How effective: electronic transmission of results
+Question Text: please tell me how effective you think each of the following measures will be in helping to ensure that the 2011 elections will be free and fair: the electronic transmission of election results from districts to kampala headquarters
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q54
+Variable Label: Existing electoral laws sufficient
+Question Text: in your opinion, are the existing electoral laws sufficient to ensure clean, free and democratic elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q55
+Variable Label: Electoral commission neutral vs. biased
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.  statement 1: the electoral commission of [country] performs its duties as a neutral body guided only by law statement 2: the electoral commission of [country] makes decisions that favour particular people, parties or interests
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56
+Variable Label: 2011 Elections better or worse than 2006
+Question Text: in your opinion, do you think the organization of the 2011 presidential and parliamentary elections will be better or worse than the 2006 elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57A
+Variable Label: Information from family members
+Question Text: how much information on the forthcoming elections have you received from the following sources: family members
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57B
+Variable Label: Information from friends, neighbours or co-workers
+Question Text: how much information on the forthcoming elections have you received from the following sources: friends, neighbours or co-workers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57C
+Variable Label: Information from community meetings
+Question Text: how much information on the forthcoming elections have you received from the following sources: community meetings
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57D
+Variable Label: Information from party officials, party meetings or rallies
+Question Text: how much information on the forthcoming elections have you received from the following sources: political party officials, party meetings or rallies
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57E
+Variable Label: Information from chiefs or elders
+Question Text: how much information on the forthcoming elections have you received from the following sources: chiefs or elders
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57F
+Variable Label: Information from religious leaders or gatherings
+Question Text: how much information on the forthcoming elections have you received from the following sources: religious leaders or religious gatherings
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57G
+Variable Label: Information from civic educators
+Question Text: how much information on the forthcoming elections have you received from the following sources: civic educators
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57H
+Variable Label: Information from posters or pamphlets
+Question Text: how much information on the forthcoming elections have you received from the following sources: posters or pamphlets
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57I
+Variable Label: Information from newspapers
+Question Text: how much information on the forthcoming elections have you received from the following sources: newspapers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57J
+Variable Label: Information from radio
+Question Text: how much information on the forthcoming elections have you received from the following sources: radio
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57K
+Variable Label: Information from television
+Question Text: how much information on the forthcoming elections have you received from the following sources: television
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57L
+Variable Label: Information from the internet
+Question Text: how much information on the forthcoming elections have you received from the following sources: the internet
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57M
+Variable Label: Information from the candidates
+Question Text: how much information on the forthcoming elections have you received from the following sources: the candidates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q58
+Variable Label: Need more information to decide vote
+Question Text: in order to decide how to vote in the 2011 elections, how much more information would you like to have
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59A1
+Variable Label: Most read newspaper (verbatim)
+Question Text: during the ongoing election campaigns, which newspaper, radio station and tv station do you most frequently read, listen to or watch for news about elections and candidates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59A2
+Variable Label: Most read newspaper (code)
+Question Text: during the ongoing election campaigns, which newspaper, radio station and tv station do you most frequently read, listen to or watch for news about elections and candidates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59B1
+Variable Label: Most listened to radio station (verbatim)
+Question Text: during the ongoing election campaigns, which newspaper, radio station and tv station do you most frequently read, listen to or watch for news about elections and candidates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59B2
+Variable Label: Most listened to radio station (code)
+Question Text: during the ongoing election campaigns, which newspaper, radio station and tv station do you most frequently read, listen to or watch for news about elections and candidates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59C1
+Variable Label: Most watched TV station  (verbatim)
+Question Text: during the ongoing election campaigns, which newspaper, radio station and tv station do you most frequently read, listen to or watch for news about elections and candidates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59C2
+Variable Label: Most watched TV Station (code)
+Question Text: during the ongoing election campaigns, which newspaper, radio station and tv station do you most frequently read, listen to or watch for news about elections and candidates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60A
+Variable Label: Most read newspaper equal coverage to all
+Question Text: thinking of the newspaper that you most frequently read, in your opinion, does this newspaper give equal or unequal coverage to different candidates in the forthcoming elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60B
+Variable Label: Most listened to radio station equal coverage to all
+Question Text: what about the radio station that that you listen to most frequently.  in your opinion, does this radio station give equal or unequal coverage to different candidates in the forthcoming elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60C
+Variable Label: Most watched TV Station equal coverage to all
+Question Text: what about the tv station that you watch most frequently.  in your opinion, does this tv station give equal or unequal coverage to different candidates in the forthcoming elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q61
+Variable Label: 2011 Election free and fair
+Question Text: on the whole, how free and fair do you expect the forthcoming 2011 national election to be
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q62A
+Variable Label: 2011 free and fair: availability of information
+Question Text: let’s break down the various parts of the 2011 elections.  how free and fair do you think the campaign has been so far in terms of: the availability of information about all candidates and parties
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q62B
+Variable Label: 2011 free and fair: treatment by election officials
+Question Text: let’s break down the various parts of the 2011 elections.  how free and fair do you think the campaign has been so far in terms of: equal treatment of all candidates and parties by election officials and law enforcement agencies
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q62C
+Variable Label: 2011 free and fair: counting and reporting of results
+Question Text: let’s break down the various parts of the 2011 elections.  how free and fair do you think the campaign has been so far in terms of: the counting and reporting of results
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q63
+Variable Label: Most important intervention for free and fair elections-  1st response
+Question Text: in your view, what is the single most important thing that could be done to ensure that the next elections are free and fair
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q63_OTHER
+Variable Label: Most important intervention for free and fair elections (Verbatim)
+Question Text: in your view, what is the single most important thing that could be done to ensure that the next elections are free and fair
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q64
+Variable Label: Frequency of vote-buying offers
+Question Text: during the present election campaigns for the 2011 elections, how often (if ever) has a candidate or someone from a political party offered you something in return for your vote
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65
+Variable Label: Vote-buying: what offered
+Question Text: what did they offer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66A
+Variable Label: Vote-buying: which party (first response)
+Question Text: which party or parties made the offer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66A_other
+Variable Label: Vote-buying: which party (1st verbatim)
+Question Text: which party or parties made the offer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66B
+Variable Label: Vote-buying: which party (2nd response)
+Question Text: which party or parties made the offer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66C
+Variable Label: Vote-buying: which party (3rd response)
+Question Text: which party or parties made the offer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q67A
+Variable Label: Right or wrong: candidate/party official offers to buy votes
+Question Text: in some places in [country], candidates for political office or people from political parties sometimes offer money to voters in return for their vote.  do you think it is not wrong at all, wrong but understandable, or wrong and punishable for: a candidate or party official to offer money in return for a vote
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q67B
+Variable Label: Right or wrong: voter accepts money for vote
+Question Text: in some places in [country], candidates for political office or people from political parties sometimes offer money to voters in return for their vote.  do you think it is not wrong at all, wrong but understandable, or wrong and punishable for: a voter to accept money in return for his or her vote
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q68
+Variable Label: Own response to offer for vote
+Question Text: if a candidate or party official offered you money for your vote in the 2011 elections, would you:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q68_OTHER
+Variable Label: Own response to offer for vote (Verbatim)
+Question Text: if a candidate or party official offered you money for your vote in the 2011 elections, would you:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q69
+Variable Label: Others’ response to offer for vote
+Question Text: and what about other people in your neighbourhood or village?  if a candidate or party official offered them money for their votes in the 2011 elections, would they:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q70
+Variable Label: Average cash offer for vote
+Question Text: in this area, how much money, on average, would people receive in return for selling their vote in the 2011 elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71A
+Variable Label: Perceptions of the Conservative Party (CP)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  the first party is: the conservative party (cp)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71B
+Variable Label: Perceptions of the Democratic Party (DP)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: the democratic party (dp)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71C
+Variable Label: Perceptions of the Forum for Democratic Change (FDC)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: forum for democratic change (fdc)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71D
+Variable Label: Perceptions of the Justice Forum (JEEMA)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: the justice forum (jeema)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71E
+Variable Label: Perceptions of the National Resistance Movement (NRM)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: national resistance movement (nrm)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71F
+Variable Label: Perceptions of the People’s Development Party (PDP)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: people’s development party (pdp)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71G
+Variable Label: Perceptions of the People’s Progressive Party (PPP)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: people’s progressive party (ppp)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71H
+Variable Label: Perceptions of the Social Democratic Party (SDP)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: the social democratic party (sdp)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71I
+Variable Label: Perceptions of the Uganda Federal Alliance (UFA)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: [country] federal alliance (ufa)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71J
+Variable Label: Perceptions of the Uganda People’s Congress (UPC)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: [country] people’s congress (upc)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71K
+Variable Label: Perceptions of the Inter party Coalition (IPC)
+Question Text: what do you think about each of the political parties participating in the forthcoming elections. after i read the name of a political party, please say whether you strongly dislike, dislike, feel neutral about, like, or strongly like that party.   if i come to a party you haven’t heard of or you feel you do not know enough about, just say so.  what about: inter party coalition (ipc)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72A
+Variable Label: Party liked: consider past governing experience
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the past governing experience of the party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72B
+Variable Label: Party liked: consider policy promises
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the policies the party promises to implement in its manifesto
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72C
+Variable Label: Party liked: consider leader’s ethnic or regional origin
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the ethnic or regional origin of the party’s leader
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72D
+Variable Label: Party liked: consider leader’s military background
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the party leader’s background in the military
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72E
+Variable Label: Party liked: consider leader’s integrity
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the personal integrity of the party’s leader
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72F
+Variable Label: Party liked: consider leader’s leadership skills
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the leadership skills of the party’s leader
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72G
+Variable Label: Party liked: consider rewards distributed
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the campaign rewards distributed by the party’s candidates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72H
+Variable Label: Party liked: consider services delivery by present government
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the services delivered by the present government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72I
+Variable Label: Party liked: consider chances of winning
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the party’s chances of winning
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: 729J
+Variable Label: Party liked: consider quality of the other parties
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: the quality of the other parties
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72K
+Variable Label: Party liked: other factors considered
+Question Text: in deciding which party you like most, how much do you think of or consider the following factors: is there anything else you consider
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q73A
+Variable Label: Party disliked: consider past governing experience
+Question Text: in deciding which party you most dislike, how much do you think of or consider the following factors: the party’s lack of governing experience
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q73B
+Variable Label: Party disliked: consider poor/unrealistic policies
+Question Text: in deciding which party you most dislike, how much do you think of or consider the following factors: the party’s poor or unrealistic policies in its manifesto
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q73C
+Variable Label: Party disliked: consider leader’s ethnic or regional origin
+Question Text: in deciding which party you most dislike, how much do you think of or consider the following factors: the ethnic or regional origin of the party’s leader
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q73D
+Variable Label: Party disliked: consider leader’s military background
+Question Text: in deciding which party you most dislike, how much do you think of or consider the following factors: the party leader’s background in the military
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q73E
+Variable Label: Party disliked: consider association with corruption
+Question Text: in deciding which party you most dislike, how much do you think of or consider the following factors: the party leader’s perceived association with corruption
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q73F
+Variable Label: Party disliked: consider leader’s leadership skills
+Question Text: in deciding which party you most dislike, how much do you think of or consider the following factors: the party leader’s lack of leadership skills
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q73G
+Variable Label: Party disliked: consider leader’s perceived tribalism
+Question Text: in deciding which party you most dislike, how much do you think of or consider the following factors: the party’s perceived tribalism
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q73H
+Variable Label: Party disliked: other factors considered
+Question Text: in deciding which party you most dislike, how much do you think of or consider the following factors: is there anything else you consider
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q74
+Variable Label: How much fear political intimidation or violence during campaign
+Question Text: during the current campaign for the 2011 elections, how much do you personally fear becoming a victim of political intimidation or violence
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q75
+Variable Label: How likely powerful find out your vote
+Question Text: how likely do you think it is that powerful people can find out how you voted, even though there is supposed to be a secret ballot in this country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q76A
+Variable Label: How often others threatened during 2006 elections
+Question Text: how often (if ever) has anyone threatened negative consequences to people in your neighbourhood or village in order to get them to vote a certain way: during the 2006 elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q76B
+Variable Label: How often others threatened during 2011 elections
+Question Text: how often (if ever) has anyone threatened negative consequences to people in your neighbourhood or village in order to get them to vote a certain way: during the current campaign for the 2011 election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q77
+Variable Label: Consequences threatened to others
+Question Text: what kind of consequences
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q78A
+Variable Label: How often you threatened during 2006 elections
+Question Text: how often (if ever) has anyone threatened negative consequences to you in order to get you to vote a certain way: during the 2006 elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q78B
+Variable Label: How often you threatened during 2011 elections
+Question Text: how often (if ever) has anyone threatened negative consequences to you in order to get you to vote a certain way: during the current campaign for the 2011 election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q79
+Variable Label: Consequences threatened to you
+Question Text: what kind of consequences
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q80
+Variable Label: How well police maintaining secure environment
+Question Text: thinking about the ongoing elections campaigns, how well or badly do you rate the performance of the police in maintaining a secure environment for the elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q81
+Variable Label: How fairly police regulating public demonstrations and rallies
+Question Text: in regulating public demostartions and campaign rallies, how fairly are the police playing their role
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q82A
+Variable Label: How likely: violence during campaign
+Question Text: in your view, how likely is it: that there will be violence during the election campaign
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q82B
+Variable Label: How likely: losers refuse to accept results
+Question Text: in your view, how likely is it: that losers will refuse to accept the official election results
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q82C
+Variable Label: How likely: violence after results announced
+Question Text: in your view, how likely is it: that there will be violence after the announcement of election results
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q82D
+Variable Label: How likely: security agencies prevent large-scale violence
+Question Text: in your view, how likely is it: that the security agencies will be able to prevent large-scale outbreaks of violence
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q83
+Variable Label: Likelihood of localized or widespread violence
+Question Text: if there is violence before, during or after the elections, do you think it is more likely that it would only occur in a few areas due to local disputes, or that it could be widespread
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q84
+Variable Label: Intentions in 2011 elections
+Question Text: which of the following statements best describes what you will do in the upcoming elections in 2011
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q85
+Variable Label: Most important factor to vote for president
+Question Text: which of the following is most important to you when deciding how to vote for president
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q86
+Variable Label: Most important factor to vote for MP
+Question Text: which of the following is most important to you when deciding how to vote for your member of parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q87A
+Variable Label: Aware of parliamentary scorecard
+Question Text: are you aware of the “parliamentary scorecard
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q87B
+Variable Label: Parliamentary scorecard to affect MP vote
+Question Text: if yes, will the scorecard information affect who you will vote for as your mp
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q88
+Variable Label: Intended presidential vote
+Question Text: if a presidential election were held tomorrow, which candidate or party would you vote for as president
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q89
+Variable Label: Intended party vote in MP elections
+Question Text: if an election were held tomorrow, which party’s candidate would you vote for in the parliamentary election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q89_OTHER
+Variable Label: Intended party vote in MP elections (verbatim)
+Question Text: if an election were held tomorrow, which party’s candidate would you vote for in the parliamentary election
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q90A
+Variable Label: Impact of re-opening CBS radio on NRM chances
+Question Text: in your opinion, do you think the following events will have a positive impact, a negative impact, or no impact on the election chances of the nrm: the re-opening of cbs radio station
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q90B
+Variable Label: Impact of Kampala terrorist attacks on NRM chances
+Question Text: in your opinion, do you think the following events will have a positive impact, a negative impact, or no impact on the election chances of the nrm: the recent terrorist attacks on kampala
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q90C
+Variable Label: Impact of poorly-run NRM primaries party’s chances
+Question Text: in your opinion, do you think the following events will have a positive impact, a negative impact, or no impact on the election chances of the nrm: the way in which the nrm primaries were conducted
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q91A
+Variable Label: Impact of DP/UPC refusal to join IPC on opposition chances
+Question Text: in your opinion, do you think the following events will have a positive impact, a negative impact, or no impact on the election chances of the opposition: the refusal of dp and upc to join the inter party cooperation
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q91B
+Variable Label: Impact of SUUBI refusal to join IPC on opposition chances
+Question Text: in your opinion, do you think the following events will have a positive impact, a negative impact, or no impact on the election chances of the opposition: the decision of suubi 2011, the pressure group led by the former katikiro of b[country], to join the ipc
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q92
+Variable Label: Opposition presents convincing alternative vs not convincing
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.     statement 1: the opposition has presented a convincing alternative vision and plan for [country]. statement 2: the opposition has not shown that it has the plans to solve the country’s problems
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q93
+Variable Label: Women should have equal rights vs subject to traditional laws
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.     statement 1: in our country, women should have equal rights and receive the same treatment as men do. statement 2: women have always been subject to traditional laws and customs, and should remain so
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q94
+Variable Label: Women hold political office vs men make better political leaders
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.     statement 1: women should have the same chance of being elected to political office as men. statement 2: men make better political leaders than women, and should be elected rather than women
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q95
+Variable Label: Tribe or ethnic group
+Question Text: what is your tribe? you know, your ethnic or cultural group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q95_OTHER
+Variable Label: Tribe or ethnic group (verbatim)
+Question Text: what is your tribe? you know, your ethnic or cultural group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q96
+Variable Label: Ethnic group treated unfairly
+Question Text: how often are ___________s [r’s ethnic group] treated unfairly by the government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q97
+Variable Label: Ethnic or national identity
+Question Text: let us suppose that you had to choose between being a [country]n and being a ________ [r’s ethnic group].  which of the following best expresses your feelings
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q98A
+Variable Label: Trust relatives
+Question Text: how much do you trust each of the following types of people: your relatives
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q98B
+Variable Label: Trust other people you know
+Question Text: how much do you trust each of the following types of people: other people you know
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q98C
+Variable Label: Trust other Ugandans
+Question Text: how much do you trust each of the following types of people: other [country]ns
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q99A
+Variable Label: How often use a cell phone
+Question Text: how often do you use: a mobile phone
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q99B
+Variable Label: How often use a computer
+Question Text: how often do you use: a computer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q99C
+Variable Label: How often use the internet
+Question Text: how often do you use: the internet
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q99D
+Variable Label: How often travel 10 km or more
+Question Text: how often do you travel 10 km or more from the place where you live now
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q100
+Variable Label: Education of respondent
+Question Text: what is the highest level of education you have completed
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q101
+Variable Label: Religion of respondent
+Question Text: what is your religion, if any
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q102A
+Variable Label: Own radio
+Question Text: which of these things do you personally own: radio
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q102B
+Variable Label: Own television
+Question Text: which of these things do you personally own: television
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q102C
+Variable Label: Own motor vehicle, car, or motorcycle
+Question Text: which of these things do you personally own: motor vehicle, car or motorcycle
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q103
+Variable Label: Donor influence over campaigns and elections
+Question Text: do you think that donors and development partners in [country] are having too little, too much, or about the right amount of influence over the campaign and the elections
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q104
+Variable Label: Donors pressure gvt. for good election vs should not interfere
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.     statement 1:  donors should put pressure on the [country]n government to ensure that the campaign and election processes are free and fair. statement 2: campaigns and election processes s are domestic affairs and the donors should not interfere
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q105
+Variable Label: Perceived survey sponsor
+Question Text: just one more question: who do you think sent us to do this interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: ENDTIME
+Variable Label: Time interview ended
+Question Text: time interview ended
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: LENGTH
+Variable Label: Length of interview
+Question Text: length of interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q114
+Variable Label: This interview, gender
+Question Text: respondent’s gender
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q115
+Variable Label: Race of respondent
+Question Text: race of respondent
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q116
+Variable Label: Language of interview
+Question Text: what was the primary language used in the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q116_OTHER
+Variable Label: Language of interview (verbatim)
+Question Text: what was the primary language used in the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q117
+Variable Label: Others present
+Question Text: were there any other people immediately present who might be listening during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q118A
+Variable Label: Check with others
+Question Text: did the respondent check with others for information to answer any question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q118B
+Variable Label: Influence by others
+Question Text: do you think anyone influenced the respondent’s answers during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q118C
+Variable Label: Approached by community/ party representatives
+Question Text: were you approached by community and or or political party representatives
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q118D
+Variable Label: Feel threatened
+Question Text: did you feel threatened during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q118E
+Variable Label: Physically threatened
+Question Text: were you physically threatened during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q119
+Variable Label: Proportion difficulty answering
+Question Text: what proportion of the questions do you feel the respondent had difficulty answering
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q20A
+Variable Label: Trouble answering- first response
+Question Text: which questions did the respondent have trouble answering: first question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q120B
+Variable Label: Trouble answering- second response
+Question Text: which questions did the respondent have trouble answering: second question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q120C
+Variable Label: Trouble answering- third response
+Question Text: which questions did the respondent have trouble answering: third question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q121A
+Variable Label: Respondent friendly
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: friendly, in between, or hostile
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q121B
+Variable Label: Respondent interested
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: interested, in between, or bored
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q121C
+Variable Label: Respondent cooperative
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: cooperative, in between, or uncooperative
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q121D
+Variable Label: Respondent patient
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: patient, in between, or impatient
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q121E
+Variable Label: Respondent at ease
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: at ease, in between, or suspicious
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q121F
+Variable Label: Respondent honest
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: honest, in between, or misleading
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q122
+Variable Label: String variable
+Question Text: interviewer’s name
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q123
+Variable Label: Interviewer’s number
+Question Text: interviewer’s number
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q124
+Variable Label: Interviewer’s age
+Question Text: interviewer’s age
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q125
+Variable Label: Interviewer’s gender
+Question Text: interviewer’s gender
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q126
+Variable Label: Interviewer urban or rural
+Question Text: do you come from a rural or urban area
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q127
+Variable Label: Interviewer’s home language
+Question Text: interviewer’s home language
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q127 (OTHER)
+Variable Label: Interviewer’s home language
+Question Text: interviewer’s home language (verbatim)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q128
+Variable Label: Interviewer’s education
+Question Text: interviewer’s highest level of education
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q129
+Variable Label: Interviewer’s comment
+Question Text: interviewer:  do you have any other comments on the interview?  for example, did anything else significant happen during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q130
+Variable Label: Interviewer’s comment (verbatim)
+Question Text: interviewer:  do you have any other comments on the interview?  for example, did anything else significant happen during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q131
+Variable Label: Supervisor’s comment
+Question Text: supervisor:  do you have any other comments on the interview?  for example, did anything else significant happen during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q131
+Variable Label: Supervisor’s signed after verifying data
+Question Text: supervisor: i hereby certify that this interview was conducted in accordance with instructions given to interviewers during training.  all responses have been checked for completeness and accuracy. the information         62 about the ea on the first page is based on observations i personally made in an area chosen by the appropriate sampling method
+    Variable Label: ''
+    Question Text: ''
+

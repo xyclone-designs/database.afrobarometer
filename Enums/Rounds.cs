@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Linq;
 
 namespace Database.Afrobarometer.Enums
 {
 	public enum Rounds
 	{
+		_none,
+
 		One,
 		OnePointFive,
 		Two,
@@ -28,19 +29,8 @@ namespace Database.Afrobarometer.Enums
 		{
 			filename = filename.Replace("Codebook", string.Empty);
 
-			for (int index = 0; true; index++)
-				if (index switch
-				{
-					0 => filename.Split('_', '.').ElementAtOrDefault(1),
-					1 => filename.Split('_', '.').ElementAtOrDefault(3),
-					2 => filename.Split('_', '.').ElementAtOrDefault(4),
-					3 => filename.Split('-', '.').ElementAtOrDefault(1),
-					4 => filename.Split('_', '-', '.').ElementAtOrDefault(1),
-					5 => filename.Split('_', '.').Reverse().ElementAtOrDefault(1),
-
-					_ => throw new ArgumentException()
-
-				} is string code && code.ToLower() switch
+			foreach (string split in filename.Split('_', '-', '.'))
+				if (split.ToLower() switch
 				{
 					"r1" => Rounds.One,
 					"r1-5" => Rounds.OnePointFive,
@@ -52,7 +42,7 @@ namespace Database.Afrobarometer.Enums
 					"r4-5-1" => Rounds.FourPointFiveOne,
 					"r4-5-2" => Rounds.FourPointFiveTwo,
 					"r5" => Rounds.Five,
-					"r6" or "r6.data" => Rounds.Six,
+					"r6" or "r6.data" or "6" => Rounds.Six,
 					"r7" or "r7.data" => Rounds.Seven,
 					"r8" or "r8.data" => Rounds.Eight,
 					"r9" or "r9.data" => Rounds.Nine,
@@ -62,12 +52,12 @@ namespace Database.Afrobarometer.Enums
 
 				} is Rounds round) return round;
 
-			throw new ArgumentException();
+			throw new ArgumentException(string.Format("Round not found from '{0}'", filename));
 		}
 
-		public static string ToString(this Rounds rounds)
+		public static string ToString(this Rounds round)
 		{
-			return rounds switch
+			return round switch
 			{
 				Rounds.One => "01",
 				Rounds.OnePointFive => "01.5",
@@ -85,7 +75,7 @@ namespace Database.Afrobarometer.Enums
 				Rounds.Nine => "09",
 				Rounds.Ten => "10",
 
-				_ => throw new ArgumentException()
+				_ => throw new ArgumentException(string.Format("Round '{0}' not found", round))
 			};
 		}
 	}

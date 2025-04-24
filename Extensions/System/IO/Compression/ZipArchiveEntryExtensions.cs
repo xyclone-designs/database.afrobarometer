@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace System.IO.Compression
 {
@@ -6,7 +7,11 @@ namespace System.IO.Compression
 	{
 		public static IEnumerable<string> ExtractToDirectoryIterable(this ZipArchive ziparchive, string directory)
 		{
-			foreach (ZipArchiveEntry entry in ziparchive.Entries)
+			return ziparchive.Entries.ExtractToDirectoryIterable(directory);
+		}
+		public static IEnumerable<string> ExtractToDirectoryIterable(this IEnumerable<ZipArchiveEntry> ziparchiveentries, string directory)
+		{
+			foreach (ZipArchiveEntry entry in ziparchiveentries)
 			{
 				string path = Path.Combine(directory, entry.Name);
 

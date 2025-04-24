@@ -1,0 +1,12 @@
+QuestionNumber: Q29f
+ValueLabels
+    13=Negative Replies: Conflict / confusion, 20 14=Negative Replies: Corruption / abuse of power
+
+QuestionNumber: Q60pt1
+ValueLabels
+    7=Farming/agriculture, 34 8=Food shortage/famine
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

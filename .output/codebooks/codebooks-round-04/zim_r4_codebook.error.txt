@@ -1,0 +1,12 @@
+QuestionNumber: Q56PT3
+ValueLabels
+    19=Services (other), 29 20=Health
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+
+QuestionNumber: Q114
+ValueLabels
+    288=Banda, 55 289=Nafana
+

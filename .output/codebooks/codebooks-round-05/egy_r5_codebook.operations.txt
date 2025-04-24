@@ -1,0 +1,1764 @@
+Question Number: RESPNO
+Variable Label: Respondent number
+Question Text: respondent number
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: BACKCHK
+Variable Label: Household back-checked?
+Question Text: household back-checked
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: URBRUR
+Variable Label: Urban or Rural Primary Sampling Unit
+Question Text: psu or ea
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: REGION
+Variable Label: Province or region
+Question Text: region or province
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: DISTRICT
+Variable Label: District
+Question Text: district
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SVC_A
+Variable Label: Electricity grid in the PSU/EA
+Question Text: are the following services present in the primary sampling unit or enumeration area: electricity grid that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SVC_B
+Variable Label: Piped water system in the PSU/EA
+Question Text: are the following services present in the primary sampling unit or enumeration area: piped water system that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SVC_C
+Variable Label: Sewage system in the PSU/EA
+Question Text: are the following services present in the primary sampling unit or enumeration area: sewage system that most houses could access
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SVC_D
+Variable Label: Cell phone service in the PSU/EA
+Question Text: are the following services present in the primary sampling unit or enumeration area: cell phone service
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_A
+Variable Label: Post-office in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: post-office
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_B
+Variable Label: School in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: school
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_C
+Variable Label: Police station in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: police station
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_D
+Variable Label: Health clinic in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: health clinic
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_FAC_E
+Variable Label: Market stalls in the PSU/EA
+Question Text: are the following facilities present in the primary sampling unit or enumeration area, or within easy walking distance: market stalls (selling groceries and or or clothing)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SEC_A
+Variable Label: Police in the PSU/EA
+Question Text: in the psu or ea, did you (or any of your colleagues) see: any policemen or police vehicles
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SEC_B
+Variable Label: Soldiers/army in the PSU/EA
+Question Text: in the psu or ea, did you (or any of your colleagues) see: any soldiers or army vehicles
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SEC_C
+Variable Label: Roadblocks by police/army in the PSU/EA
+Question Text: in the psu or ea, did you (or any of your colleagues) see: any roadblocks set up by police or army
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SEC_D
+Variable Label: Roadblocks by private security in the PSU/EA
+Question Text: in the psu or ea, did you (or any of your colleagues) see: any roadblocks or booms set up by private security providers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_SEC_E
+Variable Label: Roadblocks by local community in the PSU/EA
+Question Text: in the psu or ea, did you (or any of your colleagues) see: any roadblocks or booms set up by the local community
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: EA_ROAD
+Variable Label: Tarred/paved road
+Question Text: thinking of your journey here: was the road at the start point in the psu or ea paved or tarred or concrete
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_1
+Variable Label: Reason for Unsuccessful Call Household 1
+Question Text: reasons for unsuccessful calls: household 1
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_2
+Variable Label: Reason for Unsuccessful Call Household 2
+Question Text: reasons for unsuccessful calls: household 2
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_3
+Variable Label: Reason for Unsuccessful Call Household 3
+Question Text: reasons for unsuccessful calls: household 3
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_4
+Variable Label: Reason for Unsuccessful Call Household 4
+Question Text: reasons for unsuccessful calls: household 4
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_5
+Variable Label: Reason for Unsuccessful Call Household 5
+Question Text: reasons for unsuccessful calls: household 5
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_6
+Variable Label: Reason for Unsuccessful Call Household 6
+Question Text: reasons for unsuccessful calls: household 6
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: NOCALL_7
+Variable Label: Reason for Unsuccessful Call Household 7
+Question Text: reasons for unsuccessful calls: household 7
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: PREVINT
+Variable Label: Previous interview, gender
+Question Text: previous interview was with a:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: THISINT
+Variable Label: This interview, gender
+Question Text: this interview must be with a:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: ADULT_CT
+Variable Label: Number of adults in household
+Question Text: total number of adult citizens in household
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: CALLS
+Variable Label: Number of calls
+Question Text: how many calls were made to the household where the interview actually took place
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: DATEINTR
+Variable Label: Date of interview
+Question Text: date of interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: STRTIME
+Variable Label: Time interview started
+Question Text: time interview started
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q1
+Variable Label: Age
+Question Text: how old are you
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q2
+Variable Label: Language of respondent
+Question Text: which egyptianian language is your home language
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q3A
+Variable Label: Country’s present economic condition
+Question Text: in general, how would you describe: the present economic condition of this country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q3B
+Variable Label: Your present living conditions
+Question Text: in general, how would you describe: your own present living conditions
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q4
+Variable Label: Your living conditions vs. others
+Question Text: in general, how do you rate your living conditions compared to those of other egyptians
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q5A
+Variable Label: Country’s economic condition compared to 12 months ago
+Question Text: looking back, how do you rate the following compared to twelve months ago: economic conditions in this country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q5B
+Variable Label: Your living conditions compared to 12 months ago
+Question Text: looking back, how do you rate the following compared to twelve months ago: your living conditions
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q6A
+Variable Label: Country’s economic condition in 12 months time
+Question Text: looking ahead, do you expect the following to be better or worse: economic conditions in this country in twelve months time
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q6B
+Variable Label: Your living conditions in 12 months time
+Question Text: looking ahead, do you expect the following to be better or worse: your living conditions in twelve months time
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q7
+Variable Label: Overall direction of the country
+Question Text: what about the overall direction of the country? would you say that the country is going in the wrong direction or going in the right direction
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q8A
+Variable Label: How often gone without food
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: enough food to eat
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q8B
+Variable Label: How often gone without water
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: enough clean water for home use
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q8C
+Variable Label: How often gone without medical care
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: medicines or medical treatment
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q8D
+Variable Label: How often gone without cooking fuel
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: enough fuel to cook your food
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q8E
+Variable Label: How often gone without a cash income
+Question Text: over the past year, how often, if ever, have you or anyone in your family gone without: a cash income
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q9A
+Variable Label: How often felt unsafe walking in neighbourhood
+Question Text: over the past year, how often, if ever, have you or anyone in your family: felt unsafe walking in your neighbourhood
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q9B
+Variable Label: How often feared crime in home
+Question Text: over the past year, how often, if ever, have you or anyone in your family: feared crime in your own home
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q10A
+Variable Label: Had something stolen from house
+Question Text: during the past year, have you or anyone in your family: had something stolen from your house
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q10B
+Variable Label: Have been physically attacked
+Question Text: during the past year, have you or anyone in your family: been physically attacked
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q10C
+Variable Label: Reported the incident to the police
+Question Text: was any such incident reported to the police
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q11
+Variable Label: Main reason for not reporting crimes to the police
+Question Text: some people say that many crimes are never reported to the police. based on your experience, what do you think is the main reason that many people do not report crimes like thefts or attacks to the police when they occur
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q12
+Variable Label: If a victim of crime, whom to go to first for assistance
+Question Text: if you were a victim of crime in this country, who, if anyone, would you go to first for assistance
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q13A
+Variable Label: Radio news
+Question Text: how often do you get news from the following sources: radio
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q13B
+Variable Label: Television news
+Question Text: how often do you get news from the following sources: television
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q13C
+Variable Label: Newspaper news
+Question Text: how often do you get news from the following sources: newspapers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q13D
+Variable Label: Internet
+Question Text: how often do you get news from the following sources: internet
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q14
+Variable Label: Interest in public affairs
+Question Text: how interested would you say you are in public affairs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q15
+Variable Label: Discuss politics
+Question Text: when you get together with your friends or family, would you say you discuss political matters:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q16
+Variable Label: Politics and government too complicated
+Question Text: do you agree or disagree with the following statement: sometimes politics and government seem so complicated that a person like me cannot really understand what is going on
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17A
+Variable Label: Freedom to say what you think
+Question Text: in this country, how free are you: to say what you think
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17B
+Variable Label: Freedom to join any political organizations
+Question Text: in this country, how free are you: to join any political organization you want
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q17C
+Variable Label: Freedom to choose who to vote for
+Question Text: in this country, how free are you: to choose who to vote for without feeling pressured
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q18
+Variable Label: Leaders help own community vs. treat all equally
+Question Text: let’s talk for a moment about the kind of society we would like to have in this country. which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: once in office, elected leaders are obliged to help their home community or group first. statement 2: since elected leaders should represent everyone, they should not do anything that favours their own group over others
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q19
+Variable Label: Government bans organization vs. join any
+Question Text: which of the following statements is closest to your view? choose statement 1or statement 2. statement 1: government should be able to ban any organization that goes against its policies. statement 2: we should be able to join any organization, whether or not the government approves of it
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q20
+Variable Label: Newspapers free to publish vs. government closes
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: the media should have the right to publish any views and ideas without government control. statement 2: the government should have the right to prevent the media from publishing things that it consider harmful to society
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q21
+Variable Label: Government like a parent vs. an employee
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: the government is like a parent. it should decide which is good for us. statement 2: the government is like our employee. we are the bosses and should tell government what to do
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q22
+Variable Label: Men only as leaders vs. women leaders ok
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: men make better political leaders than women, and should be elected rather than women. statement 2: women should have the same chance of being elected to political office as men
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q23
+Variable Label: Women have equal rights vs. subject to traditional laws
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: in our country, women should have equal rights and receive the same treatment as men do. statement 2: women have always been subject to traditional laws and customs, and should remain so
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q24
+Variable Label: Education recipient priority: boy vs ability
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: if funds for schooling are limited, a boy should always receive an education in school before a girl. statement 2: if funds for schooling are limited, a family should send the child with the greatest ability to learn
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q25A
+Variable Label: Member of religious group
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a religious group that meets outside of regular worship services
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q25B
+Variable Label: Member of voluntary association or community group
+Question Text: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: some other voluntary association or community group
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q26A
+Variable Label: Attend a community meeting
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: attended a community meeting
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q26B
+Variable Label: Join others to raise an issue
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: got together with others to raise an issue
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q26C
+Variable Label: Refused to pay tax or fee to government
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: refused to pay a tax or fee to government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q26D
+Variable Label: Attend a demonstration or protest march
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: attended a demostartion or protest march
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q26E
+Variable Label: Used force or violence for a political cause
+Question Text: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: used force or violence for a political cause
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q27
+Variable Label: Voting in the most recent national election
+Question Text: with regard to the most recent national election in 2012, which statement is true for you
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q28
+Variable Label: Freeness and fairness of the last national election
+Question Text: on the whole, how would you rate the freeness and fairness of the last national election, held in 2012. was it:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q29A
+Variable Label: Last national election: attend a campaign meeting or rally
+Question Text: thinking about the last national election in 2012, did you: attend a campaign meeting or rally
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q29B
+Variable Label: Last national election: persuade others to vote for a certain candidate or party
+Question Text: thinking about the last national election in 2012, did you: try to persuade others to vote for a certain presidential or legislative candidate or political party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q29C
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q30A
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q30B
+Variable Label: Contact MP
+Question Text: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: a member of parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q30C
+Variable Label: Contact official of a government agency
+Question Text: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: an official of a government agency
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q30D
+Variable Label: Contact political party official
+Question Text: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: a political party official
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q31A
+Variable Label: Reject one-party rule
+Question Text: there are many ways to govern a country. would you disapprove or approve of the following alternatives: only one political party is allowed to stand for election and hold office
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q31B
+Variable Label: Reject military rule
+Question Text: there are many ways to govern a country. would you disapprove or approve of the following alternatives: the army comes in to govern the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q31C
+Variable Label: Reject one-man rule
+Question Text: there are many ways to govern a country. would you disapprove or approve of the following alternatives: elections and parliament are abolished so that the president can decide everything
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q32
+Variable Label: Support for democracy
+Question Text: which of these three statements is closest to your own opinion? statement 1: democracy is preferable to any other kind of government statement 2: in some circumstances, a non-democratic government can be preferable. statement 3: for someone like me, it doesn’t matter what kind of government we have
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q33
+Variable Label: Government gets things done but no citizen influence vs. government accountable to citizens
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: it is more important to have a government that can get things done, even if we have no influence over what it does. statement 2: it is more important for citizens to be able to hold government accountable, even if that means it makes decisions more slowly
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q34
+Variable Label: Choose leaders through elections vs. other methods
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: we should choose our leaders in this country through regular, open and honest elections. statement 2: since elections sometimes produce bad results, we should adopt other methods for choosing this country’s leaders
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q35
+Variable Label: Political parties divisive vs. many parties needed
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.   statement 1: political parties create division and confusion; it is therefore unnecessary to have many political parties in egypt. statement 2: many political parties are needed to make sure that egyptians have real choices in who governs them
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q36
+Variable Label: President monitored by parliament vs. free to act on own
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2 statement 1: parliament should ensure that the president explains to it on a regular basis how his government spends taxpayers’ money. statement 2: the president should be able to devote his full attention to developing the country rather than wasting time justifying his actions
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q37
+Variable Label: Opposition parties examine government vs. cooperate
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2 statement 1: opposition parties should regularly examine and criticize government policies and actions. statement 2: opposition parties should concentrate on cooperating with government and helping it develop the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q38
+Variable Label: Media checks government vs. avoid negative reporting
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2 statement 1: the news media should constantly investigate and report on government mistakes and corruption. statement 2: too much reporting on negative events, like government mistakes and corruption, only harms the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q39
+Variable Label: Parliament makes laws vs. president does
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2.  statement 1: members of parliament represent the people; therefore they should make laws for this country, even if the president does not agree. statement 2: since the president represents all of us, he should pass laws without worrying about what parliament thinks
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q40
+Variable Label: President free to act vs. obey the laws and courts
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: since the president was elected to lead the country, he should not be bound by laws or court decisions that he thinks are wrong. statement 2: the president must always obey the laws and the courts, even if he thinks they are wrong
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q41
+Variable Label: Presidential two term limit vs. no term limits
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2 statement 1: the constitution should limit the president to serving a maximum of two terms in office. statement 2: there should be no constitutional limit on how long the president can serve
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q42
+Variable Label: Extent of democracy
+Question Text: in your opinion how much of a democracy is egypt today
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q43
+Variable Label: Satisfaction with democracy
+Question Text: overall, how satisfied are you with the way democracy works in egypt? are you:
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q44
+Variable Label: Essential characteristics of democracy: equality, fair election, etc
+Question Text: many things may be desirable, but not all of them are essential characteristics of democracy. if you have to choose only one of the things that i am going to read, which one would you choose as the most essential characteristic of democracy
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q45
+Variable Label: Essential characteristics of democracy: law and order, job, etc
+Question Text: and here is another list. which one of these things would you choose as the most essential characteristic of democracy
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q46A
+Variable Label: Level of democracy: today
+Question Text: on a scale between 0 and 10, where 0 means completely undemocratic and 10 means completely democratic, where would you place each of the following, or haven’t you heard enough to say: our country today
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q46B
+Variable Label: Level of democracy: ten years ago
+Question Text: on a scale between 0 and 10, where 0 means completely undemocratic and 10 means completely democratic, where would you place each of the following, or haven’t you heard enough to say: our country ten years ago, in 2001
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q46C
+Variable Label: Level of democracy: under previous non-democratic regime
+Question Text: on a scale between 0 and 10, where 0 means completely undemocratic and 10 means completely democratic, where would you place each of the following, or haven’t you heard enough to say: our country under the rule of mohammad hosri mubarak
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q46D
+Variable Label: Level of democracy: in the future
+Question Text: on a scale between 0 and 10, where 0 means completely undemocratic and 10 means completely democratic, where would you place each of the following, or haven’t you heard enough to say: and on the same scale, where would you want our country to be in the future
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47A
+Variable Label: Level of democracy: China
+Question Text: on the same scale, where 0 means completely undemocratic and 10 means completely democratic, where would you place each of the following countries, or haven’t you heard enough to say: people’s republic of china
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47B
+Variable Label: Level of democracy: USA
+Question Text: on the same scale, where 0 means completely undemocratic and 10 means completely democratic, where would you place each of the following countries, or haven’t you heard enough to say: united states of america
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47C
+Variable Label: Level of democracy: South Africa
+Question Text: on the same scale, where 0 means completely undemocratic and 10 means completely democratic, where would you place each of the following countries, or haven’t you heard enough to say: [country]
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47D
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q47E
+Variable Label: On the same scale, where 0 means completely undemocratic and 10 means completely democratic, where would you place each of the following countries, or haven’t you heard enough to say: Iran?
+Question Text: not asked in arab or afrobarometer  question number: q47f-arb
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q48A
+Variable Label: Courts make binding decisions
+Question Text: for each of the following statements, please tell me whether you disagree or agree: the courts have the right to make decisions that people always have to abide by
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q48B
+Variable Label: People must obey the law
+Question Text: for each of the following statements, please tell me whether you disagree or agree: the police always have the right to make people obey the law
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q48C
+Variable Label: People must pay taxes
+Question Text: for each of the following statements, please tell me whether you disagree or agree: the tax authorities always have the right to make people pay taxes
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q49
+Variable Label: Obey government always vs. only if vote for it
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: it is important to obey the government in power, no matter who you voted for. statement 2: it is not necessary to obey the laws of a government that you did not vote for
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q50
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q51
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q52A
+Variable Label: How often news media abuse its freedom
+Question Text: in your opinion, how often, in this country: does the news media abuse its freedoms by printing or saying things it knows are not true
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q52B
+Variable Label: How often party competition leads to conflict
+Question Text: in your opinion, how often, in this country: does competition between political parties lead to violent conflict
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q52C
+Variable Label: How often president ignores laws
+Question Text: in your opinion, how often, in this country: does the president ignore the courts and laws of the country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q52D
+Variable Label: How often opposition parties silenced by government
+Question Text: in your opinion, how often, in this country: are opposition parties or their supporters silenced by the government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q52E
+Variable Label: How often president ignore parliament
+Question Text: in your opinion, how often, in this country: does the president ignore parliament and just do what he wants
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q53
+Variable Label: How effective the news media reveals government mistakes and corruption
+Question Text: in this country, how effective is the news media in revealing government mistakes and corruption
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q54
+Variable Label: How much fear political intimidation or violence
+Question Text: during election campaigns in this country, how much do you personally fear becoming a victim of political intimidation or violence
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q55
+Variable Label: How likely powerful find out your vote
+Question Text: how likely do you think it is that powerful people can find out how you voted, even though there is supposed to be a secret ballot in this country
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56A
+Variable Label: How often careful what you say
+Question Text: in your opinion, how often, in this country:: do people have to be careful of what they say about politics
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56B
+Variable Label: How often people treated unequally
+Question Text: in your opinion, how often, in this country: are people treated unequally under the law
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56C
+Variable Label: How often women treated unequally by traditional leaders
+Question Text: in your opinion, how often, in this country: are women treated unequally by traditional leaders
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56D
+Variable Label: How often women treated unequally by police and courts
+Question Text: in your opinion, how often, in this country: are women treated unequally by the police and courts
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56E
+Variable Label: How often women treated unequally by employers
+Question Text: in your opinion, how often, in this country: are women treated unequally by employers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56F
+Variable Label: How often officials unpunished
+Question Text: in your opinion, how often, in this country: do officials who commit crimes go unpunished
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56G
+Variable Label: How often ordinary people unpunished
+Question Text: in your opinion, how often, in this country: do ordinary people who break the law go unpunished
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56H
+Variable Label: How often obtain household services without paying
+Question Text: in your opinion, how often, in this country: do people obtain household services, like water or electricity, without paying for them
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q56I
+Variable Label: How often avoid paying taxes
+Question Text: in your opinion, how often, in this country: do people avoid paying the taxes that they owe the government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q57
+Variable Label: Essential characteristics of democracy: legislature, government, people etc.
+Question Text: let me ask you again about the most essential characteristics of democracy. if you have to choose only one of the things that i am going to read, which one would you choose as the most essential characteristic of democracy
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q58
+Variable Label: Essential characteristics of democracy: participation, no corruption, courts etc.
+Question Text: and here is another list. which one of these things would you choose as the most essential characteristic of democracy
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59A
+Variable Label: Trust president
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the president
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59B
+Variable Label: Trust parliament/national assembly
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59C
+Variable Label: Trust national electoral commission
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the electoral commission of egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59D
+Variable Label: Trust tax department
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the tax department
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59E
+Variable Label: Trust your elected local government council
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: your local government council
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59F
+Variable Label: Trust the ruling party
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the ruling party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59G
+Variable Label: Trust opposition political parties
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: opposition political parties
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59H
+Variable Label: Trust police
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the police
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59I
+Variable Label: Trust army
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: the army
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q59J
+Variable Label: Trust courts of law
+Question Text: how much do you trust each of the following, or haven’t you heard enough about them to say: courts of law
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60A
+Variable Label: Corruption: office of the Presidency
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: the president and officials in his office
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60B
+Variable Label: Corruption: Members of Parliament
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: members of parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60C
+Variable Label: Corruption: government officials
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: government officials
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60D
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60E
+Variable Label: Corruption: police
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: police
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60F
+Variable Label: Corruption: tax officials
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: tax officials (e.g. ministry of finance officials or local government tax collectors)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q60G
+Variable Label: Corruption: judges and magistrates
+Question Text: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: judges and magistrates
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q61A
+Variable Label: Pay bribe for: document or permit
+Question Text: in the past year, how often, (if ever, have you had to pay a bribe, give a gift, or do a favor to government officials in order to: get a document or a permit
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q61B
+Variable Label: Pay bribe for: water or sanitation services
+Question Text: in the past year, how often, if ever, have you had to pay a bribe, give a gift, or do a favor to government officials in order to: get water or sanitation services
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q61C
+Variable Label: Pay bribe for: treatment at local health clinic or hospital
+Question Text: in the past year, how often, if ever, have you had to pay a bribe, give a gift, or do a favor to government officials in order to: get treatment at a local health clinic or hospital
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q61D
+Variable Label: Pay bribe for: avoid problem with police
+Question Text: in the past year, how often, if ever, have you had to pay a bribe, give a gift, or do a favor to government officials in order to: avoid a problem with the police (like passing a checkpoint or avoiding a fine or arrest)
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q61E
+Variable Label: Pay bribe for: school placement
+Question Text: in the past year, how often, if ever, have you had to pay a bribe, give a gift, or do a favor to government officials in order to: get a place in a primary school for a child
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q61F
+Variable Label: Election incentives offered
+Question Text: and during the last national election in 2012, how often, if ever did a candidate or someone from a political party offer you something, like food or a gift or money, in return for your vote
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q62A
+Variable Label: MPs listen
+Question Text: how much of the time do you think the following try their best to listen to what people like you have to say: members of parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q62B
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q63PT1
+Variable Label: Most important problems – 1st response
+Question Text: in your opinion, what are the most important problems facing this country that government should address
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q63PT2
+Variable Label: Most important problems – 2nd response
+Question Text: in your opinion, what are the most important problems facing this country that government should address
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q63PT3
+Variable Label: Most important problems – 3rd response
+Question Text: in your opinion, what are the most important problems facing this country that government should address
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q64
+Variable Label: How likely government will solve this problem within the next five years
+Question Text: taking the problem that you mentioned first, how likely do you think it is that government will solve this problem within the next five years
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65A
+Variable Label: Handling managing the economy
+Question Text: now let’s speak about the present government of this country. how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: managing the economy
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65B
+Variable Label: Handling improving living standards of the poor
+Question Text: now let’s speak about the present government of this country. how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: improving the living standards of the poor
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65C
+Variable Label: Handling creating jobs
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: creating jobs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65D
+Variable Label: Handling keeping prices down
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: keeping prices down
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65E
+Variable Label: Handling narrowing income gaps
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: narrowing gaps between rich and poor
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65F
+Variable Label: Handling reducing crime
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: reducing crime
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65G
+Variable Label: Handling improving basic health services
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: improving basic health services
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65H
+Variable Label: Handling addressing educational needs
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: addressing educational needs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65I
+Variable Label: Handling providing water and sanitation services
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: providing water and sanitation services
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65J
+Variable Label: Handling ensuring enough to eat
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: ensuring everyone has enough to eat
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65K
+Variable Label: Handling fighting corruption
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: fighting corruption in government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65L
+Variable Label: Handling resolving violent conflict between communities
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: resolving violent conflict between communities
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65M
+Variable Label: Handling combating HIV/AIDS
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: combating hiv or aids
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65N
+Variable Label: Handling and maintaining roads and bridges
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: maintaining roads and bridges
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65O
+Variable Label: Handling providing reliable electric supply
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: providing a reliable supply of electricity
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q65P
+Variable Label: Handling empowering women
+Question Text: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough to say: empowering women
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66A
+Variable Label: Local govt. handling maintaining roads
+Question Text: what about the governor? i do not mean the national government  i mean your metropolitan, municipal or district assembly. how well or badly would you say the governor is handling the following matters, or haven’t you heard enough about them to say: maintaining local roads
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66B
+Variable Label: Local govt. handling maintaining local markets
+Question Text: what about the governor? i do not mean the national government i mean your metropolitan, municipal or district assembly. how well or badly would you say the governor is handling the following matters, or haven’t you heard enough about them to say: maintaining local market places
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66C
+Variable Label: Local govt. handling health standards in restaurants
+Question Text: what about the governor? i do not mean the national government i mean your metropolitan, municipal or district assembly. how well or badly would you say the governor is handling the following matters, or haven’t you heard enough about them to say: maintaining health standards, for example, in restaurants and food stalls
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66D
+Variable Label: Local govt. handling keeping community clean
+Question Text: what about the governor? i do not mean the national government i mean your metropolitan, municipal or district assembly. how well or badly would you say the governor is handling the following matters, or haven’t you heard enough about them to say: keeping our community clean, for example, by having refuse removed
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q66E
+Variable Label: Local govt. handling the use of land
+Question Text: what about the governor? i do not mean the national government i mean your metropolitan, municipal or district assembly. how well or badly would you say the governor is handling the following matters, or haven’t you heard enough about them to say: managing the use of land
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q67A
+Variable Label: Difficulty to obtain identity document
+Question Text: based on your experience, how easy or difficult is it to obtain the following services from government? or do you never try and get these services from government: an identity document, such as a birth certificate, driver’s license, passport or voter’s card
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q67B
+Variable Label: Difficulty to obtain household services
+Question Text: based on your experience, how easy or difficult is it to obtain the following services from government? or do you never try and get these services from government: household services like piped water, electricity or telephone
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q67C
+Variable Label: Difficulty to obtain help from the police
+Question Text: based on your experience, how easy or difficult is it to obtain the following services from government? or do you never try and get these services from government: help from the police
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q67D
+Variable Label: Difficulty to obtain primary school placement
+Question Text: based on your experience, how easy or difficult is it to obtain the following services from government? or do you never try and get these services from government: a place in a public primary school for a child
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q67E
+Variable Label: Difficulty to obtain medical treatment
+Question Text: based on your experience, how easy or difficult is it to obtain the following services from government? or do you never try and get these services from government: medical treatment at a public clinic or hospital
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q68A
+Variable Label: Problems with schools: too expensive
+Question Text: have you encountered any of these problems with your local public schools during the past 12 months: services are too expensive  or unable to pay
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q68B
+Variable Label: Problems with schools: textbooks and supplies
+Question Text: have you encountered any of these problems with your local public schools during the past 12 months: lack of textbooks or other supplies
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q68C
+Variable Label: Problems with schools: poor teaching
+Question Text: have you encountered any of these problems with your local public schools during the past 12 months: poor teaching
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q68D
+Variable Label: Problems with schools: absent teachers
+Question Text: have you encountered any of these problems with your local public schools during the past 12 months: absent teachers
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q68E
+Variable Label: Problems with schools: overcrowded classrooms
+Question Text: have you encountered any of these problems with your local public schools during the past 12 months: overcrowded classrooms
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q68F
+Variable Label: Problems with schools: poor facilities
+Question Text: have you encountered any of these problems with your local public schools during the past 12 months: poor conditions of facilities
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q69A
+Variable Label: Problems with public clinic: too expensive
+Question Text: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: services are too expensive  or unable to pay
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q69B
+Variable Label: Problems with public clinic: lack of medicine/supplies
+Question Text: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: lack of medicines or other supplies
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q69C
+Variable Label: Problems with public clinic: lack of attention/ respect
+Question Text: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: lack of attention or respect from staff
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q69D
+Variable Label: Problems with public clinic: absent doctors
+Question Text: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: absent doctors
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q69E
+Variable Label: Problems with public clinic: long waiting time
+Question Text: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: long waiting time
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q69F
+Variable Label: Problems with public clinic: dirty facilities
+Question Text: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: dirty facilities
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q70A
+Variable Label: Received free visits or medicines
+Question Text: do you or anyone in this household receive any of the following: free visits or medicines from a public or government-run health clinic or hospital
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q70B
+Variable Label: Received food for children
+Question Text: do you or anyone in this household receive any of the following: food for children from a government- run school feeding program
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q70C
+Variable Label: Received pension or grant
+Question Text: do you or anyone in this household receive any of the following: an old age pension or grant from the government
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71A
+Variable Label: Performance: President
+Question Text: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: president mohammad morsi
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71B
+Variable Label: Performance: MP/National Assembly rep.
+Question Text: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: your member of parliament
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71C
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q71D-EGY
+Variable Label: Performance: Your member of Constitution Drafting Committee
+Question Text: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: your member of the constitution drafting committee
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72A
+Variable Label: Who responsible: MPs do jobs
+Question Text: who should be responsible for: making sure that, once elected, members of parliament do their jobs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72B
+Variable Label: Who responsible: local councilors do jobs
+Question Text: who should be responsible for: making sure that, once elected, local government councilors do their jobs
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q72C
+Variable Label: Who responsible: president does job
+Question Text: who should be responsible for: making sure that, once elected, the president does his job
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q74
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q75A
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q75B
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q75C
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q76A
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q76B
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q77
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q78
+Variable Label: Violence never justified vs. sometimes necessary
+Question Text: which of the following statements is closest to your view? choose statement 1 or statement 2. statement 1: the use of violence is never justified in egyptian politics today. statement 2: in this country, it is sometimes necessary to use violence in support of a just cause
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q78A1
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q79. CSQ
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q80. CSQ
+Variable Label: 
+Question Text: not asked in egypt  47
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q81. CSQ
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q82. CSQ
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q83. CSQ
+Variable Label: 
+Question Text: not asked in egypt
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q84
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q85A
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q85B
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q85C
+Variable Label: Proud of nationality
+Question Text: please tell me whether you agree or disagree with the following statement: it makes you proud to be called a egyptian
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q86A
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q86B
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q86C
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q86D
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q86E
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q86F
+Variable Label: 
+Question Text: not asked in arab or afrobarometer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q87
+Variable Label: Most people can be trusted
+Question Text: let’s turn to your views on your fellow citizens. generally speaking, would you say that most people can be trusted or that you must be very careful in dealing with people
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q88A
+Variable Label: Trust relatives
+Question Text: how much do you trust each of the following types of people: your relatives
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q88B
+Variable Label: Trust neighbors
+Question Text: how much do you trust each of the following types of people: your neighbors
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q88C
+Variable Label: Trust other people you know
+Question Text: how much do you trust each of the following types of people: other people you know
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q89A
+Variable Label: Close to political party
+Question Text: do you feel close to any particular political party
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q89B
+Variable Label: Which party
+Question Text: which party is that
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q90A
+Variable Label: Own radio
+Question Text: which of these things do you personally own: radio
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q90B
+Variable Label: Own television
+Question Text: which of these things do you personally own: television
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q90C
+Variable Label: Own motor vehicle, car, or motorcycle
+Question Text: which of these things do you personally own: motor vehicle, car or motorcycle
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q91A
+Variable Label: How often use a computer
+Question Text: how often do you use: a computer
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q91B
+Variable Label: How often use the internet
+Question Text: how often do you use: the internet
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q92
+Variable Label: Usage and ownership of mobile phone
+Question Text: do you ever use a mobile phone? if so, who owns the mobile phone that you use most often
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q93A
+Variable Label: How often use a cell phone to make or receive call
+Question Text: how often do you normally use a mobile phone to: make or receive a call
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q93B
+Variable Label: How often use cell phone to send or receive a text message
+Question Text: how often do you normally use a mobile phone to: send or receive a text message or sms
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q93C
+Variable Label: How often use cell phone to send or receive money
+Question Text: how often do you normally use a mobile phone to: send or receive money or pay a bill
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q94
+Variable Label: How many mobile phones in household
+Question Text: how many mobile phones are owned in total by members of your household, including yourself
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q95A
+Variable Label: Source of water for household use
+Question Text: please tell me whether each of the following are available inside your house, inside your compound, or outside your compound: your main source of water for household use
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q95B
+Variable Label: Location of toilet or latrine
+Question Text: please tell me whether each of the following are available inside your house, inside your compound, or outside your compound: a toilet or latrine
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q96
+Variable Label: Employment status
+Question Text: do you have a job that pays a cash income? if yes, is it full-time or part-time? if no, are you presently looking for a job
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q96-ARB.
+Variable Label: Main occupation
+Question Text: what is your main occupation? if unemployed, retired or disabled, what was your last main occupation
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q97
+Variable Label: Education of respondent
+Question Text: what is the highest level of education you have completed
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q98A
+Variable Label: Religion of respondent
+Question Text: what is your religion, if any
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q98B
+Variable Label: Importance of religion
+Question Text: how important is religion in your life
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q99
+Variable Label: Vote for which party
+Question Text: if a presidential election were held tomorrow, which party’s candidate would you vote for
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q100
+Variable Label: Perceived survey sponsor
+Question Text: just one more question: who do you think sent us to do this interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: ENDTIME
+Variable Label: Time interview ended
+Question Text: time interview ended
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: LENGTH
+Variable Label: Length of interview
+Question Text: length of interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q101
+Variable Label: Gender of respondent
+Question Text: respondent’s gender
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q102
+Variable Label: Race of respondent
+Question Text: respondent’s race
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q103
+Variable Label: Language of interview
+Question Text: what was the primary language used in the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q104
+Variable Label: Type of shelter of respondent
+Question Text: in what type of shelter does the respondent live
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q105
+Variable Label: Roof of respondent's home
+Question Text: what was the roof of the respondent’s home or shelter made of
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q106
+Variable Label: Others present
+Question Text: were there any other people immediately present who might be listening during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q107A
+Variable Label: Check with others
+Question Text: did the respondent check with others for information to answer any question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q107B
+Variable Label: Influence by others
+Question Text: do you think anyone influenced the respondent’s answers during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q107C
+Variable Label: Approached by community/ party representatives
+Question Text: were you approached by community and or or political party representatives
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q107D
+Variable Label: Feel threatened
+Question Text: did you feel threatened during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q107E
+Variable Label: Physically threatened
+Question Text: were you physically threatened during the interview
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q108
+Variable Label: Proportion difficulty answering
+Question Text: what proportion of the questions do you feel the respondent had difficulty answering
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q109A
+Variable Label: Trouble answering- first response
+Question Text: which questions did the respondent have trouble answering: first question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q109B
+Variable Label: Trouble answering- second response
+Question Text: which questions did the respondent have trouble answering: second question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q109C
+Variable Label: Trouble answering- third response
+Question Text: which questions did the respondent have trouble answering: third question
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q110A
+Variable Label: Respondent friendly
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: friendly, in between, or hostile
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q110B
+Variable Label: Respondent interested
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: interested, in between, or bored
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q110C
+Variable Label: Respondent cooperative
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: cooperative, in between, or uncooperative
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q110D
+Variable Label: Respondent patient
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: patient, in between, or impatient
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q110E
+Variable Label: Respondent at ease
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: at ease, in between, or suspicious
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q110F
+Variable Label: Respondent honest
+Question Text: what was the respondent’s attitude toward you during the interview? was he or she: honest, in between, or misleading
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q112
+Variable Label: Interviewer’s number
+Question Text: interviewer’s number
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q113
+Variable Label: Interviewer’s age
+Question Text: interviewer’s age
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q114
+Variable Label: Interviewer’s gender
+Question Text: interviewer’s gender
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q115
+Variable Label: Interviewer urban or rural
+Question Text: do you come from a rural or urban area
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q116
+Variable Label: Interviewer’s home language
+Question Text: interviewer’s home language
+    Variable Label: ''
+    Question Text: ''
+
+Question Number: Q117
+Variable Label: Interviewer’s education
+Question Text: interviewer’s highest level of education
+    Variable Label: ''
+    Question Text: ''
+

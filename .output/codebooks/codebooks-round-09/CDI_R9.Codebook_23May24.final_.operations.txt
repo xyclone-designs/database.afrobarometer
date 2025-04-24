@@ -1,0 +1,6 @@
+Question Number: Manuel de Codes  pour la   Série 9 d’Enquêtes Afrobarometer  au Côte d'Ivoire      Préparé par: Justin Verity Mars 2021                   Numéro de la question: RESPNO
+Variable Label: Attribué par le superviseur  Numéro de la question: URBRUR
+Question Text: numéro du répondant libellé de la variable: numéro du répondant valeurs: cdi0001-cdi1200 libellés des valeurs: variable de chaîne
+    Variable Label: ''
+    Question Text: ''
+

@@ -1,0 +1,4 @@
+QuestionNumber: Q79
+ValueLabels
+    743=, =Mngoni
+

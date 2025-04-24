@@ -1,0 +1,11 @@
+Pk: 0
+QuestionNumber: Manuel de Codes  pour la   Série 9 d’Enquêtes Afrobarometer  au Gabon      Préparé par: Martin Fikiri Oswald Mars 2024                    Numéro de la question: RESPNO
+Question: numéro du répondant libellé de la variable: numéro du répondant valeurs: gab0001-gab1200 libellés des valeurs: variable de chaîne
+VariableLabel: Attribué par le superviseur  Numéro de la question: URBRUR
+Values: PSU/EA Libellé de la variable: Type de milieu: Urbain ou Rural Valeurs: 1
+        2 Libellés des valeurs: 1=Urbain
+        2=Rural
+ValueLabels: Répondu par l’enquêteur   Numéro de la question: REGION
+Source: Département/Région/Province Libellé de la variable: Région Valeurs: 1700-1708 Libellés des valeurs: 1700=Estuaire, 1701=Haut-Ogooué, 1702=Moyen-Ogooué, 1703=Ngounié, 1704=Nyanga, 1705=Ogooué-Ivindo, 1706=Ogooué-Lolo, 1707=Ogooué-Maritime, 1708=Woleu-Ntem
+Note: Répondu par l’enquêteur  Numéro de la question: COMMUNE
+

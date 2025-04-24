@@ -1,0 +1,16 @@
+QuestionNumber: Q2
+ValueLabels
+    518 =Sonrhai, 11 540 =Makua
+
+QuestionNumber: Q80A
+ValueLabels
+    9= Turkey, 10          51 =Ghana
+
+QuestionNumber: Q98A
+ValueLabels
+    22=Tijaniya Brotherhood, 64 23=Qadiriya Brotherhood
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

@@ -1,0 +1,4 @@
+QuestionNumber: Q83B-LES
+ValueLabels
+    7=Not applicable (Answer to Q83A-LES, =1 No or
+

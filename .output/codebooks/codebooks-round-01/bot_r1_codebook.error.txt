@@ -1,0 +1,4 @@
+QuestionNumber: 50A
+ValueLabels
+    132=Voter education, 8 133=Telecommunications
+

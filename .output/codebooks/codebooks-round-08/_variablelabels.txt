@@ -1,0 +1,1466 @@
+-1=Missing
+0-4, 8, 9, -1
+1-5, 8, 9, -1
+10c. Freedom to choose who to vote for
+16b. Last national election: offered food, gift or money for vote
+1740-1745, 9995
+17c. Last national election: powerful find out your vote
+49a. Support more taxes for youth programs
+76a_GAB. Replace CFA.
+76b_GAB. CEMAC currency
+77_GAB. Fight youth unemployment.
+78a_GAB. Heard of post-election dialogue.
+78b_GAB. Outcomes of post-election dialogue.
+79a_GAB. Heard of human-wildlife conflict.
+79b_GABpt2. Significance of human-wildlife conflict – 2nd response
+79c_GABpt1. What contributes to human-wildlife conflict – 1st response
+79c_GABpt2. What contributes to human-wildlife conflict – 2nd response
+94e. Other source of electricity: owner
+Constituency
+Constituency Name
+Country
+Country in R5 Alphabetical Order
+Country in R6 Alphabetical Order
+Country in R7 Alphabetical Order
+Country old spelling/order
+COV-1. Informed about COVID-19
+COV-10. Received COVID-19 relief assistance
+COV-11. COVID-19 relief assistance fairly distributed
+COV-12. Handling managing COVID-19 response
+COV-13. Handling keeping public informed about COVID-19
+COV-14. Trust govt COVID-19 statistics
+COV-15. Level of COVID-19 corruption
+COV-16. Trust govt to ensure safety of COVID-19 vaccine
+COV-17. Likelihood of getting COVID-19 vaccination
+COV-18. Prayer more effective than COVID-19 vaccine
+COV-19. Seriousness of COVID-19 over next 6 months
+COV-2. Became ill with COVID-19
+COV-20. More investment for health emergencies
+COV-21. Censor media during pandemic
+COV-21. Censoring media during pandemic
+COV-22. Armed forces/police enforce public health measures
+COV-22. Armed forces/police to enforce public health measures
+COV-23. Postpone elections/limit campaigns
+COV-23. Postpone elections/limit campaigns during pandemic
+COV-24. Politicians take advantage of COVID-19 pandemic
+COV-3. Lost income because of COVID-19
+COV-4. Community experience COVID-19 lockdown/curfew
+COV-5. Ease of compliance with COVID-19 lockdown/curfew
+COV-6. Lockdown/curfew necessary to limit COVID-19 spread
+COV-7. School closed due to COVID-19
+COV-8. Support school closure due to COVID-19
+COV-9. Length of COVID-19 school closure appropriate
+COV10B- MAU. Household required assistance during COVID-19 pandemic
+Date of interview
+Date of interview **
+District
+EA-FAC-A. Post office in the PSU/EA
+EA-FAC-B. School in the PSU/EA
+EA-FAC-C. Police station in the PSU/EA
+EA-FAC-D. Health Clinic in the PSU/EA
+EA-FAC-E. Market stalls in the PSU/EA
+EA-FAC-F. Bank or money services in the PSU/EA
+EA-FAC-G. Paid transport in the PSU/EA
+EA-ROAD-A. Road surface at start point
+EA-ROAD-B. Road surface last 5 km
+EA-ROAD-C. Road condition last 5 km
+EA-SEC-A. Police in the PSU/EA
+EA-SEC-B. Soldiers/army in the PSU/EA
+EA-SEC-C. Roadblocks by police/army in the PSU/EA
+EA-SEC-D. Customs checkpoints in the PSU/EA
+EA-SEC-E. Roadblocks by private security/local community in the PSU/EA
+EA-SVC-A. Electricity grid in the PSU/EA
+EA-SVC-B. Piped water system in the PSU/EA
+EA-SVC-B. Sewage system in the PSU/EA
+EA-SVC-C. Sewage system in the PSU/EA
+EA-SVC-D. Borehole or tubewell in the PSU/EA
+EA-SVC-D. Cell phone service in the PSU/EA
+EA-SVC-D. Mobile phone service in the PSU/EA
+Ecological Zone
+Election winner pursues preferred policies vs. compromise w/others.
+Governorate
+GUI. Q78b_GUI. Female genital mutilation
+Head of household
+Length of interview
+Number of adults in household
+Number of calls
+Previous interview, gender
+Province or region
+Q017b. Influence by others
+Q1. Age
+Q100. Perceived survey sponsor
+Q101. Gender of respondent
+Q102. Race of respondent
+Q102other Race of respondent (verbatim)
+Q102other. Race of respondent (verbatim)
+Q103. Language of interview
+Q103. Language of interview **
+Q103other Language of interview (verbatim)
+Q103other. Language of interview (verbatim)
+Q104. Type of shelter of respondent
+Q105. Roof of respondent's home
+Q106. Others present
+Q107a. Check with others
+Q107c. Approached by community/party representatives
+Q107d. Feel threatened
+Q107e. Physically threatened
+Q108. Proportion difficulty answering
+Q10a. Freedom to say what you think
+Q10b. Freedom to join any political organization
+Q10b. Freedom to join political organization
+Q10c. Freedom to choose who to vote for
+Q10c. Freedom to choose who to vote for without pressure
+Q110a. Respondent friendly
+Q110b. Respondent interested
+Q110c. Respondent cooperative
+Q110d. Respondent patient
+Q110e. Respondent at ease
+Q110f. Respondent honest
+Q112. Interviewer number
+Q112. Interviewer number **
+Q113. Interviewer’s age
+Q113. Interviewer’s age **
+Q114. Interviewer’s gender
+Q115. Interviewer rural or urban
+Q116. Interviewer’s home language
+Q116. Interviewer’s home language **
+Q116other Interviewer’s home language (verbatim)
+Q116other. Interviewer’s home language (verbatim)
+Q117. Interviewer's ethnic group or tribe
+Q117. Interviewer's ethnic group or tribe **
+Q117other Interviewer’s ethnic group or tribe (verbatim)
+Q117other. Interviewer’s ethnic group or tribe (verbatim)
+Q118. Interviewer’s education
+Q119_1. Other spoken languages - first
+Q119_1. Other spoken languages – First.
+Q119_1. Other spoken languages_first
+Q119_2. Other spoken languages - second
+Q119_2. Other spoken languages – First.
+Q119_2. Other spoken languages_second
+Q119_3. Other spoken languages - third
+Q119_3. Other spoken languages_second
+Q119_3. Other spoken languages_third
+Q119_4. Other spoken languages - fourth
+Q119_4. Other spoken languages_fourth
+Q119_4. Other spoken languages_second
+Q119_5. Other spoken languages - fifth
+Q119_5. Other spoken languages_fifth
+Q119_5. Other spoken languages_second
+Q119_6. Other spoken languages_second
+Q119_6. Other spoken languages_sixth
+Q119. Other spoken languages
+Q119. Other spoken languages _first
+Q119. Other spoken languages_eighth
+Q119. Other spoken languages_eleventh
+Q119. Other spoken languages_fifth
+Q119. Other spoken languages_fifth response
+Q119. Other spoken languages_first
+Q119. Other spoken languages_first response
+Q119. Other spoken languages_fourth
+Q119. Other spoken languages_fourth response
+Q119. Other spoken languages_ninth
+Q119. Other spoken languages_second
+Q119. Other spoken languages_Second
+Q119. Other spoken languages_second response
+Q119. Other spoken languages_seventh
+Q119. Other spoken languages_seventh response
+Q119. Other spoken languages_sixth
+Q119. Other spoken languages_sixth response
+Q119. Other spoken languages_tenth
+Q119. Other spoken languages_third
+Q119. Other spoken languages_Third
+Q119. Other spoken languages_third response
+Q119. Other spoken languages- first
+Q119. Other spoken languages- fourth
+Q119. Other spoken languages- second
+Q119. Other spoken languages- third
+Q119. Which Ugandan languages do you speak?
+Q119other. Other spoken languages (verbatim)
+Q119OTHER. Other spoken languages (verbatim)
+Q11a. Attend a community meeting
+Q11b. Join others to raise an issue
+Q12a. Contact local government councillor
+Q12a. Contact local government councilor
+Q12a. Contact regional councilor
+Q12b_gab. Contact MP
+Q12b. Contact MP
+Q12b1_eth. Contact Regional State council member
+Q12c. Contact political party official
+Q12d. Contact traditional leader
+Q12E-SUD. Contact religious leader
+Q13. Voting in the most recent election
+Q13. Voting in the most recent national election
+Q13. Voting in the most recent national election.
+Q14. Freeness and fairness of the last election
+Q14. Freeness and fairness of the last general election
+Q14. Freeness and fairness of the last national election
+Q15a. Last national election: attend a campaign rally
+Q15b. Last national election: work for a candidate or party
+Q15c. Last national election: contacted by a political party rep
+Q15c. Last national election: contacted by political party rep
+Q15c. Last national election: contacted by representative of political party
+Q15c. Last national election: contacted by representatives of political party
+Q15c. Last national election: contacted by representatives of political party rep
+Q15d_1. Which parties contacted? 1st response
+Q15d_2. Which parties contacted? 1st response
+Q15d_3. Which parties contacted? 1st response
+Q15d_4. Which parties contacted? 1st response
+Q15d_5. Which parties contacted? 1st response
+Q15d. Which parties contacted: 10th response
+Q15d. Which parties contacted: 8th response
+Q15d. Which parties contacted: 9th response
+Q15d. Which parties contacted: Other (verbatim)
+Q15d. Which parties contacted? 10th response
+Q15d. Which parties contacted? 11th response
+Q15d. Which parties contacted? 12th response
+Q15d. Which parties contacted? 13th response
+Q15d. Which parties contacted? 14th response
+Q15d. Which parties contacted? 15th response
+Q15d. Which parties contacted? 16th response
+Q15d. Which parties contacted? 17th response
+Q15d. Which parties contacted? 18th response
+Q15d. Which parties contacted? 1st response
+Q15d. Which parties contacted? 1st response **
+Q15d. Which parties contacted? 2nd response
+Q15d. Which parties contacted? 2nd response **
+Q15d. Which parties contacted? 3rd response
+Q15d. Which parties contacted? 3rd response **
+Q15d. Which parties contacted? 4th response
+Q15d. Which parties contacted? 4th response **
+Q15d. Which parties contacted? 5th  response
+Q15d. Which parties contacted? 5th response
+Q15d. Which parties contacted? 5th response **
+Q15d. Which parties contacted? 6th response
+Q15d. Which parties contacted? 6th response **
+Q15d. Which parties contacted? 7th response
+Q15d. Which parties contacted? 8th response
+Q15d. Which parties contacted? 9th response
+Q15d. Which party contacted-1st response
+Q15d. Which party contacted-2nd response
+Q15d. Which party contacted-3rd response
+Q15d. Which party contacted-4th response
+Q15d. Which party contacted-5th response
+Q15d. Which party contacted-6th response
+Q15d. Which party contacted: 1st response
+Q15d. Which party contacted: 2nd response
+Q15d. Which party contacted: 3rd response
+Q15d. Which party contacted: 4th response
+Q15d. Which party contacted: 5th response
+Q15d. Which party contacted: 6th response
+Q15d. Which party contacted: 7th response
+Q15d. Which party contacted: 8th response
+Q15d. Which party contacted? 1st response
+Q15d. Which party contacted? 2nd response
+Q15d. Which party contacted? 3rd response
+Q15d. Which party contacted? 4th response
+Q15dother. Which parties contacted-Other (verbatim)
+Q15dother. Which parties contacted? Other (verbatim)
+Q16a. Last national election: media covers all candidates fairly
+Q16a. Last national election: media provide fair coverage of all candidates
+Q16b. Last national election: candidate or political party offer food, gift or money for vote
+Q16b. Last national election: offered food, gift or money for vote
+Q17a. Last national election: votes not accurately counted
+Q17b. Last national election: people voted more than once
+Q17b1-MAU. Last national election: names not on the voters' role
+Q17c. Last general election: powerful people find out your vote
+Q17c. Last national election: powerful find out your vote
+Q17c. Last national election: powerful people find out vote
+Q17c. Last national election: powerful people find out your vote
+Q17d. Last national election: fear political intimidation or violence
+Q18a. Last national election: police or soldiers assist people to cast ballot
+Q18b. Last national election: security forces or political party intimidated voters
+Q18b. Last national election: security forces or political party trying to intimidate voters
+Q18b. Last national election: voter intimidation
+Q18c. Last national election: announced results reflect counted results
+Q19a. Government bans organizations vs. join any
+Q19b. Media free to publish vs government control
+Q19b. Media free to publish vs. government control
+Q19b. Newspaper free to publish vs. government control
+Q19b. Newspapers free to publish vs. government control
+Q19b. Newspapers to publish vs. government control
+Q2_OTHER. Language spoken in home (verbatim)
+Q2. Language spoken in home
+Q2. Language spoken in home **
+Q20a. Reject one-party rule
+Q20b. Reject military rule
+Q20c. Reject one-man rule.
+Q20d-les. Reject: King governs country.
+Q20d-sud. Reject Islamic rule.
+Q20d-swz. Reject King rule
+Q21-saf. Willing to give up regular elections
+Q21. Support for democracy
+Q21a. Attend a community meeting
+Q22-les. Parliament gets things done vs accountable to citizens
+Q22. Govt gets things done vs govt accountable to citizens
+Q22. Govt gets things done vs. govt accountable to citizens
+Q22. Govt gets things done vs. Govt accountable to citizens
+Q23 Listen to wisdom of elders vs. fresh ideas from young people
+Q24. Choose leaders through elections vs. other methods
+Q25. Political parties divisive vs. many parties needed
+Q25c. Contact political party official
+Q26.  Elected officials follow constituent demands vs follow own ideas
+Q26.  Q26. Elected officials  follow constituent demands vs follow own ideas
+Q26. Elected officials  follow constituents demands vs. elected leaders follow own ideas.
+Q26. Elected officials accountable vs. elected leaders follow own ideas.
+Q26. Elected officials follow constituent demands vs follow own ideas
+Q26. Elected officials follow constituent demands vs follow own ideas.
+Q26. Elected officials follow constituent demands vs. follow own ideas
+Q26. Elected officials follow constituent demands vs. follow own ideas.
+Q26. Elected officials follow constituent vs. follow own ideas.
+Q27. Elected leaders empower most capable citizens vs. help people left behind
+Q27. Elected leaders empower most capable citizens vs. help people left behind by economic and social change
+Q27. Elected leaders empower most capable vs help people left behind
+Q27. Elected leaders empower most capable vs. help people left behind
+Q28. Experts make most important decisions vs no need for experts
+Q28. Experts needed for important decisions vs elected know best
+Q28. Experts needed for important decisions vs no need for experts
+Q28. Experts needed for most important decisions vs elected know best
+Q28. Experts needed for most important decisions vs no need for experts
+Q29. President monitored by parliament vs. free to act on own
+Q2other. Language spoken in home (verbatim)
+Q3. Overall direction of the country
+Q30. President free to act vs. obey the laws and courts
+Q31. Election winner pursue policies they prefer vs. compromise with other groups.
+Q31. Election winner pursue policies they prefer vs. compromise with others.
+Q31. Election winner pursues policies they prefer vs. compromise with others.
+Q31. Election winner pursues preferred policies vs compromise w/others
+Q31. Election winner pursues preferred policies vs. compromise w/ others
+Q31. Election winner pursues preferred policies vs. compromise w/others
+Q31. Election winner pursues preferred policies vs. compromise with others
+Q31. Election winner pursues preferred policies vs. compromise with others.
+Q31B_mlw. Losing candidates/parties should accept election results vs right to challenge
+Q32. Elected do whatever the people want vs bound by laws
+Q32. Elected do whatever the people want vs. bound by law.
+Q32. Elected government free to do whatever the people want vs. bound by law
+Q32. Elected government free to do whatever the people want vs. bound by law.
+Q32. Popular  government free to do whatever the people want vs. always follow the law
+Q32. Popular govt free to do whatever people want vs always follow the law
+Q32. Popular govt free to do whatever people want vs always follow the law.
+Q32. Popular govt free to do whatever people want vs. always follow the law.
+Q32. Popular govt free to do whatever the people want vs. always follow the law.
+Q33. Media checks government vs. avoid negative reporting
+Q34. Presidential two term limit vs. no term limits
+Q35a. Minimum age for candidate for president
+Q35a. Minimum age for candidate for president needed
+Q35a. Minimum age for candidate for prime minister needed
+Q35a. Minimum age for presidential candidate
+Q35a. Minimum age for presidential candidate needed
+Q35a. Minimum age for presidential candidates needed
+Q35a. Suggested minimum age for presidential candidate
+Q35b. Minimum age for candidates for president.
+Q35b. Minimum age for presidential candidates
+Q35b. Suggested minimum age for candidates for president.
+Q35b. Suggested minimum age for presidential candidate
+Q35b. Suggested minimum age for presidential candidate.
+Q35b. Suggested minimum age for presidential candidates.
+Q35c. Maximum age for candidate for president needed.
+Q35c. Maximum age for presidential candidate
+Q35c. Maximum age for presidential candidate needed.
+Q35c. Maximum age for presidential candidate.
+Q35c. Maximum age for presidential candidates
+Q35d. Maximum age for candidates for president
+Q35d. Maximum age for presidential candidate
+Q35d. Maximum age for presidential candidates
+Q35d. Suggested maximum age for presidential candidate
+Q35d. Suggested maximum age for presidential candidates
+Q36. Extent of democracy
+Q37. Satisfaction with democracy
+Q38a. MPs listen
+Q38a1_GAB. Senators listen
+Q38A1_NAM. National Council Representatives listen
+Q38a1-lib. Senators listen
+Q38b. Local government councillors listen
+Q38b. Local government councilors listen
+Q38b. Members of the County Assembly or MCA listen
+Q38b1_NAM. Regional councilors listen
+Q38c. Traditional leaders listen
+Q38d-NIG. State Assembly members listen
+Q38d-sud. Religious leaders listen
+Q39a. People must pay taxes
+Q39a. Tax authorities have right to enforce taxes
+Q39b. Government information for official use only
+Q40a. How often party competition leads to conflict
+Q40a. How often party competition leads to conflict.
+Q40b. How often president ignores laws
+Q40b. How often President ignores laws
+Q40c. How often president ignores parliament
+Q40c. How often President ignores parliament
+Q40c. How often president ignores parliament.
+Q40d. How often careful what you say
+Q40d. How often careful what you say.
+Q40e. How often people treated unequally
+Q40e. How often people treated unequally.
+Q40f. How often officials unpunished
+Q40g. How often ordinary people unpunished
+Q40h-LES. How often police abuse, torture people in custody
+Q41a_NAM. Trust Prime Minister
+Q41a. Trust president
+Q41a. Trust President
+Q41a. Trust the king
+Q41a. Trust Transitional Cabinet
+Q41a1_Cve. Trust president
+Q41a1-LES. Trust the King
+Q41a1-MAU. Trust president
+Q41b. Trust parliament/national assembly
+Q41b. Trust Sovereignty Council
+Q41b1_NAM. Trust National Council
+Q41b1-lib. Trust Senate
+Q41c. Trust electoral commission
+Q41c. Trust Electoral Commission
+Q41c. Trust Independent Electoral and Boundaries Commission or IEBC.
+Q41c. Trust national electoral commission
+Q41d. Trust appointed Regional Governor
+Q41d. Trust your elected local government council
+Q41d1_NAM. Trust Regional Council
+Q41d1-Gha. Trust your Metropolitan, Municipal or District Chief Executive
+Q41d1-saf. Trust premier of province
+Q41e. Trust the ruling party
+Q41f. Trust opposition political parties
+Q41g. Trust police
+Q41h. Trust army
+Q41i. Trust courts of law
+Q41j. The tax/revenue office
+Q41j. Trust the tax/revenue office
+Q41k. Trust traditional leaders
+Q41l. Q41n-MAU. Trust private sector leaders
+Q41l. Trust religious leaders
+Q41m-Gha. Trust Information from government sources
+Q41m-LES. Trust Directorate on Corruption and Economic Offences
+Q41m-MAU. Trust civil society organization leaders
+Q41m-NIG. Trust your State Governor
+Q41m-saf. Trust Public Protector
+Q41m-swz. Trust Non-Governmental Organizations or NGOs
+Q41m-zim. Trust NGOs
+Q41n-Gha. Trust Information from public media institutions
+Q41n-NIG. Trust your State House of Assembly
+Q41n-saf. Trust government broadcasting service
+Q41n-zim. Trust state owned TV
+Q41o-Gha. Trust Information from private media institutions
+Q41o-saf. Trust independent broadcasting services
+Q41o-zim. Trust state owned radio
+Q41p-Gha. Trust Information from social media
+Q41p-saf. Trust department of health
+Q41p-zim. Trust independent radio services
+Q41q-zim. Trust state owned newspapers
+Q41r-zim. Trust independent newspapers
+Q42a. Corruption: office of the Presidency
+Q42a. Corruption: Office of the Presidency
+Q42a1_NAM. Corruption: Office of the Prime Minister
+Q42a1-Cve. Corruption: office of the Prime Minister
+Q42a1-MAU. Corruption office of the President
+Q42a1-sud. Corruption: Leadership of the Sudanese Armed Forces
+Q42a2-sud. Corruption: Leadership of the Rapid Support Forces
+Q42b. Corruption: Members of Parliament
+Q42b1_NAM. National Council Representatives
+Q42b1-Gha. Corruption: Officials of the Electoral Commission
+Q42b1-lib. Corruption Senators
+Q42b2-sud. Corruption: Members of the Sovereignty Council
+Q42c. Corruption: Civil servants
+Q42d. Corruption: local government councillors
+Q42d. Corruption: local government councilors
+Q42d1_NAM. Corruption: Regional Councilors
+Q42d1-Gha. Corruption: Your Metropolitan Municipal or District Chief Executive
+Q42d2_NAM. Corruption: Regional Governors
+Q42e. Corruption: police
+Q42e. Corruption: Police
+Q42f. Corruption: judges and magistrates
+Q42f. Corruption: Judges and Magistrates
+Q42g. Corruption: tax officials
+Q42g. Corruption: Tax officials
+Q42h. Corruption: traditional leaders
+Q42h. Corruption: Traditional leaders
+Q42i. Corruption: religious leaders
+Q42i. Corruption: Religious leaders
+Q42j-Cve. Corruption: businessmen
+Q42j-Gha. Corruption: Media persons from public media institutions
+Q42j-lib. Corruption: County superintendents
+Q42j-NIG. Corruption: State Governors and officials in their office
+Q42k-Cve. Corruption: NGOs
+Q42k-Gha. Corruption: Media persons from private media institutions
+Q42k-NIG. Corruption: State Assembly members
+Q42l-NIG. Corruption: Local government chairpersons and their officials
+Q43a. Level of corruption
+Q43b. Ordinary people can report corruption without fear
+Q44a. Contact with public school
+Q44b. Difficulty to obtain public school services
+Q44c. Pay bribe for public school services
+Q44d. Contact with public clinic or hospital
+Q44e. Difficulty to obtain medical care
+Q44f. Pay bribe for medical care
+Q44g. Tried to obtain identity document
+Q44h.  Difficulty to obtain identity document
+Q44i. Pay bribe for identity document
+Q44j. Requested assistance from the police
+Q44j. Requested police assistance
+Q44k. Difficulty to obtain police assistance
+Q44l. Pay bribe to receive police assistance
+Q44m. Contact with police in other situations
+Q44n. Pay bribe to avoid problem with police
+Q45. Higher taxes w/more services vs lower taxes w/fewer services
+Q45. Higher taxes w/more services vs lower taxes w/fewer services.
+Q45. Higher taxes w/more services vs. lower taxes w/fewer services
+Q45. Higher taxes w/more services vs. lower taxes w/fewer services.
+Q45. Higher taxes with more govt services vs. lower taxes with fewer govt services.
+Q45. Higher taxes with more govt services vs. lower taxes with fewer services.
+Q45. Higher taxes with more services vs. lower taxes with fewer services
+Q45. Higher taxes with more services vs. lower taxes with fewer services.
+Q46a. Difficulty finding out what taxes or fees to pay
+Q46a. Difficulty to find out what taxes or fees to pay
+Q46b. Difficulty finding out  how government uses tax revenues.
+Q46b. Difficulty to find out how government uses tax revenues
+Q46b. Difficulty to find out how government uses tax revenues.
+Q46b. Difficulty to finding out how government uses tax revenues.
+Q46c. Amount ordinary people taxed too much
+Q46c. Taxes for ordinary people: too little, too much, or about the right amount
+Q46c. Taxes for ordinary people: too little, too much, or right amount
+Q46d. Amount rich people taxed too much
+Q46d. Amount rich people taxed too much.
+Q46d. Taxes for the rich: too little, too much, or about the right amount.
+Q46d. Taxes for the rich: too little, too much, or right amount
+Q46d. Taxes for the rich: too little, too much, or right amount.
+Q46d. Taxes for the rich: too little, too much, or the right amount.
+Q47a. Government should ensure informal sector pay taxes
+Q47a. Government should ensure informal sector pays
+Q47a. Government should ensure informal sector pays pay taxes
+Q47a. Government should ensure informal sector pays taxes
+Q47a. Government should ensure small traders and informal sector pay taxes
+Q47b.  Fair for rich to pay higher taxes
+Q47b.  Fair for rich to pay higher taxes.
+Q47b. Fair for rich people to pay higher taxes
+Q47b. Fair for rich to pay higher taxes
+Q47b. Fair for rich to pay higher taxes.
+Q47b. Fairness for rich to pay higher taxes
+Q47b. Fairness of high taxes for the rich to help the poor.
+Q47c. Taxes used by government for the well-being of citizens
+Q47c. Taxes used by government for the well-being of citizens.
+Q47d.  How often eople avoid paying taxes
+Q47d. How often people avoid paying taxes
+Q47d. How often people avoid paying taxes.
+Q47d. People avoid paying taxes
+Q48b-Gha. Government handling most important problems
+Q48pt1. Most important problems – 1st response
+Q48pt1. Most important problems – 1st response **
+Q48pt1other. MIP – 1st response (verbatim other)
+Q48pt1other. MIP – 1st response (verbatim)
+Q48pt2. Most important problems – 1st response
+Q48pt2. Most important problems – 2nd response
+Q48pt2. Most important problems – 2nd response **
+Q48pt2other. MIP – 1st response (verbatim)
+Q48pt2other. MIP – 2nd response (verbatim other)
+Q48pt2other. MIP – 2nd response (verbatim)
+Q48pt3. Most important problems – 1st response
+Q48pt3. Most important problems – 3rd response
+Q48pt3. Most important problems – 3rd response **
+Q48pt3other. MIP – 1st response (verbatim)
+Q48pt3other. MIP – 3rd response (verbatim)
+Q49a. More taxes to support youth programs
+Q49a. Support more taxes for youth program
+Q49a. Support more taxes for youth programs
+Q49a. Support more taxes to support youth programs
+Q49b. Priorities for government investment in youth programs
+Q49b. Priorities for investment in youth programs
+Q4a. Country’s present economic condition
+Q4b. Your present living conditions
+Q5. Treated unfairly by government based on economic status
+Q5. Treated unfairly by government based on economic status.
+Q50a. Handling managing the economy
+Q50b. Handling improving living standards of the poor
+Q50c. Handling creating jobs
+Q50d. Handling keeping prices stable
+Q50e.  Handling narrowing income gaps
+Q50e. Handling narrowing gaps
+Q50e. Handling narrowing gaps between rich and poor
+Q50e. Handling narrowing income gaps
+Q50f. Handling reducing crime
+Q50g. Handling improving basic health services
+Q50h. Handling addressing educational needs
+Q50i. Handling providing water and sanitation services
+Q50j. Handling fighting corruption
+Q50j. Handling fighting corruption in government
+Q50k. Handling maintaining roads and bridges
+Q50l. Handling providing a reliable supply of electricity
+Q50m. Handling preventing or resolving violent conflict
+Q50n. Handling addressing needs of young people
+Q50o. Handling protecting rights and promoting opportunities for disabled
+Q50o. Handling protecting rights,  promoting opportunities for disabled
+Q50o. Handling protecting rights, promoting opportunities for disabled
+Q50p-NIG. Handling addressing the problem of armed extremists
+Q50p-saf. Handling managing immigration
+Q50p-sud. Handling managing the GERD controversy
+Q50p-TUN. Handling fighting tax evasion
+Q50q-saf. Handling managing economic effects of COVID-19 lockdown
+Q51a. Performance: President
+Q51a. Performance: Prime minister
+Q51a1_Cve. Performance: Prime Minister
+Q51a1_NAM. Performance: Prime Minister
+Q51a1-sud. Performance: Chairman of the Sovereignty Council
+Q51a2-sud. Performance: head of the Rapid Support Forces
+Q51b. Performance: MP/National Assembly rep
+Q51b. Performance: MP/National Assembly rep.
+Q51b1_GAB. Performance: MP/National Assembly rep
+Q51b1_NAM. Performance: Members of the National Assembly
+Q51b1-lib. Performance: Your Senator
+Q51b1-saf. Performance: Premier
+Q51b2_NAM. Performance: National Council Representative
+Q51b3_NAM. Performance: Regional Councilor
+Q51c. Performance: local government councillor
+Q51c. Performance: local government councilor
+Q51c1_NAM. Performance: Regional Governor
+Q51c1-Gha. Performance: Your Metropolitan, Municipal or District Chnief Executive
+Q51d. Performance: traditional leader
+Q51e_Cve. Performance: elected mayor
+Q51e-lib. Performance: Your county superintendent
+Q51e-NIG. Performance: local government chairperson
+Q51f-NIG. Performance: state governor
+Q52a. Who responsible: MPs do jobs
+Q52b. Who responsible: president does job?
+Q52b. Who responsible: President does job?
+Q52b. Who responsible: the Prime Minister does job?
+Q52b1_Cve. Who responsible: Prime Minister does job?
+Q53a. Elections ensure MPs reflect the views of voters
+Q53a. Elections ensure MPs reflect views of voters
+Q53a. Elections ensure voters' views are reflected
+Q53b. Elections enable voters to remove leaders from office.
+Q53b. Elections ensure voters remove unrepresentative leaders
+Q53c. Communities suffer when not voting for ruling party
+Q53c. Communities suffer when not voting for ruling party.
+Q53c. Communities that do not vote for the ruling party suffer negative consequences
+Q53c. Negative communities if communities don’t vote for ruling party
+Q53c. Negative consequences if communities don't vote for ruling party
+Q53c. Negative consequences if communities don’t vote for ruling party
+Q53c. Negative consequences if communities don’t vote for ruling party.
+Q53c. Negative consequences if voters don’t vote for ruling party
+Q53c. Performance: local government councillor
+Q54a. Feared violence in neighbourhood
+Q54a. Feared violence in neighbourhood?
+Q54b. Feared violence during political event or public protest
+Q54b. Feared violence during public protest
+Q54c. Feared armed attack by political or religious extremists
+Q54c. Feared violence by extremists
+Q55a. Radio news
+Q55b. Television news
+Q55c. Newspaper news
+Q55d. Internet news
+Q55e. Social media news
+Q56.  How free is news media
+Q56. How free is new media
+Q56. How free is news media
+Q56. News media free of censorship by the government
+Q57a. Spread false information: government officials
+Q57b. Spread false information: politicians and political parties
+Q57b. Spread false information: politicians and political parties.
+Q57c. Spread false information: news media and journalists
+Q57c. Spread false information: news media and journalists.
+Q57d. Spread false information: social media users
+Q57d. Spread false information: social media users.
+Q57e. Spread false information: activists and interest groups.
+Q57f-zam. Spread false information: traditional leaders.
+Q58a. Government can  prohibit: news or information that is false
+Q58a. Government can prohibit sharing: news or information that is false
+Q58a. Government prohibits: news or information that is false
+Q58a. Govt can prohibit sharing: news or information that is false
+Q58b. Government can prohibit sharing  news, information, or opinions that the government disapproves of.
+Q58b. Government can prohibit sharing: news, information, or opinions that the government disapproves of.
+Q58b. Government prohibits: news, information, opinions that it disapproves of.
+Q58b. Government prohibits: news, information, or opinions that it disapproves of.
+Q58b. Government prohibits: news, information, or opinions that the government disapproves of.
+Q58b. Govt can prohibit sharing: news, information, or opinions that the government disapproves of
+Q58b. Govt can prohibit sharing: news, information, or opinions that the government disapproves of disapproves of.
+Q58b. Govt can prohibit sharing: news, information, or opinions that the government disapproves of.
+Q58c. Government can prohibit sharing: criticism of president
+Q58c. Government can prohibit: sharing criticism of president.
+Q58c. Government prohibits: news, information, or opinions that criticize or insult the president.
+Q58c. Government prohibits: news, information, or opinions that criticize, insult the president.
+Q58c. Govt can prohibit sharing: criticism of president
+Q58c. Govt can prohibit sharing: criticism of President
+Q58c. Govt can prohibit sharing: criticism of president.
+Q58d. Government can prohibit sharing: hate speech
+Q58d. Government can prohibit sharing: hate speech.
+Q58d. Government prohibits: hate speech.
+Q58d. Govt can prohibit sharing: hate speech
+Q58d. Govt can prohibit sharing: hate speech.
+Q58e-LES. Government prohibits: news, information, or opinions that criticize, insult King
+Q59a. Heard about social media
+Q59b. social media: makes people informed
+Q59b. Social media: makes people more informed
+Q59b. Social media: makes people more informed about current events
+Q59b. Social media: makes people more informed.
+Q59c. Social media: makes people more likely to believe false news
+Q59c. Social media: makes people more likely to believe false news.
+Q59d. social media: helps people have more impact on political processes.
+Q59d. Social media: helps people have more impact on political processes.
+Q59d. Social media: helps people have more impact on politics
+Q59d. Social media: helps people have more impact on politics.
+Q59d. Social media:helps people have more impact on politics
+Q59e. Social media: makes people more intolerant
+Q59e. Social media: makes people more intolerant.
+Q59f. Effects of social media on society
+Q60. Unrestricted access to the Internet vs regulated access
+Q61. Allow free movement in region vs limit cross-border movement
+Q61. Allow free movement in region vs limit cross-border movement.
+Q61. Free movement in region vs limit cross-border movement.
+Q62. Difficulty to move across borders
+Q63. Finance development from own resources vs use external loans
+Q63. Finance development from own resources vs use external loans.
+Q64a. Loans tied to strict requirements by lenders vs government decides
+Q64a. Loans tied to strict requirements by lenders vs government decides how to spend loans.
+Q64a. Loans tied to strict requirements by lenders vs government decides.
+Q64a. Strict spending requirements on external loans vs government decides
+Q64a. Strict spending requirements on external loans vs govt decides
+Q64a. Strict spending requirements on external loans vs govt decides.
+Q64b.  Strict democracy conditions vs government decides.
+Q64b. Loans tied to promoting democracy, human rights vs government decides
+Q64b. Loans tied to promoting democracy, human rights vs government decides.
+Q64b. Loans tied to promotion of democracy and human rights vs government decides about democracy and human rights.
+Q64b. Strict democracy conditions on external loans vs government decides
+Q64b. Strict democracy conditions on external loans vs govt decides
+Q64b. Strict democracy conditions on external loans vs govt decides.
+Q64c. Government borrowed too much money from China
+Q65a. Country receives loans or development assistance from China
+Q65a. Know if country receives assistance form China
+Q65a. Know if country receives assistance from China
+Q65a. Know if country receives assistance from China.
+Q65b. Government required to repay China for loans.
+Q65d. China put more or less conditions on assistance
+Q65d. China puts more or less conditions on assistance
+Q65d. China puts more or less conditions on assistance.
+Q65d. Requirements on loans and assistance from China.
+Q65d.China puts more or less conditions on assistance
+Q65d.China puts more or less conditions on assistance.
+Q66. Open trade for development vs protect local producers
+Q66. Open trade for development vs protect local producers.
+Q66. Open trade for development vs protection of local producers.
+Q67. Limit trade in consumer goods to nationals vs allow foreigners to trade
+Q67. Limit trade in consumer goods to nationals vs allow foreigners to trade;
+Q67. Only nationals trade vs allow foreigners to trade
+Q67. Only nationals trade vs allow foreigners to trade;
+Q67. Only nationals trade vs allow foreigners to trade.
+Q67. Only nationals trade vs allow foreigners to trader
+Q68. Diverse communities stronger vs similar communities stronger.
+Q69a. Best country model for development
+Q69a. Best country model for development  **
+Q69a. Best country model for development (Britain)
+Q69a. Best model for development
+Q69a. Best model for the development
+Q69a. Best model for the future development
+Q69a.Best country model for development
+Q69aother. Best country model for development (verbatim)
+Q69aother. Best model for development (verbatim)
+Q69aother. Best model for the development (verbatim)
+Q69aother. Best model for the future development (verbatim)
+Q69b. China's influence on economy
+Q69b. Influence of China on country
+Q6a. Country's economic condition compared to 12 months ago
+Q6b. Country's economic condition in 12 months’ time
+Q70a. Influence of organization: African Union
+Q70a. Influence of organization: African Union (AU)
+Q70a. Influence of organization: African Union (SADC)
+Q70a. Influence of organization: African Union.
+Q70b. Influence of organization: [SADC].
+Q70b. Influence of organization: CEMAC or CEEAC
+Q70b. Influence of organization: ECOWAS
+Q70b. Influence of organization: ECOWAS.
+Q70b. Influence of organization: IGAD
+Q70b. Influence of organization: Intergovernmental Authority on Development or IGAD.
+Q70b. Influence of organization: regional alliance (Arab Maghreb Union).
+Q70b. Influence of organization: regional alliance (EAC)
+Q70b. Influence of organization: regional alliance (ECOWAS)
+Q70b. Influence of organization: regional alliance (SADC)
+Q70b. Influence of organization: regional alliance (SADC).
+Q70b. Influence of organization: Regional organisation (EAC)
+Q70b. Influence of organization: Regional Organisation (ECOWAS)
+Q70b. Influence of organization: Regional Organisation (SADC)
+Q70b. Influence of organization: Regional Organisation (The Arab Maghreb Union)
+Q70b. Influence of organization: Regional Organization
+Q70b. Influence of organization: Regional Organization (ECOWAS).
+Q70b. Influence of organization: SADC.
+Q70c. Influence of organization: United Nations agencies
+Q70c. Influence of organization: United Nations agencies.
+Q70d_ZAM. Influence of country: COMESA.
+Q70d. Influence of country: [Britain].
+Q70d. Influence of country: Britain
+Q70d. Influence of country: Britain.
+Q70d. Influence of country: Former colonial power
+Q70d. Influence of country: former colonial power (Britain)
+Q70d. Influence of country: Former colonial power (Britain)
+Q70d. Influence of country: Former colonial power (Britain).
+Q70d. Influence of country: Former colonial power (France)
+Q70d. Influence of country: Former colonial power (France).
+Q70d. Influence of country: Former colonial power (Germany)
+Q70d. Influence of country: Former colonial power (Portugal).
+Q70d. Influence of country: Former colonial power Britain.
+Q70d. Influence of country: France
+Q70d1-lib. Influence of country: Japan
+Q70e. Influence of country: China
+Q70e. Influence of country: China.
+Q70f. Influence of country: United States
+Q70f. Influence of country: United States.
+Q70g. Influence of country: Nigeria
+Q70g. Influence of country: Nigeria.
+Q70g. Influence of country: Regional Superpower
+Q70g. Influence of country: regional superpower (Algeria).
+Q70g. Influence of country: regional superpower (Botswana)
+Q70g. Influence of country: Regional Superpower (Egypt)
+Q70g. Influence of country: Regional Superpower (Egypt).
+Q70g. Influence of country: Regional Superpower (Ghana).
+Q70g. Influence of country: regional superpower (Kenya)
+Q70g. Influence of country: regional Superpower (Kenya)
+Q70g. Influence of country: Regional Superpower (Kenya)
+Q70g. Influence of country: regional superpower (Nigeria)
+Q70g. Influence of country: Regional Superpower (Nigeria)
+Q70g. Influence of country: Regional Superpower (Nigeria).
+Q70g. Influence of country: Regional Superpower (not specific).
+Q70g. Influence of country: regional superpower (South Africa)
+Q70g. Influence of country: Regional Superpower (South Africa)
+Q70g. Influence of country: Regional Superpower (South Africa).
+Q70g. Influence of country: Regional Superpower.
+Q70h. Influence of country: Russia
+Q70i. Influence of country: Taiwan
+Q71. Most important international language
+Q71. Most important international language to learn **
+Q71. Most important international language.
+Q71. Most important languages for next generation to learn
+Q71other. Most important international language (verbatim)
+Q71other. Most important international language (verbatim).
+Q71other. Most important languages for next generation to learn (verbatim)
+Q72a. Heard about climate change
+Q72b. Climate change: affecting country
+Q73. Free to move when public security threatened vs impose curfews
+Q74.  Government should monitor private communication vs right to privacy.
+Q74. Government should monitor private communication vs right to privacy
+Q75. Absolute freedom of religion vs government regulates what is said
+Q75. Q79a-zim. Vice-presidential appointment by president works well vs elected by people
+Q76-lib. Govt permission needed to protest vs democratic right to protest
+Q76-MAU. Main reason for high secondary school failure rate
+Q76a_GUI. Remove presidential term limit
+Q76a_Ken. Avenues to seek justice.
+Q76a_MLI. Poverty a problem
+Q76a_MLW.  Quality of May 2019 elections better or worse than previous elections
+Q76a_NAM. Opposition political parties influence legislation
+Q76a_SRL. Time MPs should spend in constituencies
+Q76a_UGA. A candidate or party official to offer money in return for a vote?
+Q76a-BOT. Heard about misappropriation of National Petroleum Fund money
+Q76a-Cve. Heard about alcohol consumption law
+Q76a-eth. Constitutional reform necessary
+Q76a-gam. Presently considering leaving Gambia
+Q76a-Gha. Aware of December 2019 referendum
+Q76a-les. Performs duties impartially: Police
+Q76a-mor. Foreign migrants help to fill up job vacancies
+Q76A-NIG. Heard about xenophobic attacks in South Africa
+Q76a-saf. Government duty to provide adequate housing
+Q76a-sud. New govt must remove subsidies vs will cause economic hardship.
+Q76a-swz. Civil servant's demonstrations are justified
+Q76a-tan. Good citizen should vote in elections
+Q76A-TUN. Heard about the INLUCC
+Q76a-ZAM. ECZ performs as neutral or bias institution
+Q76a-zim. Country should have its own currency
+Q76b_eth. Federalism is best form of government vs is too divisive
+Q76b_GUI. Remove age restrictions
+Q76b_Ken. Satisfaction with outcome of justice.
+Q76b_MLI. Social inequalities a problem
+Q76b_MLW.  Aware of court case challenging 2019 presidential election
+Q76b_NAM. Opposition political parties hold ruling parties accountable
+Q76b_SRL. Time MPs do spend in constituencies
+Q76b_UGA. A voter to accept money in return for his or her vote?
+Q76b-BOT. Concerned with misappropriation of National Petroleum Fund money
+Q76b-cve. Citizen education will yield desirable changes in alcohol consumption
+Q76b-Gha. Electoral Commission preparation for December 2019 referendum satisfactory
+Q76b-les. Performs duties impartially: DCEO
+Q76b-mor. The presence of immigrants is strengthening cultural diversity
+Q76B-NIG. Government should increase trade/business restrictions with RSA
+Q76b-saf. Government prioritize provision of housing over land redistribution
+Q76b-sud. Removing price subsidies will result in protests.
+Q76b-swz. Civil servants receive salary increment after allocating money for other projects
+Q76b-tan. Good citizen should avoid criticizing the government
+Q76B-TUN.The INLUCC effective fighting corruption
+Q76b-ZAM. ACC performs as neutral or bias institution
+Q76b-zim. Opposition parties should form a coalition with ruling party
+Q76b1-gam. Country considered leaving to: 1st response
+Q76b2-gam. Country considered leaving to: 2nd response
+Q76b3-gam. Country considered leaving to: 3rd response
+Q76b4-gam. Country considered leaving to: 4th response
+Q76b5-gam. Country considered leaving to: 5th response
+Q76b6-gam. Country considered leaving to: 6th response
+Q76c_eth. Federalism is best form of government vs is too divisive
+Q76c_GUI. Introduce single 7-year mandate
+Q76c_MLI. Youth unemployment a problem
+Q76c_MLW.  Election challenge justified
+Q76c_NAM. Opposition parties act in the best interests of all
+Q76c_SRL. Most important responsibility of your MP
+Q76c_UGA. Most important thing that could be done to ensure next elections are free and fair
+Q76c_UGA. Most important thing that could be done to ensure next elections are free and fair (Other)
+Q76c-BOT. Chances the accused will be prosecuted in a court of law
+Q76c-cve. Restrictive alcohol consumption laws will increase unemployment
+Q76c-gam. Lives of people who left are better
+Q76c-Gha. Education about the December 2019 referendum
+Q76c-les. Performs duties impartially: Courts
+Q76c-mor. The increasing numbers of immigrants has increased levels of crime and insecurity
+Q76C-NIG. Government should put diplomatic pressure/sanctions on RSA
+Q76c-saf. Where government housing should be located
+Q76c-sud. Subsidy-related protests will be violent.
+Q76c-swz. The use of violence against protesters is never justified
+Q76c-tan. Good citizen should complain when public services are poor
+Q76C-TUN.  Trust the INLUCC
+Q76c-ZAM. Courts performs as neutral or bias institution
+Q76d_eth. Federalism is best form of government vs is too divisive
+Q76d_GUI. Strengthen National Assembly
+Q76d_MLI.  Corruption a problem
+Q76d_NAM. Political opposition in Namibia a viable alternative
+Q76d_SRL. MPs listen to constituents/represent needs in Parliament
+Q76d_UGA. Electoral Commission neutral vs. favours particular people and parties
+Q76d-BOT. Chances those accused will be imprisoned if found guilty
+Q76d-cve. Satisfaction with restrictive alcohol consumption law implementation
+Q76d-gam. Gambians emigrating good for country
+Q76d-Gha. Vote in December 2019 referendum
+Q76d-les. Performs duties impartially: Army
+Q76D-NIG. Government should limit South Africans entering Nigeria
+Q76d-sud. Personal economic situation since Transitional Govt took power.
+Q76d-tan. Good citizen should request personal assistance from elected leaders
+Q76D-TUN. Performance of the INLUCC
+Q76d-ZAM. Police services performs as neutral or bias institution
+Q76e_GUI. Introduce term limit for MPs
+Q76e_MLI. Insecurity a problem
+Q76e_NAM. Voting for opposition is waste of vote
+Q76e_SRL. MPs deliver jobs or development to the constituency.
+Q76e-les. LDF involved in politics of the country
+Q76E-NIG. Government should limit Nigerian travel to RSA
+Q76e-sud. Freedom to say what you think since Transitional Govt took power.
+Q76e-sud. Juba Agreement will bring peace.
+Q76e-tan. Good citizen should pay taxes they owe to government
+Q76e-ZAM. Defense forces performs as neutral or bias institution
+Q76f_MLI. Terrorism a problem
+Q76f_NAM. Rather weak opposition than no opposition
+Q76f_SRL. MPs make laws for the good of the country.
+Q76f-les. LDF should be involved in political affairs
+Q76F-NIG. Main cause of attacks on Nigerians living in South Africa
+Q76F-NIGother. Main cause of attacks on Nigerians living in South Africa (verbatim)
+Q76f-sud. Freedom to worship since Transitional Govt took power.
+Q76f-tan. Good citizen should agree with his community on political issues
+Q76f-ZAM. ZNBC performs as neutral or bias institution
+Q76g_MLI. Foreign armed forces a problem
+Q76g_SRL. MPs hold president and government accountable
+Q76g-sud. Personal freedom since Transitional Govt took power.
+Q76h_MLI. Climate change a problem
+Q76i_MLI. Abuse against women a problem
+Q77_NAM. Vote won’t improve lives vs vote can make difference
+Q77-GUI. Amend Constitution to allow third term
+Q77-mor. Avoid seeking health care because of fear of contracting COVID-19
+Q77-swz. Main reason people do not report GBV
+Q77a_eth. Article 39 should be removed
+Q77a_Ken. Government courts: contact.
+Q77a_MLI. Equal opportunity vs. redistribution
+Q77a_MLW.  Aware of demonstrations calling for resignation of chair of electoral commission
+Q77a_UGA. Streamline the country’s electoral process: Candidates convicted of an electoral offence barred from future elections for at least 5 years
+Q77a-BOT. Woman free to seek abortion without permission
+Q77a-cve. Aware of Catholic moral and religious education in schools
+Q77a-gam. Perpetrators of crimes during Jammeh administration tried in court
+Q77a-Gha. Agree or disagree: Electoral Commission fair to all political parties
+Q77a-les. Supportive of industrial action by teachers
+Q77a-lib. Protests effectively influence leaders/policies
+Q77a-MAU. Main reason for increasing youth delinquency
+Q77A-NIG. Heard about conflicts between farmers and herders
+Q77a-saf. Domestic violence is a private matter vs criminal matter
+Q77a-SRL. Importance of MPs providing financial assistance.
+Q77a-sud. Sudanese armed forces influence.
+Q77a-tan. Govt should decide what's good vs we should tell them
+Q77A-TUN. Smuggling is a problem in Tunisia today
+Q77a-ZAM. Interest in 2021 elections for President
+Q77a-zim. POLAD only option to bring stability and development
+Q77b_eth. Allow more individual land ownership
+Q77b_Ken. Government courts: unable to pay costs and fees
+Q77b_MLI. Most unjust inequality
+Q77b_MLW. Demonstrations calling for resignation of EC chair justified
+Q77b_UGA. Streamline the country’s electoral process: Replacing disqualified election winner by new election vs replacing with 2nd placed candidate
+Q77b-BOT. Make circumcision compulsory to reduce HIV infection
+Q77b-cve. Country secular, should not adopt catholic education
+Q77b-gam. Government should seek extradition of Jammeh
+Q77b-Gha. Organization of limited voter registration exercise by Electoral Commission
+Q77b-les. Parents' level of involvement in the resolution of the teachers’ industrial action
+Q77b-lib. Protests too disruptive and violent
+Q77b-MAU. Best solution for addressing youth delinquency
+Q77B-NIG. Concerned about conflicts between farmers and herders
+Q77b-saf. Level of gender-based violence
+Q77b-SRL. How often MP gives out resources to help community.
+Q77b-sud. RSF influence.
+Q77B-TUN. Government handling smuggling of goods
+Q77b-ZAM. Interest in 2021 elections for Members of Parliament
+Q77b-zim. National dialogue should go beyond political parties
+Q77c_eth. National emblem on Ethiopian flag should be removed
+Q77c_Ken. Government courts: understand legal processes and procedures.
+Q77c_UGA. Streamline the country’s electoral process: Electoral areas should be relatively equal in population size
+Q77c-cve. Teaching catholic education will improve moral values
+Q77c-gam. Government right to sell Jammeh’s properties
+Q77c-lib. Protestors are peaceful/law-abiding
+Q77C-NIG. Conflict between farmers and herders increase or decrease
+Q77c-saf. Main cause of domestic violence
+Q77c-sud. Heard about the Juba agreement.
+Q77C-TUN. More important to buy cheaper, smuggled goods vs legal, higher priced goods
+Q77c-ZAM. Interest in 2021 elections for local government councilors
+Q77d_eth. Languages besides Amharic should be working languages of federal govt
+Q77d_Ken. Government courts: obtain legal counsel or advice.
+Q77d_UGA. Streamline the country’s electoral process: Candidates who lose in party primaries should not be allowed to contest as independents
+Q77d-cve. Catholic education is discriminatory
+Q77d-gam. Jammeh should be permitted to return to country
+Q77d-lib. Police use excessive force at protests
+Q77d-sud. Level of influence Juba agreement gives rebels.
+Q77e_eth. Term limits for Prime Minister should be added
+Q77e_Ken. Government courts: The judge or magistrate listen.
+Q77e_UGA. Streamline the country’s electoral process: Candidates must publicly declare all the sources of funds for their election campaign
+Q77e-lib. Protest violence police/protestors fault
+Q77f_eth. Establish Constitutional Court separate from House of Federation
+Q77f_Ken. Government courts: long delays in case.
+Q77g_eth. Make Addis Ababa member state in the Federation
+Q78_NAM. Use taxes to support farmers affected by drought
+Q78_UGA. Emergence of political pressure groups and alliances show opposition political parties have failed to lead vs. Uganda’s mainstream political parties can work with political pressure groups
+Q78-gam. ECOWAS Military must leave country
+Q78-mor. Unable to seek health care you needed because of the pandemic
+Q78-zim. Western sanctions main cause of economic meltdow vs govt's mismanagement
+Q78a_eth. When should constitution be changed
+Q78a_GUI. Workplace harassment of women
+Q78a_Ken. Opposition parties monitor government vs cooperate.
+Q78a_MLI. Experienced physical violence
+Q78a_MLI. Experienced workplace harassment
+Q78a_MLW. Performs impartially: Malawi Electoral Commission
+Q78a_MLW. Performs impartially: Malawi Police Services
+Q78a_SRL. Commissions of Inquiry are fair and impartial.
+Q78A_TUN. Punishable to buy smuggled good
+Q78a_ZAM. Ready for 2021 elections
+Q78a-BOT. Reserve seats in parliament for women
+Q78a-cve. Aware of govt handing over inter-land travel to company
+Q78a-Gha. SHS policy has created opportunity for poor to obtain education
+Q78a-les. Minimum membership for a political party to be registered with IEC
+Q78a-lib. County superintendents voted for vs appointed by president
+Q78a-MAU. Level of family violence
+Q78A-NIG. Heard about RUGA settlements
+Q78a-saf. Have health care insurance or plan
+Q78a-sud. Al-Bashir and NCP leaders should be prosecuted.
+Q78a-swz. Domestic violence is a private matter
+Q78b_eth. Consult citizens in constitutional review vs duty of elected leaders
+Q78b_Ken. Handshake between President and opposition leader good for Kenyan national unity.
+Q78b_SRL. Commissions of Inquiry help fight against corruption
+Q78B_TUN. Punishable to bribe officials to obtain public services
+Q78b_ZAM. ECZ ready to register voters
+Q78b-BOT. Fallout between previous and current president will lead to economic instability
+Q78b-cve. Handing over inter-island travel to company will ease movement
+Q78b-Gha. Support SHS even if it leads to an increase in the number of educated citizens who cannot find a job.
+Q78b-les. Minimum membership for a political party to be registered with IEC (number)
+Q78b-lib. County should get share of revenue collected
+Q78b-MAU. Biggest perpetrators of family violence
+Q78B-NIG. Support RUGA settlements
+Q78b-saf. Reason for being uninsured
+Q78b-sud. Best option for prosecuting Al-Bashir and others accused.
+Q78b-swz. Main cause of domestic violence
+Q78c_GUI. Physical violence against women
+Q78c_MLI. Experienced psychological violence
+Q78c_MLW. Performs impartially: Malawi Defence Forces
+Q78C_TUN. Punishable to work as a driver of smuggled goods
+Q78c_ZAM. ECZ ready to hold elections
+Q78c-BOT. Fallout between previous and current president will lead to political instability
+Q78c-cve. Handing over inter-island travel to company will reduce safety conditions
+Q78c-Gha. SHS policy should have targeted only poor.
+Q78c-lib. More county resources will lead to development and services
+Q78C-NIG. RUGA will reduce clashes by limiting open grazing
+Q78c-saf. Use public or private healthcare facilities
+Q78c-sud. Forget past injustices/crimes vs hold leaders accountable
+Q78c-swz. Domestic violence increased under lockdown or curfew
+Q78d_GUI. Psychological violence against women
+Q78d_MLI. Experienced sexual violence
+Q78d_MLW. Performs impartially: Anti Courruption Bureau
+Q78D_TUN. Punishable for civil servant to use official time to make extra cash
+Q78d_ZAM. Country ready for elections
+Q78d-BOT. Politicians, senior public servants disallowed from participating in public tenders
+Q78d-cve. Handing over inter-island travel to company will improve water quality
+Q78d-Gha.  Government ensure necessary structures for free SHS before implementation vs address issues as they arise.
+Q78D-NIG. RUGA will increase conflict by bringing livestock to farming areas
+Q78d-saf. Happy with public/private health care received
+Q78d-sud. Heard about the June 3 Investigation Committee.
+Q78e_GUI. Sexual violence against women
+Q78e_MLI. Experienced rape
+Q78e_MLW. Performs impartially: Malawi Broadcasting Corporation
+Q78e-cve. Handing over inter-island travel to company will offer better choices
+Q78E-NIG. RUGA puts unfair burden on farmers
+Q78e-saf. Health care quality determined by affordibility
+Q78e-sud. Effectiveness of the commission investigation.
+Q78e-ZAM. Intend to vote in 2021 election
+Q78f_GUI. Rape against women
+Q78f_MLW. Performs impartially: Malawi Revenue Authority or MRA
+Q78f-saf. Government justified to use additional taxes to fund NHI
+Q78f-ZAM. Expect 2021 election to be free and fair
+Q78g_GUI. Marriage of girls at puberty
+Q78g_MLW. Performs impartially: Courts of law
+Q78h_GUI.Kidnapping of women
+Q78i_GUI. Murder of women
+Q79_Ken. Support additional income tax to build more housing units.
+Q79-GUI. New marriage law
+Q79-mor. If you were to get COVID-19, how confident are you that you could get the medical?
+Q79-TUN.  Punishable for business to under-declare profits to evade tax
+Q79a_MLW. Chair of Malawi Electoral Commission should resign for handling of 2019 elections
+Q79a_NAM. Land reform effectiveness: provision of land/housing in urban areas
+Q79a_SRL. Heard declaration of rape and sexual assault as a national emergency.
+Q79a_UGA. Most important characteristic in President in election decision
+Q79a-BOT. Wouldn't mind someone in same-sex relationship as co-worder
+Q79a-cve. Heard about gender parity law
+Q79a-gam. Government’s enforcement of lockdown, curfew too strict
+Q79a-Gha. Money safe with: Traditional ‘susu’ collectors.
+Q79a-les. Prime Minister must be directly elected by the voters
+Q79a-lib. Heard about December 2020 referendum
+Q79a-MAU. Domestic violence resolved within family vs criminal matter
+Q79A-NIG. Supporting/assisting extremist groups: Traditional leaders
+Q79a-saf. Would like if family member married someone from different religion
+Q79a-sud. Agree with Transitional govts decision to recognize Israel.
+Q79a-swz. Heard about SODV Ac
+Q79a-ZAM. Candidate, party information freely and fairly available
+Q79b_eth. Government can guarantee safety of candidates/voters during electoral process
+Q79b_eth. NEBE can organize elections that are free and fair
+Q79b_GABpt1. Significance of human-wildlife conflict – 1st response
+Q79b_GABpt1other. Significance of human-wildlife conflict – 1st response (verbatim)
+Q79b_GABpt2other. Significance of human-wildlife conflict – 2nd response (verbatim)
+Q79b_MLW. Malawi should adopt a federal system for equitable development
+Q79B_NAM. Land reform effectiveness: land resettlement programme
+Q79b_SRL. Heard about passage of the Sexual Offences Amendment Act
+Q79b-BOT. Wouldn't mind someone in same-sex relationship as superviso
+Q79b-cve. Gender parity law not effective, other limiting factors
+Q79b-gam. Domestic abuse more common during lockdown
+Q79b-Gha. Money safe with: Banks.
+Q79b-les. Judges should not be appointed by Prime Minister
+Q79b-lib. Likelihood of voting in December 2020 referendum
+Q79b-MAU. Main cause of domestic violence
+Q79B-NIG. Supporting/assisting extremist groups: Local government officials
+Q79b-saf. Would like if family member married someone from different ethnic group
+Q79b-sud. Other regional countries influence on the transitional government.
+Q79b-swz. SODV Act adequately protects all genders from violence
+Q79b-UGA. Agree or disagree: The political opposition in Uganda presents a viable alternative vision and plan for the country
+Q79b-ZAM. Election officials treat candidates, parties equally free and fair
+Q79b-zim. Govt fight against corruption genuine vs aimed at rival factions
+Q79c_eth. Votes will be counted fairly
+Q79c_NAM. Future of land reform
+Q79c_SRL. President was right to declare a national emergency on rape and sexual violence.
+Q79c-BOT. Wouldn't mind someone in same-sex relationship as member of religious community
+Q79c-cve. Gender parity law not effective, more effort by party leaders
+Q79c-Gha. Money safe with: Savings and loans company.
+Q79c-les. Prime Minister should not have power to appoint Head of LDF
+Q79C-NIG. Supporting/assisting extremist groups: Senior federal/central government officials
+Q79c-saf. Trust people from other religions
+Q79c-swz. SODV Act does not fully consider cultural practices
+Q79c-ZAM. Public media treat candidates, parties equally free and fair
+Q79d_eth. Government will handle result disputes
+Q79d-cve. Gender parity law will increase municipal chambers participation
+Q79d-Gha. Money safe with: Microfinance companies.
+Q79d-les. King should be allowed to make national decisions
+Q79D-NIG. Supporting/assisting extremist groups: Members of the Nigeria military
+Q79d-saf. Trust people from other ethnic groups
+Q79d-SRL. Harsh punishments for sexual- and gender-based violence will help.
+Q79d-ZAM. Private media treat candidates, parties equally free and fair
+Q79e_eth. Voters will be offered bribes for their votes
+Q79e-cve. Gender parity law will increase public admin participation
+Q79e-Gha. Money safe with: Mobile money wallet.
+Q79e-les. King should be granted power to appoint a caretaker government
+Q79E-NIG. Supporting/assisting extremist groups: Members of National Assembly
+Q79e-SRL. Changes in the law and punishment not enough to solve rape and sexual assault.
+Q79e-ZAM. Counting and reporting of election results free and fai
+Q79f_eth. Voters will be threatened with violence at the polls
+Q79f-Gha. Money safe with: At home.
+Q79f-les. Members of Parliament must lose seats if they leave their party
+Q79F-NIG. Supporting/assisting extremist groups: Religious leaders
+Q79g_eth. Opposition candidates will be prevented from campaigning
+Q79g-les. Current electoral system should be changed to full proportional system
+Q79G-NIG. Supporting/assisting extremist groups: International extremist groups
+Q79h_eth. Media will provide fair coverage of all candidates and parties
+Q79H1-NIG. Supporting/assisting extremist groups: Ordinary Nigerians
+Q79H2-NIG. Main reason some Nigerians join extremist groups
+Q79H2-NIGother. Main reason some Nigerians join extremist groups (verbatim)
+Q79I-NIG. Nigerian armed forces handling insurgency compared to 12 months ago
+Q79pt1_MLI. Causes of gender-based violence – 1st response
+Q79pt1_MLI. Causes of gender-based violence – 2nd response (verbatim)
+Q79pt1_MLI. MIP – 1st response (verbatim)
+Q79pt1other_MLI. Causes of gender-based violence – 2nd response (verbatim)
+Q79pt2_MLI. Causes of gender-based violence – 2nd response
+Q79pt3_MLI. Causes of gender-based violence – 3rd response
+Q79pt3other_MLI. Causes of gender-based violence – 3rd response (verbatim)
+Q7a. How often gone without food
+Q7b. How often gone without water
+Q7c. How often gone without medical care
+Q7d. How often gone without cooking fuel
+Q7e. How often gone without a cash income
+Q80_Ken. Agree or disagree: increase funding for county government to deliver services.
+Q80-BOT. Political opposition presents a viable alternative vision, plan
+Q80-MAU. Right to express selves in social media vs govt right to control
+Q80-zim. Armed forces must be involved in country politics vs external defence only
+Q80a_eth. Should national election be held in 2020
+Q80a_GAB. Government handling of women’s representation.
+Q80a_GUI. Recover occupied state lands
+Q80a_MLI. After-effects of gender-based violence
+Q80a_MLI. Strategy against gender-based violence
+Q80a_MLW. Would enroll in money pooling for medical care
+Q80a_NAM. Reduce defense expenditure for poverty reduction and development
+Q80a-cve. Regionalization a priority
+Q80a-gam. Unable to seek healthcare due to lockdown
+Q80a-Gha. Contact or experience with the formal justice system in Ghana.
+Q80a-les. Ordinary Basotho benefit from export of diamonds
+Q80a-lib. Constitution should allow dual citizenship
+Q80a-mor. The government is doing enough to support people who lost their jobs due to COVID- 19
+Q80A-NIG. Concern over kidnapping and attempts
+Q80a-saf. Feel strong ties to other South Africans
+Q80a-SRL. Benefitted from Free Quality School Education policy.
+Q80a-sud. Democracy contradicts the teachings of Islam.
+Q80a-swz. Taiwan give loans to country’s government
+Q80a-TUN. Confident government will address economic challenges in next 5 years
+Q80a-UGA. Agree or disagree: Disagreements between opposition and government over previous election results highlight the need for national dialogue for Uganda.
+Q80a-ZAM. Parliament works competently
+Q80b_eth. How should Ethiopia be governed until election
+Q80b_GAB. Government handling of law for gender equality.
+Q80b_GUI. Abandon occupied state lands
+Q80b_MLW. Why not enroll in money pooling for medical care
+Q80b_NAM. Raise taxes for poverty reduction
+Q80b_TUN. Confident government will address political challenges in next 5 years
+Q80b_UGA. Who should be involved in the dialogue process
+Q80b-cve. Regionalization more important than other needs
+Q80b-gam. Unable to seek healthcare due to lack of transport
+Q80b-les. Ordinary Basotho benefit from export of water
+Q80b-lib. Constitution should reduce president/vice president terms
+Q80b-mor. Coronavirus crisis has strengthened solidarity among Moroccans
+Q80B-NIG. Police/state authorities doing enough to prevent kidnappings
+Q80b-saf. Perceived as South African like others, by others
+Q80b-SRL. Quality of education under Free Quality School Education policy.
+Q80b-sud. Sudan better off if religious people hold public positions.
+Q80b-swz. Government required to repay Taiwan loans
+Q80b-ZAM. Executive works competently
+Q80b1-Gha. Evaluation of formal justice delivery system: Independence.
+Q80b2-Gha. Evaluation of formal justice delivery system: Professionalism of officials.
+Q80b3-Gha. Evaluation of formal justice delivery system: Corruption.
+Q80b4-Gha. Evaluation of formal justice delivery system: Fairness.
+Q80b5-Gha. Evaluation of formal justice delivery system: Responsiveness.
+Q80b6-Gha. Evaluation of formal justice delivery system: Transparency.
+Q80bother_eth. Q80b-ETH. How should Ethiopia be governed until election (verbatim)
+Q80bother_MLW. Why not enroll in money pooling for medical care (specify)
+Q80c_eth. Those who committed political crimes should be granted amnesty vs held accountable
+Q80c_GAB. Government handling of protecting girls.
+Q80c_MLW. Why not enroll in money pooling for medical care
+Q80c_NAM. Increase social protection grants even if taxes increase
+Q80c-cve. More discussion on regionalization needed
+Q80c-gam. Unable to seek healthcare due to closed medical facilities
+Q80c-Gha pt1. Most important reason to not using the formal justice delivery system in Ghana – 1st response
+Q80c-Gha pt13other. Third most important reason to not using the formal justice delivery system in Ghana – 3rd response (verbatim)
+Q80c-Gha pt1other. Most important reason to not using the formal justice delivery system in Ghana – 1st response – 1st response (verbatim)
+Q80c-Gha pt2. Second most important reason to not using the formal justice delivery system in Ghana – 2nd response
+Q80c-Gha pt2other. Second most important reason to not using the formal justice delivery system in Ghana – 2nd response (verbatim)
+Q80c-Gha pt3. Third most important reason to not using the formal justice delivery system in Ghana – 3rd response
+Q80c-les. Ordinary Basotho benefit from export of wool
+Q80c-lib. Constitution should reduce senate term
+Q80c-SRL. Government should provide free education to all citizens.
+Q80c-sud. Religious practice is a private matter.
+Q80c-swz. Government borrowed too much money from Taiwan
+Q80c-ZAM. Judiciary works competently
+Q80cother_MLW. Why not enroll in money pooling for medical care (specify)
+Q80d-gam. Unable to seek healthcare due to lack of money
+Q80d-lib. Constitution should reduce house of representative term
+Q80d-SRL. Free Quality School Education policy should only apply to poor.
+Q80d-sud. Country governed by religious law vs civil law.
+Q80d-swz. Taiwan has more requirements than other donor countries
+Q80e-gam. Unable to seek healthcare due to being turned away
+Q80e-lib. Constitution should change election month to November
+Q80e-SRL. Free Quality School Education policy should only apply to pre-primary and primary education.
+Q80e-swz. Influence of Taiwan’s economic activities on economy
+Q80f-gam. Unable to seek healthcare due to lack of staff, treatment, medicine
+Q80f-SRL. Provide free education vs improve quality of education.
+Q80f-swz. Taiwan relationship beneficial vs China would be more beneficial
+Q81. Ethnic community, cultural group or tribe
+Q81. Ethnic community, cultural group or tribe **
+Q81other. Ethnic community, cultural group or tribe (verbatim)
+Q82a. Ethnic group treated unfairly
+Q82a. Ethnic group treated unfairly by government
+Q82a. Ethnic group treated unfairly by government.
+Q82b. Ethnic or national identity
+Q82c. Comfortable speaking mother tongue in public
+Q82c. Comfortable: speaking mother tongue in public
+Q82d. Comfortable wearing traditional or cultural dress in public
+Q82d. Comfortable wearing traditional or cultural dress in public.
+Q82d. Comfortable wearing traditional, cultural dress in public
+Q82d. Comfortable wearing traditional, cultural dress in public.
+Q82d. Comfortable weariwearing traditionaltural dress in public
+Q82d. Comfortable: wearing traditional or cultural dress in public.
+Q82d. Comfortable: wearing traditional, cultural dress in public.
+Q83. Most people can be trusted
+Q83a_gcp. Trust people different religion
+Q83a_gcp. Trust people: different religion
+Q83b_gcp. Trust people different ethnicity.
+Q83b_gcp. Trust people: different ethnicity.
+Q83c_gcp. People like you accepted for who they are.
+Q83d_gcp. People like you have a say in country.
+Q84a. Experienced unfair treatment based on economic status.
+Q84a. Unfair treatment by other people based on economic status
+Q84a. Unfair treatment by other people based on economic status.
+Q84b. Experienced unfair treatment based on religion.
+Q84b. Unfair treatment based on religion.
+Q84b. Unfair treatment by other people based on religion
+Q84b. Unfair treatment by other people based on religion.
+Q84c.  Unfair treatment by other people based on ethnicity
+Q84c.  Unfair treatment by other people based on ethnicity.
+Q84c. Experienced unfair treatment based on ethnicity.
+Q84c. Unfair treatment by other people based on ethnicity
+Q84c. Unfair treatment by other people based on ethnicity.
+Q85.  More that unites or more that divides
+Q85.  More that unites or more that divides people
+Q85. More that unites or more that divides people
+Q85. More that unites or more that divides.
+Q85. Unity of people in country
+Q86a. Neighbours: people of different religion
+Q86b. Neighbours: people of different ethnicity
+Q86c. Neighbours: homosexuals
+Q86d. Neighbours: immigrants and foreign workers
+Q86e. Neighbours: people who support a different political party
+Q86e. Neighbours: people who support a different political party.
+Q87a. Influence of traditional leaders: governing local community
+Q87a. Influence of traditional leaders: governing local community governing your local community.
+Q87a. Influence of traditional leaders: governing local community?
+Q87a. Influence of traditional leaders: governing local community.
+Q87a. Influence of traditional leaders: governing your local community
+Q87a. Influence of traditional leaders: governing your local community governing local community?
+Q87a. Influence of traditional leaders: governing your local community governing your local community?
+Q87a. Influence of traditional leaders: governing your local community?
+Q87a. Influence of traditional leaders: governing your local community.
+Q87b. Influence of traditional leaders: allocating land.
+Q87c. Influence of traditional leaders: influence community vote
+Q87c. Influence of traditional leaders: influence community vote.
+Q87c. Influence of traditional leaders: influencing how people in their communities vote
+Q87c. Influence of traditional leaders: vote
+Q87c. Influence of traditional leaders: votes
+Q87c. Influence of traditional leaders: votes `
+Q87c. Influence of traditional leaders: votes.
+Q87d.  Influence of traditional leaders: solving disputes
+Q87d.  Influence of traditional leaders: solving disputes.
+Q87d. Influence of traditional leaders: solving disputes
+Q87d. Influence of traditional leaders: solving disputes.
+Q87d. Influence of traditional leaders: solving local disputes.
+Q87e.  Traditional leaders more or less influence
+Q87e.  Traditional leaders more or less influence.
+Q87e. Traditional leaders more or less influence
+Q87e. Traditional leaders more or less influence.
+Q87e. Traditional leaders: amount of influence on governing local community.
+Q87e. Traditional leaders: influence on governing local community
+Q87e. Traditional leaders: influence on governing local community.
+Q87e. Traditional leaders: more or less influence
+Q88. Who do traditional leaders serve.
+Q88. Who traditional leaders serve
+Q88. Whom do traditional leaders serve
+Q88. Whom traditional leaders serve
+Q89a. Traditional leaders advise on vote vs stay out of politics.
+Q89b. Traditional leaders in competition with elected leaders vs cooperation
+Q89b. Traditional leaders in competition with elected leaders vs cooperation.
+Q89b. Traditional leaders in competition with elected leaders vs in cooperation.
+Q8a. How often felt unsafe walking in neighbourhood
+Q8b. How often been physically attacked
+Q8b. How often feared crime in home
+Q8b. How often had something stolen from home
+Q9. Discuss politics
+Q90. Traditional leaders bad for democracy
+Q90. Traditional leaders bad or good for democracy
+Q90. Traditional leaders good or bad for democracy
+Q91a. Close to political party
+Q91b. Which party
+Q91b. Which party **
+Q91bother Which party (verbatim)
+Q91bother. Which party (verbatim)
+Q92a. Own radio
+Q92b. Own television
+Q92c. Own motor vehicle, car or motorcycle
+Q92c. Own motor vehicle, car, or motorcycle
+Q92d. Own computer
+Q92e. Own bank account
+Q92f. Own mobile phone
+Q92g-saf. Own home that you live in
+Q92g. Mobile phone access to internet
+Q92h-saf. Own informal or small scale business
+Q92h. How often use a mobile phone
+Q92i-saf. Own operational registered business
+Q92i. How often use the internet
+Q93a. Source of water for household use
+Q93b. Location of toilet or latrine
+Q94a. Electric connection from mains
+Q94a. Electric connection from mains.
+Q94a. Electric connection from national power grid.
+Q94a. Electric connection from the Lesotho Electricity Company.
+Q94b. Electricity available from mains
+Q94b. Electricity available from mains.
+Q94c. Electricity available other than mains
+Q94c. Electricity available other than mains.
+Q94c. Electricity available other than national power grid.
+Q94c. Other source of electricity available
+Q94c. Other source of electricity: available
+Q94c. Other source of electricity: available.
+Q94d. Other source of electricity: type
+Q94d. Other source of electricity: type.
+Q94d. Source of electricity other than mains
+Q94d. Source of electricity other than mains.
+Q94d. Source of electricity other than the national power grid.
+Q94e. Other source of electricity: owner
+Q94e. Other source of electricity: owner.
+Q94e. Own electricity source
+Q95a. Employment status
+Q95b. Required to pay an income tax
+Q95c. Occupation of respondent
+Q95c. Occupation of respondent **
+Q95cother Occupation of respondent (verbatim)
+Q95cother. Occupation of respondent (verbatim)
+Q95d. Employer of respondent
+Q96a. Who decides how money is used
+Q96a. Who decides how money is used?
+Q96b. Head of household
+Q96b. Who decides how money is used?
+Q96c. Occupation of head of household
+Q97. Education of respondent
+Q98. Religion of respondent
+Q98. Religion of respondent **
+Q98a. Religion of respondent
+Q98aother Religion of respondent (verbatim)
+Q98aother. Religion of respondent (verbatim)
+Q98b. Religious groups treated unfairly by government
+Q99. Vote for which party
+Q99. Vote for which party **
+Q99other. Vote for which party (verbatim)
+Reason for Unsuccessful Call Household 1
+Reason for Unsuccessful Call Household 1  **
+Reason for Unsuccessful Call Household 1 (verbatim)
+Reason for Unsuccessful Call Household 1 (Verbatim)
+Reason for Unsuccessful Call Household 10
+Reason for Unsuccessful Call Household 11
+Reason for Unsuccessful Call Household 12
+Reason for Unsuccessful Call Household 13
+Reason for Unsuccessful Call Household 14
+Reason for Unsuccessful Call Household 15
+Reason for Unsuccessful Call Household 16
+Reason for Unsuccessful Call Household 17
+Reason for Unsuccessful Call Household 18
+Reason for Unsuccessful Call Household 19
+Reason for Unsuccessful Call Household 2
+Reason for Unsuccessful Call Household 2 (Verbatim)
+Reason for Unsuccessful Call Household 2 **
+Reason for Unsuccessful Call Household 20
+Reason for Unsuccessful Call Household 3
+Reason for Unsuccessful Call Household 3 (Verbatim)
+Reason for Unsuccessful Call Household 3 **
+Reason for Unsuccessful Call Household 4
+Reason for Unsuccessful Call Household 4 (Verbatim)
+Reason for Unsuccessful Call Household 4 **
+Reason for Unsuccessful Call Household 5
+Reason for Unsuccessful Call Household 5 (Verbatim)
+Reason for Unsuccessful Call Household 5 **
+Reason for Unsuccessful Call Household 6
+Reason for Unsuccessful Call Household 6 (Verbatim)
+Reason for Unsuccessful Call Household 6 **
+Reason for Unsuccessful Call Household 7
+Reason for Unsuccessful Call Household 7  **
+Reason for Unsuccessful Call Household 7 (Verbatim)
+Reason for Unsuccessful Call Household 8
+Reason for Unsuccessful Call Household 8  **
+Reason for Unsuccessful Call Household 8 (Verbatim)
+Reason for Unsuccessful Call Household 9
+Region **
+Respondent number
+Respondent number **
+The weighting variable adjusts the distribution of the sample based on individual selection probabilities (i.e., based on region, gender, urban-rural distribution, and size of household and enumeration area).
+This interview, gender
+Time interview ended
+Time interview started
+Urban or Rural Primary Sampling Unit
+Urban or Rural Primary Sampling Unit **

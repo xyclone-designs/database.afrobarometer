@@ -1,0 +1,8 @@
+QuestionNumber: Q35pt2
+ValueLabels
+    9=National independence/people’s self-determination, =9
+
+QuestionNumber: Q35pt3
+ValueLabels
+    9=National independence/people’s self-determination, =9
+

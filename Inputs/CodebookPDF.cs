@@ -3,23 +3,33 @@ using Database.Afrobarometer.Tables;
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
 using UglyToad.PdfPig;
+using UglyToad.PdfPig.Content;
 
 namespace Database.Afrobarometer.Inputs
 {
 	public class CodebookPDF
 	{
-		[StringSyntax("Regex")] public static readonly string RegexPageFooter = "\\s*Copyright Afrobarometer\\s*[0-9]?[0-9]?[0-9]?\\s*";
-		[StringSyntax("Regex")] public static readonly string RegexQuestionNumber = "Question Number: Q27\\s*Question Number:";
-
-		public static readonly string ReplacementPageFooter = " ";
-		public static readonly string ReplacementQuestionNumber = "Question Number: Q27 Question:";
-		
+		public static readonly string[][] ProcessCodebooksInputEnglishRegexes = 
+		[
+			[ "Copyright Afrobarometer\\s*[0-9]*", string.Empty ],
+			[ ",\\s*Post\\s*Code=Other\\s*[A-Za-z0-9]*\\s*\\[[Ss]pecify\\]", string.Empty ],
+			[ "Question Number: Q27\\s*Question Number:", "Question Number: Q27 Question:"],
+		];			
+		public static readonly string[][] ProcessCodebooksInputEnglishReplacements = 
+		[
+			[ "\n", string.Empty ],
+			[ "\r", string.Empty ],
+			[ "A=1, B=2, C=3", "1=A, 2=B, 3=C"],
+			[ "102 QuestionIn", "102 Question: In" ],
+			[ "non=permanent", "non-permanent" ],
+			[ "North=Sotho", "North-Sotho" ],
+			[ "South=Sotho", "South-Sotho" ],
+			[ "Sesotho, Sotho, S. Sotho ", "Sesotho/Sotho/S-Sotho, "],
+		];			
 		public static readonly string[] ProcessCodebooksInputEnglishSplit =
 		[
 			"Question Number:",
@@ -31,36 +41,49 @@ namespace Database.Afrobarometer.Inputs
 			"Note:", "Notes:"
 		];
 
-
 		public CodebookPDF(string filepath)
 		{
 			Text = string.Empty;
 			Filepath = filepath;
 			Filename = Filepath.Split('\\')[^1];
 
-			try { Country = default(Countries).FromFilename(Filename); } catch (Exception) { throw new ArgumentException(string.Format("Error: Country '{0}'", Filename)); }
-			try { Round = default(Rounds).FromFilename(Filename); } catch (Exception) { throw new ArgumentException(string.Format("Error: Round '{0}'", Filename)); }
-			try { Language = default(Languages).FromFilename(Filename, Round, Country); } catch (Exception) { throw new ArgumentException(string.Format("Error: Language '{0}'", Filename)); }
+			Country = default;
+			Round = default;
+			Language = default;
+
+			Round = Round.FromFilename(Filename);
+			Country = Country.FromFilename(Filename);
+			Language = Language.FromFilename(Filename, Round, Country);
 		}
 
 		public IEnumerable<Question> Questions 
 		{
 			get
 			{
+				bool copyrightnumbered = false;
 				StringBuilder stringbuilder = new();
 				PdfDocument pdfdocument = PdfDocument.Open(Filepath);
 
-				foreach (string text in pdfdocument.GetPages().Select(_ => _.Text))
-					stringbuilder.Append(text);
+				foreach (Page page in pdfdocument.GetPages())
+				{
+					stringbuilder.Append(page.Text);
+
+					if (page.Number == 1)
+						copyrightnumbered = Regex.IsMatch(page.Text, "Copyright Afrobarometer\\s*1{1}", RegexOptions.Singleline);
+				}
 
 				Text = stringbuilder.ToString();
-				Text = Regex.Replace(Text, RegexPageFooter, ReplacementPageFooter);
-				Text = Regex.Replace(Text, RegexQuestionNumber, ReplacementQuestionNumber);
-				Text = Text
-					.Replace("Know 98=", "Know, 98=")
-					.Replace("102 QuestionIn", "102 Question: In")
-					.Replace("\n", string.Empty)
-					.Replace("\r", string.Empty);
+
+				if (copyrightnumbered is false)
+					Text = Regex.Replace(Text, "Copyright Afrobarometer", string.Empty);
+				else for (int pagenumber = 1; pagenumber < pdfdocument.NumberOfPages; pagenumber++)
+					Text = Regex.Replace(Text, string.Format("Copyright Afrobarometer\\s*{0}{1}", pagenumber, "{1}"), string.Empty, RegexOptions.Singleline);
+
+				foreach (string[] _ in ProcessCodebooksInputEnglishRegexes)
+					Text = Regex.Replace(Text, _[0], _[1]);
+
+				foreach (string[] _ in ProcessCodebooksInputEnglishReplacements)
+					Text = Text.Replace(_[0], _[1]);
 
 				string[] split = Text.Split(ProcessCodebooksInputEnglishSplit[0], StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
 				split = split.Length > 2 ? split[1..^1] : split;

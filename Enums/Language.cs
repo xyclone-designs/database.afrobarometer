@@ -4,6 +4,8 @@ namespace Database.Afrobarometer.Enums
 {
 	public enum Languages
 	{
+		_none,
+
 		English,
 		French,
 		Portuguese,
@@ -13,6 +15,9 @@ namespace Database.Afrobarometer.Enums
 	{
 		public static Languages FromFilename(this Languages _, string filename, Rounds round, Countries countries)
 		{
+			if (filename.Contains("merge", StringComparison.OrdinalIgnoreCase))
+				return default;
+
 			return (round, countries) switch
 			{
 				(_, _) when filename == "ben_r6_data_0.sav" => Languages.French,

@@ -1,0 +1,4 @@
+QuestionNumber: Q78B- LES
+ValueLabels
+    7= Not Applicable [Response to Q78A-LES, =0 (no) or 9 (Don’t Know)]
+

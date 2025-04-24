@@ -1,0 +1,12 @@
+QuestionNumber: Q90
+ValueLabels
+    24=Shia, 44 25=Traditional/ethnic religion
+
+QuestionNumber: Q99D_MAD
+ValueLabels
+    4=, =
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

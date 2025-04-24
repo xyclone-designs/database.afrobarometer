@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Diagnostics.CodeAnalysis;
+using System.Collections.Generic;
 
 namespace Database.Afrobarometer.Tables
 {
@@ -13,7 +14,7 @@ namespace Database.Afrobarometer.Tables
 		public static readonly string RegexQuestionText = "^[qQ]?[0-9][0-9]?[0-9]?[a-zA-Z]?[0-9]?.?";
 
 		public static readonly char[] TrimQuestionText = ['?', ' ', '.'];
-		public static readonly char[] TrimQuestionTexts = [',', '.'];
+		public static readonly char[] TrimQuestionTexts = [',', '.', '"'];
 		public static readonly string[] ReplacementQuestionTextCountry =
 		[
 			"ghana",
@@ -59,46 +60,42 @@ namespace Database.Afrobarometer.Tables
 		public Question() { }
 		public Question(params string[] texts)
 		{
+			if (texts.Length >= 5)
+			{
+				// 661=DIOURBEL, =FATICK => 661=DIOURBEL, 662=FATICK (Add one to previous)
+				MatchCollection matches1 = Regex.Matches(texts[4], "[0-9]*=[A-Za-z]+[,\\s]+=[A-Za-z]");
+
+				for (int index = 0; index < matches1.Count; index++)
+				{
+					int num = int.Parse(matches1[index].Value.Split('=')[0]);
+
+					string _was = string.Join(string.Empty, matches1[index].Value[0..^2]);
+					string _is = string.Format("{0}{1}", _was, num + 1);
+
+					texts[4] = texts[4].Replace(_was, _is);
+				}
+
+				// college 7=Some => college ,7=Some (Add comma)
+				// know8=Refused => know, 8=Refused
+				MatchCollection matches2 = Regex.Matches(texts[4], "[^,\\s0-9]\\s*[0-9]*=");
+
+				for (int index = 0; index < matches2.Count; index++)
+				{
+					string _was = matches2[index].Value; 
+					string _is = string.Join(',', [matches2[index].Value[0], matches2[index].Value[1..^0]]); 
+
+					texts[4] = texts[4].Replace(_was, _is);
+				}
+			}
+
 			string[] values = texts.ElementAtOrDefault(3)?.Split(TrimQuestionTexts, StringSplitOptions.TrimEntries) ?? [];
 			string[] valuelables = texts.ElementAtOrDefault(4)?
 				.Replace(';', ',')
-				//.Replace(", 1-", ", 1=")
-				//.Replace(", 6-", ", 6=")
-				.Replace("service) 9=Don’t", "service), 9=Don’t")
-				.Replace("lot, =Don’t know", "lot, 5=Don’t know")
-				.Replace("officials, =Govt,", "officials, 58=Govt")
-				.Replace("Know 6=Don’t", "Know, 6=Don’t")
-				.Replace("war 13=Death", "war, 13=Death")
-				.Replace("Know98=Refused", "Know, 98=Refused")
-				.Replace("answer 97=No", "answer, 97=No")
-				.Replace("non=permanent", "non-permanent")
-				.Replace("110=Khasonke 111=Bozo", "110=Khasonke, 111=Bozo")
-				.Replace("Samaritan 28=Patriotic", "Samaritan, 128=Patriotic")
-				.Replace("Other, =Nothing/No", "Other, 38=Nothing/No")
-				.Replace("0=No Answer ", "0=No Answer,")
-				.Replace("Church, =Social", "Church, 35=Social")
-				.Replace("Immigration 16=Private", "Immigration, 16=Private")
-				.Replace("me, =Looking", "me, 30=Looking")
-				.Replace(": 0=Worst form", "0=Worst form")
-				.Replace("405=Refengkgotso, =Reservoir", "405=Refengkgotso, 406=Reservoir")
-				.Replace("lives, =Disruption", "lives, 144=Disruption")
-				.Replace("data, =Senior", "data, 100=Senior")
-				.Replace("house 3=Temporary", "house ,3=Temporary")
-				.Replace("worship, =Employment", "worship, 65=Employment")
-				.Replace("assistance, =Leaders", "assistance, 154=Leaders")
-				.Replace("job, =Nothing", "job, 31=Nothing")
-				.Replace("respect, 211-Economic", "respect, 211=Economic")
-				.Replace("Sotho 15=Setswana,", "Sotho, 15=Setswana,")
-				.Replace("prices, =Other ", "prices, 35=Other ")
-				.Replace("28=Education (Equality) 29=Education (too expensive)", "28=Education (Equality), 29=Education (too expensive)")
 				.Split(TrimQuestionTexts, StringSplitOptions.TrimEntries) ?? [];
 
 			for (int index = 0; index < valuelables.Length; index++)
 			{
-				string[] split = valuelables[index].Split('=');
-
-				if (Regex.IsMatch(valuelables[index], "[A-Za-z][A-Za-z]?=[0-9][0-9]?"))
-					valuelables[index] = string.Format("{0}={1}", split[1], split[0]);
+				string[] split = valuelables[index].Split('=', '"', StringSplitOptions.TrimEntries);
 
 				if (index > 0 && int.TryParse(split[0], out int _) is false)
 				{
@@ -144,6 +141,10 @@ namespace Database.Afrobarometer.Tables
 					.Replace("responsibilty", "responsibility")
 					.Replace("resonsibility", "responsibility")
 					.Replace("storey", "story")
+					.Replace("Pidgin=English", "Pidgin-English")
+					.Replace("Beri-beri", "Beri-beri")
+					.Replace("Mixed-race", "Mixed-race")
+					.Replace("Mixed=-=English/Afrikaans", "Mixed:English/Afrikaans")
 					.Trim(TrimQuestionText);
 
 				QuestionText = Regex.Replace(QuestionText, RegexQuestionText, string.Empty);
@@ -191,24 +192,23 @@ namespace Database.Afrobarometer.Tables
 		}
 		public override bool LogErrors(StreamWriter streamwriter)
 		{
-			bool error = base.LogErrors(streamwriter);
+			IEnumerable<string> valuelabels = ValueLabels?.Where(_ => _.Count(_ => '=' == _) >= 2) ?? Enumerable.Empty<string>();
 
-			if (ValueLabels is not null)
-				foreach (string valuelabel in ValueLabels)
-					if (valuelabel.Count(_ => '=' == _) > 1)
-					{
-						error = true;
-
-						streamwriter.WriteLine("ValueLabels: {0}", ValueLabels?.ElementAtOrDefault(0));
-
-						if (ValueLabels is not null && ValueLabels.Length > 2)
-							for (int index = 1; index < ValueLabels.Length; index++)
-								streamwriter.WriteLine("             {0}", ValueLabels[index]);
-					}
+			bool error = base.LogErrors(streamwriter) || valuelabels.Any();
 
 			if (error)
-				streamwriter.WriteLine();
+			{
+				error = true;
+				streamwriter.WriteLine("QuestionNumber: {0}", QuestionNumber);
 
+				if (valuelabels.Any())
+				{
+					streamwriter.WriteLine("ValueLabels");
+					foreach (string valuelabel in valuelabels)
+						streamwriter.WriteLine("    {0}", valuelabel);
+				}
+			}
+			
 			return error;
 		}
 	}

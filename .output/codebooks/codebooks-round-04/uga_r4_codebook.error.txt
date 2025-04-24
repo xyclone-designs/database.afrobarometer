@@ -1,0 +1,8 @@
+QuestionNumber: Q100
+ValueLabels
+    19=Research company/ organization/programme (including the Afrobarometer National Partner), 54 20=Newspapers/Media
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

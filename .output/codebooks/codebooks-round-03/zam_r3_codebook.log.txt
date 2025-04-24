@@ -1,0 +1,5452 @@
+Pk: 0
+QuestionNumber: respno
+Question: respondent number
+VariableLabel: Respondent number
+Values: ZAM0001-ZAM1205
+ValueLabels: String variable
+Source: Assigned by data managers
+Note: 
+
+Pk: 0
+QuestionNumber: backchk
+Question: household back-checked
+VariableLabel: Household back-checked?
+Values: 1-2
+ValueLabels: 1=Yes
+Source: Answered by interviewer
+Note: 
+
+Pk: 0
+QuestionNumber: urbrur
+Question: psu or ea
+VariableLabel: Urban or Rural Primary Sampling Unit
+Values: 1-2
+ValueLabels: 1=urban
+Source: Answered by interviewer
+Note: 
+
+Pk: 0
+QuestionNumber: region
+Question: region
+VariableLabel: Province or Region
+Values: 420-428
+ValueLabels: 420=Lusaka
+             421=Central
+             422=Copper Belt
+             423=Eastern
+             424=Luapula
+             425=Northern
+             426=North-western
+             427=Southern
+             428=Western
+Source: Answered by interviewer
+Note: 
+
+Pk: 0
+QuestionNumber: district
+Question: district
+VariableLabel: District
+Values: String variable
+ValueLabels: Answered by interviewer
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: hholdse1
+Question: reasons for unsuccessful calls – household 1
+VariableLabel: Reason for Unsuccessful Call 1
+Values: 1-8
+ValueLabels: 1=Refused to be interviewed
+             2=Person selected was never at home
+             3=Household/Premises empty for the survey period
+             4=Not a citizen/Spoke only a foreign language
+             5=Deaf/Did not speak a survey language
+             6=Did not fit gender quota
+             7=No adults in household
+             8=Other
+             997=Not Applicable
+Source: Southern Africa Barometer (SAB)
+Note: Answered by interviewer, after instructions, “It is your job is to select a random (this means any) household.  A household is a group of people who presently eat together from the same spot. Start your walk pattern from the start point that has been randomly chosen by your Field Supervisor.  Team members must walk in opposite directions to each other.  If A walks towards the sun, B must walk away from the sun; C and D must walk at right angles to A and B. Use the day code to determine the sampling interval.  For example, on the 5th, 14th and 23rd of the month, the day code (and sampling interval) is five.  So you choose the fifth dwelling structure on the right.  On the 6th, 15th and 24th of the month, the sampling interval is six.  So you choose the sixth dwelling structure on the right. And so on. If a call is unsuccessful, use the table below to record your progress until you make a successful call.  Circle a code number for unsuccessful calls only.”
+
+Pk: 0
+QuestionNumber: hholdse2
+Question: reasons for unsuccessful calls – household 2
+VariableLabel: Reason for Unsuccessful Call 2
+Values: 1-8
+ValueLabels: 1=Refused to be interviewed
+             2=Person selected was never at home
+             3=Household/Premises empty for the survey period
+             4=Not a citizen/Spoke only a foreign language
+             5=Deaf/Did not speak a survey language
+             6=Did not fit gender quota
+             7=No adults in household
+             8=Other
+             997=Not Applicable
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: hholdse3
+Question: reasons for unsuccessful calls – household 3
+VariableLabel: Reason for Unsuccessful Call 3
+Values: 1-8
+ValueLabels: 1=Refused to be interviewed
+             2=Person selected was never at home
+             3=Household/Premises empty for the survey period
+             4=Not a citizen/Spoke only a foreign language
+             5=Deaf/Did not speak a survey language
+             6=Did not fit gender quota
+             7=No adults in household
+             8=Other
+             997=Not Applicable
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: hholdse4
+Question: reasons for unsuccessful calls – household 4
+VariableLabel: Reason for Unsuccessful Call 4
+Values: 1-8
+ValueLabels: 1=Refused to be interviewed
+             2=Person selected was never at home
+             3=Household/Premises empty for the survey period
+             4=Not a citizen/Spoke only a foreign language
+             5=Deaf/Did not speak a survey language
+             6=Did not fit gender quota
+             7=No adults in household
+             8=Other
+             997=Not Applicable
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: hholdse5
+Question: reasons for unsuccessful calls – household 5
+VariableLabel: Reason for Unsuccessful Call 5
+Values: 1-8
+ValueLabels: 1=Refused to be interviewed
+             2=Person selected was never at home
+             3=Household/Premises empty for the survey period
+             4=Not a citizen/Spoke only a foreign language
+             5=Deaf/Did not speak a survey language
+             6=Did not fit gender quota
+             7=No adults in household
+             8=Other
+             997=Not Applicable
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: hholdse6
+Question: reasons for unsuccessful calls – household 6
+VariableLabel: Reason for Unsuccessful Call 6
+Values: 1-8
+ValueLabels: 1=Refused to be interviewed
+             2=Person selected was never at home
+             3=Household/Premises empty for the survey period
+             4=Not a citizen/Spoke only a foreign language
+             5=Deaf/Did not speak a survey language
+             6=Did not fit gender quota
+             7=No adults in household
+             8=Other
+             997=Not Applicable
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: hholdse7
+Question: reasons for unsuccessful calls – household 7
+VariableLabel: Reason for Unsuccessful Call 7
+Values: 1-8
+ValueLabels: 1=Refused to be interviewed
+             2=Person selected was never at home
+             3=Household/Premises empty for the survey period
+             4=Not a citizen/Spoke only a foreign language
+             5=Deaf/Did not speak a survey language
+             6=Did not fit gender quota
+             7=No adults in household
+             8=Other
+             997=Not Applicable
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: prevint
+Question: previous interview was with a:
+VariableLabel: Previous interview, gender         4
+Values: 1
+        2
+        -1
+ValueLabels: 1=Male
+             2=Female, -
+             1=Missing Data
+Source: Answered by interviewer
+Note: 
+
+Pk: 0
+QuestionNumber: currint
+Question: this interview must be with a:
+VariableLabel: This interview, gender
+Values: 1
+ValueLabels: 1=Male
+Source: Answered by interviewer
+Note: 
+
+Pk: 0
+QuestionNumber: calls
+Question: interviewer: how many calls were made to the household where the interview actually took place
+VariableLabel: Number of calls
+Values: 1
+ValueLabels: 1=One call
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: dateintr
+Question: date of interview
+VariableLabel: Date of interview
+Values: 29Jul2005 through 16Aug2005
+ValueLabels: Answered by interviewer,
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: strtime
+Question: time interview started
+VariableLabel: Time interview started
+Values: Answered by interviewer
+        Entered hour and minute
+        24 hour clock
+ValueLabels: 
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q1
+Question: how old are you
+VariableLabel: Age
+Values: 18-110
+        998
+        999
+        -1
+ValueLabels: 998=Refused to Answer
+             999=Don’t Know, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q2
+Question: are you the head of the household
+VariableLabel: Head of household
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Don’t know
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q3
+Question: which [country]n language is your home language
+VariableLabel: Language of respondent
+Values: 1
+        4
+        420-429
+        431-439
+        860-866
+        -1
+ValueLabels: 1=English
+             4=Kiswahili
+             420=Bemba
+             421=Nyanja
+             422=Tonga
+             423=Lozi
+             424=Chewa
+             425=Nsenga
+             426=Tumbuka
+             427=Kaonde
+             428=Luvale
+             429=Namwanga
+             431=Bisa
+             432=Ila
+             433=Nkaya
+             434=Mambwe
+             435=Lunda
+             436=Lenje
+             437=Lamba
+             438=Mbunda
+             439=Ngoni
+             860=Soli
+             861=Senga
+             862=Chokwe
+             863=Luchazi,
+             864=Kwamashi
+             865=Tokaleya
+             866=Lala, -
+             1= Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q4A
+Question: in general, how would you describe: the present economic conditions of this country
+VariableLabel: Country’s present economic condition
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Very bad
+             2=Fairly bad
+             3=Neither good nor bad
+             4=Fairly good
+             5=Very good
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data         5
+Source: NDB, Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q4B
+Question: in general, how would you describe: your own present living conditions
+VariableLabel: Your present living conditions
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Very bad
+             2=Fairly bad
+             3=Neither good nor bad
+             4=Fairly good
+             5=Very good
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB, Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q5
+Question: in general, how do you rate: your living conditions compared to those of other [country]ns
+VariableLabel: Your living conditions vs. others
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB, Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q6A
+Question: looking back, how do you rate the following compared to twelve months ago: economic conditions in this country
+VariableLabel: Country’s economic condition 12 months ago
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q6B
+Question: looking back, how do you rate the following compared to twelve months ago: your living conditions
+VariableLabel: Your living conditions 12 months ago
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB, Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q7A
+Question: looking ahead, do you expect the following to be better or worse: economic conditions in this country in twelve months time
+VariableLabel: Country’s economic condition in 12 months
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB, Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q7B
+Question: looking ahead, do you expect the following to be better or worse: your living conditions in twelve months time
+VariableLabel: Your living conditions in 12 months
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB, Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q8A
+Question: over the past year, how often, if ever, have you or your family gone without: enough food to eat
+VariableLabel: How often gone without food
+Values: 0-4
+        9
+        98
+        -1         6
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q8B
+Question: over the past year, how often, if ever, have you or your family gone without: enough clean water for home use
+VariableLabel: How often gone without water
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q8C
+Question: over the past year, how often, if ever, have you or your family gone without: medicines or medical treatment
+VariableLabel: How often gone without medical care
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q8D
+Question: over the past year, how often, if ever, have you or your family gone without: enough fuel to cook your food
+VariableLabel: How often gone without cooking fuel
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q8E
+Question: over the past year, how often, if ever, have you or your family gone without: a cash income
+VariableLabel: How often gone without cash income
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q8F
+Question: over the past year, how often, if ever, have you or your family gone without: school expenses for your children (like fees, uniforms or books)
+VariableLabel: How often gone without school expenses
+Values: 0-4
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             7=No children
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q9A
+Question: over the past year, how often (if ever) have you or anyone in your family: feared crime in your own home
+VariableLabel: How often feared crime in home
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from NDB          7
+Note: 
+
+Pk: 0
+QuestionNumber: Q9B
+Question: over the past year, how often (if ever) have you or anyone in your family: had something stolen from your house
+VariableLabel: How often something stolen from house
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q9C
+Question: over the past year, how often (if ever) have you or anyone in your family: been physically attacked
+VariableLabel: How often physically attacked
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Several times
+             3=Many times
+             4=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q10
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: it is better to have free schooling for our children, even if the quality of education is low. b: it is better to raise educational standards, even if we have to pay school fees
+VariableLabel: Free schooling vs. user fees
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q11
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: all civil servants should keep their jobs, even if paying their salaries is costly to the country. b: the government cannot afford so many public employees and should lay some of them off
+VariableLabel: Civil servants keep jobs vs. lay offs to reduce costs
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia 96
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q12
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: the costs of reforming the economy are too high; the government should therefore abandon its current economic policies.  b: in order for the economy to get better in the future, it is necessary for us to accept some hardships now
+VariableLabel: Abandon economic reforms vs. accept hardships
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Ghana97
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q13
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: the government’s economic policies have helped most people; only a few have suffered. b: the government’s economic policies have hurt most people and only benefited a few
+VariableLabel: Economic policies helped most vs. hurt most
+Values: 1-5
+        9
+        98
+        -1         8
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Ghana99
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q14A
+Question: please tell me whether each of the following aspects of our economic situation in this country are better or worse than they were a few years ago, or whether they have remained the same: the availability of consumer goods
+VariableLabel: Present vs. past: Availability of goods
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1= Much Worse
+             2=Worse
+             3=About the Same
+             4=Better
+             5=Much Better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q14B
+Question: please tell me whether each of the following aspects of our economic situation in this country are better or worse than they were a few years ago, or whether they have remained the same: the availability of job opportunities
+VariableLabel: Present vs. past: Job opportunities
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1= Much Worse
+             2=Worse
+             3=About the Same
+             4=Better
+             5=Much Better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q14C
+Question: please tell me whether each of the following aspects of our economic situation in this country are better or worse than they were a few years ago, or whether they have remained the same:  the gap between the rich and the poor
+VariableLabel: Present vs. past: Gap between rich and poor
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1= Much Worse
+             2=Worse
+             3=About the Same
+             4=Better
+             5=Much Better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q15A
+Question: how often do you get news from the following sources: radio
+VariableLabel: Radio news
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Less than once a month
+             2=A few times a month
+             3=A few times a week
+             4=Every day
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q15B
+Question: how often do you get news from the following sources: television
+VariableLabel: Television news
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Less than once a month
+             2=A few times a month
+             3=A few times a week
+             4=Every day
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q15C
+Question: how often do you get news from the following sources: newspapers
+VariableLabel: Newspaper news
+Values: 0-4
+        9
+        98
+        -1         9
+ValueLabels: 0=Never
+             1=Less than once a month
+             2=A few times a month
+             3=A few times a week
+             4=Every day
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q15D_ZAM
+Question: how often do you get news from the following sources: internet
+VariableLabel: Internet
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Less than once a month
+             2=A few times a month
+             3=A few times a week
+             4=Every day
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia Afrobarometer Round 3
+Note: 
+
+Pk: 0
+QuestionNumber: Q16
+Question: how interested would you say you are in public affairs
+VariableLabel: Interest in public affairs
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all interested
+             1=Not very interested
+             2=Somewhat interested
+             3=Very interested
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q17
+Question: when you get together with your friends or family, would you say you discuss political matters:
+VariableLabel: Discuss politics
+Values: 0-2
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Occasionally
+             2=Frequently
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q18A
+Question: do you agree or disagree with the following statements: politics and government sometimes seem so complicated that you can’t really understand what’s going on
+VariableLabel: Politics and government too complicated
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Agree
+             2=Agree
+             3=Neither Agree nor Disagree
+             4=Disagree
+             5=Strongly Disagree
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q18B
+Question: do you agree or disagree with the following statements: as far as politics is concerned, friends and neighbors do not listen to you
+VariableLabel: Others don’t listen to you
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Agree
+             2=Agree
+             3=Neither Agree nor Disagree
+             4=Disagree
+             5=Strongly Disagree
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q19
+Question: lets talk for a moment about the kind of society we would like to have in this country. which of the following statements is closest to your view? choose statement a or statement b.     a: people should look after themselves and be responsible for their own success in life. b: the government should bear the main responsibility for the well-being of people
+VariableLabel: People responsible for well-being vs. government
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Ghana99
+Note: Interviewer probed for strength of opinion.          10
+
+Pk: 0
+QuestionNumber: Q20
+Question: let’s talk for a moment about the kind of society we would like to have in this country. which of the following statements is closest to your view? choose statement a or statement b.     a: as citizens, we should be more active in questioning the actions of our leaders. b: in our country these days, we should show more respect for authority
+VariableLabel: Question actions of leaders vs. respect authority
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+
+Pk: 0
+QuestionNumber: Q21
+Question: which of the following statements is closest to your view? choose statement a or statement b.     a: since leaders represent everyone, leaders should not favour their own family or group. b: once in office, leaders are obliged to help their home community
+VariableLabel: Leaders treat all equally vs. help own community
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q22
+Question: which of the following statements is closest to your view? choose statement a or statement b.     a: all people should be permitted to vote, even if they do not fully understand all the issues in an election. b: only those who are sufficiently well educated should be allowed to choose our leaders
+VariableLabel: All vote vs. only educated vote
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia 96
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q23
+Question: which of the following statements is closest to your view? choose statement a or statement b.     a: in our country, women should have equal rights and receive the same treatment as men do. b: women have always been subject to traditional laws and customs, and should remain so
+VariableLabel: Women have equal rights vs. subject to traditional laws
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Uganda00
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q24
+Question: which of the following statements is closest to your view? choose statement a or statement b.     a: women should have the same chance of being elected to political office as men.   b: men make better political leaders than women, and should be elected rather than women
+VariableLabel: Women leaders vs. men only as leaders
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Uganda00
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q25
+Question: which of the following statements is closest to your view? choose statement a or statement b.             11 a:  government should be able to ban any organization that goes against its policies. b: we should be able to join any organization, whether or not the government approves of it
+VariableLabel: Government bans organization vs. join any
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Uganda00
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q26
+Question: which of the following statements is closest to your view? choose statement a or statement b.     a: government should close newspapers that print false stories or misinformation. b: the news media should be free to publish any story that they see fit without fear of being shut down
+VariableLabel: Government close newspapers vs. free to publish
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Uganda00
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q27
+Question: which of the following statements is closest to your view? choose statement a or statement b.     a: government should not allow the expression of political views that are fundamentally different from the views of the majority. b: people should be able to speak their minds about politics free of government influence, no matter how unpopular their views may be
+VariableLabel: Government suppress expression vs. people speak minds
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Uganda00
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q28A
+Question: let’s turn to your role in the community. now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a religious group (e.g. church, mosque)
+VariableLabel: Member of religious group
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not a Member
+             1=Inactive Member
+             2=Active Member
+             3=Official Leader
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q28B
+Question: now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a trade union or farmers association
+VariableLabel: Member of trade union or farmers association
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not a Member
+             1=Inactive Member
+             2=Active Member
+             3=Official Leader
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q28C
+Question: now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a professional or business association?         12
+VariableLabel: Member of professional or business association
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not a Member
+             1=Inactive Member
+             2=Active Member
+             3=Official Leader
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q28D
+Question: now i am going to read out a list of group that people join or attend. for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member: a community development or self-help association
+VariableLabel: Member of community development association
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not a Member
+             1=Inactive Member
+             2=Active Member
+             3=Official Leader
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q29
+Question: understanding that some [country]ns were not able to register as voters for the 2001 national elections, which statement is true for you
+VariableLabel: Registered to vote
+Values: 1-6
+        9
+        98
+        -1
+ValueLabels: 1=You were registered to vote
+             2=You did not want to register
+             3=You could not find a place to register
+             4=You were prevented from registering
+             5=You were too young to register
+             6= Did not register for some other reason
+             9=Don’t Know/Can't remember
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 3
+Note: 
+
+Pk: 0
+QuestionNumber: Q30
+Question: with regard to the most recent, 2001 national elections, which statement is true for you
+VariableLabel: Voted last election
+Values: 1-7
+        9
+        98
+        -1
+ValueLabels: 1=You voted in the elections
+             2=You decided not to vote
+             3=You could not find the polling station
+             4=You were prevented from voting
+             5=You did not have time to vote
+             6= Did not vote for some other reason
+             7=You were not registered
+             9=Don’t Know/Can't remember
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 3
+Note: 
+
+Pk: 0
+QuestionNumber: Q31A
+Question: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year.  if not, would you do this if you had the chance: attended a community meeting
+VariableLabel: Attend a community meeting
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=No, would never do this
+             1=No, but would do if had the chance
+             2=Yes, once or twice
+             3=Yes, several times
+             4=Yes, often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q31B
+Question: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: got together with others to raise an issue
+VariableLabel: Join others to raise an issue
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=No, would never do this
+             1=No, but would do if had the chance
+             2=Yes, once or twice
+             3=Yes, several times
+             4=Yes, often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB          13
+Note: 
+
+Pk: 0
+QuestionNumber: Q31C
+Question: here is a list of actions that people sometimes take as citizens. for each of these, please tell me whether you, personally, have done any of these things during the past year. if not, would you do this if you had the chance: attended a demostartion or protest march
+VariableLabel: Attend a demonstration or protest march
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=No, would never do this
+             1=No, but would do if had the chance
+             2=Yes, once or twice
+             3=Yes, several times
+             4=Yes, often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q32A
+Question: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: a local government ward councillor
+VariableLabel: Contact local government councillor
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only once
+             2=A few times
+             3=Often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q32B
+Question: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: a member of parliament (mp)
+VariableLabel: Contact MP
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only once
+             2=A few times
+             3=Often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q32C
+Question: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: an official of a government ministry
+VariableLabel: Contact official of a government ministry
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only once
+             2=A few times
+             3=Often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q32D
+Question: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: a political party official
+VariableLabel: Contact political party official
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only once
+             2=A few times
+             3=Often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q32E
+Question: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: a religious leader
+VariableLabel: Contact religious leader
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only once
+             2=A few times
+             3=Often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q32F
+Question: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views: a traditional ruler?         14
+VariableLabel: Contact traditional ruler
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only once
+             2=A few times
+             3=Often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q32G
+Question: during the past year, how often have you contacted any of the following persons about some important problem or to give them your views:  some other influential person
+VariableLabel: Contact some other influential person
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only once
+             2=A few times
+             3=Often
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q33
+Question: think of the last time you contacted any of the above leaders.  was the main reason to:
+VariableLabel: Why contact
+Values: 1-4
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Tell them about your own personal problems
+             2= Tell them about a community or public problem
+             3= Give them your view on some political issue
+             4=Something else
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q34
+Question: what if anything does democracy mean to you
+VariableLabel: Understand democracy
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Understood “democracy” in English
+             2= Required local language translation
+             3=Did not understand the word or question, even in the local language
+             98=Refused to Answer, -
+             1=Missing
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q35A
+Question: what if anything does democracy mean to you
+VariableLabel: Meaning of democracy- 1st verbatim response
+Values: String variable
+ValueLabels: Ghana 97
+Source: Respondent could give up to three responses.  Interviewer recorded respondent’s verbatim response in English.  Responses were coded by Field Supervisors and checked by National Investigator.
+Note: 
+
+Pk: 0
+QuestionNumber: Q35pt1
+Question: what if anything does democracy mean to you
+VariableLabel: First meaning of democracy (code)
+Values: 0-12
+        14-17
+        19-21
+        990
+        998
+        999
+        -1
+ValueLabels: 0=Nothing/Democracy has no meaning
+             1=Civil liberties/personal freedoms (e, g, freedom of speech, religion, movement, etc…)
+             2=Government by, for, of the people/popular rule
+             3=Voting/elections/multiparty competition
+             4=Peace/unity/power sharing
+             5=Social/economic development
+             6=Equality/justice
+             7=Majority rule
+             8=Governance/effectiveness/accountability/rule of law
+             9=National independence/people’s self-determination, =9
+             10=Mutual respect
+             11=Working together
+             12=Other positive meanings
+             14=Conflict/confusion
+             15=Corruption/abuse of power
+             16=Social/economic hardship
+             17=Other negative meanings
+             19=Civilian politics/government
+             20=Change of government/leadership/laws
+             21=Other neutral/ null meanings
+             990=Interviewer could not code response
+             998=Refused to answer
+             999=Don't know/Did not understand the question, -
+             1=Missing data
+Source: Respondent could give up to three responses.  Interviewer recorded respondent’s verbatim response in English.  Responses were coded by Field Supervisors and checked by National Investigator.
+Note: 
+
+Pk: 0
+QuestionNumber: Q35B
+Question: what if anything does democracy mean to you
+VariableLabel: Meaning of democracy-2nd verbatim response
+Values: String variable         15
+ValueLabels: Ghana 97
+Source: Respondent could give up to three responses.  Interviewer recorded respondent’s verbatim response in English.  Responses were coded by Field Supervisors and checked by National Investigator.
+Note: 
+
+Pk: 0
+QuestionNumber: Q35pt2
+Question: what if anything does democracy mean to you
+VariableLabel: Second meaning of democracy (code)
+Values: 1-12
+        14-17
+        19-21
+        990
+        996
+        -1
+ValueLabels: 1=Civil liberties/personal freedoms (e, g, freedom of speech, religion, movement, etc…)
+             2=Government by, for, of the people/popular rule
+             3=Voting/elections/multiparty competition
+             4=Peace/unity/power sharing
+             5=Social/economic development
+             6=Equality/justice
+             7=Majority rule
+             8=Governance/effectiveness/accountability/rule of law
+             9=National independence/people’s self-determination, =9
+             10=Mutual respect
+             11=Working together
+             12=Other positive meanings
+             14=Conflict/confusion
+             15=Corruption/abuse of power
+             16=Social/economic hardship
+             17=Other negative meanings
+             19=Civilian politics/government
+             20=Change of government/leadership/laws
+             21=Other neutral/ null meanings
+             990=Interviewer could not code response
+             996=No Further Answer, -
+             1=Missing data
+Source: Respondent could give up to three responses.  Interviewer recorded respondent’s verbatim response in English.  Responses were coded by Field Supervisors and checked by National Investigator.
+Note: 
+
+Pk: 0
+QuestionNumber: Q35C
+Question: what if anything does democracy mean to you
+VariableLabel: Meaning of democracy-3rd verbatim response
+Values: String variable
+ValueLabels: Ghana 97
+Source: Respondent could give up to three responses.  Interviewer recorded respondent’s verbatim response in English.  Responses were coded by Field Supervisors and checked by National Investigator.
+Note: 
+
+Pk: 0
+QuestionNumber: Q35pt3
+Question: what if anything does democracy mean to you
+VariableLabel: Third meaning of democracy (code)
+Values: 1-12
+        14-17
+        19-21
+        990
+        996
+        -1
+ValueLabels: 1=Civil liberties/personal freedoms (eg freedom of speech, religion, movement, etc…)
+             2=Government by, for, of the people/popular rule
+             3=Voting/elections/multiparty competition
+             4=Peace/unity/power sharing
+             5=Social/economic development
+             6=Equality/justice
+             7=Majority rule
+             8=Governance/effectiveness/accountability/rule of law
+             9=National independence/people’s self-determination, =9
+             10=Mutual respect
+             11=Working together
+             12=Other positive meanings
+             14=Conflict/confusion
+             15=Corruption/abuse of power
+             16=Social/economic hardship
+             17=Other negative meanings
+             19=Civilian politics/government
+             20=Change of government/leadership/laws
+             21=Other neutral/ null meanings
+             990=Interviewer could not code response
+             996=No Further Answer, -
+             1=Missing data
+Source: Respondent could give up to three responses.  Interviewer recorded respondent’s verbatim response in English.  Responses were coded by Field Supervisors and checked by National Investigator.
+Note: 
+
+Pk: 0
+QuestionNumber: Q36A
+Question: there are many ways to govern a country. would you disapprove or approve of the following alternatives: only one political party is allowed to stand for election and hold office
+VariableLabel: Reject one-party rule
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disapprove
+             2=Disapprove
+             3=Neither Approve Nor Disapprove
+             4=Approve
+             5=Strongly Approve
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q36B
+Question: there are many ways to govern a country. would you disapprove or approve of the following alternatives: the army comes in to govern the country
+VariableLabel: Reject military rule
+Values: 1-5
+        9
+        98
+        -1         16
+ValueLabels: 1=Strongly Disapprove
+             2=Disapprove
+             3=Neither Approve Nor Disapprove
+             4=Approve
+             5=Strongly Approve
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q36C
+Question: there are many ways to govern a country. would you disapprove or approve of the following alternatives: elections and the parliament are abolished so that the president can decide everything
+VariableLabel: Reject one-man rule
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disapprove
+             2=Disapprove
+             3=Neither Approve Nor Disapprove
+             4=Approve
+             5=Strongly Approve
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q37
+Question: which of these three statements is closest to your own opinion?  a: democracy is preferable to any other kind of government b: in some circumstances, a non-democratic government can be preferable. c: for someone like me, it doesn’t matter what kind of government we have
+VariableLabel: Support for democracy
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Statement C: Doesn’t matter
+             2=Statement B: Sometimes non-democratic preferable
+             3=Statement A: Democracy preferable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Latinobarometer (LB)
+Note: Interviewer stated the word “democracy” in English, not in a local language.
+
+Pk: 0
+QuestionNumber: Q38
+Question: let’s change the subject. i would like to hear your views about how this country is governed. which of the following statements is closest to your view? choose statement a or statement b.  a: we should choose our leaders in this country through regular, open and honest elections. b: since elections sometimes produce bad results, we should adopt other methods for choosing this country’s leaders
+VariableLabel: Choose leaders through elections vs. other methods
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+
+Pk: 0
+QuestionNumber: Q39
+Question: which of the following statements is closest to your view? choose statement a or statement b.   a: political parties create division and confusion; it is therefore unnecessary to have many political parties in [country]. b: many political parties are needed to make sure that [country]ns have real choices in who governs them
+VariableLabel: Political parties divisive vs. many parties needed
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+
+Pk: 0
+QuestionNumber: Q40
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: the members of parliament (mps) represent the people; therefore they should make laws for this country, even if the president does not agree. b: since the president represents all of us, he should pass laws without worrying about what the parliament thinks.         17
+VariableLabel: Parliament makes laws vs. president does
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+
+Pk: 0
+QuestionNumber: Q41
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: since the president was elected to lead the country, he should not be bound by laws or court decisions that he thinks are wrong.  b: the president must always obey the laws and the courts, even if he thinks they are wrong
+VariableLabel: President free to act vs. obey the laws and courts
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+Note: 
+
+Pk: 0
+QuestionNumber: Q42
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: our present system of elected government should be given more time to deal with inherited problems. b: if our present system cannot produce results soon, we should try another form of government
+VariableLabel: Time to deal with problems vs. try another form
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”  Now let us speak about the political system in this country?:
+Note: 
+
+Pk: 0
+QuestionNumber: 43A1
+Question: can you tell me the name of: your member of parliament
+VariableLabel: Identify MP (verbatim)
+Values: String variable
+ValueLabels: Afrobarometer Round 3
+Source: Interviewer preceded question with the statement: “Now let us speak about the political system in this country.”  Interviewer recorded respondent’s verbatim response, and then coded the answer.
+Note: 
+
+Pk: 0
+QuestionNumber: 43A2
+Question: can you tell me the name of: your member of parliament
+VariableLabel: Identify MP (code)
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Know but can’t remember
+             2=Incorrect guess
+             3=Correct name
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 43B1
+Question: can you tell me the name of: your local government councillor
+VariableLabel: Identify Local Government Councilor (verbatim)
+Values: String variable
+ValueLabels: Afrobarometer Round 3
+Source: Interviewer preceded question with the statement: “Now let us speak about the political system in this country.”  Interviewer recorded respondent’s verbatim response, and then coded the answer.
+Note: 
+
+Pk: 0
+QuestionNumber: 43B2
+Question: can you tell me the name of: your local government councillor
+VariableLabel: Identify Local Government Councilor (code)
+Values: 1-3
+        9
+        98
+        -1         18
+ValueLabels: 1=Know but can’t remember
+             2=Incorrect guess
+             3=Correct name
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 43C1
+Question: can you tell me the name of: the vice president
+VariableLabel: Identify Vice President (verbatim)
+Values: String Variable
+ValueLabels: Afrobarometer Round 3
+Source: Interviewer preceded question with the statement: “Now let us speak about the political system in this country.”  Interviewer recorded respondent’s verbatim response, and then coded the answer.
+Note: 
+
+Pk: 0
+QuestionNumber: 43C2
+Question: can you tell me the name of: the vice president
+VariableLabel: Identify Vice President (code)
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Know but can’t remember
+             2=Incorrect guess
+             3=Correct name
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 44A1
+Question: do you happen to know: which political party has the most seats in parliament
+VariableLabel: Know: political party w/most seats (verbatim)
+Values: String Variable
+ValueLabels: Afrobarometer Round 3
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 44A2
+Question: do you happen to know: which political party has the most seats in parliament
+VariableLabel: Know: political party w/most seats (code)
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Know but can’t remember
+             2=Incorrect guess
+             3=Correct name
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 44B1
+Question: do you happen to know: how many times someone can legally be elected president
+VariableLabel: Know: Presidential term limits (verbatim)
+Values: String variable
+ValueLabels: Afrobarometer Round 3
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 44B2
+Question: do you happen to know: how many times someone can legally be elected president
+VariableLabel: Know: Presidential term limits (code)
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Know but can’t remember
+             2=Incorrect guess
+             3=Correct name
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 44C1
+Question: do you happen to know: whose responsibility it is to determine whether or not a law is constitutional
+VariableLabel: Know: Determine Constitutionality (verbatim)
+Values: String variable
+ValueLabels: Afrobarometer Round 3
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 44C2
+Question: do you happen to know: whose responsibility it is to determine whether or not a law is constitutional
+VariableLabel: Know: Determine Constitutionality (code)
+Values: 1-3
+        9
+        98
+        -1         19
+ValueLabels: 1=Know but can’t remember
+             2=Incorrect guess
+             3=Correct name
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: 45
+Question: on the whole, how would you rate the freeness and fairness of the last national election, held in 2001? was it:
+VariableLabel: Elections free and fair
+Values: 1-4
+        8
+        9
+        98
+        -1
+ValueLabels: 1=completely free and fair
+             2=Free and fair with minor problems
+             3=Free and Fair with major problems
+             4=Not free and fair
+             8=Do not understand the question
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q46
+Question: in your opinion how much of a democracy is [country] today
+VariableLabel: Extent of democracy
+Values: 1-4
+        8
+        9
+        98
+        -1
+ValueLabels: 1=Not a democracy
+             2=A democracy, with major problems
+             3=A democracy, but with minor problems
+             4=A full democracy
+             8=Do not understand question/democracy
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Ghana 97
+Note: Interviewer stated the word “democracy” in English, not in a local language.
+
+Pk: 0
+QuestionNumber: Q47
+Question: overall, how satisfied are you with the way democracy works in [country]? are you:
+VariableLabel: Satisfaction with democracy
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Zambia is not a democracy
+             1=Not at All Satisfied
+             2=Not Very Satisfied
+             3=Fairly Satisfied
+             4=Very Satisfied
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Eurobarometer
+Note: Interviewer stated the word “democracy” in English, not in a local language.
+
+Pk: 0
+QuestionNumber: Q48
+Question: in your opinion, how likely is it that [country] will remain a democratic country
+VariableLabel: Future of democracy
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Zambia is not a democracy
+             1=Not at All Likely
+             2=Not Very Likely
+             3=Likely
+             4=Very Likely
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q49
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: it is important to obey the government in power no matter who you voted for  b: it is not necessary to obey the laws of a government that i did not vote for
+VariableLabel: Obey government always vs. only if vote for it
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+Note: 
+
+Pk: 0
+QuestionNumber: Q50
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: it is better to find lawful solutions to problems even if it takes longer. b: it is sometimes better to ignore the law and solve problems immediately using other means
+VariableLabel: Lawful vs. immediate solutions to problems
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”          20
+Note: 
+
+Pk: 0
+QuestionNumber: Q51
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a: the use of violence is never justified in [country]n politics today. b: in this country, it is sometimes necessary to use violence in support of a just cause
+VariableLabel: Violence never justified vs. sometimes necessary
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+
+Pk: 0
+QuestionNumber: Q52A
+Question: for each of the following statements, please tell me whether you disagree or agree: our constitution expresses the values and hopes of the [country]n people
+VariableLabel: Constitution expresses values and hopes
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disagree
+             2=Disagree
+             3=Neither Agree Nor Disagree
+             4=Agree
+             5=Strongly Agree
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: The interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q52B
+Question: for each of the following statements, please tell me whether you disagree or agree: the courts have the right to make decisions that people always have to abide by
+VariableLabel: Courts make binding decisions
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disagree
+             2=Disagree
+             3=Neither Agree Nor Disagree
+             4=Agree
+             5=Strongly Agree
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: The interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q52C
+Question: for each of the following statements, please tell me whether you disagree or agree: the police always have the right to make people obey the law
+VariableLabel: People must obey the law
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disagree
+             2=Disagree
+             3=Neither Agree Nor Disagree
+             4=Agree
+             5=Strongly Agree
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: The interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q52D
+Question: for each of the following statements, please tell me whether you disagree or agree: the tax department (e.g. irs) always has the right to make people pay taxes
+VariableLabel: People must pay taxes
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disagree
+             2=Disagree
+             3=Neither Agree Nor Disagree
+             4=Agree
+             5=Strongly Agree
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: The interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q53A
+Question: in this country, how often: do people have to be careful of what they say about politics
+VariableLabel: Careful about what you say
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Rarely
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB          21
+Note: 
+
+Pk: 0
+QuestionNumber: Q53B
+Question: in this country, how often: does competition between political parties lead to conflict
+VariableLabel: Party competition leads to conflict
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Rarely
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: 
+
+Pk: 0
+QuestionNumber: Q53C
+Question: in this country, how often: does the president ignore the constitution
+VariableLabel: President ignores the constitution
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Rarely
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: 
+
+Pk: 0
+QuestionNumber: Q53D
+Question: in this country, how often: are people treated unequally under the law
+VariableLabel: People are treated unequally
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Rarely
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: 
+
+Pk: 0
+QuestionNumber: Q54A
+Question: please tell me if the following things are worse or better now than they were a few years ago, or are they about the same: freedom to say what you think
+VariableLabel: Present vs. past: Free to say what you think
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q54B
+Question: please tell me if the following things are worse or better now than they were a few years ago, or are they about the same: freedom to join any political organization you want
+VariableLabel: Present vs. past: Free to join any organization
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q54C
+Question: please tell me if the following things are worse or better now than they were a few years ago, or are they about the same: freedom from being arrested when you are innocent
+VariableLabel: Present vs. past: Fear of unjust arrest
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q54D
+Question: please tell me if the following things are worse or better now than they were a few years ago, or are they about the same: freedom to choose who to vote for without feeling pressured
+VariableLabel: Present vs. past: Voting freedom
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data         22
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q54E
+Question: please tell me if the following things are worse or better now than they were a few years ago, or are they about the same: the ability of ordinary people to influence what government does
+VariableLabel: Present vs. past: Ability to influence government
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q54F
+Question: please tell me if the following things are worse or better now than they were a few years ago, or are they about the same: safety from crime and violence
+VariableLabel: Present vs. past: Safety from crime and violence
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q54G
+Question: please tell me if the following things are worse or better now than they were a few years ago, or are they about the same: equal and fair treatment of all group by government
+VariableLabel: Present vs. past: Equal treatment for all
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Much worse
+             2=Worse
+             3=Same
+             4=Better
+             5=Much better
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q55A
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: the president
+VariableLabel: Trust the President
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55B
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: the parliament
+VariableLabel: Trust Parliament
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55C
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: the electoral commission of [country]
+VariableLabel: Trust the Electoral Commission
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data         23
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55D
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: your elected councillor
+VariableLabel: Trust your local council
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55E
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: the ruling party
+VariableLabel: Trust the Ruling Party
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55F
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: opposition political parties
+VariableLabel: Trust opposition political parties
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55G
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: the army
+VariableLabel: Trust the military
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Ghana99
+Note: 
+
+Pk: 0
+QuestionNumber: Q55H
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: the police
+VariableLabel: Trust the police
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55I
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: courts of law
+VariableLabel: Trust courts of law
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia 96          24
+Note: 
+
+Pk: 0
+QuestionNumber: Q55J
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: government broadcasting service (znbc or radio)
+VariableLabel: Trust government broadcasting service
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q55K
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: independent broadcasting services (e.g. radio phoenix)
+VariableLabel: Trust independent broadcasting services
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55L
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: government newspapers (daily mail, times of [country])
+VariableLabel: Trust government newspapers
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia96
+Note: 
+
+Pk: 0
+QuestionNumber: Q55M
+Question: how much do you trust each of the following, or haven’t you heard enough about them to say: independent newspapers (e.g. the post)
+VariableLabel: Trust independent newspapers
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=Somewhat
+             3=A lot
+             9=Don’t Know/Haven’t Heard Enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56A
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: the president and officials in his office
+VariableLabel: Corruption: Office of the Presidency
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56B
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: members of parliament
+VariableLabel: Corruption: Members of Parliament
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56C
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: elected councillors?         25
+VariableLabel: Corruption: local government councilors
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56D
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: national government officials
+VariableLabel: Corruption: National government officials
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56E
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: local government officials
+VariableLabel: Corruption: Local government officials
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56F
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: police
+VariableLabel: Corruption: Police
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56G
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: tax officials (e.g. zra officials)
+VariableLabel: Corruption: Tax Officials
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56H
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: judges and magistrates
+VariableLabel: Corruption: Judges and Magistrates
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56I
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: health workers
+VariableLabel: Corruption: Health Workers
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data          26
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q56J
+Question: how many of the following people do you think are involved in corruption, or haven’t you heard enough about them to say: teachers and school administrators
+VariableLabel: Corruption: Teachers and school administrators
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=None
+             1=Some of them
+             2=Most of them
+             3=All of them
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q57A
+Question: in the past year, how often (if ever) have you had to pay a bribe, give a gift, or do a favor to government officials in order to: get a document or a permit
+VariableLabel: Pay bribe for: Document or permit
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or Twice
+             2=A Few Times
+             3=Often
+             7=No experience with this in the past year
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q57B
+Question: in the past year, how often (if ever) have you had to pay a bribe, give a gift, or do a favor to government officials in order to: get a child into school
+VariableLabel: Pay bribe for: School placement
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or Twice
+             2=A Few Times
+             3=Often
+             7=No experience with this in the past year
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q57C
+Question: in the past year, how often (if ever) have you had to pay a bribe, give a gift, or do a favor to government officials in order to: get a household service (like piped water, electricity, or phone)
+VariableLabel: Pay bribe for: household service
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or Twice
+             2=A Few Times
+             3=Often
+             7=No experience with this in the past year
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q57D
+Question: in the past year, how often (if ever) have you had to pay a bribe, give a gift, or do a favor to government officials in order to: get medicine or medical attention
+VariableLabel: Pay bribe for: get medicine or medical attention?
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or Twice
+             2=A Few Times
+             3=Often
+             7=No experience with this in the past year
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q57E
+Question: in the past year, how often (if ever) have you had to pay a bribe, give a gift, or do a favor to government officials in order to: avoid a problem with the police (like passing a checkpoint or avoiding a fine or arrest)
+VariableLabel: Pay bribe for: Avoid problem with police
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or Twice
+             2=A Few Times
+             3=Often
+             7=No experience with this in the past year
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB          27
+Note: 
+
+Pk: 0
+QuestionNumber: Q57F
+Question: and during the 2001 national election, how often (if ever) did a candidate or someone from a political part offer you something, like food or a gift, in return for your vote
+VariableLabel: Election incentives offered
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or Twice
+             2=A Few Times
+             3=Often
+             7=No experience with this in the past year
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: 
+
+Pk: 0
+QuestionNumber: Q58A
+Question: for each of the following please indicate whether you think the act is not wrong at all, wrong but understandable, or wrong and punishable:  a government official gives a job to someone from his family who does not have adequate qualifications
+VariableLabel: Right or wrong: job for relative
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Not Wrong at All
+             2=Wrong But Understandable
+             3=Wrong and Punishable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q58B
+Question: for each of the following please indicate whether you think the act is not wrong at all, wrong but understandable, or wrong and punishable:  a government official demands a favour or an additional payment for some service that is part of his job
+VariableLabel: Right or wrong: favor for service
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Not Wrong at All
+             2=Wrong But Understandable
+             3=Wrong and Punishable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q58C
+Question: for each of the following please indicate whether you think the act is not wrong at all, wrong but understandable, or wrong and punishable:  a public official decides to locate a development project in an area where his friends and supporters lived
+VariableLabel: Right or wrong: development for supporters
+Values: 1-3
+        9
+        98
+        -1
+ValueLabels: 1=Not Wrong at All
+             2=Wrong But Understandable
+             3=Wrong and Punishable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q59
+Question: which of the following statements is closest to your view? choose statement a or statement b.  a:  our elected officials should listen to constituents’ views and do what they demand. b: our elected leaders should follow their own ideas in deciding what is best for the country
+VariableLabel: Elected leaders listen vs. follow own ideas
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+Note: 
+
+Pk: 0
+QuestionNumber: Q60
+Question: how much time should your member of parliament spend in this constituency to visit the community and its citizens
+VariableLabel: Time MP should spend
+Values: 0-4
+        9
+        98
+        -1
+ValueLabels: 0=Never/It is Not Necessary
+             1=At Least Once a Year
+             2=At Least Once a Month
+             3=At Least Weekly
+             4=Should Stay Here All the Time
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q61
+Question: how much time does your member of parliament spend in this constituency
+VariableLabel: Time MP does spend
+Values: 0-4
+        9
+        98
+        -1         28
+ValueLabels: 0=Never
+             1=At Least Once a Year
+             2=At Least Once a Month A
+             3=At Least Weekly
+             4=She/ He is Here Almost All the Time
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q62A
+Question: how much of the time do think the following try their best to listen to what people like you have to say: members of parliament
+VariableLabel: MPs listen
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only Sometimes
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q62B
+Question: how much of the time do think the following try their best to listen to what people like you have to say: elected councillors
+VariableLabel: Local Government Councilors listen
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Only Sometimes
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q63PT1
+Question: in your opinion, what are the most important problems facing this country that government should address
+VariableLabel: Most important problems – 1st response
+Values: 0-31
+        995-996
+        998-999
+        -1
+ValueLabels: 0=Nothing/No problems
+             1=Management of the economy
+             2=Wages, income and salaries
+             3=Unemployment
+             4=Poverty/destitution
+             5=Rates and Taxes
+             6=Loans /Credit
+             7=Farming/agriculture
+             8=Food shortage/famine
+             9=Drought
+             10=Land
+             11=Transportation
+             12=Communications
+             13=Infrastructure/roads
+             14=Education
+             15=Housing
+             16=Electricity
+             17=Water supply
+             18=Orphans/street children/homeless children
+             19= Services/other
+             20=Health
+             21=AIDS
+             22=Sickness/Disease
+             23=Crime and Security
+             24=Corruption
+             25=Political Violence
+             26=Political instability/political divisions/ethnic tensions
+             27=Discrimination/inequality
+             28=Gender issues/women's rights
+             29=Democracy/political rights
+             30=War(international)
+             31=Civil War
+             995=Other
+             998=Refused to answer
+             999=Don't know, -
+             1=Missing data
+Source: SAB
+Note: Respondent could give up to three responses.
+
+Pk: 0
+QuestionNumber: Q63PT2
+Question: in your opinion, what are the most important problems facing this country that government should address
+VariableLabel: Most important problems – 2nd response
+Values: 1-31
+        995-996
+        -1
+ValueLabels: 1=Management of the economy
+             2=Wages, income and salaries
+             3=Unemployment
+             4=Poverty/destitution
+             5=Rates and Taxes
+             6=Loans /Credit
+             7=Farming/agriculture
+             8=Food shortage/famine
+             9=Drought
+             10=Land
+             11=Transportation
+             12=Communications
+             13=Infrastructure/roads
+             14=Education
+             15=Housing
+             16=Electricity
+             17=Water supply
+             18=Orphans/street children/homeless children
+             19= Services/other
+             20=Health
+             21=AIDS
+             22=Sickness/Disease
+             23=Crime and Security
+             24=Corruption
+             25=Political Violence
+             26=Political instability/political divisions/ethnic tensions
+             27=Discrimination/inequality
+             28=Gender issues/women's rights
+             29=Democracy/political rights
+             30=War(international)
+             31=Civil War
+             995=Other
+             996= No Further Response, -
+             1=Missing data
+Source: SAB
+Note: Respondent could give up to three responses.
+
+Pk: 0
+QuestionNumber: Q63PT3
+Question: in your opinion, what are the most important problems facing this country that government should address
+VariableLabel: Most important problems – 3rd response
+Values: 1-31
+        995-996
+        -1
+ValueLabels: 1=Management of the economy
+             2=Wages, income and salaries
+             3=Unemployment
+             4=Poverty/destitution
+             5=Rates and Taxes
+             6=Loans /Credit
+             7=Farming/agriculture
+             8=Food shortage/famine, 29 9=Drought
+             10=Land
+             11=Transportation
+             12=Communications
+             13=Infrastructure/roads
+             14=Education
+             15=Housing
+             16=Electricity
+             17=Water supply
+             18=Orphans/street children/homeless children
+             19= Services/other
+             20=Health
+             21=AIDS
+             22=Sickness/Disease
+             23=Crime and Security
+             24=Corruption
+             25=Political Violence
+             26=Political instability/political divisions/ethnic tensions
+             27=Discrimination/inequality
+             28=Gender issues/women's rights
+             29=Democracy/political rights
+             30=War(international)
+             31=Civil War
+             995=Other
+             996= No Further Response, -
+             1=Missing data
+Source: SAB
+Note: Respondent could give up to three responses.
+
+Pk: 0
+QuestionNumber: Q64
+Question: taking the problem you mentioned first, how likely is it that the government will solve your most important problem within the next few years
+VariableLabel: Government solve most important problem
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0= Not At All Likely
+             1=Not Very Likely
+             2=Likely
+             3=Very Likely
+             7=Not Applicable
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65A
+Question: now let’s speak about the present government of this country. how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: managing the economy
+VariableLabel: Handling managing the economy
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65B
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: creating jobs
+VariableLabel: Handling creating jobs
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65C
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: keeping prices stable
+VariableLabel: Handling keeping prices stable
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65D
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: narrowing gaps between rich and poor
+VariableLabel: Handling narrowing income gaps
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB         30
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65E
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: reducing crime
+VariableLabel: Handling reducing crime
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65F
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: improving basic health services
+VariableLabel: Handling improving basic health services
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65G
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: addressing educational needs
+VariableLabel: Handling addressing educational needs
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: NDB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65H
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: delivering household water
+VariableLabel: Handling delivering household water
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65I
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: ensuring everyone has enough to eat
+VariableLabel: Handling ensuring enough to eat
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65J
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: fighting corruption in government
+VariableLabel: Handling fighting corruption
+Values: 1-4
+        9
+        98
+        -1         31
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q65K
+Question: how well or badly would you say the current government is handling the following matters, or haven’t you heard enough about them to say: combating hiv or aids
+VariableLabel: Handling combating HIV/AIDS
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q66
+Question: which of these statements is closest to your view? choose statement a or statement b.  a: the government should devote many more resources to combating aids, even if this means that less money is spent on things like education. b: there are many other problems facing this country beside aids; even if people are dying in large numbers, the government needs to keep its focus on solving other problems
+VariableLabel: Resources to combat AIDS vs. other problems
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer probed for strength of opinion asking “Do you agree or agree very strongly?”
+
+Pk: 0
+QuestionNumber: Q67A
+Question: what about local government?  how well or badly would you say your local government is handling the following matters, or haven’t you heard enough about them to say: maintaining our roads
+VariableLabel: Local government handling maintaining roads
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q67B
+Question: what about local government?  how well or badly would you say your local government is handling the following matters, or haven’t you heard enough about them to say: keeping our community clean
+VariableLabel: Local government handling keeping community clean
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q67C
+Question: what about local government?  how well or badly would you say your local government is handling the following matters, or haven’t you heard enough about them to say: collecting local taxes
+VariableLabel: Local government handling collecting local taxes
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q67D
+Question: what about local government?  how well or badly would you say your local government is handling the following matters, or haven’t you heard enough about them to say: deciding how to spend local revenues?         32
+VariableLabel: Local government handling spending decisions
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Very Badly
+             2=Fairly Badly
+             3=Fairly Well
+             4=Very Well
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q68A
+Question: do you approve or disapprove of the way that the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: president levy mwanawasa
+VariableLabel: Performance: President
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disapprove
+             2=Disapprove
+             3=Approve
+             4=Strongly Approve
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q68B
+Question: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: your member of parliament (mp)
+VariableLabel: Performance: MP
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disapprove
+             2=Disapprove
+             3=Approve
+             4=Strongly Approve
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q68C
+Question: do you approve or disapprove of the way the following people have performed their jobs over the past twelve months, or haven’t you heard enough about them to say: elected councillor
+VariableLabel: Performance: Local government councilor
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Strongly Disapprove
+             2=Disapprove
+             3=Approve
+             4=Strongly Approve
+             9=Don’t Know/Haven’t heard enough
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.
+
+Pk: 0
+QuestionNumber: Q69A
+Question: can you tell me whether the [country]n government has a policy to provide: free primary education, that is, parents do not have to pay school fees
+VariableLabel: Policy knowledge: Free primary education
+Values: 1-2
+        9
+        98
+        -1
+ValueLabels: 1=Incorrect answer
+             2=Correct Answer
+             9=Don’t Know
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q69B
+Question: can you tell me whether the [country]n government has a policy to provide: free healthcare at public clinics, that is, no fees for visits or medicine
+VariableLabel: Policy knowledge: Free health care
+Values: 1-2
+        9
+        98
+        -1
+ValueLabels: 1=Incorrect answer
+             2=Correct Answer
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q70A
+Question: how likely do you think it would be that the authorities could enforce the law if a top government official committed a serious crime
+VariableLabel: Enforce law: Top official commits serious crime
+Values: 1-4
+        9
+        98
+        -1         33
+ValueLabels: 1=Not at all likely
+             2=Not very likely
+             3=Likely
+             4=Very Likely
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q70B
+Question: how likely do you think it would be that the authorities could enforce the law if a person like you committed a serious crime
+VariableLabel: Enforce law: You commit serious crime
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Not at all likely
+             2=Not very likely
+             3=Likely
+             4=Very Likely
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 1
+Note: 
+
+Pk: 0
+QuestionNumber: Q70C
+Question: how likely do you think it would be that the authorities could enforce the law if a top official did not pay a tax on some of the income they earned
+VariableLabel: Enforce law: Top official doesn’t pay tax
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Not at all likely
+             2=Not very likely
+             3=Likely
+             4=Very Likely
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q70D
+Question: how likely do you think it would be that the authorities could enforce the law if a person like you did not pay a tax on some of the income you earned
+VariableLabel: Enforce law: You don’t pay tax
+Values: 1-4
+        9
+        98
+        -1
+ValueLabels: 1=Not at all likely
+             2=Not very likely
+             3=Likely
+             4=Very Likely
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q71A
+Question: based on your experience, how easy or difficult is to obtain the following services?  or do you never try and get these services from government: an identity document (such as a birth certificate, driver’s license, passport or voter card)
+VariableLabel: Difficulty to obtain identity document
+Values: 1-4
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Very Difficult
+             2=Difficult
+             3=Easy
+             4=Very Easy
+             7=Never Try
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from Afrobarometer Round 1
+Note: 
+
+Pk: 0
+QuestionNumber: Q71B
+Question: based on your experience, how easy or difficult is to obtain the following services?  or do you never try and get these services from government: household services (like piped water, electricity or telephone)
+VariableLabel: Difficulty to obtain household services
+Values: 1-4
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Very Difficult
+             2=Difficult
+             3=Easy
+             4=Very Easy
+             7=Never Try
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Adapted from SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q71C
+Question: based on your experience, how easy or difficult is to obtain the following services?  or do you never try and get these services from government: help from the police when you need it
+VariableLabel: Difficulty to obtain help from the police
+Values: 1-4
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Very Difficult
+             2=Difficult
+             3=Easy
+             4=Very Easy
+             7=Never Try
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Afrobarometer Round 2         34
+Note: 
+
+Pk: 0
+QuestionNumber: Q71D
+Question: based on your experience, how easy or difficult is to obtain the following services?  or do you never try and get these services from government: a place in primary school for a child
+VariableLabel: Difficulty to obtain primary school placement
+Values: 1-4
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Very Difficult
+             2=Difficult
+             3=Easy
+             4=Very Easy
+             7=Never Try
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q71E
+Question: based on your experience, how easy or difficult is to obtain the following services?  or do you never try and get these services from government: medical treatment at a nearby clinic
+VariableLabel: Difficulty to obtain medical treatment
+Values: 1-4
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Very Difficult
+             2=Difficult
+             3=Easy
+             4=Very Easy
+             7=Never Try
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q72A
+Question: why do you never try to get: an identity document
+VariableLabel: Why not try to get: identity document
+Values: 1-5
+        7
+        9
+        98
+        -1
+ValueLabels: 1=I don’t need it/use it
+             2=I don’t know how
+             3=Govt does not provide it
+             4=No personal connections in right places
+             5=Some other response
+             7=N/A
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q72B
+Question: why do you never try to get: household services
+VariableLabel: Why not try to get: household services
+Values: 1-5
+        7
+        9
+        98
+        -1
+ValueLabels: 1=I don’t need it/use it
+             2=I don’t know how
+             3=Govt does not provide it
+             4=No personal connections in right places
+             5=Some other response
+             7=N/A
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q72C
+Question: why do you never try to get: help from the police when you need it
+VariableLabel: Why not try to get: Help from police
+Values: 1-5
+        7
+        9
+        98
+        -1
+ValueLabels: 1=I don’t need it/use it
+             2=I don’t know how
+             3=Govt does not provide it
+             4=No personal connections in right places
+             5=Some other response
+             7=N/A
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q73A
+Question: have you encountered any of these problems with your local public schools during the past 12 months: services are too expensive  or unable to pay
+VariableLabel: Problems with schools: too expensive
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with public schools in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q73B
+Question: have you encountered any of these problems with your local public schools during the past 12 months: lack of textbooks or other supplies
+VariableLabel: Problems with schools: textbooks and supplies
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with public schools in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data         35
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q73C
+Question: have you encountered any of these problems with your local public schools during the past 12 months: poor teaching
+VariableLabel: Problems with schools: poor teaching
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with public schools in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q73D
+Question: have you encountered any of these problems with your local public schools during the past 12 months: absent teachers
+VariableLabel: Problems with schools: Absent teachers
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with public schools in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q73E
+Question: have you encountered any of these problems with your local public schools during the past 12 months: overcrowded classrooms
+VariableLabel: Problems with schools: overcrowded classrooms
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with public schools in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q73F
+Question: have you encountered any of these problems with your local public schools during the past 12 months: poor conditions of facilities
+VariableLabel: Problems with schools: poor facilities
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with public schools in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q73G
+Question: have you encountered any of these problems with your local public schools during the past 12 months: demands for illegal payments
+VariableLabel: Problems with schools: illegal payments
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with public schools in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q74A
+Question: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: services are too expensive  or unable to pay
+VariableLabel: Problems with public clinic: too expensive
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with clinics in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q74B
+Question: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: lack of medicines or other supplies
+VariableLabel: Problems with public clinic: Lack of medicine/supplies
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with clinics in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data          36
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q74C
+Question: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: lack of attention or respect from staff
+VariableLabel: Problems with public clinic: Lack of attention/respect
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with clinics in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q74D
+Question: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: absent doctors
+VariableLabel: Problems with public clinic: Absent doctors
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with clinics in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q74E
+Question: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: long waiting time
+VariableLabel: Problems with public clinic: Long waiting time
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with clinics in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q74F
+Question: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: dirty facilities
+VariableLabel: Problems with public clinic: Dirty facilities
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with clinics in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q74G
+Question: have you encountered any of these problems with your local public clinic or hospital during the past 12 months: demands for illegal payments
+VariableLabel: Problems with public clinic: illegal payments
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Once or twice
+             2=A few times
+             3=Often
+             7=No experience with clinics in the past twelve months
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q75A
+Question: what, if anything, would you do to try and resolve each of the following situations: you were waiting for a government permit or license, but kept encountering delays
+VariableLabel: What do: Waiting for permit
+Values: 1-7
+        9
+        98
+        -1
+ValueLabels: 1= Don’t worry, things will be resolved given enough time
+             2= Lodge complaint through proper channels or procedures
+             3= Use connections with influential people
+             4= Offer tip or bribe
+             5= Join in Public Protest
+             6=Other
+             7=Nothing, because nothing can be done
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q75B
+Question: what, if anything, would you do to try and resolve each of the following situations: election officials left your name off the voters roll
+VariableLabel: What do: Name missing
+Values: 1-7
+        9
+        98
+        -1
+ValueLabels: 1= Don’t worry, things will be resolved given enough time
+             2= Lodge complaint through proper channels or procedures
+             3= Use connections with influential people
+             3= Use connections with influential people
+             4= Offer tip or bribe
+             5= Join in Public Protest
+             6=Other
+             7=Nothing, because nothing can be done
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data         37
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q75C
+Question: what, if anything, would you do to try and resolve each of the following situations: you suspected a school or clinic official of stealing
+VariableLabel: What do: Suspect school official
+Values: 1-7
+        9
+        98
+        -1
+ValueLabels: 1= Don’t worry, things will be resolved given enough time
+             2= Lodge complaint through proper channels or procedures
+             3= Use connections with influential people
+             3= Use connections with influential people
+             4= Offer tip or bribe
+             5= Join in Public Protest
+             6=Other
+             7=Nothing, because nothing can be done
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q75D
+Question: what, if anything, would you do to try and resolve each of the following situations: the police wrongly arrested someone in your family
+VariableLabel: What do: Wrongful arrest
+Values: 1-7
+        9
+        98
+        -1
+ValueLabels: 1= Don’t worry, things will be resolved given enough time
+             2= Lodge complaint through proper channels or procedures
+             3= Use connections with influential people
+             3= Use connections with influential people
+             4= Offer tip or bribe
+             5= Join in Public Protest
+             6=Other
+             7=Nothing, because nothing can be done
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q75E
+Question: what, if anything, would you do to try and resolve each of the following situations: someone wrongly seized your family’s land
+VariableLabel: What do: Land seized
+Values: 1-7
+        9
+        98
+        -1
+ValueLabels: 1= Don’t worry, things will be resolved given enough time
+             2= Lodge complaint through proper channels or procedures
+             3= Use connections with influential people
+             3= Use connections with influential people
+             4= Offer tip or bribe
+             5= Join in Public Protest
+             6=Other
+             7=Nothing, because nothing can be done
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q76A
+Question: who should be responsible for making sure that, once elected, members of parliament do their jobs
+VariableLabel: Who responsible: MPs do job
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0= The President/Executive
+             1= The Parliament/Local Council
+             2= Their Political Party
+             3= The Voters
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q76B
+Question: who should be responsible for making sure that, once elected, local government councillors do their jobs
+VariableLabel: Who responsible: Local councilors do jobs
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0= The President/Executive
+             1= The Parliament/Local Council
+             2= Their Political Party
+             3= The Voters
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q77A
+Question: think about how elections work in practice in this country.  how well do elections ensure that the members of parliament reflect the views of voters
+VariableLabel: Elections ensure parliament reflects voters
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0= Not at all well
+             1= Not very well
+             2= Well
+             3= Very Well
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q77B
+Question: think about how elections work in practice in this country.  how well do elections enable voters to remove from office leaders who do not do what the people want?         38
+VariableLabel: Elections enable voters to remove leaders
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0= Not at all well
+             1= Not very well
+             2= Well
+             3= Very Well
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q78A
+Question: in your opinion, how often do politicians do each of the following: make promises simply to get elected
+VariableLabel: Politicians make promises to get elected
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Sometimes
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q78B
+Question: in your opinion, how often do politicians do each of the following: offer gifts to voters during election campaigns
+VariableLabel: Politicians give gifts in campaigns
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Sometimes
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q78C
+Question: in your opinion, how often do politicians do each of the following: keep their campaign promises after elections
+VariableLabel: Politicians keep campaign promises
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Sometimes
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q78D
+Question: in your opinion, how often do politicians do each of the following: do their best to deliver development after elections
+VariableLabel: Politicians deliver development
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Sometimes
+             2=Often
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q79
+Question: what is your tribe? you know, your ethnic or cultural group
+VariableLabel: Tribe or ethnic group
+Values: 420-433
+        435-439
+        860-875
+        990
+        998-999
+        -1
+ValueLabels: 420=Bemba
+             422=Tonga
+             423=Lozi
+             424=Chewa
+             425=Nsenga
+             426=Tumbuka
+             427=Kaonde
+             428=Luvale
+             429=Namwanga
+             430=Mambwe
+             431=Lenje
+             432=Lunda
+             433=Ngoni
+             435=Bisa
+             436=Ila
+             437=Nkoya
+             438=Lala
+             439=Mbunda
+             860=Senga
+             861=Swahili
+             862=Nyanja
+             863=Soli
+             864=Chokwe
+             865=Nyika
+             866=Luchazi
+             867=Lamba
+             868=Kunda
+             869=Tabwa
+             870=Takaleya
+             871=Aushi
+             872=Kalunda
+             873=Kwamashi
+             874=Lambia
+             875=Chichinga
+             990=Zambian only or “doesn’t think of self in those terms”
+             998=Refused to Answer
+             999=Don't Know, -
+             1=Missing data
+Source: SAB
+Note: Interviewer entered respondent’s exact response. If respondent answered “Don’t know,” said s/he does not belong to any group, or refused to answer, questions 80, 81, and 82 were marked as “Not Applicable” and the interview continued with question 83.
+
+Pk: 0
+QuestionNumber: Q80A
+Question: think about the condition of  ____________ [respondent’s identity group].  are their economic conditions worse, the same as, or better than other group in this country?          39
+VariableLabel: Ethnic group’s economic conditions
+Values: 1-5
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Much Better
+             2=Better
+             3=Same
+             4=Worse
+             5=Much Worse
+             7=Not Applicable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.  If respondent had not identified a group on question 79, this question was marked as “Not Applicable.”
+
+Pk: 0
+QuestionNumber: Q80B
+Question: think about the condition of ____________ [respondent’s identity group].  do they have less, the same, or more influence in politics than other group in this country
+VariableLabel: Ethnic group’s political influence
+Values: 1-5
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Much Better
+             2=Better
+             3=Same
+             4=Worse
+             5=Much Worse
+             7=Not Applicable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.  If respondent had not identified a group on question 79, this question was marked as “Not Applicable.”
+
+Pk: 0
+QuestionNumber: Q81
+Question: how often are ___________s [respondent’s identity group] treated unfairly by the government
+VariableLabel: Ethnic group treated unfairly
+Values: 0-3
+        7
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Sometimes
+             2=Often
+             3=Always
+             7=Not Applicable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.  If respondent had not identified a group on question 79, this question was marked as “Not Applicable.”
+
+Pk: 0
+QuestionNumber: Q82
+Question: let us suppose that you had to choose between being a [country]n and being a ________ [respondent’s identity group].  which of these two group do you feel most strongly attached to
+VariableLabel: Ethnic or national identity
+Values: 1-5
+        7
+        9
+        98
+        -1
+ValueLabels: 1=I Feel Only (r’s group)
+             2=I Feel More (r’s group) than Zambian
+             3=I Feel Equally Zambian and (r’s groups)
+             4=I Feel More Zambian than (r’s groups)
+             5=I feel only Zambian
+             7=Not Applicable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: Interviewer probed for strength of opinion.  If respondent had not identified a group on question 79, this question was marked as “Not Applicable.”
+
+Pk: 0
+QuestionNumber: Q83
+Question: generally speaking, would you say that most people can be trusted or that you must be very careful in dealing with people
+VariableLabel: Most people can be trusted
+Values: 0-1
+        9
+        98
+        -1
+ValueLabels: 0=You must be very careful
+             1=Most people can be trusted
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q84A
+Question: how much do you trust each of the following types of people: your relatives
+VariableLabel: Trust relatives
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=I trust them somewhat
+             3=I trust them a lot
+             9=Don’t know
+             98=Refused to Answer, -
+             1=Missing Data          40
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q84B
+Question: how much do you trust each of the following types of people: your neighbors
+VariableLabel: Trust neighbors
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=I trust them somewhat
+             3=I trust them a lot
+             9=Don’t know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q84C
+Question: how much do you trust each of the following types of people: people from your own ethnic group
+VariableLabel: Trust people from your ethnic group
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=I trust them somewhat
+             3=I trust them a lot
+             9=Don’t know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q84D
+Question: how much do you trust each of the following types of people: [country]ns from other ethnic group
+VariableLabel: Trust people from other ethnic groups
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Not at all
+             1=Just a little
+             2=I trust them somewhat
+             3=I trust them a lot
+             9=Don’t know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q85
+Question: do you feel close to any particular political party
+VariableLabel: Close to political party
+Values: 0-1
+        8-9
+        -1
+ValueLabels: 0=No, not close to any party
+             1=Yes
+             8=Refused to Answer
+             9=Don’t Know, -
+             1=Missing Data
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: Q86
+Question: which party is that
+VariableLabel: Which party
+Values: 420-434
+        995
+        997
+        998-999
+        -1
+ValueLabels: 420=Forum for Democracy and Development (FDD)
+             421=Heritage Party
+             422= Movement for Multiparty Democracy (MMD)
+             423= Patriotic Front (PF)
+             424= United National Independence Party (UNIP)
+             425= United Party for National Development (UPND)
+             426= Zambian Republican Party (ZRP)
+             427= Party for Unity Democracy and Development (PUDD)
+             428= National Alliance Party (NAP)
+             429= Zambia Freedom Party (ZFP)
+             430= National Democratic Party (NDP)
+             431= National Party (NP)
+             432= Democratic Party (DP)
+             433= United Party for Democrats (UPD)
+             434= Zambia United Development Party (ZUDP)
+             995=Other
+             997=N/A
+             998=Refused to Answer
+             999=Don’t Know, -
+             1=Missing Data
+Source: Zambia 96
+Note: 
+
+Pk: 0
+QuestionNumber: Q87
+Question: do you feel very close to this party, somewhat close, or not very close
+VariableLabel: How close to this political party
+Values: 1-3
+        7
+        9
+        98
+        -1
+ValueLabels: 1=Not very close
+             2=Somewhat close
+             3=Very close
+             7=Not Applicable
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia 96
+Note: If respondent answered 87A=“No,” “Don’t Know,” or “Refused to answer,” interviewer marked 8=“Not Applicable”
+
+Pk: 0
+QuestionNumber: Q88A_ZAM
+Question: which of the following statements is closest to your view? choose statement a or statement b. a: the best form of government is a government elected by its people. b: the best form of government is a government that gets things done
+VariableLabel: Elected government vs. government that gets things done
+Values: 1-5
+        9
+        98
+        -1         41
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia Afrobarometer Round 3
+Note: 
+
+Pk: 0
+QuestionNumber: Q88B_ZAM
+Question: which of the following statements is closest to your view? choose statement a or statement b. a: in [country] today, we now have a real choice among different political parties and candidates. b: in [country] today, we are well on our way to becoming another single party state
+VariableLabel: Do have choice among parties/candidates vs. becoming a single party state
+Values: 1-5
+        9
+        98
+        -1
+ValueLabels: 1=Agree Very Strongly with A
+             2=Agree with A
+             3=Agree with B
+             4=Agree Very Strongly with B
+             5=Agree with Neither
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: Zambia Afrobarometer Round 3
+Note: 
+
+Pk: 0
+QuestionNumber: Q89A_ZAM
+Question: in [country], is there a difference between a political party and a government, or are they the same thing
+VariableLabel: Difference between political party and government
+Values: 0
+        1
+        9
+        -1
+ValueLabels: 0=The same
+             1=Difference
+             9=Don’t Know, -
+             1=Missing Data
+Source: Zambia Afrobarometer Round 3
+Note: 
+
+Pk: 0
+QuestionNumber: Q89B_ZAM
+Question: in [country], is there a difference between the central government and your local government council, or are they the same thing
+VariableLabel: Difference between central government and local government
+Values: 0
+        1
+        9
+        -1
+ValueLabels: 0=The same
+             1=Difference
+             9=Don’t Know, -
+             1=Missing Data
+Source: Zambia Afrobarometer Round 3
+Note: 
+
+Pk: 0
+QuestionNumber: Q90
+Question: what is the highest level of education you have completed
+VariableLabel: Education of respondent
+Values: 0-9
+        98-99
+        -1
+ValueLabels: 0=No formal schooling
+             1=Informal schooling (including Koranic schooling)
+             2=Some primary schooling
+             3=Primary school completed
+             4=Some secondary school/ High school
+             5=Secondary school completed/High school
+             6=Post-secondary qualifications, other than university e, g, a diploma or degree from a technical/polytechnic/college
+             7=Some university
+             8=University completed
+             9=Post-graduate
+             98=Refused to Answer
+             99=Don’t Know, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q91
+Question: what is your religion, if any
+VariableLabel: Religion of respondent
+Values: 0
+        2-14
+        995
+        998-999
+        -1
+ValueLabels: 0=None
+             2=Catholic
+             3=Protestant (Mainstream)
+             4=Protestant (Evangelical/Pentecostal)
+             5=African Independent Church
+             6=Traditional religion
+             7=Hindu
+             8=Agnostic (Do not know if there is a God)
+             9=Atheist (Do not believe in a God)
+             10=Christian (General)
+             11=Muslim, Sunni
+             12=Muslim, Shiite
+             13=Jehovah’s Witness
+             14=Seventh Day Adventist/Mormon
+             995=Other
+             998=Refused to Answer
+             999=Don’t Know, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q92
+Question: excluding weddings and funerals, how often do you attend religious services
+VariableLabel: How often attend religious services
+Values: 1-6
+        9
+        98
+        -1
+ValueLabels: 1=Never
+             2=About once a year or less
+             3=About once every several months
+             4=About once a month
+             5=About once a week
+             6=More than once a week
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB          42
+Note: 
+
+Pk: 0
+QuestionNumber: Q93A
+Question: which of these things do you personally own: book, you know, a reading book
+VariableLabel: Own book
+Values: 0-1
+        9
+        98
+        -1
+ValueLabels: 0=No (Don’t own)
+             1=Yes (Do Own)
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q93B
+Question: which of these things do you personally own: radio
+VariableLabel: Own radio
+Values: 0-1
+        9
+        98
+        -1
+ValueLabels: 0=No (Don’t own)
+             1=Yes (Do Own)
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q93C
+Question: which of these things do you personally own: television
+VariableLabel: Own television
+Values: 0-1
+        9
+        98
+        -1
+ValueLabels: 0=No (Don’t own)
+             1=Yes (Do Own)
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q93D
+Question: which of these things do you personally own: bicycle
+VariableLabel: Own bicycle
+Values: 0-1
+        9
+        98
+        -1
+ValueLabels: 0=No (Don’t own)
+             1=Yes (Do Own)
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q93E
+Question: which of these things do you personally own: motorcycle
+VariableLabel: Own motorcycle
+Values: 0-1
+        9
+        98
+        -1
+ValueLabels: 0=No (Don’t own)
+             1=Yes (Do Own)
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q93F
+Question: which of these things do you personally own: motor vehicle  or car
+VariableLabel: Own Motor vehicle or car
+Values: 0-1
+        9
+        98
+        -1
+ValueLabels: 0=No (Don’t own)
+             1=Yes (Do Own)
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q94
+Question: do you have a job that pays a cash income?  is it full-time or part-time?  and are you presently looking for a job (even if you are presently working)
+VariableLabel: Employment status
+Values: 0-5
+        9
+        98
+        -1
+ValueLabels: 0=No (not looking)
+             1=No (looking)
+             2=Yes, part time (not looking)
+             3=Yes, part time (looking)
+             4=Yes, full time (not looking)
+             5=Yes, full time (looking)
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q95
+Question: what is your main occupation? (if unemployed, retired, or disabled, what was your last main occupation?)
+VariableLabel: Main occupation
+Values: 0-24
+        990-993
+        995
+        998-999
+        -1         43
+ValueLabels: 0=Never had a job
+             1=Subsistence Farmer (produces only for home consumption)
+             2=Peasant Farmer (produces both for own consumption and some surplus produce for sale)
+             3=Commercial Farmer (produces mainly for sale)
+             4=Farm worker
+             5=Fisherman
+             6=Trader/Hawker/Vendor
+             7=Miner
+             8=Domestic Worker/Maid/Char/Househelp
+             9=Armed Services/Police/Security Personnel
+             10=Artisan/skilled manual worker - formal sector
+             11= Artisan/skilled manual worker - informal sector
+             12=Clerical Worker
+             13= Unskilled manual in the formal sector
+             14= Unskilled manual worker in the informal sector
+             15= Businessperson (works in the company of others)
+             16= Businessperson (Owns small business of less than 10 employees)
+             17=Businessperson (Owns large business of more than 10 employees)
+             18= Professional Worker (e, g, , lawyer, accountant, nurse, engineer, etc, )
+             19= Supervisor/Foreman
+             20=Teacher
+             21=Government Worker
+             22=Retail worker
+             23= Student
+             24=Housewife/Works In the Household
+             990=Unemployed
+             991=Retired
+             992=Disabled
+             993=Anything
+             995=Other
+             998=Refused to Answer
+             999=Don’t Know, -
+             1=Missing Data
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q96A
+Question: in the last month, how much of the time: has your physical health reduced the amount of work you would normally do inside or outside your home
+VariableLabel: Physical health
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Many times
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q96b
+Question: in the last month, how much of the time: have you been so worried or anxious that you have felt tired, worn out, or exhausted
+VariableLabel: Mental health
+Values: 0-3
+        9
+        98
+        -1
+ValueLabels: 0=Never
+             1=Just once or twice
+             2=Many times
+             3=Always
+             9=Don’t Know
+             98=Refused to Answer, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q97
+Question: do you know a close friend or relative who has died of aids
+VariableLabel: Know died of AIDS
+Values: 0-1
+        8-9
+        -1
+ValueLabels: 0=No
+             1=Yes
+             8=Refused to Answer
+             9=Don’t Know, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q98
+Question: how many close friends or relatives do you know who have died of aids
+VariableLabel: How many died of AIDS
+Values: 0-79
+        98-99
+        -1
+ValueLabels: 98=Refused to Answer
+             99=Don’t Know, -
+             1=Missing Data
+Source: SAB
+Note: 
+
+Pk: 0
+QuestionNumber: Q99
+Question: if a presidential election were held tomorrow, which party’s candidate would you vote for
+VariableLabel: Vote for which party
+Values: 420-434
+        995
+        997
+        998-999
+        -1
+ValueLabels: 420=Forum for Democracy and Development (FDD)
+             421=Heritage Party
+             422= Movement for Multiparty Democracy (MMD)
+             423= Patriotic Front (PF)
+             424= United National Independence Party (UNIP)
+             425= United Party for National Development (UPND)
+             426= Zambian Republican Party (ZRP)
+             427= Party for Unity Democracy and Development (PUDD)
+             428= National Alliance Party (NAP)
+             429= Zambia Freedom Party (ZFP)
+             430= National Democratic Party (NDP)
+             431= National Party (NP)
+             432= Democratic Party (DP)
+             433= United Party for Democrats (UPD)
+             434= Zambia United Development Party (ZUDP)
+             995=Other
+             997=Would note vote
+             998=Refused to Answer
+             999=Don’t Know, -
+             1=Missing Data
+Source: Zambia 96          44
+Note: 
+
+Pk: 0
+QuestionNumber: Q100
+Question: who do you think sent us to do this interview
+VariableLabel: Perceived survey sponsor
+Values: 0-24
+        995
+        998-999
+        -1
+ValueLabels: 0=No one
+             1=Government (general)
+             2=Government (Federal/national)
+             3=Government (Regional/provincial)
+             4=Government (Local)
+             5=President or Prime Minister's Office
+             6=Parliament
+             7=Government Census/ Statistics Office
+             8=National Intelligence/ Secret Service
+             9=Education or Social Affairs Department/ Ministry
+             10=Tax or Finance Department/ Ministry
+             11=Health Department/ Ministry
+             12=Other Government department/ Ministry
+             13=Constitutional Commission
+             14=Electoral Commission
+             15=National Planning Commission
+             16=Public Utility Company
+             17=NGO
+             18=Political party/politicians
+             19=Research company/ organization/ programme (including the Afrobarometer National Partner)
+             20=Newspapers/media
+             21=University/ school/ college
+             22=Private Company
+             23=International Organization
+             24=God or a Religious organization
+             995=Other
+             998=Refused to Answer
+             999=Don't know, -
+             1=Missing Data
+Source: Afrobarometer Round 2
+Note: Interviewer entered verbatim response
+
+Pk: 0
+QuestionNumber: Endtime
+Question: time interview ended
+VariableLabel: Time interview ended
+Values: NA
+ValueLabels: Answered by interviewer, Entered hour and minute, 24 hour clock
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Length
+Question: length of interview
+VariableLabel: Length of interview
+Values: NA
+ValueLabels: Answered by interviewer, Entered hour and minute
+Source: 
+Note: 
+
+Pk: 0
+QuestionNumber: Q101
+Question: respondent’s gender
+VariableLabel: Gender of respondent
+Values: 1
+ValueLabels: 1=Male
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q102
+Question: respondent’s race
+VariableLabel: Race of respondent
+Values: 1-6
+ValueLabels: 1=Black/Africa
+             2=White/European
+             3=Coloured/Mixed race
+             4=Arab/Lebanese/North Africa
+             5=South Asian (Indian, Pakistani, etc, )
+             6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95,
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q103
+Question: which languages was the interview conducted in
+VariableLabel: Language of interview
+Values: 1
+        4
+        420-429
+        431
+        995
+        998
+        999
+        -1
+ValueLabels: 1=English
+             4=Kiswahili
+             420=Bemba
+             421=Nyanja
+             422=Tonga
+             423=Lozi
+             424=Chewa
+             425=Nsenga
+             426=Tumbuka
+             427=Kaonde
+             428=Luvale
+             429=Namwanga
+             431=Mbunda
+             995=Other
+             998=Refused to Answer
+             999=Don’t Know, -
+             1= Missing Data
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q104
+Question: were there any other people immediately present who might be listening during the interview?         45
+VariableLabel: Others present
+Values: 1-5
+ValueLabels: 1=No one
+             2=Spouse
+             3=Children only
+             4=A few others
+             5=Small crowd, -
+             1=Missing Data
+Source: Nigeria00
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q105A
+Question: did the respondent check with others for information to answer any question
+VariableLabel: Check with others
+Values: 0
+        1
+        -1
+ValueLabels: 0=No
+             1=Yes, -
+             1=Missing Data
+Source: Nigeria00
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q105B
+Question: do you think that anyone influenced the respondent’s answers during the interview
+VariableLabel: Influence by others
+Values: 0
+        1
+        -1
+ValueLabels: 0=No
+             1=Yes, -
+             1=Missing Data
+Source: SAB99
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q105C
+Question: were you approached by community and or or political party representatives
+VariableLabel: Approached by community/ party representatives
+Values: 0
+ValueLabels: 0=No
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q105D
+Question: did you feel threatened during the interview
+VariableLabel: Interviewer feel threatened
+Values: 0
+ValueLabels: 0=No
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q105E
+Question: were you physically threatened during the interview
+VariableLabel: Physically threatened
+Values: 0
+ValueLabels: 0=No
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q106
+Question: what proportion of the questions do you feel the respondent had difficulty answering
+VariableLabel: Proportion difficulty answering
+Values: 0-4
+ValueLabels: 0=None
+             1=Few
+             2=Some
+             3=Most
+             4=All, -
+             1=Missing Data
+Source: Nigeria00
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q107A
+Question: which questions did the respondent have trouble answering
+VariableLabel: Trouble answering- first response
+Values: 0-100
+ValueLabels: 0-100, -
+Source: Nigeria00
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q107B
+Question: which questions did the respondent have trouble answering
+VariableLabel: Trouble answering- second response
+Values: 0-100
+ValueLabels: 0-100, -
+Source: Nigeria00
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q107C
+Question: which questions did the respondent have trouble answering
+VariableLabel: Trouble answering- third response
+Values: 0-100
+ValueLabels: 0-100, -
+Source: Nigeria00
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q108A
+Question: what was the respondent’s attitude toward you during the interview? was he or she: friendly, in between, or hostile
+VariableLabel: Respondent friendly
+Values: 1-3
+ValueLabels: 1=Friendly
+             2=In between
+             3=Hostile
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q108B
+Question: what was the respondent’s attitude toward you during the interview? was he or she: interested, in between, or bored
+VariableLabel: Respondent interested
+Values: 1-3
+ValueLabels: 1=Interested
+             2=In between
+             3=Bored
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q108C
+Question: what was the respondent’s attitude toward you during the interview? was he or she: cooperative, in between, or uncooperative
+VariableLabel: Respondent cooperative
+Values: 1-3
+ValueLabels: 1=Cooperative
+             2=In between
+             3=Uncooperative
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q108D
+Question: what was the respondent’s attitude toward you during the interview? was he or she: patient, in between, or impatient
+VariableLabel: Respondent patient
+Values: 1-3
+ValueLabels: 1=Patient
+             2=In between
+             3=Impatient
+Source: SAB
+Note: Answered by interviewer          47
+
+Pk: 0
+QuestionNumber: Q108E
+Question: what was the respondent’s attitude toward you during the interview? was he or she: at ease, in between, or suspicious
+VariableLabel: Respondent at ease
+Values: 1-3
+ValueLabels: 1=At ease
+             2=In between
+             3=Suspicious
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q108F
+Question: what was the respondent’s attitude toward you during the interview? was he or she: honest, in between, or misleading
+VariableLabel: Respondent honest
+Values: 1-3
+ValueLabels: 1=Honest
+             2=In between
+             3=Misleading
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q110
+Question: interviewer’s number
+VariableLabel: Interviewer’s number
+Values: ZAM01-ZAM53
+ValueLabels: SAB
+Source: Answered by interviewer
+Note: 
+
+Pk: 0
+QuestionNumber: Q111
+Question: interviewer’s age
+VariableLabel: Interviewer’s age
+Values: 24-45
+ValueLabels: SAB
+Source: Answered by interviewer
+Note: 
+
+Pk: 0
+QuestionNumber: Q112
+Question: interviewer’s gender
+VariableLabel: Interviewer’s gender
+Values: 1
+ValueLabels: 1=Male
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q113
+Question: do you come from a rural or urban area
+VariableLabel: Interviewer urban or rural
+Values: 1
+ValueLabels: 1=Rural
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q114
+Question: interviewer’s home language
+VariableLabel: Interviewer’s home language
+Values: 1
+        4
+        420-429
+        431
+        995
+        -1
+ValueLabels: 1=English
+             4=Kiswahili
+             420=Bemba
+             421=Nyanja
+             422=Tonga
+             423=Lozi
+             424=Chewa
+             425=Nsenga
+             426=Tumbuka
+             427=Kaonde
+             428=Luvale
+             429=Namwanga
+             431=Soli
+             995=Other, -
+             1= Missing Data
+Source: SAB
+Note: Answered by interviewer          48
+
+Pk: 0
+QuestionNumber: Q115
+Question: interviewer’s highest level of education
+VariableLabel: Interviewer’s education
+Values: 3-9
+ValueLabels: 3=Primary school completed
+             4=Some high school
+             5=High school completed
+             6=Post secondary qualifications (not university)
+             7=Some university, college
+             8=University, college completed
+             9=Post graduate
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+QuestionNumber: Q116A
+Question: were the following services present in the primary sampling unit or enumeration area: post-office
+VariableLabel: Post-office in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116B
+Question: were the following services present in the primary sampling unit or enumeration area: school
+VariableLabel: School in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116C
+Question: were the following services present in the primary sampling unit or enumeration area: police station
+VariableLabel: Police station in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116D
+Question: were the following services present in the primary sampling unit or enumeration area: electricity grid that most houses could access
+VariableLabel: Electricity grid in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116E
+Question: were the following services present in the primary sampling unit or enumeration area: piped water system that most houses could access
+VariableLabel: Piped water system in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116F
+Question: were the following services present in the primary sampling unit or enumeration area: sewage system that most houses could access
+VariableLabel: Sewage system in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB          49
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116G
+Question: were the following services present in the primary sampling unit or enumeration area: health clinic
+VariableLabel: Health clinic in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116H
+Question: were the following services present in the primary sampling unit or enumeration area: recreational facilities, e.g., a sports field
+VariableLabel: Recreational facilities in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116I
+Question: were the following services present in the primary sampling unit or enumeration area: any churches, mosques, temples or other places of worship
+VariableLabel: Places of worship in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116J
+Question: were the following services present in the primary sampling unit or enumeration area: any town halls or community buildings that can be used for meetings
+VariableLabel: Community buildings in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q116K
+Question: were the following services present in the primary sampling unit or enumeration area: market stalls (selling groceries and or or clothing)
+VariableLabel: Market stalls in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q117A
+Question: in the psu or ea, did you (or any of your colleagues) see: any policemen or police vehicles
+VariableLabel: Police in the PSU/EA
+Values: 0
+        1
+        9
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 0
+QuestionNumber: Q117B
+Question: in the psu or ea, did you (or any of your colleagues) see: any soldiers or army vehicles
+VariableLabel: Soldiers/army in the PSU/EA
+Values: 0
+        1
+        9         50
+ValueLabels: 0=No
+             1=Yes
+             9=Can’t determine
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+

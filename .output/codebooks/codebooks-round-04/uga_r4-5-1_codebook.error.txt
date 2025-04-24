@@ -1,0 +1,8 @@
+QuestionNumber: Q59B2
+ValueLabels
+    168=TBS FM, 16 9=Tropical FM
+
+QuestionNumber: Q115
+ValueLabels
+    6=East Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

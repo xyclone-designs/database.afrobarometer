@@ -34,11 +34,20 @@ namespace Database.Afrobarometer
 				using FileStream datastream = File.OpenRead(ziparchive);
 				using ZipArchive datazip = new(datastream);
 
-				foreach (string tempfilepath in datazip.ExtractToDirectoryIterable(DirectoryTemp))
+				List<string> _variablelabels = [], _questiontexts = [];
+
+				foreach (string tempfilepath in datazip.Entries.OrderBy(
+					_ => _.Name,
+					Comparer<string>.Create((one, two) => true switch
+					{
+						true when one.Contains("merge") => +1,
+						true when two.Contains("merge") => -1,
+
+						_ => Comparer<string>.Default.Compare(one, two)
+
+					})).ExtractToDirectoryIterable(DirectoryTemp))
 				{
 					string codebookname = tempfilepath.Split('\\')[^1];
-
-					Console.WriteLine(codebookname);
 
 					CodebookPDF codebook = new(tempfilepath);
 
@@ -46,6 +55,8 @@ namespace Database.Afrobarometer
 
 					if (valid is false)
 						continue;
+
+					Console.WriteLine(codebookname);
 
 					string codebooklogfilename = codebookname.Replace(".pdf", ".log.txt");
 					string codebookerrorfilename = codebookname.Replace(".pdf", ".error.txt");
@@ -68,8 +79,8 @@ namespace Database.Afrobarometer
 						Console.WriteLine("Question Number: {0}", question.QuestionNumber);
 
 						question.Log(codebooklogstreamwriter);
-						question.LogErrors(codebookerrorstreamwriter);
-						continue;
+						if (question.LogErrors(codebookerrorstreamwriter))
+							codebookerrorstreamwriter.WriteLine();
 
 						codebookoperationsstreamwriter.WriteLine("Question Number: {0}", question.QuestionNumber);
 						codebookoperationsstreamwriter.WriteLine("Variable Label: {0}", question.VariableLabel);
@@ -79,13 +90,17 @@ namespace Database.Afrobarometer
 							codebookoperationsstreamwriter.WriteLine("    Skipping: 'Question Text is null'");
 						else
 						{
-							UtilAddQuestion(question, questions,  keys, out string key, out string value);
+							string? key = null, value = null;
+							//UtilAddQuestion(question, questions, keys, out string? key, out string? value);
 
 							codebookoperationsstreamwriter.WriteLine("    Variable Label: '{0}'", key);
 							codebookoperationsstreamwriter.WriteLine("    Question Text: '{0}'", value);
 
-							question.VariableLabel = key;
-							question.QuestionText = value;
+							if (key is not null) question.VariableLabel = key;
+							if (value is not null) question.QuestionText = value;
+
+							if (question.QuestionText is not null) _questiontexts.Add(question.QuestionText);
+							if (question.VariableLabel is not null) _variablelabels.Add(question.VariableLabel);
 						}
 
 						codebookoperationsstreamwriter.WriteLine();
@@ -94,6 +109,21 @@ namespace Database.Afrobarometer
 					File.Delete(tempfilepath);
 					Console.WriteLine();
 				}
+
+				string _questiontextsfilepath = Path.Combine(ziparchiveoutputdirectory, "_questiontexts.txt");
+				string _variablelabelsfilepath = Path.Combine(ziparchiveoutputdirectory, "_variablelabels.txt");
+
+				using FileStream _questiontextsfilestream = File.Create(_questiontextsfilepath);
+				using FileStream _variablelabelsfilestream = File.Create(_variablelabelsfilepath);
+
+				using StreamWriter _questiontextsstreamwriter = new(_questiontextsfilestream);
+				using StreamWriter _variablelabelsstreamwriter = new(_variablelabelsfilestream);
+
+				foreach (string _questiontext in _questiontexts.Distinct().Order())
+					_questiontextsstreamwriter.WriteLine(_questiontext);
+				
+				foreach (string _variablelabel in _variablelabels.Distinct().Order())
+					_variablelabelsstreamwriter.WriteLine(_variablelabel);
 			}
 		}
 	}

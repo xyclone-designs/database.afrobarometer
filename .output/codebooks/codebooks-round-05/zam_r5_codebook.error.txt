@@ -1,0 +1,8 @@
+QuestionNumber: Q84
+ValueLabels
+    850=Chishinga, 48 851=Tabwa
+
+QuestionNumber: Q102
+ValueLabels
+    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
+

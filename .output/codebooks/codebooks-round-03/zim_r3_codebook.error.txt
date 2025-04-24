@@ -1,0 +1,12 @@
+QuestionNumber: Q31PT1
+ValueLabels
+    9=National independence/people’s self-determination, =9
+
+QuestionNumber: Q31PT2
+ValueLabels
+    9=National independence/people’s self-determination, =9
+
+QuestionNumber: Q31PT3
+ValueLabels
+    9=National independence/people’s self-determination, =9
+
