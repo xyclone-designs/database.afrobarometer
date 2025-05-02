@@ -13,11 +13,11 @@ namespace Database.Afrobarometer.Tables
 
 		public virtual void Log(StreamWriter streamwriter)
 		{
-			streamwriter.WriteLine("Pk: {0}", Pk);
+			streamwriter.WriteLine("PK: {0}", Pk);
 		}
-		public virtual bool LogErrors(StreamWriter streamwriter)
+		public virtual void LogError(StreamWriter streamwriter)
 		{
-			return false;
+			streamwriter.WriteLine("PK: {0}", Pk);
 		}
 
 		public static string AddPKIfUnique(string? pks, int? pk)

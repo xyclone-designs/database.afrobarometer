@@ -9,8 +9,11 @@ namespace Database.Afrobarometer.Inputs
 {
 	public class SurveySAV : SpssReader
 	{
+		public SurveySAV(string filepath) : this(new FileStream(filepath, FileMode.Open, FileAccess.Read, FileShare.None, 2048, FileOptions.SequentialScan), filepath) { }
 		public SurveySAV(FileStream filestream, string filepath) : base(filestream)
 		{
+			_FileStream = filestream;
+
 			Text = string.Empty;
 			Filepath = filepath;
 			Filename = Filepath.Split('\\')[^1];
@@ -20,6 +23,8 @@ namespace Database.Afrobarometer.Inputs
 			try { Language = default(Languages).FromFilename(Filename, Round, Country); } catch (Exception) { throw new ArgumentException(string.Format("Error: Language '{0}'", Filename)); }
 		}
 
+		private readonly FileStream _FileStream;
+
 		public string Text { get; set; }
 		public string Filename { get; set; }
 		public string Filepath { get; set; }
@@ -27,5 +32,13 @@ namespace Database.Afrobarometer.Inputs
 		public Countries Country { get; set; }
 		public Languages Language { get; set; }
 		public Rounds Round { get; set; }
+
+		public new void Dispose()
+		{
+			_FileStream.Flush();
+			_FileStream.Close();
+
+			base.Dispose();
+		}
 	}
 }

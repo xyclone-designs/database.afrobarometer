@@ -8,7 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include=".input\texts\country.eng.blurb.json" />
+    <Compile Remove=".input\data\**" />
+    <Compile Remove=".input\texts\**" />
+    <EmbeddedResource Remove=".input\data\**" />
+    <EmbeddedResource Remove=".input\texts\**" />
+    <None Remove=".input\data\**" />
+    <None Remove=".input\texts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".input\countries\en\southafrica.json" />
+    <Content Include=".input\countries\southafrica.json" />
     <Content Include=".input\topics\CivicEngagement.txt" />
     <Content Include=".input\topics\GovernmentPerformance.txt" />
     <Content Include=".input\topics\HealthEducationSocialServices.txt" />
@@ -32,28 +42,27 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include=".input\codebooks\codebooks-merged.zip" />
-    <None Include=".input\codebooks\codebooks-round-01.rar" />
-    <None Include=".input\codebooks\codebooks-round-02.rar" />
-    <None Include=".input\codebooks\codebooks-round-03.rar" />
-    <None Include=".input\codebooks\codebooks-round-04.rar" />
-    <None Include=".input\codebooks\codebooks-round-05.rar" />
+    <None Include=".input\codebooks\codebooks-round-01.zip" />
+    <None Include=".input\codebooks\codebooks-round-02.zip" />
+    <None Include=".input\codebooks\codebooks-round-03.zip" />
+    <None Include=".input\codebooks\codebooks-round-04.zip" />
+    <None Include=".input\codebooks\codebooks-round-05.zip" />
     <None Include=".input\codebooks\codebooks-round-06.zip" />
     <None Include=".input\codebooks\codebooks-round-07.zip" />
     <None Include=".input\codebooks\codebooks-round-08.zip" />
     <None Include=".input\codebooks\codebooks-round-09.zip" />
     <None Include=".input\codebooks\codebooks-round-10.zip" />
-    <None Include=".input\data\data-merged.zip" />
-    <None Include=".input\data\data-round-01.zip" />
-    <None Include=".input\data\data-round-02.zip" />
-    <None Include=".input\data\data-round-03.zip" />
-    <None Include=".input\data\data-round-04.zip" />
-    <None Include=".input\data\data-round-05.zip" />
-    <None Include=".input\data\data-round-06.zip" />
-    <None Include=".input\data\data-round-07.zip" />
-    <None Include=".input\data\data-round-08.zip" />
-    <None Include=".input\data\data-round-09.zip" />
     <None Include=".input\survey-technical-information.zip" />
+    <None Include=".input\surveys\surveys-round-01.zip" />
+    <None Include=".input\surveys\surveys-round-02.zip" />
+    <None Include=".input\surveys\surveys-round-03.zip" />
+    <None Include=".input\surveys\surveys-round-04.zip" />
+    <None Include=".input\surveys\surveys-round-05.zip" />
+    <None Include=".input\surveys\surveys-round-06.zip" />
+    <None Include=".input\surveys\surveys-round-07.zip" />
+    <None Include=".input\surveys\surveys-round-08.zip" />
+    <None Include=".input\surveys\surveys-round-09.zip" />
+    <None Include=".input\surveys\surveys-round-10.zip" />
   </ItemGroup>
 
   <ItemGroup>
@@ -62,6 +71,11 @@
     <PackageReference Include="SharpZipLib" Version="1.4.2" />
     <PackageReference Include="Spssly" Version="2.0.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".input\images\logos\" />
+    <Folder Include=".input\images\posters\" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,0 @@
-QuestionNumber: COV-16
-ValueLabels
-    87=Not applicable, =Refused
-

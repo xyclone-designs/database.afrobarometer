@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
 
 namespace Database.Afrobarometer.Enums
 {
 	public enum Countries
 	{
 		_none,
+		_merged,
 		
 		Algeria,
 		Angola,
@@ -57,7 +56,7 @@ namespace Database.Afrobarometer.Enums
 		public static Countries FromFilename(this Countries _, string filename)
 		{
 			if (filename.Contains("merge", StringComparison.OrdinalIgnoreCase))
-				return default;
+				return Countries._merged;
 		
 			foreach (string split in filename.Split('_', '-', '.'))
 				if (split.ToLower() switch

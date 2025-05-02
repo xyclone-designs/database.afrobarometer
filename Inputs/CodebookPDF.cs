@@ -1,46 +1,16 @@
 ﻿using Database.Afrobarometer.Enums;
-using Database.Afrobarometer.Tables;
 
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
-
 using UglyToad.PdfPig;
-using UglyToad.PdfPig.Content;
 
 namespace Database.Afrobarometer.Inputs
 {
-	public class CodebookPDF
+	public class CodebookPDF : IDisposable
 	{
-		public static readonly string[][] ProcessCodebooksInputEnglishRegexes = 
-		[
-			[ "Copyright Afrobarometer\\s*[0-9]*", string.Empty ],
-			[ ",\\s*Post\\s*Code=Other\\s*[A-Za-z0-9]*\\s*\\[[Ss]pecify\\]", string.Empty ],
-			[ "Question Number: Q27\\s*Question Number:", "Question Number: Q27 Question:"],
-		];			
-		public static readonly string[][] ProcessCodebooksInputEnglishReplacements = 
-		[
-			[ "\n", string.Empty ],
-			[ "\r", string.Empty ],
-			[ "A=1, B=2, C=3", "1=A, 2=B, 3=C"],
-			[ "102 QuestionIn", "102 Question: In" ],
-			[ "non=permanent", "non-permanent" ],
-			[ "North=Sotho", "North-Sotho" ],
-			[ "South=Sotho", "South-Sotho" ],
-			[ "Sesotho, Sotho, S. Sotho ", "Sesotho/Sotho/S-Sotho, "],
-		];			
-		public static readonly string[] ProcessCodebooksInputEnglishSplit =
-		[
-			"Question Number:",
-			"Question:",
-			"Variable Label:", "Variable label:",
-			"Values:",
-			"Value Label:", "Value Labels:", "Values Labels:",
-			"Source:", "DataSource:",
-			"Note:", "Notes:"
-		];
-
 		public CodebookPDF(string filepath)
 		{
 			Text = string.Empty;
@@ -56,46 +26,7 @@ namespace Database.Afrobarometer.Inputs
 			Language = Language.FromFilename(Filename, Round, Country);
 		}
 
-		public IEnumerable<Question> Questions 
-		{
-			get
-			{
-				bool copyrightnumbered = false;
-				StringBuilder stringbuilder = new();
-				PdfDocument pdfdocument = PdfDocument.Open(Filepath);
-
-				foreach (Page page in pdfdocument.GetPages())
-				{
-					stringbuilder.Append(page.Text);
-
-					if (page.Number == 1)
-						copyrightnumbered = Regex.IsMatch(page.Text, "Copyright Afrobarometer\\s*1{1}", RegexOptions.Singleline);
-				}
-
-				Text = stringbuilder.ToString();
-
-				if (copyrightnumbered is false)
-					Text = Regex.Replace(Text, "Copyright Afrobarometer", string.Empty);
-				else for (int pagenumber = 1; pagenumber < pdfdocument.NumberOfPages; pagenumber++)
-					Text = Regex.Replace(Text, string.Format("Copyright Afrobarometer\\s*{0}{1}", pagenumber, "{1}"), string.Empty, RegexOptions.Singleline);
-
-				foreach (string[] _ in ProcessCodebooksInputEnglishRegexes)
-					Text = Regex.Replace(Text, _[0], _[1]);
-
-				foreach (string[] _ in ProcessCodebooksInputEnglishReplacements)
-					Text = Text.Replace(_[0], _[1]);
-
-				string[] split = Text.Split(ProcessCodebooksInputEnglishSplit[0], StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-				split = split.Length > 2 ? split[1..^1] : split;
-
-				for (int index = 0; index < split.Length; index++)
-				{
-					string[] spl = split[index].Split(ProcessCodebooksInputEnglishSplit, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-
-					yield return new Question(spl);
-				}
-			}
-		}
+		private PdfDocument? pdfdocument;
 
 		public string Text { get; set; }
 		public string Filename { get; set; }
@@ -104,5 +35,89 @@ namespace Database.Afrobarometer.Inputs
 		public Countries Country { get; set; }
 		public Languages Language { get; set; }
 		public Rounds Round { get; set; }
+
+		public IEnumerable<Question> Questions
+		{
+			get
+			{
+				pdfdocument ??= PdfDocument.Open(Filepath);
+
+				string[] split = Utils.Inputs.Codebook.SplitText(pdfdocument, out string text); Text = text;
+
+				for (int index = 0; index < split.Length; index++)
+				{
+					string[] texts = split[index].Split(Utils.Inputs.Codebook.ProcessCodebooksInputEnglishSplit, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+
+					yield return new Question
+					{
+						Number = Utils.Inputs.Question.QuestionNumber(texts.ElementAtOrDefault(0)),
+						Text = Utils.Inputs.Question.QuestionText(texts.ElementAtOrDefault(1)),
+						VariableLabel = Utils.Inputs.Question.VariableLabel(texts.ElementAtOrDefault(2)),
+						Values = Utils.Inputs.Question.Values(texts.ElementAtOrDefault(3)),
+						ValueLabels = Utils.Inputs.Question.ValueLabels(texts.ElementAtOrDefault(4)),
+						Source = Utils.Inputs.Question.Source(texts.ElementAtOrDefault(5)),
+						Note = Utils.Inputs.Question.Note(texts.ElementAtOrDefault(6)),
+					};
+				}
+			}
+		}
+
+		public void Dispose()
+		{
+			Text = string.Empty;
+			pdfdocument?.Dispose();
+		}
+
+		public class Question 
+		{
+			public string? Number { get; set; }
+			public string? Text { get; set; }
+			public int? PkVariable { get; set; }
+			public string? VariableLabel { get; set; }
+			public string[]? Values { get; set; }
+			public string[]? ValueLabels { get; set; }
+			public string? Source { get; set; }
+			public string? Note { get; set; }
+
+			public void Log(StreamWriter streamwriter)
+			{
+				streamwriter.WriteLine("QuestionNumber: {0}", Number);
+				streamwriter.WriteLine("Question: {0}", Text);
+				streamwriter.WriteLine("VariableLabel: {0}", VariableLabel);
+				streamwriter.WriteLine("Values: {0}", Values?.ElementAtOrDefault(0));
+
+				if (Values is not null && Values.Length > 2)
+					for (int index = 1; index < Values.Length; index++)
+						streamwriter.WriteLine("        {0}", Values[index]);
+
+				streamwriter.WriteLine("ValueLabels: {0}", ValueLabels?.ElementAtOrDefault(0));
+
+				if (ValueLabels is not null && ValueLabels.Length > 2)
+					for (int index = 1; index < ValueLabels.Length; index++)
+						streamwriter.WriteLine("             {0}", ValueLabels[index]);
+
+				streamwriter.WriteLine("Source: {0}", Source);
+				streamwriter.WriteLine("Note: {0}", Note);
+				streamwriter.WriteLine();
+			}
+			public void LogError(StreamWriter streamwriter)
+			{
+				if (Number is null || Regex.IsMatch(Number, "Q[0-9]+[A-za-z]?\\s"))
+					streamwriter.WriteLine("QuestionNumber: {0}", Number);
+
+				if (ValueLabels?.Where(_ =>
+				{
+					return
+						Utils.Inputs.Question.ValueLabels_NotApplicables.Contains(_) is false &&
+						_.Count(_ => _ == '=') >= 2;
+
+				}) is IEnumerable<string> valuelables && valuelables.Any())
+				{
+					streamwriter.WriteLine("ValueLabels: {0}", valuelables.ElementAtOrDefault(0));
+					for (int index = 1; valuelables.ElementAtOrDefault(index) is string valuelable; index++)
+						streamwriter.WriteLine("             {0}", valuelable);
+				}				
+			}
+		}
 	}
 }

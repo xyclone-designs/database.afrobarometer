@@ -1,6 +1,0 @@
-Question Number: Codebook   Pour la   Serie 5 d’Afrobarometre Enquete  au  Mali Prepared by: Herve Mukuna Michigan State University November 2014    Prepared by: Michigan State University May 2012   The Institute for Democracy in South Africa (IDASA)  Ghana Centre for Democratic Development (CDD-Ghana) Michigan State University (MSU) 6 Spin Street, Church Square   14 West Airport Residential Area     Department of Political Science  Cape Town 8001, South Africa   P.O. Box 404, Legon-Accra, Ghana    East Lansing, Michigan 48824 27 21 461 2559•fax: 27 21 461 2589  233 21 776 142•fax: 233 21 763 028    517 353 3377•fax: 517 432 1091 Mattes (bob@idasact.org.za)   Gyimah-Boadi (cdd@ghana.com)    Bratton (mbratton@msu.edu)     2  Question Nombre: RESPNO
-Variable Label: Numéro du répondant
-Question Text: numéro du répondant
-    Variable Label: ''
-    Question Text: ''
-

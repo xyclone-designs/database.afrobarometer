@@ -1,4 +1,0 @@
-QuestionNumber: Q70
-ValueLabels
-    17=To join spouse/family members who have already migrated, 44  18=Travel/tourism/adventure/experience other cultures
-

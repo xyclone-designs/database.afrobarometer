@@ -1,9 +1,0 @@
-Pk: 0
-QuestionNumber: AttitudestoDemocracyandMarketsInNamibia,September-October,1999DataCodebookFromdatagatheredby:TheInstituteforPublicPolicyResearch,Windhoek,NamibiaPreparedby:WonbinChoMichiganStateUniversityMarch2003TheInstituteforDemocracyinSouthAfrica(IDASA)GhanaCentreforDemocraticDevelopment(CDD-Ghana)MichiganStateUniversity(MSU)6SpinStreet,ChurchSquare14WestAirportResidentialAreaDepartmentofPoliticalScienceCapeTown8001,SouthAfricaP.O.Box404,Legon-Accra,GhanaEastLansing,Michigan4882427214612559•fax:2721461258923321776142•fax:233217630285173533377•fax:5174321091Mattes(bob@idasact.org.za)Gyimah-Boadi(cdd@ghana.com)Bratton(mbratton@msu.edu)CopyrightAfrobarometerQuestionNumber:1
-Question: atthemoment,areyoudissatisfied,neitherdissatisfiednorsatisfied,orsatisfiedwitheconomicconditionsin[country]?variablelabel:satisfactionwitheconomicconditions
-VariableLabel: 1-6,98-99ValueLabels:1=VeryDissatisfied,2=Dissatisfied,3=NeitherDissatisfiedorSatisfied,4=Satisfied,5=VerySatisfied,6=Don’tKnow,98=Refused,99=Missing
-Values: NewDemocracyBarometer(NDB)
-ValueLabels: Enumeratorprobedforstrengthofopinion, QuestionNumber:2
-Source: HowdoeconomicconditionsinNamibiacomparetooneyearago?Arethey:VariableLabel:EvaluationsofEconomicConditions.
-Note: 1-6,98-99ValueLabels:1=MuchWorse,2=Worse,3=AbouttheSame,4=Better,5=MuchBetter,6=Don’tKnow,98=Refused,99=Missing
-

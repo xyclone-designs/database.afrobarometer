@@ -1,4 +1,0 @@
-QuestionNumber: Q102
-ValueLabels
-    6=Eat Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
-

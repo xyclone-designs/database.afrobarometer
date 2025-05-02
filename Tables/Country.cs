@@ -1,18 +1,20 @@
-﻿
+﻿using System.IO;
+
 namespace Database.Afrobarometer.Tables
 {
-	[SQLite.Table("countries")]
-    public class Country : _AfrobarometerModel
-    {
-        public string? Blurbs { get; set; }
-        public string? Capitals { get; set; }
-		public string? Languages { get; set; }
-		public string? Names { get; set; }
-		public int? Population { get; set; }
-        public decimal? SquareKMs { get; set; }
-		public string? UrlFlag { get; set; }
-		public string? UrlPoster { get; set; }
-		public string? UrlWebsite { get; set; }
-		public string? UrlLogo { get; set; }
+    public class Country : CountryBase
+	{
+		[SQLite.Column(nameof(Blurb))] public string? Blurb { get; set; }
+        [SQLite.Column(nameof(Languages))] public string? Languages { get; set; }
+		[SQLite.Column(nameof(Name))] public string? Name { get; set; }
+
+		public override void Log(StreamWriter streamwriter)
+		{
+			streamwriter.WriteLine("Blurb: {0}", Blurb);
+			streamwriter.WriteLine("Languages: {0}", Languages);
+			streamwriter.WriteLine("Name: {0}", Name);
+
+			base.Log(streamwriter);
+		}
 	}
 }

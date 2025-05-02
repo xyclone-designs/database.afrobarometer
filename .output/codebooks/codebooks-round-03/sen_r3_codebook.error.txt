@@ -1,4 +1,0 @@
-QuestionNumber: Q63PT1
-ValueLabels
-    13=Infrastructure/roads, 29 14=Education
-

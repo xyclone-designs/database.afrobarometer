@@ -1,4 +1,0 @@
-QuestionNumber: Q71
-ValueLabels
-    95=Another language, =
-

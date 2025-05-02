@@ -1,10 +1,11 @@
 ﻿using System;
+using System.IO.Enumeration;
 
 namespace Database.Afrobarometer.Enums
 {
 	public enum Languages
 	{
-		_none,
+		_default,
 
 		English,
 		French,
@@ -13,6 +14,10 @@ namespace Database.Afrobarometer.Enums
 
 	public static class LanguageExtensions
 	{
+		public static Languages FromFilename(this Languages _, string filename)
+		{
+			return _.FromFilename(filename, default(Rounds).FromFilename(filename), default(Countries).FromFilename(filename));
+		}
 		public static Languages FromFilename(this Languages _, string filename, Rounds round, Countries countries)
 		{
 			if (filename.Contains("merge", StringComparison.OrdinalIgnoreCase))
@@ -42,7 +47,6 @@ namespace Database.Afrobarometer.Enums
 					filename.Contains("_eng_", StringComparison.OrdinalIgnoreCase) ||
 					filename.Contains("English", StringComparison.OrdinalIgnoreCase) => Languages.English,
 
-				(Rounds.One, Countries.Mali) => Languages.English,
 				(Rounds.Two, Countries.CaboVerde) => Languages.English,
 				(Rounds.Three, Countries.Senegal) => Languages.English,
 				(Rounds.Four, Countries.Senegal) => Languages.English,

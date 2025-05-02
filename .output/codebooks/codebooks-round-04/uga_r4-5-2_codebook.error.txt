@@ -1,4 +1,0 @@
-QuestionNumber: Q91
-ValueLabels
-    6=East Asian (Chinese, Korean, Indonesian, etc, ), Other, =95, -
-

@@ -1,25 +1,15 @@
 ﻿
 namespace Database.Afrobarometer.Tables.Individual
 {
-	[SQLite.Table("countries")]
-    public class CountryIndividual : Country
-    {
-        public CountryIndividual() { }
-        public CountryIndividual(Country country)
-        {
-			Blurbs = country.Blurbs;
-			Capitals = country.Capitals;
+    public class CountryIndividual : Country 
+	{
+		public CountryIndividual(Country country)
+		{
+			Blurb = country.Blurb;
 			Languages = country.Languages;
-			Names = country.Names;
-			Population = country.Population;
-			SquareKMs = country.SquareKMs;
-			UrlFlag = country.UrlFlag;
-			UrlPoster = country.UrlPoster;
-			UrlWebsite = country.UrlWebsite;
-			UrlLogo = country.UrlLogo;
+			Name = country.Name;
 		}
 
-		[SQLite.PrimaryKey]
-        public new int Pk { get; set; }
-    }
+		[SQLite.Column(nameof(Pk))] public new int Pk { get; set; }
+	}
 }

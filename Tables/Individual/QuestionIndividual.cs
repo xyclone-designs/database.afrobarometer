@@ -3,20 +3,19 @@ namespace Database.Afrobarometer.Tables.Individual
 {
 	[SQLite.Table("questions")]
     public class QuestionIndividual : Question
-    {
-        public QuestionIndividual() { }
-        public QuestionIndividual(Question question)
-        {
-			QuestionNumber = question.QuestionNumber;
-			QuestionText = question.QuestionText;
-			VariableLabel = question.VariableLabel;
-			Values = question.Values;
-			ValueLabels = question.ValueLabels;
+	{
+		public QuestionIndividual(Question question)
+		{
+			Language = question.Language;
+			Round = question.Round;
+			Number = question.Number;
+			Number = question.Number;
+			PkVariable = question.PkVariable;
+			Text = question.Text;
 			Source = question.Source;
 			Note = question.Note;
 		}
 
-		[SQLite.PrimaryKey]
-        public new int Pk { get; set; }
-    }
+		[SQLite.Column(nameof(Pk))] public new int Pk { get; set; }
+	}
 }

@@ -1,6 +1,0 @@
-Question Number: Manuel de Codes  pour la   Série 9 d’Enquêtes Afrobarometer  au Gabon      Préparé par: Martin Fikiri Oswald Mars 2024                    Numéro de la question: RESPNO
-Variable Label: Attribué par le superviseur  Numéro de la question: URBRUR
-Question Text: numéro du répondant libellé de la variable: numéro du répondant valeurs: gab0001-gab1200 libellés des valeurs: variable de chaîne
-    Variable Label: ''
-    Question Text: ''
-

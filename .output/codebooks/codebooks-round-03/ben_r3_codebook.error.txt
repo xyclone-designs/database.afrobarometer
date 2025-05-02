@@ -1,8 +1,0 @@
-QuestionNumber: Q35PT1
-ValueLabels
-    3=Voting/elections/multiparty competition, 15 4=Peace/unity/power sharing
-
-QuestionNumber: Q102
-ValueLabels
-    6=East Asian(Chinese, Korean, Indonesian, etc, ), Other, =95,
-
