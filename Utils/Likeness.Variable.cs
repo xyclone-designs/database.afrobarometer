@@ -1,9 +1,4 @@
-﻿using Database.Afrobarometer.Tables;
-using F23.StringSimilarity;
-using SQLite;
-using System.Collections.Generic;
-using System.Linq;
-using System.Xml.Linq;
+﻿using F23.StringSimilarity;
 
 namespace Database.Afrobarometer
 {
@@ -68,29 +63,6 @@ namespace Database.Afrobarometer
 					return Likeness.ToKey(str);
 				}
 			}
-		}
-
-		
-
-		public static void Add<TList>(this IDictionary<string, TList> variables, string name, out string key, out string value) where TList : IList<string>, new()
-		{
-			key = Likeness.Variable.ToKey(name);
-
-			if (variables.TryGetValue(key, out TList? _values) && _values is not null)
-			{
-				value = _values[0];
-				return;
-			}
-
-			foreach (KeyValuePair<string, TList> pair in variables)
-			{
-				bool distance = Likeness.Variable.Distance(key, pair.Key, out double _);
-				bool similarity = distance || Likeness.Variable.Similarity(key, pair.Key, out double _);
-
-				if (distance || similarity) { value = pair.Value[0]; return; }
-			}
-
-			variables.Add(key, [value = name]);
 		}
 	}
 }

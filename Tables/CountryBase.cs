@@ -15,19 +15,49 @@ namespace Database.Afrobarometer.Tables
 		[SQLite.Column(nameof(UrlPoster))] public string? UrlPoster { get; set; }
 		[SQLite.Column(nameof(UrlWebsite))] public string? UrlWebsite { get; set; }
 
-		public override void Log(StreamWriter streamwriter)
+		[SQLite.Table("countries")]
+		public class Individual : CountryBase
 		{
-			base.Log(streamwriter);
+			public Individual(CountryBase countrybase)
+			{
+				Capital = countrybase.Capital;
+				Code = countrybase.Code;
+				List_PkSurvey = countrybase.List_PkSurvey;
+				Population = countrybase.Population;
+				SquareKMs = countrybase.SquareKMs;
+				UrlFlag = countrybase.UrlFlag;
+				UrlInsignia = countrybase.UrlInsignia;
+				UrlPoster = countrybase.UrlPoster;
+				UrlWebsite = countrybase.UrlWebsite;
+			}
 
-			streamwriter.WriteLine("Code: {0}", Code);
-			streamwriter.WriteLine("Capital: {0}", Capital);
-			streamwriter.WriteLine("List_PkSurvey: {0}", List_PkSurvey);
-			streamwriter.WriteLine("Population: {0}", Population);
-			streamwriter.WriteLine("SquareKMs: {0}", SquareKMs);
-			streamwriter.WriteLine("UrlFlag: {0}", UrlFlag);
-			streamwriter.WriteLine("UrlPoster: {0}", UrlPoster);
-			streamwriter.WriteLine("UrlWebsite: {0}", UrlWebsite);
+			[SQLite.AutoIncrement]
+			[SQLite.NotNull]
+			[SQLite.PrimaryKey]
+			[SQLite.Unique]
+			public new int Pk { get; set; }
+		}
+	}
+
+	public static partial class StreamWriterExtensions
+	{
+		public static void Log(this StreamWriter streamwriter, CountryBase countrybase)
+		{
+			streamwriter.Log(countrybase as _AfrobarometerModel);
+
+			streamwriter.WriteLine("Code: {0}", countrybase.Code);
+			streamwriter.WriteLine("Capital: {0}", countrybase.Capital);
+			streamwriter.WriteLine("List_PkSurvey: {0}", countrybase.List_PkSurvey);
+			streamwriter.WriteLine("Population: {0}", countrybase.Population);
+			streamwriter.WriteLine("SquareKMs: {0}", countrybase.SquareKMs);
+			streamwriter.WriteLine("UrlFlag: {0}", countrybase.UrlFlag);
+			streamwriter.WriteLine("UrlPoster: {0}", countrybase.UrlPoster);
+			streamwriter.WriteLine("UrlWebsite: {0}", countrybase.UrlWebsite);
 			streamwriter.WriteLine();
+		}
+		public static void LogError(this StreamWriter streamwriter, CountryBase countrybase)
+		{
+			streamwriter.LogError(countrybase as _AfrobarometerModel);
 		}
 	}
 }

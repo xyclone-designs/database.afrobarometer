@@ -1,6 +1,5 @@
 ﻿using Database.Afrobarometer.Enums;
 using Database.Afrobarometer.Inputs;
-
 using System.IO;
 
 namespace Database.Afrobarometer.Tables
@@ -11,7 +10,7 @@ namespace Database.Afrobarometer.Tables
 		public Question() { }
 		public Question(CodebookPDF.Question question)
 		{
-			Number = question.Number;
+			Id = question.Id;
 			Text = question.Text;
 			Source = question.Source;
 			Note = question.Note;
@@ -20,24 +19,53 @@ namespace Database.Afrobarometer.Tables
 		[SQLite.Column(nameof(Language))] public Languages? Language { get; set; }
 		[SQLite.Column(nameof(Round))] public Rounds? Round { get; set; }
 		[SQLite.Column(nameof(ListPkSurvey))] public string? ListPkSurvey { get; set; }
-		[SQLite.Column(nameof(Number))] public string? Number { get; set; }
+		[SQLite.Column(nameof(Id))] public string? Id { get; set; }
 		[SQLite.Column(nameof(PkVariable))] public int? PkVariable { get; set; }
 		[SQLite.Column(nameof(Text))] public string? Text { get; set; }
 		[SQLite.Column(nameof(Source))] public string? Source { get; set; }
 		[SQLite.Column(nameof(Note))] public string? Note { get; set; }
 
-		public override void Log(StreamWriter streamwriter)
+		[SQLite.Table("questions")]
+		public class Individual : Question
 		{
-			base.Log(streamwriter);
+			public Individual(Question question)
+			{
+				Language = question.Language;
+				Round = question.Round;
+				Id = question.Id;
+				Id = question.Id;
+				PkVariable = question.PkVariable;
+				Text = question.Text;
+				Source = question.Source;
+				Note = question.Note;
+			}
 
-			streamwriter.WriteLine("Number: {0}", Number);
-			streamwriter.WriteLine("Text: {0}", Text);
-			streamwriter.WriteLine("Language: {0}", Language);
-			streamwriter.WriteLine("Round: {0}", Round);
-			streamwriter.WriteLine("PkVariable: {0}", PkVariable);
-			streamwriter.WriteLine("Source: {0}", Source);
-			streamwriter.WriteLine("Note: {0}", Note);
+			[SQLite.AutoIncrement]
+			[SQLite.NotNull]
+			[SQLite.PrimaryKey]
+			[SQLite.Unique]
+			public new int Pk { get; set; }
+		}
+	}
+
+	public static partial class StreamWriterExtensions
+	{
+		public static void Log(this StreamWriter streamwriter, Question question)
+		{
+			streamwriter.Log(question as _AfrobarometerModel);
+
+			streamwriter.WriteLine("Id: {0}", question.Id);
+			streamwriter.WriteLine("Text: {0}", question.Text);
+			streamwriter.WriteLine("Language: {0}", question.Language);
+			streamwriter.WriteLine("Round: {0}", question.Round);
+			streamwriter.WriteLine("PkVariable: {0}", question.PkVariable);
+			streamwriter.WriteLine("Source: {0}", question.Source);
+			streamwriter.WriteLine("Note: {0}", question.Note);
 			streamwriter.WriteLine();
+		}
+		public static void LogError(this StreamWriter streamwriter, Question question)
+		{
+			streamwriter.LogError(question as _AfrobarometerModel);
 		}
 	}
 }

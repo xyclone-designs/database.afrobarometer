@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+
 using UglyToad.PdfPig;
 
 namespace Database.Afrobarometer.Inputs
@@ -42,21 +43,21 @@ namespace Database.Afrobarometer.Inputs
 			{
 				pdfdocument ??= PdfDocument.Open(Filepath);
 
-				string[] split = Utils.Inputs.Codebook.SplitText(pdfdocument, out string text); Text = text;
+				string[] split = Utils.Inputs.CodebookPDF.SplitText(pdfdocument, Language, out string text); Text = text;
 
 				for (int index = 0; index < split.Length; index++)
 				{
-					string[] texts = split[index].Split(Utils.Inputs.Codebook.ProcessCodebooksInputEnglishSplit, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+					string[] texts = split[index].SplitRemoveTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit);
 
 					yield return new Question
 					{
-						Number = Utils.Inputs.Question.QuestionNumber(texts.ElementAtOrDefault(0)),
-						Text = Utils.Inputs.Question.QuestionText(texts.ElementAtOrDefault(1)),
-						VariableLabel = Utils.Inputs.Question.VariableLabel(texts.ElementAtOrDefault(2)),
-						Values = Utils.Inputs.Question.Values(texts.ElementAtOrDefault(3)),
-						ValueLabels = Utils.Inputs.Question.ValueLabels(texts.ElementAtOrDefault(4)),
-						Source = Utils.Inputs.Question.Source(texts.ElementAtOrDefault(5)),
-						Note = Utils.Inputs.Question.Note(texts.ElementAtOrDefault(6)),
+						Id = texts.ElementAtOrDefault(0),
+						Text = texts.ElementAtOrDefault(1),
+						VariableLabel = texts.ElementAtOrDefault(2),
+						Values = texts.ElementAtOrDefault(3),
+						ValueLabels = texts.ElementAtOrDefault(4),
+						Source = texts.ElementAtOrDefault(5),
+						Note = texts.ElementAtOrDefault(6),
 					};
 				}
 			}
@@ -70,54 +71,46 @@ namespace Database.Afrobarometer.Inputs
 
 		public class Question 
 		{
-			public string? Number { get; set; }
+			public string? Id { get; set; }
 			public string? Text { get; set; }
-			public int? PkVariable { get; set; }
 			public string? VariableLabel { get; set; }
-			public string[]? Values { get; set; }
-			public string[]? ValueLabels { get; set; }
+			public string? Values { get; set; }
+			public string? ValueLabels { get; set; }
 			public string? Source { get; set; }
 			public string? Note { get; set; }
+		}
+	}
 
-			public void Log(StreamWriter streamwriter)
-			{
-				streamwriter.WriteLine("QuestionNumber: {0}", Number);
-				streamwriter.WriteLine("Question: {0}", Text);
-				streamwriter.WriteLine("VariableLabel: {0}", VariableLabel);
-				streamwriter.WriteLine("Values: {0}", Values?.ElementAtOrDefault(0));
+	public static partial class StreamWriterExtensions
+	{
+		public static void Log(this StreamWriter streamwriter, CodebookPDF codebookpdf) { }
+		public static void Log(this StreamWriter streamwriter, CodebookPDF.Question codebookpdfquestion)
+		{
+			streamwriter.WriteLine("QuestionId: {0}", codebookpdfquestion.Id);
+			streamwriter.WriteLine("Question: {0}", codebookpdfquestion.Text);
+			streamwriter.WriteLine("VariableLabel: {0}", codebookpdfquestion.VariableLabel);
+			streamwriter.WriteLine("Values: {0}", codebookpdfquestion.Values?.ElementAtOrDefault(0));
 
-				if (Values is not null && Values.Length > 2)
-					for (int index = 1; index < Values.Length; index++)
-						streamwriter.WriteLine("        {0}", Values[index]);
+			if (codebookpdfquestion.Values is not null && codebookpdfquestion.Values.Length > 2)
+				for (int index = 1; index < codebookpdfquestion.Values.Length; index++)
+					streamwriter.WriteLine("        {0}", codebookpdfquestion.Values[index]);
 
-				streamwriter.WriteLine("ValueLabels: {0}", ValueLabels?.ElementAtOrDefault(0));
+			streamwriter.WriteLine("ValueLabels: {0}", codebookpdfquestion.ValueLabels?.ElementAtOrDefault(0));
 
-				if (ValueLabels is not null && ValueLabels.Length > 2)
-					for (int index = 1; index < ValueLabels.Length; index++)
-						streamwriter.WriteLine("             {0}", ValueLabels[index]);
+			if (codebookpdfquestion.ValueLabels is not null && codebookpdfquestion.ValueLabels.Length > 2)
+				for (int index = 1; index < codebookpdfquestion.ValueLabels.Length; index++)
+					streamwriter.WriteLine("             {0}", codebookpdfquestion.ValueLabels[index]);
 
-				streamwriter.WriteLine("Source: {0}", Source);
-				streamwriter.WriteLine("Note: {0}", Note);
-				streamwriter.WriteLine();
-			}
-			public void LogError(StreamWriter streamwriter)
-			{
-				if (Number is null || Regex.IsMatch(Number, "Q[0-9]+[A-za-z]?\\s"))
-					streamwriter.WriteLine("QuestionNumber: {0}", Number);
+			streamwriter.WriteLine("Source: {0}", codebookpdfquestion.Source);
+			streamwriter.WriteLine("Note: {0}", codebookpdfquestion.Note);
+			streamwriter.WriteLine();
+		}
 
-				if (ValueLabels?.Where(_ =>
-				{
-					return
-						Utils.Inputs.Question.ValueLabels_NotApplicables.Contains(_) is false &&
-						_.Count(_ => _ == '=') >= 2;
-
-				}) is IEnumerable<string> valuelables && valuelables.Any())
-				{
-					streamwriter.WriteLine("ValueLabels: {0}", valuelables.ElementAtOrDefault(0));
-					for (int index = 1; valuelables.ElementAtOrDefault(index) is string valuelable; index++)
-						streamwriter.WriteLine("             {0}", valuelable);
-				}				
-			}
+		public static void LogError(this StreamWriter streamwriter, CodebookPDF codebookpdf) { }
+		public static void LogError(this StreamWriter streamwriter, CodebookPDF.Question codebookpdfquestion)
+		{
+			if (codebookpdfquestion.Id is null || Regex.IsMatch(codebookpdfquestion.Id, "Q[0-9]+[A-za-z]?\\s"))
+				streamwriter.WriteLine("QuestionId: {0}", codebookpdfquestion.Id);
 		}
 	}
 }

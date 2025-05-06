@@ -5,6 +5,8 @@ using Spssly.DataReader;
 using System;
 using System.IO;
 
+using SurveySAVVariable = Spssly.SpssDataset.Variable;
+
 namespace Database.Afrobarometer.Inputs
 {
 	public class SurveySAV : SpssReader
@@ -40,5 +42,14 @@ namespace Database.Afrobarometer.Inputs
 
 			base.Dispose();
 		}
+	}
+
+	public static partial class StreamWriterExtensions
+	{
+		public static void Log(this StreamWriter streamwriter, SurveySAV surveysav) { }
+		public static void Log(this StreamWriter streamwriter, SurveySAVVariable surveysavvariable) { }
+
+		public static void LogError(this StreamWriter streamwriter, SurveySAV surveysav) { }
+		public static void LogError(this StreamWriter streamwriter, SurveySAVVariable surveysavvariable) { }
 	}
 }

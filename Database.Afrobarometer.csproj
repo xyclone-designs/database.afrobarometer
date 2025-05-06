@@ -71,6 +71,7 @@
     <PackageReference Include="SharpZipLib" Version="1.4.2" />
     <PackageReference Include="Spssly" Version="2.0.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+    <PackageReference Include="XycloneDesigns.Extensions.CSharp" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
