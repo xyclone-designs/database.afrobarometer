@@ -15,42 +15,109 @@ namespace Database.Afrobarometer
 {
 	internal partial class Program
 	{
-		public static Variable? ProcessSurveySAVVariable(SurveySAVVariable surveysavvariable, SQLiteConnection sqliteconnection, Languages languages, StreamWriters streamwriters) 
+		public class ProcessArgs
 		{
-			Console.WriteLine("Variable Label: {0}", surveysavvariable.Label);
-
-			if (string.IsNullOrWhiteSpace(surveysavvariable.Label))
+			public ProcessArgs(SQLiteConnection sqliteconnection, Languages language, StreamWriters streamwriters)
 			{
-				streamwriters[StreamWriters.Key_Log].WriteLine("Variable Label: {0} 'No label found'", surveysavvariable.Label);
-				streamwriters[StreamWriters.Key_Error].WriteLine("Variable Label: {0} 'No label found'", surveysavvariable.Label);
+				Sqliteconnection = sqliteconnection;
+				Language = language;
+				Streamwriters = streamwriters;
+			}
+
+			public Action<Question>? OnQuestion { get; set; }
+			public Action<Variable>? OnVariable { get; set; }
+
+			public Languages Language { get; set; }
+			public StreamWriters Streamwriters { get; set; }
+			public SQLiteConnection Sqliteconnection { get; set; }
+		}
+
+		public static List<Variable> ProcessSurveySAV(SurveySAV surveysav, ProcessArgs args)
+		{
+			ProcessArgs processargs = new(args.Sqliteconnection, args.Language, args.Streamwriters);
+			List<Variable> variables = [];
+
+			foreach (SurveySAVVariable surveysavvariable in surveysav.Variables.DistinctBy(_ =>
+			{
+				return _.GetId(args.Language);
+
+			})) if (ProcessSurveySAVVariable(surveysavvariable, processargs) is Variable variable)
+					variables.Add(variable);
+
+			return variables;
+		}
+		public static List<Question> ProcessCodebookPDF(CodebookPDF codebookpdf, ProcessArgs args, out Dictionary<string, Variable> variables)
+		{
+			List<Question> questions = []; variables = [];
+
+			foreach (CodebookPDF.Question codebookpdfquestion in codebookpdf.Questions)
+				if (ProcessCodebookPDFQuestion(codebookpdfquestion, args, out Variable? variable) is Question question)
+				{
+					if (variable is not null)
+					{
+						question._Language = args.Language;
+						
+						if (question.Text is not null)
+							variables.TryAdd(question.Text, variable);
+
+						if (variable.Pk != 0)
+							question.PkVariable ??= variable.Pk;
+					}
+
+					args.OnQuestion?.Invoke(question);
+
+					if (questions.Index(_ => _.Id == question.Id) is int index)
+						questions[index] = question;
+					else questions.Add(question);
+				}
+
+			foreach (Question _question in questions)
+				args.Streamwriters["_questions"].Log(_question);
+
+			return questions;
+		}
+
+		public static Variable? ProcessSurveySAVVariable(SurveySAVVariable surveysavvariable, ProcessArgs args) 
+		{
+			Console.WriteLine("Variable Label: {0}", surveysavvariable?.Label);
+
+			if (surveysavvariable is null || string.IsNullOrWhiteSpace(surveysavvariable.Label))
+			{
+				args.Streamwriters[StreamWriters.Key_Log].WriteLine("Variable Label: {0} 'No label found'", surveysavvariable?.Label);
+				args.Streamwriters[StreamWriters.Key_Error].WriteLine("Variable Label: {0} 'No label found'", surveysavvariable?.Label);
 
 				return null;
 			}
 
 			Variable variable = Utils.Inputs.SurveySAV.Variable
-				.ToTableVariable(surveysavvariable, languages, streamwriters[StreamWriters.Key_Operations]);
+				.ToTableVariable(surveysavvariable, args.Language, args.Streamwriters[StreamWriters.Key_Operations]);
 
-			TableQuery<Variable> variables = sqliteconnection
+			TableQuery<Variable> variables = args.Sqliteconnection
 				.Table<Variable>()
-				.Where(_ => variable.Label == _.Label);
+				.Where(_ => variable.Id == _.Id);
 
 			foreach (Variable _variable in variables)
 				switch (true)
 				{
-					case true when variable.ValueLabels?.EqualsOrdinalIgnoreCase(_variable.ValueLabels) ?? false: break;
+					case true when variable.ValueLabels?.EqualsOrdinalIgnoreCase(_variable.ValueLabels) ?? false:
+						variable = _variable;
+						break;
 					
 					case true when variable.ValueLabelsDictionary.All(_ =>
 					{
 						return _variable.ValueLabelsDictionary.TryGetValue(_.Key, out string? _value) && _.Value.EqualsOrdinalIgnoreCase(_value);
 					
-					}): variable.ValueLabelsDictionary = _variable.ValueLabelsDictionary; break;
+					}): 
+						variable.ValueLabelsDictionary = _variable.ValueLabelsDictionary;
+						variable = _variable; 
+						break;
 
 					case true when _variable.ValueLabelsDictionary.All(_ =>
 					{
 						return variable.ValueLabelsDictionary.TryGetValue(_.Key, out string? _value) && _.Value.EqualsOrdinalIgnoreCase(_value);
 					}):
 						_variable.ValueLabelsDictionary = variable.ValueLabelsDictionary;
-						sqliteconnection.Update(_variable);
+						args.Sqliteconnection.Update(_variable);
 						variable = _variable;
 						break;
 
@@ -61,53 +128,77 @@ namespace Database.Afrobarometer
 							_variable.ValueLabelsDictionary.TryAdd(variablekey, variable.ValueLabelsDictionary[variablekey]);
 
 						variable.ValueLabelsDictionary = _variable.ValueLabelsDictionary;
-						sqliteconnection.Update(_variable);
+						args.Sqliteconnection.Update(_variable);
 						variable = _variable;
 						break;
 
 					default: break;
 				}
 
-			streamwriters[StreamWriters.Key_Log].Log(variable);
-			streamwriters[StreamWriters.Key_Error].LogError(variable);
+			if (variable.Pk == 0 && args.Sqliteconnection.Table<Variable>().AsEnumerable().FirstOrDefault(_ =>
+			{
+				if (string.IsNullOrWhiteSpace(variable.Label) is false && string.IsNullOrWhiteSpace(_.Label) is false)
+					if (Utils.Likeness.Variable.Distance(variable.Label, _.Label, out double _) ||
+						Utils.Likeness.Variable.Similarity(variable.Label, _.Label, out double _))
+						return true;
+
+				return false;
+
+			}) is Variable __variable) variable = __variable;
+
+			args.Streamwriters[StreamWriters.Key_Log].Log(variable);
+			args.Streamwriters[StreamWriters.Key_Error].LogError(variable);
 
 			return variable;
 		}
-		public static Question? ProcessCodebookPDFQuestion(CodebookPDF.Question codebookpdfquestion, SQLiteConnection sqliteconnection, Languages languages, StreamWriters streamwriters)
+		public static Question? ProcessCodebookPDFQuestion(CodebookPDF.Question codebookpdfquestion, ProcessArgs processargs, out Variable? variable)
 		{
-			if (string.IsNullOrWhiteSpace(codebookpdfquestion.Id))
-			{
-				Console.WriteLine("CodebookPDF.QuestionID 'No id found'", codebookpdfquestion.Id);
+			variable = null;
 
-				streamwriters[StreamWriters.Key_Log].WriteLine("CodebookPDF.QuestionID 'No id found'", codebookpdfquestion.Id);
-				streamwriters[StreamWriters.Key_Error].WriteLine("CodebookPDF.QuestionID 'No id found'", codebookpdfquestion.Id);
+			if (codebookpdfquestion is null || string.IsNullOrWhiteSpace(codebookpdfquestion.VariableLabel))
+			{
+				Console.WriteLine("CodebookPDF: 'No variable label found'");
+
+				processargs.Streamwriters[StreamWriters.Key_Log].WriteLine("CodebookPDF: 'No variable label found'");
+				processargs.Streamwriters[StreamWriters.Key_Error].WriteLine("CodebookPDF: 'No variable label found'");
 
 				return null;
 			}
 
 			Question question = Utils.Inputs.CodebookPDF.Question
-				.ToTablesQuestion(codebookpdfquestion, languages, streamwriters[StreamWriters.Key_Operations], out Variable variable);
+				.ToTablesQuestion(codebookpdfquestion, processargs.Language, processargs.Streamwriters[StreamWriters.Key_Operations], out Variable _variable);
+
+			variable = processargs.Sqliteconnection
+				.Table<Variable>()
+				.FirstOrDefault(_ => question.VariableLabel == _.Label) ?? _variable;
 
 			Console.WriteLine("Question ID: {0}", question.Id);
 
 			if (string.IsNullOrWhiteSpace(question.Text))
 				return question;
 
-			IDictionary<int, string?> questions = sqliteconnection
+			Question? _question = processargs.Sqliteconnection
 				.Table<Question>()
-				.ToDictionary(_ => _.Pk, _ => _.Text);
+				.FirstOrDefault(_ => _.VariableLabel == question.VariableLabel || _.Text == question.Text);
 
-			int pk = questions.FirstOrDefault(_ => question.Text == _.Value).Key;
-			pk = pk is not 0 ? pk : questions.FirstOrDefault(_ =>
-			{
-				if (string.IsNullOrWhiteSpace(_.Value))
+			return _question ?? processargs.Sqliteconnection
+				.Table<Question>()
+				.AsEnumerable()
+				.FirstOrDefault(_ =>
+				{
+					if (string.IsNullOrWhiteSpace(question.VariableLabel) is false && string.IsNullOrWhiteSpace(_.VariableLabel) is false)
+						if (Utils.Likeness.Variable.Distance(question.VariableLabel, _.VariableLabel, out double _) ||
+							Utils.Likeness.Variable.Similarity(question.VariableLabel, _.VariableLabel, out double _))
+							return true;
+
+					if (string.IsNullOrWhiteSpace(question.Text) is false && string.IsNullOrWhiteSpace(_.Text) is false)
+						if (Utils.Likeness.Question.Distance(question.Text, _.Text) ||
+							Utils.Likeness.Question.Similarity(question.Text, _.Text))
+							return true;
+
 					return false;
-
-				return Utils.Likeness.Question.Distance(question.Text, _.Value) || Utils.Likeness.Question.Similarity(question.Text, _.Value);
-
-			}).Key;
-
-			return pk is 0 ? question : sqliteconnection.Get<Question>(pk);
+				
+				}) ?? question;
 		}
 	}
 }

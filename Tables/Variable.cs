@@ -8,23 +8,22 @@ using SpsslyVariable = Spssly.SpssDataset.Variable;
 namespace Database.Afrobarometer.Tables
 {
 	[SQLite.Table("variables")]
-    public class Variable : _AfrobarometerModel
-    {
+	public class Variable : _AfrobarometerModel
+	{
 		public Variable() { }
-		public Variable(SpsslyVariable variable) 
+		public Variable(SpsslyVariable variable)
 		{
-			Name = variable.Name;
 			Label = variable.Label;
 			ValueLabelsDictionary = variable.ValueLabels;
 		}
 
-		private readonly char[] _valuelabelsdictionaryrefreshsplit = [ ';', '=' ];
+		private readonly char[] _valuelabelsdictionaryrefreshsplit = [';', '='];
 
 		private string? _valuelabels;
 		private IDictionary<double, string>? _valuelabelsdictionary;
 
 		private string? _valuelabelsrefresh()
-		{ 
+		{
 			return _valuelabelsdictionary is null
 				? null
 				: string.Join(",", _valuelabelsdictionary.Select(_ => string.Format("{0};{1}", _.Key, _.Value).Replace(',', '|')));
@@ -36,17 +35,16 @@ namespace Database.Afrobarometer.Tables
 				.Select(_ =>
 				{
 					string[] _split = _.SplitTrim(_valuelabelsdictionaryrefreshsplit, 2);
-					
+
 					_split[0] = _split[0].Replace('|', ',');
 					_split[1] = _split[1].Replace('|', ',');
 
 					return _split;
-				
+
 				}).ToDictionary(_ => double.Parse(_[0]), _ => _[1]) ?? [];
 		}
 
 		[SQLite.Column(nameof(Id))] public string? Id { get; set; }
-		[SQLite.Column(nameof(Name))] public string? Name { get; set; }
 		[SQLite.Column(nameof(Label))] public string? Label { get; set; }
 		[SQLite.Column(nameof(ValueLabels))] public string? ValueLabels
 		{
@@ -68,12 +66,13 @@ namespace Database.Afrobarometer.Tables
 			}
 		}
 
+
 		[SQLite.Table("variables")]
 		public class Individual : Variable
 		{
 			public Individual(Variable variable)
 			{
-				Name = variable.Name;
+				Id = variable.Id;
 				Label = variable.Label;
 				ValueLabels = variable.ValueLabels;
 			}
@@ -92,9 +91,7 @@ namespace Database.Afrobarometer.Tables
 		{
 			streamwriter.Log(variable as _AfrobarometerModel);
 
-			streamwriter.WriteLine("Pk: {0}", variable.Pk);
 			streamwriter.WriteLine("Id: {0}", variable.Id);
-			streamwriter.WriteLine("Name: {0}", variable.Name);
 			streamwriter.WriteLine("Label: {0}", variable.Label);
 			streamwriter.WriteLine("ValueLabels: {0}", variable.ValueLabels);
 			streamwriter.WriteLine();

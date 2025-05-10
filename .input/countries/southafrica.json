@@ -1,11 +1,11 @@
 {
-	"code": "",
-	"capital": "",
-	"population": "",
-	"squareKMs": "",
+	"code": null,
+	"capital": null,
+	"population": null,
+	"squareKMs": null,
 
-	"urlFlag": "",
-	"urlInsignia": "",
-	"urlPoster": "",
-	"urlWebsite": ""
+	"urlFlag": null,
+	"urlInsignia": null,
+	"urlPoster": null,
+	"urlWebsite": null
 }

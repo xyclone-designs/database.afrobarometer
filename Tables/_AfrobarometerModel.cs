@@ -13,8 +13,10 @@ namespace Database.Afrobarometer.Tables
 
 		public static string AddPKPair(string? pkPairs, int pk, string value)
 		{
-			pkPairs ??= string.Empty;
-			pkPairs += string.Format("{0}:{1}", pk, value);
+			if (string.IsNullOrWhiteSpace(pkPairs))
+				return string.Format("{0}:{1}", pk, value);
+
+			pkPairs += string.Format(",{0}:{1}", pk, value);
 			
 			return pkPairs;
 		}

@@ -110,10 +110,66 @@ namespace Database.Afrobarometer.Enums
 
 			throw new ArgumentException(string.Format("Countries not found from '{0}'", filename));
 		}
+		public static string ToCode(this Countries country)
+		{
+			return country switch
+			{
+				Countries._merged => string.Empty,
+				Countries._none => string.Empty,
+
+				Countries.Algeria => "alg",
+				Countries.Angola => "ang",
+				Countries.Burundi => "bdi",
+				Countries.Benin => "ben",
+				Countries.BurkinaFaso => "bfo",
+				Countries.Botswana => "bot",
+				Countries.Cameroon => "cam",
+				Countries.CongoBrazzaville => "cbz",
+				Countries.CaboVerde => "cve",
+				Countries.CoteDIvoire => "cdi",
+				Countries.Egypt => "egy",
+				Countries.Eswatini => "esw",
+				Countries.Ethiopia => "eth",
+				Countries.Gabon => "gab",
+				Countries.Ghana => "gha",
+				Countries.Gambia => "gam",
+				Countries.Guinea => "gui",
+				Countries.Kenya => "ken",
+				Countries.Lesotho => "les",
+				Countries.Liberia => "lib",
+				Countries.Madagascar => "mad",
+				Countries.Mauritius => "mau",
+				Countries.Mali => "mli",
+				Countries.Malawi => "mlw",
+				Countries.Morocco => "mor",
+				Countries.Mozambique => "moz",
+				Countries.Mauritania => "mta",
+				Countries.Namibia => "nam",
+				Countries.Niger => "nig",
+				Countries.Nigeria => "ngr",
+				Countries.SaoTomeAndPrincipe => "stp",
+				Countries.SouthAfrica => "saf",
+				Countries.Senegal => "sen",
+				Countries.Seychelles => "sey",
+				Countries.SierraLeone => "srl",
+				Countries.Sudan => "sud",
+				Countries.Tanzania => "tan",
+				Countries.Togo => "tog",
+				Countries.Tunisia => "tun",
+				Countries.Uganda => "uga",
+				Countries.Zambia => "zam",
+				Countries.Zimbabwe => "zim",
+
+				_ => throw new ArgumentException(string.Format("Round '{0}' not found", country))
+			};
+		}
 		public static string ToString(this Countries country)
 		{
 			return country switch
 			{
+				Countries._merged => string.Empty,
+				Countries._none => string.Empty,
+
 				Countries.Algeria => "Algeria",
 				Countries.Angola => "Angola",
 				Countries.Burundi => "Burundi",

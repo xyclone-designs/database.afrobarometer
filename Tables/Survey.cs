@@ -1,4 +1,6 @@
 ﻿using Database.Afrobarometer.Enums;
+
+using System;
 using System.IO;
 
 namespace Database.Afrobarometer.Tables
@@ -6,18 +8,34 @@ namespace Database.Afrobarometer.Tables
 	[SQLite.Table("surveys")]
     public class Survey : _AfrobarometerModel
     {
-		[SQLite.Column(nameof(Country))] public Countries? Country { get; set; }
-		[SQLite.Column(nameof(ListPkQuestion))] public string? ListPkQuestion { get; set; }
-		[SQLite.Column(nameof(Language))] public Languages? Language { get; set; }
-		[SQLite.Column(nameof(Round))] public Rounds? Round { get; set; }
+		[SQLite.Column(nameof(PkCountry))] public int? PkCountry { get; set; }
+		[SQLite.Column(nameof(List_PkQuestion))] public string? List_PkQuestion { get; set; }
+		[SQLite.Column(nameof(List_PkVariable))] public string? List_PkVariable { get; set; }
+		[SQLite.Column(nameof(InterviewCount))] public int? InterviewCount { get; set; }
+		[SQLite.Column(nameof(Language))] public string? Language { get; set; }
+		[SQLite.Column(nameof(Round))] public string? Round { get; set; }
+
+		[SQLite.Ignore] public Languages? _Language
+		{
+			set => Language = value?.ToString();
+			get => Enum.TryParse(Language, out Languages _language) ? _language : null;
+		}
+		[SQLite.Ignore] public Rounds? _Round
+		{
+			get => Round?.AsRound();
+			set => Round = value?.AsString(); 
+		}
+
 
 		[SQLite.Table("surveys")]
 		public class Individual : Survey
 		{
 			public Individual(Survey survey)
 			{
-				Country = survey.Country;
-				ListPkQuestion = survey.ListPkQuestion;
+				PkCountry = survey.PkCountry;
+				List_PkQuestion = survey.List_PkQuestion;
+				List_PkVariable = survey.List_PkVariable;
+				InterviewCount = survey.InterviewCount;
 				Language = survey.Language;
 				Round = survey.Round;
 			}
@@ -36,8 +54,10 @@ namespace Database.Afrobarometer.Tables
 		{
 			streamwriter.Log(survey as _AfrobarometerModel);
 
-			streamwriter.WriteLine("Country: {0}", survey.Country);
-			streamwriter.WriteLine("ListPkQuestion: {0}", survey.ListPkQuestion);
+			streamwriter.WriteLine("PkCountry: {0}", survey.PkCountry);
+			streamwriter.WriteLine("List_PkQuestion: {0}", survey.List_PkQuestion);
+			streamwriter.WriteLine("List_PkVariable: {0}", survey.List_PkVariable);
+			streamwriter.WriteLine("InterviewCount: {0}", survey.InterviewCount);
 			streamwriter.WriteLine("Language: {0}", survey.Language);
 			streamwriter.WriteLine("Round: {0}", survey.Round);
 			streamwriter.WriteLine();

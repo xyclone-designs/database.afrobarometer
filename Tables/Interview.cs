@@ -1,4 +1,6 @@
 ﻿using Database.Afrobarometer.Enums;
+
+using System;
 using System.IO;
 
 namespace Database.Afrobarometer.Tables
@@ -6,11 +8,22 @@ namespace Database.Afrobarometer.Tables
 	[SQLite.Table("interviews")]
     public class Interview : _AfrobarometerModel
     {
-		[SQLite.Column(nameof(Language))] public Languages? Language { get; set; }
-		[SQLite.Column(nameof(Round))] public Rounds? Round { get; set; }
-		[SQLite.Column(nameof(Pk_Survey))] public int Pk_Survey { get; set; }
-		[SQLite.Column(nameof(List_PkVariables))] public string? List_PkVariables { get; set; }
-		[SQLite.Column(nameof(List_PkQuestions_Record))] public string? List_PkQuestions_Record { get; set; }
+		[SQLite.Column(nameof(Language))] public string? Language { get; set; }
+		[SQLite.Column(nameof(Round))] public string? Round { get; set; }
+		[SQLite.Column(nameof(PkSurvey))] public int PkSurvey { get; set; }
+		[SQLite.Column(nameof(List_PkVariable_Record))] public string? List_PkVariable_Record { get; set; }
+
+		[SQLite.Ignore] public Languages? _Language
+		{
+			set => Language = value?.ToString();
+			get => Enum.TryParse(Language, out Languages _language) ? _language : null;
+		}
+		[SQLite.Ignore] public Rounds? _Round
+		{
+			get => Round?.AsRound();
+			set => Round = value?.AsString();
+		}
+
 
 		[SQLite.Table("interviews")]
 		public class Individual : Interview
@@ -19,9 +32,8 @@ namespace Database.Afrobarometer.Tables
 			{
 				Language = interview.Language;
 				Round = interview.Round;
-				Pk_Survey = interview.Pk_Survey;
-				List_PkVariables = interview.List_PkVariables;
-				List_PkQuestions_Record = interview.List_PkQuestions_Record;
+				PkSurvey = interview.PkSurvey;
+				List_PkVariable_Record = interview.List_PkVariable_Record;
 			}
 
 			[SQLite.AutoIncrement]

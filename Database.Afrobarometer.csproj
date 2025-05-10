@@ -17,8 +17,90 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include=".input\countries\en\southafrica.json" />
-    <Content Include=".input\countries\southafrica.json" />
+    <Content Include=".input\countries\en\Algeria.json" />
+    <Content Include=".input\countries\en\Angola.json" />
+    <Content Include=".input\countries\en\Benin.json" />
+    <Content Include=".input\countries\en\Botswana.json" />
+    <Content Include=".input\countries\en\BurkinaFaso.json" />
+    <Content Include=".input\countries\en\Burundi.json" />
+    <Content Include=".input\countries\en\CaboVerde.json" />
+    <Content Include=".input\countries\en\Cameroon.json" />
+    <Content Include=".input\countries\en\CongoBrazzaville.json" />
+    <Content Include=".input\countries\en\CoteDIvoire.json" />
+    <Content Include=".input\countries\en\Egypt.json" />
+    <Content Include=".input\countries\en\Eswatini.json" />
+    <Content Include=".input\countries\en\Ethiopia.json" />
+    <Content Include=".input\countries\en\Gabon.json" />
+    <Content Include=".input\countries\en\Gambia.json" />
+    <Content Include=".input\countries\en\Ghana.json" />
+    <Content Include=".input\countries\en\Guinea.json" />
+    <Content Include=".input\countries\en\Kenya.json" />
+    <Content Include=".input\countries\en\Lesotho.json" />
+    <Content Include=".input\countries\en\Liberia.json" />
+    <Content Include=".input\countries\en\Madagascar.json" />
+    <Content Include=".input\countries\en\Malawi.json" />
+    <Content Include=".input\countries\en\Mali.json" />
+    <Content Include=".input\countries\en\Mauritania.json" />
+    <Content Include=".input\countries\en\Mauritius.json" />
+    <Content Include=".input\countries\en\Morocco.json" />
+    <Content Include=".input\countries\en\Mozambique.json" />
+    <Content Include=".input\countries\en\Namibia.json" />
+    <Content Include=".input\countries\en\Niger.json" />
+    <Content Include=".input\countries\en\Nigeria.json" />
+    <Content Include=".input\countries\en\SaoTomeAndPrincipe.json" />
+    <Content Include=".input\countries\en\Senegal.json" />
+    <Content Include=".input\countries\en\Seychelles.json" />
+    <Content Include=".input\countries\en\SierraLeone.json" />
+    <Content Include=".input\countries\en\SouthAfrica.json" />
+    <Content Include=".input\countries\Algeria.json" />
+    <Content Include=".input\countries\Angola.json" />
+    <Content Include=".input\countries\Benin.json" />
+    <Content Include=".input\countries\Burundi.json" />
+    <Content Include=".input\countries\Botswana.json" />
+    <Content Include=".input\countries\BurkinaFaso.json" />
+    <Content Include=".input\countries\Cameroon.json" />
+    <Content Include=".input\countries\CaboVerde.json" />
+    <Content Include=".input\countries\CoteDIvoire.json" />
+    <Content Include=".input\countries\CongoBrazzaville.json" />
+    <Content Include=".input\countries\en\Sudan.json" />
+    <Content Include=".input\countries\en\Tanzania.json" />
+    <Content Include=".input\countries\en\Togo.json" />
+    <Content Include=".input\countries\en\Tunisia.json" />
+    <Content Include=".input\countries\en\Uganda.json" />
+    <Content Include=".input\countries\en\Zambia.json" />
+    <Content Include=".input\countries\en\Zimbabwe.json" />
+    <Content Include=".input\countries\Ethiopia.json" />
+    <Content Include=".input\countries\Egypt.json" />
+    <Content Include=".input\countries\Eswatini.json" />
+    <Content Include=".input\countries\Gabon.json" />
+    <Content Include=".input\countries\Ghana.json" />
+    <Content Include=".input\countries\Gambia.json" />
+    <Content Include=".input\countries\Guinea.json" />
+    <Content Include=".input\countries\Kenya.json" />
+    <Content Include=".input\countries\Lesotho.json" />
+    <Content Include=".input\countries\Liberia.json" />
+    <Content Include=".input\countries\Madagascar.json" />
+    <Content Include=".input\countries\Mauritius.json" />
+    <Content Include=".input\countries\Mauritania.json" />
+    <Content Include=".input\countries\Malawi.json" />
+    <Content Include=".input\countries\Mali.json" />
+    <Content Include=".input\countries\Mozambique.json" />
+    <Content Include=".input\countries\Morocco.json" />
+    <Content Include=".input\countries\Namibia.json" />
+    <Content Include=".input\countries\Niger.json" />
+    <Content Include=".input\countries\Nigeria.json" />
+    <Content Include=".input\countries\SaoTomeAndPrincipe.json" />
+    <Content Include=".input\countries\Senegal.json" />
+    <Content Include=".input\countries\Seychelles.json" />
+    <Content Include=".input\countries\SierraLeone.json" />
+    <Content Include=".input\countries\SouthAfrica.json" />
+    <Content Include=".input\countries\Sudan.json" />
+    <Content Include=".input\countries\Tanzania.json" />
+    <Content Include=".input\countries\Zimbabwe.json" />
+    <Content Include=".input\countries\Zambia.json" />
+    <Content Include=".input\countries\Togo.json" />
+    <Content Include=".input\countries\Tunisia.json" />
+    <Content Include=".input\countries\Uganda.json" />
     <Content Include=".input\topics\CivicEngagement.txt" />
     <Content Include=".input\topics\GovernmentPerformance.txt" />
     <Content Include=".input\topics\HealthEducationSocialServices.txt" />
@@ -67,11 +149,12 @@
 
   <ItemGroup>
     <PackageReference Include="F23.StringSimilarity" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="PdfPig" Version="0.1.10" />
     <PackageReference Include="SharpZipLib" Version="1.4.2" />
     <PackageReference Include="Spssly" Version="2.0.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
-    <PackageReference Include="XycloneDesigns.Extensions.CSharp" Version="1.0.0" />
+    <PackageReference Include="XycloneDesigns.Extensions.CSharp" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>

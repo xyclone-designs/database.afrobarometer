@@ -259,6 +259,8 @@ namespace Database.Afrobarometer
 						string? id = Utils.Inputs.CodebookPDF.Question.Id(question.Id, language);
 						string? text = Utils.Inputs.CodebookPDF.Question.Text(question.Text, language);
 						string? variablelabel = Utils.Inputs.CodebookPDF.Question.VariableLabel(question.VariableLabel, language);
+						string? variablecleanlabel = variablelabel is null ? null : Utils.Inputs.SurveySAV.Variable.CleanLabel(variablelabel, language);
+						string? variableid = variablecleanlabel is null ? null : Utils.Inputs._Base.Replacements._Id(variablecleanlabel, language);
 						string[]? values = Utils.Inputs.CodebookPDF.Question.Values(question.Values, language);
 						string[]? valuelabels = Utils.Inputs.CodebookPDF.Question.ValueLabels(question.ValueLabels, language);
 						string? source = Utils.Inputs.CodebookPDF.Question.Source(question.Source, language);
@@ -283,7 +285,8 @@ namespace Database.Afrobarometer
 
 						tablesvariable = new TablesVariable
 						{
-							Label = variablelabel, 
+							Id = variableid,
+							Label = variablecleanlabel ?? variablelabel, 
 							//ValueLabels = string.Join(",", valuelabels ?? []),
 						};
 
@@ -292,7 +295,9 @@ namespace Database.Afrobarometer
 							Id = id,
 							Text = text,
 							Source = source,
+							VariableLabel = variablecleanlabel ?? variablelabel,
 							Note = note,
+							_Language = language,
 						};
 					}
 				}

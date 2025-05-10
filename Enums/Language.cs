@@ -102,9 +102,24 @@ namespace Database.Afrobarometer.Enums
 		{
 			return language switch
 			{
+				Languages._default => string.Empty,
+
 				Languages.French => "French",
 				Languages.English => "English",
 				Languages.Portuguese => "Portuguese",
+
+				_ => throw new ArgumentException()
+			};
+		}
+		public static string ToCode(this Languages language)
+		{
+			return language switch
+			{
+				Languages._default => string.Empty,
+
+				Languages.French => "fr",
+				Languages.English => "en",
+				Languages.Portuguese => "po",
 
 				_ => throw new ArgumentException()
 			};

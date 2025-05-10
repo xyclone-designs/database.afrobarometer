@@ -31,9 +31,22 @@ namespace Database.Afrobarometer
 						public static IEnumerable<string[]> GeneralStartsWith => Enumerable.Empty<string[]>();
 					}
 				}
-
 				public static partial class Replacements
 				{
+					public static string _Id(string input, Languages language)
+					{
+						(IEnumerable<string> id, string replacemenid) = language switch
+						{
+							Languages.French => (French.Id, French.IdReplacement),
+							Languages.Portuguese => (Portuguese.Id, Portuguese.IdReplacement),
+							Languages.English or _ => (English.Id, English.IdReplacement),
+						};
+
+						foreach (string _id in id)
+							input = input.Replace(_id, replacemenid);
+
+						return input.ToLower();
+					}
 					public static string _General(string input, Languages language)
 					{
 						foreach (string[] _General in language switch
@@ -107,6 +120,9 @@ namespace Database.Afrobarometer
 
 					public static partial class French
 					{
+						public static string IdReplacement => string.Empty;
+						public static IEnumerable<string> Id => Enumerable.Empty<string>();
+
 						public static IEnumerable<string[]> General => Enumerable.Empty<string[]>();
 						public static IEnumerable<string[]> GeneralRegex => Enumerable.Empty<string[]>();
 
@@ -118,6 +134,22 @@ namespace Database.Afrobarometer
 					}
 					public static partial class English
 					{
+						public static string IdReplacement => string.Empty;
+						public static IEnumerable<string> Id => Enumerable.Empty<string>()
+							.Append(".")
+							.Append(",")
+							.Append("?")
+							.Append("(")
+							.Append(")")
+							.Append(":")
+							.Append(";")
+							.Append("!")
+							.Append("=")
+							.Append("-")
+							.Append("\'")
+							.Append("\\")
+							.Append(" ");
+
 						public static IEnumerable<string[]> General => Enumerable.Empty<string[]>()
 							.Append(["&", "and"])
 							.Append(["vs.", "vs"])
@@ -186,6 +218,9 @@ namespace Database.Afrobarometer
 					}
 					public static partial class Portuguese
 					{
+						public static string IdReplacement => string.Empty;
+						public static IEnumerable<string> Id => Enumerable.Empty<string>();
+
 						public static IEnumerable<string[]> General => Enumerable.Empty<string[]>();
 						public static IEnumerable<string[]> GeneralRegex => Enumerable.Empty<string[]>();
 

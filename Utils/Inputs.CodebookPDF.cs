@@ -144,7 +144,7 @@ namespace Database.Afrobarometer
 					"Question Number:",
 					"Question:",
 					"Variable Label:", "Variable label:",
-					"Values:",
+					"Values:", "Value:",
 					"Value Label:", "Value Labels:", "Values Labels:",
 					"Source:", "DataSource:",
 					"Note:", "Notes:"

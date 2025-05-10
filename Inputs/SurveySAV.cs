@@ -46,6 +46,19 @@ namespace Database.Afrobarometer.Inputs
 
 	public static partial class StreamWriterExtensions
 	{
+		public static string? GetId(this SurveySAVVariable surveysavvariable, Languages language) 
+		{
+			if (string.IsNullOrWhiteSpace(surveysavvariable.Label))
+				return null;
+
+			string cleanlabel = Utils.Inputs.SurveySAV.Variable.CleanLabel(surveysavvariable.Label, language);
+			string id = Utils.Inputs._Base.Replacements._Id(cleanlabel, language);
+
+			return id;
+		}
+	}
+	public static partial class StreamWriterExtensions
+	{
 		public static void Log(this StreamWriter streamwriter, SurveySAV surveysav) { }
 		public static void Log(this StreamWriter streamwriter, SurveySAVVariable surveysavvariable) { }
 

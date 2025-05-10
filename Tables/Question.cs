@@ -1,5 +1,7 @@
 ﻿using Database.Afrobarometer.Enums;
 using Database.Afrobarometer.Inputs;
+
+using System;
 using System.IO;
 
 namespace Database.Afrobarometer.Tables
@@ -11,19 +13,27 @@ namespace Database.Afrobarometer.Tables
 		public Question(CodebookPDF.Question question)
 		{
 			Id = question.Id;
+			VariableLabel = question.VariableLabel;
 			Text = question.Text;
 			Source = question.Source;
 			Note = question.Note;
 		}
 
-		[SQLite.Column(nameof(Language))] public Languages? Language { get; set; }
-		[SQLite.Column(nameof(Round))] public Rounds? Round { get; set; }
-		[SQLite.Column(nameof(ListPkSurvey))] public string? ListPkSurvey { get; set; }
+		[SQLite.Column(nameof(Language))] public string? Language { get; set; }
+		[SQLite.Column(nameof(List_PkSurvey))] public string? List_PkSurvey { get; set; }
 		[SQLite.Column(nameof(Id))] public string? Id { get; set; }
+		[SQLite.Column(nameof(VariableLabel))] public string? VariableLabel { get; set; }
 		[SQLite.Column(nameof(PkVariable))] public int? PkVariable { get; set; }
 		[SQLite.Column(nameof(Text))] public string? Text { get; set; }
 		[SQLite.Column(nameof(Source))] public string? Source { get; set; }
 		[SQLite.Column(nameof(Note))] public string? Note { get; set; }
+
+		[SQLite.Ignore] public Languages? _Language
+		{
+			set => Language = value?.ToString();
+			get => Enum.TryParse(Language, out Languages _language) ? _language : null;
+		}
+
 
 		[SQLite.Table("questions")]
 		public class Individual : Question
@@ -31,8 +41,8 @@ namespace Database.Afrobarometer.Tables
 			public Individual(Question question)
 			{
 				Language = question.Language;
-				Round = question.Round;
-				Id = question.Id;
+				List_PkSurvey = question.List_PkSurvey;
+				VariableLabel = question.VariableLabel;
 				Id = question.Id;
 				PkVariable = question.PkVariable;
 				Text = question.Text;
@@ -56,8 +66,9 @@ namespace Database.Afrobarometer.Tables
 
 			streamwriter.WriteLine("Id: {0}", question.Id);
 			streamwriter.WriteLine("Text: {0}", question.Text);
+			streamwriter.WriteLine("VariableLabel: {0}", question.VariableLabel);
 			streamwriter.WriteLine("Language: {0}", question.Language);
-			streamwriter.WriteLine("Round: {0}", question.Round);
+			streamwriter.WriteLine("List_PkSurvey: {0}", question.List_PkSurvey);
 			streamwriter.WriteLine("PkVariable: {0}", question.PkVariable);
 			streamwriter.WriteLine("Source: {0}", question.Source);
 			streamwriter.WriteLine("Note: {0}", question.Note);

@@ -278,6 +278,7 @@ namespace Database.Afrobarometer
 
 						return new TablesVariable(spsslyvariable)
 						{
+							Id = _Base.Replacements._Id(cleanedlabel, language),
 							Label = cleanedlabel,
 							ValueLabelsDictionary = spsslyvariable.ValueLabels
 								.ToDictionary(_ => _.Key, _ =>
