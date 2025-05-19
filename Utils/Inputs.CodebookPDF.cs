@@ -75,9 +75,13 @@ namespace Database.Afrobarometer
 						public static IEnumerable<string[]> General => _Base.Replacements.English.General
 							.Append(["\n", string.Empty])
 							.Append(["\r", string.Empty])
+							.Append(["”", string.Empty])
+							.Append(["“", string.Empty])
 							.Append(["Copyright Afrobarometer", string.Empty])
 							.Append(["/ ", "/"])
 							.Append(["/", " or "])
+							.Append(["Value Label1=Strongly agree", "Value Label: 1=Strongly agree"])
+							.Append(["Value Label: =Strongly agree,", "Value Label: 1=Strongly agree,"])
 							.Append(["Pidgin=English", "Pidgin-English"])
 							.Append(["Béri=béri", "Béri-béri"])
 							.Append(["Mixed=-=English/Afrikaans", "Mixed(English/Afrikaans)"])
@@ -116,7 +120,7 @@ namespace Database.Afrobarometer
 							.Append(["9=National independence/people’s self-determination=9,", "9=National independence/people’s self-determination,"])
 							.Append(["6=Eat Asian (Chinese, Korean, Indonesian, etc.), Other=95,", "6=East Asian (Chinese, Korean, Indonesian, etc.), 95=Other,"]);
 						public static IEnumerable<string[]> GeneralRegex => _Base.Replacements.English.GeneralRegex
-							.Append(["Copyright Afrobarometer\\s*[0-9]*", string.Empty])
+							//.Append(["Copyright Afrobarometer\\s*[0-9]*", string.Empty])
 							.Append([",\\s*Post\\s*Code=Other\\s*[A-Za-z0-9]*\\s*\\[[Ss]pecify\\]", string.Empty]);
 						public static IEnumerable<string[]> GeneralRegexExt(PdfDocument pdfdocument)
 						{
@@ -139,30 +143,48 @@ namespace Database.Afrobarometer
 					}
 				}
 
-				public static readonly string[] ProcessCodebooksInputEnglishSplit = new string[]
-				{
-					"Question Number:",
-					"Question:",
-					"Variable Label:", "Variable label:",
-					"Values:", "Value:",
-					"Value Label:", "Value Labels:", "Values Labels:",
-					"Source:", "DataSource:",
-					"Note:", "Notes:"
-				};
+				public static readonly string[] ProcessCodebooksInputEnglishSplit_Id = ["Question Number:",];
+				public static readonly string[] ProcessCodebooksInputEnglishSplit_Text = ["Question:",];
+				public static readonly string[] ProcessCodebooksInputEnglishSplit_VariableLabel = ["Variable Label:", "Variable label:",];
+				public static readonly string[] ProcessCodebooksInputEnglishSplit_Values = ["Values:", "Value:",];
+				public static readonly string[] ProcessCodebooksInputEnglishSplit_ValueLabels = ["Value Label:", "Value Labels:", "Values Labels:",];
+				public static readonly string[] ProcessCodebooksInputEnglishSplit_Source = ["Source:", "DataSource:",];
+				public static readonly string[] ProcessCodebooksInputEnglishSplit_Note = ["Note:", "Notes:",];
+				public static readonly string[] ProcessCodebooksInputEnglishSplit =
+				[
+					.. ProcessCodebooksInputEnglishSplit_Id,
+					.. ProcessCodebooksInputEnglishSplit_Text,
+					.. ProcessCodebooksInputEnglishSplit_VariableLabel,
+					.. ProcessCodebooksInputEnglishSplit_Values,
+					.. ProcessCodebooksInputEnglishSplit_ValueLabels,
+					.. ProcessCodebooksInputEnglishSplit_Source,
+					.. ProcessCodebooksInputEnglishSplit_Note,
+				];
 
 				public static string[] SplitText(PdfDocument pdfdocument, Languages language, out string rawtext)
 				{
 					StringBuilder stringbuilder = new();
 
-					foreach (Page page in pdfdocument.GetPages())
-						stringbuilder.Append(page.Text);
+					for (int pagenumber = 1; pagenumber < pdfdocument.NumberOfPages; pagenumber++)
+					{
+						Page page = pdfdocument.GetPage(pagenumber);
+
+						if (string.IsNullOrWhiteSpace(page.Text) is false)
+						{
+							string pattern = string.Format("Copyright Afrobarometer\\s*{0}{1}", pagenumber, "{1}");
+							string result = Regex.Replace(page.Text, pattern, string.Empty);
+
+							stringbuilder.Append(result);
+						}
+					}
 
 					string text = rawtext = stringbuilder.ToString();
 
+					text = Replacements._General(text, language);
 					text = Replacements._GeneralRegexExt(text, language, pdfdocument);
 					text = Replacements._GeneralRegex(text, language);
 
-					string[] split = text.Split(ProcessCodebooksInputEnglishSplit[0], StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+					string[] split = text.SplitWithoutRemoval(ProcessCodebooksInputEnglishSplit_Id);
 
 					return split.Length > 2 ? split[1..^0] : split;
 				}

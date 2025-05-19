@@ -35,20 +35,20 @@ namespace Database.Afrobarometer.Enums
 			if (true switch
 			{
 				true when filename.Contains("r1-5") => Rounds.OnePointFive,
-				true when filename.Contains("r1") => Rounds.One,
-				true when filename.Contains("r2") => Rounds.Two,
+				true when filename.Contains("r1") || filename.Contains("round-01") => Rounds.One,
+				true when filename.Contains("r2") || filename.Contains("round-02") => Rounds.Two,
 				true when filename.Contains("r3.5") || filename.Contains("r3-5") => Rounds.ThreePointFive,
-				true when filename.Contains("r3") || filename.Contains("r3a") || filename.Contains("r3data") => Rounds.Three,
+				true when filename.Contains("r3") || filename.Contains("r3a") || filename.Contains("r3data") || filename.Contains("round-03") => Rounds.Three,
 				true when filename.Contains("r4-5-1") => Rounds.FourPointFiveOne,
 				true when filename.Contains("r4-5-2") => Rounds.FourPointFiveTwo,
 				true when filename.Contains("r4-5") => Rounds.FourPointFive,
-				true when filename.Contains("r4") => Rounds.Four,
-				true when filename.Contains("r5") => Rounds.Five,
-				true when filename.Contains("r6") || filename.Contains("r6.data") || filename.Contains('6') => Rounds.Six,
-				true when filename.Contains("r7") || filename.Contains("r7.data") => Rounds.Seven,
-				true when filename.Contains("r8") || filename.Contains("r8.data") => Rounds.Eight,
-				true when filename.Contains("r9") || filename.Contains("r9.data") => Rounds.Nine,
-				true when filename.Contains("r10") => Rounds.Ten,
+				true when filename.Contains("r4") || filename.Contains("round-04") => Rounds.Four,
+				true when filename.Contains("r5") || filename.Contains("round-05")  => Rounds.Five,
+				true when filename.Contains("r6") || filename.Contains("r6.data") || filename.Contains('6') || filename.Contains("round-06") => Rounds.Six,
+				true when filename.Contains("r7") || filename.Contains("r7.data") || filename.Contains("round-07") => Rounds.Seven,
+				true when filename.Contains("r8") || filename.Contains("r8.data") || filename.Contains("round-08")  => Rounds.Eight,
+				true when filename.Contains("r9") || filename.Contains("r9.data") || filename.Contains("round-09")  => Rounds.Nine,
+				true when filename.Contains("r10") || filename.Contains("round-10") => Rounds.Ten,
 
 				_ => new Rounds?()
 

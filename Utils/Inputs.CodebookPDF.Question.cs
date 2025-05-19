@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
 
 using CodebookPDFQuestion = Database.Afrobarometer.Inputs.CodebookPDF.Question;
@@ -20,6 +21,34 @@ namespace Database.Afrobarometer
 			{
 				public static class Question
 				{
+					public static partial class Substitutions
+					{
+						public static partial class French
+						{
+							public static partial class ValueLabels
+							{
+								public static IEnumerable<string[]> General => Enumerable.Empty<string[]>();
+								public static IEnumerable<string[]> GeneralStartsWith => Enumerable.Empty<string[]>();
+							}
+						}
+						public static partial class English
+						{
+							public static partial class ValueLabels
+							{
+								public static IEnumerable<string[]> General => Enumerable.Empty<string[]>()
+									.Append(["=Strongly agree", "1=Strongly agree"]);
+								public static IEnumerable<string[]> GeneralStartsWith => Enumerable.Empty<string[]>();
+							}
+						}
+						public static partial class Portuguese
+						{
+							public static partial class ValueLabels
+							{
+								public static IEnumerable<string[]> General => Enumerable.Empty<string[]>();
+								public static IEnumerable<string[]> GeneralStartsWith => Enumerable.Empty<string[]>();
+							}
+						}
+					}
 					public static class Replacements
 					{
 						public static class French
@@ -49,6 +78,11 @@ namespace Database.Afrobarometer
 							public static class ValueLabels
 							{
 								public static IEnumerable<string[]> General => Enumerable.Empty<string[]>()
+									.Append(["1=1=Don’t", "1=Don’t"])
+									.Append(["1=,1=Don’t", "1=Don’t"])
+									.Append(["518 =Sonrhai, =Makua", "518 =Sonrhai, 540=Makua"])
+									.Append(["55=Know someone, government welfare", "55=Know someone or government welfare"])
+									.Append(["81=Would die,4=Sale of food", "81=Would die,84=Sale of food"])
 									.Append(["518 =Sonrhai, =Makua", "518 =Sonrhai, 540=Makua"])
 									.Append(["9= Turkey, =Ghana", "9= Turkey, 10=Ghana"])
 									.Append(["1=A, strongly", "1=A 'strongly'"])
@@ -192,14 +226,20 @@ namespace Database.Afrobarometer
 					{
 						return variablelabel;
 					}
-					public static string[]? Values(string? values, Languages language)
+					public static string[]? Values(string? values, Languages language, out bool changed)
 					{
+						changed = false;
+
 						return values?.Split(',');
 					}
-					public static string[]? ValueLabels(string? valuelabels, Languages language)
+					public static string[]? ValueLabels(string? valuelabels, Languages language, out bool changed)
 					{
+						changed = false;
+
 						if (valuelabels is null)
 							return null;
+
+						string original = valuelabels;
 
 						foreach ((string _Regex, Func<MatchCollection, string, string> _OnMatches) in language switch
 						{
@@ -216,10 +256,23 @@ namespace Database.Afrobarometer
 							Languages.English or _ => Replacements.English.ValueLabels.General,
 
 						}) valuelabels = valuelabels.Replace(_ValueLabelsGeneral[0], _ValueLabelsGeneral[1]);
+						
+						foreach (string[] _ValueLabelsGeneral in language switch
+						{
+							Languages.French => Replacements.French.ValueLabels.General,
+							Languages.Portuguese => Replacements.Portuguese.ValueLabels.General,
+							Languages.English or _ => Replacements.English.ValueLabels.General,
+
+						}) valuelabels = valuelabels.Replace(_ValueLabelsGeneral[0], _ValueLabelsGeneral[1]);
+
+						changed = changed || original == valuelabels;
 
 						string[] _valuelabels = valuelabels
+							.Trim(':')
 							.Replace(';', ',')
-							.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+							.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
+							.Select((_, __) => _.Contains('=') ? _ : string.Format("{0}={1}", -(__ + 1), _))
+							.ToArray();
 
 						if (language switch
 						{
@@ -231,10 +284,20 @@ namespace Database.Afrobarometer
 							for (int index = 0; index < _valuelabels.Length; index++)
 								if (_NotApplicables.Contains(_valuelabels[index]) is false)
 								{
-									string[] split = _valuelabels[index].Split('=', '"', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+									foreach (string[] _ValueLabelsGeneral in language switch
+									{
+										Languages.French => Substitutions.French.ValueLabels.General,
+										Languages.Portuguese => Substitutions.Portuguese.ValueLabels.General,
+										Languages.English or _ => Substitutions.English.ValueLabels.General,
+
+									}) if (_valuelabels[index] == _ValueLabelsGeneral[0]) _valuelabels[index] = _ValueLabelsGeneral[1];
+
+									string[] split = _valuelabels[index].SplitRemoveTrim('=', '"');
 
 									if (index > 0 && int.TryParse(split.ElementAtOrDefault(0), out int _) is false)
 									{
+										changed = true;
+
 										_valuelabels[index - 1] = string.Format("{0}, {1}", _valuelabels[index - 1], _valuelabels[index]);
 										_valuelabels = _valuelabels
 											.Where((_, __) => index != __)
@@ -254,40 +317,85 @@ namespace Database.Afrobarometer
 						return note;
 					}
 
-					public static TablesQuestion ToTablesQuestion(CodebookPDFQuestion question, Languages language, StreamWriter logger, out TablesVariable tablesvariable)
+					public static bool NotApplicables(string? str, Languages language)
+					{
+						if (str is null)
+							return false;
+
+						return (language switch
+						{
+							Languages.French => Replacements.French.ValueLabels.NotApplicables,
+							Languages.Portuguese => Replacements.Portuguese.ValueLabels.NotApplicables,
+							Languages.English or _ => Replacements.English.ValueLabels.NotApplicables,
+
+						}).Contains(str);
+					}
+
+					public static string[] SplitValueLabels(string? valuelabels, Languages language)
+					{
+						if (valuelabels is null)
+							return [];
+
+						return SplitValueLabels(valuelabels.SplitRemoveTrim(','), language);
+					}
+					public static string[] SplitValueLabels(string[]? valuelabels, Languages language)
+					{
+						if (valuelabels is null)
+							return [];
+
+						for (int index = 0; index < valuelabels.Length; index++)
+							if (NotApplicables(valuelabels[index], language) is false)
+							{
+								string[] split = valuelabels[index].SplitRemoveTrim('=', '"');
+
+								if (index > 0 && int.TryParse(split.ElementAtOrDefault(0), out int _) is false)
+								{
+									valuelabels[index - 1] = string.Format("{0}, {1}", valuelabels[index - 1], valuelabels[index]);
+									valuelabels = valuelabels
+										.Where((_, __) => index != __)
+										.ToArray();
+									index--;
+								}
+							}
+
+						return valuelabels;
+					}
+
+					public static TablesQuestion ToTablesQuestion(CodebookPDFQuestion question, Languages language, out TablesVariable tablesvariable, params StreamWriter[] loggers)
 					{
 						string? id = Utils.Inputs.CodebookPDF.Question.Id(question.Id, language);
 						string? text = Utils.Inputs.CodebookPDF.Question.Text(question.Text, language);
 						string? variablelabel = Utils.Inputs.CodebookPDF.Question.VariableLabel(question.VariableLabel, language);
 						string? variablecleanlabel = variablelabel is null ? null : Utils.Inputs.SurveySAV.Variable.CleanLabel(variablelabel, language);
 						string? variableid = variablecleanlabel is null ? null : Utils.Inputs._Base.Replacements._Id(variablecleanlabel, language);
-						string[]? values = Utils.Inputs.CodebookPDF.Question.Values(question.Values, language);
-						string[]? valuelabels = Utils.Inputs.CodebookPDF.Question.ValueLabels(question.ValueLabels, language);
+						string[]? values = Utils.Inputs.CodebookPDF.Question.Values(question.Values, language, out bool valueschanged);
+						string[]? valuelabels = Utils.Inputs.CodebookPDF.Question.ValueLabels(question.ValueLabels, language, out bool valueslabelschanged);
 						string? source = Utils.Inputs.CodebookPDF.Question.Source(question.Source, language);
 						string? note = Utils.Inputs.CodebookPDF.Question.Note(question.Note, language);
 
-						if (logger is not null)
+						IList<string> logs = [];
+
+						if (question.Id != id) logs.AddFormat("Id: '{0}' => '{1}'", question.Id, id);
+						if (question.Text != text) logs.AddFormat("Text: '{0}'\n      '{1}'", question.Text, text);
+						if (question.VariableLabel != variablelabel) logs.AddFormat("VariableLabel: '{0}'\n               '{1}'", question.VariableLabel, variablelabel);
+						if (valueschanged) logs.AddFormat("Values:\n    '{0}'\n    =>\n    '{1}'", question.Values, string.Join("\n    ", values ?? []));
+						if (valuelabels?.Select(_ => double.Parse(_.Split('=')[0])) is IEnumerable<double> all && all.Distinct().Count() == all.Count())
+							logs.AddFormat("ValueLabels: Duplicates Found '{0}'", string.Join(", ", all));
+						if (valueslabelschanged) logs.AddFormat("ValueLabels: {0}\n             {1}", question.ValueLabels, string.Join("\n             ", valuelabels ?? []));
+						if (question.Source != source) logs.AddFormat("Source: '{0}'\n        '{1}'", question.Source, source);
+						if (question.Note != note) logs.AddFormat("Note: '{0}'\n      '{1}'", question.Note, note);
+
+						foreach (StreamWriter logger in loggers)
 						{
-							logger.WriteLine("Id: '{0}' => '{1}'", question.Id, id);
-							logger.WriteLine("Text: '{0}' => '{1}'", question.Text, text);
-							logger.WriteLine("VariableLabel: '{0}' => '{1}'", question.VariableLabel, variablelabel);
-							logger.WriteLine("Values:");
-							logger.WriteLine("    '{0}'", question.Values);
-							logger.WriteLine(" => ");
-							logger.WriteLine("    '{0}'", question.Values, string.Join("\\n    ", values ?? []));
-							logger.WriteLine("ValueLabels:");
-							logger.WriteLine("    '{0}'", question.ValueLabels);
-							logger.WriteLine(" => ");
-							logger.WriteLine("    '{0}'", question.ValueLabels, string.Join("\\n    ", valuelabels ?? []));
-							logger.WriteLine("Source: '{0}' => '{1}'", question.Source, source);
-							logger.WriteLine("Note: '{0}' => '{1}'", question.Note, note);
+							foreach (string log in logs)
+								logger.WriteLine(log); logger.WriteLine();
 						}
 
 						tablesvariable = new TablesVariable
 						{
 							Id = variableid,
 							Label = variablecleanlabel ?? variablelabel, 
-							//ValueLabels = string.Join(",", valuelabels ?? []),
+							ValueLabels = string.Join(",", valuelabels ?? []),
 						};
 
 						return new TablesQuestion

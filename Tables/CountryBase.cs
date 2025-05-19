@@ -19,17 +19,17 @@ namespace Database.Afrobarometer.Tables
 		[SQLite.Table("countries")]
 		public class Individual : CountryBase
 		{
-			public Individual(Country country)
+			public Individual(CountryBase countrybase)
 			{
-				Capital = country.Capital;
-				Code = country.Code;
-				List_PkSurvey = country.List_PkSurvey;
-				Population = country.Population;
-				SquareKMs = country.SquareKMs;
-				UrlFlag = country.UrlFlag;
-				UrlInsignia = country.UrlInsignia;
-				UrlPoster = country.UrlPoster;
-				UrlWebsite = country.UrlWebsite;
+				Capital = countrybase.Capital;
+				Code = countrybase.Code;
+				List_PkSurvey = countrybase.List_PkSurvey;
+				Population = countrybase.Population;
+				SquareKMs = countrybase.SquareKMs;
+				UrlFlag = countrybase.UrlFlag;
+				UrlInsignia = countrybase.UrlInsignia;
+				UrlPoster = countrybase.UrlPoster;
+				UrlWebsite = countrybase.UrlWebsite;
 			}
 
 			[SQLite.AutoIncrement]

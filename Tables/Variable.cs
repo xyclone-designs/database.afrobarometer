@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Database.Afrobarometer.Enums;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -30,18 +31,38 @@ namespace Database.Afrobarometer.Tables
 		}
 		private IDictionary<double, string> _valuelabelsdictionaryrefresh()
 		{
-			return _valuelabels?
-				.SplitRemoveTrim(',')
+			if (_valuelabels is null)
+				return new Dictionary<double, string> { };
+
+			string[]? valuelabels = _valuelabels.Trim(':').SplitRemoveTrim(',');
+
+			for (int index = 0; index < valuelabels.Length; index++)
+			{
+				string[] split = valuelabels[index].SplitRemoveTrim('=', '"');
+
+				if (index > 0 && int.TryParse(split.ElementAtOrDefault(0), out int _) is false)
+				{
+					valuelabels[index - 1] = string.Format("{0}, {1}", valuelabels[index - 1], valuelabels[index]);
+					valuelabels = valuelabels
+						.Where((_, __) => index != __)
+						.ToArray();
+					index--;
+				}
+			}
+
+			IEnumerable<string[]>? _split = valuelabels
+				.Select(_ => _.SplitTrim(_valuelabelsdictionaryrefreshsplit, 2))
+				.Where(_ => _.Length == 2)
 				.Select(_ =>
 				{
-					string[] _split = _.SplitTrim(_valuelabelsdictionaryrefreshsplit, 2);
+					_[0] = _[0].Replace('|', ',');
+					_[1] = _[1].Replace('|', ',');
 
-					_split[0] = _split[0].Replace('|', ',');
-					_split[1] = _split[1].Replace('|', ',');
+					return _;
 
-					return _split;
-
-				}).ToDictionary(_ => double.Parse(_[0]), _ => _[1]) ?? [];
+				}).DistinctBy(_ => _[0]);
+			
+			return _split.ToDictionary(_ => double.Parse(_[0]), _ => _[1]) ?? [];
 		}
 
 		[SQLite.Column(nameof(Id))] public string? Id { get; set; }
@@ -56,6 +77,7 @@ namespace Database.Afrobarometer.Tables
 			}
 		}
 
+		[SQLite.Ignore] public Languages Language { get; set; }
 		[SQLite.Ignore] public IDictionary<double, string> ValueLabelsDictionary
 		{
 			get => _valuelabelsdictionary ??= _valuelabelsdictionaryrefresh();

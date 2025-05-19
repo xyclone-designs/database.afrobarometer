@@ -43,22 +43,36 @@ namespace Database.Afrobarometer.Inputs
 			{
 				pdfdocument ??= PdfDocument.Open(Filepath);
 
-				string[] split = Utils.Inputs.CodebookPDF.SplitText(pdfdocument, Language, out string text); Text = text;
+				string[] split = Utils.Inputs.CodebookPDF.SplitText(pdfdocument, Language, out string rawtext); Text = rawtext;
 
 				for (int index = 0; index < split.Length; index++)
 				{
-					string[] texts = split[index].SplitRemoveTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit);
+					string[] texts = split[index].SplitWithoutRemoval(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit);
 
-					yield return new Question
-					{
-						Id = texts.ElementAtOrDefault(0),
-						Text = texts.ElementAtOrDefault(1),
-						VariableLabel = texts.ElementAtOrDefault(2),
-						Values = texts.ElementAtOrDefault(3),
-						ValueLabels = texts.ElementAtOrDefault(4),
-						Source = texts.ElementAtOrDefault(5),
-						Note = texts.ElementAtOrDefault(6),
-					};
+					Question question = new();
+
+					if (texts.FirstOrDefault(_ => Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Id.Any(__ => _.Contains(__))) is string id)
+						question.Id = id.SplitTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Id)[1];
+
+					if (texts.FirstOrDefault(_ => Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Text.Any(__ => _.Contains(__))) is string text)
+						question.Text = text.SplitTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Text)[1];
+
+					if (texts.FirstOrDefault(_ => Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_VariableLabel.Any(__ => _.Contains(__))) is string variablelabel)
+						question.VariableLabel = variablelabel.SplitTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_VariableLabel)[1];
+
+					if (texts.FirstOrDefault(_ => Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Values.Any(__ => _.Contains(__))) is string values)
+						question.Values = values.SplitTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Values)[1];
+
+					if (texts.FirstOrDefault(_ => Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_ValueLabels.Any(__ => _.Contains(__))) is string valuelabels)
+						question.ValueLabels = valuelabels.SplitTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_ValueLabels)[1];
+
+					if (texts.FirstOrDefault(_ => Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Source.Any(__ => _.Contains(__))) is string source)
+						question.Source = source.SplitTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Source)[1];
+
+					if (texts.FirstOrDefault(_ => Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Note.Any(__ => _.Contains(__))) is string note)
+						question.Note = note.SplitTrim(Utils.Inputs.CodebookPDF.ProcessCodebooksInputEnglishSplit_Note)[1];
+
+					yield return question;
 				}
 			}
 		}

@@ -48,20 +48,12 @@ namespace Database.Afrobarometer.Inputs
 		public string Filepath { get; set; }
 		public string Filename { get; set; }
 
-		public Country ToCountry(Languages languages) 
+		public CountryBase ToCountryBase()
 		{
-			string filepath = SystemPath.Combine(Directory.GetParent(Filepath)?.FullName ?? string.Join('\\', Filepath.Split('\\')[0..^2]), languages.ToCode(), Filename);
-			Countries countries = Enum.Parse<Countries>(Filename.Split('.')[0], true);
-
-			CountryJSON countrylanguage = new (filepath);
-			Country country = new()
+			CountryBase countrybase = new()
 			{
-				Code = countries.ToCode(),
+				Code = Enum.Parse<Countries>(Filename.Split('.')[0], true).ToCode(),
 
-				Blurb = countrylanguage.TryGetValue(KeysCountry.Blurb, StringComparison.OrdinalIgnoreCase, out JToken? _blurb) ? _blurb.ToObject<string?>() : null,
-				Languages = countrylanguage.TryGetValue(KeysCountry.Languages, StringComparison.OrdinalIgnoreCase, out JToken? _languages) ? _languages.ToObject<string?>() : null,
-				Name = countrylanguage.TryGetValue(KeysCountry.Name, StringComparison.OrdinalIgnoreCase, out JToken? _name) ? _name.ToObject<string?>() : null,
-				
 				Capital = TryGetValue(KeysCountryBase.Capital, StringComparison.OrdinalIgnoreCase, out JToken? _capital) ? _capital.ToObject<string?>() : null,
 				Population = TryGetValue(KeysCountryBase.Population, StringComparison.OrdinalIgnoreCase, out JToken? _population) ? _population.ToObject<int?>() : null,
 				SquareKMs = TryGetValue(KeysCountryBase.SquareKMs, StringComparison.OrdinalIgnoreCase, out JToken? _squarekms) ? _squarekms.ToObject<decimal?>() : null,
@@ -69,6 +61,21 @@ namespace Database.Afrobarometer.Inputs
 				UrlInsignia = TryGetValue(KeysCountryBase.UrlInsignia, StringComparison.OrdinalIgnoreCase, out JToken? _urlinsignia) ? _urlinsignia.ToObject<string?>() : null,
 				UrlPoster = TryGetValue(KeysCountryBase.UrlPoster, StringComparison.OrdinalIgnoreCase, out JToken? _urlposter) ? _urlposter.ToObject<string?>() : null,
 				UrlWebsite = TryGetValue(KeysCountryBase.UrlWebsite, StringComparison.OrdinalIgnoreCase, out JToken? _urlwebsite) ? _urlwebsite.ToObject<string?>() : null,
+			};
+
+			return countrybase;
+		}
+		public Country ToCountry(Languages languages) 
+		{
+			string filepath = SystemPath.Combine(Directory.GetParent(Filepath)?.FullName ?? string.Join('\\', Filepath.Split('\\')[0..^2]), languages.ToCode(), Filename);
+
+			CountryJSON countrylanguage = new(filepath);
+			CountryBase countrybase = ToCountryBase();
+			Country country = new(countrybase)
+			{
+				Blurb = countrylanguage.TryGetValue(KeysCountry.Blurb, StringComparison.OrdinalIgnoreCase, out JToken? _blurb) ? _blurb.ToObject<string?>() : null,
+				Languages = countrylanguage.TryGetValue(KeysCountry.Languages, StringComparison.OrdinalIgnoreCase, out JToken? _languages) ? _languages.ToObject<string?>() : null,
+				Name = countrylanguage.TryGetValue(KeysCountry.Name, StringComparison.OrdinalIgnoreCase, out JToken? _name) ? _name.ToObject<string?>() : null,
 			};
 
 			return country;

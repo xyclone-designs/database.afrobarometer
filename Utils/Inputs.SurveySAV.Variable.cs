@@ -74,6 +74,7 @@ namespace Database.Afrobarometer
 							public static class Label
 							{
 								public static IEnumerable<string[]> General => _Base.Replacements.English.General
+									.Append(["vegetables been grown", "vegetables being grown"])
 									.Append(["healthcare", "health services"])
 									.Append(["primary sampling unit", "PSU"])
 									.Append(["Q90new Monthly Income", "Q90 New Monthly Income"])
@@ -181,6 +182,7 @@ namespace Database.Afrobarometer
 							public static class Label
 							{
 								public static IEnumerable<string[]> General => Enumerable.Empty<string[]>()
+									.Append(["Date", "Date of interview"])
 									.Append(["Army to govern the country", "Army governs the country"])
 									.Append(["What does democracy mean to you", "What does democracy mean"])
 									.Append(["How interested is parliament in the well-being of you", "How interested is parliament in your well-being"])
@@ -269,27 +271,45 @@ namespace Database.Afrobarometer
 						return valuelabel;
 					}
 
-					public static TablesVariable ToTableVariable(SpsslyVariable spsslyvariable, Languages language, StreamWriter logger)
+					public static TablesVariable ToTableVariable(SpsslyVariable spsslyvariable, Languages language, params StreamWriter[] loggers)
 					{
-						string cleanedlabel = CleanLabel(spsslyvariable.Label, language);
+						List<string> log = [];
 
-						logger.WriteLine("Name: {0}", spsslyvariable.Name);
-						logger.WriteLine("Label: '{0}' => {1}", spsslyvariable.Label, cleanedlabel == spsslyvariable.Label ? "::" : cleanedlabel);
+						string? cleanedlabel = string.IsNullOrWhiteSpace(spsslyvariable.Label) 
+							? null
+							: CleanLabel(spsslyvariable.Label, language);
 
-						return new TablesVariable(spsslyvariable)
+						if (cleanedlabel != spsslyvariable.Label)
+							log.Add(string.Format("Label: '{0}' => {1}", spsslyvariable.Label, cleanedlabel));
+
+						TablesVariable tablesvariable = new(spsslyvariable)
 						{
-							Id = _Base.Replacements._Id(cleanedlabel, language),
+							Id = cleanedlabel is null ? null : _Base.Replacements._Id(cleanedlabel, language),
 							Label = cleanedlabel,
 							ValueLabelsDictionary = spsslyvariable.ValueLabels
 								.ToDictionary(_ => _.Key, _ =>
 								{
 									string cleanvalue = CleanValueLabel(_.Value, language);
 
-									logger.WriteLine("Value Label: {0} => {1}", _.Value, cleanvalue);
+									if (_.Value != cleanvalue)
+										log.Add(string.Format("Value Label: {0} => {1}", _.Value, cleanvalue));
 
 									return cleanvalue;
 								})
 						};
+
+						if (log.Count > 0)
+							foreach (StreamWriter logger in loggers)
+							{
+								logger.WriteLine("Name: {0}", spsslyvariable.Name);
+
+								foreach (string _log in log)
+									logger.WriteLine(_log);
+
+								logger.WriteLine();
+							}
+
+						return tablesvariable;
 					}
 				}
 			}

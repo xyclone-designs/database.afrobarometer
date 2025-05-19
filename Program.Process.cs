@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
 
 using SurveySAVVariable = Spssly.SpssDataset.Variable;
 
@@ -17,7 +18,7 @@ namespace Database.Afrobarometer
 	{
 		public class ProcessArgs
 		{
-			public ProcessArgs(SQLiteConnection sqliteconnection, Languages language, StreamWriters streamwriters)
+			public ProcessArgs(SQLiteConnection sqliteconnection, Languages language, params StreamWriters[] streamwriters)
 			{
 				Sqliteconnection = sqliteconnection;
 				Language = language;
@@ -27,22 +28,56 @@ namespace Database.Afrobarometer
 			public Action<Question>? OnQuestion { get; set; }
 			public Action<Variable>? OnVariable { get; set; }
 
+			public Languages Round { get; set; }
+			public Languages Country { get; set; }
 			public Languages Language { get; set; }
-			public StreamWriters Streamwriters { get; set; }
+			public List<Question>? Questions { get; set; }
+			public List<Variable>? Variables { get; set; }
+			public StreamWriters[] Streamwriters { get; set; }
 			public SQLiteConnection Sqliteconnection { get; set; }
 		}
 
+		public static string 
+			Key_SurveySAV_Error = "surveysav.error", 
+			Key_SurveySAV_Log = "surveysav.log", 
+			Key_SurveySAV_Operations = "surveysav.operations",
+			Key_SurveySAV_Labels = "surveysav.labels";
+		
+		public static string 
+			Key_CodebookPDF_Error = "codebookpdf.error", 
+			Key_CodebookPDF_Log = "codebookpdf.log", 
+			Key_CodebookPDF_Operations = "codebookpdf.operations", 
+			Key_CodebookPDF_Texts = "codebookpdf.texts", 
+			Key_CodebookPDF_VariableLabels = "codebookpdf.variablelabels";
+
 		public static List<Variable> ProcessSurveySAV(SurveySAV surveysav, ProcessArgs args)
 		{
-			ProcessArgs processargs = new(args.Sqliteconnection, args.Language, args.Streamwriters);
 			List<Variable> variables = [];
 
-			foreach (SurveySAVVariable surveysavvariable in surveysav.Variables.DistinctBy(_ =>
-			{
-				return _.GetId(args.Language);
+			args.Streamwriters.TryAdd(
+				[Key_SurveySAV_Log, string.Format("{0}.txt", Key_SurveySAV_Log)],
+				[Key_SurveySAV_Error, string.Format("{0}.txt", Key_SurveySAV_Error)],
+				[Key_SurveySAV_Operations, string.Format("{0}.txt", Key_SurveySAV_Operations)]);
 
-			})) if (ProcessSurveySAVVariable(surveysavvariable, processargs) is Variable variable)
-					variables.Add(variable);
+			foreach (SurveySAVVariable surveysavvariable in surveysav.Variables)
+				if (ProcessSurveySAVVariable(surveysavvariable, args) is Variable variable)
+				{
+					args.Variables ??= [];
+					args.Variables.Add(variable);
+
+					if (variables.Index(_ => _.Id == variable.Id) is int index)
+						variables[index] = variable;
+					else variables.Add(variable);
+
+					args.Streamwriters.For(Key_SurveySAV_Log, _ => _.Log(variable));
+					args.Streamwriters.For(Key_SurveySAV_Error, _ => _.LogError(variable));
+				}
+
+			foreach (Variable _variable in variables.OrderBy(_ => _.Label))
+				args.Streamwriters.For(Key_SurveySAV_Labels, _ => _.WriteLine("{0}: {1}", _variable.Id, _variable.Label ?? "\"null\""));
+
+			args.Variables?.Clear();
+			args.Streamwriters.Dispose(true, Key_SurveySAV_Log, Key_SurveySAV_Error, Key_SurveySAV_Operations);
 
 			return variables;
 		}
@@ -50,13 +85,24 @@ namespace Database.Afrobarometer
 		{
 			List<Question> questions = []; variables = [];
 
+			args.Streamwriters.TryAdd(
+				[Key_CodebookPDF_Error, string.Format("{0}.txt", Key_CodebookPDF_Error)],
+				[Key_CodebookPDF_Log, string.Format("{0}.txt", Key_CodebookPDF_Log)],
+				[Key_CodebookPDF_Operations, string.Format("{0}.txt", Key_CodebookPDF_Operations)],
+				[Key_CodebookPDF_Texts, string.Format("{0}.txt", Key_CodebookPDF_Texts)],
+				[Key_CodebookPDF_VariableLabels, string.Format("{0}.txt", Key_CodebookPDF_VariableLabels)]);
+
 			foreach (CodebookPDF.Question codebookpdfquestion in codebookpdf.Questions)
+			{
 				if (ProcessCodebookPDFQuestion(codebookpdfquestion, args, out Variable? variable) is Question question)
 				{
+					args.Questions ??= [];
+					args.Questions.Add(question);
+
 					if (variable is not null)
 					{
 						question._Language = args.Language;
-						
+
 						if (question.Text is not null)
 							variables.TryAdd(question.Text, variable);
 
@@ -69,28 +115,32 @@ namespace Database.Afrobarometer
 					if (questions.Index(_ => _.Id == question.Id) is int index)
 						questions[index] = question;
 					else questions.Add(question);
-				}
 
-			foreach (Question _question in questions)
-				args.Streamwriters["_questions"].Log(_question);
+					args.Streamwriters.For(Key_CodebookPDF_Log, _ => _.Log(question));
+					args.Streamwriters.For(Key_CodebookPDF_Error, _ => _.LogError(question));
+				}
+			}
+
+			foreach (Question _question in questions.OrderBy(_ => _.Text))
+				args.Streamwriters.For(Key_CodebookPDF_Texts, _ => _.WriteLine("{0}: {1}", _question.Id, _question.Text ?? "\"null\""));
+
+			foreach (Question _question in questions.OrderBy(_ => _.VariableLabel))
+				args.Streamwriters.For(Key_CodebookPDF_VariableLabels, _ => _.WriteLine("{0}: {1}", _question.Id, _question.VariableLabel ?? "\"null\""));
+
+			args.Questions?.Clear();
+			args.Streamwriters.Dispose(true, Key_CodebookPDF_Error, Key_CodebookPDF_Log, Key_CodebookPDF_Operations, Key_CodebookPDF_Texts, Key_CodebookPDF_VariableLabels);
 
 			return questions;
 		}
 
 		public static Variable? ProcessSurveySAVVariable(SurveySAVVariable surveysavvariable, ProcessArgs args) 
 		{
-			Console.WriteLine("Variable Label: {0}", surveysavvariable?.Label);
+			Variable variable = Utils.Inputs.SurveySAV.Variable.ToTableVariable(
+				language: args.Language,
+				spsslyvariable: surveysavvariable, 
+				loggers: args.Streamwriters.Get(Key_SurveySAV_Operations));
 
-			if (surveysavvariable is null || string.IsNullOrWhiteSpace(surveysavvariable.Label))
-			{
-				args.Streamwriters[StreamWriters.Key_Log].WriteLine("Variable Label: {0} 'No label found'", surveysavvariable?.Label);
-				args.Streamwriters[StreamWriters.Key_Error].WriteLine("Variable Label: {0} 'No label found'", surveysavvariable?.Label);
-
-				return null;
-			}
-
-			Variable variable = Utils.Inputs.SurveySAV.Variable
-				.ToTableVariable(surveysavvariable, args.Language, args.Streamwriters[StreamWriters.Key_Operations]);
+			Console.WriteLine("SurveySAVVariable.Label: {0}", surveysavvariable.Label ?? "null");
 
 			TableQuery<Variable> variables = args.Sqliteconnection
 				.Table<Variable>()
@@ -135,7 +185,15 @@ namespace Database.Afrobarometer
 					default: break;
 				}
 
-			if (variable.Pk == 0 && args.Sqliteconnection.Table<Variable>().AsEnumerable().FirstOrDefault(_ =>
+			if (variable.Pk is not 0)
+				return variable;
+
+			Expression<Func<Variable, bool>> equalityexpression = _ => _.Label == variable.Label;
+			bool equalityfunc(Variable _)
+			{
+				return _.Label == variable.Label;
+			}
+			bool similarityanddistance(Variable _)
 			{
 				if (string.IsNullOrWhiteSpace(variable.Label) is false && string.IsNullOrWhiteSpace(_.Label) is false)
 					if (Utils.Likeness.Variable.Distance(variable.Label, _.Label, out double _) ||
@@ -143,62 +201,105 @@ namespace Database.Afrobarometer
 						return true;
 
 				return false;
+			};
 
-			}) is Variable __variable) variable = __variable;
-
-			args.Streamwriters[StreamWriters.Key_Log].Log(variable);
-			args.Streamwriters[StreamWriters.Key_Error].LogError(variable);
+			variable =
+				args.Variables?.FirstOrDefault(_ => equalityfunc(_) || similarityanddistance(_)) ??
+				args.Sqliteconnection
+					.Table<Variable>()
+					.FirstOrDefault(equalityexpression) ??
+				args.Sqliteconnection
+					.Table<Variable>()
+					.AsEnumerable()
+					.FirstOrDefault(similarityanddistance) ??
+				variable;
 
 			return variable;
 		}
-		public static Question? ProcessCodebookPDFQuestion(CodebookPDF.Question codebookpdfquestion, ProcessArgs processargs, out Variable? variable)
+		public static Question? ProcessCodebookPDFQuestion(CodebookPDF.Question codebookpdfquestion, ProcessArgs args, out Variable? variable)
 		{
-			variable = null;
+			Console.WriteLine("CodebookPDF.Question.Id: {0}", codebookpdfquestion.Id); variable = null;
 
-			if (codebookpdfquestion is null || string.IsNullOrWhiteSpace(codebookpdfquestion.VariableLabel))
+			Question question = Utils.Inputs.CodebookPDF.Question.ToTablesQuestion(
+				language: args.Language,
+				question: codebookpdfquestion,
+				tablesvariable: out Variable _variable,
+				loggers: args.Streamwriters.Get(Key_CodebookPDF_Operations));
+
+			bool nulltexts = string.IsNullOrWhiteSpace(question.Text), nullvariblelabels = string.IsNullOrWhiteSpace(question.VariableLabel);
+			
+			variable = args.Sqliteconnection
+				.Table<Variable>()
+				.FirstOrDefault(_ => _.Id == _variable.Id);
+ 
+			Func<Question, bool> equalityfunc;			
+			Expression<Func<Question, bool>> equalityexpresion;			
+			Func<Question, bool> similarityanddistance;
+
+			switch ((nulltexts, nullvariblelabels))
 			{
-				Console.WriteLine("CodebookPDF: 'No variable label found'");
+				case (false, false):
+					equalityfunc = _ => _.VariableLabel == question.VariableLabel || _.Text == question.Text;
+					equalityexpresion = _ => _.VariableLabel == question.VariableLabel || _.Text == question.Text;
+					similarityanddistance = _ =>
+					{
+						if (string.IsNullOrWhiteSpace(_.VariableLabel) is false)
+							if (Utils.Likeness.Variable.Distance(question.VariableLabel!, _.VariableLabel, out double _) ||
+								Utils.Likeness.Variable.Similarity(question.VariableLabel!, _.VariableLabel, out double _))
+								return true;
 
-				processargs.Streamwriters[StreamWriters.Key_Log].WriteLine("CodebookPDF: 'No variable label found'");
-				processargs.Streamwriters[StreamWriters.Key_Error].WriteLine("CodebookPDF: 'No variable label found'");
+						if (string.IsNullOrWhiteSpace(_.Text) is false)
+							if (Utils.Likeness.Question.Distance(question.Text!, _.Text) ||
+								Utils.Likeness.Question.Similarity(question.Text!, _.Text))
+								return true;
 
-				return null;
+						return false;
+					};
+					break;
+				
+				case (false, true):
+					equalityfunc = _ => _.Text == question.Text;
+					equalityexpresion = _ => _.Text == question.Text;
+					similarityanddistance = _ =>
+					{
+						if (string.IsNullOrWhiteSpace(_.Text) is false)
+							if (Utils.Likeness.Question.Distance(question.Text!, _.Text) ||
+								Utils.Likeness.Question.Similarity(question.Text!, _.Text))
+								return true;
+
+						return false;
+					};
+					break;
+
+				case (true, false):
+					equalityfunc = _ => _.VariableLabel == question.VariableLabel;
+					equalityexpresion = _ => _.VariableLabel == question.VariableLabel;
+					similarityanddistance = _ =>
+					{
+						if (string.IsNullOrWhiteSpace(_.VariableLabel) is false)
+							if (Utils.Likeness.Variable.Distance(question.VariableLabel!, _.VariableLabel, out double _) ||
+								Utils.Likeness.Variable.Similarity(question.VariableLabel!, _.VariableLabel, out double _))
+								return true;
+
+						return false;
+					};
+					break;
+
+				case (true, true): return question;
 			}
 
-			Question question = Utils.Inputs.CodebookPDF.Question
-				.ToTablesQuestion(codebookpdfquestion, processargs.Language, processargs.Streamwriters[StreamWriters.Key_Operations], out Variable _variable);
+			question = 
+				args.Questions?.FirstOrDefault(_ => equalityfunc.Invoke(_) || similarityanddistance.Invoke(_)) ?? 
+				args.Sqliteconnection
+					.Table<Question>()
+					.FirstOrDefault(equalityexpresion) ?? 
+				args.Sqliteconnection
+					.Table<Question>()
+					.AsEnumerable()
+					.FirstOrDefault(similarityanddistance) ??
+				question;
 
-			variable = processargs.Sqliteconnection
-				.Table<Variable>()
-				.FirstOrDefault(_ => question.VariableLabel == _.Label) ?? _variable;
-
-			Console.WriteLine("Question ID: {0}", question.Id);
-
-			if (string.IsNullOrWhiteSpace(question.Text))
-				return question;
-
-			Question? _question = processargs.Sqliteconnection
-				.Table<Question>()
-				.FirstOrDefault(_ => _.VariableLabel == question.VariableLabel || _.Text == question.Text);
-
-			return _question ?? processargs.Sqliteconnection
-				.Table<Question>()
-				.AsEnumerable()
-				.FirstOrDefault(_ =>
-				{
-					if (string.IsNullOrWhiteSpace(question.VariableLabel) is false && string.IsNullOrWhiteSpace(_.VariableLabel) is false)
-						if (Utils.Likeness.Variable.Distance(question.VariableLabel, _.VariableLabel, out double _) ||
-							Utils.Likeness.Variable.Similarity(question.VariableLabel, _.VariableLabel, out double _))
-							return true;
-
-					if (string.IsNullOrWhiteSpace(question.Text) is false && string.IsNullOrWhiteSpace(_.Text) is false)
-						if (Utils.Likeness.Question.Distance(question.Text, _.Text) ||
-							Utils.Likeness.Question.Similarity(question.Text, _.Text))
-							return true;
-
-					return false;
-				
-				}) ?? question;
+			return question;
 		}
 	}
 }
