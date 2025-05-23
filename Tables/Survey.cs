@@ -8,7 +8,7 @@ namespace Database.Afrobarometer.Tables
 	[SQLite.Table("surveys")]
     public class Survey : _AfrobarometerModel
     {
-		[SQLite.Column(nameof(PkCountry))] public int? PkCountry { get; set; }
+		[SQLite.Column(nameof(CountryCode))] public string? CountryCode { get; set; }
 		[SQLite.Column(nameof(List_PkQuestion))] public string? List_PkQuestion { get; set; }
 		[SQLite.Column(nameof(List_PkVariable))] public string? List_PkVariable { get; set; }
 		[SQLite.Column(nameof(InterviewCount))] public int? InterviewCount { get; set; }
@@ -32,7 +32,7 @@ namespace Database.Afrobarometer.Tables
 		{
 			public Individual(Survey survey)
 			{
-				PkCountry = survey.PkCountry;
+				CountryCode = survey.CountryCode;
 				List_PkQuestion = survey.List_PkQuestion;
 				List_PkVariable = survey.List_PkVariable;
 				InterviewCount = survey.InterviewCount;
@@ -54,7 +54,7 @@ namespace Database.Afrobarometer.Tables
 		{
 			streamwriter.Log(survey as _AfrobarometerModel);
 
-			streamwriter.WriteLine("PkCountry: {0}", survey.PkCountry);
+			streamwriter.WriteLine("CountryCode: {0}", survey.CountryCode);
 			streamwriter.WriteLine("List_PkQuestion: {0}", survey.List_PkQuestion);
 			streamwriter.WriteLine("List_PkVariable: {0}", survey.List_PkVariable);
 			streamwriter.WriteLine("InterviewCount: {0}", survey.InterviewCount);
