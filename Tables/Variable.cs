@@ -93,8 +93,10 @@ namespace Database.Afrobarometer.Tables
 		[SQLite.Table("variables")]
 		public class Individual : Variable
 		{
+			public Individual() { }
 			public Individual(Variable variable)
 			{
+				Pk = variable.Pk;
 				Id = variable.Id;
 				Label = variable.Label;
 				ValueLabels = variable.ValueLabels;

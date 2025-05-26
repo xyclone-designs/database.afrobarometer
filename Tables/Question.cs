@@ -38,8 +38,10 @@ namespace Database.Afrobarometer.Tables
 		[SQLite.Table("questions")]
 		public class Individual : Question
 		{
+			public Individual() { }
 			public Individual(Question question)
 			{
+				Pk = question.Pk;
 				Language = question.Language;
 				List_PkSurvey = question.List_PkSurvey;
 				VariableLabel = question.VariableLabel;

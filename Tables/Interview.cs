@@ -28,8 +28,10 @@ namespace Database.Afrobarometer.Tables
 		[SQLite.Table("interviews")]
 		public class Individual : Interview
 		{
+			public Individual() { }
 			public Individual(Interview interview)
 			{
+				Pk = interview.Pk;
 				Language = interview.Language;
 				Round = interview.Round;
 				PkSurvey = interview.PkSurvey;

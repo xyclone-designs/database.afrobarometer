@@ -1,6 +1,7 @@
 ﻿using Database.Afrobarometer.Enums;
 
 using System.Collections.Generic;
+using System.Linq;
 
 namespace System.IO.Compression
 {
@@ -23,7 +24,17 @@ namespace System.IO.Compression
 
 		public static IEnumerable<ZipArchiveContainer> FromZipPaths(params string[] zippaths)
 		{
-			foreach (string zippath in zippaths)
+			return FromZipPaths(zippaths as IEnumerable<string>);
+		}
+		public static IEnumerable<ZipArchiveContainer> FromZipPaths(IEnumerable<string> zippaths)
+		{
+			foreach (string zippath in zippaths.SelectMany(_ =>
+			{
+				if (Directory.Exists(_))
+					return Directory.EnumerateFiles(_);
+
+				return [_];
+			}))
 			{
 				using FileStream filestream = File.OpenRead(zippath);
 				using ZipArchive ziparchive = new(filestream);
