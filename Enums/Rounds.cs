@@ -44,7 +44,7 @@ namespace Database.Afrobarometer.Enums
 				true when filename.Contains("round_04-5") || filename.Contains("r4-5") => Rounds.FourPointFive,
 				true when filename.Contains("round_04") || filename.Contains("r4") => Rounds.Four,
 				true when filename.Contains("round_05") || filename.Contains("r5") => Rounds.Five,
-				true when filename.Contains("round_06") || filename.Contains("r6") || filename.Contains("r6.data") || filename.Contains('6') => Rounds.Six,
+				true when filename.Contains("round_06") || filename.Contains("r6") || filename.Contains("r6.data") => Rounds.Six,
 				true when filename.Contains("round_07") || filename.Contains("r7") || filename.Contains("r7.data") => Rounds.Seven,
 				true when filename.Contains("round_08") || filename.Contains("r8") || filename.Contains("r8.data") => Rounds.Eight,
 				true when filename.Contains("round_09") || filename.Contains("r9") || filename.Contains("r9.data") => Rounds.Nine,

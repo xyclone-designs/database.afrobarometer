@@ -1,0 +1,1826 @@
+Q97 [149]: 
+Q29 [48]: [country] a democracy
+Q43 [68]: Abide by government decisions
+Q3 [4]: Age
+Q66 [103]: All family members same opinion vs each decides
+Q61 [98]: Best to know people in high places
+Q94 [146]: Check with others
+Q56 [90]: Civil servants keep jobs vs lay some off
+Q83 [133]: Close to party
+Q9 [12]: Conditions better or worse
+Q80 [130]: Consequences from whom
+Q42 [67]: Constitution expresses values and aspirations of [nationality]
+Q39D [63]: Contact government official
+Q39F [64]: Contact influential person
+Q39A [62]: Contact traditional ruler
+Q65A [102]: Corruption elected leaders
+Q64 [101]: Corruption fact of life
+QDate [1]: Date of interview
+Q96 [148]: Difficulty answering
+Q38A [60]: Discuss politics with spouse
+Q89 [140]: District
+Q58 [92]: Economic reform too expensive vs accept hardships now
+Q6 [7]: Education
+Q72B [110]: Enough choice without parties
+Q46A [73]: Equal radio coverage
+Q74 [124]: Expect vote in referendum
+Q55 [89]: Free schooling vs raise educational standards
+Q53 [87]: Free to earn vs government limits
+Q54 [88]: Goods available vs low prices
+Q57 [91]: Government keeps factories vs privitization
+Q23 [35]: Government performance
+Q15 [19]: Government too complicated vs understand government
+Q22G [32]: Handling basic health services
+Q22K [34]: Handling corruption
+Q22E [30]: Handling domestic violence
+Q22F [31]: Handling education
+Q22C [29]: Handling income gaps
+Q22A [28]: Handling jobs
+Q22J [33]: Handling land for women
+Q2 [3]: Head of household
+Q44 [69]: Heard about referendum
+Q45A [70]: Heard from family
+Q45B [71]: Heard from friend
+Q45D [72]: Heard from political party official
+Q4 [5]: Home language
+Q73E [121]: How to govern: army
+Q73G [123]: How to govern: decisions by experts
+Q73A [117]: How to govern: Movement system
+Q73B [118]: How to govern: multiparty system
+Q73D [120]: How to govern: one political party
+Q73C [119]: How to govern: strong leader
+Q73F [122]: How to govern: traditional system
+Q18 [22]: Identity
+Q19 [23]: Identity treated fairly
+Q31B [51]: Importance: Freedom of religion
+Q31A [50]: Importance: Freedom to criticize
+Q31D [53]: Importance: Protection of minority rights
+Q31C [52]: Importance: Protection of private property
+Q95 [147]: Influence by others
+Q14 [18]: Influence others vs no influence
+Q12 [15]: Interested in politics
+Q52 [86]: Jobs by starting businesses vs government provides
+Q92A [143]: Kms graded sand or dirt roads
+Q92C [144]: Kms off road
+Q49 [83]: Know SAP
+Q27 (responses 1-3). [46]: Meaning of democracy
+Q71 [108]: Meaning of political party
+Q20E [25]: Member: Professional or business org
+Q20A [24]: Member: Religious org
+Q85 [135]: Monthly earnings
+Q21B (Responses 1 and2) [27]: National problems
+Q78 [128]: Negative consequences
+Q13A [16]: News from discussions
+Q7 [8]: Occupation
+Q63 [100]: Ok to bend the law
+Q72G [115]: Parties bring in young leaders
+Q72D [112]: Parties don’t include me
+Q72E [113]: Parties ensure government doesn’t abuse power
+Q72F [114]: Parties make empty promises
+Q72C [111]: Parties needed to ensure representation
+Q72H [116]: Parties undermine national unity
+Q32 [54]: Patience to deal with inherited problems vs results soon
+Q93 [145]: People present during interview
+Q51 [85]: People responsible for own well-being vs government responsible
+Q24A [36]: Performance of LC5 representative
+Q24B [37]: Performance of MP
+Q24D [38]: Performance of President
+Q21A (Responses 1 and2) [26]: Personal problems
+Q62 [99]: Politicians look after my interests
+Q36 [58]: Presidential elections honest
+Q81 [131]: Public services delivered
+Q13B [17]: Radio news
+Q40 (options 1-4) [65]: Reason for contact
+Q41A-C [66]: Reason for not participating
+Q47 (responses 1-2) [74]: Referendum about
+Q48G [81]: Referendum changes constitution
+Q48C [77]: Referendum choose candidates
+Q48E [79]: Referendum choose government system
+Q48H [82]: Referendum government resign
+Q48F [80]: Referendum must abide results
+Q48B [76]: Referendum must register
+Q48A [75]: Referendum same as election
+Q48D [78]: Referendum secret ballot
+Q33 [55]: Registered voter
+Q5 [6]: Religion
+Q16 [20]: Representatives listen vs don’t listen
+Q91 [142]: Respondent’s shelter
+Q75 [125]: Rewards promised
+Q87 [139]: Routine affected by tired ness
+Q30 [49]: Satisfaction with democracy
+Q8B [10]: Satisfied [country] economy
+Q10 [13]: Satisfied five years ago
+Q11 [14]: Satisfied future
+Q8C [11]: Satisfied general situation
+Q8A [9]: Satisfied own living conditions
+Q50 [84]: Satisfied SAP
+Q1 [2]: Sex of respondent
+Q28 [47]: Support for Democracy
+Q38C [61]: Teach children about government
+Q86E [138]: Time: care for others
+Q86A [136]: Time: earn money
+Q86C [137]: Time: household work
+Q59 [93]: Trust generally
+Q60E [96]: Trust NRM
+Q60A [94]: Trust own ethnic group
+Q60C [95]: Trust police
+Q60I [97]: Trust UJCC
+Q72A [109]: Two political parties needed
+Q90 [141]: Urban or Rural (interviewer)
+Q37 [59]: Vote in referendum
+Q35 [57]: Voted for President
+Q17 [21]: Voting doesn’t matter vs it improves lives
+Q79 [129]: What consequences
+Q77 [127]: What rewards
+Q84 [134]: Which party
+Q82 (Options 1-4). [132]: Which services
+Q76 [126]: Who promised
+Q34 [56]: Why not registered
+Q25F [43]: Women cabinet ministers
+Q67 [104]: Women equal rights vs follow traditional law
+Q25B [40]: Women join political organizations
+Q25D [41]: Women local councilors
+Q25E [42]: Women MPs
+Q70 [107]: Women own land vs not own land
+Q25G [44]: Women President
+Q69 [106]: Women quota needed vs unnecessary
+Q26 [45]: Women reps make a difference
+Q25A [39]: Women should vote
+Q68 [105]: Women’s place at home vs speak about politics
+Q43 [68]: Abide by government decisions
+Q91A [254]: Address problems facing the community with others
+Q57 [184]: All decisions made by economic experts rather than government
+Q179 [325]: Any household yards or fields containing livestock
+Q180 [326]: Any household yards or fields with trees higher than one story
+Q178 [324]: Any household yards with crops or vegetables being grown
+Q184 [330]: Any stop or give way signs along last 10km of journey
+Q185 [331]: Any traffic lights or robots along last 10km of journey
+Q52A [213]: Anyone can freely say what they think
+Q151 [306]: Anything else significant happen during interview
+Q174 [321]: Are there any market stalls (selling food or clothing)
+Q168 [317]: Are there any places of worship such as churches, mosques
+Q169 [318]: Are there any townhalls or community buildings
+Q173 [320]: Are there cafes, corner shops
+Q167 [316]: Are there recreational facilities
+Q108A [273]: Are you close to any political party
+Q55 [219]: Army governs the country
+Q93A [258]: Attend a demostartion or protest march
+Q19F [175]: Attend a trade union
+Q91B [255]: Attend election rally
+Q19C [172]: Attend group concerned with local matters
+Q19E [174]: Attend group that looks after the community
+Q19D [173]: Attend local commercial organization
+Q19B [171]: Attend self-help association
+Q92B [256]: Avoid paying development levy or property taxes
+Q83 [244]: Besides being [country], which group do you feel you belong to
+Q52B [214]: Can join any political organization they choose
+Q52C [215]: Can live without fear of unjust arrest
+Q94 [146]: Check with others
+Q77A [235]: Comparison of current and past government effectiveness
+Q42 [67]: Constitution expresses values and aspirations of [nationality]
+Q37 [193]: Contacted any other influential person
+Q123B [289]: Country
+Q58 [221]: Country returned to colonial rule
+QDate [1]: Date of interview
+Q54 [218]: Decisions to be made by council of elders, traditional leaders
+Q103D [266]: Democratic society and at least 2 parties competing
+Q103E [267]: Democratic society and basic necessities
+Q103B [265]: Democratic society and freedom to criticize the government
+Q103A [264]: Democratic society and majority rule
+Q103H [268]: Democratic society and small income gap between rich and poor
+Q84H [248]: Desirable to create a united [nationality] nation out of all groups
+Q201 [334]: Desired relation to [country]
+Q132 [296]: Did household have glass in windows
+Q129 [294]: Did respondent cough repeatedly during the interview
+Q127 [292]: Did respondent have missing limbs
+Q131 [295]: Did the household have windows
+Q149 [304]: Did you feel threatened during interview
+Q145 [301]: Did your presence arouse interest from neighbors
+Q146 [302]: Did your presence arouse suspicion from neighbours
+Q96 [148]: Difficulty answering
+Q45 [201]: Discuss political matters with friends
+Q123A [288]: District or province
+Q154 [308]: Do you come from rural or urban area
+Q115 [282]: Do you do regular work without cash pay
+Q46 [202]: Do you follow what is happening in government and public affairs
+Q15 [159]: Do you have an electricity hook-up into home
+Q16 [160]: Do you have piped water into home
+Q121 [286]: Do you know of a close friend or relative who died of AIDS
+Q3 [151]: Economic Expectations
+Q82 [243]: ESAP has helped VS hurt most people
+Q81 [242]: ESAP’s effect on your life
+Q2 [150]: Evaluations of Economic Conditions
+Q84A [245]: Feel proud to be part of this group
+Q47A [203]: Feel that you have little or no control over life
+Q114 [281]: For how many months were you unemployed
+Q26 [182]: Free health services, low stds VS pay for better health services
+Q52D [216]: Free to choose who to vote for without feeling forced by others
+Q21 [177]: Free to earn VS limited income
+Q50 [209]: Freeness and fairness of last national elections
+Q92D [257]: Get services without paying
+Q59 [200]: Govt elected by accepted procedures
+Q60 [222]: Govt exercises power in acceptable way
+Q87 [250]: Govt more or less interested in what your group has to say
+Q88 [251]: Govt represents all [country] or just one group only
+Q47D [206]: Have to be careful what you do and say with regard to politics
+Q34 [189]: Have you contacted government official or political party official
+Q80 [241]: Have you ever heard about Economic Structural Adjustment Programme
+Q203A-B [336]: How are parliamentarians elected
+Q109 [275]: How close do you feel to this party
+Q6A-D [153]: How do you currently obtain food
+Q10A-D [156]: How do you currently obtain health services
+Q100 [262]: How do you feel about the suspension of parliament and cancellation of elections
+Q12A-D [157]: How do you normally obtain cash income
+Q64 [226]: How interested is the Prime Minister in your well-being
+Q72 [232]: How many civil servants involved in corruption
+Q181 [327]: How many formal houses in PSU
+Q67 [229]: How many government officials involved in corruption
+Q71 [231]: How many members of parliament involved in corruption
+Q210 [343]: How many partly dependent
+Q209 [342]: How many totally dependent
+Q41 [197]: How much of the time can local chief be trusted
+Q78F [239]: How much trust government press or newspapers
+Q69 [230]: How much trust parliament
+Q78E [238]: How much trust the [country] broadcasting
+Q78A [236]: How much trust the army
+Q78D [237]: How much trust the electoral commission
+Q65 [227]: How much trust the Prime Minister
+Q74 [233]: How much trust your local government
+Q19A [170]: How often do you attend church group meetings
+Q43C [199]: How often do you get news from newspapers
+Q43A [198]: How often do you get news from radio
+Q17H [167]: How often had insufficient fuel to heat your home and to cook with
+Q17B [162]: How often have you felt unsafe from crime in your home
+Q17D [164]: How often have you gone without a cash income
+Q17G [166]: How often have you gone without electricity in your home
+Q17E [165]: How often have you gone without enough clean water to drink
+Q17A [161]: How often have you gone without enough food to eat
+Q17C [163]: How often have you gone without necessary medical treatment
+Q118 [285]: How often without cash income
+Q18B [169]: How often worried, anxious, felt tired
+Q110A [276]: How old were you on your last birthday
+Q106 [271]: How satisfied are you with democracy in [country]
+Q202 [335]: How to join [country] and [country]
+Q63F [224]: How well does government address educational needs of all[country]
+Q63H [225]: How well does government deliver basic services
+Q63A [223]: How well is government creating jobs
+Q19 [23]: Identity treated fairly
+Q95 [147]: Influence by others
+Q47B [204]: Insufficient info about political life and government actions
+Q152 [307]: Interviewer number
+Q156 [310]: Interviewer's gender
+Q157 [312]: Interviewer's highest level of education
+Q155 [309]: Interviewer's home language
+Q156B [311]: Interviewer's race
+Q105 [270]: Is [country] democratic
+Q14 [158]: Is there a nearby school which your kids could attend
+Q158 [313]: Is there a post-office in PSU
+Q161 [314]: Is there a regular bus or taxi service in the PSU
+Q172 [319]: Is there a supermarket (food or clothing)
+Q162 [315]: Is there an electricity grid accessible to most houses
+Q112 [279]: Is your job part-time or full-time or are you looking for work
+Q52 [86]: Jobs by starting businesses vs government provides
+Q27 [183]: Keep government employees VS retrench government employees
+Q92A [143]: Kms graded sand or dirt roads
+Q92C [144]: Kms off road
+Q124 [290]: Language interview was conducted in
+Q113 [280]: Last 12 months been without a cash job
+Q40 [196]: Local chiefs interest in people
+Q75 [234]: Local government job performance
+Q39 [195]: Local traditional leader, chief or headman
+Q208 [341]: Marital status
+Q207 [340]: Monthly income in 100s
+Q107A-D [272]: Most important changes about way country is governed
+Q51A-C [210]: Most important problems to be addressed by government
+Q104 [269]: Need a strong leader VS democracy is always best
+Q23 [178]: New business risky VS invest to start business
+Q53 [217]: One party to stand for elections and hold office
+Q205 [338]: Opinion of interim Political Authority
+Q204 [337]: Opinion of SADC intervention
+Q206 [339]: Opinion of September 1998 protests
+Q36A [191]: Paid a government official to get a job
+Q36B [192]: Paid government official to get a maintenance payment, loan, etc
+Q102 [263]: Patience to deal with problems VS solve now
+Q20 [176]: People more responsible for well-being VS government responsible
+Q93 [145]: People present during interview
+Q4 [152]: Personal economic conditions compared to others
+Q18A [168]: Physical health reduce amount of work
+Q79 [240]: Preference for democratic VS non-democratic government
+Q56 [220]: President decides everything
+Q66 [228]: President's job performance
+Q51Xc [212]: Rating of future system government
+Q51Xa [211]: Rating of previous system government
+Q84G [247]: Regardless of group, all [country] should be treated equally
+Q126 [291]: Respondent’s race
+Q91 [142]: Respondent’s shelter
+Q95A-D [260]: Response to shutting down media
+Q24F [180]: Responsibility to help farmers borrow money
+Q1 [2]: Sex of respondent
+Q47C [205]: Sometimes political affairs too complicated to understand
+Q98 [261]: Support for banning political parties
+Q182 [328]: Type of area in which interview was conducted in
+Q117 [284]: Type of occupation
+Q93D [259]: Use force or violent methods
+Q25 [181]: Variety of goods at high prices VS shortages at low prices
+Q122 [287]: Village surveyed
+Q84B [246]: Want children to think of themselves as part of group
+Q128 [293]: Was respondent blind, or nearly blind
+Q183 [329]: Was the PSU clearly sign-posted the last 10km of journey
+Q187 [333]: Water-filled river in last 10km of journey
+Q48 [207]: Way you vote will make a difference VS it won't make a difference
+Q150 [305]: Were physically threatened during interview
+Q177 [323]: Were there any pavement along roads
+Q175 [322]: Were there any police or police vehicles at PSU or EA
+Q186 [332]: Were they in working order
+Q148 [303]: Were you approached by community or party representatives
+Q29A-C [185]: What does democracy mean
+Q111 [278]: What is the highest grade, std, form completed
+Q110B [277]: What is your home language
+Q116 [283]: What is your present or last occupation
+Q7A-C [154]: What other methods would you use to obtain food
+Q8A-D [155]: What safety measure do you have for your home
+Q38A-D [194]: What type of influential person did you contact
+Q35A-F [190]: What type of official did you contact
+Q140 [300]: What was respondent's attitude during interview
+Q139 [299]: What was respondent’s attitude
+Q133 [297]: What was roof made of
+Q138 [298]: Where was interview conducted
+Q89 [252]: Which group interest is mostly represented by government
+Q90 [253]: Which is true for you with regards to 1998 national elections
+Q108B [274]: Which party are you close to
+Q49 [208]: Who is in power makes a difference vs it doesn't matter
+Q30 [186]: Who is the Prime Minister
+Q32 [187]: Who is your member of the District Development Committee
+Q33 [188]: Who is your representative on the community or urban council
+Q24A [179]: Who should take responsibility for schools and clinics
+Q85 [249]: Your group economic conditions compared to other group
+Q189 [382]: 
+Q43 [68]: Abide by government decisions
+Q91A [254]: Address problems facing the community with others
+Q57 [184]: All decisions made by economic experts rather than government
+Q179 [325]: Any household yards or fields containing livestock
+Q180 [326]: Any household yards or fields with trees higher than one story
+Q178 [324]: Any household yards with crops or vegetables being grown
+Q184 [330]: Any stop or give way signs along last 10km of journey
+Q185 [331]: Any traffic lights or robots along last 10km of journey
+Q52A [213]: Anyone can freely say what they think
+Q151 [306]: Anything else significant happen during interview
+Q174 [321]: Are there any market stalls (selling food or clothing)
+Q168 [317]: Are there any places of worship such as churches, mosques
+Q169 [318]: Are there any townhalls or community buildings
+Q173 [320]: Are there cafes, corner shops
+Q167 [316]: Are there recreational facilities
+Q108A [273]: Are you close to any political party
+Q55 [219]: Army governs the country
+Q93A [258]: Attend a demostartion or protest march
+Q19F [175]: Attend a trade union
+Q91B [255]: Attend election rally
+Q19C [172]: Attend group concerned with local matters
+Q19E [174]: Attend group that looks after the community
+Q19D [173]: Attend local commercial organization
+Q19B [171]: Attend self-help association
+Q92B [256]: Avoid paying development levy or property taxes
+Q84B1 [368]: Being a part of this group is very important part of how you see yourself
+Q83 [244]: Besides being [country], which group do you feel you belong to
+Q52B [214]: Can join any political organization they choose
+Q52C [215]: Can live without fear of unjust arrest
+Q94 [146]: Check with others
+Q92A [371]: Claimed government benefits to which you are not entitled
+Q77A [235]: Comparison of current and past government effectiveness
+Q77B [364]: Comparison of current and past government interest
+Q42 [67]: Constitution expresses values and aspirations of [nationality]
+Q37 [193]: Contacted any other influential person
+Q123B [289]: Country
+Q58 [350]: Country returned to apartheid
+QDate [1]: Date of interview
+Q54 [218]: Decisions to be made by council of elders, traditional leaders
+Q103D [266]: Democratic society and at least 2 parties competing
+Q103E [267]: Democratic society and basic necessities
+Q103B [265]: Democratic society and freedom to criticize the government
+Q103A [264]: Democratic society and majority rule
+Q103H [268]: Democratic society and small income gap between rich and poor
+Q84H [248]: Desirable to create a united [nationality] nation out of all groups
+Q132 [296]: Did household have glass in windows
+Q129 [294]: Did respondent cough repeatedly during the interview
+Q127 [292]: Did respondent have missing limbs
+Q131 [295]: Did the household have windows
+Q149 [304]: Did you feel threatened during interview
+Q145 [301]: Did your presence arouse interest from neighbors
+Q146 [302]: Did your presence arouse suspicion from neighbours
+Q96 [148]: Difficulty answering
+Q45 [201]: Discuss political matters with friends
+Q123A [288]: District or province
+Q154 [308]: Do you come from rural or urban area
+Q115 [282]: Do you do regular work without cash pay
+Q46 [202]: Do you follow what is happening in government and public affairs
+Q15 [159]: Do you have an electricity hook-up into home
+Q16 [160]: Do you have piped water into home
+Q3 [151]: Economic Expectations
+Q82 [243]: ESAP has helped VS hurt most people
+Q81 [242]: ESAP’s effect on your life
+Q2 [150]: Evaluations of Economic Conditions
+Q84A [245]: Feel proud to be part of this group
+Q47A [203]: Feel that you have little or no control over life
+Q114 [281]: For how many months were you unemployed
+Q26 [182]: Free health services, low stds VS pay for better health services
+Q52D [216]: Free to choose who to vote for without feeling forced by others
+Q21 [177]: Free to earn VS limited income
+Q50 [209]: Freeness and fairness of last national elections
+Q92D [257]: Get services without paying
+Q59 [200]: Govt elected by accepted procedures
+Q60 [222]: Govt exercises power in acceptable way
+Q87 [250]: Govt more or less interested in what your group has to say
+Q88 [251]: Govt represents all [country] or just one group only
+Q47D [206]: Have to be careful what you do and say with regard to politics
+Q34 [189]: Have you contacted government official or political party official
+Q80 [367]: Have you ever heard about GEAR Programme
+Q109 [275]: How close do you feel to this party
+Q6A-D [153]: How do you currently obtain food
+Q10A-D [156]: How do you currently obtain health services
+Q100 [262]: How do you feel about the suspension of parliament and cancellation of elections
+Q12A-D [157]: How do you normally obtain cash income
+Q72A [355]: How interested is provincial government in your well-being
+Q64 [226]: How interested is the Prime Minister in your well-being
+Q41 [347]: How many chiefs or traditional leaders are involved in corruption
+Q72 [232]: How many civil servants involved in corruption
+Q181 [327]: How many formal houses in PSU
+Q67 [229]: How many government officials involved in corruption
+Q71 [231]: How many members of parliament involved in corruption
+Q76 [358]: How many officials in local government are involved in corruption
+Q72E [357]: How many people in prov government are involved in corruption
+Q72B [356]: How much of the time can you trust provincial government
+Q78C1 [366]: How much of the time can you trust the criminal justice system
+Q69 [230]: How much trust parliament
+Q78A [236]: How much trust the army
+Q78D [237]: How much trust the electoral commission
+Q65 [227]: How much trust the Prime Minister
+Q74 [233]: How much trust your local government
+Q19A [170]: How often do you attend church group meetings
+Q43C [199]: How often do you get news from newspapers
+Q43A [198]: How often do you get news from radio
+Q17H [167]: How often had insufficient fuel to heat your home and to cook with
+Q17B [162]: How often have you felt unsafe from crime in your home
+Q17D [164]: How often have you gone without a cash income
+Q17G [166]: How often have you gone without electricity in your home
+Q17E [165]: How often have you gone without enough clean water to drink
+Q17A [161]: How often have you gone without enough food to eat
+Q17C [163]: How often have you gone without necessary medical treatment
+Q18B [169]: How often worried, anxious, felt tired
+Q110A [276]: How old were you on your last birthday
+Q106 [271]: How satisfied are you with democracy in [country]
+Q63F [224]: How well does government address educational needs of all[country]
+Q63H [225]: How well does government deliver basic services
+Q63A [223]: How well is government creating jobs
+Q63N [352]: How well is government distributing welfare payments to those who are entitled to it
+Q86 [370]: Identity treated fairly by the government
+Q76A4 [362]: Illegal services: Likelihood of council cutting services
+Q95 [147]: Influence by others
+Q47B [204]: Insufficient info about political life and government actions
+Q152 [307]: Interviewer number
+Q156 [310]: Interviewer's gender
+Q157 [312]: Interviewer's highest level of education
+Q155 [309]: Interviewer's home language
+Q156B [311]: Interviewer's race
+Q105 [270]: Is [country] democratic
+Q14 [158]: Is there a nearby school which your kids could attend
+Q158 [313]: Is there a post-office in PSU
+Q161 [314]: Is there a regular bus or taxi service in the PSU
+Q172 [319]: Is there a supermarket (food or clothing)
+Q162 [315]: Is there an electricity grid accessible to most houses
+Q112 [279]: Is your job part-time or full-time or are you looking for work
+Q100A9 [376]: It is my responsibility as a citizen to contribute to the process of reconciliation
+Q84H1 [369]: It is possible to create a united SA nation
+Q52 [86]: Jobs by starting businesses vs government provides
+Q27 [183]: Keep government employees VS retrench government employees
+Q124 [290]: Language interview was conducted in
+Q113 [280]: Last 12 months been without a cash job
+Q77E1 [365]: Life today compared to under apartheid
+Q76A2 [360]: Likelihood of court conviction
+Q76A1 [359]: Likelihood of police catching and charging those committing serious crime
+Q76A3 [361]: Likelihood of SARS penalizing tax evaders
+Q40 [196]: Local chiefs interest in people
+Q75 [234]: Local government job performance
+Q120A3 [380]: Local government vote-canidate
+Q120A2 [379]: Local government vote-party
+Q39 [195]: Local traditional leader, chief or headman
+Q63O [353]: Making reparations to TRC victims
+Q31 [345]: Member of parliament for this area
+Q107A-D [272]: Most important changes about way country is governed
+Q51A-C [210]: Most important problems to be addressed by government
+Q120A1 [378]: National government vote
+Q100A2 [374]: National reconciliation does not require intervention
+Q104 [269]: Need a strong leader VS democracy is always best
+Q23 [178]: New business risky VS invest to start business
+Q53 [217]: One party to stand for elections and hold office
+Q4A [344]: Overall direction in the country
+Q36A [191]: Paid a government official to get a job
+Q36B [192]: Paid government official to get a maintenance payment, loan, etc
+Q102 [263]: Patience to deal with problems VS solve now
+Q20 [176]: People more responsible for well-being VS government responsible
+Q93 [145]: People present during interview
+Q4 [152]: Personal economic conditions compared to others
+Q18A [168]: Physical health reduce amount of work
+Q79 [240]: Preference for democratic VS non-democratic government
+Q56 [220]: President decides everything
+Q66 [228]: President's job performance
+Q76A5 [363]: Rates evasion: Likelihood of council cutting services
+Q51B [349]: Rating of current system of government
+Q51Xc [212]: Rating of future system government
+Q51Xa [211]: Rating of previous system government
+Q100A3 [375]: Reconciliation requires that [country] understand one another better
+Q84G [247]: Regardless of group, all [country] should be treated equally
+Q126 [291]: Respondent’s race
+Q91 [142]: Respondent’s shelter
+Q95A-D [260]: Response to shutting down media
+Q24F [180]: Responsibility to help farmers borrow money
+Q63Q [354]: SAs response to situation in [country]
+Q1 [2]: Sex of respondent
+Q50D [348]: Single most important problem facing [country]
+Q47C [205]: Sometimes political affairs too complicated to understand
+Q121 [377]: Suburb
+Q98 [261]: Support for banning political parties
+Q122 [381]: Town or city
+Q100A1 [373]: TRC was important for building a united SA nation
+Q182 [328]: Type of area in which interview was conducted in
+Q117 [284]: Type of occupation
+Q63L [351]: Uniting SAs into one nation
+Q93D [259]: Use force or violent methods
+Q25 [181]: Variety of goods at high prices VS shortages at low prices
+Q84B [246]: Want children to think of themselves as part of group
+Q128 [293]: Was respondent blind, or nearly blind
+Q183 [329]: Was the PSU clearly sign-posted the last 10km of journey
+Q187 [333]: Water-filled river in last 10km of journey
+Q48 [207]: Way you vote will make a difference VS it won't make a difference
+Q150 [305]: Were physically threatened during interview
+Q177 [323]: Were there any pavement along roads
+Q175 [322]: Were there any police or police vehicles at PSU or EA
+Q186 [332]: Were they in working order
+Q148 [303]: Were you approached by community or party representatives
+Q29A-C [185]: What does democracy mean
+Q111 [278]: What is the highest grade, std, form completed
+Q110B [277]: What is your home language
+Q116 [283]: What is your present or last occupation
+Q7A-C [154]: What other methods would you use to obtain food
+Q8A-D [155]: What safety measure do you have for your home
+Q38A-D [194]: What type of influential person did you contact
+Q35A-F [190]: What type of official did you contact
+Q140 [300]: What was respondent's attitude during interview
+Q139 [299]: What was respondent’s attitude
+Q133 [297]: What was roof made of
+Q138 [298]: Where was interview conducted
+Q89 [252]: Which group interest is mostly represented by government
+Q90 [253]: Which is true for you with regards to 1998 national elections
+Q108B [274]: Which party are you close to
+Q49 [208]: Who is in power makes a difference vs it doesn't matter
+Q30 [186]: Who is the Prime Minister
+Q24A [179]: Who should take responsibility for schools and clinics
+Q101A1 [372]: Willingness to live under non-elected leader
+Q85 [249]: Your group economic conditions compared to other group
+Q32 [346]: Your local councilor
+Q29 [48]: [country] a democracy
+Q43 [68]: Abide by government decisions
+Q3 [4]: Age
+Q43E [441]: All decisions should be made by a Council of traditional rulers
+Q66 [103]: All family members same opinion vs each decides
+Q88C [508]: Allow people not born here to become [country] citizens
+Q32B [424]: Anyone is free to criticise the government
+Q83 [244]: Besides being [country], which group do you feel you belong to
+Q61 [98]: Best to know people in high places
+Q11A [404]: Borrow from a bank
+Q11B [405]: Borrow from a community group
+Q11C [406]: Borrow from a friend or relative
+Q81E [498]: Bribery not common among public officials
+Q81A [496]: Careful of what say about politics
+Q94 [146]: Check with others
+Q89 [385]: Choose between being a [country] and being a ……
+Q56 [90]: Civil servants keep jobs vs lay some off
+Qurbrur [384]: Community
+Q86 [506]: Compare to past feel less safe or more safe
+Q9 [12]: Conditions better or worse
+Q42 [67]: Constitution expresses values and aspirations of [nationality]
+Q101A [513]: Constitution is inadequate and should be changed
+Q83F [503]: Corruption among [country] businessmen
+Q83B [502]: Corruption among civil servants
+Q65A [102]: Corruption elected leaders
+Q81G [500]: Corruption was worse problem under one party government
+Q12A [407]: Count on family
+QDate [1]: Date of interview
+Q103D [266]: Democratic society and at least 2 parties competing
+Q103H [268]: Democratic society and small income gap between rich and poor
+Q96 [148]: Difficulty answering
+Q50B [458]: Disregarding traffic signs and lights
+Q79D [486]: Do if judges who ruled against the government dismissed
+Q79E [487]: Do if National Assembly suspended and elections cancelled
+Q79C [485]: Do if newspapers critical of government shut down
+Q79B [484]: Do if stopped from traveling freely
+Q79A [483]: Do if told what religion to follow
+Q154 [308]: Do you come from rural or urban area
+Q92 [509]: Do you feel close to a political party
+Q121 [286]: Do you know of a close friend or relative who died of AIDS
+Q80AC [490]: Easy or difficult to obtain a voter registration card
+Q80AA [488]: Easy or difficult to obtain birth certificate
+Q80AD [491]: Easy or difficult to obtain electricity connection
+Q80AB [489]: Easy or difficult to obtain place in primary school
+Q80AE [492]: Easy or difficult to obtain telephone or cell phone
+Q58 [92]: Economic reform too expensive vs accept hardships now
+Q6 [7]: Education
+Q101B [514]: Electoral authorities should be changed as demanded by political parties
+Q65 [462]: Encourage foreign investment VS be wary of foreign investors
+Q19G [412]: Ensuring that all [country] have enough to eat
+Q42E [436]: Everybody is treated equally and fairly by government
+Q32E [425]: Everyone enjoys basic necessities
+Q36 [426]: Everyone votes VS only educated vote
+Q88A [507]: Feel proud to be a [identity group]
+Q55 [89]: Free schooling vs raise educational standards
+Q53 [87]: Free to earn vs government limits
+Q1 [391]: Gender
+Q22C [411]: Get news from newspapers
+Q22A [409]: Get news from radio
+Q22B [416]: Get news from television
+Q43A [437]: Get rid of elections so strong leader can decide everything
+Q82 [501]: Give bribe, gift, or do favor for services to which you are entitled
+Q9F [399]: Gone without a cash income
+Q9E [398]: Gone without electricity in your home
+Q9A [394]: Gone without food for family
+Q9D [397]: Gone without medical treatment for family
+Q9C [396]: Gone without schooling for children
+Q9B [395]: Gone without water for domestic use
+Q54 [88]: Goods available vs low prices
+Q57 [91]: Government keeps factories vs privitization
+Q23 [35]: Government performance
+Q67 [429]: Government's economic policies helped most VS hurt most
+Q59 [200]: Govt elected by accepted procedures
+Q60 [222]: Govt exercises power in acceptable way
+Q68 [463]: Group which benefits most from government economic policies
+Q22G [32]: Handling basic health services
+Q22K [34]: Handling corruption
+Q22F [31]: Handling education
+Q2 [3]: Head of household
+Q4 [5]: Home language
+Q73 [469]: How honest or dishonest were the Presidential elections of October 2000
+Q21A [414]: How long before government fulfills its promises
+Q21B [415]: How long before own living standards meet your expectations
+Q75A [476]: How often attend community meeting
+Q76E [481]: How often contacted a government official for help
+Q76D [480]: How often contacted a member of Zanzibar House of Representatives
+Q76A [479]: How often contacted a traditional ruler for help
+Q76H [482]: How often contacted some other influential person for help
+Q24 [417]: How often do you discuss politics and government with people
+Q75B [477]: How often get together with others to raise an issue
+Q75D [478]: How often worked for a political candidate or party
+Q70 [465]: If not registered, WHY NOT
+Q95 [147]: Influence by others
+Q14 [18]: Influence others vs no influence
+Q12 [15]: Interested in politics
+Q52 [86]: Jobs by starting businesses vs government provides
+Q19B [410]: Keeping prices low
+Q92A [143]: Kms graded sand or dirt roads
+Q92C [144]: Kms off road
+Q49 [83]: Know SAP
+Q103 [515]: Language in which interview was conducted
+Q32A [423]: Majority rule
+Q20E [25]: Member: Professional or business org
+Q20A [24]: Member: Religious org
+Q85 [135]: Monthly earnings
+Q25A [418]: Name of Chairman
+Q25B [419]: Name of Member of Parliament
+Q25D [421]: Name of Minister of Finance
+Q25C [420]: Name of Regional Commissioner
+Q25E [422]: Name of Vice President
+Q21B (Responses 1 and2) [27]: National problems
+Q50D [460]: Not paying for services like piped water
+QV8 [389]: Number of calls
+Q7 [8]: Occupation
+Q8D [392]: Operate bank or savings account
+Q42D [435]: Ordinary people can influence government
+Q8E [393]: Owe money borrowed for business purposes
+Q84A [504]: Past two years been attacked or robbed
+Q84B [505]: Past two years home broken into and something stolen
+Q45 [442]: Patience to deal with inherited problems VS try another form
+Q42A [433]: People are free to say what they think
+Q42C [434]: People can freely choose who to vote for
+Q93 [145]: People present during interview
+Q51 [85]: People responsible for own well-being vs government responsible
+Q21A (Responses 1 and2) [26]: Personal problems
+Q62 [99]: Politicians look after my interests
+Q37 [427]: President should be able to change Constitution VS obey Constitution
+Q81D [497]: President will fight corruption even if friends involved
+Q81F [499]: President's region gets more services than others
+Q19H [413]: Preventing the spread of AIDS
+Q60A [461]: Protecting Borders
+Q41B [431]: Rate former system of one party rule
+Q41A [430]: Rate present system of government with elections and many parties
+Q41E [432]: Rate system of government you expect in five years
+Q40 (options 1-4) [65]: Reason for contact
+Q80BA [493]: Reason for difficulty in obtaining birth certificate
+Q80BE [495]: Reason for difficulty in obtaining telephone or cell phone
+Q80BC [494]: Reason for difficulty in obtaining voter registration card
+Q69 [464]: Registered as voter in the October 2000 elections
+Q5 [6]: Religion
+Q16 [20]: Representatives listen vs don’t listen
+Qrespnumb [383]: Respondent number
+Q91 [142]: Respondent’s shelter
+Q87 [139]: Routine affected by tired ness
+Q30 [49]: Satisfaction with democracy
+Q74C [472]: Satisfaction with performance of Chairman of Local Government Council
+Q74D [473]: Satisfaction with performance of judges or lawyers
+Q74A [470]: Satisfaction with performance of member of parliament
+Q74E [474]: Satisfaction with performance of political parties
+Q74B [471]: Satisfaction with performance of Regional Commissioner
+Q74F [475]: Satisfaction with performance of the President
+Q8B [10]: Satisfied [country] economy
+Q10 [13]: Satisfied five years ago
+Q11 [14]: Satisfied future
+Q8C [11]: Satisfied general situation
+Q8A [9]: Satisfied own living conditions
+Q50 [84]: Satisfied SAP
+Q50C [459]: Selling goods without trader's license
+Q43B [438]: Should have only one political party
+Q28 [47]: Support for Democracy
+Q43C [439]: The army should come in to govern
+Q43D [440]: The most important decisions should be left to experts
+Q50A [457]: Throwing rubbish in public places
+QV10 [390]: Time of interview
+Q97D [510]: Time spent taking care of children
+Q86E [138]: Time: care for others
+Q86A [136]: Time: earn money
+Q86C [137]: Time: household work
+Q47D [445]: Trust [country] from other tribes
+Q100A [511]: Trust CCM to preserve peace and tranquility in [country]
+Q49A [455]: Trust churches
+Q48H [453]: Trust Electoral Commission
+Q48D [450]: Trust law courts
+Q48B [448]: Trust local government
+Q48G [452]: Trust National Assembly
+Q48I [454]: Trust national broadcaster RTD
+Q100B [512]: Trust opposition parties to preserve peace and tranquility in [country]
+Q48E [451]: Trust political parties
+Q47E [446]: Trust President Mkapa
+Q47C [444]: Trust someone in your tribe
+Q48C [449]: Trust the police
+Q49C [456]: Trust trade unions and farmers’ organizations
+Q48A [447]: Trust traditional rulers
+Q47A [443]: Trust your relatives
+Q10A [400]: Turn to for food for family
+Q10D [403]: Turn to for medical treatment
+Q10C [402]: Turn to for schooling for children
+Q10B [401]: Turn to for water for domestic use
+QV1 [388]: Unsuccessful visit – HH1
+Q38 [428]: Use violence for political goals VS violence never justified
+Qvillage [387]: Village
+Q35 [57]: Voted for President
+Q71B [466]: Voted in Local Government and National Assembly elections
+Q71C [467]: Voted in neighborhood, hamlet and 1999 village council elections
+Qward [386]: Ward
+Q29A-C [185]: What does democracy mean
+Q72 [468]: What is member of parliament supposed to do
+Q133 [297]: What was roof made of
+Q17 [408]: Who responsible for economic conditions
+Q148 [526]: 
+Q43 [68]: Abide by government decisions
+Q91A [254]: Address problems facing the community with others
+Q179 [325]: Any household yards or fields containing livestock
+Q180 [326]: Any household yards or fields with trees higher than one story
+Q178 [324]: Any household yards with crops or vegetables being grown
+Q184 [330]: Any stop or give way signs along last 10km of journey
+Q185 [331]: Any traffic lights or robots along last 10km of journey
+Q52A [213]: Anyone can freely say what they think
+Q151 [306]: Anything else significant happen during interview
+Q174 [321]: Are there any market stalls (selling food or clothing)
+Q168 [317]: Are there any places of worship such as churches, mosques
+Q169 [318]: Are there any townhalls or community buildings
+Q173 [320]: Are there cafes, corner shops
+Q167 [316]: Are there recreational facilities
+Q108A [273]: Are you close to any political party
+Q55 [219]: Army governs the country
+Q93A [258]: Attend a demostartion or protest march
+Q19F [175]: Attend a trade union
+Q91B [255]: Attend election rally
+Q19C [172]: Attend group concerned with local matters
+Q19E [174]: Attend group that looks after the community
+Q19D [173]: Attend local commercial organization
+Q19B [171]: Attend self-help association
+Q92B [256]: Avoid paying development levy or property taxes
+Q91C [525]: Avoid paying income taxes
+Q82 [522]: Besides being [nationality], to which group do you feel you belong
+Q52B [214]: Can join any political organization they choose
+Q52C [215]: Can live without fear of unjust arrest
+Q94 [146]: Check with others
+Q76C [520]: Comparison of current and past government corruption
+Q77A [235]: Comparison of current and past government effectiveness
+Q77B [364]: Comparison of current and past government interest
+Q42 [67]: Constitution expresses values and aspirations of [nationality]
+Q37 [193]: Contacted any other influential person
+Q123B [289]: Country
+Q57 [516]: Country returned to British Colonial rule
+QDate [1]: Date of interview
+Q54 [218]: Decisions to be made by council of elders, traditional leaders
+Q103D [266]: Democratic society and at least 2 parties competing
+Q103E [267]: Democratic society and basic necessities
+Q103B [265]: Democratic society and freedom to criticize the government
+Q103A [264]: Democratic society and majority rule
+Q103H [268]: Democratic society and small income gap between rich and poor
+Q84H [248]: Desirable to create a united [nationality] nation out of all groups
+Q132 [296]: Did household have glass in windows
+Q129 [294]: Did respondent cough repeatedly during the interview
+Q127 [292]: Did respondent have missing limbs
+Q131 [295]: Did the household have windows
+Q149 [304]: Did you feel threatened during interview
+Q145 [301]: Did your presence arouse interest from neighbors
+Q146 [302]: Did your presence arouse suspicion from neighbours
+Q96 [148]: Difficulty answering
+Q45 [201]: Discuss political matters with friends
+Q123A [288]: District or province
+Q154 [308]: Do you come from rural or urban area
+Q115 [282]: Do you do regular work without cash pay
+Q46 [202]: Do you follow what is happening in government and public affairs
+Q15 [159]: Do you have an electricity hook-up into home
+Q16 [160]: Do you have piped water into home
+Q3 [151]: Economic Expectations
+Q2 [150]: Evaluations of Economic Conditions
+Q42E [436]: Everybody is treated equally and fairly by government
+Q84A [245]: Feel proud to be part of this group
+Q47A [203]: Feel that you have little or no control over life
+Q114 [281]: For how many months were you unemployed
+Q26 [182]: Free health services, low stds VS pay for better health services
+Q52D [216]: Free to choose who to vote for without feeling forced by others
+Q21 [177]: Free to earn VS limited income
+Q50 [209]: Freeness and fairness of last national elections
+Q59 [200]: Govt elected by accepted procedures
+Q60 [222]: Govt exercises power in acceptable way
+Q87 [250]: Govt more or less interested in what your group has to say
+Q88 [251]: Govt represents all [country] or just one group only
+Q47D [206]: Have to be careful what you do and say with regard to politics
+Q34 [189]: Have you contacted government official or political party official
+Q109 [275]: How close do you feel to this party
+Q6A-D [153]: How do you currently obtain food
+Q10A-D [156]: How do you currently obtain health services
+Q100 [262]: How do you feel about the suspension of parliament and cancellation of elections
+Q12A-D [157]: How do you normally obtain cash income
+Q64 [226]: How interested is the Prime Minister in your well-being
+Q41 [347]: How many chiefs or traditional leaders are involved in corruption
+Q72 [232]: How many civil servants involved in corruption
+Q181 [327]: How many formal houses in PSU
+Q67 [229]: How many government officials involved in corruption
+Q71 [231]: How many members of parliament involved in corruption
+Q76 [358]: How many officials in local government are involved in corruption
+Q77E [521]: How much of the time can you trust the [country] broadcasting corporation
+Q78F [239]: How much trust government press or newspapers
+Q69 [230]: How much trust parliament
+Q78A [236]: How much trust the army
+Q78D [237]: How much trust the electoral commission
+Q65 [227]: How much trust the Prime Minister
+Q74 [233]: How much trust your local government
+Q19A [170]: How often do you attend church group meetings
+Q43C [199]: How often do you get news from newspapers
+Q43A [198]: How often do you get news from radio
+Q17H [167]: How often had insufficient fuel to heat your home and to cook with
+Q17B [162]: How often have you felt unsafe from crime in your home
+Q17D [164]: How often have you gone without a cash income
+Q17G [166]: How often have you gone without electricity in your home
+Q17E [165]: How often have you gone without enough clean water to drink
+Q17A [161]: How often have you gone without enough food to eat
+Q17C [163]: How often have you gone without necessary medical treatment
+Q18B [169]: How often worried, anxious, felt tired
+Q110A [276]: How old were you on your last birthday
+Q106 [271]: How satisfied are you with democracy in [country]
+Q63F [224]: How well does government address educational needs of all[country]
+Q63H [225]: How well does government deliver basic services
+Q63A [223]: How well is government creating jobs
+Q19 [23]: Identity treated fairly
+Q95 [147]: Influence by others
+Q47B [204]: Insufficient info about political life and government actions
+Q152 [307]: Interviewer number
+Q156 [310]: Interviewer's gender
+Q157 [312]: Interviewer's highest level of education
+Q155 [309]: Interviewer's home language
+Q156B [311]: Interviewer's race
+Q105 [270]: Is [country] democratic
+Q14 [158]: Is there a nearby school which your kids could attend
+Q158 [313]: Is there a post-office in PSU
+Q161 [314]: Is there a regular bus or taxi service in the PSU
+Q172 [319]: Is there a supermarket (food or clothing)
+Q162 [315]: Is there an electricity grid accessible to most houses
+Q112 [279]: Is your job part-time or full-time or are you looking for work
+Q52 [86]: Jobs by starting businesses vs government provides
+Q27 [183]: Keep government employees VS retrench government employees
+Q92A [143]: Kms graded sand or dirt roads
+Q92C [144]: Kms off road
+Q124 [290]: Language interview was conducted in
+Q113 [280]: Last 12 months been without a cash job
+Q40 [196]: Local chiefs interest in people
+Q75 [234]: Local government job performance
+Q39 [195]: Local traditional leader, chief or headman
+Q31 [517]: Member of parliament for this constituency
+Q107A-D [272]: Most important changes about way country is governed
+Q51A-C [210]: Most important problems to be addressed by government
+Q104 [269]: Need a strong leader VS democracy is always best
+Q23 [178]: New business risky VS invest to start business
+Q53 [217]: One party to stand for elections and hold office
+Q36A [191]: Paid a government official to get a job
+Q36B [192]: Paid government official to get a maintenance payment, loan, etc
+Q102 [263]: Patience to deal with problems VS solve now
+Q83C [523]: People belonging to this group are the best
+Q20 [176]: People more responsible for well-being VS government responsible
+Q93 [145]: People present during interview
+Q4 [152]: Personal economic conditions compared to others
+Q18A [168]: Physical health reduce amount of work
+Q79 [240]: Preference for democratic VS non-democratic government
+Q56 [220]: President decides everything
+Q66 [228]: President's job performance
+Q84G [247]: Regardless of group, all [country] should be treated equally
+Q126 [291]: Respondent’s race
+Q91 [142]: Respondent’s shelter
+Q95A-D [260]: Response to shutting down media
+Q24F [180]: Responsibility to help farmers borrow money
+Q51F [519]: Safe from crime and violence
+Q1 [2]: Sex of respondent
+Q47C [205]: Sometimes political affairs too complicated to understand
+Q83D [524]: Stronger ties to group than to other [country]
+Q121 [377]: Suburb
+Q98 [261]: Support for banning political parties
+Q122 [381]: Town or city
+Q182 [328]: Type of area in which interview was conducted in
+Q37B [518]: Type of influential person contacted
+Q117 [284]: Type of occupation
+Q93D [259]: Use force or violent methods
+Q25 [181]: Variety of goods at high prices VS shortages at low prices
+Q84B [246]: Want children to think of themselves as part of group
+Q128 [293]: Was respondent blind, or nearly blind
+Q183 [329]: Was the PSU clearly sign-posted the last 10km of journey
+Q187 [333]: Water-filled river in last 10km of journey
+Q48 [207]: Way you vote will make a difference VS it won't make a difference
+Q150 [305]: Were physically threatened during interview
+Q177 [323]: Were there any pavement along roads
+Q175 [322]: Were there any police or police vehicles at PSU or EA
+Q186 [332]: Were they in working order
+Q29A-C [185]: What does democracy mean
+Q111 [278]: What is the highest grade, std, form completed
+Q110B [277]: What is your home language
+Q116 [283]: What is your present or last occupation
+Q7A-C [154]: What other methods would you use to obtain food
+Q8A-D [155]: What safety measure do you have for your home
+Q38A-D [194]: What type of influential person did you contact
+Q35A-F [190]: What type of official did you contact
+Q140 [300]: What was respondent's attitude during interview
+Q139 [299]: What was respondent’s attitude
+Q133 [297]: What was roof made of
+Q138 [298]: Where was interview conducted
+Q89 [252]: Which group interest is mostly represented by government
+Q90 [253]: Which is true for you with regards to 1998 national elections
+Q108B [274]: Which party are you close to
+Q49 [208]: Who is in power makes a difference vs it doesn't matter
+Q30 [186]: Who is the Prime Minister
+Q24A [179]: Who should take responsibility for schools and clinics
+Q85 [249]: Your group economic conditions compared to other group
+Q32 [346]: Your local councilor
+Q148 [526]: 
+Q43 [68]: Abide by government decisions
+Q52H [528]: Access to basic necessities
+Q91A [254]: Address problems facing the community with others
+Q57 [184]: All decisions made by economic experts rather than government
+Q179 [325]: Any household yards or fields containing livestock
+Q180 [326]: Any household yards or fields with trees higher than one story
+Q178 [324]: Any household yards with crops or vegetables being grown
+Q184 [330]: Any stop or give way signs along last 10km of journey
+Q185 [331]: Any traffic lights or robots along last 10km of journey
+Q52A [213]: Anyone can freely say what they think
+Q151 [306]: Anything else significant happen during interview
+Q174 [321]: Are there any market stalls (selling food or clothing)
+Q168 [317]: Are there any places of worship such as churches, mosques
+Q169 [318]: Are there any townhalls or community buildings
+Q173 [320]: Are there cafes, corner shops
+Q167 [316]: Are there recreational facilities
+Q108A [273]: Are you close to any political party
+Q55 [219]: Army governs the country
+Q93A [258]: Attend a demostartion or protest march
+Q19F [175]: Attend a trade union
+Q91B [255]: Attend election rally
+Q19C [172]: Attend group concerned with local matters
+Q19E [174]: Attend group that looks after the community
+Q19D [173]: Attend local commercial organization
+Q19B [171]: Attend self-help association
+Q92B [256]: Avoid paying development levy or property taxes
+Q83 [244]: Besides being [country], which group do you feel you belong to
+Q52B [214]: Can join any political organization they choose
+Q52C [215]: Can live without fear of unjust arrest
+Q94 [146]: Check with others
+Q92A [371]: Claimed government benefits to which you are not entitled
+Q76C [520]: Comparison of current and past government corruption
+Q77A [235]: Comparison of current and past government effectiveness
+Q77B [364]: Comparison of current and past government interest
+Q42 [67]: Constitution expresses values and aspirations of [nationality]
+Q37 [193]: Contacted any other influential person
+Q123B [289]: Country
+Q58 [529]: Country returned to White minority rule
+QDate [1]: Date of interview
+Q54 [218]: Decisions to be made by council of elders, traditional leaders
+Q103D [266]: Democratic society and at least 2 parties competing
+Q103E [267]: Democratic society and basic necessities
+Q103B [265]: Democratic society and freedom to criticize the government
+Q103A [264]: Democratic society and majority rule
+Q103H [268]: Democratic society and small income gap between rich and poor
+Q84H [248]: Desirable to create a united [nationality] nation out of all groups
+Q132 [296]: Did household have glass in windows
+Q129 [294]: Did respondent cough repeatedly during the interview
+Q127 [292]: Did respondent have missing limbs
+Q131 [295]: Did the household have windows
+Q149 [304]: Did you feel threatened during interview
+Q145 [301]: Did your presence arouse interest from neighbors
+Q146 [302]: Did your presence arouse suspicion from neighbours
+Q96 [148]: Difficulty answering
+Q45 [201]: Discuss political matters with friends
+Q123A [288]: District or province
+Q154 [308]: Do you come from rural or urban area
+Q115 [282]: Do you do regular work without cash pay
+Q46 [202]: Do you follow what is happening in government and public affairs
+Q15 [159]: Do you have an electricity hook-up into home
+Q16 [160]: Do you have piped water into home
+Q3 [151]: Economic Expectations
+Q82 [530]: ESAP has helped VS it has hurt most people
+Q81 [242]: ESAP’s effect on your life
+Q2 [150]: Evaluations of Economic Conditions
+Q42E [436]: Everybody is treated equally and fairly by government
+Q84A [245]: Feel proud to be part of this group
+Q47A [203]: Feel that you have little or no control over life
+Q114 [281]: For how many months were you unemployed
+Q26 [182]: Free health services, low stds VS pay for better health services
+Q52D [216]: Free to choose who to vote for without feeling forced by others
+Q21 [177]: Free to earn VS limited income
+Q50 [209]: Freeness and fairness of last national elections
+Q59 [200]: Govt elected by accepted procedures
+Q60 [222]: Govt exercises power in acceptable way
+Q87 [250]: Govt more or less interested in what your group has to say
+Q88 [251]: Govt represents all [country] or just one group only
+Q47D [206]: Have to be careful what you do and say with regard to politics
+Q34 [189]: Have you contacted government official or political party official
+Q80 [241]: Have you ever heard about Economic Structural Adjustment Programme
+Q109 [275]: How close do you feel to this party
+Q6A-D [153]: How do you currently obtain food
+Q10A-D [156]: How do you currently obtain health services
+Q100 [262]: How do you feel about the suspension of parliament and cancellation of elections
+Q12A-D [157]: How do you normally obtain cash income
+Q64 [226]: How interested is the Prime Minister in your well-being
+Q41 [347]: How many chiefs or traditional leaders are involved in corruption
+Q72 [232]: How many civil servants involved in corruption
+Q181 [327]: How many formal houses in PSU
+Q67 [229]: How many government officials involved in corruption
+Q71 [231]: How many members of parliament involved in corruption
+Q76 [358]: How many officials in local government are involved in corruption
+Q78F [239]: How much trust government press or newspapers
+Q69 [230]: How much trust parliament
+Q78E [238]: How much trust the [country] broadcasting
+Q78A [236]: How much trust the army
+Q78D [237]: How much trust the electoral commission
+Q74 [233]: How much trust your local government
+Q19A [170]: How often do you attend church group meetings
+Q43C [199]: How often do you get news from newspapers
+Q43A [198]: How often do you get news from radio
+Q17H [167]: How often had insufficient fuel to heat your home and to cook with
+Q17B [162]: How often have you felt unsafe from crime in your home
+Q17D [164]: How often have you gone without a cash income
+Q17G [166]: How often have you gone without electricity in your home
+Q17E [165]: How often have you gone without enough clean water to drink
+Q17A [161]: How often have you gone without enough food to eat
+Q17C [163]: How often have you gone without necessary medical treatment
+Q18B [169]: How often worried, anxious, felt tired
+Q110A [276]: How old were you on your last birthday
+Q106 [271]: How satisfied are you with democracy in [country]
+Q63F [224]: How well does government address educational needs of all[country]
+Q63H [225]: How well does government deliver basic services
+Q63A [223]: How well is government creating jobs
+Q19 [23]: Identity treated fairly
+Q95 [147]: Influence by others
+Q47B [204]: Insufficient info about political life and government actions
+Q152 [307]: Interviewer number
+Q156 [310]: Interviewer's gender
+Q157 [312]: Interviewer's highest level of education
+Q155 [309]: Interviewer's home language
+Q156B [311]: Interviewer's race
+Q105 [270]: Is [country] democratic
+Q14 [158]: Is there a nearby school which your kids could attend
+Q158 [313]: Is there a post-office in PSU
+Q161 [314]: Is there a regular bus or taxi service in the PSU
+Q172 [319]: Is there a supermarket (food or clothing)
+Q162 [315]: Is there an electricity grid accessible to most houses
+Q112 [279]: Is your job part-time or full-time or are you looking for work
+Q52 [86]: Jobs by starting businesses vs government provides
+Q27 [183]: Keep government employees VS retrench government employees
+Q124 [290]: Language interview was conducted in
+Q113 [280]: Last 12 months been without a cash job
+Q40 [196]: Local chiefs interest in people
+Q75 [234]: Local government job performance
+Q39 [195]: Local traditional leader, chief or headman
+Q31 [345]: Member of parliament for this area
+Q107A-D [272]: Most important changes about way country is governed
+Q51A-C [210]: Most important problems to be addressed by government
+Q104 [269]: Need a strong leader VS democracy is always best
+Q23 [178]: New business risky VS invest to start business
+Q53 [217]: One party to stand for elections and hold office
+Q36A [191]: Paid a government official to get a job
+Q36B [192]: Paid government official to get a maintenance payment, loan, etc
+Q102 [263]: Patience to deal with problems VS solve now
+Q83C [523]: People belonging to this group are the best
+Q20 [176]: People more responsible for well-being VS government responsible
+Q93 [145]: People present during interview
+Q4 [152]: Personal economic conditions compared to others
+Q18A [168]: Physical health reduce amount of work
+Q79 [240]: Preference for democratic VS non-democratic government
+Q56 [220]: President decides everything
+Q66 [228]: President's job performance
+Q51Xc [212]: Rating of future system government
+Q51Xa [211]: Rating of previous system government
+Q84G [247]: Regardless of group, all [country] should be treated equally
+Q126 [291]: Respondent’s race
+Q91 [142]: Respondent’s shelter
+Q95A-D [260]: Response to shutting down media
+Q24F [180]: Responsibility to help farmers borrow money
+Q51F [519]: Safe from crime and violence
+Q1 [2]: Sex of respondent
+Q47C [205]: Sometimes political affairs too complicated to understand
+Q83D [524]: Stronger ties to group than to other [country]
+Q121 [377]: Suburb
+Q98 [261]: Support for banning political parties
+Q122 [381]: Town or city
+Q182 [328]: Type of area in which interview was conducted in
+Q117 [284]: Type of occupation
+Q122B [531]: Urban or Rural
+Q93D [259]: Use force or violent methods
+Q25 [181]: Variety of goods at high prices VS shortages at low prices
+Q84B [246]: Want children to think of themselves as part of group
+Q128 [293]: Was respondent blind, or nearly blind
+Q143 [533]: Was respondent’s attitude:  at ease
+Q141 [532]: Was respondent’s attitude:  cooperative
+Q183 [329]: Was the PSU clearly sign-posted the last 10km of journey
+Q187 [333]: Water-filled river in last 10km of journey
+Q48 [207]: Way you vote will make a difference VS it won't make a difference
+Q150 [305]: Were physically threatened during interview
+Q177 [323]: Were there any pavement along roads
+Q175 [322]: Were there any police or police vehicles at PSU or EA
+Q186 [332]: Were they in working order
+Q29A-C [185]: What does democracy mean
+Q111 [278]: What is the highest grade, std, form completed
+Q110B [277]: What is your home language
+Q116 [283]: What is your present or last occupation
+Q7A-C [154]: What other methods would you use to obtain food
+Q8A-D [155]: What safety measure do you have for your home
+Q38A-D [194]: What type of influential person did you contact
+Q35A-F [190]: What type of official did you contact
+Q140 [300]: What was respondent's attitude during interview
+Q139 [299]: What was respondent’s attitude
+Q133 [297]: What was roof made of
+Q138 [298]: Where was interview conducted
+Q89 [252]: Which group interest is mostly represented by government
+Q90 [253]: Which is true for you with regards to 1998 national elections
+Q108B [274]: Which party are you close to
+Q49 [208]: Who is in power makes a difference vs it doesn't matter
+Q29 [527]: Who is the Vice President
+Q24A [179]: Who should take responsibility for schools and clinics
+Q85 [249]: Your group economic conditions compared to other group
+Q32 [346]: Your local councilor
+ [534]: 
+Q70 [564]: 
+Q113A [593]: 
+Q29 [48]: [country] a democracy
+Q2 [536]: [country] language
+Q3 [4]: Age
+Q88C [508]: Allow people not born here to become [country] citizens
+Q32B [424]: Anyone is free to criticise the government
+Q41 [553]: Best form of government
+Q62B [563]: Building house
+Q90B [584]: Carry a weapon
+Q94 [146]: Check with others
+Q6A [539]: Church assoc
+Q56 [90]: Civil servants keep jobs vs lay some off
+Q83 [133]: Close to party
+Q9 [12]: Conditions better or worse
+Q39D [63]: Contact government official
+Q39F [64]: Contact influential person
+Q78B [570]: Contact LG Chair
+Q78C [571]: Contact Nat Rep
+Q39A [62]: Contact traditional ruler
+Q-- [535]: date
+Q46 [554]: Deal with inherited problems
+Q103D [266]: Democratic society and at least 2 parties competing
+Q103A [264]: Democratic society and majority rule
+Q96 [148]: Difficulty answering
+Q50B [458]: Disregarding traffic signs and lights
+Q79D [486]: Do if judges who ruled against the government dismissed
+Q79E [487]: Do if National Assembly suspended and elections cancelled
+Q79C [485]: Do if newspapers critical of government shut down
+Q79B [484]: Do if stopped from traveling freely
+Q79A [483]: Do if told what religion to follow
+Q58 [92]: Economic reform too expensive vs accept hardships now
+Q47A [555]: Economic runs badly
+Q6 [7]: Education
+Q65 [462]: Encourage foreign investment VS be wary of foreign investors
+Q19G [412]: Ensuring that all [country] have enough to eat
+Q42E [436]: Everybody is treated equally and fairly by government
+Q32E [425]: Everyone enjoys basic necessities
+Q88B3 [581]: Family member Home broken into
+Q88A [507]: Feel proud to be a [identity group]
+Q84A [245]: Feel proud to be part of this group
+Q100 [588]: Financial situation
+Q106 [590]: For[country]ty
+Q90D [586]: Form a group
+Q55 [89]: Free schooling vs raise educational standards
+Q53 [87]: Free to earn vs government limits
+Q88B2 [580]: Friend Home broken into
+Q88A2 [578]: Friends attacked or robbed
+Q1 [391]: Gender
+Q22C [411]: Get news from newspapers
+Q22B [416]: Get news from television
+Q43A [437]: Get rid of elections so strong leader can decide everything
+Q9A [394]: Gone without food for family
+Q9C [396]: Gone without schooling for children
+Q9B [395]: Gone without water for domestic use
+Q54 [88]: Goods available vs low prices
+Q57 [91]: Government keeps factories vs privitization
+Q15 [19]: Government too complicated vs understand government
+Q67 [429]: Government's economic policies helped most VS hurt most
+Q76C [568]: Governor performance
+Q22G [32]: Handling basic health services
+Q22K [34]: Handling corruption
+Q18D [545]: Handling crime
+Q22F [31]: Handling education
+Q90C [585]: Have other people
+Q21A [414]: How long before government fulfills its promises
+Q21B [415]: How long before own living standards meet your expectations
+Q75A [476]: How often attend community meeting
+Q86 [575]: How often bribe
+Q76A [479]: How often contacted a traditional ruler for help
+Q24 [417]: How often do you discuss politics and government with people
+Q75B [477]: How often get together with others to raise an issue
+Q75D [478]: How often worked for a political candidate or party
+Q18 [22]: Identity
+Q19 [23]: Identity treated fairly
+Q52E [561]: Income tax
+Q47B [556]: Indecisive squabbling
+Q74 [567]: Individual or party
+Q95 [147]: Influence by others
+Q27 [550]: Influence others
+Q12 [15]: Interested in politics
+Q52 [86]: Jobs by starting businesses vs government provides
+Q19B [410]: Keeping prices low
+Q92A [143]: Kms graded sand or dirt roads
+Q92C [144]: Kms off road
+Q49 [83]: Know SAP
+Q76D [569]: LG Chair performance
+Q81 [573]: Look after the interests
+Q27 (responses 1-3). [46]: Meaning of democracy
+Q85 [135]: Monthly earnings
+Q25C [547]: Name Governor
+Q25B [546]: Name HR Member
+Q25A [418]: Name of Chairman
+Q25D [421]: Name of Minister of Finance
+Q25E [548]: Name Vice-President
+Q23 [178]: New business risky VS invest to start business
+Q88A1 [577]: No one attacked or robbed
+Q88B1 [579]: No one Home broken into
+Q108A [591]: No one present
+Q50D [460]: Not paying for services like piped water
+Q7 [8]: Occupation
+Q8D [392]: Operate bank or savings account
+Q42D [435]: Ordinary people can influence government
+Q6K [540]: Others
+Q8E [393]: Owe money borrowed for business purposes
+Q60 [562]: Own land
+Q42A [433]: People are free to say what they think
+Q83C [523]: People belonging to this group are the best
+Q42C [434]: People can freely choose who to vote for
+Q80 [572]: People in high places
+Q51 [85]: People responsible for own well-being vs government responsible
+Q82 [574]: President fights corruption
+Q37 [427]: President should be able to change Constitution VS obey Constitution
+Q36 [58]: Presidential elections honest
+Q47D [557]: Problems, but better
+Q60A [461]: Protecting Borders
+Q22A [544]: Radio consequence
+Q41B [431]: Rate former system of one party rule
+Q41A [430]: Rate present system of government with elections and many parties
+Q41E [432]: Rate system of government you expect in five years
+Q3B [538]: Read or write English
+Q84G [247]: Regardless of group, all [country] should be treated equally
+Q33 [55]: Registered voter
+Q33C [551]: Regular elections
+Q5 [6]: Religion
+Q90A [583]: Report to the police
+Q16 [20]: Representatives listen vs don’t listen
+Qrespnumb [383]: Respondent number
+Q112D [592]: Respondent Patient
+Q91 [142]: Respondent’s shelter
+Q89 [582]: Safety five years ago
+Q30 [49]: Satisfaction with democracy
+Q74D [473]: Satisfaction with performance of judges or lawyers
+Q74E [474]: Satisfaction with performance of political parties
+Q8B [10]: Satisfied [country] economy
+Q10 [13]: Satisfied five years ago
+Q11 [14]: Satisfied future
+Q13B [543]: Satisfied own conditions
+Q50 [84]: Satisfied SAP
+Q50C [459]: Selling goods without trader's license
+Q103 [589]: Settlement type
+Q43B [438]: Should have only one political party
+Q83D [524]: Stronger ties to group than to other [country]
+Q28 [47]: Support for Democracy
+Q43C [439]: The army should come in to govern
+Q43D [440]: The most important decisions should be left to experts
+Q50A [457]: Throwing rubbish in public places
+Q26A [549]: Trad rulers and government
+Q50F [558]: Trust army
+Q49A [455]: Trust churches
+Q48H [453]: Trust Electoral Commission
+Q59 [93]: Trust generally
+Q48D [450]: Trust law courts
+Q48B [448]: Trust local government
+Q51B [559]: Trust mosques
+Q48G [452]: Trust National Assembly
+Q60C [95]: Trust police
+Q48E [451]: Trust political parties
+Q51C [560]: Trust trade  or farmer unions
+Q12D [542]: Turn health services
+Q10A [400]: Turn to for food for family
+Q10C [402]: Turn to for schooling for children
+Q10B [401]: Turn to for water for domestic use
+Q3A [537]: Understand English
+Q90 [141]: Urban or Rural (interviewer)
+Q40 [552]: Violence OK
+Q73B [565]: Voted at Assembly
+Q35 [57]: Voted for President
+Q73D [566]: Voted local government
+Q17 [21]: Voting doesn’t matter vs it improves lives
+Q84B [246]: Want children to think of themselves as part of group
+Q143 [533]: Was respondent’s attitude:  at ease
+Q141 [532]: Was respondent’s attitude:  cooperative
+Q140 [300]: What was respondent's attitude during interview
+Q139 [299]: What was respondent’s attitude
+Q133 [297]: What was roof made of
+Q96A (1st group mentioned) [587]: Which identity group
+Q87A (1st group mentioned) [576]: Which office(s)
+Q84 [134]: Which party
+Q34 [56]: Why not registered
+Q11D [541]: Without health services
+Q43 [68]: Abide by government decisions
+Q91A [254]: Address problems facing the community with others
+Q57 [184]: All decisions made by economic experts rather than government
+Q179 [325]: Any household yards or fields containing livestock
+Q180 [326]: Any household yards or fields with trees higher than one story
+Q178 [324]: Any household yards with crops or vegetables being grown
+Q184 [330]: Any stop or give way signs along last 10km of journey
+Q185 [331]: Any traffic lights or robots along last 10km of journey
+Q52A [213]: Anyone can freely say what they think
+Q151 [306]: Anything else significant happen during interview
+Q174 [321]: Are there any market stalls (selling food or clothing)
+Q168 [317]: Are there any places of worship such as churches, mosques
+Q169 [318]: Are there any townhalls or community buildings
+Q173 [320]: Are there cafes, corner shops
+Q167 [316]: Are there recreational facilities
+Q108A [273]: Are you close to any political party
+Q55 [219]: Army governs the country
+Q93A [258]: Attend a demostartion or protest march
+Q19F [175]: Attend a trade union
+Q91B [255]: Attend election rally
+Q19C [172]: Attend group concerned with local matters
+Q19E [174]: Attend group that looks after the community
+Q19D [173]: Attend local commercial organization
+Q19B [171]: Attend self-help association
+Q92B [256]: Avoid paying development levy or property taxes
+Q83 [244]: Besides being [country], which group do you feel you belong to
+Q52C [215]: Can live without fear of unjust arrest
+Q94 [146]: Check with others
+Q76C [520]: Comparison of current and past government corruption
+Q77A [235]: Comparison of current and past government effectiveness
+Q77B [364]: Comparison of current and past government interest
+Q77D [594]: Comparison of current and past government trustworthiness
+Q42 [67]: Constitution expresses values and aspirations of [nationality]
+Q37 [193]: Contacted any other influential person
+Q58 [350]: Country returned to apartheid
+QDate [1]: Date of interview
+Q54 [218]: Decisions to be made by council of elders, traditional leaders
+Q103D [266]: Democratic society and at least 2 parties competing
+Q103E [267]: Democratic society and basic necessities
+Q103B [265]: Democratic society and freedom to criticize the government
+Q103A [264]: Democratic society and majority rule
+Q103H [268]: Democratic society and small income gap between rich and poor
+Q84H [248]: Desirable to create a united [nationality] nation out of all groups
+Q132 [296]: Did household have glass in windows
+Q129 [294]: Did respondent cough repeatedly during the interview
+Q127 [292]: Did respondent have missing limbs
+Q131 [295]: Did the household have windows
+Q149 [304]: Did you feel threatened during interview
+Q145 [301]: Did your presence arouse interest from neighbors
+Q146 [302]: Did your presence arouse suspicion from neighbours
+Q96 [148]: Difficulty answering
+Q45 [201]: Discuss political matters with friends
+Q123A [288]: District or province
+Q154 [308]: Do you come from rural or urban area
+Q115 [282]: Do you do regular work without cash pay
+Q46 [202]: Do you follow what is happening in government and public affairs
+Q15 [159]: Do you have an electricity hook-up into home
+Q16 [160]: Do you have piped water into home
+Q3 [151]: Economic Expectations
+Q82 [243]: ESAP has helped VS hurt most people
+Q81 [242]: ESAP’s effect on your life
+Q2 [150]: Evaluations of Economic Conditions
+Q84A [245]: Feel proud to be part of this group
+Q47A [203]: Feel that you have little or no control over life
+Q114 [281]: For how many months were you unemployed
+Q26 [182]: Free health services, low stds VS pay for better health services
+Q21 [177]: Free to earn VS limited income
+Q50 [209]: Freeness and fairness of last national elections
+Q92D [257]: Get services without paying
+Q59 [200]: Govt elected by accepted procedures
+Q60 [222]: Govt exercises power in acceptable way
+Q87 [250]: Govt more or less interested in what your group has to say
+Q88 [251]: Govt represents all [country] or just one group only
+Q47D [206]: Have to be careful what you do and say with regard to politics
+Q34 [189]: Have you contacted government official or political party official
+Q80 [241]: Have you ever heard about Economic Structural Adjustment Programme
+Q109 [275]: How close do you feel to this party
+Q6A-D [153]: How do you currently obtain food
+Q10A-D [156]: How do you currently obtain health services
+Q100 [262]: How do you feel about the suspension of parliament and cancellation of elections
+Q12A-D [157]: How do you normally obtain cash income
+Q64 [226]: How interested is the Prime Minister in your well-being
+Q41 [347]: How many chiefs or traditional leaders are involved in corruption
+Q72 [232]: How many civil servants involved in corruption
+Q181 [327]: How many formal houses in PSU
+Q67 [229]: How many government officials involved in corruption
+Q71 [231]: How many members of parliament involved in corruption
+Q76 [358]: How many officials in local government are involved in corruption
+Q78F [239]: How much trust government press or newspapers
+Q69 [230]: How much trust parliament
+Q78E [238]: How much trust the [country] broadcasting
+Q78A [236]: How much trust the army
+Q78D [237]: How much trust the electoral commission
+Q65 [227]: How much trust the Prime Minister
+Q74 [233]: How much trust your local government
+Q19A [170]: How often do you attend church group meetings
+Q43C [199]: How often do you get news from newspapers
+Q43A [198]: How often do you get news from radio
+Q17H [167]: How often had insufficient fuel to heat your home and to cook with
+Q17B [162]: How often have you felt unsafe from crime in your home
+Q17D [164]: How often have you gone without a cash income
+Q17G [166]: How often have you gone without electricity in your home
+Q17E [165]: How often have you gone without enough clean water to drink
+Q17A [161]: How often have you gone without enough food to eat
+Q17C [163]: How often have you gone without necessary medical treatment
+Q18B [169]: How often worried, anxious, felt tired
+Q110A [276]: How old were you on your last birthday
+Q106 [271]: How satisfied are you with democracy in [country]
+Q63F [224]: How well does government address educational needs of all[country]
+Q63H [225]: How well does government deliver basic services
+Q63A [223]: How well is government creating jobs
+Q19 [23]: Identity treated fairly
+Q95 [147]: Influence by others
+Q47B [204]: Insufficient info about political life and government actions
+Q152 [307]: Interviewer number
+Q156 [310]: Interviewer's gender
+Q157 [312]: Interviewer's highest level of education
+Q155 [309]: Interviewer's home language
+Q156B [311]: Interviewer's race
+Q105 [270]: Is [country] democratic
+Q14 [158]: Is there a nearby school which your kids could attend
+Q158 [313]: Is there a post-office in PSU
+Q161 [314]: Is there a regular bus or taxi service in the PSU
+Q172 [319]: Is there a supermarket (food or clothing)
+Q162 [315]: Is there an electricity grid accessible to most houses
+Q112 [279]: Is your job part-time or full-time or are you looking for work
+Q52 [86]: Jobs by starting businesses vs government provides
+Q27 [183]: Keep government employees VS retrench government employees
+Q92A [143]: Kms graded sand or dirt roads
+Q124 [290]: Language interview was conducted in
+Q113 [280]: Last 12 months been without a cash job
+Q40 [196]: Local chiefs interest in people
+Q75 [234]: Local government job performance
+Q39 [195]: Local traditional leader, chief or headman
+Q31 [345]: Member of parliament for this area
+Q107A-D [272]: Most important changes about way country is governed
+Q51A-C [210]: Most important problems to be addressed by government
+Q104 [269]: Need a strong leader VS democracy is always best
+Q23 [178]: New business risky VS invest to start business
+Q53 [217]: One party to stand for elections and hold office
+Q36A [191]: Paid a government official to get a job
+Q36B [192]: Paid government official to get a maintenance payment, loan, etc
+Q102 [263]: Patience to deal with problems VS solve now
+Q83C [523]: People belonging to this group are the best
+Q20 [176]: People more responsible for well-being VS government responsible
+Q93 [145]: People present during interview
+Q4 [152]: Personal economic conditions compared to others
+Q18A [168]: Physical health reduce amount of work
+Q79 [240]: Preference for democratic VS non-democratic government
+Q56 [220]: President decides everything
+Q66 [228]: President's job performance
+Q51Xc [212]: Rating of future system government
+Q51Xa [211]: Rating of previous system government
+Q84G [247]: Regardless of group, all [country] should be treated equally
+Q126 [291]: Respondent’s race
+Q91 [142]: Respondent’s shelter
+Q95A-D [260]: Response to shutting down media
+Q24F [180]: Responsibility to help farmers borrow money
+Q1 [2]: Sex of respondent
+Q47C [205]: Sometimes political affairs too complicated to understand
+Q121 [377]: Suburb
+Q98 [261]: Support for banning political parties
+Q122 [381]: Town or city
+Q182 [328]: Type of area in which interview was conducted in
+Q117 [284]: Type of occupation
+Q93D [259]: Use force or violent methods
+Q25 [181]: Variety of goods at high prices VS shortages at low prices
+Q84B [246]: Want children to think of themselves as part of group
+Q128 [293]: Was respondent blind, or nearly blind
+Q183 [329]: Was the PSU clearly sign-posted the last 10km of journey
+Q187 [333]: Water-filled river in last 10km of journey
+Q48 [207]: Way you vote will make a difference VS it won't make a difference
+Q150 [305]: Were physically threatened during interview
+Q177 [323]: Were there any pavement along roads
+Q175 [322]: Were there any police or police vehicles at PSU or EA
+Q186 [332]: Were they in working order
+Q148 [303]: Were you approached by community or party representatives
+Q29A-C [185]: What does democracy mean
+Q111 [278]: What is the highest grade, std, form completed
+Q110B [277]: What is your home language
+Q116 [283]: What is your present or last occupation
+Q7A-C [154]: What other methods would you use to obtain food
+Q8A-D [155]: What safety measure do you have for your home
+Q38A-D [194]: What type of influential person did you contact
+Q35A-F [190]: What type of official did you contact
+Q140 [300]: What was respondent's attitude during interview
+Q139 [299]: What was respondent’s attitude
+Q133 [297]: What was roof made of
+Q138 [298]: Where was interview conducted
+Q89 [252]: Which group interest is mostly represented by government
+Q90 [253]: Which is true for you with regards to 1998 national elections
+Q108B [274]: Which party are you close to
+Q49 [208]: Who is in power makes a difference vs it doesn't matter
+Q30 [186]: Who is the Prime Minister
+Q24A [179]: Who should take responsibility for schools and clinics
+Q85 [249]: Your group economic conditions compared to other group
+Q32 [346]: Your local councilor
+Q148 [526]: 
+Q29 [48]: [country] a democracy
+Q43 [68]: Abide by government decisions
+Q52H [528]: Access to basic necessities
+Q91A [254]: Address problems facing the community with others
+Q57 [184]: All decisions made by economic experts rather than government
+Q179 [325]: Any household yards or fields containing livestock
+Q180 [326]: Any household yards or fields with trees higher than one story
+Q178 [324]: Any household yards with crops or vegetables being grown
+Q184 [330]: Any stop or give way signs along last 10km of journey
+Q185 [331]: Any traffic lights or robots along last 10km of journey
+Q52A [213]: Anyone can freely say what they think
+Q151 [306]: Anything else significant happen during interview
+Q174 [321]: Are there any market stalls (selling food or clothing)
+Q168 [317]: Are there any places of worship such as churches, mosques
+Q169 [318]: Are there any townhalls or community buildings
+Q173 [320]: Are there cafes, corner shops
+Q167 [316]: Are there recreational facilities
+Q108A [273]: Are you close to any political party
+Q55 [219]: Army governs the country
+Q93A [258]: Attend a demostartion or protest march
+Q19F [175]: Attend a trade union
+Q91B [255]: Attend election rally
+Q19C [172]: Attend group concerned with local matters
+Q19E [174]: Attend group that looks after the community
+Q19D [173]: Attend local commercial organization
+Q19B [171]: Attend self-help association
+Q92B [256]: Avoid paying development levy or property taxes
+Q91C [525]: Avoid paying income taxes
+Q83 [244]: Besides being [country], which group do you feel you belong to
+Q52B [214]: Can join any political organization they choose
+Q52C [215]: Can live without fear of unjust arrest
+Q94 [146]: Check with others
+Q76C [520]: Comparison of current and past government corruption
+Q77A [235]: Comparison of current and past government effectiveness
+Q77B [364]: Comparison of current and past government interest
+Q42 [67]: Constitution expresses values and aspirations of [nationality]
+Q37 [193]: Contacted any other influential person
+Q123B [289]: Country
+Q58 [529]: Country returned to White minority rule
+QDate [1]: Date of interview
+Q54 [218]: Decisions to be made by council of elders, traditional leaders
+Q103D [266]: Democratic society and at least 2 parties competing
+Q103E [267]: Democratic society and basic necessities
+Q103B [265]: Democratic society and freedom to criticize the government
+Q103A [264]: Democratic society and majority rule
+Q103H [268]: Democratic society and small income gap between rich and poor
+Q84H [248]: Desirable to create a united [nationality] nation out of all groups
+Q132 [296]: Did household have glass in windows
+Q129 [294]: Did respondent cough repeatedly during the interview
+Q127 [292]: Did respondent have missing limbs
+Q131 [295]: Did the household have windows
+Q149 [304]: Did you feel threatened during interview
+Q145 [301]: Did your presence arouse interest from neighbors
+Q146 [302]: Did your presence arouse suspicion from neighbours
+Q96 [148]: Difficulty answering
+Q45 [201]: Discuss political matters with friends
+Q123A [288]: District or province
+Q154 [308]: Do you come from rural or urban area
+Q115 [282]: Do you do regular work without cash pay
+Q46 [202]: Do you follow what is happening in government and public affairs
+Q15 [159]: Do you have an electricity hook-up into home
+Q16 [160]: Do you have piped water into home
+Q3 [151]: Economic Expectations
+Q82 [243]: ESAP has helped VS hurt most people
+Q81 [242]: ESAP’s effect on your life
+Q2 [150]: Evaluations of Economic Conditions
+Q42E [436]: Everybody is treated equally and fairly by government
+Q84A [245]: Feel proud to be part of this group
+Q47A [203]: Feel that you have little or no control over life
+Q114 [281]: For how many months were you unemployed
+Q26 [182]: Free health services, low stds VS pay for better health services
+Q52D [216]: Free to choose who to vote for without feeling forced by others
+Q21 [177]: Free to earn VS limited income
+Q50 [209]: Freeness and fairness of last national elections
+Q59 [200]: Govt elected by accepted procedures
+Q60 [222]: Govt exercises power in acceptable way
+Q87 [250]: Govt more or less interested in what your group has to say
+Q88 [251]: Govt represents all [country] or just one group only
+Q47D [206]: Have to be careful what you do and say with regard to politics
+Q34 [189]: Have you contacted government official or political party official
+Q80 [241]: Have you ever heard about Economic Structural Adjustment Programme
+Q109 [275]: How close do you feel to this party
+Q6A-D [153]: How do you currently obtain food
+Q10A-D [156]: How do you currently obtain health services
+Q100 [262]: How do you feel about the suspension of parliament and cancellation of elections
+Q12A-D [157]: How do you normally obtain cash income
+Q64 [226]: How interested is the Prime Minister in your well-being
+Q41 [347]: How many chiefs or traditional leaders are involved in corruption
+Q72 [232]: How many civil servants involved in corruption
+Q181 [327]: How many formal houses in PSU
+Q67 [229]: How many government officials involved in corruption
+Q71 [231]: How many members of parliament involved in corruption
+Q76 [358]: How many officials in local government are involved in corruption
+Q78F [239]: How much trust government press or newspapers
+Q69 [230]: How much trust parliament
+Q78E [238]: How much trust the [country] broadcasting
+Q78A [236]: How much trust the army
+Q78D [237]: How much trust the electoral commission
+Q65 [227]: How much trust the Prime Minister
+Q74 [233]: How much trust your local government
+Q19A [170]: How often do you attend church group meetings
+Q43C [199]: How often do you get news from newspapers
+Q43A [198]: How often do you get news from radio
+Q17H [167]: How often had insufficient fuel to heat your home and to cook with
+Q17B [162]: How often have you felt unsafe from crime in your home
+Q17D [164]: How often have you gone without a cash income
+Q17G [166]: How often have you gone without electricity in your home
+Q17E [165]: How often have you gone without enough clean water to drink
+Q17A [161]: How often have you gone without enough food to eat
+Q17C [163]: How often have you gone without necessary medical treatment
+Q18B [169]: How often worried, anxious, felt tired
+Q110A [276]: How old were you on your last birthday
+Q106 [271]: How satisfied are you with democracy in [country]
+Q63F [224]: How well does government address educational needs of all[country]
+Q63H [225]: How well does government deliver basic services
+Q63A [223]: How well is government creating jobs
+Q19 [23]: Identity treated fairly
+Q95 [147]: Influence by others
+Q47B [204]: Insufficient info about political life and government actions
+Q152 [307]: Interviewer number
+Q156 [310]: Interviewer's gender
+Q157 [312]: Interviewer's highest level of education
+Q155 [309]: Interviewer's home language
+Q156B [311]: Interviewer's race
+Q14 [158]: Is there a nearby school which your kids could attend
+Q158 [313]: Is there a post-office in PSU
+Q161 [314]: Is there a regular bus or taxi service in the PSU
+Q172 [319]: Is there a supermarket (food or clothing)
+Q162 [315]: Is there an electricity grid accessible to most houses
+Q112 [279]: Is your job part-time or full-time or are you looking for work
+Q52 [86]: Jobs by starting businesses vs government provides
+Q27 [183]: Keep government employees VS retrench government employees
+Q92A [143]: Kms graded sand or dirt roads
+Q124 [290]: Language interview was conducted in
+Q113 [280]: Last 12 months been without a cash job
+Q40 [196]: Local chiefs interest in people
+Q75 [234]: Local government job performance
+Q39 [195]: Local traditional leader, chief or headman
+Q31 [517]: Member of parliament for this constituency
+Q107A-D [272]: Most important changes about way country is governed
+Q51A-C [210]: Most important problems to be addressed by government
+Q104 [269]: Need a strong leader VS democracy is always best
+Q23 [178]: New business risky VS invest to start business
+Q53 [217]: One party to stand for elections and hold office
+Q36A [191]: Paid a government official to get a job
+Q36B [192]: Paid government official to get a maintenance payment, loan, etc
+Q102 [263]: Patience to deal with problems VS solve now
+Q83C [523]: People belonging to this group are the best
+Q93 [145]: People present during interview
+Q51 [85]: People responsible for own well-being vs government responsible
+Q4 [152]: Personal economic conditions compared to others
+Q18A [168]: Physical health reduce amount of work
+Q79 [240]: Preference for democratic VS non-democratic government
+Q56 [220]: President decides everything
+Q66 [228]: President's job performance
+Q84G [247]: Regardless of group, all [country] should be treated equally
+Q126 [291]: Respondent’s race
+Q91 [142]: Respondent’s shelter
+Q94A-D [595]: Response to closing media
+Q95A-D [260]: Response to shutting down media
+Q24F [180]: Responsibility to help farmers borrow money
+Q51F [519]: Safe from crime and violence
+Q1 [2]: Sex of respondent
+Q47C [205]: Sometimes political affairs too complicated to understand
+Q83D [524]: Stronger ties to group than to other [country]
+Q121 [377]: Suburb
+Q98 [261]: Support for banning political parties
+Q122 [381]: Town or city
+Q182 [328]: Type of area in which interview was conducted in
+Q117 [284]: Type of occupation
+Q93D [259]: Use force or violent methods
+Q25 [181]: Variety of goods at high prices VS shortages at low prices
+Q84B [246]: Want children to think of themselves as part of group
+Q128 [293]: Was respondent blind, or nearly blind
+Q183 [329]: Was the PSU clearly sign-posted the last 10km of journey
+Q187 [333]: Water-filled river in last 10km of journey
+Q48 [207]: Way you vote will make a difference VS it won't make a difference
+Q150 [305]: Were physically threatened during interview
+Q177 [323]: Were there any pavement along roads
+Q175 [322]: Were there any police or police vehicles at PSU or EA
+Q186 [332]: Were they in working order
+Q29A-C [185]: What does democracy mean
+Q111 [278]: What is the highest grade, std, form completed
+Q110B [277]: What is your home language
+Q116 [283]: What is your present or last occupation
+Q7A-C [154]: What other methods would you use to obtain food
+Q8A-D [155]: What safety measure do you have for your home
+Q38A-D [194]: What type of influential person did you contact
+Q35A-F [190]: What type of official did you contact
+Q140 [300]: What was respondent's attitude during interview
+Q139 [299]: What was respondent’s attitude
+Q133 [297]: What was roof made of
+Q138 [298]: Where was interview conducted
+Q89 [252]: Which group interest is mostly represented by government
+Q90 [253]: Which is true for you with regards to 1998 national elections
+Q108B [274]: Which party are you close to
+Q49 [208]: Who is in power makes a difference vs it doesn't matter
+Q30 [186]: Who is the Prime Minister
+Q24A [179]: Who should take responsibility for schools and clinics
+Q85 [249]: Your group economic conditions compared to other group
+Q32 [346]: Your local councilor
+Q29 [48]: [country] a democracy
+Q2 [536]: [country] language
+Q28F [622]: Adequate living standards
+Q3 [4]: Age
+Q45C [639]: Agricultural credit
+Q29C [625]: Army come in
+Q67A [645]: Attend community meeting
+Q41 [553]: Best form of government
+Q81E [498]: Bribery not common among public officials
+Q62B [563]: Building house
+Q71A [650]: Buy and sell goods
+Q28D [620]: Can influence government
+Q69E [649]: Cancel elections
+Q90B [584]: Carry a weapon
+Q21 [614]: Change good or bad
+Q18A [613]: Chiefs and government
+Q56 [90]: Civil servants keep jobs vs lay some off
+Q68A [648]: Contact chief
+Q39D [63]: Contact government official
+Q39F [64]: Contact influential person
+Q4B [601]: Corrugated or tiled roof
+Q81G [500]: Corruption was worse problem under one party government
+Q29E [627]: Council of elders
+QClerk [597]: Data Entry Clerk
+Q46 [554]: Deal with inherited problems
+Q50B [458]: Disregarding traffic signs and lights
+Q79D [486]: Do if judges who ruled against the government dismissed
+Q79C [485]: Do if newspapers critical of government shut down
+Q79B [484]: Do if stopped from traveling freely
+Q79A [483]: Do if told what religion to follow
+Q92 [509]: Do you feel close to a political party
+Q58 [92]: Economic reform too expensive vs accept hardships now
+Q6 [7]: Education
+Q66 [644]: Elections honest
+Q71C [652]: Employ others
+Q31 [628]: Enjoy a real choice
+Q78 [654]: Enriching themselves
+QEnumerator [598]: Enumerator
+Q37 [615]: ERP
+Q38 [635]: ERP supposed to do
+Q36 [426]: Everyone votes VS only educated vote
+Q50 [636]: Foreign investment
+Q90D [586]: Form a group
+Q55 [89]: Free schooling vs raise educational standards
+Q28C [619]: Free to choose
+Q28A [617]: Free to say
+Q1 [391]: Gender
+Q9A [394]: Gone without food for family
+Q9C [396]: Gone without schooling for children
+Q9B [395]: Gone without water for domestic use
+Q54 [88]: Goods available vs low prices
+Q29D [626]: Government by experts
+Q57 [91]: Government keeps factories vs privitization
+Q23 [35]: Government performance
+Q13 [607]: Group leader
+Q12 [604]: Group member
+Q22G [32]: Handling basic health services
+Q22K [34]: Handling corruption
+Q18D [545]: Handling crime
+Q22F [31]: Handling education
+Q59C [641]: Handling gaps
+Q22A [28]: Handling jobs
+Q90C [585]: Have other people
+Q21A [414]: How long before government fulfills its promises
+Q21B [415]: How long before own living standards meet your

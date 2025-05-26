@@ -1,0 +1,807 @@
+Name: Q2
+Label: 'Q2 Head of household' => Head of household
+
+Name: Q3
+Label: 'Q3 Age' => Age
+Value Label: Don't know => Do not know
+
+Name: Q4
+Label: 'Q4 Home language' => Home language
+
+Name: Q5
+Label: 'Q5 Religion' => Religion
+
+Name: Q6
+Label: 'Q6 Education' => Education
+Value Label: Don't know => Do not know
+
+Name: Q7
+Label: 'Q7 Occupation' => Occupation
+
+Name: Q8A
+Label: 'Q8A Satisfied own living conditions' => Satisfied own living conditions
+Value Label: Don't know => Do not know
+
+Name: Q8B
+Label: 'Q8B Satisfied Ugandan economy' => Satisfied [country] economy
+Value Label: Don't know => Do not know
+
+Name: Q8C
+Label: 'Q8C Satisfied general situation' => Satisfied general situation
+Value Label: Don't know => Do not know
+
+Name: Q9
+Label: 'Q9 Conditions better/worse' => Conditions better/worse
+Value Label: About the same => Same
+Value Label: Don't know => Do not know
+
+Name: Q10
+Label: 'Q10 Satisfied five years ago' => Satisfied five years ago
+Value Label: About the same => Same
+Value Label: Don't know => Do not know
+
+Name: Q11
+Label: 'Q11 Satisfied future' => Satisfied future
+Value Label: About the same => Same
+Value Label: Don't know => Do not know
+
+Name: Q12
+Label: 'Q12 Interested in politics' => Interested in politics
+Value Label: Don't know => Do not know
+
+Name: Q13A
+Label: 'Q13A News from discussions' => News from discussions
+Value Label: Don't know => Do not know
+
+Name: Q13B
+Label: 'Q13B Radio news' => Radio news
+Value Label: Don't know => Do not know
+
+Name: Q13C
+Label: 'Q13C TV news' => TV news
+Value Label: Don't know => Do not know
+
+Name: Q13D
+Label: 'Q13D Newspapers' => Newspapers
+Value Label: Don't know => Do not know
+
+Name: Q14
+Label: 'Q14 Influence others vs no influnece' => Influence others vs no influnece
+Value Label: Don't know => Do not know
+
+Name: Q15
+Label: 'Q15 Government too complicated vs understand government' => Government too complicated vs understand government
+Value Label: Don't know => Do not know
+
+Name: Q16
+Label: 'Q16 Representatives listen vs don't listen' => Representatives listen vs do not listen
+Value Label: Don't know => Do not know
+
+Name: Q17
+Label: 'Q17 Voting doesn't matter vs it improves lives' => Voting doesn't matter vs it improves lives
+Value Label: Don't know => Do not know
+
+Name: Q18
+Label: 'Q18 Identity' => Identity
+Value Label: Don't know/can't explain => Do not know/can't explain
+
+Name: Q19
+Label: 'Q19 Identity treated fairly' => Identity treated fairly
+Value Label: Don't know => Do not know
+
+Name: Q20A
+Label: 'Q20A Member: Religious org.' => Member: Religious org
+
+Name: Q20B
+Label: 'Q20B Member: Sport or recreation org.' => Member: Sport or recreation org
+
+Name: Q20C
+Label: 'Q20C Member: Art or education org.' => Member: Art or education org
+
+Name: Q20D
+Label: 'Q20D Member: Trade or farmer's org.' => Member: Trade or farmer's org
+
+Name: Q20E
+Label: 'Q20E Member: Profesionnal or business org.' => Member: Profesionnal or business org
+
+Name: Q20F
+Label: 'Q20F Member: Development assoc.' => Member: Development assoc
+
+Name: Q20G
+Label: 'Q20G Member: Women's org.' => Member: Women's org
+
+Name: Q20H
+Label: 'Q20H Member: Pro-democracy or human rights org.' => Member: Pro-democracy or human rights org
+
+Name: Q20I
+Label: 'Q20I Member: Environmental assoc.' => Member: Environmental assoc
+
+Name: Q20J
+Label: 'Q20J Member: Charitable org.' => Member: Charitable org
+
+Name: Q20K
+Label: 'Q20K Member: Other' => Member: Other
+
+Name: Q21A1
+Label: 'Q21A1 Personal problems (first response)' => Personal problems (first response)
+Value Label: Don't know => Do not know
+
+Name: Q21A2
+Label: 'Q21A2 Personal problems (second response)' => Personal problems (second response)
+Value Label: Don't know => Do not know
+
+Name: Q21B1
+Label: 'Q21B1 National problems (first response)' => National problems (first response)
+Value Label: Don't know => Do not know
+
+Name: Q21B2
+Label: 'Q21B2 National problems (second response)' => National problems (second response)
+Value Label: Don't know => Do not know
+
+Name: Q22A
+Label: 'Q22A Handling jobs' => Handling jobs
+Value Label: Don't know => Do not know
+
+Name: Q22B
+Label: 'Q22B Handling prices' => Handling prices
+Value Label: Don't know => Do not know
+
+Name: Q22C
+Label: 'Q22C Handling income gaps' => Handling income gaps
+Value Label: Don't know => Do not know
+
+Name: Q22D
+Label: 'Q22D Handling crime' => Handling crime
+Value Label: Don't know => Do not know
+
+Name: Q22E
+Label: 'Q22E Handling domestic violence' => Handling domestic violence
+Value Label: Don't know => Do not know
+
+Name: Q22F
+Label: 'Q22F Handling education' => Handling education
+Value Label: Don't know => Do not know
+
+Name: Q22G
+Label: 'Q22G Handling basic health services' => Handling basic health services
+Value Label: Don't know => Do not know
+
+Name: Q22H
+Label: 'Q22H Handling AIDS' => Handling AIDS
+Value Label: Don't know => Do not know
+
+Name: Q22I
+Label: 'Q22I Handling poverty' => Handling poverty
+Value Label: Don't know => Do not know
+
+Name: Q22J
+Label: 'Q22J Handling land for women' => Handling land for women
+Value Label: Don't know => Do not know
+
+Name: Q22K
+Label: 'Q22K Handling corruption' => Handling corruption
+Value Label: Don't know => Do not know
+
+Name: Q23
+Label: 'Q23 Government performance' => Government performance
+Value Label: Don't know => Do not know
+
+Name: Q24A
+Label: 'Q24A Performance of LC5 representative' => Performance of LC5 representative
+Value Label: Don't know => Do not know
+
+Name: Q24B
+Label: 'Q24B Performance of MP' => Performance of MP
+Value Label: Don't know => Do not know
+
+Name: Q24C
+Label: 'Q24C Performance of RDC' => Performance of RDC
+Value Label: Don't know => Do not know
+
+Name: Q24D
+Label: 'Q24D Performance of President' => Performance of President
+Value Label: Don't know => Do not know
+
+Name: Q25A
+Label: 'Q25A Women should vote' => Women should vote
+Value Label: Don't know => Do not know
+
+Name: Q25B
+Label: 'Q25B Women join political organizations' => Women join political organizations
+Value Label: Don't know => Do not know
+
+Name: Q25C
+Label: 'Q25C Women lead political organizations' => Women lead political organizations
+Value Label: Don't know => Do not know
+
+Name: Q25D
+Label: 'Q25D Women local councilors' => Women local councilors
+Value Label: Don't know => Do not know
+
+Name: Q25E
+Label: 'Q25E Women MPs' => Women MPs
+Value Label: Don't know => Do not know
+
+Name: Q25F
+Label: 'Q25F Women cabinet ministers' => Women cabinet ministers
+Value Label: Don't know => Do not know
+
+Name: Q25G
+Label: 'Q25G Women President' => Women President
+Value Label: Don't know => Do not know
+
+Name: Q26
+Label: 'Q26 Women reps. make a difference' => Women reps make a difference
+Value Label: Don't know => Do not know
+
+Name: Q27
+Label: 'Q27 Meaning of democracy?' => Meaning of democracy
+Value Label: Don't know/can't explain => Do not know/can't explain
+
+Name: Q27B
+Label: 'Q27 Meaning of democracy? (option 2)' => Meaning of democracy (option 2)
+Value Label: Don't know/can't explain => Do not know/can't explain
+
+Name: Q27C
+Label: 'Q27 Meaning of democracy? (option 3)' => Meaning of democracy (option 3)
+Value Label: Don't know/can't explain => Do not know/can't explain
+
+Name: Q28
+Label: 'Q28 Support for Democracy' => Support for Democracy
+Value Label: Don't know => Do not know
+
+Name: Q29
+Label: 'Q29 Uganda a democracy?' => [country] a democracy
+Value Label: Don't know => Do not know
+
+Name: Q30
+Label: 'Q30 Satisfaction with democracy' => Satisfaction with democracy
+Value Label: Don't know => Do not know
+
+Name: Q31A
+Label: 'Q31A Importance: Freedom to criticize' => Importance: Freedom to criticize
+Value Label: Don't know => Do not know
+
+Name: Q31B
+Label: 'Q31B Importance: Freedom of religion' => Importance: Freedom of religion
+Value Label: Don't know => Do not know
+
+Name: Q31C
+Label: 'Q31C Importance: Protection of private property' => Importance: Protection of private property
+Value Label: Don't know => Do not know
+
+Name: Q31D
+Label: 'Q31D Importance: Protection of minority rights' => Importance: Protection of minority rights
+Value Label: Don't know => Do not know
+
+Name: Q32
+Label: 'Q32 Patience to deal with inherited problems vs results soon' => Patience to deal with inherited problems vs results soon
+Value Label: Don't know => Do not know
+
+Name: Q33
+Label: 'Q33 Registered voter' => Registered voter
+
+Name: Q34
+Label: 'Q34 Why not registered' => Why not registered
+
+Name: Q35
+Label: 'Q35 Voted for President' => Voted for President
+
+Name: Q36
+Label: 'Q36 Presidential elections honest' => Presidential elections honest
+Value Label: Don't know => Do not know
+
+Name: Q37
+Label: 'Q37 Vote in referendum' => Vote in referendum
+Value Label: Don't know => Do not know
+
+Name: Q38A
+Label: 'Q38A Discuss politics with spouse' => Discuss politics with spouse
+Value Label: Don't know => Do not know
+
+Name: Q38B
+Label: 'Q38B Discuss politics with friends' => Discuss politics with friends
+Value Label: Don't know => Do not know
+
+Name: Q38C
+Label: 'Q38C Teach children about government' => Teach children about government
+Value Label: Don't know => Do not know
+
+Name: Q38D
+Label: 'Q38D Attend community meeting' => Attend community meeting
+Value Label: Don't know => Do not know
+
+Name: Q38E
+Label: 'Q38E Attend civic education meeting' => Attend civic education meeting
+Value Label: Don't know => Do not know
+
+Name: Q38F
+Label: 'Q38F Attend election rally' => Attend election rally
+Value Label: Don't know => Do not know
+
+Name: Q38G
+Label: 'Q38G Work for candidate' => Work for candidate
+Value Label: Don't know => Do not know
+
+Name: Q39A
+Label: 'Q39A Contact traditional ruler' => Contact traditional ruler
+
+Name: Q39B
+Label: 'Q39B Contact LC official' => Contact LC official
+
+Name: Q39C
+Label: 'Q39C Contact MP' => Contact MP
+
+Name: Q39D
+Label: 'Q39D Contact government official' => Contact government official
+
+Name: Q39E
+Label: 'Q39E Contact religious leader' => Contact religious leader
+
+Name: Q39F
+Label: 'Q39F Contact influential person' => Contact influential person
+
+Name: Q40
+Label: 'Q40 Reason for contact (first response)' => Reason for contact (first response)
+Value Label: Don't know => Do not know
+
+Name: Q40B
+Label: 'Q40 Reason for contact (second response)' => Reason for contact (second response)
+Value Label: Don't know => Do not know
+
+Name: Q40C
+Label: 'Q40 Reason for contact (third response)' => Reason for contact (third response)
+Value Label: Don't know => Do not know
+
+Name: Q40D
+Label: 'Q40 Reason for contact (fourth response)' => Reason for contact (fourth response)
+Value Label: Don't know => Do not know
+
+Name: Q41
+Label: 'Q41 Reason for not participating' => Reason for not participating
+Value Label: Don't know => Do not know
+Value Label: Don't see usefulness/effectiveness => Do not see usefulness/effectiveness
+
+Name: Q41B
+Label: 'Q41 Reason for not participating (first response)' => Reason for not participating (first response)
+Value Label: Don't know => Do not know
+Value Label: Don't see usefulness/effectiveness => Do not see usefulness/effectiveness
+
+Name: Q41C
+Label: 'Q41 Reason for not participating (second response)' => Reason for not participating (second response)
+Value Label: Don't know => Do not know
+Value Label: Don't see usefulness/effectiveness => Do not see usefulness/effectiveness
+
+Name: Q42
+Label: 'Q42 Constitution expresses values' => Constitution expresses values and aspirations of [nationality]
+Value Label: Don't know => Do not know
+
+Name: Q43
+Label: 'Q43 Abide by government decisions' => Abide by government decisions
+Value Label: Don't know => Do not know
+
+Name: Q44
+Label: 'Q44 Heard about referendum' => Heard about referendum
+
+Name: Q45A
+Label: 'Q45A Heard from family' => Heard from family
+
+Name: Q45B
+Label: 'Q45B Heard from friend' => Heard from friend
+
+Name: Q45C
+Label: 'Q45C Heard from NRM official' => Heard from NRM official
+
+Name: Q45D
+Label: 'Q45D Heard from political party official' => Heard from political party official
+
+Name: Q45E
+Label: 'Q45E Heard from church leader' => Heard from church leader
+
+Name: Q45F
+Label: 'Q45F Heard from civic educator' => Heard from civic educator
+
+Name: Q45G
+Label: 'Q45G Heard from posters' => Heard from posters
+
+Name: Q45H
+Label: 'Q45H Heard from pamphlets' => Heard from pamphlets
+
+Name: Q45I
+Label: 'Q45I Heard from community meetings' => Heard from community meetings
+
+Name: Q45J
+Label: 'Q45J Heard from radio' => Heard from radio
+
+Name: Q45K
+Label: 'Q45K Heard from TV' => Heard from TV
+
+Name: Q45L
+Label: 'Q45L Heard from newspapers' => Heard from newspapers
+
+Name: Q46A
+Label: 'Q46A Equal radio coverage' => Equal radio coverage
+Value Label: Don't know => Do not know
+
+Name: Q46B
+Label: 'Q46B Equal TV coverage' => Equal TV coverage
+Value Label: Don't know => Do not know
+
+Name: Q46C
+Label: 'Q46C Equal newspaper coverage' => Equal newspaper coverage
+Value Label: Don't know => Do not know
+
+Name: Q47
+Label: 'Q47 Referendum about (first response)?' => Referendum about (first response)
+Value Label: Don't know => Do not know
+
+Name: Q47B
+Label: 'Q47B Referendum about (second response)?' => Referendum about (second response)
+Value Label: Don't know => Do not know
+
+Name: Q48A
+Label: 'Q48A Referendum same as election?' => Referendum same as election
+Value Label: Don't know => Do not know
+
+Name: Q48B
+Label: 'Q48B Referendum must register?' => Referendum must register
+Value Label: Don't know => Do not know
+
+Name: Q48C
+Label: 'Q48C Referendum choose candidates?' => Referendum choose candidates
+Value Label: Don't know => Do not know
+
+Name: Q48D
+Label: 'Q48D Referendum secret ballot?' => Referendum secret ballot
+Value Label: Don't know => Do not know
+
+Name: Q48E
+Label: 'Q48E Referendum choose govt. system?' => Referendum choose government system
+Value Label: Don't know => Do not know
+
+Name: Q48F
+Label: 'Q48F Referendum must abide results?' => Referendum must abide results
+Value Label: Don't know => Do not know
+
+Name: Q48G
+Label: 'Q48G Referendum changes constitution?' => Referendum changes constitution
+Value Label: Don't know => Do not know
+
+Name: Q48H
+Label: 'Q48H Referendum government resign?' => Referendum government resign
+Value Label: Don't know => Do not know
+
+Name: Q49
+Label: 'Q49 Know SAP' => Know SAP
+
+Name: Q50
+Label: 'Q50 Satisfied SAP' => Satisfied SAP
+Value Label: Don't know => Do not know
+
+Name: Q51
+Label: 'Q51 People responsible for own well-being vs govt. responsible' => People responsible for own well-being vs government responsible
+Value Label: Don't know => Do not know
+
+Name: Q52
+Label: 'Q52 Jobs by starting businesses vs govt. provides' => Jobs by starting businesses vs government provides
+Value Label: Don't know => Do not know
+
+Name: Q53
+Label: 'Q53 Free to earn vs govt. limits' => Free to earn vs government limits
+Value Label: Don't know => Do not know
+
+Name: Q54
+Label: 'Q54 Goods available vs low prices' => Goods available vs low prices
+Value Label: Don't know => Do not know
+
+Name: Q55
+Label: 'Q55 Free schooling vs raise educational standards' => Free schooling vs raise educational standards
+Value Label: Don't know => Do not know
+
+Name: Q56
+Label: 'Q56 Civil servants keep jobs vs lay some off' => Civil servants keep jobs vs lay some off
+Value Label: Don't know => Do not know
+
+Name: Q57
+Label: 'Q57 Government keeps factories vs privitization' => Government keeps factories vs privitization
+Value Label: Don't know => Do not know
+
+Name: Q58
+Label: 'Q58 Economic reform too expensive vs accept hardships now' => Economic reform too expensive vs accept hardships now
+Value Label: Don't know => Do not know
+
+Name: Q59
+Label: 'Q59 Trust generally' => Trust generally
+Value Label: Don't know => Do not know
+
+Name: Q60A
+Label: 'Q60A Trust own ethnic group' => Trust own ethnic group
+Value Label: Don't know => Do not know
+
+Name: Q60B
+Label: 'Q60B Trust other ethnic groups' => Trust other ethnic group
+Value Label: Don't know => Do not know
+
+Name: Q60C
+Label: 'Q60C Trust police' => Trust police
+Value Label: Don't know => Do not know
+
+Name: Q60D
+Label: 'Q60D Trust law courts' => Trust law courts
+Value Label: Don't know => Do not know
+
+Name: Q60E
+Label: 'Q60E Trust NRM' => Trust NRM
+Value Label: Don't know => Do not know
+
+Name: Q60F
+Label: 'Q60F Trust political parties' => Trust political parties
+Value Label: Don't know => Do not know
+
+Name: Q60G
+Label: 'Q60G Trust LC 5s' => Trust LC 5s
+Value Label: Don't know => Do not know
+
+Name: Q60H
+Label: 'Q60H Trust Electoral Commission' => Trust Electoral Commission
+Value Label: Don't know => Do not know
+
+Name: Q60I
+Label: 'Q60I Trust UJCC' => Trust UJCC
+Value Label: Don't know => Do not know
+
+Name: Q60J
+Label: 'Q60J Trust women's organizations' => Trust women's organizations
+Value Label: Don't know => Do not know
+
+Name: Q61
+Label: 'Q61 Best to know people in high places' => Best to know people in high places
+Value Label: Don't know => Do not know
+
+Name: Q62
+Label: 'Q62 Politicians look after my interests' => Politicians look after my interests
+Value Label: Don't know => Do not know
+
+Name: Q63
+Label: 'Q63 Ok to bend the law' => Ok to bend the law
+Value Label: Don't know => Do not know
+
+Name: Q64
+Label: 'Q64 Corruption fact of life' => Corruption fact of life
+Value Label: Don't know => Do not know
+
+Name: Q65A
+Label: 'Q65A Corruption elected leaders' => Corruption elected leaders
+Value Label: Don't know => Do not know
+
+Name: Q65B
+Label: 'Q65B Corruption civil servants' => Corruption civil servants
+Value Label: Don't know => Do not know
+
+Name: Q65C
+Label: 'Q65C Corruption police' => Corruption police
+Value Label: Don't know => Do not know
+
+Name: Q65D
+Label: 'Q65D Corruption customs agents' => Corruption customs agents
+Value Label: Don't know => Do not know
+
+Name: Q65E
+Label: 'Q65E Corruption judges' => Corruption judges
+Value Label: Don't know => Do not know
+
+Name: Q65F
+Label: 'Q65F Corruption Ugandan businessmen' => Corruption [country] businessmen
+Value Label: Don't know => Do not know
+
+Name: Q65G
+Label: 'Q65G Corruption foreign businessmen' => Corruption foreign businessmen
+Value Label: Don't know => Do not know
+
+Name: Q65H
+Label: 'Q65H Corruption teachers' => Corruption teachers
+Value Label: Don't know => Do not know
+
+Name: Q65I
+Label: 'Q65I Corruption churches' => Corruption churches
+Value Label: Don't know => Do not know
+
+Name: Q65J
+Label: 'Q65J Corruption women's organizations' => Corruption women's organizations
+Value Label: Don't know => Do not know
+
+Name: Q66
+Label: 'Q66 All family members same opinion vs each decides' => All family members same opinion vs each decides
+Value Label: Don't know => Do not know
+
+Name: Q67
+Label: 'Q67 Women equal rights vs follow traditional law' => Women equal rights vs follow traditional law
+Value Label: Don't know => Do not know
+
+Name: Q68
+Label: 'Q68 Women's place at home vs speak about politics' => Women's place at home vs speak about politics
+Value Label: Don't know => Do not know
+
+Name: Q69
+Label: 'Q69 Women quota needed vs unnecessary' => Women quota needed vs unnecessary
+Value Label: Don't know => Do not know
+
+Name: Q70
+Label: 'Q70 Women own land vs not own land' => Women own land vs not own land
+Value Label: Don't know => Do not know
+
+Name: Q71
+Label: 'Q71 Meaning of political party' => Meaning of political party
+Value Label: Don't know => Do not know
+
+Name: Q72A
+Label: 'Q72A Two political parties needed' => Two political parties needed
+Value Label: Don't know => Do not know
+
+Name: Q72B
+Label: 'Q72B Enough choice without parties' => Enough choice without parties
+Value Label: Don't know => Do not know
+
+Name: Q72C
+Label: 'Q72C Parties needed to ensure representation' => Parties needed to ensure representation
+Value Label: Don't know => Do not know
+
+Name: Q72D
+Label: 'Q72D Parties don't include me' => Parties do not include me
+Value Label: Don't know => Do not know
+
+Name: Q72E
+Label: 'Q72E Parties ensure govt. doesn't abuse power' => Parties ensure government doesn't abuse power
+Value Label: Don't know => Do not know
+
+Name: Q72F
+Label: 'Q72F Parties make empty promises' => Parties make empty promises
+Value Label: Don't know => Do not know
+
+Name: Q72G
+Label: 'Q72G Parties bring in young leaders' => Parties bring in young leaders
+Value Label: Don't know => Do not know
+
+Name: Q72H
+Label: 'Q72H Parties undermine national unity' => Parties undermine national unity
+Value Label: Don't know => Do not know
+
+Name: Q73A
+Label: 'Q73A How to govern: Movement system' => How to govern: Movement system
+Value Label: Don't know => Do not know
+
+Name: Q73B
+Label: 'Q73B How to govern: multiparty system' => How to govern: multiparty system
+Value Label: Don't know => Do not know
+
+Name: Q73C
+Label: 'Q73C How to govern: strong leader' => How to govern: strong leader
+Value Label: Don't know => Do not know
+
+Name: Q73D
+Label: 'Q73D How to govern: one political party' => How to govern: one political party
+Value Label: Don't know => Do not know
+
+Name: Q73E
+Label: 'Q73E How to govern: army' => How to govern: army
+Value Label: Don't know => Do not know
+
+Name: Q73F
+Label: 'Q73F How to govern: traditional system' => How to govern: traditional system
+Value Label: Don't know => Do not know
+
+Name: Q73G
+Label: 'Q73G How to govern: decisions by experts' => How to govern: decisions by experts
+Value Label: Don't know => Do not know
+
+Name: Q74
+Label: 'Q74 Expect vote in referendum' => Expect vote in referendum
+Value Label: Don't know => Do not know
+
+Name: Q75
+Label: 'Q75 Rewards promised?' => Rewards promised
+
+Name: Q76
+Label: 'Q76 Who promised?' => Who promised
+
+Name: Q77
+Label: 'Q77 What rewards?' => What rewards
+Value Label: Don't know => Do not know
+
+Name: Q78
+Label: 'Q78 Negative consequences?' => Negative consequences
+Value Label: Don't know => Do not know
+
+Name: Q79
+Label: 'Q79 What consequences?' => What consequences
+Value Label: Don't know => Do not know
+
+Name: Q80
+Label: 'Q80 Consequences from whom?' => Consequences from whom
+Value Label: Don't know => Do not know
+
+Name: Q81
+Label: 'Q81 Public services delivered?' => Public services delivered
+Value Label: Don't know => Do not know
+
+Name: Q82A
+Label: 'Q82 Which services (option 1)?' => Which services (option 1)
+Value Label: Don't know => Do not know
+
+Name: Q82B
+Label: 'Q82B Which services? (option 2)' => Which services (option 2)
+Value Label: Don't know => Do not know
+
+Name: Q82C
+Label: 'Q82C Which services? (option 3)' => Which services (option 3)
+Value Label: Don't know => Do not know
+
+Name: Q82D
+Label: 'Q82D Which services? (option 4)' => Which services (option 4)
+Value Label: Don't know => Do not know
+
+Name: Q83
+Label: 'Q83 Close to party' => Close to party
+Value Label: Don't know => Do not know
+
+Name: Q84
+Label: 'Q84 Which party?' => Which party
+Value Label: Don't know => Do not know
+
+Name: Q85
+Label: 'Q85 Monthly earnings' => Monthly earnings
+Value Label: Don't know => Do not know
+
+Name: Q86A
+Label: 'Q86A Time: earn money' => Time: earn money
+Value Label: Don't know => Do not know
+
+Name: Q86B
+Label: 'Q86B Time: produce food' => Time: produce food
+Value Label: Don't know => Do not know
+
+Name: Q86C
+Label: 'Q86C Time: household work' => Time: household work
+Value Label: Don't know => Do not know
+
+Name: Q86D
+Label: 'Q86D Time: care for children' => Time: care for children
+Value Label: Don't know => Do not know
+
+Name: Q86E
+Label: 'Q86E Time: care for others' => Time: care for others
+Value Label: Don't know => Do not know
+
+Name: Q87
+Label: 'Q87 Routine affected by tiredness' => Routine affected by tiredness
+
+Name: Q92A
+Label: 'Q92A Kms graded sand/dirt roads' => Kms graded sand/dirt roads
+
+Name: Q92B
+Label: 'Q92B Kms ungraded dirt roads' => Kms ungraded dirt roads
+
+Name: Q92C
+Label: 'Q92C Kms off road' => Kms off road
+
+Name: Q92D
+Label: 'Q92D Kms tarred/concrete roads' => Kms tarred/concrete roads
+
+Name: Q93
+Label: 'Q93 People present during interview' => People present during interview
+
+Name: Q94
+Label: 'Q94 Check with others' => Check with others
+
+Name: Q95
+Label: 'Q95 Influence by others' => Influence by others
+
+Name: Q96
+Label: 'Q96 Dififculty answering' => Dififculty answering
+
+Name: Q97
+Label: 'Q97 Interviewer origin' => Interviewer origin
+
+Name: Q98
+Label: 'Q98 Interviewer gender' => Interviewer gender
+

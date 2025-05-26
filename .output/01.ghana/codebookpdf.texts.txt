@@ -1,0 +1,156 @@
+QClerk: 
+QEnumerator: 
+Qtownvill: 
+Q56: a.  all civil servants should keep their jobs, even if paying their salaries is costly to the country.  b.  the government cannot afford so many public employees and should lay off some of them
+Q9: a.  as a community, we are generally able to make our political representatives listen to our problems.  b. we are usually unable to make our mps and assemblymen listen to us
+Q31: a.  in [country] today, we enjoy a real choice among different political parties and candidates.  b.  thiscountry is well on its way to becoming a single-party state without real political choice
+Q50: a.  in order to create jobs, the government should encourage foreign companies to invest in our country. b.  the government should be wary of foreign investors because they may gain control of our national wealth
+Q60: a.  in rural areas, land should be owned by the community and allocated by the traditional rulers.  b.  people should be able to own their own land, including buying and selling it, even in rural areas
+Q55: a.  it is better to have free schooling for our children, even if the quality of education is low.  b.  it is better to raise educational standards, even if we have to pay school fees
+Q54: a.  it is better to have goods available in the market, even if the prices are high.  b.  it is better to have low prices, even if there are shortages of goods
+Q46: a.  our present system of elected government should be able to deal with inherited problems, even if this takes time.  b.  if democracy can’t produce results soon, we should try another form of government
+Q51: a.  people should look after themselves and be responsible for their own success in life.  b.  the government should bear the main responsibility for ensuring the well-being of people
+Q41: a.  the best form of government is a government elected by the people.  b.  the best form of government is a government that gets things done
+Q58: a.  the costs of reforming the economy are too high; the government should therefore change its economic policies.  b.  in order for the economy to get better in the future, it is necessary for us to accept some hardships now
+Q52: a.  the economic recovery  program (erp) has helped most people; only a minority have suffered.  b. the economic recovery  program (erp) has hurt most people and only benefitted a minority
+Q57: a.  the government should retain ownership of its factories, businesses, and farms.  b.  it is better for the government to sell its businesses to private companies and individuals
+Q36: a. all people should be permitted to vote, even if they do not fully understand all the issues in an election.    b. only those who are sufficiently well educated should be allowed to vote
+Q27: a. in discussions about politics with friends and neighbors, i can influence the opinions of others.  b.  as far as politics is concerned, friends and neighbors do not listen to me
+Q29E: all decisions should be made by a council of traditional elders
+Q51B: and do you trust the following social institutions? b. mosques
+Q49A: and how much do you trust the following social institutions: a. churches?
+Q49C: and how much do you trust the following social institutions: c. trade unions (urban) or farmer organizations (rural)?
+Q35D: and how much do you trust these non-governmental organizations?  d.  banks
+Q12: are you a member of any organization such as a club, union, cooperative, or some similar group?
+Q33: are you a registered voter?
+Q81E: bribery is not common among public officials in [country]
+Q3B: can you  read and write in english?
+Q25E: can you tell me the name of the vice president?
+Q17A: can you tell me who presently holds the following offices?  the assemblyman or woman for this area?
+Q17B: can you tell me who presently holds the following offices?  the member of parliament for this area?
+Q17C: can you tell me who presently holds the following offices?  the minister of finance?
+Q3A: can you understand spoken english?
+Q89: compared with five years ago, do you feel more or less safe when walking about alone?
+Q71B: considering all your economic activities (that is, your main occupation plus other things you do to earn money), do you currently:  b.  sell your skills or services to other people?
+Q8D: considering all your economic activities (that is, your main occupation plus other things you do to earn money), do you currently: d. operate a bank or savings account?
+Q8E: considering all your economic activities (that is, your main occupation plus other things you do to earn money), do you currently: e. owe money that you have borrowed for business purposes?
+Q71A: considering all your economic activities (that is, your main occupation plus other things you do to earnmoney), do you currently:  a.  buy goods and sell them at a profit?
+Q71C: considering all your economic activities (that is, your main occupation plus other things you do to earnmoney), do you currently:  c.  employ other people to work for you?
+Q81G: corruption was a worse problem under the old single party government than these days
+Q92: do you feel close to any political party?
+Q13: do you hold an official leadership position in this organization?
+Q88: do you presently hold a paid-up membership card for this party?
+Q4A: does your family dwelling have: a. piped water?
+Q4B: does your family dwelling have: b. a corrugated or tiled roof?
+Q4C: does your family dwelling have: c. a radio?
+Q4D: does your family dwelling have: d. tv?
+Q68A: during the last five years, how often have you contacted any of the following persons for help to solve aproblem?  a.  a chief or headman
+Q28C: each person can freely choose who to vote for without feeling pressured
+Q28E: everybody is treated equally and fairly by the government
+Q30: generally, how satisfied or dissatisfied are you with the way democracy works in [country]?
+Q37: have you ever heard about the economic recovery programme (erp)?
+Q45C: here is a list of things that are important for the development of our country.  in your opinion, who isresponsible for providing these things?  the government, private businesses, or individuals?  or some combinationof these providers?  c.  extending agricultural credit
+Q67A: here is a list of things that people sometimes do as citizens.  please tell me how often you, personally,have done any of these things during the last five years.  a.  attending a community meeting
+Q67B: here is a list of things that people sometimes do as citizens.  please tell me how often you, personally,have done any of these things during the last five years.  b.  getting together with others to raise an issue
+Q67D: here is a list of things that people sometimes do as citizens.  please tell me how often you, personally,have done any of these things during the last five years.  d.  working for a political candidate or party
+Q72: how easy or difficult is it for someone like yourself to start a small business?
+Q21A: how long do you think it will take: a. before the government fulfills the promises it has made?
+Q21B: how long do you think it will take: b. before your own living standards meet your expectations?
+QAdults: how many people over 18 live in this household?
+Q48D: how much do you trust the following institutions: a. courts of law?
+Q48E: how much do you trust the following institutions: e. political parties?
+Q48H: how much do you trust the following institutions: h. the national electoral commission (nec)?
+Q34A: how much do you trust the following institutions?  a.  chiefs
+Q34B: how much do you trust the following institutions?  b.  district assemblies
+Q34H: how much do you trust the following institutions?  h.  [country] broadcasting corporation
+Q47A: how much do you trust the following people: a. your relatives?
+Q47C: how much do you trust the following people: c. someone in your own tribe?
+Q47D: how much do you trust the following people: d. [country]ns from other tribes?
+Q33B: how much do you trust the following people?  b.  your neighbors
+Q6: how much education have you had?
+Q24: how often do you discuss politics and government with other people?
+Q14: how often do you listen to a news bulletin on the radio?
+Q15: how often do you read a newspaper?
+Q86: how often, if ever, has a public official asked you for a bribe or a favor in return for getting something you were entitled to?
+Q3: how old were you at your last birthday? or what year were you born?
+Q8B: how satisfied are you with:  b.  the condition of the [country]n economy today?
+Q13B: how satisfied are you:  b.  with your own living conditions today?
+Q19B: how well would you say the current government is handling the following problems: b. keeping prices low?
+Q22A: how well would you say the current government is handling the following problems?  a.  creating jobs
+Q22F: how well would you say the current government is handling the following problems?  f.  addressing educational needs
+Q22G: how well would you say the current government is handling the following problems?  g.  improving basic health services
+Q22K: how well would you say the current government is handling the following problems?  k.  fighting corruption in government
+Q59C: how well would you say the government is handling the following problems?  c.  narrowing income gapsbetween different group
+Q18D: how well would you say the government is handling the following problems?  d.  reducing crime
+Q62B: i am going to read out a list of things that are important for development of our country.  in your opinion, who is responsible for providing these things?  the government, private businesses, or individuals?  or some combination of these providers?  b.  building your house
+Q60A: i am going to read out a list of things that are important for the development of our country. in your opinion, who is responsible for providing these things? the government, private businesses, or the people themselves? or some combination of these providers: protecting the nation’s borders?
+Q90A: if you ever felt unsafe in your surroundings, how likely would you be to take the following actions:  a.  report to the police?
+Q90B: if you ever felt unsafe in your surroundings, how likely would you be to take the following actions:  b.  carry something for protection, like a weapon?
+Q90C: if you ever felt unsafe in your surroundings, how likely would you be to take the following actions:  c.  have other people with you when going out?
+Q90D: if you ever felt unsafe in your surroundings, how likely would you be to take the following actions:  d.  try to form a group with other citizens to combat crime?
+Q18A: in [country], is there a difference between the following organizations or are they the same thing? the chiefsand the government
+Q39D: in the last five years, have you contacted any of the following persons for help to solve a problem?  d. an official of a government ministry
+Q39F: in the last five years, have you contacted any of the following persons for help to solve a problem?  f. some other influential person
+Q84A: in the past two years, have you or anyone else you know: a. been attacked or robbed when moving about in public?
+Q84B: in the past two years, have you or anyone else you know: b. had your or their home broken into and had something stolen?
+Q29: in your opinion, how much of a democracy is [country] today?
+Q21: in your opinion, was the change to democracy in 1992 good or bad for the country?
+Q66: in your opinion, were the december 1996 elections generally honest, or did some candidates have anunfair advantage?
+Q53: in your opinion, which minority has benefitted?
+Q17: in your opinion, who is most responsible for the current economic conditions in [country]?
+Q78: most government officials and politicians are mainly concerned with enriching themselves
+Q28D: ordinary people can influence what government does
+Q11D: over the past year, how often, if ever, have gone without:  d.  health care for your family?
+Q9A: over the past year, how often, if ever, have you gone without: a. food for your family?
+Q9B: over the past year, how often, if ever, have you gone without: b. water for domestic use?
+Q9C: over the past year, how often, if ever, have you gone without: c. schooling for children?
+Q28A: people are free to say what they think
+Q28B: people can join any organization they want
+Q28F: people have an adequate standard of living
+Q62: politicians and civil servants are trying their best to look after the interests of people like me
+Q81D: rather than protecting his friends, the president will fight corruption wherever he finds it
+Qrespnumb: respondent number
+Q85: roughly how much do you and your spouse together earn per month?
+Q65C: since the last election, how satisfied have you been with the performance of:  c.  (if applicable) the chieffor this area?
+Q65A: since the last election, how satisfied have you been with the performance of: a.  the member of parliament for this area?
+Q29C: the army should come in to govern the country
+Q29D: the most important decisions, for example on the economy, should be left to experts
+Q81F: the president's region of the country gets more government services than any other region
+Q12D: to whom do you usually turn when you are unable to get:  d.  health care for your family?
+Q10A: to whom do you usually turn when you are unable to get: a. food for your family?
+Q10B: to whom do you usually turn when you are unable to get: b. water for domestic use?
+Q10C: to whom do you usually turn when you are unable to get: c. schooling for children?
+Q73D: understanding that some [country]ns choose not to vote, let me ask you:  did you vote:  d.  in the local government elections of december 1998
+Q122B: urban or rural?
+Q27B: we are now going to discuss how much you like different kinds of government  i would like you to givemarks out of ten. let us say that the best government gets 10 out of 10 and the worst kind of government gets a markof only one.  what grade would you give to:  the former system of military rule (that is, the pndc)?
+Q41A: we are now going to discuss how much you like different kinds of government i would like you to give marks out of ten. let us say that the best government gets 10 out of 10 and the worst government gets 1 out of 10. what mark would you give to:  a. our present system of government with free elections and many parties?
+Q41E: we are now going to discuss how much you like different kinds of government i would like you to give marks out of ten. let us say that the best government gets 10 out of 10 and the worst government gets 1 out of 10. what mark would you give to: e. the system of government that you expect [country] to have in five years time?
+Q36F: we know that some people obey the law and others do not.  in your opinion, how often do [country]iansbreak the law by engaging in the following acts?  f.  offering bribes to public servants
+Q52E: we know that some people obey the law and others do not.  in your opinion, how often do [country]ns break the law by engaging in the following acts?  e.  evading income taxes
+Q50C: we know that some people obey the law and others do not. in your opinion, how often do [country]ns break tdhe law by engaging in the following acts: c. selling goods without a trader's license?
+Q50A: we know that some people obey the law and others do not. in your opinion, how often do [country]ns break the law by engaging in the following acts: a. throwing rubbish in public places?
+Q50B: we know that some people obey the law and others do not. in your opinion, how often do [country]ns break the law by engaging in the following acts: b. disregarding traffic signs and traffic lights?
+Q50D: we know that some people obey the law and others do not. in your opinion, how often do [country]ns break the law by engaging in the following acts: d. not paying for services like piped water?
+Q29A: we should get rid of elections so that a strong leader can decide everything
+Q29B: we should have only one political party
+Q1: what is the respondent’s gender?
+Q7: what is your main occupation?
+Q23: what is your overall assessment of the performance of the current government?
+Q5: what is your religion, if any?
+Q69E: what would you do if the government took any of the following actions:  e.  suspended the parliamentand canceled the next elections
+Q79A: what would you do if the government took any of the following actions: a. told you which religion you had to follow?
+Q79B: what would you do if the government took any of the following actions: b. stopped you from traveling freely within the country?
+Q79C: what would you do if the government took any of the following actions: c. shut down newspapers that criticized the government?
+Q79D: what would you do if the government took any of the following actions: d. dismissed judges who ruled against the government?
+Q38: what, in your opinion , is the economic recovery programme supposed to do?
+Q27 (responses 1-3).: when you hear the word democracy, what is the first thing that comes to your mind?
+Q10: when you look at your life today, how satisfied do you feel compared with five years ago?
+Q11: when you look forward at your life’s prospects, how satisfied do you expect to be in one year’s time?
+Q74: when you voted for the national assembly, did you vote for an individual or for a political party?
+Q2: which [country]n language do you speak most often?
+Q28: which of these three statements is closest to your own opinion?     a.  democracy is preferable to any other form of government b.  in certain circumstances, a non-democratic government can be preferable. c.  to people like me, it doesn’t matter what form of government we have
+Q87A (1st group mentioned): which office(s) or agency(ies) did the official work for?
+Q84: which one?
+Q16a: which one(s)?
+Q53a 1 or: which region?
+Q34: why not?

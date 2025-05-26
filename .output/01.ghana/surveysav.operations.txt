@@ -1,0 +1,111 @@
+Name: Q1
+Label: 'Ghanaian language' => [country] language
+
+Name: Q7
+Label: 'Influence others?' => Influence others
+
+Name: Q8
+Label: 'Cannot understand?' => Cannot understand
+
+Name: Q9
+Label: 'Representatives listen?' => Representatives listen
+
+Name: Q10
+Label: 'Not get any better?' => Not get any better
+
+Name: Q16A
+Label: 'Which newspaper?' => Which newspaper
+
+Name: Q16B
+Label: 'Which newspaper?' => Which newspaper
+
+Name: Q16C
+Label: 'Which newspaper?' => Which newspaper
+
+Name: Q19B
+Value Label: Don't know => Do not know
+
+Name: Q20
+Label: 'Ghana democracy?' => [country] democracy
+
+Name: Q21
+Label: 'Change good or bad?' => Change good or bad
+
+Name: Q23
+Label: 'Allow expression?' => Allow expression
+
+Name: Q24
+Label: 'Permitted to vote?' => Permitted to vote
+
+Name: Q25
+Label: 'President change Constitution?' => President change Constitution
+
+Name: Q26
+Label: 'Best form of government?' => Best form of government
+
+Name: Q31
+Label: 'Enjoy a real choice?' => Enjoy a real choice
+
+Name: Q32
+Label: 'Deal with inherited problems?' => Deal with inherited problems
+
+Name: Q38
+Value Label: Don't know => Do not know
+
+Name: Q40
+Label: 'Own success in life?' => Own success in life
+
+Name: Q41
+Label: 'Provide employment?' => Provide employment
+
+Name: Q42
+Label: 'Free to earn?' => Free to earn
+
+Name: Q43
+Label: 'Own land?' => Own land
+
+Name: Q44
+Label: 'Start new business?' => Start new business
+
+Name: Q46
+Label: 'Goods available?' => Goods available
+
+Name: Q47
+Label: 'Free schooling?' => Free schooling
+
+Name: Q48
+Label: 'Civil servant jobs?' => Civil servant jobs
+
+Name: Q49
+Label: 'Own factories?' => Own factories
+
+Name: Q50
+Label: 'Foreign investment?' => Foreign investment
+
+Name: Q51
+Label: 'Change economic policies?' => Change economic policies
+
+Name: Q52
+Label: 'Minority suffered?' => Minority suffered
+
+Name: Q53
+Label: 'Which minority?' => Which minority
+
+Name: Q54A
+Label: 'Satisfied Ghanaian economy' => Satisfied [country] economy
+
+Name: Q67G
+Label: 'Attend demonstration' => Attend demostartion
+
+Name: Q73C
+Label: 'Without schooling' => Without School
+
+Name: Q73D
+Label: 'Without health care' => Without health services
+
+Name: Q74C
+Label: 'Turn schooling' => Turn school
+
+Name: Q74D
+Label: 'Turn health care' => Turn health services
+

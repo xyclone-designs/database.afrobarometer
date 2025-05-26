@@ -1,0 +1,1515 @@
+Pk: 212
+Id: casenumber
+Label: case number
+ValueLabels: 
+
+Pk: 213
+Id: satisfactionwitheconomicconditions
+Label: Satisfaction with economic conditions
+ValueLabels: 1;Very dissatisfied,2;Dissatisfied,3;Neither satisfied nor dissatisfied,4;Satisfied,5;Very satisfied,6;Do not know,99;Missing data
+
+Pk: 214
+Id: evaluationsofeconomicconditions
+Label: Evaluations of economic conditions
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,99;Missing data
+
+Pk: 215
+Id: economicexpectations
+Label: Economic expectations
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,99;Missing data
+
+Pk: 0
+Id: evaluationsofpersonaleconomicconditions
+Label: Evaluations of personal economic conditions
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,99;Missing Data
+
+Pk: 0
+Id: howoftenhaveyougonewithoutfood
+Label: How often have you gone without food
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,99;Missing Data
+
+Pk: 0
+Id: currentmethodsofobtainingfood
+Label: Current methods of obtaining food
+ValueLabels: 1;Pay for it (cash/kind),2;Own crops/livestock,3;Local community/cooperative group,5;Govt food programme,6;Traditional leader,7;Know someone who helps me get govt assistance,8;Favour/Bribe govt official,10;Steal it,11;Ask anyone I can,12;Nothing I can do,13;Other,27;Beg for it,28;Beg from relatives & friends,29;Sit at home,30;Breadwinner does not work,31;Boyfriend provides,32;Parents provide,33;From hand to mouth,34;African Evangelist Church,35;Social workers,36;It will never happen,37;Get credit,38;Buy on account,39;Find food somewhere,40;Trade/barter/exchange,41;Gold panning,42;Fishing,43;Building,44;Cross-border training,45;Commercial sex,46;Beer brewing,47;Business (small-scale),48;Business (medium to large),49;Selling livestock/cattle,50;Sell my belongings,51;Provided by employer,52;Casual work,53;Hunting bush animals,54;Borrow foodstuff,55;Looking for employment,56;Buying maize husks,57;Complain to govt officials,58;Govt will distribute free food,59;Praying to God,61;Local community/Co-operative,63;Ineligible for govt assistance,96;No further response,98;Refused,99;Missing Data
+
+Pk: 0
+Id: currentmethodsofobtainingfood
+Label: Current methods of obtaining food
+ValueLabels: 1;Pay for it (cash/kind),2;Own crops/livestock,3;Local community/cooperative group,5;Govt food programme,6;Traditional leader,7;Know someone who helps me get govt assistance,8;Favour/Bribe govt official,10;Steal it,11;Ask anyone I can,12;Nothing I can do,13;Other,27;Beg for it,28;Beg from relatives & friends,29;Sit at home,30;Breadwinner does not work,31;Boyfriend provides,32;Parents provide,33;From hand to mouth,34;African Evangelist Church,35;Social workers,36;It will never happen,37;Get credit,38;Buy on account,39;Find food somewhere,40;Trade/barter/exchange,41;Gold panning,42;Fishing,43;Building,44;Cross-border training,45;Commercial sex,46;Beer brewing,47;Business (small-scale),48;Business (medium to large),49;Selling livestock/cattle,50;Sell my belongings,51;Provided by employer,52;Casual work,53;Hunting bush animals,54;Borrow foodstuff,55;Looking for employment,56;Buying maize husks,57;Complain to govt officials,58;Govt will distribute free food,59;Praying to God,61;Local community/Co-operative,63;Ineligible for govt assistance,96;No further response,98;Refused,99;Missing Data
+
+Pk: 0
+Id: currentmethodsofobtainingfood
+Label: Current methods of obtaining food
+ValueLabels: 1;Pay for it (cash/kind),2;Own crops/livestock,3;Local community/cooperative group,5;Govt food programme,6;Traditional leader,7;Know someone who helps me get govt assistance,8;Favour/Bribe govt official,10;Steal it,11;Ask anyone I can,12;Nothing I can do,13;Other,27;Beg for it,28;Beg from relatives & friends,29;Sit at home,30;Breadwinner does not work,31;Boyfriend provides,32;Parents provide,33;From hand to mouth,34;African Evangelist Church,35;Social workers,36;It will never happen,37;Get credit,38;Buy on account,39;Find food somewhere,40;Trade/barter/exchange,41;Gold panning,42;Fishing,43;Building,44;Cross-border training,45;Commercial sex,46;Beer brewing,47;Business (small-scale),48;Business (medium to large),49;Selling livestock/cattle,50;Sell my belongings,51;Provided by employer,52;Casual work,53;Hunting bush animals,54;Borrow foodstuff,55;Looking for employment,56;Buying maize husks,57;Complain to govt officials,58;Govt will distribute free food,59;Praying to God,61;Local community/Co-operative,63;Ineligible for govt assistance,96;No further response,98;Refused,99;Missing Data
+
+Pk: 0
+Id: alternativemethodsofobtainingfood
+Label: Alternative methods of obtaining food
+ValueLabels: 1;Pay for it (cash/kind),2;Own crops/livestock,3;Local community/cooperative group,5;Govt food programme,6;Traditional leader,7;Know someone who helps me get govt assistance,8;Favour/Bribe govt official,10;Steal it,11;Ask anyone I can,12;Nothing I can do,13;Other,24;Pretend to be eligible for govt assistance,27;Beg for it,28;Beg from relatives & friends,29;Sit at home,30;Breadwinner does not work,31;Boyfriend provides,32;Parents provide,33;From hand to mouth,34;African Evangelist Church,35;Social workers,36;It will never happen,37;Get credit,38;Buy on account,39;Find food somewhere,40;Trade/barter/exchange,41;Gold panning,42;Fishing,43;Building,44;Cross-border training,45;Commercial sex,46;Beer brewing,47;Business (small-scale),48;Business (medium to large),49;Selling livestock/cattle,50;Sell my belongings,51;Provided by employer,52;Casual work,53;Hunting bush animals,54;Borrow foodstuff,55;Looking for employment,56;Buying maize husks,57;Complain to govt officials,58;Govt will distribute free food,59;Praying to God,61;Local community/Co-operative,63;Ineligible for govt assistance,96;No further response,98;Refused,99;Missing Data
+
+Pk: 0
+Id: alternativemethodsofobtainingfood
+Label: Alternative methods of obtaining food
+ValueLabels: 1;Pay for it (cash/kind),2;Own crops/livestock,3;Local community/cooperative group,5;Govt food programme,6;Traditional leader,7;Know someone who helps me get govt assistance,8;Favour/Bribe govt official,10;Steal it,11;Ask anyone I can,12;Nothing I can do,13;Other,24;Pretend to be eligible for govt assistance,27;Beg for it,28;Beg from relatives & friends,29;Sit at home,30;Breadwinner does not work,31;Boyfriend provides,32;Parents provide,33;From hand to mouth,34;African Evangelist Church,35;Social workers,36;It will never happen,37;Get credit,38;Buy on account,39;Find food somewhere,40;Trade/barter/exchange,41;Gold panning,42;Fishing,43;Building,44;Cross-border training,45;Commercial sex,46;Beer brewing,47;Business (small-scale),48;Business (medium to large),49;Selling livestock/cattle,50;Sell my belongings,51;Provided by employer,52;Casual work,53;Hunting bush animals,54;Borrow foodstuff,55;Looking for employment,56;Buying maize husks,57;Complain to govt officials,58;Govt will distribute free food,59;Praying to God,61;Local community/Co-operative,63;Ineligible for govt assistance,96;No further response,98;Refused,99;Missing Data
+
+Pk: 0
+Id: alternativemethodsofobtainingfood
+Label: Alternative methods of obtaining food
+ValueLabels: 1;Pay for it (cash/kind),2;Own crops/livestock,3;Local community/cooperative group,5;Govt food programme,6;Traditional leader,7;Know someone who helps me get govt assistance,8;Favour/Bribe govt official,10;Steal it,11;Ask anyone I can,12;Nothing I can do,13;Other,24;Pretend to be eligible for govt assistance,27;Beg for it,28;Beg from relatives & friends,29;Sit at home,30;Breadwinner does not work,31;Boyfriend provides,32;Parents provide,33;From hand to mouth,34;African Evangelist Church,35;Social workers,36;It will never happen,37;Get credit,38;Buy on account,39;Find food somewhere,40;Trade/barter/exchange,41;Gold panning,42;Fishing,43;Building,44;Cross-border training,45;Commercial sex,46;Beer brewing,47;Business (small-scale),48;Business (medium to large),49;Selling livestock/cattle,50;Sell my belongings,51;Provided by employer,52;Casual work,53;Hunting bush animals,54;Borrow foodstuff,55;Looking for employment,56;Buying maize husks,57;Complain to govt officials,58;Govt will distribute free food,59;Praying to God,61;Local community/Co-operative,63;Ineligible for govt assistance,96;No further response,98;Refused,99;Missing Data
+
+Pk: 228
+Id: howoftenhaveyoufeltunsafefromcrimeinyourhome
+Label: How often have you felt unsafe from crime in your home
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,6;Not applicable,99;Missing data
+
+Pk: 0
+Id: currentmethodofensuringsafetyofhome
+Label: Current method of ensuring safety of home
+ValueLabels: 1;Pay someone to watch house,2;Watch it myself/guard it myself,3;Rely on community group,4;Rely on friends/family,5;Rely on police,6;Rely on traditional leader,7;Rely on people I know in the police,8;Bribe police,9;Pretend to pay to watch house,10;Steal things to make home safe,11;Ask anyone to help me,12;Nothing,15;Go to chief,16;Go to headman,17;Use traditional medicine,23;Nothing I can do,24;Go to council,25;Look for more secure place,26;Do not know,27;Do not use anything,28;Rely on God/Allah,29;Protection from soldiers/army,30;Burglar bars,31;Get a gun,32;Lock house & gate,33;Being alert while sleeping,34;Blow whistle for help,35;Security company,36;Self-defence,37;Rely on black medicine/sorcery,38;Close door with poles,39;Not revealing household schedules,40;Keeping weapons (eg knife|panga|baton|spears|clubs|etc),41;Securing the windows,42;Somebody always at home,43;Noisy alarm apparatus behind door,44;Do not allow strangers in,45;Security lights,46;Do not switch off lights,47;Not fraternising with people,48;Store valuables at friends,49;Put thorns/glass around house,50;Electric fence,52;No other methods,53;Close Windows,54;Dogs will protect home,96;No further answer,97;N/A,98;refused,99;Missing Data
+
+Pk: 0
+Id: currentmethodofensuringsafetyofhome
+Label: Current method of ensuring safety of home
+ValueLabels: 1;Pay someone to watch house,2;Watch it myself/guard it myself,3;Rely on community group,4;Rely on friends/family,5;Rely on police,6;Rely on traditional leader,7;Rely on people I know in the police,8;Bribe police,9;Pretend to pay to watch house,10;Steal things to make home safe,11;Ask anyone to help me,12;Nothing,15;Go to chief,16;Go to headman,17;Use traditional medicine,23;Nothing I can do,24;Go to council,25;Look for more secure place,26;Do not know,27;Do not use anything,28;Rely on God/Allah,29;Protection from soldiers/army,30;Burglar bars,31;Get a gun,32;Lock house & gate,33;Being alert while sleeping,34;Blow whistle for help,35;Security company,36;Self-defence,37;Rely on black medicine/sorcery,38;Close door with poles,39;Not revealing household schedules,40;Keeping weapons (eg knife|panga|baton|spears|clubs|etc),41;Securing the windows,42;Somebody always at home,43;Noisy alarm apparatus behind door,44;Do not allow strangers in,45;Security lights,46;Do not switch off lights,47;Not fraternising with people,48;Store valuables at friends,49;Put thorns/glass around house,50;Electric fence,52;No other methods,53;Close Windows,54;Dogs will protect home,96;No further answer,97;N/A,98;refused,99;Missing Data
+
+Pk: 0
+Id: currentmethodofensuringsafetyofhome
+Label: Current method of ensuring safety of home
+ValueLabels: 1;Pay someone to watch house,2;Watch it myself/guard it myself,3;Rely on community group,4;Rely on friends/family,5;Rely on police,6;Rely on traditional leader,7;Rely on people I know in the police,8;Bribe police,9;Pretend to pay to watch house,10;Steal things to make home safe,11;Ask anyone to help me,12;Nothing,15;Go to chief,16;Go to headman,17;Use traditional medicine,23;Nothing I can do,24;Go to council,25;Look for more secure place,26;Do not know,27;Do not use anything,28;Rely on God/Allah,29;Protection from soldiers/army,30;Burglar bars,31;Get a gun,32;Lock house & gate,33;Being alert while sleeping,34;Blow whistle for help,35;Security company,36;Self-defence,37;Rely on black medicine/sorcery,38;Close door with poles,39;Not revealing household schedules,40;Keeping weapons (eg knife|panga|baton|spears|clubs|etc),41;Securing the windows,42;Somebody always at home,43;Noisy alarm apparatus behind door,44;Do not allow strangers in,45;Security lights,46;Do not switch off lights,47;Not fraternising with people,48;Store valuables at friends,49;Put thorns/glass around house,50;Electric fence,52;No other methods,53;Close Windows,54;Dogs will protect home,96;No further answer,97;N/A,98;refused,99;Missing Data
+
+Pk: 0
+Id: alternatemethodsofensuringsafetyofhome
+Label: Alternate methods of ensuring safety of home
+ValueLabels: 1;Pay someone to watch house,2;Watch it myself/guard it myself,3;Rely on community group,4;Rely on friends/family,5;Rely on police,6;Rely on traditional leader,7;Rely on people I know in the police,8;Bribe police,9;Pretend to pay to watch house,10;Steal things to make home safe,11;Ask anyone to help me,12;Nothing,13;Do not know,23;Nothing I can do,24;Go to council,25;Look for more secure place,27;Do not use anything,28;Rely on God/Allah,29;Protection from soldiers/army,30;Burglar bars,31;Get a gun,32;Lock house & gate,33;Being alert while sleeping,34;Blow whistle for help,35;Security company,36;Self-defence,37;Rely on black medicine/sorcery,38;Close door with poles,39;Not revealing household schedules,40;Keeping weapons (eg knife|panga|baton|spears|clubs|etc),41;Securing the windows,42;Somebody always at home,43;Noisy alarm apparatus behind door,44;Do not allow strangers in,45;Security lights,46;Do not switch off lights,47;Not fraternising with people,48;Store valuables at friends,49;Put thorns/glass around house,50;Electric fence,52;No other methods,53;Close windows,54;Dogs will protect home,55;Alarm/security system,96;No further answer,97;N/A,98;refused,99;Missing Data
+
+Pk: 0
+Id: alternatemethodsofensuringsafetyofhome
+Label: Alternate methods of ensuring safety of home
+ValueLabels: 1;Pay someone to watch house,2;Watch it myself/guard it myself,3;Rely on community group,4;Rely on friends/family,5;Rely on police,6;Rely on traditional leader,7;Rely on people I know in the police,8;Bribe police,9;Pretend to pay to watch house,10;Steal things to make home safe,11;Ask anyone to help me,12;Nothing,13;Do not know,23;Nothing I can do,24;Go to council,25;Look for more secure place,27;Do not use anything,28;Rely on God/Allah,29;Protection from soldiers/army,30;Burglar bars,31;Get a gun,32;Lock house & gate,33;Being alert while sleeping,34;Blow whistle for help,35;Security company,36;Self-defence,37;Rely on black medicine/sorcery,38;Close door with poles,39;Not revealing household schedules,40;Keeping weapons (eg knife|panga|baton|spears|clubs|etc),41;Securing the windows,42;Somebody always at home,43;Noisy alarm apparatus behind door,44;Do not allow strangers in,45;Security lights,46;Do not switch off lights,47;Not fraternising with people,48;Store valuables at friends,49;Put thorns/glass around house,50;Electric fence,52;No other methods,53;Close windows,54;Dogs will protect home,55;Alarm/security system,96;No further answer,97;N/A,98;refused,99;Missing Data
+
+Pk: 0
+Id: alternatemethodsofensuringsafetyofhome
+Label: Alternate methods of ensuring safety of home
+ValueLabels: 1;Pay someone to watch house,2;Watch it myself/guard it myself,3;Rely on community group,4;Rely on friends/family,5;Rely on police,6;Rely on traditional leader,7;Rely on people I know in the police,8;Bribe police,9;Pretend to pay to watch house,10;Steal things to make home safe,11;Ask anyone to help me,12;Nothing,13;Do not know,23;Nothing I can do,24;Go to council,25;Look for more secure place,27;Do not use anything,28;Rely on God/Allah,29;Protection from soldiers/army,30;Burglar bars,31;Get a gun,32;Lock house & gate,33;Being alert while sleeping,34;Blow whistle for help,35;Security company,36;Self-defence,37;Rely on black medicine/sorcery,38;Close door with poles,39;Not revealing household schedules,40;Keeping weapons (eg knife|panga|baton|spears|clubs|etc),41;Securing the windows,42;Somebody always at home,43;Noisy alarm apparatus behind door,44;Do not allow strangers in,45;Security lights,46;Do not switch off lights,47;Not fraternising with people,48;Store valuables at friends,49;Put thorns/glass around house,50;Electric fence,52;No other methods,53;Close windows,54;Dogs will protect home,55;Alarm/security system,96;No further answer,97;N/A,98;refused,99;Missing Data
+
+Pk: 0
+Id: howoftenhaveyouhadtogowithoutmedicine
+Label: How often have you had to go without medicine
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Dont know,6;No electricity,99;Missing Data
+
+Pk: 0
+Id: currentmethodsofobtaininghealthservices
+Label: Current methods of obtaining health services
+ValueLabels: 1;Pay for it,2;Treat myself/ourselves,3;Get treatment from coop/community,4;Family & friends pay,5;Govt clinics/hospitals,6;Traditional healer,7;Know govt person whocan get govt care,8;Favour/bribe officials to get govt healthcare,9;Pretend to be eligible for govt healthcare,10;Steal medical goods,11;Ask anyone to help,12;Nothing I can do,13;Do not know what to do,99;Missing Data
+
+Pk: 0
+Id: currentmethodsofobtaininghealthservices
+Label: Current methods of obtaining health services
+ValueLabels: 1;Pay for it,2;Treat myself/ourselves,3;Get treatment from coop/community,4;Family & friends pay,5;Govt clinics/hospitals,6;Traditional healer,7;Know govt person whocan get govt care,8;Favour/bribe officials to get govt healthcare,9;Pretend to be eligible for govt healthcare,10;Steal medical goods,11;Ask anyone to help,12;Nothing I can do,13;Do not know what to do,99;Missing Data
+
+Pk: 0
+Id: currentmethodsofobtaininghealthservices
+Label: Current methods of obtaining health services
+ValueLabels: 1;Pay for it,2;Treat myself/ourselves,3;Get treatment from coop/community,4;Family & friends pay,5;Govt clinics/hospitals,6;Traditional healer,7;Know govt person whocan get govt care,8;Favour/bribe officials to get govt healthcare,9;Pretend to be eligible for govt healthcare,10;Steal medical goods,11;Ask anyone to help,12;Nothing I can do,13;Do not know what to do,99;Missing Data
+
+Pk: 0
+Id: altmethodsofobtaininghealthservices
+Label: Alt methods of obtaining health services
+ValueLabels: 1;Pay for it,2;Treat myself/ourselves,3;Get treatment from coop/community,4;Family & friends pay,5;Govt clinics/hospitals,6;Traditional healer,7;Know govt person whocan get govt care,8;Favour/bribe officials to get govt healthcare,9;Pretend to be eligible for govt healthcare,10;Steal medical goods,11;Ask anyone to help,12;Nothing I can do,13;Do not know what to do,99;Missing Data
+
+Pk: 0
+Id: altmethodsofobtaininghealthservices
+Label: Alt methods of obtaining health services
+ValueLabels: 1;Pay for it,2;Treat myself/ourselves,3;Get treatment from coop/community,4;Family & friends pay,5;Govt clinics/hospitals,6;Traditional healer,7;Know govt person whocan get govt care,8;Favour/bribe officials to get govt healthcare,9;Pretend to be eligible for govt healthcare,10;Steal medical goods,11;Ask anyone to help,12;Nothing I can do,13;Do not know what to do,99;Missing Data
+
+Pk: 0
+Id: altmethodsofobtaininghealthservices
+Label: Alt methods of obtaining health services
+ValueLabels: 1;Pay for it,2;Treat myself/ourselves,3;Get treatment from coop/community,4;Family & friends pay,5;Govt clinics/hospitals,6;Traditional healer,7;Know govt person whocan get govt care,8;Favour/bribe officials to get govt healthcare,9;Pretend to be eligible for govt healthcare,10;Steal medical goods,11;Ask anyone to help,12;Nothing I can do,13;Do not know what to do,99;Missing Data
+
+Pk: 0
+Id: isthereaschoolcloseby
+Label: Is there a school close by
+ValueLabels: 1;Yes,2;No,3;Do not know,99;Missing data
+
+Pk: 225
+Id: doyouhaveanelectricityhookupintohome
+Label: Do you have an electricity hook-up into home
+ValueLabels: 1;Yes,2;No,3;Do not know,99;Missing data
+
+Pk: 0
+Id: doyouhavewaterpipedtohousehold
+Label: Do you have water piped to household
+ValueLabels: 1;Yes,2;No,3;Do not know,99;Missing data
+
+Pk: 0
+Id: howoftenfamilygowithoutdrink/cookwater
+Label: How often family go without: drink/cook water
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,6;No electricity,99;Missing Data
+
+Pk: 0
+Id: howoftenfamilygowithoutshelter
+Label: How often family go without: shelter
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,6;No electricity,96;No further answer,99;Missing Data
+
+Pk: 0
+Id: howoftenfamilygowithoutelectricity
+Label: How often family go without: Electricity
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,6;No electricity,96;No further answer
+
+Pk: 0
+Id: howoftenfamilygowithoutheating/cookingfuel
+Label: How often family go without: Heating/cooking fuel
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,6;No electricity,96;No further answer,99;Missing Data
+
+Pk: 0
+Id: howoftenphysicalhealthleadstoreducedwork
+Label: How often: physical health leads to reduced work
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,6;No electricity,99;Missing Data
+
+Pk: 0
+Id: howoftenworried/anxious
+Label: How often: worried/anxious
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,6;No electricity,96;No further answer,99;Missing Data
+
+Pk: 0
+Id: howoftenattendedchurchgroup
+Label: How often attended: church group
+ValueLabels: 1;Never,2;Once or twice,3;A few times,4;Often,5;Do not know,99;Missing data
+
+Pk: 0
+Id: howoftenattendedcoop/selfhelpass
+Label: How often attended: coop/self-help ass
+ValueLabels: 1;Never,2;Once or twice,3;A few times,4;Often,5;Do not know,96;No further answer,99;Missing data
+
+Pk: 0
+Id: howoftenattendedschool/housing/ratesgroup
+Label: How often attended: school/housing/rates group
+ValueLabels: 1;Never,2;Once or twice,3;A few times,4;Often,5;Do not know,96;No further answer,99;Missing data
+
+Pk: 0
+Id: howoftenattendedcommercialorganisation
+Label: How often attended: commercial organisation
+ValueLabels: 1;Never,2;Once or twice,3;A few times,4;Often,5;Do not know,96;No further answer,99;Missing data
+
+Pk: 0
+Id: howoftenattendedgroupthatdoesthingsforcommunity
+Label: How often attended: group that does things for community
+ValueLabels: 1;Never,2;Once or twice,3;A few times,4;Often,5;Do not know,96;No further answer,99;Missing data
+
+Pk: 0
+Id: howoftenattendedatradeunion
+Label: How often attended: a trade union
+ValueLabels: 1;Never,2;Once or twice,3;A few times,4;Often,5;Do not know,96;No further answer,99;Missing data
+
+Pk: 126
+Id: peopleresponsibleforownwellbeingvsgovernmentresponsible
+Label: People responsible for own well-being vs government responsible
+ValueLabels: 1;A| Strongly,2;A| Somewhat,3;B| Somewhat,4;B| Strongly,5;Do not agree with either,9;Do not know,98;Refused to answer,99;Missing Data
+
+Pk: 0
+Id: peopleshouldbefreetoearnvsgovtlimitincome
+Label: People should be free to earn Vs Govt  limit  income
+ValueLabels: 1;People should be free to earn: Agree strongly,2;People should be free to earn: Agree somewhat,3;Govt should limit income: Agree somewhat,4;Govt should limit income: Agree strongly,5;Do not know,6;Do not agree with either,99;Missing Data
+
+Pk: 0
+Id: jobcreationstartbusinessesvsgovtemployment
+Label: Job creation: Start  businesses Vs Govt Employment
+ValueLabels: 1;Encourage businesses : Agree strongly,2;Encourage businesses : Agree somewhat,3;Govt employment : Agree somewhat,4;Govt employment : Agree strongly,5;Dont know,6;Agree with neither,99;Missing data
+
+Pk: 0
+Id: riskystartingnewbusinessvsgoodideatostartbusiness
+Label: Risky  starting new business VS good idea to start business
+ValueLabels: 1;Too risky to start businesses-  : Agree strongly,2;Too risky to start businesses-  : Agree somewhat,3;Invest to make business succeed: Agree somewhat,4;Invest to make business succeed: Agree strongly,5;Do not know,6;Do not agree with either,98;Refused,99;Missing data
+
+Pk: 0
+Id: responsibilityforprovidingschools
+Label: Responsibility for providing schools
+ValueLabels: 1;Govt,2;Private business,3;Individuals,4;Govt & business,5;Govt & indivuduals,6;Bus & individuals,7;All three,8;Do not know,98;Refused,99;Missing data
+
+Pk: 248
+Id: responsibilityforcreatingjobs
+Label: Responsibility for creating jobs
+ValueLabels: 1;Govt,2;Private business,3;Individuals,4;Govt & business,5;Govt & individuals,6;Business & individuals,7;All three,8;Do not know,98;Refused,99;Missing data
+
+Pk: 249
+Id: responsibilityforbuildinghouses
+Label: Responsibility for building houses
+ValueLabels: 1;Govt,2;Private business,3;Individuals,4;Govt & business,5;Govt & individuals,6;Business & individuals,7;All three,8;Do not know,98;Refused,99;Missing data
+
+Pk: 250
+Id: responsibilityforreducingcrime
+Label: Responsibility for reducing crime
+ValueLabels: 1;Govt,2;Private business,3;Individuals,4;Govt & business,5;Govt & individuals,6;Business & individuals,7;All three,8;Do not know,98;Refused,99;Missing data
+
+Pk: 829
+Id: responsibilityforbuyingorsellingdiamonds
+Label: Responsibility for buying or selling diamonds
+ValueLabels: 1;Govt,2;Private business,3;Individuals,4;Govt & business,5;Govt & individuals,6;Business & individuals,7;All three,8;Do not know,98;Refused,99;Missing data
+
+Pk: 252
+Id: responsibilitytohelpfarmersborrowmoney
+Label: Responsibility to help farmers borrow money
+ValueLabels: 1;Govt,2;Private business,3;Individuals,4;Govt & business,5;Govt & individuals,6;Business & individuals,7;All three,8;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: varietyofmarketgoodsathighpricesvslittlevarietyatlowprices
+Label: Variety of market goods at high prices VS little variety at low prices
+ValueLabels: 1;Better to have variety  : Agree strongly,2;Better to have variety  : Agree somewhat,3;Better to have low prices: Agree somewhat,4;Better to have low prices: Agree strongly,5;Do not know,6;Do not agree with either,98;Refused,99;Missing data
+
+Pk: 0
+Id: freemedicinewithunraisedstdsvsmedicalfeesbutraisedstds
+Label: Free medicine with unraised stds VS medical fees but raised stds
+ValueLabels: 1;Free medicine better   : Agree strongly,2;Free medicine better  : Agree somewhat,3;Improved health better: Agree somewhat,4;Improved health better: Agree strongly,5;Do not know,6;Do not agree with either,98;Refused,99;Missing data
+
+Pk: 0
+Id: numbersgovernmentworkersshouldnotbereducedvsreducednumbers
+Label: Numbers government workers should not be reduced VS reduced numbers
+ValueLabels: 1;Keep govt employees : Agree strongly,2;Keep govt employees : Agree somewhat,3;Retrench govt employees: Agree somewhat,4;Retrench govt employees: Agree strongly,5;Do not know,6;Do not agree with either,98;Refused,99;Missing data
+
+Pk: 0
+Id: govtshouldretainfactoriesvssellingittoprivatecompanies
+Label: Govt should retain factories Vs selling it to private companies
+ValueLabels: 1;Govt should retain factories : Agree strongly,2;Govt should retain factories : Agree somewhat,3;Govt should sell factories : Agree somewhat,4;Govt should sell factories : Agree strongly,5;Do not know,6;Do not agree with either,98;Refused,99;Missing data
+
+Pk: 257
+Id: whatdoesdemocracymean
+Label: What does democracy mean
+ValueLabels: 1;Do not know,2;When country is run by the people,3;To be independent,4;The right to everything,5;Freedom in everything except crime,6;Freedom of speech,7;Equal rights,8;Different groups must have different rights,9;To own property/land,10;Freedom of movement,11;Freedom in general,12;Free education,13;Reduce crime,14;Free medical treatment,15;Be able to criticise govt,16;Peace,17;Justice,18;No war,19;Human rights,20;Unity,21;Never heard of such a word,22;Right to vote,23;Improve living conditions,24;Development,25;Right to join any political party,26;Police protection,27;To advise each other when ruling,28;To have rules formulated by people,29;Ruling without discrimination,30;Many political parties,31;Majority rule,32;Good leadership,33;Freedom of expression,34;To rule satisfactorily,35;To live in harmony,36;Having what people want,37;People help the ruler,38;Govt assist the people,39;Govt promotes development,40;Autocracy,41;Oppression of majority,42;Fair elections,43;Working together with govt,44;Nothing,45;Democracy is meaningless,46;Enough food,47;Self-rule,49;Taking authority to change things,50;Can't explain it properly,51;Govt of people|by people|for people,52;No civil war,53;Good standard of living,54;Power-sharing,55;No discrimination,56;Providing services,57;Govt being fair to people,58;Elected govt,59;Accountable govt,60;Good governance,61;No dictatorship,62;Stability,63;Too afraid to give opinion,64;Freedom religion/worship,65;Employment,66;Having one constitution for country,67;Colonialism,68;Respecting other people's freedom,69;Does not matter,70;Doing things without fear/intimidation,71;Responsive govt,72;No coercion,73;Freedom of the press,74;Freedom of association,75;Health care for all,76;Freedom of dress,77;Freedom of choice,78;Change of things from bad to good,79;Freedom of birthright,80;Doing things that benefit the nation,81;Competition between political parties,82;Change of ruling parties,83;Having opposition parties,84;Freedom to conduct business,85;Gender equality,86;Lowering prices,87;Politics/anything to do with politics,88;Foreign idea,89;Everyone being happy,90;Living freely,91;Living without problems,92;Govt helping poor,93;Consultation,94;Smooth-running of country,95;Control over one's life,96;No further answer,97;Having basic necessities,98;Refused,99;Missing data,100;No restrictions,101;Responsible conduct of citizens,102;Food distribution,103;Keeping & respecting our culture,104;Do not know the meaning,105;Helping each other,106;Independence,107;Govt represents all people,108;Change of President,109;New govt,110;Govt of unity,111;Change of govt,112;Change of laws,113;Govt protecting people,114;No more taxes,115;Everyone being able to make money,116;It is a wrong & bad thing,117;Rebellious people,118;Elections,119;Participation in govt,120;Elected representation,121;Removal of old govt,122;Coming of UDF,123;Youth help govt,124;Govt giving id cards,125;Freedom of expression may suppress,126;Freedom to choose leaders,127;People rule in their own way,128;People should always be free,129;social welfare,130;good health,131;prosperity,132;difficulty,133;LCD governance,134;free access to resources,135;government,136;nation must be self-reliant,137;business,138;improvement of youth,139;rubbish that children can do what they want,140;governing power be given to nation,141;fulfil their own plans,142;equal sharing of responsibilities,143;peoples lives,144;disruption of Basotho way of governing,145;national economy,146;exchange of views on life,147;donations in cooperatives,148;building mortuaries,149;no good in being independent,150;apartheid,151;new life,152;disagreement,153;restrict traditional leadership,154;freedom from oppression,155;freedom for children,156;selfishness
+
+Pk: 257
+Id: whatdoesdemocracymean
+Label: What does democracy mean
+ValueLabels: 1;Do not know,2;When country is run by the people,3;To be independent,4;The right to everything,5;Freedom in everything except crime,6;Freedom of speech,7;Equal rights,8;Different groups must have different rights,9;To own property/land,10;Freedom of movement,11;Freedom in general,12;Free education,13;Reduce crime,14;Free medical treatment,15;Be able to criticise govt,16;Peace,17;Justice,18;No war,19;Human rights,20;Unity,21;Never heard of such a word,22;Right to vote,23;Improve living conditions,24;Development,25;Right to join any political party,26;Police protection,27;To advise each other when ruling,28;To have rules formulated by people,29;Ruling without discrimination,30;Many political parties,31;Majority rule,32;Good leadership,33;Freedom of expression,34;To rule satisfactorily,35;To live in harmony,36;Having what people want,37;People help the ruler,38;Govt assist the people,39;Govt promotes development,40;Autocracy,41;Oppression of majority,42;Fair elections,43;Working together with govt,44;Nothing,45;Democracy is meaningless,46;Enough food,47;Self-rule,49;Taking authority to change things,50;Can't explain it properly,51;Govt of people|by people|for people,52;No civil war,53;Good standard of living,54;Power-sharing,55;No discrimination,56;Providing services,57;Govt being fair to people,58;Elected govt,59;Accountable govt,60;Good governance,61;No dictatorship,62;Stability,63;Too afraid to give opinion,64;Freedom religion/worship,65;Employment,66;Having one constitution for country,67;Colonialism,68;Respecting other people's freedom,69;Does not matter,70;Doing things without fear/intimidation,71;Responsive govt,72;No coercion,73;Freedom of the press,74;Freedom of association,75;Health care for all,76;Freedom of dress,77;Freedom of choice,78;Change of things from bad to good,79;Freedom of birthright,80;Doing things that benefit the nation,81;Competition between political parties,82;Change of ruling parties,83;Having opposition parties,84;Freedom to conduct business,85;Gender equality,86;Lowering prices,87;Politics/anything to do with politics,88;Foreign idea,89;Everyone being happy,90;Living freely,91;Living without problems,92;Govt helping poor,93;Consultation,94;Smooth-running of country,95;Control over one's life,96;No further answer,97;Having basic necessities,98;Refused,99;Missing data,100;No restrictions,101;Responsible conduct of citizens,102;Food distribution,103;Keeping & respecting our culture,104;Do not know the meaning,105;Helping each other,106;Independence,107;Govt represents all people,108;Change of President,109;New govt,110;Govt of unity,111;Change of govt,112;Change of laws,113;Govt protecting people,114;No more taxes,115;Everyone being able to make money,116;It is a wrong & bad thing,117;Rebellious people,118;Elections,119;Participation in govt,120;Elected representation,121;Removal of old govt,122;Coming of UDF,123;Youth help govt,124;Govt giving id cards,125;Freedom of expression may suppress,126;Freedom to choose leaders,127;People rule in their own way,128;People should always be free,129;social welfare,130;good health,131;prosperity,132;difficulty,133;LCD governance,134;free access to resources,135;government,136;nation must be self-reliant,137;business,138;improvement of youth,139;rubbish that children can do what they want,140;governing power be given to nation,141;fulfil their own plans,142;equal sharing of responsibilities,143;peoples lives,144;disruption of Basotho way of governing,145;national economy,146;exchange of views on life,147;donations in cooperatives,148;building mortuaries,149;no good in being independent,150;apartheid,151;new life,152;disagreement,153;restrict traditional leadership,154;freedom from oppression,155;freedom for children,156;selfishness
+
+Pk: 257
+Id: whatdoesdemocracymean
+Label: What does democracy mean
+ValueLabels: 1;Do not know,2;When country is run by the people,3;To be independent,4;The right to everything,5;Freedom in everything except crime,6;Freedom of speech,7;Equal rights,8;Different groups must have different rights,9;To own property/land,10;Freedom of movement,11;Freedom in general,12;Free education,13;Reduce crime,14;Free medical treatment,15;Be able to criticise govt,16;Peace,17;Justice,18;No war,19;Human rights,20;Unity,21;Never heard of such a word,22;Right to vote,23;Improve living conditions,24;Development,25;Right to join any political party,26;Police protection,27;To advise each other when ruling,28;To have rules formulated by people,29;Ruling without discrimination,30;Many political parties,31;Majority rule,32;Good leadership,33;Freedom of expression,34;To rule satisfactorily,35;To live in harmony,36;Having what people want,37;People help the ruler,38;Govt assist the people,39;Govt promotes development,40;Autocracy,41;Oppression of majority,42;Fair elections,43;Working together with govt,44;Nothing,45;Democracy is meaningless,46;Enough food,47;Self-rule,49;Taking authority to change things,50;Can't explain it properly,51;Govt of people|by people|for people,52;No civil war,53;Good standard of living,54;Power-sharing,55;No discrimination,56;Providing services,57;Govt being fair to people,58;Elected govt,59;Accountable govt,60;Good governance,61;No dictatorship,62;Stability,63;Too afraid to give opinion,64;Freedom religion/worship,65;Employment,66;Having one constitution for country,67;Colonialism,68;Respecting other people's freedom,69;Does not matter,70;Doing things without fear/intimidation,71;Responsive govt,72;No coercion,73;Freedom of the press,74;Freedom of association,75;Health care for all,76;Freedom of dress,77;Freedom of choice,78;Change of things from bad to good,79;Freedom of birthright,80;Doing things that benefit the nation,81;Competition between political parties,82;Change of ruling parties,83;Having opposition parties,84;Freedom to conduct business,85;Gender equality,86;Lowering prices,87;Politics/anything to do with politics,88;Foreign idea,89;Everyone being happy,90;Living freely,91;Living without problems,92;Govt helping poor,93;Consultation,94;Smooth-running of country,95;Control over one's life,96;No further answer,97;Having basic necessities,98;Refused,99;Missing data,100;No restrictions,101;Responsible conduct of citizens,102;Food distribution,103;Keeping & respecting our culture,104;Do not know the meaning,105;Helping each other,106;Independence,107;Govt represents all people,108;Change of President,109;New govt,110;Govt of unity,111;Change of govt,112;Change of laws,113;Govt protecting people,114;No more taxes,115;Everyone being able to make money,116;It is a wrong & bad thing,117;Rebellious people,118;Elections,119;Participation in govt,120;Elected representation,121;Removal of old govt,122;Coming of UDF,123;Youth help govt,124;Govt giving id cards,125;Freedom of expression may suppress,126;Freedom to choose leaders,127;People rule in their own way,128;People should always be free,129;social welfare,130;good health,131;prosperity,132;difficulty,133;LCD governance,134;free access to resources,135;government,136;nation must be self-reliant,137;business,138;improvement of youth,139;rubbish that children can do what they want,140;governing power be given to nation,141;fulfil their own plans,142;equal sharing of responsibilities,143;peoples lives,144;disruption of Basotho way of governing,145;national economy,146;exchange of views on life,147;donations in cooperatives,148;building mortuaries,149;no good in being independent,150;apartheid,151;new life,152;disagreement,153;restrict traditional leadership,154;freedom from oppression,155;freedom for children,156;selfishness
+
+Pk: 0
+Id: whoisthepremier
+Label: Who is the Premier
+ValueLabels: 1;Do not know,2;Know answer but can't remember,3;Right answer,4;Wrong answer,5;Could not determnine,98;Refused,99;Missing data
+
+Pk: 0
+Id: whoisthefinanceminister
+Label: Who is the finance minister
+ValueLabels: 1;Do not know,2;Know answer but can't remember,3;Right answer,4;Wrong answer,5;Could not determnine,98;Refused,99;Missing data
+
+Pk: 0
+Id: whoisyourregionalcouncillor
+Label: Who is your regional councillor
+ValueLabels: 1;Do not know,2;Know answer but can't remember,3;Right answer,4;Wrong answer,5;Could not determnine,98;Refused,99;Missing data
+
+Pk: 872
+Id: whoisyourlocalcouncillor
+Label: Who is your local councillor
+ValueLabels: 1;Do not know,2;Know but can't remember,3;Right answer,4;Wrong answer,5;Could not determine,97;Not applicable,98;Refused,99;Missing
+
+Pk: 0
+Id: haveyourecentlycontactedagovernmentofficial
+Label: Have you recently contacted a government official
+ValueLabels: 1;No,2;Once or twice,3;A few times,4;Frequently,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: whattypeofofficialwasit
+Label: What type of official was it
+ValueLabels: 1;Local councilor,2;Regional/prov representative,3;MP,4;Council meeting/hearing,5;Regional/ prov meeting,6;Nat parliament meeting/hearing,7;Nat govt meeting,8;Local council official,9;Regional/ provincial official,10;Nat govt official/civil servant,11;Party official,12;1&2,14;1&4,17;1&7,18;1&8,46;4&6,48;4&8,97;No contact,98;Refused,99;Missing data
+
+Pk: 0
+Id: didyouhavetopayagovernmentofficialtogetajob
+Label: Did you have to pay a government official to get a job
+ValueLabels: 1;No,2;Once or twice,3;A few times,4;Often,5;Do not know,99;Missing data
+
+Pk: 0
+Id: didyouhavetopayagovernmentofficialtogetmaintenancepayment/pension/loan
+Label: Did you have to pay a government official to get maintenance payment/pension/loan
+ValueLabels: 1;No,2;Once or twice,3;A few times,4;Often,5;Do not know,96;No further answer,99;Missing data
+
+Pk: 0
+Id: didyoupayagovernmentofficialtogetelectricity/water
+Label: Did you pay a government official to get electricity/water
+ValueLabels: 1;No,2;Once or twice,3;A few times,4;Often,5;Do not know,96;No further answer,99;Missing data
+
+Pk: 0
+Id: didyoupayagovernmentofficialtogethousingorland
+Label: Did you pay a government official to get housing or land
+ValueLabels: 1;No,2;Once or twice,3;A few times,4;Often,5;Do not know,96;No further answer,99;Missing data
+
+Pk: 0
+Id: haveyourecentlycontactedanyinfluentialpersonotherthangovernmentofficial
+Label: Have you recently contacted any influential person other than government official
+ValueLabels: 1;No,2;Once or twice,3;A few times,4;Frequently,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: whattypeofinfluentialpersonwasit
+Label: What type of influential person was it
+ValueLabels: 1;Church leader,2;Community leader,3;Trade union official,4;Traditional leader,5;Traditional council meeting,12;1&2,14;1&4,23;2&3,24;2&4,45;4&5,97;No contact,98;Refused,99;Missing data
+
+Pk: 0
+Id: doyouhavelocaltraditionalleader
+Label: Do you have local traditional leader
+ValueLabels: 1;Yes,2;No,3;Dont know,99;Missing data
+
+Pk: 327
+Id: howinterestedisyourlocalcouncillorinyourwellbeing
+Label: How interested is your local councillor in your well-being
+ValueLabels: 1;Not at all interested,2;Not very interested,3;Interested,4;Very interested,5;Haven't heard enough to know,6;Not applicable for my area,97;N/A,98;Refused,99;Missing
+
+Pk: 845
+Id: howmuchofthetimecanyoutrustyourlocalgovernmenttodowhatisright
+Label: How much of the time can you trust your local government to do what is right
+ValueLabels: 1;Never,2;Sometimes,3;Most times,4;Always,5;Haven't heard enough,6;Not applicable in my area,98;Refused,99;Missing
+
+Pk: 274
+Id: howmanychiefsortraditionalleadersareinvolvedincorruption
+Label: How many chiefs or traditional leaders are involved in corruption
+ValueLabels: 1;Almost all,2;Most/ a lot,3;A few/some,4;Almost none,5;Have'nt heard enough,97;Not applicble,98;Refused,99;Missing data
+
+Pk: 275
+Id: howoftendoyougetnewsfromradio
+Label: How often do you get news from radio
+ValueLabels: 1;Everyday,2;Few times a week,3;Few times a month,4;Less than once a month,5;Never,6;Do not know,98;Refused,99;Missing
+
+Pk: 275
+Id: howoftendoyougetnewsfromradio
+Label: How often do you get news from radio
+ValueLabels: 1;Everyday,2;Few times a week,3;Few times a month,4;Less than once a month,5;Never,6;Do not know,98;Refused,99;Missing
+
+Pk: 276
+Id: howoftendoyougetnewsfromnewspapers
+Label: How often do you get news from newspapers
+ValueLabels: 1;Everyday,2;Few times a week,3;Few times a month,4;Less than once a month,5;Never,6;Do not know,98;Refused,99;Missing
+
+Pk: 0
+Id: canmostpeoplebetrustedorshouldonealwaysbecareful
+Label: Can most people be trusted or should one always be careful
+ValueLabels: 1;Most people can be trusted,2;Can't be too careful,3;Do not know,98;Refused,99;Missing Data
+
+Pk: 0
+Id: howoftendoyoudiscusspoliticalmatterswithfriends
+Label: How often do you discuss political matters with friends
+ValueLabels: 1;Frequently,2;Occasionally,3;Never,4;Do not know,98;Refused,99;Missing Data
+
+Pk: 0
+Id: doyoufollowgovernmentandpublicaffairs
+Label: Do you follow government and public affairs
+ValueLabels: 1;Always| most of the time,2;Some of the time,3;Now & then,4;Hardly,5;Do not know,98;Refused,99;Missing Data
+
+Pk: 0
+Id: youdonothavesufficientinfoaboutpoliticallifeandgovernment
+Label: You do not have sufficient info about political life and government
+ValueLabels: 1;Strongly agree,2;Agree,3;Neither agree nor disagree,4;Disagree,5;Strongly disagree,6;Do not know,98;Refused,99;Missing Data
+
+Pk: 282
+Id: sometimespoliticalandgovernmentaffairstoocomplicatedtounderstand
+Label: Sometimes political and government affairs too complicated to understand
+ValueLabels: 1;Strongly agree,2;Agree,3;Neither agree nor disagree,4;Disagree,5;Strongly disagree,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: beverycarefulwhatyousay/doregardingpolitics
+Label: Be very careful what you say/do regarding politics
+ValueLabels: 1;Strongly agree,2;Agree,3;Neither agree nor disagree,4;Disagree,5;Strongly disagree,6;Do not know,96;No further answer,98;Refused,99;Missing Data
+
+Pk: 284
+Id: wayyouvotewillmakeadifferencevsitwontmakeadifference
+Label: Way you vote will make a difference VS it won't make a difference
+ValueLabels: 1;Voting won't improve things : Agree strongly,2;Voting won't improve things : Agree somewhat,3;Voting will improve things : Agree somewhat,4;Voting will improve things : Agree strongly,5;Do not know,6;Do not agree with either,98;Refused,99;Missing data
+
+Pk: 285
+Id: whoisinpowermakesadifferencevsitdoesntmatter
+Label: Who is in power makes a difference vs it doesn't matter
+ValueLabels: 1;Who is in power makes a difference : Agree strongly,2;Who is in power makes a difference: Agree somewhat,3;Who is in power doesn't matter : Agree somewhat,4;Who is in power doesn't matter: Agree strongly,5;Do not know,6;Do not agree with either,98;Refused,99;Missing data
+
+Pk: 0
+Id: electionsfreeandfair
+Label: Elections free and fair
+ValueLabels: 1;Completely free & fair,2;Free & fair with minor problems,3;Free & fair with major problems,4;Not free & fair,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: mostimportantproblemsgovernmentshouldaddress
+Label: Most important problems government should address
+ValueLabels: 1;Apartheid,2;Abuse,3;Affirmative action,4;Affrirmative action ( too much ),5;AIDS,6;Bursaries,7;Child Welfare,8;Child abuse,9;Crime,10;Corruption,11;Corruption in govt,12;Civil war,13;Death sentence should be returned,14;Death rate too high,15;Discrimination,16;Disputes between political parties,17;Diseases,18;Drought,19;Drought relief,20;Development,21;Development of rural areas,22;Drugs/alcohol,23;Democracy,24;Donor fund mismanagement,25;Do not know,26;Economy,27;Economic stabilisation,28;Education (equality),29;Education (too expensive),30;Education (poor quality),31;Education (quality of schools),32;Education (shortage of schools),33;Educational facilities,34;Environment,35;Elections,36;Electricity,37;Electricity (need more),38;Equality,39;Equal dev for all areas,40;Financial problems,41;Financial future,42;Funding indigenous business,43;Foreign investment,44;Food supply,45;Government,46;Govt responsibility,47;Govt spending,48;Govt unresponsive,49;Govt does not communicate,50;Housing,51;Housing (poor quality),52;Housing ( shortage),53;Health,54;Health (medical supplies),55;Health services (too expensive),56;Health services (poor quality),57;Health services (shortage),58;Health services in rural areas,59;Hawkers/street vendors,60;Intimidation,61;Infrastructure,62;Immigration,63;Investments,64;Job creation,65;Labour laws,66;Lack of unity among people,67;Lack of self-help projects,68;Lack of money for school fees,69;Murder,70;Nepotism,71;Nothing/No problems,72;Oppression,73;Poverty,74;Prices too high,75;Protection of property owners,76;Population explosion,77;Policing,78;Political tension,79;Political unrest,80;Pensions,81;Pensions need to be increased,82;Rape,83;Racism,84;Rights,85;Roads,86;Roads (poor quality),87;Roads (need more),88;Recreational facilities,89;RDP,90;Riots,91;Security,92;Squatting/squattors,93;Strikes,94;Services (water & electricity),95;Services (lack of),96;Services (poor quality),97;Services (too expensive),98;Starvation,99;Sewerage,100;Standard of living,101;Theft,102;Taxes,103;Taxes too high,104;Toilets/sanitation,105;Transport,106;Teenage pregnancies,107;Tribalism,108;Unemployment,109;Violence,110;Vandalism,111;Wages too high,112;Wages too low,113;Water (not enough),114;Water (provide more),115;Water (poor quality),116;Welfare,117;Children should follow tradition,118;Crop failure,119;Devaluation of currency,120;Care of Elderly,121;Free & fair council elections,122;Food prices should be low,123;Food shortage,124;Economic policy failure,125;Health clinics to be provided,126;Inflation high,127;Lack of loans,128;Too many leaders,129;Suffering,130;Transport prices too high,131;Wealth being lost rapidly,132;Voter education,133;Telecommunications,134;Street lights,135;Sports problems,136;Street children,137;Implementation of govt policies,138;Immigrants,139;Govt favours foreigners,140;Poor govt administration,141;Nuclear weapons,142;School drop-outs,143;Use of prisoners for labour,144;Reduce income disparity,145;Road accidents,146;Assist disabled,147;Assist orphans,148;Water & electricity,149;Reduce school fees,150;Strengthen democracy,151;Home affairs,152;Farm workers benefits,153;Govt assistance,154;Leaders must take responsibility,155;Training of police officers,156;Homosexual issues,157;More links between govt & people,158;Protection against wild animals,159;Nature conservation,160;Better qualified teachers,161;Traditional leaders,162;Army training,163;Promiscuity,164;Fair land distribution,165;DRC war,166;5th brigade attocracies,167;Irresponsible members of parliament,168;Assistance for needy people,169;Poor woking conditions,170;Lack of peace & freedom,171;Lack of co-operation between political parties,172;Cash payment to farmers for products,173;President favours home area,174;Increased govt assistance (seed & fertiliser),175;Fine those who default on loans,176;Govt should develop all regions,177;Govt should build a bank,178;Environmental degradation,179;Need for new govt,180;High school fees,181;Lack of maize in markets,182;Lack of justice in govt,183;Lack of land to cultivate,184;Lack of  farming improvements,185;Trading centres too far,186;Headman not trustworthy,187;Lack of free hospitals,188;Lack of markets,189;Rigging elections,190;Regionalism must stop,191;Govt favours people from their party,192;Govt should help with school fees for girls,193;Corruption among health personnel,194;Civil service doctors must take jobs seriously,195;Rich have more freedom than poor,196;Over-enrolment in schools,197;Business matters,198;Exploitation of villagers,199;Retrenchments,200;Govt assistance to villagers,201;prostitution,202;Misuse of democracy,203;Accessibilty of loans,204;Lack TV service/network,205;Lack of post offices,206;Lack of policemen,207;Freedom of dress should stop,208;No maize mills nearby,209;Lack of respect for elders,210;Lack of respect for one another,211;Economic improvements,212;Education,213;More bursaries,214;Give Land to people,999;Missing data
+
+Pk: 0
+Id: mostimportantproblemsgovernmentshouldaddress
+Label: Most important problems government should address
+ValueLabels: 1;Apartheid,2;Abuse,3;Affirmative action,4;Affrirmative action ( too much ),5;AIDS,6;Bursaries,7;Child Welfare,8;Child abuse,9;Crime,10;Corruption,11;Corruption in govt,12;Civil war,13;Death sentence should be returned,14;Death rate too high,15;Discrimination,16;Disputes between political parties,17;Diseases,18;Drought,19;Drought relief,20;Development,21;Development of rural areas,22;Drugs/alcohol,23;Democracy,24;Donor fund mismanagement,25;Do not know,26;Economy,27;Economic stabilisation,28;Education (equality),29;Education (too expensive),30;Education (poor quality),31;Education (quality of schools),32;Education (shortage of schools),33;Educational facilities,34;Environment,35;Elections,36;Electricity,37;Electricity (need more),38;Equality,39;Equal dev for all areas,40;Financial problems,41;Financial future,42;Funding indigenous business,43;Foreign investment,44;Food supply,45;Government,46;Govt responsibility,47;Govt spending,48;Govt unresponsive,49;Govt does not communicate,50;Housing,51;Housing (poor quality),52;Housing ( shortage),53;Health,54;Health (medical supplies),55;Health services (too expensive),56;Health services (poor quality),57;Health services (shortage),58;Health services in rural areas,59;Hawkers/street vendors,60;Intimidation,61;Infrastructure,62;Immigration,63;Investments,64;Job creation,65;Labour laws,66;Lack of unity among people,67;Lack of self-help projects,68;Lack of money for school fees,69;Murder,70;Nepotism,71;Nothing/No problems,72;Oppression,73;Poverty,74;Prices too high,75;Protection of property owners,76;Population explosion,77;Policing,78;Political tension,79;Political unrest,80;Pensions,81;Pensions need to be increased,82;Rape,83;Racism,84;Rights,85;Roads,86;Roads (poor quality),87;Roads (need more),88;Recreational facilities,89;RDP,90;Riots,91;Security,92;Squatting/squattors,93;Strikes,94;Services (water & electricity),95;Services (lack of),96;Services (poor quality),97;Services (too expensive),98;Starvation,99;Sewerage,100;Standard of living,101;Theft,102;Taxes,103;Taxes too high,104;Toilets/sanitation,105;Transport,106;Teenage pregnancies,107;Tribalism,108;Unemployment,109;Violence,110;Vandalism,111;Wages too high,112;Wages too low,113;Water (not enough),114;Water (provide more),115;Water (poor quality),116;Welfare,117;Children should follow tradition,118;Crop failure,119;Devaluation of currency,120;Care of Elderly,121;Free & fair council elections,122;Food prices should be low,123;Food shortage,124;Economic policy failure,125;Health clinics to be provided,126;Inflation high,127;Lack of loans,128;Too many leaders,129;Suffering,130;Transport prices too high,131;Wealth being lost rapidly,132;Voter education,133;Telecommunications,134;Street lights,135;Sports problems,136;Street children,137;Implementation of govt policies,138;Immigrants,139;Govt favours foreigners,140;Poor govt administration,141;Nuclear weapons,142;School drop-outs,143;Use of prisoners for labour,144;Reduce income disparity,145;Road accidents,146;Assist disabled,147;Assist orphans,148;Water & electricity,149;Reduce school fees,150;Strengthen democracy,151;Home affairs,152;Farm workers benefits,153;Govt assistance,154;Leaders must take responsibility,155;Training of police officers,156;Homosexual issues,157;More links between govt & people,158;Protection against wild animals,159;Nature conservation,160;Better qualified teachers,161;Traditional leaders,162;Army training,163;Promiscuity,164;Fair land distribution,165;DRC war,166;5th brigade attocracies,167;Irresponsible members of parliament,168;Assistance for needy people,169;Poor woking conditions,170;Lack of peace & freedom,171;Lack of co-operation between political parties,172;Cash payment to farmers for products,173;President favours home area,174;Increased govt assistance (seed & fertiliser),175;Fine those who default on loans,176;Govt should develop all regions,177;Govt should build a bank,178;Environmental degradation,179;Need for new govt,180;High school fees,181;Lack of maize in markets,182;Lack of justice in govt,183;Lack of land to cultivate,184;Lack of  farming improvements,185;Trading centres too far,186;Headman not trustworthy,187;Lack of free hospitals,188;Lack of markets,189;Rigging elections,190;Regionalism must stop,191;Govt favours people from their party,192;Govt should help with school fees for girls,193;Corruption among health personnel,194;Civil service doctors must take jobs seriously,195;Rich have more freedom than poor,196;Over-enrolment in schools,197;Business matters,198;Exploitation of villagers,199;Retrenchments,200;Govt assistance to villagers,201;prostitution,202;Misuse of democracy,203;Accessibilty of loans,204;Lack TV service/network,205;Lack of post offices,206;Lack of policemen,207;Freedom of dress should stop,208;No maize mills nearby,209;Lack of respect for elders,210;Lack of respect for one another,211;Economic improvements,212;Education,213;More bursaries,214;Give Land to people,999;Missing data
+
+Pk: 0
+Id: mostimportantproblemsgovernmentshouldaddress
+Label: Most important problems government should address
+ValueLabels: 1;Apartheid,2;Abuse,3;Affirmative action,4;Affrirmative action ( too much ),5;AIDS,6;Bursaries,7;Child Welfare,8;Child abuse,9;Crime,10;Corruption,11;Corruption in govt,12;Civil war,13;Death sentence should be returned,14;Death rate too high,15;Discrimination,16;Disputes between political parties,17;Diseases,18;Drought,19;Drought relief,20;Development,21;Development of rural areas,22;Drugs/alcohol,23;Democracy,24;Donor fund mismanagement,25;Do not know,26;Economy,27;Economic stabilisation,28;Education (equality),29;Education (too expensive),30;Education (poor quality),31;Education (quality of schools),32;Education (shortage of schools),33;Educational facilities,34;Environment,35;Elections,36;Electricity,37;Electricity (need more),38;Equality,39;Equal dev for all areas,40;Financial problems,41;Financial future,42;Funding indigenous business,43;Foreign investment,44;Food supply,45;Government,46;Govt responsibility,47;Govt spending,48;Govt unresponsive,49;Govt does not communicate,50;Housing,51;Housing (poor quality),52;Housing ( shortage),53;Health,54;Health (medical supplies),55;Health services (too expensive),56;Health services (poor quality),57;Health services (shortage),58;Health services in rural areas,59;Hawkers/street vendors,60;Intimidation,61;Infrastructure,62;Immigration,63;Investments,64;Job creation,65;Labour laws,66;Lack of unity among people,67;Lack of self-help projects,68;Lack of money for school fees,69;Murder,70;Nepotism,71;Nothing/No problems,72;Oppression,73;Poverty,74;Prices too high,75;Protection of property owners,76;Population explosion,77;Policing,78;Political tension,79;Political unrest,80;Pensions,81;Pensions need to be increased,82;Rape,83;Racism,84;Rights,85;Roads,86;Roads (poor quality),87;Roads (need more),88;Recreational facilities,89;RDP,90;Riots,91;Security,92;Squatting/squattors,93;Strikes,94;Services (water & electricity),95;Services (lack of),96;Services (poor quality),97;Services (too expensive),98;Starvation,99;Sewerage,100;Standard of living,101;Theft,102;Taxes,103;Taxes too high,104;Toilets/sanitation,105;Transport,106;Teenage pregnancies,107;Tribalism,108;Unemployment,109;Violence,110;Vandalism,111;Wages too high,112;Wages too low,113;Water (not enough),114;Water (provide more),115;Water (poor quality),116;Welfare,117;Children should follow tradition,118;Crop failure,119;Devaluation of currency,120;Care of Elderly,121;Free & fair council elections,122;Food prices should be low,123;Food shortage,124;Economic policy failure,125;Health clinics to be provided,126;Inflation high,127;Lack of loans,128;Too many leaders,129;Suffering,130;Transport prices too high,131;Wealth being lost rapidly,132;Voter education,133;Telecommunications,134;Street lights,135;Sports problems,136;Street children,137;Implementation of govt policies,138;Immigrants,139;Govt favours foreigners,140;Poor govt administration,141;Nuclear weapons,142;School drop-outs,143;Use of prisoners for labour,144;Reduce income disparity,145;Road accidents,146;Assist disabled,147;Assist orphans,148;Water & electricity,149;Reduce school fees,150;Strengthen democracy,151;Home affairs,152;Farm workers benefits,153;Govt assistance,154;Leaders must take responsibility,155;Training of police officers,156;Homosexual issues,157;More links between govt & people,158;Protection against wild animals,159;Nature conservation,160;Better qualified teachers,161;Traditional leaders,162;Army training,163;Promiscuity,164;Fair land distribution,165;DRC war,166;5th brigade attocracies,167;Irresponsible members of parliament,168;Assistance for needy people,169;Poor woking conditions,170;Lack of peace & freedom,171;Lack of co-operation between political parties,172;Cash payment to farmers for products,173;President favours home area,174;Increased govt assistance (seed & fertiliser),175;Fine those who default on loans,176;Govt should develop all regions,177;Govt should build a bank,178;Environmental degradation,179;Need for new govt,180;High school fees,181;Lack of maize in markets,182;Lack of justice in govt,183;Lack of land to cultivate,184;Lack of  farming improvements,185;Trading centres too far,186;Headman not trustworthy,187;Lack of free hospitals,188;Lack of markets,189;Rigging elections,190;Regionalism must stop,191;Govt favours people from their party,192;Govt should help with school fees for girls,193;Corruption among health personnel,194;Civil service doctors must take jobs seriously,195;Rich have more freedom than poor,196;Over-enrolment in schools,197;Business matters,198;Exploitation of villagers,199;Retrenchments,200;Govt assistance to villagers,201;prostitution,202;Misuse of democracy,203;Accessibilty of loans,204;Lack TV service/network,205;Lack of post offices,206;Lack of policemen,207;Freedom of dress should stop,208;No maize mills nearby,209;Lack of respect for elders,210;Lack of respect for one another,211;Economic improvements,212;Education,213;More bursaries,214;Give Land to people,999;Missing data
+
+Pk: 0
+Id: anyonecanfreelyspeaktheirmind
+Label: Anyone can freely speak their mind
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,99;Missing Data
+
+Pk: 0
+Id: peoplecanjoinpoliticalorganisationofchoice
+Label: People can join political organisation of choice
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,96;No further answer,99;Missing Data
+
+Pk: 836
+Id: canlivewithoutfearofbeingarrestedifdonenothingwrong
+Label: Can live without fear of being arrested if done nothing wrong
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: canfreelyvoteforanyonewithoutbeingforced
+Label: Can freely vote for anyone without being forced
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,96;No further answer,99;Missing Data
+
+Pk: 0
+Id: govttreatsallpeoplefairandequal
+Label: Govt treats all people fair and equal
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,96;No further answer,99;Missing Data
+
+Pk: 296
+Id: safefromcrimeandviolence
+Label: Safe from crime and violence
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,98;Refused,99;Missing data
+
+Pk: 297
+Id: adequatestandardofliving
+Label: Adequate standard of living
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,98;Refused,99;Missing data
+
+Pk: 298
+Id: accesstobasicnecessities
+Label: Access to basic necessities
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,98;Refused,99;Missing data
+
+Pk: 299
+Id: [country]areequaltoeachother
+Label: [country] are equal to each other
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: onlyonepoliticalpartyallowedtostandforelections
+Label: Only one political party allowed to stand for elections
+ValueLabels: 1;Strongly disapprove,2;Disapprove,3;Neither approve nor disapprove,4;Approve,5;Strongly approve,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: alldecisionsmadebyelderstraditionalleadersorchiefs
+Label: All decisions made by elders, traditional leaders or chiefs
+ValueLabels: 1;Strongly disapprove,2;Disapprove,3;Neither approve nor disapprove,4;Approve,5;Strongly approve,6;Do not know,98;Refused,99;Missing data
+
+Pk: 839
+Id: armytogovernthecountry
+Label: Army to govern the country
+ValueLabels: 1;Strongly disapprove,2;Disapprove,3;Neither approve nor disapprove,4;Approve,5;Strongly approve,6;Do not know,98;Refused,99;Missing data
+
+Pk: 303
+Id: presidentdecideseverything
+Label: President decides everything
+ValueLabels: 1;Strongly disapprove,2;Disapprove,3;Neither approve nor disapprove,4;Approve,5;Strongly approve,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: economicdecisionsmadebyeconomicexperts
+Label: Economic decisions made by economic experts
+ValueLabels: 1;Strongly disapprove,2;Disapprove,3;Neither approve nor disapprove,4;Approve,5;Strongly approve,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: returntooldsystemof[country]rule
+Label: Return to old system of [country] rule
+ValueLabels: 1;Strongly disapprove,2;Disapprove,3;Neither approve nor disapprove,4;Approve,5;Strongly approve,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: govtwaselectedtopowerbyacceptedprocedures
+Label: Govt was elected to power by accepted procedures
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neiher agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,98;Refused,99;Missing data
+
+Pk: 307
+Id: govtexercisespowerinacceptableway
+Label: Govt exercises power in acceptable way
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,98;Refused,99;Missing data
+
+Pk: 96
+Id: constitutionexpressesvaluesandaspirationsof[nationality]
+Label: Constitution expresses values and aspirations of [nationality]
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Agree,4;Strongly agree,9;Do not know,98;Refused to answer,99;Missing Data
+
+Pk: 0
+Id: govthasrighttomakedecisionswhetherpeopleagreeornot
+Label: Govt has right to make decisions whether people agree or not
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neiher agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: howwellisgovernmenthandlingthecreationofjobs
+Label: How well is government handling the creation of jobs
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: howwellisgovernmenthandlingthebuildingofhouses
+Label: How well is government handling the building of houses
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 311
+Id: howwellisgovernmentensuringthatpricesremainstable
+Label: How well is government ensuring that prices remain stable
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: howwellisgovernmentreducingcrime
+Label: How well is government reducing crime
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 313
+Id: howwellisgovernmentimprovinghealthservices
+Label: How well is government improving health services
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,98;Refused,99;Missing data
+
+Pk: 314
+Id: howwelldoesgovernmentaddresseducationalneedsofall[country]
+Label: How well does government address educational needs of all [country]
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,98;Refused,99;Missing data
+
+Pk: 315
+Id: howwelldoesgovernmentmanagetheeconomy
+Label: How well does government manage the economy
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,98;Refused,99;Missing data
+
+Pk: 316
+Id: howwelldoesgovernmentdeliverbasicservices
+Label: How well does government deliver basic services
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: howwellisgovernmentensuringthateveryonehasenoughland
+Label: How well is government ensuring that everyone has enough land
+ValueLabels: 1;Very well,2;Fairly well,3;Not very well,4;Not at all well,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 506
+Id: howinterestedisthepresidentinyourwellbeing
+Label: How interested is the President in your well-being
+ValueLabels: 1;Not at all interested,2;Not very interested,3;Interested,4;Very interested,5;Or haven't you heard enough about him to know,97;N/A,98;Refused,99;Missing
+
+Pk: 841
+Id: howmuchofthetimecanyoutrustparliamenttodowhatisright
+Label: How much of the time can you trust parliament to do what is right
+ValueLabels: 1;Never,2;Sometimes,3;Most times,4;Always,5;Haven't heard enough,98;Refused,99;Missing
+
+Pk: 0
+Id: howwellhaspresidentnujomaperformed
+Label: How well has President Nujoma performed
+ValueLabels: 1;Strongly disapprove,2;Disapprove,3;Approve,4;Strongly approve,5;Have not heard enough to know,98;Refused,99;Missing data
+
+Pk: 509
+Id: howmanygovernmentofficialsdoyouthinkareinvolvedincorruption
+Label: How many government officials do you think are involved in corruption
+ValueLabels: 1;All/almost all,2;Most,3;A few/some,4;Almost none/none,5;Or haven't you had a chance to hear enough about them,97;N/A,98;Refused,99;Missing
+
+Pk: 510
+Id: howinterestedisparliamentinyourwellbeing
+Label: How interested is parliament in your well-being
+ValueLabels: 1;Not at all interested,2;Not very interested,3;Interested,4;Very interested,5;Or haven't you had a chance to hear enough about it,97;N/A,98;Refused,99;Missing
+
+Pk: 841
+Id: howmuchofthetimecanyoutrustparliamenttodowhatisright
+Label: How much of the time can you trust parliament to do what is right
+ValueLabels: 1;Never,2;Sometimes,3;Most times,4;Always,5;Haven't heard enough,98;Refused,99;Missing
+
+Pk: 0
+Id: howwellhasparliamentperformeditsjob
+Label: How well has parliament performed its job
+ValueLabels: 1;Strongly disapprove,2;Disapprove,3;Approve,4;Strongly approve,5;Do not know enough about it,97;N/A,98;Refused,99;Missing data
+
+Pk: 512
+Id: howmanypeopleinparliamentinvolvedincorruption
+Label: How many people in parliament involved in corruption
+ValueLabels: 1;All/almost all,2;Most,3;A few/some,4;Almost none/none,5;Or haven't you had a chance to hear enough about them,97;N/A,98;Refused,99;Missing
+
+Pk: 326
+Id: howmanycivilservantsinvolvedincorruption
+Label: How many civil servants involved in corruption
+ValueLabels: 1;Almost all,2;Most/ a lot,3;A few/some,4;Almost none,5;Haven't heard enough,97;N/A,98;Refused,99;Missing data
+
+Pk: 327
+Id: howinterestedisyourlocalcouncillorinyourwellbeing
+Label: How interested is your local councillor in your well-being
+ValueLabels: 1;Not at all interested,2;Not very interested,3;Interested,4;Very interested,5;Haven't heard enough to know,6;Not applicable for my area,97;N/A,98;Refused,99;Missing
+
+Pk: 845
+Id: howmuchofthetimecanyoutrustyourlocalgovernmenttodowhatisright
+Label: How much of the time can you trust your local government to do what is right
+ValueLabels: 1;Never,2;Sometimes,3;Most times,4;Always,5;Haven't heard enough,6;Not applicable in my area,98;Refused,99;Missing
+
+Pk: 0
+Id: howwellhaslocalgovernmentperformeditsjob
+Label: How well has local government performed its job
+ValueLabels: 1;Never,2;Some of the time,3;Most of the time,4;Just about always,5;Do not know enough about it,6;Not applicable for my area,98;Refused,99;Missing data
+
+Pk: 519
+Id: howmanyofficialsinyourlocalgovernmentareinvolvedincorruption
+Label: How many officials in your local government are involved in corruption
+ValueLabels: 1;All/Almost all,2;Most,3;A few/some,4;Almost none/none,5;Or haven't you had a chance to hear enough about them,6;Not applicable for my area,98;Refused,99;Missing
+
+Pk: 0
+Id: govttodaymoreeffectiveinperformingitsjob
+Label: Govt today more effective in performing its job
+ValueLabels: 1;Much more,2;More,3;Same,4;Less,5;Much less,6;Do not know,99;Missing Data
+
+Pk: 0
+Id: govttodaymoreinterestedinhearingwhatpeoplethink
+Label: Govt today more interested in hearing what people think
+ValueLabels: 1;Much more,2;More,3;Same,4;Less,5;Much less,6;Do not know,96;No further answer,99;Missing Data
+
+Pk: 0
+Id: govttodaymorecorrupt
+Label: Govt today more corrupt
+ValueLabels: 1;Much more,2;More,3;Same,4;Less,5;Much less,6;Do not know,96;No further answe,99;Missing Data
+
+Pk: 0
+Id: govttodaymoretrustworthy
+Label: Govt today more trustworthy
+ValueLabels: 1;Much more,2;More,3;Same,4;Less,5;Much less,6;Do not know,96;No further answer,99;Missing Data
+
+Pk: 527
+Id: howmuchofthetimecanyoutrustthearmy
+Label: How much of the time can you trust the army
+ValueLabels: 1;Never,2;Only some of the time,3;Most of the time,4;Just about always,5;Haven't heard enough,97;N/A,98;Refused,99;Missing
+
+Pk: 527
+Id: howmuchofthetimecanyoutrustthearmy
+Label: How much of the time can you trust the army
+ValueLabels: 1;Never,2;Only some of the time,3;Most of the time,4;Just about always,5;Haven't heard enough,97;N/A,98;Refused,99;Missing
+
+Pk: 528
+Id: howmuchofthetimecanyoutrustthecourtsoflaw
+Label: How much of the time can you trust the courts of law
+ValueLabels: 1;Never,2;Only some of the time,3;Most of the time,4;Just about always,5;Haven't heard enough,97;N/A,98;Refused,99;Missing
+
+Pk: 878
+Id: howmuchofthetimecanyoutrusttheelectoralcommission
+Label: How much of the time can you trust the electoral commission
+ValueLabels: 1;Never,2;Sometimes,3;Most times,4;Always,5;Haven't heard enough,97;N/A,98;Refused,99;Missing
+
+Pk: 531
+Id: howmuchofthetimecanyoutrustthe[country]broadcastingcorporation
+Label: How much of the time can you trust the [country] Broadcasting Corporation
+ValueLabels: 1;Never,2;Only some of the time,3;Most of the time,4;Just about always,5;Haven't heard enough,97;N/A,98;Refused,99;Missing
+
+Pk: 532
+Id: howmuchofthetimecanyoutrustpressornewspapers
+Label: How much of the time can you trust press or newspapers
+ValueLabels: 1;Never,2;Only some of the time,3;Most of the time,4;Just about always,5;Haven't heard enough,97;N/A,98;Refused,99;Missing
+
+Pk: 340
+Id: preferencefordemocraticvsnondemocraticgovernment
+Label: Preference for democratic VS non-democratic government
+ValueLabels: 1;Democracy always preferable,2;Non-democratic govt can be preferable,3;Makes no difference,4;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: besidesbeing[country]whatothergroupdoyoufeelcloseto
+Label: Besides being [country] what other group do you feel close to
+ValueLabels: 1;Afrikaans,2;Chewa,3;Chinyungwe,4;Chisena,5;Damara,6;English,7;German,8;Nama,9;Ndebele,10;Oshiwambo,11;Otjiherero,12;Portueguese,13;Rukwangali,14;Sesotho|Sotho| S.Sotho,15;Setswana/Tswana,16;Silozi,17;Shangaan/Tsonga/Ronga/Tswa,18;Shona,19;Swahili,20;Swazi,21;Venda,22;Xhosa,23;Zulu,24;Sepedi/N.Sotho,25;White,26;Black,27;Coloured,28;Indian,29;Christian,30;Muslim,31;Catholic,32;Religious,33;Middle class,34;Working class,35;Poor/low class,36;Farmer,37;Jindwi,38;Black African,39;African,40;Muchikunda,41;Budya,42;Zezuru,43;Ndau,44;Muungwe,45;Housewife,46;Do not differentiate myself,47;Tumbuka,48;Karanga,49;Worker,50;Korekore,51;Ovambo,52;Afrikaner,53;Boer,54;Businessman,55;Unemployed,56;Kavango,57;San,58;Khoi,59;Banderu,60;Student,61;Herero,62;3rd class,63;Professional,64;Farm-worker,65;Race,66;Pensioner,67;Sportsman,68;Traditional leader,69;Caprivian,70;Language,71;Political party affiliation,72;Housewife,73;Young person,74;Foreigner,75;Mafwe,76;Yei,77;Totela,78;Dirigo,79;Woman,80;Head of household,81;Kwangali,82;Vushambyu,83;Mbukushu,84;Gentleman,85;Zimbabwean,86;Manyika,87;Namibian,88;Tonga,89;Tribe,90;District of origin,91;Region of origin,92;Politician,93;Educated person,94;Development orientated person,95;Counsellor,96;Nothing,97;Any religious group,98;Refused,99;Missing,100;Leader,101;Same language as self,999;Missing data
+
+Pk: 0
+Id: youfeelproudtobelongtothisgroup
+Label: You feel proud to belong to this group
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: wouldwantchildrentothinkofthemselvesaspartofthisgroup
+Label: Would want children to think of themselves as part of this group
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: peoplewhobelongtothisgrouparebetterthanothergroup
+Label: People who belong to this group are better than other group
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: feelstrongertiestogroupthantoother[country]
+Label: Feel stronger ties to group than to other [country]
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: feelproudtobecalleda[country]
+Label: Feel proud to be called a [country]
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: childrenshouldalsoconsiderthemselvesas[country]
+Label: Children should also consider themselves as [country]
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: allpeoplebornincountryshouldbetreatedequally
+Label: All people born in country should be treated equally
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 352
+Id: desirabletocreateaunited[nationality]nationoutofallgroups
+Label: Desirable to create a united [nationality] nation out of all groups
+ValueLabels: 1;Strongly disagree,2;Disagree,3;Neither agree nor disagree,4;Agree,5;Strongly agree,6;Do not know,98;Refused,99;Missing data
+
+Pk: 353
+Id: yourgroupeconomicconditionscomparedtoothers
+Label: Your group economic conditions compared to others
+ValueLabels: 1;Much worse,2;Worse,3;Same,4;Better,5;Much better,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: yourgrouptreatedunfairlybygovernment
+Label: Your group treated unfairly by government
+ValueLabels: 1;Always,2;Too a large extent,3;Some extent,4;Hardly,5;Never,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: govtinterestinyourgroupcomparedtoothers
+Label: Govt interest in your group compared to others
+ValueLabels: 1;Much less interested,2;Less interested,3;Same,4;More interested,5;Much more interested,6;Do not know,97;N/A,98;Refused,99;Missing data
+
+Pk: 0
+Id: doesgovernmentrepresentinterestofall[country]oronlyonegroup
+Label: Does government represent interest of all [country] or only one group
+ValueLabels: 1;All,2;One group,3;Do not know,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 356
+Id: whichgroupinterestismostlyrepresentedbygovernment
+Label: Which group interest is mostly represented by government
+ValueLabels: 1;Afrikaans-speakers,2;Chewa/Chewa-speakers,3;Chinyungwe-speakers,4;Chisena-speakers,5;Damara-speakers,6;English-speakers,7;German-speakers,8;Nama-speakers,9;Ndebele-speakers,10;Oshiwambo-speakers,11;Otjiherero-speakers,12;Portueguese-speakers,13;Rukwangali-speakers,14;Sesotho|Sotho| S.Sotho speakers-,15;Setswana/Tswana-speakers,16;Silozi-speakers,17;Shangaan/Tsonga/Ronga/Tswa-speakers,18;Shona-speakers,19;Swahili-speakers,20;Swazi-speakers,21;Venda-speakers,22;Xhosa-speakers,23;Zulu-speakers,24;Sepedi/N.Sotho-speakers,25;White people,26;Black people,27;Coloured people,28;Indian people,29;Christian people,30;Muslim people,31;Catholic people,32;Religious people,33;Middle class people,34;Working class people,35;Poor/low class people,36;Farmers,37;Jindwi,38;Black African people,39;African people,40;Muchikunda,41;Budya,42;Zezuru,43;Ndau,44;Muungwe,45;Women,46;Men,47;Tumbuka,48;Karanga,49;Worker(s),50;Korekore,51;Ovambo,52;Afrikaners,53;Boers,54;Businessmen,55;Unemployed people,56;Kavango,57;San,58;Khoi,59;Banderu,60;Students,61;Westerners,62;Top govt officials,63;Their people,64;ZANU PF members,65;Rich people,66;Zwimba people,67;Mugabe & other leaders,69;Elite,70;Govt workers,71;Bourgeouise,72;Ruling class,73;Bangwato,74;Basarwa,75;Bangwato and Bakalaka,76;Chinese,77;Central Region (Malawi),78;People who live with President,79;Machinga,80;United Democratic Front constituencies (Malawi),81;Football players,82;Politicians,83;United Democratic Front/UDF members (Malawi),84;Yao/Achawa,85;Southerners/Southern Region (Malawi),86;Northerners/Northern Region (Malawi),87;Government itself,88;Lesotho Congress Democracy (LCD),89;Don,90;Their families,91;Ministers,92;Govt officials,93;Town dwellers,94;People of same tribe,95;Bemba,96;Rich businessmen,97;Not applicable,98;Refused,99;Missing data,100;Senior clergymen,101;Foreigners,102;Lesotho Congress for Democracy,103;dont know,104;clan eg Motaung,105;no one,106;Basotho National Party,107;South Africa,108;those in cities,109;foreigners,110;followers of ruling party,111;people of Mbeki,112;lawbreakers,113;educated people,114;lowlands community,115;police,116;people from north,117;his own village only,118;youth,119;Tsoene is flying,120;themselves,121;their own areas,122;SADC,123;normal people,124;shebeen queen,125;BNP and BCP,126;LCD parliamentarians given money free
+
+Pk: 0
+Id: votedinthe1994elections
+Label: Voted in the 1994 elections
+ValueLabels: 1;I decided not to vote,2;Unable to vote,3;I voted,4;No election in my area,5;Cannot remember,98;Refused,99;Missing data
+
+Pk: 0
+Id: haveyoujoinedotherstoaddresscommunityproblems
+Label: Have you joined others to address community problems
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 0
+Id: haveyouattendedanelectionrally
+Label: Have you attended an election rally
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,96;No further answer,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 0
+Id: haveyouworkedforapoliticalparty/candidate
+Label: Have you worked for a political party/candidate
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,96;No further answer,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 0
+Id: haveyoueverwrittenalettertonewspaper
+Label: Have you ever written a letter to newspaper
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,96;No further answer,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 0
+Id: haveyoueverclaimedgovernmentbenefitsthatyourarenotentitledto
+Label: Have you ever claimed government benefits that your are not entitled to
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 0
+Id: notpayingrates
+Label: Not paying rates
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,96;No further answer,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 363
+Id: avoidpayingincometaxes
+Label: Avoid paying income taxes
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,7;Not applicable,98;Refused,99;Missing data
+
+Pk: 0
+Id: getserviceswithoutpayingforthem
+Label: Get services without paying for them
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,96;No further answer,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 0
+Id: wouldyouattendademostartion/protestmarch
+Label: Would you attend a demostartion/protest march
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 366
+Id: boycottratesservicesandtaxes
+Label: Boycott rates, services and taxes
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,98;Refused,99;Missing data
+
+Pk: 367
+Id: partakeinsitinsdisruptionofgovernmentmeetings
+Label: Partake in sit-ins, disruption of government meetings
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,98;Refused,99;Missing data
+
+Pk: 368
+Id: useforceorviolentmethods
+Label: Use force or violent methods
+ValueLabels: 1;Often,2;A few times,3;Once or twice,4;Would do it if I had the chance,5;Would never do this,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: supportoropposetheshutdownofnewspapers/radioortvstations
+Label: Support or oppose the shut down of newspapers/radio or Tv stations
+ValueLabels: 1;Strongly support,2;Support,3;Neither support nor oppose,4;Oppose,5;Strongly oppose,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatifanythingwouldyoudoabouttheshutdown
+Label: What if anything would you do about the shutdown
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatifanythingwouldyoudoabouttheshutdown
+Label: What if anything would you do about the shutdown
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatifanythingwouldyoudoabouttheshutdown
+Label: What if anything would you do about the shutdown
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatifanythingwouldyoudoabouttheshutdown
+Label: What if anything would you do about the shutdown
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatifanythingwouldyoudoabouttheshutdown
+Label: What if anything would you do about the shutdown
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: supportoropposejudgesdismissedforrulingagainstgovernment
+Label: Support or oppose judges dismissed for ruling against government
+ValueLabels: 1;Strongly support,2;Support,3;Neither support nor oppose,4;Oppose,5;Strongly oppose,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatwouldyoudoaboutdismissedjudges
+Label: What would you do about dismissed judges
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatwouldyoudoaboutdismissedjudges
+Label: What would you do about dismissed judges
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatwouldyoudoaboutdismissedjudges
+Label: What would you do about dismissed judges
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatwouldyoudoaboutdismissedjudges
+Label: What would you do about dismissed judges
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: whatwouldyoudoaboutdismissedjudges
+Label: What would you do about dismissed judges
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/ TV,5;Contact govt official,6;Join march or demonstration,7;Do not know,8;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: supportoropposethebanningofpoliticalparties
+Label: Support or oppose the banning of political parties
+ValueLabels: 1;Strongly support,2;Support,3;Neither support nor oppose,4;Oppose,5;Strongly oppose,6;Do not know,98;Refused,99;Missing data
+
+Pk: 858
+Id: whatwouldyoudoaboutbannedpoliticalparties
+Label: What would you do about banned political parties
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing data
+
+Pk: 858
+Id: whatwouldyoudoaboutbannedpoliticalparties
+Label: What would you do about banned political parties
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing data
+
+Pk: 858
+Id: whatwouldyoudoaboutbannedpoliticalparties
+Label: What would you do about banned political parties
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing data
+
+Pk: 858
+Id: whatwouldyoudoaboutbannedpoliticalparties
+Label: What would you do about banned political parties
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing data
+
+Pk: 858
+Id: whatwouldyoudoaboutbannedpoliticalparties
+Label: What would you do about banned political parties
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing data
+
+Pk: 0
+Id: supportoropposethesuspensionofparliamentandcancellationnextelection
+Label: Support or oppose the suspension of parliament and cancellation next election
+ValueLabels: 1;Strongly support,2;Support,3;Neither support nor oppose,4;Oppose,5;Strongly oppose,6;Do not know,98;Refused,99;Missing data
+
+Pk: 860
+Id: whatwouldyoudoaboutthesuspensionofparliamentandcancellationofelections
+Label: What would you do about the suspension of parliament and cancellation of elections
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing
+
+Pk: 860
+Id: whatwouldyoudoaboutthesuspensionofparliamentandcancellationofelections
+Label: What would you do about the suspension of parliament and cancellation of elections
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing
+
+Pk: 860
+Id: whatwouldyoudoaboutthesuspensionofparliamentandcancellationofelections
+Label: What would you do about the suspension of parliament and cancellation of elections
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing
+
+Pk: 860
+Id: whatwouldyoudoaboutthesuspensionofparliamentandcancellationofelections
+Label: What would you do about the suspension of parliament and cancellation of elections
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing
+
+Pk: 860
+Id: whatwouldyoudoaboutthesuspensionofparliamentandcancellationofelections
+Label: What would you do about the suspension of parliament and cancellation of elections
+ValueLabels: 1;Do nothing,2;Speak to others,3;Write to newspaper,4;Phone radio/TV,5;Contact govt official,6;Join march/demonstration,7;Do not know,96;No further answers,98;Refused,99;Missing
+
+Pk: 0
+Id: govtsystemwilltakelongtodealwithproblemsvsoughttodealwithit
+Label: Govt system will take long to deal with problems Vs ought to deal with it
+ValueLabels: 1;Will take years to deal with problems : Agree strongly,2;Will take years to deal with problems : Agree somewhat,3;Ought to deal with problems now : Agree somewhat,4;Ought to deal with problems now : Agree strongly,5;Do not know,6;Do not agree with either,98;Refused,99;Missing data
+
+Pk: 0
+Id: majorityruleneededfordemocracy
+Label: Majority Rule needed for democracy
+ValueLabels: 1;Absolutely essential,2;Important,3;Not very important,4;Not important at all,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: freedomtocriticisethegovernmentanddemocracy
+Label: Freedom to criticise the government and democracy
+ValueLabels: 1;Absolutely essential,2;Important,3;Not very important,4;Not important at all,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: regularelectionsanddemocracy
+Label: Regular elections and democracy
+ValueLabels: 1;Absolutely essential,2;Important,3;Not very important,4;Not important at all,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 644
+Id: atleasttwopoliticalpartiescompeting
+Label: At least two political parties competing
+ValueLabels: 1;Very important,2;Important,3;Not very important,4;Not at all important,9;Do not know
+
+Pk: 0
+Id: basicnecessitiesanddemocracy
+Label: Basic necessities and democracy
+ValueLabels: 1;Absolutely essential,2;Important,3;Not very important,4;Not important at all,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: jobsforeveryoneanddemocracy
+Label: Jobs for everyone and democracy
+ValueLabels: 1;Absolutely essential,2;Important,3;Not very important,4;Not important at all,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: equalityineducationanddemocracy
+Label: Equality in education and democracy
+ValueLabels: 1;Absolutely essential,2;Important,3;Not very important,4;Not important at all,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: smallincomegapbetweenrichandpooranddemocracy
+Label: Small income gap between rich and poor and democracy
+ValueLabels: 1;Absolutely essential,2;Important,3;Not very important,4;Not important at all,5;Do not know,96;No further answer,98;Refused,99;Missing data
+
+Pk: 0
+Id: strongleadervsdemocracyisbest
+Label: Strong leader Vs democracy is best
+ValueLabels: 1;Strongly agree-Need a strong leader,2;Agree-Need strong leader,3;Agree-Democracy always best,4;Strongly Agree-Democracy always best,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: themannerinwhich[country]isgoverned
+Label: The manner in which [country] is governed
+ValueLabels: 1;Completely democratic,2;Democratic with minor problems,3;Democratic with major problems,4;Not a democracy,5;Do not understand question,6;Do not know,98;Refused,99;Missing data
+
+Pk: 388
+Id: howsatisfiedareyouwithdemocracyin[country]
+Label: How satisfied are you with democracy in [country]
+ValueLabels: 1;Very satisfied,2;Fairly Satisfied,3;Not very satisfied,4;Not at all satisfied,5;Not a democracy,6;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: importantchangesaboutwaythecountryisgoverned
+Label: Important changes about way the country is governed
+ValueLabels: 1;Do not know,2;Nothing,3;Ruling of country by constitutional laws,4;Criminal procedures/laws,5;Violence,6;Employment/unemployment,7;Democracy must work,8;Democracy,9;Availability of basic needs ( Water|electricity ),10;Salaries,11;Schools,12;Prices of goods,13;Living standards,14;Govt  officials must visit all parts of country,15;Housing,16;The parliament,17;Election policy,18;They must work for people's benefits,19;Clinic fees must not be increased,20;Fairness/ equality to all,21;Equality in govt jobs,22;President's ruling term to be limited,23;Terminate ex-army pensions,24;Increase export capacity,25;Invite investors into the country,26;Social security,27;Give people land,28;Drought relief,29;Equality to all people,30;Better health services/facilities/hospitals,31;Freedom,32;Peace,33;Ministers must change,34;Bring back death penalty,35;Increase pension,36;Apartheid,37;Laws against squatter camps,38;Stop corruption,39;More rights to police officers,40;Police must patrol areas,41;Ex-plan fighters must get jobs & privileges,42;More control over personal rights by govt,43;Less control over personal rights by govt,44;Vice-presidents must go,45;Need new constitution/change constitution,46;President should retire,47;Government need to create employment,48;People suffering,49;Old people should be assisted,50;People should live by traditional customs,51;Prostitution too high,52;Govt should listen to people's problems,53;Reduce number of ministers,54;Rule by chiefs,55;Appointment of ministers,56;Govt should rule properly,57;Should be elections for ministers,58;The economy,59;Reduce President's powers,60;Do away with governors,61;Give headman more power,62;People should be free to join any pol party,63;Freedom in all respects,64;Parliament must change,65;Education,66;Crime,67;Taxes,68;Poverty,69;Stop rigging elections,70;Build schools,71;Responsible Govt budget/Expenditure,72;Assist businessmen with investments,73;Fire ministers,74;Currency,75;Change ruling party,76;Prevent crime,77;Prevent rape,78;Election,79;Reduce income disparity,80;Provide shelter,81;Quality of educ /Educ should be improved,82;Dept of corruption should be independent,83;Govt should consult people,84;Chiefdomship should be inherited,85;Culture,86;Improve agriculture,87;Give other party leaders a chance,88;Reduce election period from 5 to 2 years,89;Do not know,90;Give opp parties cabinet posts,91;Improve health care,92;Citizen empowerment,93;Monitor influence of foreigners,94;Teach electorate about politics,95;Discourage promotions of failed students,96;No further responses,97;MP's + councillors should keep promises,98;Refused to answer,100;More business ownership,101;Accountability,102;Should not change cabinet ministers,103;Amend laws,104;Amend marriage laws,105;Cost of education,106;In-service training,107;Address youth issues,108;Strong opposition,109;Education of community,110;Sex education,111;Unity in country,112;Transparency,113;Constitution,114;More educational institutions,115;Leadership,116;Nation must have a king,117;Roads,118;Teachers,119;Govt structure,120;Transport problems,121;Old retire for young,122;Deport whites,123;Constructing bridges,124;National development to cover entire area,125;Govt way of borrowing money,126;Govt should respect opposition leaders,127;Regionalism in country must stop,128;Competition between informal + formal markets must stop,129;Go back to one-party govt,130;Need bore-holes instead of piped water,131;President should be replaced,132;Parliament must be re-elected,133;Culture should be maintained,134;Weak leadership,135;Shortage of teachers,136;Schools/Education,137;Stricter border controls,138;Govt must work for people's benefit,139;Basic health services,140;Create projects,141;Death penalty,142;Ex-plan fighters must get jobs/privileges,143;Improve economy,144;Farm-workers benefits,145;Tribalism,146;Rates & Taxes,999;Missing data
+
+Pk: 0
+Id: importantchangesaboutwaythecountryisgoverned
+Label: Important changes about way the country is governed
+ValueLabels: 1;Do not know,2;Nothing,3;Ruling of country by constitutional laws,4;Criminal procedures/laws,5;Violence,6;Employment/unemployment,7;Democracy must work,8;Democracy,9;Availability of basic needs ( Water|electricity ),10;Salaries,11;Schools,12;Prices of goods,13;Living standards,14;Govt  officials must visit all parts of country,15;Housing,16;The parliament,17;Election policy,18;They must work for people's benefits,19;Clinic fees must not be increased,20;Fairness/ equality to all,21;Equality in govt jobs,22;President's ruling term to be limited,23;Terminate ex-army pensions,24;Increase export capacity,25;Invite investors into the country,26;Social security,27;Give people land,28;Drought relief,29;Equality to all people,30;Better health services/facilities/hospitals,31;Freedom,32;Peace,33;Ministers must change,34;Bring back death penalty,35;Increase pension,36;Apartheid,37;Laws against squatter camps,38;Stop corruption,39;More rights to police officers,40;Police must patrol areas,41;Ex-plan fighters must get jobs & privileges,42;More control over personal rights by govt,43;Less control over personal rights by govt,44;Vice-presidents must go,45;Need new constitution/change constitution,46;President should retire,47;Government need to create employment,48;People suffering,49;Old people should be assisted,50;People should live by traditional customs,51;Prostitution too high,52;Govt should listen to people's problems,53;Reduce number of ministers,54;Rule by chiefs,55;Appointment of ministers,56;Govt should rule properly,57;Should be elections for ministers,58;The economy,59;Reduce President's powers,60;Do away with governors,61;Give headman more power,62;People should be free to join any pol party,63;Freedom in all respects,64;Parliament must change,65;Education,66;Crime,67;Taxes,68;Poverty,69;Stop rigging elections,70;Build schools,71;Responsible Govt budget/Expenditure,72;Assist businessmen with investments,73;Fire ministers,74;Currency,75;Change ruling party,76;Prevent crime,77;Prevent rape,78;Election,79;Reduce income disparity,80;Provide shelter,81;Quality of educ /Educ should be improved,82;Dept of corruption should be independent,83;Govt should consult people,84;Chiefdomship should be inherited,85;Culture,86;Improve agriculture,87;Give other party leaders a chance,88;Reduce election period from 5 to 2 years,89;Do not know,90;Give opp parties cabinet posts,91;Improve health care,92;Citizen empowerment,93;Monitor influence of foreigners,94;Teach electorate about politics,95;Discourage promotions of failed students,96;No further responses,97;MP's + councillors should keep promises,98;Refused to answer,100;More business ownership,101;Accountability,102;Should not change cabinet ministers,103;Amend laws,104;Amend marriage laws,105;Cost of education,106;In-service training,107;Address youth issues,108;Strong opposition,109;Education of community,110;Sex education,111;Unity in country,112;Transparency,113;Constitution,114;More educational institutions,115;Leadership,116;Nation must have a king,117;Roads,118;Teachers,119;Govt structure,120;Transport problems,121;Old retire for young,122;Deport whites,123;Constructing bridges,124;National development to cover entire area,125;Govt way of borrowing money,126;Govt should respect opposition leaders,127;Regionalism in country must stop,128;Competition between informal + formal markets must stop,129;Go back to one-party govt,130;Need bore-holes instead of piped water,131;President should be replaced,132;Parliament must be re-elected,133;Culture should be maintained,134;Weak leadership,135;Shortage of teachers,136;Schools/Education,137;Stricter border controls,138;Govt must work for people's benefit,139;Basic health services,140;Create projects,141;Death penalty,142;Ex-plan fighters must get jobs/privileges,143;Improve economy,144;Farm-workers benefits,145;Tribalism,146;Rates & Taxes,999;Missing data
+
+Pk: 0
+Id: importantchangesaboutwaythecountryisgoverned
+Label: Important changes about way the country is governed
+ValueLabels: 1;Do not know,2;Nothing,3;Ruling of country by constitutional laws,4;Criminal procedures/laws,5;Violence,6;Employment/unemployment,7;Democracy must work,8;Democracy,9;Availability of basic needs ( Water|electricity ),10;Salaries,11;Schools,12;Prices of goods,13;Living standards,14;Govt  officials must visit all parts of country,15;Housing,16;The parliament,17;Election policy,18;They must work for people's benefits,19;Clinic fees must not be increased,20;Fairness/ equality to all,21;Equality in govt jobs,22;President's ruling term to be limited,23;Terminate ex-army pensions,24;Increase export capacity,25;Invite investors into the country,26;Social security,27;Give people land,28;Drought relief,29;Equality to all people,30;Better health services/facilities/hospitals,31;Freedom,32;Peace,33;Ministers must change,34;Bring back death penalty,35;Increase pension,36;Apartheid,37;Laws against squatter camps,38;Stop corruption,39;More rights to police officers,40;Police must patrol areas,41;Ex-plan fighters must get jobs & privileges,42;More control over personal rights by govt,43;Less control over personal rights by govt,44;Vice-presidents must go,45;Need new constitution/change constitution,46;President should retire,47;Government need to create employment,48;People suffering,49;Old people should be assisted,50;People should live by traditional customs,51;Prostitution too high,52;Govt should listen to people's problems,53;Reduce number of ministers,54;Rule by chiefs,55;Appointment of ministers,56;Govt should rule properly,57;Should be elections for ministers,58;The economy,59;Reduce President's powers,60;Do away with governors,61;Give headman more power,62;People should be free to join any pol party,63;Freedom in all respects,64;Parliament must change,65;Education,66;Crime,67;Taxes,68;Poverty,69;Stop rigging elections,70;Build schools,71;Responsible Govt budget/Expenditure,72;Assist businessmen with investments,73;Fire ministers,74;Currency,75;Change ruling party,76;Prevent crime,77;Prevent rape,78;Election,79;Reduce income disparity,80;Provide shelter,81;Quality of educ /Educ should be improved,82;Dept of corruption should be independent,83;Govt should consult people,84;Chiefdomship should be inherited,85;Culture,86;Improve agriculture,87;Give other party leaders a chance,88;Reduce election period from 5 to 2 years,89;Do not know,90;Give opp parties cabinet posts,91;Improve health care,92;Citizen empowerment,93;Monitor influence of foreigners,94;Teach electorate about politics,95;Discourage promotions of failed students,96;No further responses,97;MP's + councillors should keep promises,98;Refused to answer,100;More business ownership,101;Accountability,102;Should not change cabinet ministers,103;Amend laws,104;Amend marriage laws,105;Cost of education,106;In-service training,107;Address youth issues,108;Strong opposition,109;Education of community,110;Sex education,111;Unity in country,112;Transparency,113;Constitution,114;More educational institutions,115;Leadership,116;Nation must have a king,117;Roads,118;Teachers,119;Govt structure,120;Transport problems,121;Old retire for young,122;Deport whites,123;Constructing bridges,124;National development to cover entire area,125;Govt way of borrowing money,126;Govt should respect opposition leaders,127;Regionalism in country must stop,128;Competition between informal + formal markets must stop,129;Go back to one-party govt,130;Need bore-holes instead of piped water,131;President should be replaced,132;Parliament must be re-elected,133;Culture should be maintained,134;Weak leadership,135;Shortage of teachers,136;Schools/Education,137;Stricter border controls,138;Govt must work for people's benefit,139;Basic health services,140;Create projects,141;Death penalty,142;Ex-plan fighters must get jobs/privileges,143;Improve economy,144;Farm-workers benefits,145;Tribalism,146;Rates & Taxes,999;Missing data
+
+Pk: 390
+Id: areyouclosetoanypoliticalparty
+Label: Are you close to any political party
+ValueLabels: 1;Yes,2;No,3;Do not know,98;Refused,99;Missing data
+
+Pk: 391
+Id: whichpartyareyoucloseto
+Label: Which party are you close to
+ValueLabels: 1;Congress of Democrats,2;DCN,3;DTA,4;FCN,5;MAG,6;SWANU,7;SWAPO,8;United Democratic Front,9;Worker's Revolutionary Party,10;Refused,11;Do not know,12;Other,13;Labour Party,14;Movement for democratic change,15;Democratic Party,16;Conservative Alliance of Zimbabwe,17;Liberty Party,18;Front for Popular Democracy,19;National Democratic Alliance of Zimbabwe,20;Transparency Front,21;United Parties,22;Zimbabwe African People's Union,23;Zimbabwe Party,24;Zimbabwe People's Democratic Party,25;Zimbabwe Union of Democrats,26;Zimbabwe Intergrated Party,27;ZANU-PF,29;Botswana Democratic Party (BDP),30;Botswana (BLP),31;Independence Freedom Party,32;Botswana Progressive Union (BPU),33;Botswana Alliance Movement (BAM),34;Botswana National Front,35;Botswana Congress Party,36;Mels Movement of Botswana,37;United Socialist Party (PUSO),38;Botswana People's Party (BPP),39;United Action Party (Bosele),51;AFORD,52;MCP,53;UDF,54;United Party,55;Sapiywa Democratic Party,56;Malawi Democratic Union (MDU),57;Malawi Democratic Party (MDP),58;Social Democratic Party (SDP),59;Basotho National Party,60;Basutoland Congress Party,61;Christian Democratic Party,62;Kopanang Basotho Party,63;Lesotho Congress for Democracy,64;Lesotho Educational Party,65;Lesotho Labour Party,66;Marematlou Freedom Party,67;National Independent Party,68;National Progressive Party,69;New Lesotho Freedom Party,70;Popular Front for Democracy,71;Sefate Democratic Union,72;Social Democratic Party,73;United Party,97;No party,99;Missing data
+
+Pk: 392
+Id: howclosedoyoufeeltothisparty
+Label: How close do you feel to this party
+ValueLabels: 1;Very close,2;Somewhat close,3;Not very close,4;Do not know,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 393
+Id: howoldwereyouonyourlastbirthday
+Label: How old were you on your last birthday
+ValueLabels: 99;Missing data
+
+Pk: 0
+Id: yearyouwereborn
+Label: Year you were born
+ValueLabels: 99;Missing Data
+
+Pk: 5
+Id: homelanguage
+Label: Home language
+ValueLabels: 1;Alur,2;Ateso,3;Kakwa,4;Kinyarwanda,5;Kiswahili,6;Luganda,7;Lugbara,8;Lumasaba,9;Luo,10;Lusoga,11;Madi,12;Ruhororo,13;Rukiga,14;Runyoro,15;Rutooro,16;Ruyankole,17;Samia-Lugwe,18;Other,99;Missing Data
+
+Pk: 0
+Id: highestgrade/std/formcompleted
+Label: Highest grade/std/form completed
+ValueLabels: 1;No formal schooling,2;Some Primary school,3;Primary school completed,4;Some high school,5;High school completed,6;Some University/college,7;University/college completed,8;Post graduate,9;Other post matric qualification,10;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: jobstatusparttime/fulltime
+Label: Job status: part-time/ full-time
+ValueLabels: 1;No (not looking),2;No (looking),3;Yes| part time (not looking),4;Yes| part time (looking),5;Yes| full time (not looking),6;Yes| full time (looking),7;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: recentlyhaveyoubeenunemployedforonemonthormore
+Label: Recently have you been unemployed for one month or more
+ValueLabels: 1;Yes,2;No,3;Do not remember,98;Refused,99;Missing data
+
+Pk: 0
+Id: howmanymonthswereyouunemployed
+Label: How many months were you unemployed
+ValueLabels: 1;1 month,2;2 months,3;3 months,4;4months,5;5 months,6;6 months,7;7 months,8;8 months,9;9 months,10;10 months,11;11 months,12;12 months,13;Do not know,97;Not applicable,98;Refused,99;Missing data
+
+Pk: 0
+Id: doyouworkfornocashpay
+Label: Do you work for no cash pay
+ValueLabels: 1;No,2;Raising children (part-time),3;Raising children(full-time),4;Cleaning (part-time),5;Cleaning (full-time),6;Looking after animals (part-time),7;Looking after animals (full-time),8;Growing food (part-time),9;Growing food (full-time),10;Volunteer work (part-time),11;Volunteer work (full-time),12;Other,98;Refused,99;Missing data
+
+Pk: 0
+Id: present/lastoccupation
+Label: Present/last occupation
+ValueLabels: 1;Employer| 10 or more employees,2;Employer| 10 or less  employees,3;Professional Worker,4;Supervisor Office Worker/Supervises others,5;Non-Manual Office Worker(Non Supervisor),6;Foreman/Supervisor,7;Skilled Manual Worker(Formal Sector),8;Skilled Manual Worker(Informal Sect/Prod),9;Unskilled Manual Worker(Formal Sect),10;Unskilled Manual Worker(Informal sect),11;Miner,12;Farmer (Own Commercial Farm),13;Farmer (Own Subsistence Farm),14;Farm worker,15;Domestic/Maid/Char,16;Armed Services/Police/Security Pers,17;Student,18;Housewife/Works In the Household,19;Disabled,20;Never had job before,21;Do not know,22;Taxi driver,23;Pensioner,24;Self-employed| no employees,25;Unemployed,26;Work for Government,27;Manager(Outside office),99;Missing Data
+
+Pk: 8
+Id: occupation
+Label: Occupation
+ValueLabels: 0;Unemployed,1;Farmer/fisherman,2;Informal marketeer,3;Businessperson,4;Clerical worker,5;Artisan,6;Domestic worker,7;Miner,8;Technical worker,9;Teacher,10;Government worker,11;NGO worker,12;Professional,13;Retired,14;Housewife,15;Student,16;Transporter,17;Medical worker,18;Soldier,19;Shop keeper,95;Other,99;Missing Data
+
+Pk: 0
+Id: recentlydidyouhavetodowithoutacashincome
+Label: Recently did you have to do without a cash income
+ValueLabels: 1;Often,2;Sometimes,3;Rarely,4;Never,5;Do not know,98;Refused,99;Missing data
+
+Pk: 0
+Id: howdoyounormallyobtaincash
+Label: How do you normally obtain cash
+ValueLabels: 1;From Employer,2;Work for myself/investments,3;Local community/co-operative association,4;Friends/family,5;Govt pension,6;Traditional leader,7;Know someone-govt welfare assistance,8;Favour/Bribe govt official,9;Pretend I'm eligible for govt assistance,10;Steal/sell illegal goods,11;Ask anyone to help me,12;Nothing I can do,14;Other,17;Start small business,18;Sell livestock,19;Informal trader,22;Husband provides,23;Boyfriend provides,25;Someone helps  me get govt assistance,30;Looking for a job,32;Do not know,33;Own a business,34;Casual work,35;Part-time work,36;From Children,37;From parents,39;Pension,40;Would give up,41;Pray,42;Go to my village,43;Make a loan,44;Washing cars,45;Do anything,46;Self-help projects,47;Ask the govt,48;Gold panning,49;Fishing,50;Building,51;Investment,52;Commercial sex,53;Begging,57;Selling baskets,58;Selling food,59;Speculating with anything,60;Find a job,96;No further responses,98;Refused,99;Missing data
+
+Pk: 0
+Id: howdoyounormallyobtaincash
+Label: How do you normally obtain cash
+ValueLabels: 1;From Employer,2;Work for myself/investments,3;Local community/co-operative association,4;Friends/family,5;Govt pension,6;Traditional leader,7;Know someone-govt welfare assistance,8;Favour/Bribe govt official,9;Pretend I'm eligible for govt assistance,10;Steal/sell illegal goods,11;Ask anyone to help me,12;Nothing I can do,14;Other,17;Start small business,18;Sell livestock,19;Informal trader,22;Husband provides,23;Boyfriend provides,25;Someone helps  me get govt assistance,30;Looking for a job,32;Do not know,33;Own a business,34;Casual work,35;Part-time work,36;From Children,37;From parents,39;Pension,40;Would give up,41;Pray,42;Go to my village,43;Make a loan,44;Washing cars,45;Do anything,46;Self-help projects,47;Ask the govt,48;Gold panning,49;Fishing,50;Building,51;Investment,52;Commercial sex,53;Begging,57;Selling baskets,58;Selling food,59;Speculating with anything,60;Find a job,96;No further responses,98;Refused,99;Missing data
+
+Pk: 0
+Id: howdoyounormallyobtaincash
+Label: How do you normally obtain cash
+ValueLabels: 1;From Employer,2;Work for myself/investments,3;Local community/co-operative association,4;Friends/family,5;Govt pension,6;Traditional leader,7;Know someone-govt welfare assistance,8;Favour/Bribe govt official,9;Pretend I'm eligible for govt assistance,10;Steal/sell illegal goods,11;Ask anyone to help me,12;Nothing I can do,14;Other,17;Start small business,18;Sell livestock,19;Informal trader,22;Husband provides,23;Boyfriend provides,25;Someone helps  me get govt assistance,30;Looking for a job,32;Do not know,33;Own a business,34;Casual work,35;Part-time work,36;From Children,37;From parents,39;Pension,40;Would give up,41;Pray,42;Go to my village,43;Make a loan,44;Washing cars,45;Do anything,46;Self-help projects,47;Ask the govt,48;Gold panning,49;Fishing,50;Building,51;Investment,52;Commercial sex,53;Begging,57;Selling baskets,58;Selling food,59;Speculating with anything,60;Find a job,96;No further responses,98;Refused,99;Missing data
+
+Pk: 0
+Id: othermethodsusedtogetcash
+Label: Other methods used to get cash
+ValueLabels: 1;From Employer,2;Work for myself/investments,3;Local community/co-operative association,4;Friends/family,5;Govt pension,6;Traditional leader,7;Know someone-govt welfare assistance,8;Favour/Bribe govt official,9;Pretend I'm eligible for govt assistance,10;Steal/sell illegal goods,11;Ask anyone to help me,12;Nothing I can do,13;Do not know,14;Other,22;Husband provides,23;Boyfriend provides,25;Someone helps  me get govt assistance,30;Looking for a job,33;Own a business,34;Casual work,35;Part-time work,36;From Children,37;From parents,39;Pension,40;Would give up,41;Pray,42;Go to my village,43;Make a loan,44;Washing cars,45;Do anything,46;Self-help projects,47;Ask the govt,48;Gold panning,49;Fishing,50;Building,51;Investment,52;Commercial sex,53;Begging,57;Selling baskets,58;Selling food,59;Speculating with anything,60;Find a job,96;No further responses,98;Refused,99;Missing data
+
+Pk: 0
+Id: othermethodsusedtogetcash
+Label: Other methods used to get cash
+ValueLabels: 1;From Employer,2;Work for myself/investments,3;Local community/co-operative association,4;Friends/family,5;Govt pension,6;Traditional leader,7;Know someone-govt welfare assistance,8;Favour/Bribe govt official,9;Pretend I'm eligible for govt assistance,10;Steal/sell illegal goods,11;Ask anyone to help me,12;Nothing I can do,13;Do not know,14;Other,22;Husband provides,23;Boyfriend provides,25;Someone helps  me get govt assistance,30;Looking for a job,33;Own a business,34;Casual work,35;Part-time work,36;From Children,37;From parents,39;Pension,40;Would give up,41;Pray,42;Go to my village,43;Make a loan,44;Washing cars,45;Do anything,46;Self-help projects,47;Ask the govt,48;Gold panning,49;Fishing,50;Building,51;Investment,52;Commercial sex,53;Begging,57;Selling baskets,58;Selling food,59;Speculating with anything,60;Find a job,96;No further responses,98;Refused,99;Missing data
+
+Pk: 0
+Id: othermethodsusedtogetcash
+Label: Other methods used to get cash
+ValueLabels: 1;From Employer,2;Work for myself/investments,3;Local community/co-operative association,4;Friends/family,5;Govt pension,6;Traditional leader,7;Know someone-govt welfare assistance,8;Favour/Bribe govt official,9;Pretend I'm eligible for govt assistance,10;Steal/sell illegal goods,11;Ask anyone to help me,12;Nothing I can do,13;Do not know,14;Other,22;Husband provides,23;Boyfriend provides,25;Someone helps  me get govt assistance,30;Looking for a job,33;Own a business,34;Casual work,35;Part-time work,36;From Children,37;From parents,39;Pension,40;Would give up,41;Pray,42;Go to my village,43;Make a loan,44;Washing cars,45;Do anything,46;Self-help projects,47;Ask the govt,48;Gold panning,49;Fishing,50;Building,51;Investment,52;Commercial sex,53;Begging,57;Selling baskets,58;Selling food,59;Speculating with anything,60;Find a job,96;No further responses,98;Refused,99;Missing data
+
+Pk: 0
+Id: knowaclosefriendorrelativethatdiedofaids
+Label: Know a close friend or relative that died of AIDS
+ValueLabels: 1;Yes,2;No,3;Will not say,4;Do not know,99;Missing data
+
+Pk: 559
+Id: suburb
+Label: Suburb
+ValueLabels: 1;Actonville,2;Actonville,3;Agavia,4;Alexandra,5;Alexandra,6;Algoa Park,7;Amatikwe Inanda,8;Attrigeville,9;Attrigeville,10;Attrigeville,11;Attrigeville,12;Austerville,13;Balfour,14;Barberton,15;Bayview,16;Bayview,17;Bekkersdal,18;Belfast,19;Belgravia,20;Bellville-Suid,21;Benoni,22;Besters Camp,23;Bethlehem,24;Bethlehem,25;Bethlehem,26;Bishops Court,27;Bloemendal,28;Bochum,29;Boksburg North,30;Bolodedu (Ga-Modjadji),31;Bolodedu (Ga-Modjadji),32;Bolodedu (Ga-Modjadji),33;Bonteheuwel,34;Botshabelo,35;Botshabelo,36;Botshabelo,37;Botshabelo,38;Botshabelo,39;Bredasdorp,40;Bridgetown,41;Brits,42;Brits,43;Britstown,44;Britstown,45;Brooklyn,46;Bultfontein,47;Burghersdorp,48;Butterworth,49;Butterworth,50;Butterworth,51;Cacadu/Glen Grey (Umtata),52;Cacadu/Glen Grey (Umtata),53;Cacadu/Glen Grey (Umtata),54;Caledon,55;Camperdown,56;Camperdown,57;Camps Bay/Bakoven,58;Carltonville,59;Cathcart,60;Cathcart,61;CBD,62;CBD,63;Chartwell/Diepsloot,64;Chiawelo,65;Chiawelo,66;Chiawelo,67;Chiawelo,68;Clare Hills,69;Clermont,70;Cofimvaba/St.Marks,71;Coligny,72;Cottondale (Mapulaneng),73;Cradock,74;Croydon,75;Daveyton,76;Daveyton,77;Daveyton,78;Daveyton,79;Daveyton,80;Daveyton,81;De Aar,82;De Aar,83;Delareyville,84;Dhlamini,85;Diepkloof,86;Dinwiddie,87;Dobsonville,88;Duiwelskloof (Letaba),89;Duncans Village/Gompo Town,90;Dundee,91;Dzanini (Wyllies Poort),92;Dzanini (Wyllies Poort),93;Eastridge,94;Eastridge,95;Edendale Valley,96;Edendale Valley,97;Edenpark,98;Edenvale,99;Eerstehoek (Lochiel),100;Eerstehoek (Lochiel),101;Eerstehoek (Lochiel),102;Ekangala (Mkobola),103;Eldorado Park (*WRM),104;Eldorado Park (*WRM),105;Emdeni,106;Emdeni,107;Emnambithi (Wasbank),108;Emnambithi (Wasbank),109;Emtshebeni Inanda,110;Engcobo,111;Engcobo,112;Enseleni (Samkele),113;Enseleni (Samkele),114;Ermelo,115;Ermelo,116;Ermelo,117;Ermelo,118;Estcourt,119;Evander (Highveld Ridge/Hoeveldrif),120;Evander (Highveld Ridge/Hoeveldrif),121;Evander (Highveld Ridge/Hoeveldrif),122;Evaton,123;Evaton,124;Evaton,125;Evaton,126;Ezingolweni,127;Fort Beaufort,128;Frankfort,129;Fresnaye,130;Fynnlands,131;Ga-Modjadji (Bolobedu),132;Ga-Modjadji (Bolobedu),133;Gatayana/Willowvale,134;Gcuwa/Butterworth,135;Generaal De Wet,136;George,137;George,138;Germiston,139;Gezina,140;Glevendale,141;Gonubie,142;GoQokazi Inanda,143;Gordonia (Groblershoop),144;Gordonia (Groblershoop),145;Grove End,146;Guguletu - Gen,147;Guguletu - Gen,148;Guguletu - Gen,149;Guguletu - Gen,150;Guguletu - Gen,151;Guguletu - Old tip site,152;Hanover,153;Harrismith,154;Hartswater,155;Havenside,156;Havenside,157;Hay (Griekwastad),158;Heidelberg,159;Herschel,160;Herschel,161;Highflats (Vulamehlo),162;Hillbrow,163;Hillbrow,164;Hlabisa,165;Hlanganani,166;Hlanganani (Thornville),167;Hofmeyr,168;Homer,169;Howick (Lions River),170;Humansdorp,171;Idutywa,172;Idutywa,173;Imbali,174;Imbali,175;Imbali,176;Inanda,177;Inanda Miss/loca,178;Inanda Miss/loca,179;Inhlungwane Inanda,180;Isipingo Rail,181;Itsoseng (Ditsobotla),182;Jabuvu,183;Jabuvu,184;Kabah,185;Kabenga,186;Kagiso,187;Kagiso,188;Kagiso,189;Kalk Bay,190;Katlehong,191;Katlehong,192;Katlehong,193;Katlehong,194;Katlehong,195;Katlehong,196;Keiskammahoek,197;Kempton Park,198;Kenridge,199;Kensington,200;Kenville,201;Khayalitsha - Gen,202;Khayalitsha - Gen,203;Khayalitsha - Gen,204;Khayalitsha - Site B,205;Khayalitsha - Site C,206;Kimberley,207;Kimberley,208;Kimberley,209;Kimberley,210;Kimberley,211;Kimberley,212;King Williams Town,213;Klaarwater,214;Klerksdorp,215;Klerksdorp,216;Klerksdorp,217;Klerksdorp,218;Klerksdorp,219;Klerksdorp,220;Klerksdorp,221;Kliprivier (Roosboom),222;Koppies,223;Koppies,224;Kroonstad,225;Kroonstad,226;Krugerdorp,227;Krugerdorp,228;Kuilsrivier,229;Kuilsrivier,230;Kwa Mapumulu (Mapumulo),231;Kwa Mapumulu (Mapumulo),232;Kwabacha (Mt Frere),233;KwaMakhuta (Amanz),234;KwaMashu,235;KwaMashu,236;KwaMashu,237;KwaMashu,238;Kwathema (Spr),239;KwaZakele,240;KwaZakele,241;KwaZakele,242;Lady Grey,243;Langa,244;Langa - Gen,245;Lansdowne,246;Leandra (Highveld Ridge/Hoeveldrif),247;Lehurutshe (Blairbeth),248;Lehurutshe (Blairbeth),249;Lentegeur,250;Lichtenburg,251;Lindelani (Ntu),252;Lindley,253;Lochiel (Eerstehoek),254;Louis Trichardt,255;Louis Trichardt,256;Mabopane,257;Macassar - gen,258;Madadeni,259;Madadeni,260;Madadeni,261;Mahlabatini,262;Makamole (Mokerong),263;Makamole (Mokerong),264;Makamole (Mokerong),265;Malamulele,266;Malamulele,267;Malmesbury,268;Mamelodi,269;Mamelodi,270;Mangaung (Bochabelo),271;Mankwe (Mogwase),272;Mankwe (Mogwase),273;Mankwe (Mogwase),274;Mapetla,275;Mapulaneng (Cottondale),276;Mapulaneng (Cottondale),277;Mapulaneng (Cottondale),278;Mattatiele,279;Mdantsane,280;Mdantsane,281;Mdantsane,282;Mdantsane,283;Mdantsane,284;Mdantsane,285;Mdantsane,286;Mdantsane,287;Mdantsane,288;Mdantsane,289;Mdutjana (Witnet),290;Meadowlands East,291;Meadowlands West,292;Meadowlands West,293;Meadowridge,294;Melrose North,295;Messina,296;Middelburg,297;Middeldrift,298;Middeldrift,299;Middeldrift,300;Mkobola (Ekangala),301;Mobeni,302;Mofolo,303;Mohlakeng,304;Mohlakeng,305;Mokerong (Mokamole),306;Mokerong (Mokamole),307;Moletsane,308;Molopo (Mafikeng),309;Molopo (Mafikeng),310;Montagu,311;Montclair,312;Montford,313;Montgomery Park,314;Moorreesburg,315;Moregloed,316;Moretele 1 (Themba),317;Moretele 1 (Themba),318;Morningside,319;Moroka,320;Mosselbaai/Bay,321;Mosselbaai/Bay,322;Mosselbaai/Bay,323;Motherwell,324;Motherwell,325;Motherwell,326;Mount Road,327;Moutse (Siyabuswa),328;Moutse (Siyabuswa),329;Moutse (Siyabuswa),330;Moutse (Siyabuswa),331;Mpumalanga,332;Mpumalanga,333;Mqanduli,334;Msinga (Keates Drift),335;Msinga (Pomeroy),336;Mt Frere (Kwabacha),337;Munsieville,338;Naphuno (Trichardsdal),339;Naphuno (Trichardsdal),340;New Brighton,341;New Brighton,342;Newcastle,343;Newtown Inanda,344;Newtown Inanda,345;Newtown Inanda,346;Ngome (Ngotshe),347;Nkomazi (Matsamo),348;Nkwalini (Ongoye),349;Nongoma,350;Northcroft,351;Northcroft,352;Northpine,353;Nqamakwe,354;Nqamakwe,355;Nsikazi (Plaston),356;Nsikazi (Plaston),357;Nsikazi (Plaston),358;Ntuzuma (Phoenix),359;Ntuzuma other,360;Ntuzuma other,361;Nyanga  - New Crossroads,362;Nylstroom,363;Nylstroom,364;Odendaalsrus,365;Odi 1 (Winterveld),366;Odi 1 (Winterveld),367;Odi 1 (Winterveld),368;Ohlanga Inanda,369;Ohlanga Inanda,370;Okhahlamba (Frere),371;Olifantshoek (Gordonia),372;Ongoye (Mtunzini),373;Orange Farm,374;Orlando West,375;Paarl,376;Paarl,377;Paarl,378;Parkdene,379;Parktown,380;Parys,381;Peddie,382;Peddie,383;Philippi - East (Stock),384;Philippi Town,385;Pietersburg,386;Pietersburg,387;Pietersburg,388;Pimville,389;Pimville,390;Postmasburg,391;Postmasburg,392;Potchefstroom,393;Potchefstroom,394;Potchefstroom,395;Potchefstroom,396;Potchefstroom,397;Potchefstroom,398;Potchefstroom,399;Potgietersrus,400;Potgietersrus,401;Prieska,402;Racecourse,403;Racecourse,404;Racecourse,405;Refengkgotso,406;Reservoir Hills,407;Retreat,408;Ricecliff,409;Richmond,410;Richmond,411;Robertsham,412;Rocklands,413;Rooikop,414;Rosettenville,415;Rugby,416;Rustenburg,417;Rustenburg,418;Rustenburg,419;Rydalvale,420;Sada (Hewu),421;Sada (Hewu),422;Sarepta,423;Scarbourgh,424;Schweizer-Reneke,425;Sebokeng South,426;Sekgosese (Ha-Magoro),427;Sekhukhuneland,428;Sekhukhuneland,429;Sekhukhuneland,430;Senaoane,431;Senekal,432;Seshego,433;Shallcross,434;Shallcross,435;Sharonlea,436;Sharpville,437;Sharpville,438;Sherwood,439;Simdlangentsha (Louwsburg),440;Soshanguve,441;South Downs (Okhahlamba),442;Soutpan (Wonderboom),443;Springs,444;St Wendolins/Savanah,445;St Wendolins/Savanah,446;Standerton,447;Stanger,448;Stanger,449;Stellenbosch,450;Steytlerville,451;Steytlerville,452;Stutterheim,453;Stutterheim,454;Sunward Park,455;Swellendam,456;Swellendam,457;Swellendam,458;Sydenham,459;Sydenham,460;Tafelsig,461;Taung,462;Tembisa,463;Tembisa,464;Tembisa,465;Thabamoopo (Lebowakgomo),466;Thabamoopo (Lebowakgomo),467;Thabamoopo (Lebowakgomo),468;Thabamoopo (Lebowakgomo),469;The Hill,470;Theunissen,471;Thohoyandou,472;Thohoyandou,473;Tokoza (JHM),474;Tokoza (JHM),475;Tongaat,476;Tongaat,477;Townsend Estate (CTM),478;Tsakane B/PAN,479;Tsakane B/PAN,480;Tsakane B/PAN,481;Tsakane B/PAN,482;Tsomo,483;Tzaneen,484;Tzaneen,485;Tzaneen (Rivati),486;Uitenhague,487;Uitenhague,488;Umlazi,489;Umlazi,490;Umlazi,491;Umtata,492;Umtata,493;Umtata,494;Umtata,495;Umzimkulu,496;Umzimkulu,497;Upington (Gordonia),498;Utrecht,499;Valhalla,500;Valhalla,501;Valhalla Park (BM),502;Vanderbijlpark,503;Vasco Estate (CTM),504;Vereeniging,505;Verulam,506;Victoria-West,507;Viljoenskroon,508;Vosloorus,509;Vosloorus,510;Vrede,511;Vredenburg,512;Vryburg,513;Vryburg,514;Vryheid,515;Vulamehlo,516;Vuwani (Soekmekaar),517;Vuwani (Soekmekaar),518;Warrenton,519;Warrenton,520;Warrenton,521;Wasbank (Emnambithi),522;Waterkloof LH,523;Waterkloofrif,524;Welgelegen,525;Welkom,526;Welkom,527;Welkom,528;Welkom,529;Weltevreden Park,530;Weltevreden Park,531;Wepener,532;Wesselsbron,533;Westbury,534;Westville,535;Wierda Park,536;Willows,537;Winburg,538;Winterveld (Odi 1),539;Winterveld (Odi 1),540;Witbank,541;Witbank,542;Witbank,543;Witbank,544;Witbank,545;Witsieshoek,546;Witsieshoek,547;Witsieshoek,548;Zola,549;Zwelitsha,550;Zwide
+
+Pk: 560
+Id: district/province
+Label: District/province
+ValueLabels: 100;Eastern Cape,101;Free State,102;Gauteng,103;Kwa-Zulu Natal,104;Mpumalanga,105;Northern Cape,106;Northern Province,107;North West,108;Western Cape
+
+Pk: 407
+Id: languageinterviewwasconductedin
+Label: Language interview was conducted in
+ValueLabels: 1;Afrikaans,2;Chewa,3;Chinyungwe,4;Chisena,5;Damara,6;English,7;German,8;Nama,9;Ndebele,10;Oshiwambo,11;Otjiherero,12;Portueguese,13;Rukwangali,14;Sesotho|Sotho| S.Sotho,15;Setswana/Tswana,16;Silozi,17;Shangaan/Tsonga/Ronga/Tswa,18;Shona,19;Swahili,20;Swazi,21;Venda,22;Xhosa,23;Zulu,24;Sepedi/N.Sotho,25;Other,99;Missing data
+
+Pk: 407
+Id: languageinterviewwasconductedin
+Label: Language interview was conducted in
+ValueLabels: 1;Afrikaans,2;Chewa,3;Chinyungwe,4;Chisena,5;Damara,6;English,7;German,8;Nama,9;Ndebele,10;Oshiwambo,11;Otjiherero,12;Portueguese,13;Rukwangali,14;Sesotho|Sotho| S.Sotho,15;Setswana/Tswana,16;Silozi,17;Shangaan/Tsonga/Ronga/Tswa,18;Shona,19;Swahili,20;Swazi,21;Venda,22;Xhosa,23;Zulu,24;Sepedi/N.Sotho,25;Other,99;Missing data
+
+Pk: 407
+Id: languageinterviewwasconductedin
+Label: Language interview was conducted in
+ValueLabels: 1;Afrikaans,2;Chewa,3;Chinyungwe,4;Chisena,5;Damara,6;English,7;German,8;Nama,9;Ndebele,10;Oshiwambo,11;Otjiherero,12;Portueguese,13;Rukwangali,14;Sesotho|Sotho| S.Sotho,15;Setswana/Tswana,16;Silozi,17;Shangaan/Tsonga/Ronga/Tswa,18;Shona,19;Swahili,20;Swazi,21;Venda,22;Xhosa,23;Zulu,24;Sepedi/N.Sotho,25;Other,99;Missing data
+
+Pk: 408
+Id: respondentsgender
+Label: Respondent's gender
+ValueLabels: 1;Female,2;Male,99;Missing data
+
+Pk: 409
+Id: respondentrace
+Label: Responden't race
+ValueLabels: 1;Black/African,2;White/European,3;Coloured,4;Indian,5;Chinese/Japanese/Asian,6;Could not tell,99;Missing data
+
+Pk: 410
+Id: didrespondenthavemissinglimbs
+Label: Did respondent have missing limbs
+ValueLabels: 1;Yes,2;No,3;Can't Determine,99;Missing data
+
+Pk: 411
+Id: wasrespondentblindornearlyblind
+Label: Was respondent blind, or nearly blind
+ValueLabels: 1;Yes,2;No,3;Can't Determine,99;Missing data
+
+Pk: 412
+Id: didrespondentcoughrepeatedlyduringtheinterview
+Label: Did respondent cough repeatedly during the interview
+ValueLabels: 1;Yes,2;No,3;Can't Determine,99;Missing data
+
+Pk: 0
+Id: respondentstypeofshelter
+Label: Respondent's type of shelter
+ValueLabels: 1;Non-traditional (formal house),2;Traditional hut,3;Temporary structure(shack) - seperate plot,4;Temporary structure(shack) backyard,5;Temporary structure(shed) seperate plot,6;Temporary structure(shed) backyard,7;Flat in block of flats,8;Room in backyard,9;Room in hotel/hostel,10;Other,99;Missing Data
+
+Pk: 0
+Id: didhouseholdhavewindows
+Label: Did Household have windows
+ValueLabels: 1;Yes,2;No,3;Could not tell,99;Missing data
+
+Pk: 415
+Id: didhouseholdhaveglassinwindows
+Label: Did household have glass in windows
+ValueLabels: 1;Yes,2;No,3;Can't Determine,99;Missing data
+
+Pk: 0
+Id: whatwastheroofmadeof
+Label: What was the roof made of
+ValueLabels: 1;Metal|zinc,2;Tiles,3;Shingles,4;Thatch,5;Plastic sheets,6;Asbestos,7;Multiple materials,8;Could not tell,99;Missing Data
+
+Pk: 0
+Id: immediatelypresentlisteningtointerview
+Label: Immediately present listening to interview
+ValueLabels: 1;No one,2;Spouse,3;Children,4;A few others,5;Small crowd,99;Missing Data
+
+Pk: 0
+Id: respondentcheckwithotherstoanswerquestions
+Label: Respondent check with others to answer questions
+ValueLabels: 1;Yes,2;No,99;Missing Data
+
+Pk: 0
+Id: wererespondentsanswersinfluencedbyanyone
+Label: Were respondent's answers influenced by anyone
+ValueLabels: 1;Yes,2;No,99;Missing Data
+
+Pk: 420
+Id: whatproportionofquestionsdidrespondentstruggletoanswer
+Label: What proportion of questions did respondent struggle to answer
+ValueLabels: 1;All,2;Most,3;Some,4;Few,5;None,99;Missing data
+
+Pk: 421
+Id: wherewasinterviewconducted
+Label: Where was interview conducted
+ValueLabels: 1;Inside,2;Outside,3;Both,99;Missing data
+
+Pk: 892
+Id: wasrespondentsattitudefriendly
+Label: Was respondent's attitude: friendly
+ValueLabels: 1;Friendly,2;Inbetween,3;Hostile,99;Missing data
+
+Pk: 893
+Id: wasrespondentsattitudeinterested
+Label: Was respondent's attitude: interested
+ValueLabels: 1;Interested,2;Inbetween,3;Bored,99;Missing data
+
+Pk: 894
+Id: wasrespondentsattitudecooperative
+Label: Was respondent's attitude: cooperative
+ValueLabels: 1;Co-operative,2;Inbetween,3;Unco-operative,99;Missing data
+
+Pk: 895
+Id: wasrespondentsattitudepatient
+Label: Was respondent's attitude: patient
+ValueLabels: 1;Patient,2;Inbetween,3;Impatient,99;Missing data
+
+Pk: 895
+Id: wasrespondentsattitudepatient
+Label: Was respondent's attitude: patient
+ValueLabels: 1;Patient,2;Inbetween,3;Impatient,99;Missing data
+
+Pk: 895
+Id: wasrespondentsattitudepatient
+Label: Was respondent's attitude: patient
+ValueLabels: 1;Patient,2;Inbetween,3;Impatient,99;Missing data
+
+Pk: 424
+Id: didyourpresencearouseinterestfromneighbours
+Label: Did your presence arouse interest from neighbours
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 425
+Id: didyourpresencearousesuspicionfromneighbours
+Label: Did your presence arouse suspicion from neighbours
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 0
+Id: didyourpresencearousefearinneighbours
+Label: Did your presence arouse fear in neighbours
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 0
+Id: approachedbycommunity/politicalrepresentatives
+Label: Approached by community/political representatives
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 427
+Id: didyoufeelthreatenedduringinterview
+Label: Did you feel threatened during interview
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 428
+Id: werephysicallythreatenedduringinterview
+Label: Were physically threatened during interview
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 0
+Id: didanythingelsesignificanthappenduringinterview
+Label: Did anything else significant happen during interview
+ValueLabels: 1;No,2;Neighbours enquired;interviewer belong to CoD,3;Told interviewer not to come back,4;Do not understand idea of questionnaire,5;Wasting time; Questionnaire too long,6;Family members interfere with interview,99;Missing Data
+
+Pk: 431
+Id: interviewerage
+Label: Interviewer age
+ValueLabels: 99;Missing data
+
+Pk: 432
+Id: doyoucomefromruralorurbanarea
+Label: Do you come from rural or urban area
+ValueLabels: 1;Rural,2;Urban,99;Missing data
+
+Pk: 433
+Id: interviewershomelanguage
+Label: Interviewer's home language
+ValueLabels: 1;Afrikaans,2;Chewa,3;Chinyungwe,4;Chisena,5;Damara,6;English,7;German,8;Nama,9;Ndebele,10;Oshiwambo,11;Otjiherero,12;Portueguese,13;Rukwangali,14;Sesotho|Sotho| S.Sotho,15;Setswana/Tswana,16;Silozi,17;Shangaan/Tsonga/Ronga/Tswa,18;Shona,19;Swahili,20;Swazi,21;Venda,22;Xhosa,23;Zulu,24;Sepedi/N.Sotho,25;Other
+
+Pk: 433
+Id: interviewershomelanguage
+Label: Interviewer's home language
+ValueLabels: 1;Afrikaans,2;Chewa,3;Chinyungwe,4;Chisena,5;Damara,6;English,7;German,8;Nama,9;Ndebele,10;Oshiwambo,11;Otjiherero,12;Portueguese,13;Rukwangali,14;Sesotho|Sotho| S.Sotho,15;Setswana/Tswana,16;Silozi,17;Shangaan/Tsonga/Ronga/Tswa,18;Shona,19;Swahili,20;Swazi,21;Venda,22;Xhosa,23;Zulu,24;Sepedi/N.Sotho,25;Other
+
+Pk: 433
+Id: interviewershomelanguage
+Label: Interviewer's home language
+ValueLabels: 1;Afrikaans,2;Chewa,3;Chinyungwe,4;Chisena,5;Damara,6;English,7;German,8;Nama,9;Ndebele,10;Oshiwambo,11;Otjiherero,12;Portueguese,13;Rukwangali,14;Sesotho|Sotho| S.Sotho,15;Setswana/Tswana,16;Silozi,17;Shangaan/Tsonga/Ronga/Tswa,18;Shona,19;Swahili,20;Swazi,21;Venda,22;Xhosa,23;Zulu,24;Sepedi/N.Sotho,25;Other
+
+Pk: 210
+Id: interviewergender
+Label: Interviewer gender
+ValueLabels: 1;Male,2;Female,99;Missing Data
+
+Pk: 434
+Id: interviewersrace
+Label: Interviewer's race
+ValueLabels: 1;Black/African,2;White/European,3;Coloured,4;Indian,5;Chinese/Japanese/Asian,6;Could not tell
+
+Pk: 435
+Id: interviewershighestlevelofeducation
+Label: Interviewer's highest level of education
+ValueLabels: 1;No formal schooling,2;Some Primary school,3;Primary school completed,4;Some high school,5;High school completed,6;Some University/college,7;University/college completed,8;Post-grad,9;Other post matric qualifications,10;Do not know,98;Refused,99;Missing data
+
+Pk: 436
+Id: isthereapostofficeinpsu
+Label: Is there a post-office in PSU
+ValueLabels: 1;Yes,2;No,3;Can't Determine,99;Missing data
+
+Pk: 0
+Id: schoolinpsu
+Label: School in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: policestationinpsu
+Label: Police station in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: regularbus/taxiserviceinpsu
+Label: Regular bus/taxi service in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: electricitygridaccessabletomosthousesinpsu
+Label: Electricity grid accessable to most houses in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: pipedwatersysteminpsu
+Label: Piped water system in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: sewagesysteminpsu
+Label: Sewage system in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: railwaystationinpsu
+Label: Railway station in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: healthclinicsystem
+Label: Health clinic system
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: recreationalfacilitiesinpsu
+Label: Recreational facilities in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: placesofworshipinpsu
+Label: Places of worship in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: townhalls/communitybuildinginpsu
+Label: Townhalls/community building in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: petrolstationinpsu
+Label: Petrol station in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: bottlestoreinpsu
+Label: Bottle store in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: supermarketinpsu
+Label: Supermarket in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: cafes/cornershopsinpsu
+Label: Cafes/corner shops in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: marketstallsinpsu
+Label: Market stalls in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: didyouseeanypoliceorpolicevehicles
+Label: Did you see any police or police vehicles
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: seeanysoldiers/armyvehiclesinpsu
+Label: See any soldiers/army vehicles in PSU
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: pavementalongroads
+Label: Pavement along roads
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: householdgardenswithcrops/vegetablesbeinggrown
+Label: Household gardens with crops/vegetables being grown
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: householdyardscontaininglivestock
+Label: Household yards containing livestock
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: householdyardswithtreeshigherthanonestory
+Label: Household yards with trees higher than one story
+ValueLabels: 1;Yes,2;No,3;Can't determine,99;Missing Data
+
+Pk: 0
+Id: formalhousesinpsu
+Label: Formal houses in PSU
+ValueLabels: 1;All,2;Most,3;Some,4;None,5;Do not know,99;Missing Data
+
+Pk: 0
+Id: areainterviewwasconductedin
+Label: Area interview was conducted in
+ValueLabels: 1;Urban (formal),2;Suburban (formal),3;Township/town,4;Rural township/town,5;Rural village,6;Rural cluster/kraal,7;Urban non-permanent shack camp,8;Rural non-permanent shack camp,9;Can't determine,99;Missing data
+
+Pk: 0
+Id: psuclearlysignpostedthelast10kmjourney
+Label: PSU clearly sign-posted the last 10km journey
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 0
+Id: anystoplights/givewaysignsalonglast10kmofjourney
+Label: Any stop lights / give way signs along last 10km of journey
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 462
+Id: anytrafficlightsorrobotsalonglast10kmofjourney
+Label: Any traffic lights or robots along last 10km of journey
+ValueLabels: 1;Yes,2;No,3;Can't Determine,99;Missing data
+
+Pk: 0
+Id: werethetrafficlightsinworkingorder
+Label: Were the traffic lights in working order
+ValueLabels: 1;Yes,2;No,97;Not applicable,99;Missing data
+
+Pk: 0
+Id: anywaterfilledriverduringlast1kmofjourney
+Label: Any water-filled river during last 1km of journey
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 0
+Id: anywaterfilleddaminlast1kmofjourney
+Label: Any water-filled dam in last 1km of journey
+ValueLabels: 1;Yes,2;No,99;Missing data
+
+Pk: 0
+Id: howmuchgradedsand/dirtroadsinlast10km
+Label: How much graded sand/dirt roads in last 10km
+ValueLabels: 1;0 km,2;<5 km,3;5-10 km,4;All,99;Missing data
+
+Pk: 0
+Id: howmuchungradeddirtroadsinlast10km
+Label: How much ungraded dirt roads in last 10km
+ValueLabels: 1;0 km,2;<5 km,3;5-10 km,4;All,99;Missing data
+
+Pk: 0
+Id: offroadinlast10km
+Label: Off road in last 10km
+ValueLabels: 1;0 km,2;<5 km,3;5-10 km,4;All,99;Missing data
+
+Pk: 0
+Id: howmuchtarred/concreteroadsinlast10km
+Label: How much tarred/concrete roads in last 10km
+ValueLabels: 1;0 km,2;<5 km,3;5-10 km,4;All,99;Missing data
+

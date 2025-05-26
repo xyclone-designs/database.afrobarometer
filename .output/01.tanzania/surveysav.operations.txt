@@ -1,0 +1,667 @@
+Name: V9
+Label: 'Date' => Date of interview
+
+Name: Q3
+Value Label: Don't know => Do not know
+
+Name: Q11A
+Value Label: Don't know => Do not know
+
+Name: Q11B
+Value Label: Don't know => Do not know
+
+Name: Q11C
+Value Label: Don't know => Do not know
+
+Name: Q12A
+Value Label: Don't know => Do not know
+
+Name: Q12B
+Value Label: Don't know => Do not know
+
+Name: Q13B
+Label: 'Satisfied with Tanzania's economy' => Satisfied with [country]'s economy
+
+Name: Q14
+Label: 'Own living conditions compared to other Tanzanians' => Own living conditions compared to other [country]
+Value Label: About the same => Same
+Value Label: Don't know => Do not know
+
+Name: Q15
+Value Label: About the same => Same
+Value Label: Don't know => Do not know
+
+Name: Q16
+Value Label: About the same => Same
+Value Label: Don't know => Do not know
+
+Name: Q17
+Value Label: Don't know => Do not know
+
+Name: Q18A1
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q18A2
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q18A3
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q18B1
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q18B2
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q18B3
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q19A
+Value Label: Don't know => Do not know
+
+Name: Q19B
+Value Label: Don't know => Do not know
+
+Name: Q19C
+Value Label: Don't know => Do not know
+
+Name: Q19D
+Value Label: Don't know => Do not know
+
+Name: Q19E
+Value Label: Don't know => Do not know
+
+Name: Q19F
+Value Label: Don't know => Do not know
+
+Name: Q19G
+Label: 'Ensuring that all Tanzanians have enough to eat' => Ensuring that all [country] have enough to eat
+Value Label: Don't know => Do not know
+
+Name: Q19H
+Value Label: Don't know => Do not know
+
+Name: Q19I
+Value Label: Don't know => Do not know
+
+Name: Q19J
+Value Label: Don't know => Do not know
+
+Name: Q20
+Label: 'Overall assessment of govt. performance' => Overall assessment of government performance
+Value Label: Don't know => Do not know
+
+Name: Q21A
+Label: 'How long before govt. fulfills its promises' => How long before government fulfills its promises
+Value Label: Don't know => Do not know
+
+Name: Q21B
+Value Label: Don't know => Do not know
+
+Name: Q22A
+Value Label: Don't know => Do not know
+
+Name: Q22B
+Value Label: Don't know => Do not know
+
+Name: Q22C
+Value Label: Don't know => Do not know
+
+Name: Q23
+Label: 'How interested are you in politics and govt.' => How interested are you in politics and government
+
+Name: Q24
+Label: 'How often do you discuss politics and govt. with people' => How often do you discuss politics and government with people
+Value Label: Don't know => Do not know
+
+Name: Q25A
+Value Label: Don't know => Do not know
+
+Name: Q25B
+Value Label: Don't know => Do not know
+
+Name: Q25C
+Value Label: Don't know => Do not know
+
+Name: Q25D
+Value Label: Don't know => Do not know
+
+Name: Q25E
+Value Label: Don't know => Do not know
+
+Name: Q27
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q28
+Label: 'Govt. too complicated VS understand govt.' => Govt too complicated VS understand government
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q29
+Label: 'Can make elected representatives listen VS don't listen' => Can make elected representatives listen VS do not listen
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q30
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q31A
+Label: 'What does democracy mean to you' => What does democracy mean
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q31B
+Label: 'What does democracy mean to you' => What does democracy mean
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q31C
+Label: 'What does democracy mean to you' => What does democracy mean
+Value Label: Don't know, can't / unable to explain => Do not know, can't / unable to explain
+
+Name: Q32A
+Value Label: Don't know => Do not know
+
+Name: Q32B
+Label: 'Anyone is free to criticise the govt.' => Anyone is free to criticise the government
+Value Label: Don't know => Do not know
+
+Name: Q32C
+Value Label: Don't know => Do not know
+
+Name: Q32D
+Label: 'At least two political parties compete' => At least two political parties competing
+Value Label: Don't know => Do not know
+
+Name: Q32E
+Value Label: Don't know => Do not know
+
+Name: Q32F
+Value Label: Don't know => Do not know
+
+Name: Q32G
+Value Label: Don't know => Do not know
+
+Name: Q32H
+Value Label: Don't know => Do not know
+
+Name: Q33
+Label: 'How much of a democracy is Tanzania today' => How much of a democracy is [country] today
+Value Label: Don't know => Do not know
+
+Name: Q35
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q36
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q37
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q38
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q39
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q40
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q41A
+Label: 'Rate present system of govt with elections and many parties' => Rate present system of government with elections and many parties
+
+Name: Q41D
+Label: 'Rate old system of govt by traditional rulers' => Rate old system of government by traditional rulers
+
+Name: Q41E
+Label: 'Rate system of govt you expect in 5 years' => Rate system of government you expect in 5 years
+
+Name: Q42A
+Value Label: Don't know => Do not know
+
+Name: Q42B
+Value Label: Don't know => Do not know
+
+Name: Q42C
+Value Label: Don't know => Do not know
+
+Name: Q42D
+Label: 'Ordinary people can influence govt.' => Ordinary people can influence government
+Value Label: Don't know => Do not know
+
+Name: Q42E
+Label: 'Everybody is treated equally and fairly by govt.' => Everybody is treated equally and fairly by government
+Value Label: Don't know => Do not know
+
+Name: Q42F
+Value Label: Don't know => Do not know
+
+Name: Q43A
+Value Label: Don't know => Do not know
+
+Name: Q43B
+Value Label: Don't know => Do not know
+
+Name: Q43C
+Value Label: Don't know => Do not know
+
+Name: Q43D
+Value Label: Don't know => Do not know
+
+Name: Q43E
+Value Label: Don't know => Do not know
+
+Name: Q44
+Value Label: Don't know => Do not know
+
+Name: Q45
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q46
+Value Label: Don't know => Do not know
+
+Name: Q47A
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q47B
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q47C
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q47D
+Label: 'Trust Tanzanians from other tribes' => Trust [country] from other tribes
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q47E
+Value Label: Don't trust him at all => Do not trust him at all
+Value Label: Don't know => Do not know
+
+Name: Q48A
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q48B
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q48C
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q48D
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q48E
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q48F
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q48G
+Label: 'Trust National Assembly (Parliament)' => Trust National Assembly
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q48H
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q48I
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q49A
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q49B
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q49C
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q49D
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q49E
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q49F
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q50A
+Value Label: Don't know => Do not know
+
+Name: Q50B
+Value Label: Don't know => Do not know
+
+Name: Q50C
+Value Label: Don't know => Do not know
+
+Name: Q50D
+Value Label: Don't know => Do not know
+
+Name: Q50E
+Value Label: Don't know => Do not know
+
+Name: Q50F
+Value Label: Don't know => Do not know
+
+Name: Q52
+Value Label: Don't know => Do not know
+Value Label: Corruption, looting, etc., => Corruption, looting, etc.
+
+Name: Q53
+Value Label: Don't know => Do not know
+
+Name: Q54
+Value Label: Don't plan ahead: Agree strongly => Do not plan ahead: Agree strongly
+Value Label: Don't plan ahead: Agree somewhat => Do not plan ahead: Agree somewhat
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q55
+Label: 'People responsible for selves VS Govt. responsible for people's well-being' => People responsible for selves VS Govt responsible for people's well-being
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q56
+Label: 'People create their own jobs VS Govt. provide jobs for all' => People create their own jobs VS Govt provide jobs for all
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q57
+Label: 'Free to earn VS Govt. limits rich earnings' => Free to earn VS Govt limits rich earnings
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q58
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q59
+Label: 'Govt. laws/policies change often VS laws/policies stable' => Govt laws/policies change often VS laws/policies stable
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q60A
+Label: 'Protecting nation's borders' => Protecting Borders
+Value Label: Don't know => Do not know
+
+Name: Q60B
+Value Label: Don't know => Do not know
+
+Name: Q60C
+Value Label: Don't know => Do not know
+
+Name: Q60D
+Value Label: Don't know => Do not know
+
+Name: Q60E
+Value Label: Don't know => Do not know
+
+Name: Q60F
+Value Label: Don't know => Do not know
+
+Name: Q60G
+Value Label: Don't know => Do not know
+
+Name: Q60H
+Value Label: Don't know => Do not know
+
+Name: Q61
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q62
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q63
+Label: 'Civil servants should keep jobs VS Govt. should lay off some of them' => Civil servants should keep jobs VS Govt should lay off some of them
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q64
+Label: 'Govt. ownership of businesses, farms etc. VS privatization' => Govt ownership of businesses, farms etc VS privatization
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q65
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q66
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q67
+Label: 'Govt. eco. policies helped most VS hurt most' => Govt eco policies helped most VS hurt most
+Value Label: Don't agree with either => Do not agree with either
+Value Label: Don't know => Do not know
+
+Name: Q68
+Value Label: Don't know => Do not know
+
+Name: Q70
+Label: 'If not registered, WHY NOT?' => If not registered, WHY NOT
+
+Name: Q72
+Value Label: Don't know => Do not know
+Value Label: Don't know what a deputy is => Do not know what a deputy is
+
+Name: Q73
+Label: 'How honest or dishonest were the Presidential elections of October 2000?' => How honest or dishonest were the Presidential elections of October 2000
+Value Label: Don't know => Do not know
+
+Name: Q74A
+Value Label: Don't know => Do not know
+
+Name: Q74B
+Value Label: Don't know => Do not know
+
+Name: Q74C
+Value Label: Don't know => Do not know
+
+Name: Q74D
+Value Label: Don't know => Do not know
+
+Name: Q74E
+Value Label: Don't know => Do not know
+
+Name: Q74F
+Value Label: Don't know => Do not know
+
+Name: Q75G
+Label: 'How often attended a demonstration' => How often attended a demostartion
+
+Name: Q78A
+Label: 'Constituion expresses the values and aspirations of the Tanzanian people' => Constituion expresses the values and aspirations of the [country] people
+Value Label: Don't know => Do not know
+
+Name: Q78B
+Value Label: Don't know => Do not know
+
+Name: Q78C
+Value Label: Don't know => Do not know
+
+Name: Q78D
+Value Label: Don't know => Do not know
+
+Name: Q79A
+Value Label: Don't know => Do not know
+
+Name: Q79B
+Value Label: Don't know => Do not know
+
+Name: Q79C
+Label: 'Do if newspapers critical of govt. shut down' => Do if newspapers critical of government shut down
+Value Label: Don't know => Do not know
+
+Name: Q79D
+Label: 'Do if judges who ruled against the govt. dismissed' => Do if judges who ruled against the government dismissed
+Value Label: Don't know => Do not know
+
+Name: Q79E
+Value Label: Don't know => Do not know
+
+Name: Q80AA
+Value Label: Don't know => Do not know
+
+Name: Q80AB
+Value Label: Don't know => Do not know
+
+Name: Q80AC
+Value Label: Don't know => Do not know
+
+Name: Q80AD
+Value Label: Don't know => Do not know
+
+Name: Q80AE
+Value Label: Don't know => Do not know
+
+Name: Q80BA
+Value Label: Don't know => Do not know
+
+Name: Q80BB
+Value Label: Don't know => Do not know
+
+Name: Q80BC
+Value Label: Don't know => Do not know
+
+Name: Q80BD
+Value Label: Don't know => Do not know
+
+Name: Q80BE
+Value Label: Don't know => Do not know
+
+Name: Q81A
+Value Label: Don't know => Do not know
+
+Name: Q81B
+Value Label: Don't know => Do not know
+
+Name: Q81C
+Value Label: Don't know => Do not know
+
+Name: Q81D
+Value Label: Don't know => Do not know
+
+Name: Q81E
+Value Label: Don't know => Do not know
+
+Name: Q81F
+Value Label: Don't know => Do not know
+
+Name: Q81G
+Value Label: Don't know => Do not know
+
+Name: Q83A
+Value Label: Don't know => Do not know
+
+Name: Q83B
+Value Label: Don't know => Do not know
+
+Name: Q83C
+Value Label: Don't know => Do not know
+
+Name: Q83D
+Value Label: Don't know => Do not know
+
+Name: Q83E
+Value Label: Don't know => Do not know
+
+Name: Q83F
+Label: 'Corruption among Tanzanian businessmen' => Corruption among [country] businessmen
+Value Label: Don't know => Do not know
+
+Name: Q83G
+Value Label: Don't know => Do not know
+
+Name: Q83H
+Value Label: Don't know => Do not know
+
+Name: Q83I
+Value Label: Don't know => Do not know
+
+Name: Q83J
+Value Label: Don't know => Do not know
+
+Name: Q85
+Value Label: Don't worry, just wait permit will come => Do not worry, just wait permit will come
+Value Label: Don't know => Do not know
+
+Name: Q86
+Value Label: About the same => Same
+
+Name: Q87
+Value Label: Don't know/can't explain => Do not know/can't explain
+
+Name: Q88A
+Value Label: Don't know => Do not know
+
+Name: Q88B
+Label: 'Proud to be a Tanzanian' => Proud to be a [country]
+Value Label: Don't know => Do not know
+
+Name: Q88C
+Label: 'Allow people not born here to become Tanzanian citizens' => Allow people not born here to become [country] citizens
+Value Label: Don't know => Do not know
+
+Name: Q89
+Label: 'Choose between being a Tanzanian and being a.........' => Choose between being a [country] and being a
+Value Label: Don't know => Do not know
+
+Name: Q90
+Value Label: About the same => Same
+Value Label: Don't know => Do not know
+
+Name: Q91
+Value Label: Don't know => Do not know
+
+Name: Q93
+Label: 'Which one?' => Which one
+Value Label: Don't know => Do not know
+
+Name: Q94
+Label: 'How much money do you earn a month?' => How much money do you earn a month
+
+Name: Q99
+Value Label: Don't know => Do not know
+
+Name: Q100A
+Label: 'Trust CCM to preserve peace and tranquility in Tanzania' => Trust CCM to preserve peace and tranquility in [country]
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q100B
+Label: 'Trust opposition parties to preserve peace and tranquility in Tanzania' => Trust opposition parties to preserve peace and tranquility in [country]
+Value Label: Don't trust them at all => Do not trust them at all
+Value Label: Don't know => Do not know
+
+Name: Q101A
+Value Label: Don't know => Do not know
+
+Name: Q101B
+Value Label: Don't know => Do not know
+

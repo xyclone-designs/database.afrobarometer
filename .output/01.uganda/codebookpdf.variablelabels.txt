@@ -1,0 +1,149 @@
+Q97: "null"
+Q29: [country] a democracy
+Q43: Abide by government decisions
+Q3: Age
+Q66: All family members same opinion vs each decides
+Q61: Best to know people in high places
+Q94: Check with others
+Q56: Civil servants keep jobs vs lay some off
+Q83: Close to party
+Q9: Conditions better or worse
+Q80: Consequences from whom
+Q42: Constitution expresses values and aspirations of [nationality]
+Q39D: Contact government official
+Q39F: Contact influential person
+Q39A: Contact traditional ruler
+Q65A: Corruption elected leaders
+Q64: Corruption fact of life
+QDate: Date of interview
+Q96: Difficulty answering
+Q38A: Discuss politics with spouse
+Q89: District
+Q58: Economic reform too expensive vs accept hardships now
+Q6: Education
+Q72B: Enough choice without parties
+Q46A: Equal radio coverage
+Q74: Expect vote in referendum
+Q55: Free schooling vs raise educational standards
+Q53: Free to earn vs government limits
+Q54: Goods available vs low prices
+Q57: Government keeps factories vs privitization
+Q23: Government performance
+Q15: Government too complicated vs understand government
+Q22G: Handling basic health services
+Q22K: Handling corruption
+Q22E: Handling domestic violence
+Q22F: Handling education
+Q22C: Handling income gaps
+Q22A: Handling jobs
+Q22J: Handling land for women
+Q2: Head of household
+Q44: Heard about referendum
+Q45A: Heard from family
+Q45B: Heard from friend
+Q45D: Heard from political party official
+Q4: Home language
+Q73E: How to govern: army
+Q73G: How to govern: decisions by experts
+Q73A: How to govern: Movement system
+Q73B: How to govern: multiparty system
+Q73D: How to govern: one political party
+Q73C: How to govern: strong leader
+Q73F: How to govern: traditional system
+Q18: Identity
+Q19: Identity treated fairly
+Q31B: Importance: Freedom of religion
+Q31A: Importance: Freedom to criticize
+Q31D: Importance: Protection of minority rights
+Q31C: Importance: Protection of private property
+Q95: Influence by others
+Q14: Influence others vs no influence
+Q12: Interested in politics
+Q52: Jobs by starting businesses vs government provides
+Q92A: Kms graded sand or dirt roads
+Q92C: Kms off road
+Q49: Know SAP
+Q27 (responses 1-3).: Meaning of democracy
+Q71: Meaning of political party
+Q20E: Member: Professional or business org
+Q20A: Member: Religious org
+Q85: Monthly earnings
+Q21B (Responses 1 and2): National problems
+Q78: Negative consequences
+Q13A: News from discussions
+Q7: Occupation
+Q63: Ok to bend the law
+Q72G: Parties bring in young leaders
+Q72D: Parties don’t include me
+Q72E: Parties ensure government doesn’t abuse power
+Q72F: Parties make empty promises
+Q72C: Parties needed to ensure representation
+Q72H: Parties undermine national unity
+Q32: Patience to deal with inherited problems vs results soon
+Q93: People present during interview
+Q51: People responsible for own well-being vs government responsible
+Q24A: Performance of LC5 representative
+Q24B: Performance of MP
+Q24D: Performance of President
+Q21A (Responses 1 and2): Personal problems
+Q62: Politicians look after my interests
+Q36: Presidential elections honest
+Q81: Public services delivered
+Q13B: Radio news
+Q40 (options 1-4): Reason for contact
+Q41A-C: Reason for not participating
+Q47 (responses 1-2): Referendum about
+Q48G: Referendum changes constitution
+Q48C: Referendum choose candidates
+Q48E: Referendum choose government system
+Q48H: Referendum government resign
+Q48F: Referendum must abide results
+Q48B: Referendum must register
+Q48A: Referendum same as election
+Q48D: Referendum secret ballot
+Q33: Registered voter
+Q5: Religion
+Q16: Representatives listen vs don’t listen
+Q91: Respondent’s shelter
+Q75: Rewards promised
+Q87: Routine affected by tired ness
+Q30: Satisfaction with democracy
+Q8B: Satisfied [country] economy
+Q10: Satisfied five years ago
+Q11: Satisfied future
+Q8C: Satisfied general situation
+Q8A: Satisfied own living conditions
+Q50: Satisfied SAP
+Q1: Sex of respondent
+Q28: Support for Democracy
+Q38C: Teach children about government
+Q86E: Time: care for others
+Q86A: Time: earn money
+Q86C: Time: household work
+Q59: Trust generally
+Q60E: Trust NRM
+Q60A: Trust own ethnic group
+Q60C: Trust police
+Q60I: Trust UJCC
+Q72A: Two political parties needed
+Q90: Urban or Rural (interviewer)
+Q37: Vote in referendum
+Q35: Voted for President
+Q17: Voting doesn’t matter vs it improves lives
+Q79: What consequences
+Q77: What rewards
+Q84: Which party
+Q82 (Options 1-4).: Which services
+Q76: Who promised
+Q34: Why not registered
+Q25F: Women cabinet ministers
+Q67: Women equal rights vs follow traditional law
+Q25B: Women join political organizations
+Q25D: Women local councilors
+Q25E: Women MPs
+Q70: Women own land vs not own land
+Q25G: Women President
+Q69: Women quota needed vs unnecessary
+Q26: Women reps make a difference
+Q25A: Women should vote
+Q68: Women’s place at home vs speak about politics

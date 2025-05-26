@@ -1,0 +1,197 @@
+Q26: a.  it is better to be able to visit clinics and get medicine for free, even if it means we cannot raise healthcare standards.  b.  it is better to raise healthcare standards, even if we have to pay medical fees
+Q25: a.  it is better to have a wide variety of goods and many goods in the market, even if prices are high.  b.  it is better to have low prices, even if there are shortages of goods
+Q49: a.  it is important who is in power because it can make a difference to what happens.  b.  it doesn’t really matter who is in power, because in the end things go on much the same
+Q102: a.  it will take years for our system of government to deal with the problems inherited from the british colonial government  b.  our system of government ought to be able to deal with problems right now regardless of who caused them
+Q48: a.  no matter how you vote, it won’t make things any better in the future.  b.  the way you vote could make things better in the future
+Q21: a.  people should be free to earn as much as they can, even if this leads to differences in income.  b.  government should place limits on how much rich people can earn, even if this discourages some people from working hard
+Q20: a.  people should be responsible for their own success and well-being.  b.  government should bear the main responsibility for ensuring the success and well-being of people
+Q27: a.  the number of people who work for government should not be reduced, even if paying their salaries is costly to the country.  b.  the government cannot afford so many public employees and should lay off or retrench some of them
+Q23: a.  there is no sense in trying to start a new business because it might lose money.  b.  if a person has a good idea for a business, they should invest their own savings or borrow money to try to make it succeed
+Q52: a. the best way to create jobs is to encourage people to start their own businesses.  b.  the government should provide employment for everyone who wants to work
+Q85: are _____’s (respondent’s identity group from q83) economic conditions worse, the same as, or better than other group in this country?
+Q168: are the following services present in the primary sampling unit or enumerator area:  any churches, mosques, temples, or other places of worship?
+Q169: are the following services present in the primary sampling unit or enumerator area:  any townhalls or community buildings that can be used for meetings?
+Q173: are the following services present in the primary sampling unit or enumerator area:  cafes or corner shops or spaza shops?
+Q162: are the following services present in the primary sampling unit or enumerator area:  electricity grid that most houses could access?
+Q174: are the following services present in the primary sampling unit or enumerator area:  market stalls (selling food and or or clothing)?
+Q158: are the following services present in the primary sampling unit or enumerator area:  post office?
+Q167: are the following services present in the primary sampling unit or enumerator area:  recreational facilities for eg a sports field?
+Q161: are the following services present in the primary sampling unit or enumerator area:  regular bus or taxi service?
+Q172: are the following services present in the primary sampling unit or enumerator area:  supermarket (food and or or clothing)?
+Q178: at the psu or ea did you (or any of your colleagues) see:  any gardens or fields attached to households containing evidence of crops or vegetables being grown?
+Q177: at the psu or ea did you (or any of your colleagues) see:  any pavement along the roads or streets?
+Q175: at the psu or ea did you (or any of your colleagues) see:  any policemen or police vehicles?
+Q179: at the psu or ea did you (or any of your colleagues) see:  any yards or fields attached to households containing livestock such as goats, sheep, cows, or horses?
+Q180: at the psu or ea did you (or any of your colleagues) see:  any yards, gardens, or fields attached to households with trees growing in them that were large than one story in height?
+Q98: banned political parties
+QDate: date
+Q10A-D: describe the things you currently do to obtain healthcare for yourself or your family?  is there anything else?
+Q8A-D: describe the things you currently rely on for the safety of your home?  is there anything else?
+Q151: did anything else significant happen during the interview?
+Q132: did the household have glass in windows?
+Q131: did the household have windows?
+Q94: did the respondent check with others for information to answer any question?
+Q128: did the respondent have any physical disabilities:  blind, or nearly blind?
+Q127: did the respondent have any physical disabilities:  missing limbs?
+Q129: did the respondent have any physical disabilities?
+Q149: did you feel threatened during the interview?
+Q145: did your presence in the area arouse interest from the neighbors?
+Q146: did your presence in the area arouse suspicion from neighbors?
+Q123A: district or province?
+Q47A: do you agree, neither agree or disagree, or disagree with the following statements?  a.  you feel you have little or not control over what happens to your life
+Q47B: do you agree, neither agree or disagree, or disagree with the following statements?  b.  you think that you do not have enough information about political life and the actions of government
+Q47C: do you agree, neither agree or disagree, or disagree with the following statements?  c.  sometimes political and government affairs seem so complicated that you can’t really understand what’s going on
+Q47D: do you agree, neither agree or disagree, or disagree with the following statements?  d.  in this country, you must be very careful of what you say and do with regard to politics
+Q115: do you do any regular work without getting paid cash?  if yes, what type of job?  is this a part-time or full-time job?
+Q109: do you feel very close to this party, somewhat close, or not very close?
+Q112: do you have a job that pays a weekly or monthly cash income?  is it full-time or part-time?  and are you looking for a cash job (or looking for another one if you are presently working)?
+Q15: do you have an electricity hook-up into this household?
+Q16: do you have water piped into your household?
+Q95: do you think anyone influenced the respondent’s answers during the interview
+Q88: do you think that the government represents the interests of all [country], or of one group only?
+Q108A: do you usually think of yourself as close to any particular political party?
+Q31: first of all, can you tell me who presently holds the following positions:  a member of parliament who has been assigned to represent this area?
+Q30: first of all, can you tell me who presently holds the following positions:  the prime minister of [country]?
+Q32: first of all, can you tell me who presently holds the following positions:  your local councilor?
+Q80: have you ever heard anything about the government’s structural adjustment programme, or haven’t you had a chance to hear of read about this yet?
+Q93A: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  a.  attend a demostartion or protest march
+Q93D: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  d.  use force or violent methods (such as damaging public property)
+Q84A: here are a series of things people might say about how they see their group in relation to other .  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  a.  you feel proud to be ____
+Q84G: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.   g.  all people who were born in this country, regardless of what group they belong to, should be treated as equal [country]
+Q84H: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.   h.  it is desirable to create one united [country] nation out of all the different group who live in this country
+Q84B: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b.  you would want your children to think of themselves as ______
+Q83C: here are a series of things people might say about how they see their group in relation to other people of [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  c.  of all the group in this country, ____ people are the best
+Q82: here are two statements. please tell me whether you agree more with statement a or b? a.the structural adjustment programme (esap) has helped most people; only a minority have suffered. or: b. the structural adjustment programme (esap) has hurt most people and only benefited a minority
+Q24A: here is a list of things that are important for development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  a.  providing schools and clinics
+Q24F: here is a list of things that are important for development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  f.  helping farmers borrow money to improve production of livestock and crops
+Q91A: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  a.  participate with others to address an important problem affecting the community or nation (other than an elections)
+Q91B: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  b.  attend an election rally
+Q2: how do economic conditions in [country] compare to one year ago?  are they:
+Q64: how interested do you think the prime minister is in what happens to you or hearing what people like you think?  is he:
+Q40: how interested do you think your local chief is in what happens to you or hearing what people like you think?  are they:
+Q72: how many civil servants, or those who work in government offices and ministries do you think are involved in corruption?  is it:
+Q181: how many houses within the primary sampling unit are formal houses?
+Q114: how many months did this amount to?
+Q74: how much of the time can trust your local government to do what is right.  is it:
+Q69: how much of the time can you trust parliament to do what is right.  is it:
+Q65: how much of the time can you trust the prime minister to do what is right.  is it:
+Q43C: how often do you get news from the following sources:  c.  newspapers?
+Q43A: how often do you get news from the following sources:  radio?
+Q110A: how old were you at your last birthday? if respondent can’t answer:  in which year were you born?
+Q63A: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
+Q63H: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, or not at all well, or haven’t you heard enough about this to have an opinion.   h.  delivering basic services like water and electricity
+Q63F: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well,, or not at all well, or haven’t you heard enough about this to have an opinion.  f.  addressing the educational needs of all[country]
+Q39: i would like to speak about traditional leadership.  do you have a traditional leader, chief, or headman?
+Q54: if all decisions were made by a council of elders, traditional leaders, or chiefs
+Q57: if all important decisions about the economy were made by economic experts rather than an elected government or parliament
+Q53: if only one political party, or candidates from only one party, were allowed to stand for elections and hold office?
+Q56: if parliament and political parties were abolished, so that the president could decide everything?
+Q38A-D: if respondent made contact, what type of person was this?
+Q55: if the army came in to govern the country?
+Q58: if the country returned to the old system we had under apartheid?
+Q7A-C: if you could no longer obtain food in this way, what other methods would you be most likely to use?  is there anything else?
+Q87: in general, do you feel that people in government are less interested, or more interested in what ______s (respondent’s identity from q83) think compared to other group, or is it about the same?
+Q18A: in the last month, how much of the time ______?  was it often, sometimes, rarely, or never?  a.  has your physical health reduced the amount of work you would normally do inside or outside your home?
+Q18B: in the last month, how much of the time ______?  was it often, sometimes, rarely, or never?  b.  have you been so worried or anxious that you have felt tired, worn out, or exhausted?
+Q17A: in the last twelve months, how often have you or your family:  a.  gone without enough food to eat?
+Q17B: in the last twelve months, how often have you or your family:  b.  felt unsafe from crime in your home?
+Q17C: in the last twelve months, how often have you or your family:  c.  gone without medicine or medical treatment that you needed?
+Q17D: in the last twelve months, how often have you or your family:  d.  gone without a cash income?
+Q17E: in the last twelve months, how often have you or your family:  e.  gone without enough clean water to drink and cook with?
+Q17G: in the last twelve months, how often have you or your family:  g.  gone without electricity in your home?
+Q17H: in the last twelve months, how often have you or your family:  h.  gone without enough fuel to heat your home or cook your food?
+Q113: in the past twelve months, have you been unemployed (that is, without a cash job) at any time for a period of at least one month or more?
+Q34: in the past year, have you contacted a government official or political party official about some important problem or to give them your views?  if yes:  was it just once, twice, a few times, or frequently?
+Q37: in the past year, have you contacted any other influential person such as a church or community leader about some important problem or to give them your views?  if yes:  was it just once or twice, a few times, or frequently?
+Q36A: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  a.  a job
+Q36B: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  b.  a government maintenance payment, pension payment, or loan
+Q91: in what type of shelter did the respondent live?
+Q19: in your opinion, how often are _______(respondent’s identity from q18) treated unfairly by the government?
+Q152: interview number
+Q154: interviewer:  do you come from a rural or urban area?
+Q156: interviewer:  interviewer’s gender
+Q1: interviewer:  respondent’s gender
+Q157: interviewer’s highest level of education?
+Q155: interviewer’s home language?
+Q156B: interviewer’s race
+Q14: is there a school close by where you could afford to send your children?
+Q110B: let’s think for a moment about the languages that you use.  what language do you speak most at home?
+Q4: now let us speak about your personal economic conditions.  would you say they are worse, the same, or better than other [country]?
+Q50: on the whole, how would you rate the freeness and fairness of the last national elections, held in 1996?  was it:
+Q105: on the whole, is the way [country] governed:
+Q42: our constitution expresses the values and aspirations of the [country]n people?
+Q60: our government exercises power in an acceptable way
+Q43: our government has the right to make decisions that all people have to abide by whether or not they agree with them
+Q59: our government was elected to power by accepted procedures
+Q19A: over the past year, how often have you attended meetings of a _____?  a.  church group (other than religious services)
+Q19B: over the past year, how often have you attended meetings of a _____?  b.  local self-help association (such as a stokvel, burial association, or neighbourhood watch)
+Q19C: over the past year, how often have you attended meetings of a _____?  c.  group concerned with local matters such as schools, housing, or rates?
+Q19D: over the past year, how often have you attended meetings of a _____?  d.  local commercial organization such as a business group or farmers’ association?
+Q19E: over the past year, how often have you attended meetings of a _____?  e.  group that does things for the community?
+Q19F: over the past year, how often have you attended meetings of a _____?  f.  a trade union
+Q106: overall, how satisfied are you with the way democracy works in [country]?
+Q103A: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these:  a.  majority rule
+Q103B: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  b. complete freedom for anyone to criticize the government
+Q103D: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  d.  at least two political parties competing with each other
+Q103E: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  e.  basic necessities like shelter, food, and water for everyone
+Q103H: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  h.  a small income gap between rich and poor
+Q12A-D: please describe how you normally obtain cash income?  is there anything else?
+Q126: respondent’s race
+Q92A: roughly how much of the last 10km of your journey were spent on these different sorts of roads:  a.  graded sand or dirt roads?
+Q52C: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  b.  people can live without fear of being arrested by the police if they have not done anything wrong
+Q52A: some people say that today, under our current system of government, our political and overall life is better than it was under the one party regime of kaunda.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  a.  anyone can freely say what he or she thinks
+Q46: some people seem to follow what’s going on in government and public affairs most of the time, whether there’s an election going on or not.  other’s aren’t that interested.  would you say you follow what’s going on in government and public affairs?
+Q104: sometimes democracy does not work.  when this happens, some people say that we need a strong leader who does not have to bother with elections.  others say that even when things don’t work, democracy is always best. what do you think. a.  need strong leader. b.  democracy always best
+Q121: suburb?
+Q100: suspended the parliament and cancelled the next elections?
+Q187: thinking of the journey here:  did you (or any of your colleagues) see a water filled river during the last 1km of your journey?
+Q186: thinking of the journey here:  if yes above, were all of them in working order?
+Q183: thinking of the journey here:  was the psu clearly sign posted along the last 10km of your journey?
+Q184: thinking of the journey here:  were there any stop or give way signs along the last 10km of your journey?
+Q185: thinking of the journey here:  were there any traffic lights or robots along the last 10km of your journey?
+Q122: town or city
+Q182: type of area in which interview was conducted?
+Q51Xa: we are now going to discuss how you rate different forms of government  i would like you to give marks out of 10.  the best form of governing a country gets 10 out of 10 and the worst form of governing a country gets no marks at all.  what grade would you give to:  a.  the way the country was governed under the military government
+Q51Xc: we are now going to discuss how you rate different forms of government  i would like you to give marks out of 10.  the best form of governing a country gets 10 out of 10 and the worst form of governing a country gets no marks at all.  what grade would you give to:  c.  the political system of this country as you expect it to be in 10 years time
+Q83: we have spoken to many [country] and they have all described themselves in different ways.  some people describe themselves in terms of their language, religion, race, and others describe themselves in economic terms, such as working class, middle class, or a farmer.  besides being [country], which specific group to do you feel you belong to first and foremost?
+Q92B: we would like to remind you that your responses to this interview are confidential.  here is a list of action ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  b.  avoid paying municipal or local rates
+Q92D: we would like to remind you that your responses to this interview are confidential.  here is a list of action ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  d.  get services like electricity or water without paying for them
+Q93: were there any other people  immediately present who might be listening during the interview?
+Q148: were you approached by community and or or political party representatives?
+Q150: were you physically threatened during the interview?
+Q41: what about corruption, that is where leaders take money intended for the community and use it for themselves?  how many chiefs or traditional leaders are involved in corruption?  is it:
+Q67: what about corruption?  (corruption is where those in government and the civil service take money or gifts from the people and use it for themselves, or expect people to pay them extra money or a gift to do their job).  how many officials in the government do you think are involved in corruption?
+Q76: what about corruption?  how many officials in your local government do you think are involved in corruption?
+Q71: what about corruption?  how many people in parliament do you think are involved in corruption? is it:
+Q3: what about in twelve months time?  do you expect economic conditions in [country] to be worse, the same, or better than they are now?
+Q78A: what about the following institutions?  how much of the time can you trust them to do what is right?  a.  the army
+Q78D: what about the following institutions?  how much of the time can you trust them to do what is right?  d.  supervisory electoral commission
+Q78E: what about the following institutions?  how much of the time can you trust them to do what is right?  e.  [country] broadcasting corporation
+Q78F: what about the following institutions?  how much of the time can you trust them to do what is right?  f.  government press or newspapers
+Q66: what about the way the president has performed his job over the past twelve months?  do you:
+Q75: what about the way your local government has performed its job over the past twelve months?  do you:
+Q6A-D: what about you?  describe how you currently obtain the food you and your family eat each month?  is there anything else?
+Q51A-C: what are the most important problems facing this country that the government should address?
+Q107A-D: what are the most important things that need to be changed about the way we govern our country?
+Q81: what effect do you think it has on the way you live your life? has it made it worse, had no effect, or made it better, or haven’t you heard enough about this to say?
+Q95A-D: what is anything would you do about it?
+Q116: what is your present occupation or last occupation if unemployed?
+Q96: what proportion of the questions do you feel the respondent had difficulty answering?
+Q35A-F: what type of official was it?
+Q111: what was the highest grade, standard or form you completed?
+Q139: what was the respondent’s attitude toward you during the interview?  friendly or hostile?
+Q140: what was the respondent’s attitude toward you during the interview?  interested or bored?
+Q133: what was the roof made of:
+Q29A-C: what, if anything, do you understand by the word democracy?  what comes to your mind when you hear the word?
+Q45: when you get together with your friends, would you say you discuss political matter?
+Q138: where was the interview conducted:
+Q89: which group is that?  (if one group is answered)
+Q124: which language or s was the interview conducted in?
+Q108B: which party is that?
+Q90: with regard to the most recent, 1998 national elections, which statement is true for you?
+Q79: with which of these statements are you most in agreement?  a, b, or c?   a.  democracy is preferable to any other form of government b.  in some circumstances, a non-democratic government can be preferable to a democratic government c.  for someone like me, a democratic or non-democratic regime makes no difference
+Q117: would that be:
+Q77B: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under apartheid?  is government of today more, about the same, or less as under apartheid?  b.  interested in hearing what people like you think
+Q77A: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under president leabua jonathan?  is the government of today more, about the same, or less [on each of the following] than under the government of  president leabua jonathan?  a.  effective in the way it performs its job
+Q77D: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under the one party regime of kaunda?  is government of today more, about the same, or less as under the one party regime of kaunda?  d.  trustworthy
+Q76C: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under white minority rule?  is government of today more, about the same, or less _______ as under white minority rule?  c.  corrupt
