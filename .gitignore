@@ -1,5 +1,5 @@
 .vs
 .temp
+.output
 bin
 obj
-Program.cs

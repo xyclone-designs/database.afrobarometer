@@ -1,28 +1,29 @@
 Q70: "null"
 Q113A: "null"
-Q29: [country] a democracy
 Q2: [country] language
-Q3: Age
+Q95: All [country]
 Q88C: Allow people not born here to become [country] citizens
 Q32B: Anyone is free to criticise the government
+Q44C: Army come in
 Q41: Best form of government
 Q62B: Building house
 Q90B: Carry a weapon
-Q94: Check with others
+Q100: Checked with others
+Q--: children
 Q6A: Church assoc
 Q56: Civil servants keep jobs vs lay some off
 Q83: Close to party
+Q42C: Colonial system
 Q9: Conditions better or worse
 Q39D: Contact government official
 Q39F: Contact influential person
 Q78B: Contact LG Chair
 Q78C: Contact Nat Rep
 Q39A: Contact traditional ruler
-Q--: date
+Qdateintr: Date of interview
 Q46: Deal with inherited problems
 Q103D: Democratic society and at least 2 parties competing
-Q103A: Democratic society and majority rule
-Q96: Difficulty answering
+Q102: Difficulty answering
 Q50B: Disregarding traffic signs and lights
 Q79D: Do if judges who ruled against the government dismissed
 Q79E: Do if National Assembly suspended and elections cancelled
@@ -32,17 +33,16 @@ Q79A: Do if told what religion to follow
 Q58: Economic reform too expensive vs accept hardships now
 Q47A: Economic runs badly
 Q6: Education
+Q10C: Employ others
 Q65: Encourage foreign investment VS be wary of foreign investors
-Q19G: Ensuring that all [country] have enough to eat
 Q42E: Everybody is treated equally and fairly by government
 Q32E: Everyone enjoys basic necessities
 Q88B3: Family member Home broken into
 Q88A: Feel proud to be a [identity group]
 Q84A: Feel proud to be part of this group
-Q100: Financial situation
+Q92: Financial situation
 Q106: For[country]ty
 Q90D: Form a group
-Q55: Free schooling vs raise educational standards
 Q53: Free to earn vs government limits
 Q88B2: Friend Home broken into
 Q88A2: Friends attacked or robbed
@@ -50,43 +50,44 @@ Q1: Gender
 Q22C: Get news from newspapers
 Q22B: Get news from television
 Q43A: Get rid of elections so strong leader can decide everything
-Q9A: Gone without food for family
-Q9C: Gone without schooling for children
-Q9B: Gone without water for domestic use
 Q54: Goods available vs low prices
 Q57: Government keeps factories vs privitization
 Q15: Government too complicated vs understand government
 Q67: Government's economic policies helped most VS hurt most
 Q76C: Governor performance
+Q115A: Graded sand or dirt roads
 Q22G: Handling basic health services
-Q22K: Handling corruption
+Q45J: Handling corruption
 Q18D: Handling crime
-Q22F: Handling education
+Q45G: Handling education
+Q45I: Handling food security
+Q45D: Handling gaps
+Q45B: Handling jobs
 Q90C: Have other people
+Q98: Housing type
 Q21A: How long before government fulfills its promises
 Q21B: How long before own living standards meet your expectations
+Q106D: How much was tarred or concrete
 Q75A: How often attend community meeting
 Q86: How often bribe
 Q76A: How often contacted a traditional ruler for help
-Q24: How often do you discuss politics and government with people
 Q75B: How often get together with others to raise an issue
 Q75D: How often worked for a political candidate or party
 Q18: Identity
+Q55: Identity condition
 Q19: Identity treated fairly
 Q52E: Income tax
 Q47B: Indecisive squabbling
 Q74: Individual or party
-Q95: Influence by others
 Q27: Influence others
+Q101: Influenced by others
 Q12: Interested in politics
 Q52: Jobs by starting businesses vs government provides
-Q19B: Keeping prices low
-Q92A: Kms graded sand or dirt roads
-Q92C: Kms off road
 Q49: Know SAP
 Q76D: LG Chair performance
 Q81: Look after the interests
 Q27 (responses 1-3).: Meaning of democracy
+Q35C: Military rule
 Q85: Monthly earnings
 Q25C: Name Governor
 Q25B: Name HR Member
@@ -99,14 +100,14 @@ Q88B1: No one Home broken into
 Q108A: No one present
 Q50D: Not paying for services like piped water
 Q7: Occupation
+Q115C: Off road
+Q44B: One political party
 Q8D: Operate bank or savings account
 Q42D: Ordinary people can influence government
 Q6K: Others
-Q8E: Owe money borrowed for business purposes
+Q10E: Owe money
 Q60: Own land
-Q42A: People are free to say what they think
 Q83C: People belonging to this group are the best
-Q42C: People can freely choose who to vote for
 Q80: People in high places
 Q51: People responsible for own well-being vs government responsible
 Q82: President fights corruption
@@ -114,22 +115,24 @@ Q37: President should be able to change Constitution VS obey Constitution
 Q36: Presidential elections honest
 Q47D: Problems, but better
 Q60A: Protecting Borders
+QPSU Number: PSU
 Q22A: Radio consequence
-Q41B: Rate former system of one party rule
 Q41A: Rate present system of government with elections and many parties
 Q41E: Rate system of government you expect in five years
 Q3B: Read or write English
 Q84G: Regardless of group, all [country] should be treated equally
 Q33: Registered voter
 Q33C: Regular elections
-Q5: Religion
 Q90A: Report to the police
 Q16: Representatives listen vs don’t listen
-Qrespnumb: Respondent number
+Q30: Respect for authority VS question leaders
+Q103E: Respondent at ease
+Q103C: Respondent cooperative
+Q103A: Respondent friendly
+Qrespno: Respondent number
 Q112D: Respondent Patient
-Q91: Respondent’s shelter
 Q89: Safety five years ago
-Q30: Satisfaction with democracy
+Q40: Satisfaction with democracy
 Q74D: Satisfaction with performance of judges or lawyers
 Q74E: Satisfaction with performance of political parties
 Q8B: Satisfied [country] economy
@@ -139,43 +142,41 @@ Q13B: Satisfied own conditions
 Q50: Satisfied SAP
 Q50C: Selling goods without trader's license
 Q103: Settlement type
-Q43B: Should have only one political party
+Qstate: State
 Q83D: Stronger ties to group than to other [country]
-Q28: Support for Democracy
-Q43C: The army should come in to govern
+Q38: Support for democracy
 Q43D: The most important decisions should be left to experts
 Q50A: Throwing rubbish in public places
 Q26A: Trad rulers and government
 Q50F: Trust army
 Q49A: Trust churches
-Q48H: Trust Electoral Commission
+Q43C: Trust Electoral Commission
 Q59: Trust generally
-Q48D: Trust law courts
+Q43J: Trust law courts
 Q48B: Trust local government
 Q51B: Trust mosques
-Q48G: Trust National Assembly
+Q43B: Trust National Assembly
 Q60C: Trust police
 Q48E: Trust political parties
 Q51C: Trust trade  or farmer unions
 Q12D: Turn health services
+Q12C: Turn school
 Q10A: Turn to for food for family
-Q10C: Turn to for schooling for children
 Q10B: Turn to for water for domestic use
 Q3A: Understand English
 Q90: Urban or Rural (interviewer)
-Q40: Violence OK
 Q73B: Voted at Assembly
 Q35: Voted for President
 Q73D: Voted local government
 Q17: Voting doesn’t matter vs it improves lives
+Q36D: Voting freedom
 Q84B: Want children to think of themselves as part of group
-Q143: Was respondent’s attitude:  at ease
-Q141: Was respondent’s attitude:  cooperative
 Q140: What was respondent's attitude during interview
-Q139: What was respondent’s attitude
 Q133: What was roof made of
 Q96A (1st group mentioned): Which identity group
 Q87A (1st group mentioned): Which office(s)
 Q84: Which party
 Q34: Why not registered
-Q11D: Without health services
+Q9A: Without food
+Q9C: Without health services
+Q9B: Without water

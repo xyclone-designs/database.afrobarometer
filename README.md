@@ -1,4 +1,4 @@
-# Database.IEC
+# Database.Afrobarometer
 Afrobarometer results database built from data supplied by the Afrobarometer and used for the api found at https://api.xyclonedesigns.co.za/afrobarometer/rest
 
 # * DATABASE CREATION IN PROGRESS *
@@ -28,4 +28,4 @@ Question topic segmentation & sections were sourced and edited from the below li
 
 # Disclaimer
 
-Xyclone Designs and Afrobarometer are in no way affiliated with one another. All data used was curated from public sources not limited to but including the Afrobarometer website listed below. Visit the Github link below to see program used to create database from said data. Data is subject to inacuracies and constant changes and Xyclone Designs will not be liable for use of the data in any form.
+Xyclone Designs and Afrobarometer are in no way affiliated with one another. All data used was curated from public sources not limited to but including the Afrobarometer website listed above. Data is subject to inacuracies and constant changes and Xyclone Designs will not be liable for use of the data in any form.

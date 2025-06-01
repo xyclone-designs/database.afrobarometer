@@ -3,8 +3,8 @@ Id:
 Text: enumeratorprobedforstrengthofopinion.questionnumber:2
 VariableLabel: 
 Language: English
-List_PkSurvey: 7
-PkVariable: 211
+List_PkSurvey: 9
+PkVariable: 
 Source: 1-6,98-99ValueLabels:1=VeryDissatisfied,2=Dissatisfied,3=NeitherDissatisfiedorSatisfied,4=Satisfied,5=VerySatisfied,6=Don’tKnow,98=Refused,99=Missing
 Note: NewDemocracyBarometer(NDB),Zamiba96
 

@@ -1,50 +1,50 @@
-Pk: 1
-Id: QDate
-Text: date
+Pk: 237
+Id: Qdateintr
+Text: date of interview
 VariableLabel: Date of interview
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 1
+List_PkSurvey: 2,3,4,5
+PkVariable: 
 Source: 
-Note: 
+Note: Answered by interviewer.
 
 Pk: 0
 Id: Q1
 Text: at the moment, are you dissatisfied, neither dissatisfied nor satisfied, or satisfied with economic conditions in [country]?
 VariableLabel: Satisfaction with economic conditions
 Language: English
-List_PkSurvey: 3
-PkVariable: 213
+List_PkSurvey: 5
+PkVariable: 
 Source: NDB, Zamiba96
 Note: Enumerator probed for strength of opinion.
 
-Pk: 150
+Pk: 378
 Id: Q2
 Text: how do economic conditions in [country] compare to one year ago?  are they:
 VariableLabel: Evaluations of Economic Conditions
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 214
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 151
+Pk: 379
 Id: Q3
 Text: what about in twelve months time?  do you expect economic conditions in [country] to be worse, the same, or better than they are now?
 VariableLabel: Economic Expectations
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 215
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB, Zambia96
 Note: Enumerator probed for strength of opinion.
 
-Pk: 152
+Pk: 380
 Id: Q4
 Text: now let us speak about your personal economic conditions.  would you say they are worse, the same, or better than other [country]?
 VariableLabel: Personal economic conditions compared to others
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 216
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB, Zambia96
 Note: Enumerator probed for strength of opinion.
 
@@ -53,448 +53,448 @@ Id: Q4A
 Text: what about the overall direction of the country? would you say that the country is :
 VariableLabel: Overall direction in the country
 Language: English
-List_PkSurvey: 3
-PkVariable: 480
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: 
 
-Pk: 153
+Pk: 381
 Id: Q6A-D
 Text: what about you?  describe how you currently obtain the food you and your family eat each month?  is there anything else?
 VariableLabel: How do you currently obtain food
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 217
+List_PkSurvey: 4,5
+PkVariable: 
 Source: adapted from NDB
 Note: Prior to question 5, the enumerator read the following passage to the respondent:  People get their basic necessities of life such as food, safety, healthcare, or income in a variety of ways.  For instance, some people have to:  steal or beg for it, pretend they’re eligible for government assistance, or do a favour for, or bribe a government official.  Other people get these things from:  local traditional leaders, government relief programmes, local cooperative group, or friends or family.  Still other people provide for it themselves, or pay for it in cash or in kind.  Finally some people are not able to get these things at all. Respondent could give up to four answers.
 
-Pk: 154
+Pk: 382
 Id: Q7A-C
 Text: if you could no longer obtain food in this way, what other methods would you be most likely to use?  is there anything else?
 VariableLabel: What other methods would you use to obtain food
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 218
+List_PkSurvey: 4,5
+PkVariable: 
 Source: adapted from NDB
 Note: Respondent could give up to three answers.
 
-Pk: 155
+Pk: 383
 Id: Q8A-D
 Text: describe the things you currently rely on for the safety of your home?  is there anything else?
 VariableLabel: What safety measure do you have for your home
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Respondent could give up to four answers.
 
-Pk: 154
+Pk: 382
 Id: Q7A-C
 Text: if you could no longer obtain food in this way, what other methods would you be most likely to use?  is there anything else?
 VariableLabel: What other methods would you use to obtain food
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 218
+List_PkSurvey: 4,5
+PkVariable: 
 Source: adapted from NDB
 Note: Respondent could give up to three answers.
 
-Pk: 156
+Pk: 384
 Id: Q10A-D
 Text: describe the things you currently do to obtain healthcare for yourself or your family?  is there anything else?
 VariableLabel: How do you currently obtain health services
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 221
+List_PkSurvey: 4,5
+PkVariable: 
 Source: adapted from NDB
 Note: Respondent could give up to four answers.
 
-Pk: 154
+Pk: 382
 Id: Q7A-C
 Text: if you could no longer obtain food in this way, what other methods would you be most likely to use?  is there anything else?
 VariableLabel: What other methods would you use to obtain food
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 218
+List_PkSurvey: 4,5
+PkVariable: 
 Source: adapted from NDB
 Note: Respondent could give up to three answers.
 
-Pk: 157
+Pk: 385
 Id: Q12A-D
 Text: please describe how you normally obtain cash income?  is there anything else?
 VariableLabel: How do you normally obtain cash income
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 223
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Respondent could give up to four answers.
 
-Pk: 154
+Pk: 382
 Id: Q7A-C
 Text: if you could no longer obtain food in this way, what other methods would you be most likely to use?  is there anything else?
 VariableLabel: What other methods would you use to obtain food
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 218
+List_PkSurvey: 4,5
+PkVariable: 
 Source: adapted from NDB
 Note: Respondent could give up to three answers.
 
-Pk: 161
+Pk: 389
 Id: Q17A
 Text: in the last twelve months, how often have you or your family:  a.  gone without enough food to eat?
 VariableLabel: How often have you gone without enough food to eat
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 227
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 162
+Pk: 390
 Id: Q17B
 Text: in the last twelve months, how often have you or your family:  b.  felt unsafe from crime in your home?
 VariableLabel: How often have you felt unsafe from crime in your home
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 228
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 163
+Pk: 391
 Id: Q17C
 Text: in the last twelve months, how often have you or your family:  c.  gone without medicine or medical treatment that you needed?
 VariableLabel: How often have you gone without necessary medical treatment
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 229
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 164
+Pk: 392
 Id: Q17D
 Text: in the last twelve months, how often have you or your family:  d.  gone without a cash income?
 VariableLabel: How often have you gone without a cash income
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 230
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 165
+Pk: 393
 Id: Q17E
 Text: in the last twelve months, how often have you or your family:  e.  gone without enough clean water to drink and cook with?
 VariableLabel: How often have you gone without enough clean water to drink
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 231
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 164
+Pk: 392
 Id: Q17D
 Text: in the last twelve months, how often have you or your family:  d.  gone without a cash income?
 VariableLabel: How often have you gone without a cash income
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 230
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 166
+Pk: 394
 Id: Q17G
 Text: in the last twelve months, how often have you or your family:  g.  gone without electricity in your home?
 VariableLabel: How often have you gone without electricity in your home
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 167
+Pk: 395
 Id: Q17H
 Text: in the last twelve months, how often have you or your family:  h.  gone without enough fuel to heat your home or cook your food?
 VariableLabel: How often had insufficient fuel to heat your home and to cook with
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 168
+Pk: 396
 Id: Q18A
 Text: in the last month, how much of the time ______?  was it often, sometimes, rarely, or never?  a.  has your physical health reduced the amount of work you would normally do inside or outside your home?
 VariableLabel: Physical health reduce amount of work
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 235
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 169
+Pk: 397
 Id: Q18B
 Text: in the last month, how much of the time ______?  was it often, sometimes, rarely, or never?  b.  have you been so worried or anxious that you have felt tired, worn out, or exhausted?
 VariableLabel: How often worried, anxious, felt tired
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 236
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 158
+Pk: 386
 Id: Q14
 Text: is there a school close by where you could afford to send your children?
 VariableLabel: Is there a nearby school which your kids could attend
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 224
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 159
+Pk: 387
 Id: Q15
 Text: do you have an electricity hook-up into this household?
 VariableLabel: Do you have an electricity hook-up into home
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 225
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 160
+Pk: 388
 Id: Q16
 Text: do you have water piped into your household?
 VariableLabel: Do you have piped water into home
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 226
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 170
+Pk: 398
 Id: Q19A
 Text: over the past year, how often have you attended meetings of a _____?  a.  church group (other than religious services)
 VariableLabel: How often do you attend church group meetings
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 237
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 171
+Pk: 399
 Id: Q19B
 Text: over the past year, how often have you attended meetings of a _____?  b.  local self-help association (such as a stokvel, burial association, or neighbourhood watch)
 VariableLabel: Attend self-help association
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 238
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 172
+Pk: 400
 Id: Q19C
 Text: over the past year, how often have you attended meetings of a _____?  c.  group concerned with local matters such as schools, housing, or rates?
 VariableLabel: Attend group concerned with local matters
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 239
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 173
+Pk: 401
 Id: Q19D
 Text: over the past year, how often have you attended meetings of a _____?  d.  local commercial organization such as a business group or farmers’ association?
 VariableLabel: Attend local commercial organization
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 174
+Pk: 402
 Id: Q19E
 Text: over the past year, how often have you attended meetings of a _____?  e.  group that does things for the community?
 VariableLabel: Attend group that looks after the community
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 175
+Pk: 403
 Id: Q19F
 Text: over the past year, how often have you attended meetings of a _____?  f.  a trade union
 VariableLabel: Attend a trade union
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 242
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 176
+Pk: 404
 Id: Q20
 Text: a.  people should be responsible for their own success and well-being.  b.  government should bear the main responsibility for ensuring the success and well-being of people
 VariableLabel: People more responsible for well-being VS government responsible
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: Ghana99
 Note: The enumerator introduced the pair of statements by saying, Here are several pairs of statements.  Please tell me whether you most agree with Statement A or Statement B?.  Then, the enumerator probed for strength of opinion.
 
-Pk: 177
+Pk: 405
 Id: Q21
 Text: a.  people should be free to earn as much as they can, even if this leads to differences in income.  b.  government should place limits on how much rich people can earn, even if this discourages some people from working hard
 VariableLabel: Free to earn VS limited income
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 244
+List_PkSurvey: 4,5
+PkVariable: 
 Source: adapted from NDB
 Note: The enumerator introduced the pair of statements by saying, Here are several pairs of statements.  Please tell me whether you most agree with Statement A or Statement B?.  Then, the enumerator probed for strength of opinion.
 
-Pk: 86
+Pk: 324
 Id: Q52
 Text: a. the best way to create jobs is to encourage people to start their own businesses.  b.  the government should provide employment for everyone who wants to work
 VariableLabel: Jobs by starting businesses vs government provides
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 127
+List_PkSurvey: 3,4,5
+PkVariable: 
 Source: Finifter and Mickiewicz
 Note: The enumerator introduced the pair of statements by saying, Again, please choose A or B.  Then, the enumerator probed for strength of opinion.
 
-Pk: 178
+Pk: 406
 Id: Q23
 Text: a.  there is no sense in trying to start a new business because it might lose money.  b.  if a person has a good idea for a business, they should invest their own savings or borrow money to try to make it succeed
 VariableLabel: New business risky VS invest to start business
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 246
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Jackson and Rodkey
 Note: The enumerator introduced the pair of statements by saying, Here are several pairs of statements.  Please tell me whether you most agree with Statement A or Statement B?.  Then, the enumerator probed for strength of opinion.
 
-Pk: 179
+Pk: 407
 Id: Q24A
 Text: here is a list of things that are important for development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  a.  providing schools and clinics
 VariableLabel: Who should take responsibility for schools and clinics
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 247
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 179
+Pk: 407
 Id: Q24A
 Text: here is a list of things that are important for development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  a.  providing schools and clinics
 VariableLabel: Who should take responsibility for schools and clinics
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 247
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 179
+Pk: 407
 Id: Q24A
 Text: here is a list of things that are important for development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  a.  providing schools and clinics
 VariableLabel: Who should take responsibility for schools and clinics
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 247
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 179
+Pk: 407
 Id: Q24A
 Text: here is a list of things that are important for development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  a.  providing schools and clinics
 VariableLabel: Who should take responsibility for schools and clinics
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 247
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 179
+Pk: 407
 Id: Q24A
 Text: here is a list of things that are important for development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  a.  providing schools and clinics
 VariableLabel: Who should take responsibility for schools and clinics
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 247
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 180
+Pk: 408
 Id: Q24F
 Text: here is a list of things that are important for development of our country.  in your opinion, who should take the main responsibility for these things?  is it the government, private businesses, individuals, or some combination of these?  f.  helping farmers borrow money to improve production of livestock and crops
 VariableLabel: Responsibility to help farmers borrow money
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 252
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 181
+Pk: 409
 Id: Q25
 Text: a.  it is better to have a wide variety of goods and many goods in the market, even if prices are high.  b.  it is better to have low prices, even if there are shortages of goods
 VariableLabel: Variety of goods at high prices VS shortages at low prices
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 253
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: The enumerator introduced the pair of statements by saying, Here are several more pairs of statements.  Please tell me whether you most agree with Statement A or Statement B.  Then, the enumerator probed for strength of opinion.
 
-Pk: 182
+Pk: 410
 Id: Q26
 Text: a.  it is better to be able to visit clinics and get medicine for free, even if it means we cannot raise healthcare standards.  b.  it is better to raise healthcare standards, even if we have to pay medical fees
 VariableLabel: Free health services, low stds VS pay for better health services
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 254
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: The enumerator introduced the pair of statements by saying, Here are several more pairs of statements.  Please tell me whether you most agree with Statement A or Statement B.  Then, the enumerator probed for strength of opinion.
 
-Pk: 183
+Pk: 411
 Id: Q27
 Text: a.  the number of people who work for government should not be reduced, even if paying their salaries is costly to the country.  b.  the government cannot afford so many public employees and should lay off or retrench some of them
 VariableLabel: Keep government employees VS retrench government employees
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 255
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: The enumerator introduced the pair of statements by saying, Here are several more pairs of statements.  Please tell me whether you most agree with Statement A or Statement B.  Then, the enumerator probed for strength of opinion.
 
-Pk: 91
+Pk: 329
 Id: Q57
 Text: a.  the government should retain ownership of its factories, businesses, and farms.  b.  it is better for the government to sell its businesses to private companies and individuals
 VariableLabel: Government keeps factories vs privitization
 Language: English
-List_PkSurvey: 1,3
-PkVariable: 132
+List_PkSurvey: 3,5
+PkVariable: 
 Source: Zambia 96
 Note: The enumerator introduced the pair of statements by saying, Again, please choose A or B.  Then, the enumerator probed for strength of opinion.
 
-Pk: 185
+Pk: 413
 Id: Q29A-C
 Text: what, if anything, do you understand by the word democracy?  what comes to your mind when you hear the word?
 VariableLabel: What does democracy mean
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 257
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana 97
 Note: Respondent could give up to three answers.
 
-Pk: 186
+Pk: 414
 Id: Q30
 Text: first of all, can you tell me who presently holds the following positions:  the prime minister of [country]?
 VariableLabel: Who is the Prime Minister
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 258
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 3 (right) or 4 (wrong). Blank responses were later postcoded as 1 (Don’t know).
 
-Pk: 186
+Pk: 414
 Id: Q30
 Text: first of all, can you tell me who presently holds the following positions:  the prime minister of [country]?
 VariableLabel: Who is the Prime Minister
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 258
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 3 (right) or 4 (wrong). Blank responses were later postcoded as 1 (Don’t know).
 
@@ -503,8 +503,8 @@ Id: Q31
 Text: first of all, can you tell me who presently holds the following positions:  a member of parliament who has been assigned to represent this area?
 VariableLabel: Member of parliament for this area
 Language: English
-List_PkSurvey: 3
-PkVariable: 487
+List_PkSurvey: 5
+PkVariable: 
 Source: Zambia 96
 Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 3 (right) or 4 (wrong). Blank responses were later postcoded as 1 (Don’t know).
 
@@ -513,268 +513,268 @@ Id: Q32
 Text: first of all, can you tell me who presently holds the following positions:  your local councilor?
 VariableLabel: Your local councilor
 Language: English
-List_PkSurvey: 3
+List_PkSurvey: 5
 PkVariable: 
 Source: Zambia 96
 Note: The enumerator wrote down the names given by the respondent, if any, and the supervisor coded the responses as 3 (right) or 4 (wrong). Blank responses were later postcoded as 1 (Don’t know).
 
-Pk: 189
+Pk: 417
 Id: Q34
 Text: in the past year, have you contacted a government official or political party official about some important problem or to give them your views?  if yes:  was it just once, twice, a few times, or frequently?
 VariableLabel: Have you contacted government official or political party official
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 262
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Modified from Zambia96
 Note: Enumerators skips to question 35, if respondent answers 1 (no).
 
-Pk: 190
+Pk: 418
 Id: Q35A-F
 Text: what type of official was it?
 VariableLabel: What type of official did you contact
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 263
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia96
 Note: Enumerator only asked the question if they indicate contact in question 33.  Enumerator probed for most specific answer, and respondent could give more than one answer.  If question 34 is skipped, enumerator postcoded answer as 97 (No Contact).
 
-Pk: 191
+Pk: 419
 Id: Q36A
 Text: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  a.  a job
 VariableLabel: Paid a government official to get a job
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 264
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 192
+Pk: 420
 Id: Q36B
 Text: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  b.  a government maintenance payment, pension payment, or loan
 VariableLabel: Paid government official to get a maintenance payment, loan, etc
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 489
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 191
+Pk: 419
 Id: Q36A
 Text: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  a.  a job
 VariableLabel: Paid a government official to get a job
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 264
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 191
+Pk: 419
 Id: Q36A
 Text: in the past year, have you or anyone in your family had to pay money to government officials (besides paying rates or taxes), give them a gift, or do them a favour, in order to get the following?  if yes:  was it just once or twice, a few times or frequently?  a.  a job
 VariableLabel: Paid a government official to get a job
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 264
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 193
+Pk: 421
 Id: Q37
 Text: in the past year, have you contacted any other influential person such as a church or community leader about some important problem or to give them your views?  if yes:  was it just once or twice, a few times, or frequently?
 VariableLabel: Contacted any other influential person
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 268
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Modified Zambia96
 Note: Enumerator skipped to question 39 if respondent answered 1 (no).
 
-Pk: 194
+Pk: 422
 Id: Q38A-D
 Text: if respondent made contact, what type of person was this?
 VariableLabel: What type of influential person did you contact
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 269
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Adapted from Zambia96
 Note: Enumerator only asked this question if they indicated contact in question 37.  Respondent was encouraged to mention as many people as possible.  If enumerator skipped question 38, the answer was later postcoded as 97 (No contact).
 
-Pk: 195
+Pk: 423
 Id: Q39
 Text: i would like to speak about traditional leadership.  do you have a traditional leader, chief, or headman?
 VariableLabel: Local traditional leader, chief or headman
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 490
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: If respondent answered 2 (no), enumerator skipped to question 43.
 
-Pk: 196
-Id: Q40
+Pk: 0
+Id: Q39
 Text: how interested do you think your local chief is in what happens to you or hearing what people like you think?  are they:
 VariableLabel: Local chiefs interest in people
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 272
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
-Note: If respondent answered 2 (no) to question 39, enumerator postcoded question as 97 (not applicable).
+Note: If respondent answered 2 (no) to question 38, enumerator postcoded question as 97 (not applicable).
 
-Pk: 197
+Pk: 424
 Id: Q41
 Text: how much of the time can you trust your local chief to do what is right?  is it:
 VariableLabel: How much of the time can local chief be trusted
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 273
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia96
 Note: If respondent answered 2 (no) to question 39, enumerator postcoded question as 97 (not applicable).
 
-Pk: 0
-Id: Q41
+Pk: 425
+Id: Q42
 Text: what about corruption, that is where leaders take money intended for the community and use it for themselves?  how many chiefs or traditional leaders are involved in corruption?  is it:
 VariableLabel: How many chiefs or traditional leaders are involved in corruption
 Language: English
-List_PkSurvey: 3
-PkVariable: 274
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
-Note: If respondent answered 2 (no) to question 38, enumerator postcoded question as 97 (not applicable).
+Note: If respondent answered 2 (no) to question 39, enumerator postcoded question as 97 (not applicable).
 
-Pk: 198
-Id: Q43A
-Text: how often do you get news from the following sources:  radio?
-VariableLabel: How often do you get news from radio
+Pk: 66
+Id: Q26A
+Text: how often do you get news from the following sources: radio?
+VariableLabel: Radio news
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 275
+List_PkSurvey: 1,2,3,4,5
+PkVariable: 
 Source: Zambia96
 Note: 
 
-Pk: 198
-Id: Q43A
-Text: how often do you get news from the following sources:  radio?
-VariableLabel: How often do you get news from radio
+Pk: 426
+Id: Q43B
+Text: how often do you get news from the following sources:  b.  television?
+VariableLabel: How often do you get news from tv
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 275
-Source: Zambia96
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
 Note: 
 
-Pk: 199
-Id: Q43C
-Text: how often do you get news from the following sources:  c.  newspapers?
-VariableLabel: How often do you get news from newspapers
+Pk: 426
+Id: Q43B
+Text: how often do you get news from the following sources:  b.  television?
+VariableLabel: How often do you get news from tv
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 276
-Source: Zambia96
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
 Note: 
 
-Pk: 93
+Pk: 331
 Id: Q59
 Text: generally speaking, would you say that most people can be trusted or that you must be very careful in dealing with people?
 VariableLabel: Trust generally
 Language: English
-List_PkSurvey: 1,3
-PkVariable: 134
+List_PkSurvey: 3,5
+PkVariable: 
 Source: SAB99
 Note: 
 
-Pk: 201
+Pk: 428
 Id: Q45
 Text: when you get together with your friends, would you say you discuss political matter?
 VariableLabel: Discuss political matters with friends
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 278
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Modified from Zambia96
 Note: 
 
-Pk: 202
+Pk: 429
 Id: Q46
 Text: some people seem to follow what’s going on in government and public affairs most of the time, whether there’s an election going on or not.  other’s aren’t that interested.  would you say you follow what’s going on in government and public affairs?
 VariableLabel: Do you follow what is happening in government and public affairs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 279
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 203
+Pk: 430
 Id: Q47A
 Text: do you agree, neither agree or disagree, or disagree with the following statements?  a.  you feel you have little or not control over what happens to your life
 VariableLabel: Feel that you have little or no control over life
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 280
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 204
+Pk: 431
 Id: Q47B
 Text: do you agree, neither agree or disagree, or disagree with the following statements?  b.  you think that you do not have enough information about political life and the actions of government
 VariableLabel: Insufficient info about political life and government actions
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 281
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 205
+Pk: 432
 Id: Q47C
 Text: do you agree, neither agree or disagree, or disagree with the following statements?  c.  sometimes political and government affairs seem so complicated that you can’t really understand what’s going on
 VariableLabel: Sometimes political affairs too complicated to understand
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: Zambia96
 Note: 
 
-Pk: 206
+Pk: 433
 Id: Q47D
 Text: do you agree, neither agree or disagree, or disagree with the following statements?  d.  in this country, you must be very careful of what you say and do with regard to politics
 VariableLabel: Have to be careful what you do and say with regard to politics
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 207
+Pk: 434
 Id: Q48
 Text: a.  no matter how you vote, it won’t make things any better in the future.  b.  the way you vote could make things better in the future
 VariableLabel: Way you vote will make a difference VS it won't make a difference
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 284
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: The enumerator introduced the pair of statements by saying, Please tell me whether you agree more with Statement A or Statement B.  Then, the enumerator probed for strength of opinion.
 
-Pk: 208
+Pk: 435
 Id: Q49
 Text: a.  it is important who is in power because it can make a difference to what happens.  b.  it doesn’t really matter who is in power, because in the end things go on much the same
 VariableLabel: Who is in power makes a difference vs it doesn't matter
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 285
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: The enumerator introduced the pair of statements by saying, Please tell me whether you agree more with Statement A or Statement B.  Then, the enumerator probed for strength of opinion.
 
-Pk: 209
+Pk: 436
 Id: Q50
 Text: on the whole, how would you rate the freeness and fairness of the last national elections, held in 1996?  was it:
 VariableLabel: Freeness and fairness of last national elections
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 286
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 210
+Pk: 437
 Id: Q51A-C
 Text: what are the most important problems facing this country that the government should address?
 VariableLabel: Most important problems to be addressed by government
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 287
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
@@ -783,18 +783,18 @@ Id: Q50D
 Text: what is the single most important problem facing this country that the government should address?
 VariableLabel: Single most important problem facing [country]
 Language: English
-List_PkSurvey: 3
-PkVariable: 491
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Q50D is not in questionnaire. The data was included afterward.
 
-Pk: 211
+Pk: 438
 Id: Q51Xa
 Text: we are now going to discuss how you rate different forms of government  i would like you to give marks out of 10.  the best form of governing a country gets 10 out of 10 and the worst form of governing a country gets no marks at all.  what grade would you give to:  a.  the way the country was governed under the military government
 VariableLabel: Rating of previous system government
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 288
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
@@ -803,158 +803,158 @@ Id: Q51B
 Text: we are now going to discuss how you rate different forms of government  i would like you to give marks out of 10.  the best form of governing a country gets 10 out of 10 and the worst form of governing a country gets no marks at all.  what grade would you give to:  b.  our current system of government with regular elections where everyone can vote and there are at least two political parties
 VariableLabel: Rating of current system of government
 Language: English
-List_PkSurvey: 3
-PkVariable: 289
+List_PkSurvey: 5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 212
+Pk: 439
 Id: Q51Xc
 Text: we are now going to discuss how you rate different forms of government  i would like you to give marks out of 10.  the best form of governing a country gets 10 out of 10 and the worst form of governing a country gets no marks at all.  what grade would you give to:  c.  the political system of this country as you expect it to be in 10 years time
 VariableLabel: Rating of future system government
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 290
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 213
+Pk: 440
 Id: Q52A
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under the one party regime of kaunda.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  a.  anyone can freely say what he or she thinks
 VariableLabel: Anyone can freely say what they think
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 291
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 214
+Pk: 441
 Id: Q52B
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  b.  people can join any political organization they choose
 VariableLabel: Can join any political organization they choose
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 295
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 215
+Pk: 442
 Id: Q52C
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  b.  people can live without fear of being arrested by the police if they have not done anything wrong
 VariableLabel: Can live without fear of unjust arrest
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 293
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 216
+Pk: 443
 Id: Q52D
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  c.  each person can freely choose who to vote for without feeling forced by others
 VariableLabel: Free to choose who to vote for without feeling forced by others
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 294
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 214
+Pk: 441
 Id: Q52B
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  b.  people can join any political organization they choose
 VariableLabel: Can join any political organization they choose
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 295
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 214
+Pk: 441
 Id: Q52B
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  b.  people can join any political organization they choose
 VariableLabel: Can join any political organization they choose
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 295
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 214
+Pk: 441
 Id: Q52B
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  b.  people can join any political organization they choose
 VariableLabel: Can join any political organization they choose
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 295
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 214
+Pk: 441
 Id: Q52B
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  b.  people can join any political organization they choose
 VariableLabel: Can join any political organization they choose
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 295
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 214
+Pk: 441
 Id: Q52B
 Text: some people say that today, under our current system of government, our political and overall life is better than it was under apartheid.  others say things are no better, or even worse.  for each of these following matters, would you say things today are worse, about the same, or better?  b.  people can join any political organization they choose
 VariableLabel: Can join any political organization they choose
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 295
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 217
+Pk: 444
 Id: Q53
 Text: if only one political party, or candidates from only one party, were allowed to stand for elections and hold office?
 VariableLabel: One party to stand for elections and hold office
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 300
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator introduced the question by saying:  Our current system of governing with regular elections and more than one political party is not the only one Lesotho has ever had.  Some people say that we would be better off if we had a different system of government  How much would you disapprove, neither disapprove or approve, or approve of the following alternatives to our current system of government with at least two political parties and regular elections?  Enumerator probed for strength of opinion.
 
-Pk: 218
+Pk: 445
 Id: Q54
 Text: if all decisions were made by a council of elders, traditional leaders, or chiefs
 VariableLabel: Decisions to be made by council of elders, traditional leaders
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: adapted from NDB
 Note: Enumerator introduced the question by saying:  Our current system of governing with regular elections and more than one political party is not the only one Lesotho has ever had.  Some people say that we would be better off if we had a different system of government  How much would you disapprove, neither disapprove or approve, or approve of the following alternatives to our current system of government with at least two political parties and regular elections?  Enumerator probed for strength of opinion.
 
-Pk: 219
+Pk: 0
 Id: Q55
 Text: if the army came in to govern the country?
 VariableLabel: Army governs the country
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 302
+List_PkSurvey: 5
+PkVariable: 
 Source: adapted from NDB
-Note: Enumerator introduced the question by saying:  Our current system of governing with regular elections and more than one political party is not the only one Lesotho has ever had.  Some people say that we would be better off if we had a different system of government  How much would you disapprove, neither disapprove or approve, or approve of the following alternatives to our current system of government with at least two political parties and regular elections?  Enumerator probed for strength of opinion.
+Note: Enumerator introduced the question by saying:  Our current system of governing with regular elections and more than one political party is not the only one South Africa has ever had.  Some people say that we would be better off if we had a different system of government  How much would you disapprove, neither disapprove or approve, or approve of the following alternatives to our current system of government with at least two political parties and regular elections?  Enumerator probed for strength of opinion.
 
-Pk: 220
+Pk: 446
 Id: Q56
 Text: if parliament and political parties were abolished, so that the president could decide everything?
 VariableLabel: President decides everything
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 303
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator introduced the question by saying:  Our current system of governing with regular elections and more than one political party is not the only one Lesotho has ever had.  Some people say that we would be better off if we had a different system of government  How much would you disapprove, neither disapprove or approve, or approve of the following alternatives to our current system of government with at least two political parties and regular elections?  Enumerator probed for strength of opinion.
 
-Pk: 184
+Pk: 412
 Id: Q57
 Text: if all important decisions about the economy were made by economic experts rather than an elected government or parliament
 VariableLabel: All decisions made by economic experts rather than government
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 496
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Enumerator introduced the question by saying:  Our current system of governing with regular elections and more than one political party is not the only one Lesotho has ever had.  Some people say that we would be better off if we had a different system of government  How much would you disapprove, neither disapprove or approve, or approve of the following alternatives to our current system of government with at least two political parties and regular elections?  Enumerator probed for strength of opinion.
 
@@ -963,158 +963,158 @@ Id: Q58
 Text: if the country returned to the old system we had under apartheid?
 VariableLabel: Country returned to apartheid
 Language: English
-List_PkSurvey: 3
+List_PkSurvey: 5
 PkVariable: 
 Source: SAB
 Note: Enumerator introduced the question by saying:  Our current system of governing with regular elections and more than one political party is not the only one South Africa has ever had.  Some people say that we would be better off if we had a different system of government  How much would you disapprove, neither disapprove or approve, or approve of the following alternatives to our current system of government with at least two political parties and regular elections?  Enumerator probed for strength of opinion.
 
-Pk: 200
+Pk: 427
 Id: Q59
 Text: our government was elected to power by accepted procedures
 VariableLabel: Govt elected by accepted procedures
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 306
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator introduced the question by saying:  Here are some things people often say about our current political system.  For each of the following statements, please tell me whether you disagree, neither disagree nor agree, or agree. Enumerator probed for strength of opinion.
 
-Pk: 222
+Pk: 448
 Id: Q60
 Text: our government exercises power in an acceptable way
 VariableLabel: Govt exercises power in acceptable way
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 307
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator introduced the question by saying:  Here are some things people often say about our current political system.  For each of the following statements, please tell me whether you disagree, neither disagree nor agree, or agree. Enumerator probed for strength of opinion.
 
-Pk: 67
-Id: Q42
-Text: our constitution expresses the values and aspirations of the [country]n people?
+Pk: 94
+Id: Q42A
+Text: for each of the following statements, please tell me whether you disagree or agree: our constitution expresses the values and aspirations of the [country]n people
 VariableLabel: Constitution expresses values and aspirations of [nationality]
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 96
-Source: SAB99
-Note: Enumerator introduced the question by saying:  Please say whether you agree or disagree with the following statements.  There are no right or wrong answers.  Just tell me what you think. Enumerator probed for strength of opinion.
+List_PkSurvey: 1,2,3,4,5
+PkVariable: 
+Source: SAB
+Note: The interviewer probed for strength of opinion.
 
-Pk: 68
+Pk: 308
 Id: Q43
 Text: our government has the right to make decisions that all people have to abide by whether or not they agree with them
 VariableLabel: Abide by government decisions
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 97
+List_PkSurvey: 3,4,5
+PkVariable: 
 Source: SAB99
 Note: Enumerator introduced the question by saying:  Please say whether you agree or disagree with the following statements.  There are no right or wrong answers.  Just tell me what you think. Enumerator probed for strength of opinion.
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 224
+Pk: 450
 Id: Q63F
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well,, or not at all well, or haven’t you heard enough about this to have an opinion.  f.  addressing the educational needs of all[country]
 VariableLabel: How well does government address educational needs of all[country]
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 314
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 225
+Pk: 451
 Id: Q63H
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, or not at all well, or haven’t you heard enough about this to have an opinion.   h.  delivering basic services like water and electricity
 VariableLabel: How well does government deliver basic services
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 316
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
@@ -1123,18 +1123,18 @@ Id: Q63L
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well,, or not at all well, or haven’t you heard enough about this to have an opinion.   l.  uniting all [country]ns into one nation
 VariableLabel: Uniting SAs into one nation
 Language: English
-List_PkSurvey: 3
-PkVariable: 500
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 224
+Pk: 450
 Id: Q63F
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well,, or not at all well, or haven’t you heard enough about this to have an opinion.  f.  addressing the educational needs of all[country]
 VariableLabel: How well does government address educational needs of all[country]
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 314
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
@@ -1143,8 +1143,8 @@ Id: Q63N
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well,, or not at all well, or haven’t you heard enough about this to have an opinion.   n.  distributing welfare payments to those who are entitled to it (such as old age pensions, disability payments, child maintenance grants)
 VariableLabel: How well is government distributing welfare payments to those who are entitled to it
 Language: English
-List_PkSurvey: 3
-PkVariable: 502
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: 
 
@@ -1153,18 +1153,18 @@ Id: Q63O
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well,, or not at all well, or haven’t you heard enough about this to have an opinion.   o.  making reparations to people identified as victims by the truth and reconciliation commission
 VariableLabel: Making reparations to TRC victims
 Language: English
-List_PkSurvey: 3
-PkVariable: 503
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 223
+Pk: 449
 Id: Q63A
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well, not at all well, or haven’t you heard enough about this to have an opinion.  a.  creating jobs
 VariableLabel: How well is government creating jobs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 309
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: 
 
@@ -1173,98 +1173,98 @@ Id: Q63Q
 Text: how well would you say the government is handling the following matters?  would you say very well, fairly well, not very well,, or not at all well, or haven’t you heard enough about this to have an opinion.   q.  [country]’s response to the situation in [country]
 VariableLabel: SAs response to situation in [country]
 Language: English
-List_PkSurvey: 3
-PkVariable: 505
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 226
+Pk: 452
 Id: Q64
 Text: how interested do you think the prime minister is in what happens to you or hearing what people like you think?  is he:
 VariableLabel: How interested is the Prime Minister in your well-being
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 318
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 227
+Pk: 453
 Id: Q65
 Text: how much of the time can you trust the prime minister to do what is right.  is it:
 VariableLabel: How much trust the Prime Minister
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 507
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: 
 
-Pk: 228
+Pk: 454
 Id: Q66
 Text: what about the way the president has performed his job over the past twelve months?  do you:
 VariableLabel: President's job performance
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 320
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 229
+Pk: 455
 Id: Q67
 Text: what about corruption?  (corruption is where those in government and the civil service take money or gifts from the people and use it for themselves, or expect people to pay them extra money or a gift to do their job).  how many officials in the government do you think are involved in corruption?
 VariableLabel: How many government officials involved in corruption
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 321
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 196
-Id: Q40
+Pk: 0
+Id: Q39
 Text: how interested do you think your local chief is in what happens to you or hearing what people like you think?  are they:
 VariableLabel: Local chiefs interest in people
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 272
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
-Note: If respondent answered 2 (no) to question 39, enumerator postcoded question as 97 (not applicable).
+Note: If respondent answered 2 (no) to question 38, enumerator postcoded question as 97 (not applicable).
 
-Pk: 230
+Pk: 456
 Id: Q69
 Text: how much of the time can you trust parliament to do what is right.  is it:
 VariableLabel: How much trust parliament
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 511
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: 
 
-Pk: 228
+Pk: 454
 Id: Q66
 Text: what about the way the president has performed his job over the past twelve months?  do you:
 VariableLabel: President's job performance
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 320
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 231
+Pk: 457
 Id: Q71
 Text: what about corruption?  how many people in parliament do you think are involved in corruption? is it:
 VariableLabel: How many members of parliament involved in corruption
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 325
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 232
+Pk: 458
 Id: Q72
 Text: how many civil servants, or those who work in government offices and ministries do you think are involved in corruption?  is it:
 VariableLabel: How many civil servants involved in corruption
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 326
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
@@ -1273,8 +1273,8 @@ Id: Q72A
 Text: how interested do you think the _____ government is in what happens to you or hearing what people like you think? are you:
 VariableLabel: How interested is provincial government in your well-being
 Language: English
-List_PkSurvey: 3
-PkVariable: 513
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: Enumerator read in the name of the province into blank spaces.
 
@@ -1283,28 +1283,28 @@ Id: Q72B
 Text: how much of the time can you trust the _____ government to do what is right?  is it:
 VariableLabel: How much of the time can you trust provincial government
 Language: English
-List_PkSurvey: 3
-PkVariable: 514
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: Enumerator read in the name of the province into blank spaces.
 
-Pk: 228
+Pk: 454
 Id: Q66
 Text: what about the way the president has performed his job over the past twelve months?  do you:
 VariableLabel: President's job performance
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 320
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 234
+Pk: 460
 Id: Q75
 Text: what about the way your local government has performed its job over the past twelve months?  do you:
 VariableLabel: Local government job performance
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 329
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
@@ -1313,38 +1313,38 @@ Id: Q72E
 Text: how many officials in the _______ government do you think are involved in corruption?
 VariableLabel: How many people in prov government are involved in corruption
 Language: English
-List_PkSurvey: 3
-PkVariable: 517
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: Enumerator read in the name of the province into blank spaces.
 
-Pk: 196
-Id: Q40
+Pk: 0
+Id: Q39
 Text: how interested do you think your local chief is in what happens to you or hearing what people like you think?  are they:
 VariableLabel: Local chiefs interest in people
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 272
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
-Note: If respondent answered 2 (no) to question 39, enumerator postcoded question as 97 (not applicable).
+Note: If respondent answered 2 (no) to question 38, enumerator postcoded question as 97 (not applicable).
 
-Pk: 233
+Pk: 459
 Id: Q74
 Text: how much of the time can trust your local government to do what is right.  is it:
 VariableLabel: How much trust your local government
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 328
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: 
 
-Pk: 234
+Pk: 460
 Id: Q75
 Text: what about the way your local government has performed its job over the past twelve months?  do you:
 VariableLabel: Local government job performance
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 329
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
@@ -1353,7 +1353,7 @@ Id: Q76
 Text: what about corruption?  how many officials in your local government do you think are involved in corruption?
 VariableLabel: How many officials in local government are involved in corruption
 Language: English
-List_PkSurvey: 3
+List_PkSurvey: 5
 PkVariable: 
 Source: 
 Note: 
@@ -1363,8 +1363,8 @@ Id: Q76A1
 Text: please tell me how likely you think it would be that the authorities could enforce the law in each of the following situations. would it be very likely, likely, not very likely, or not at all likely? a1: what if a person like yourself committed a serious crime? how likely is it that the police would catch and charge them?
 VariableLabel: Likelihood of police catching and charging those committing serious crime
 Language: English
-List_PkSurvey: 3
-PkVariable: 520
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: 
 
@@ -1373,8 +1373,8 @@ Id: Q76A2
 Text: please tell me how likely you think it would be that the authorities could enforce the law in each of the following situations. would it be very likely, likely, not very likely, or not at all likely? a2: if a person like youself committed a serious crime and were charged by the police? how likely is it that a court of law would convict them?
 VariableLabel: Likelihood of court conviction
 Language: English
-List_PkSurvey: 3
-PkVariable: 521
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: 
 
@@ -1383,8 +1383,8 @@ Id: Q76A3
 Text: please tell me how likely you think it would be that the authorities could enforce the law in each of the following situations. would it be very likely, likely, not very likely, or not at all likely? a3: what about if a person like yourself cheated and did not pay a tax that they owed the government (like a tax on income they get from      sources other than a normal salary)? how likely is it that the receiver of revenue ([country]n revenue service) would find out and penalize them?
 VariableLabel: Likelihood of SARS penalizing tax evaders
 Language: English
-List_PkSurvey: 3
-PkVariable: 522
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: 
 
@@ -1393,8 +1393,8 @@ Id: Q76A4
 Text: please tell me how likely you think it would be that the authorities could enforce the law in each of the following situations. would it be very likely, likely, not very likely, or not at all likely? a4: if a person like yourself were to obtain their services without paying for them (like water and electricity), how likely is that your local council would fine out and cut off their services?
 VariableLabel: Illegal services: Likelihood of council cutting services
 Language: English
-List_PkSurvey: 3
-PkVariable: 523
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: 
 
@@ -1403,18 +1403,18 @@ Id: Q76A5
 Text: please tell me how likely you think it would be that the authorities could enforce the law in each of the following situations. would it be very likely, likely, not very likely, or not at all likely? a5: what if they did not pay their rates? how likely is it that your local council would cut of their services?
 VariableLabel: Rates evasion: Likelihood of council cutting services
 Language: English
-List_PkSurvey: 3
-PkVariable: 524
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: 
 
-Pk: 235
+Pk: 461
 Id: Q77A
 Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under president leabua jonathan?  is the government of today more, about the same, or less [on each of the following] than under the government of  president leabua jonathan?  a.  effective in the way it performs its job
 VariableLabel: Comparison of current and past government effectiveness
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 330
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator probed for strength of opinion.
 
@@ -1423,8 +1423,8 @@ Id: Q77B
 Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under apartheid?  is government of today more, about the same, or less as under apartheid?  b.  interested in hearing what people like you think
 VariableLabel: Comparison of current and past government interest
 Language: English
-List_PkSurvey: 3
-PkVariable: 331
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Enumerator probed for strength of opinion.
 
@@ -1433,8 +1433,8 @@ Id: Q77B
 Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under apartheid?  is government of today more, about the same, or less as under apartheid?  b.  interested in hearing what people like you think
 VariableLabel: Comparison of current and past government interest
 Language: English
-List_PkSurvey: 3
-PkVariable: 331
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Enumerator probed for strength of opinion.
 
@@ -1443,8 +1443,8 @@ Id: Q77B
 Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under apartheid?  is government of today more, about the same, or less as under apartheid?  b.  interested in hearing what people like you think
 VariableLabel: Comparison of current and past government interest
 Language: English
-List_PkSurvey: 3
-PkVariable: 331
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Enumerator probed for strength of opinion.
 
@@ -1453,8 +1453,8 @@ Id: Q77B
 Text: you have told us how you feel about the effectiveness of the way government performs its job, its interest in what you think, corruption, and your trust in government  but how does this compare to the government that this country had before under apartheid?  is government of today more, about the same, or less as under apartheid?  b.  interested in hearing what people like you think
 VariableLabel: Comparison of current and past government interest
 Language: English
-List_PkSurvey: 3
-PkVariable: 331
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Enumerator probed for strength of opinion.
 
@@ -1463,8 +1463,8 @@ Id: Q77E1
 Text: what about your life today is better, about the same, or worse than it was under apartheid?
 VariableLabel: Life today compared to under apartheid
 Language: English
-List_PkSurvey: 3
-PkVariable: 526
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: Enumerator probed for strength of opinion.
 
@@ -1473,8 +1473,8 @@ Id: Q78A
 Text: what about the following institutions?  how much of the time can you trust them to do what is right?  a.  [country]n defence force
 VariableLabel: How much of the time can you trust the army
 Language: English
-List_PkSurvey: 3
-PkVariable: 527
+List_PkSurvey: 5
+PkVariable: 
 Source: Ghana99
 Note: 
 
@@ -1483,8 +1483,8 @@ Id: Q78A
 Text: what about the following institutions?  how much of the time can you trust them to do what is right?  a.  [country]n defence force
 VariableLabel: How much of the time can you trust the army
 Language: English
-List_PkSurvey: 3
-PkVariable: 527
+List_PkSurvey: 5
+PkVariable: 
 Source: Ghana99
 Note: 
 
@@ -1493,8 +1493,8 @@ Id: Q78A
 Text: what about the following institutions?  how much of the time can you trust them to do what is right?  a.  [country]n defence force
 VariableLabel: How much of the time can you trust the army
 Language: English
-List_PkSurvey: 3
-PkVariable: 527
+List_PkSurvey: 5
+PkVariable: 
 Source: Ghana99
 Note: 
 
@@ -1503,18 +1503,18 @@ Id: Q78C1
 Text: what about the following institutions?  how much of the time can you trust them to do what is right?  c1.  what about the overall criminal justice system
 VariableLabel: How much of the time can you trust the criminal justice system
 Language: English
-List_PkSurvey: 3
-PkVariable: 529
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: 
 
-Pk: 237
+Pk: 463
 Id: Q78D
 Text: what about the following institutions?  how much of the time can you trust them to do what is right?  d.  supervisory electoral commission
 VariableLabel: How much trust the electoral commission
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 530
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Adapted from Ghana97
 Note: 
 
@@ -1523,28 +1523,28 @@ Id: Q78A
 Text: what about the following institutions?  how much of the time can you trust them to do what is right?  a.  [country]n defence force
 VariableLabel: How much of the time can you trust the army
 Language: English
-List_PkSurvey: 3
-PkVariable: 527
+List_PkSurvey: 5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 236
+Pk: 462
 Id: Q78A
 Text: what about the following institutions?  how much of the time can you trust them to do what is right?  a.  the army
 VariableLabel: How much trust the army
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 334
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana99
 Note: 
 
-Pk: 240
+Pk: 466
 Id: Q79
 Text: with which of these statements are you most in agreement?  a, b, or c?   a.  democracy is preferable to any other form of government b.  in some circumstances, a non-democratic government can be preferable to a democratic government c.  for someone like me, a democratic or non-democratic regime makes no difference
 VariableLabel: Preference for democratic VS non-democratic government
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 340
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Latinobarometer (LB)
 Note: 
 
@@ -1553,67 +1553,57 @@ Id: Q80
 Text: have you ever heard anything about the government’s growth, employment and redistribution programme (gear), or haven’t you had a chance to hear of read about this yet?
 VariableLabel: Have you ever heard about GEAR Programme
 Language: English
-List_PkSurvey: 3
+List_PkSurvey: 5
 PkVariable: 
 Source: 
 Note: If the answer is 2 (No), skip to Q83.
 
-Pk: 242
+Pk: 468
 Id: Q81
 Text: what effect do you think it has on the way you live your life? has it made it worse, had no effect, or made it better, or haven’t you heard enough about this to say?
 VariableLabel: ESAP’s effect on your life
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: 
 Note: 
 
-Pk: 243
+Pk: 469
 Id: Q82
 Text: here are two statements. please tell me whether you agree more with statement a or b? a.the structural adjustment programme (esap) has helped most people; only a minority have suffered. or: b. the structural adjustment programme (esap) has hurt most people and only benefited a minority
 VariableLabel: ESAP has helped VS hurt most people
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 343
+List_PkSurvey: 4,5
+PkVariable: 
 Source: 
 Note: 
 
-Pk: 244
+Pk: 470
 Id: Q83
 Text: we have spoken to many [country] and they have all described themselves in different ways.  some people describe themselves in terms of their language, religion, race, and others describe themselves in economic terms, such as working class, middle class, or a farmer.  besides being [country], which specific group to do you feel you belong to first and foremost?
 VariableLabel: Besides being [country], which group do you feel you belong to
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 245
+Pk: 471
 Id: Q84A
 Text: here are a series of things people might say about how they see their group in relation to other .  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  a.  you feel proud to be ____
 VariableLabel: Feel proud to be part of this group
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 345
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
-Pk: 246
+Pk: 472
 Id: Q84B
 Text: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b.  you would want your children to think of themselves as ______
 VariableLabel: Want children to think of themselves as part of group
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 346
-Source: SAB
-Note: Enumerator read respondent’s identity group from Q83 in the blank space.
-
-Pk: 0
-Id: Q84B1
-Text: here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b1.  being a _____ is a very important part of how you see yourself
-VariableLabel: Being a part of this group is very important part of how you see yourself
-Language: English
-List_PkSurvey: 3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
@@ -1623,18 +1613,8 @@ Id: Q84B1
 Text: here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b1.  being a _____ is a very important part of how you see yourself
 VariableLabel: Being a part of this group is very important part of how you see yourself
 Language: English
-List_PkSurvey: 3
-PkVariable: 347
-Source: SAB
-Note: Enumerator read respondent’s identity group from Q83 in the blank space.
-
-Pk: 246
-Id: Q84B
-Text: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b.  you would want your children to think of themselves as ______
-VariableLabel: Want children to think of themselves as part of group
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 346
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
@@ -1643,28 +1623,48 @@ Id: Q84B1
 Text: here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b1.  being a _____ is a very important part of how you see yourself
 VariableLabel: Being a part of this group is very important part of how you see yourself
 Language: English
-List_PkSurvey: 3
-PkVariable: 347
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
-Pk: 245
+Pk: 472
+Id: Q84B
+Text: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b.  you would want your children to think of themselves as ______
+VariableLabel: Want children to think of themselves as part of group
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Enumerator read respondent’s identity group from Q83 in the blank space.
+
+Pk: 0
+Id: Q84B1
+Text: here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b1.  being a _____ is a very important part of how you see yourself
+VariableLabel: Being a part of this group is very important part of how you see yourself
+Language: English
+List_PkSurvey: 5
+PkVariable: 
+Source: SAB
+Note: Enumerator read respondent’s identity group from Q83 in the blank space.
+
+Pk: 471
 Id: Q84A
 Text: here are a series of things people might say about how they see their group in relation to other .  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  a.  you feel proud to be ____
 VariableLabel: Feel proud to be part of this group
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 345
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
-Pk: 246
+Pk: 472
 Id: Q84B
 Text: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b.  you would want your children to think of themselves as ______
 VariableLabel: Want children to think of themselves as part of group
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 346
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
@@ -1673,28 +1673,28 @@ Id: Q84B1
 Text: here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  b1.  being a _____ is a very important part of how you see yourself
 VariableLabel: Being a part of this group is very important part of how you see yourself
 Language: English
-List_PkSurvey: 3
-PkVariable: 347
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
-Pk: 247
+Pk: 473
 Id: Q84G
 Text: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.   g.  all people who were born in this country, regardless of what group they belong to, should be treated as equal [country]
 VariableLabel: Regardless of group, all [country] should be treated equally
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
-Pk: 248
+Pk: 474
 Id: Q84H
 Text: here are a series of things people might say about how they see their group in relation to other [country].  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.   h.  it is desirable to create one united [country] nation out of all the different group who live in this country
 VariableLabel: Desirable to create a united [nationality] nation out of all groups
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 352
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
@@ -1703,188 +1703,188 @@ Id: Q84H1
 Text: here are a series of things people might say about how they see their group in relation to other [country]ns.  there are no right or wrong answers.  we are simply interested in your opinions.  please tell me whether you disagree, neither disagree or agree, or agree with these statements.  h1.  it is possible to create such a united [country]n nation
 VariableLabel: It is possible to create a united SA nation
 Language: English
-List_PkSurvey: 3
-PkVariable: 539
+List_PkSurvey: 5
+PkVariable: 
 Source: SAB
 Note: Enumerator read respondent’s identity group from Q83 in the blank space.
 
-Pk: 249
-Id: Q85
-Text: are _____’s (respondent’s identity group from q83) economic conditions worse, the same as, or better than other group in this country?
-VariableLabel: Your group economic conditions compared to other group
+Pk: 146
+Id: Q55
+Text: are ____________s’ [respondent’s identity group] economic conditions worse, the same as, or better than other group in this country?
+VariableLabel: Identity condition
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 353
+List_PkSurvey: 1,2,4,5
+PkVariable: 
 Source: SAB
-Note: Enumerator probed for strength of opinion.
+Note: Interviewer probed for strength of opinion.  If respondent had not identified a group on question 54, this question was marked as Not Applicable.
 
 Pk: 0
 Id: Q86
 Text: to what extent are _______(respondent’s identity from q83) people treated unfairly by the government? is it:
 VariableLabel: Identity treated fairly by the government
 Language: English
-List_PkSurvey: 3
+List_PkSurvey: 5
 PkVariable: 
 Source: SAB Notes
 Note: 
 
-Pk: 250
+Pk: 475
 Id: Q87
 Text: in general, do you feel that people in government are less interested, or more interested in what ______s (respondent’s identity from q83) think compared to other group, or is it about the same?
 VariableLabel: Govt more or less interested in what your group has to say
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 541
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 251
+Pk: 476
 Id: Q88
 Text: do you think that the government represents the interests of all [country], or of one group only?
 VariableLabel: Govt represents all [country] or just one group only
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: If respondent answers 1 (All Lesotho), skip to question 90.
 
-Pk: 252
+Pk: 477
 Id: Q89
 Text: which group is that?  (if one group is answered)
 VariableLabel: Which group interest is mostly represented by government
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 356
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator postcoded answer as 97 (not applicable) if respondent did not answer 2 (one group only) to quesrtion 88.
 
-Pk: 253
+Pk: 478
 Id: Q90
 Text: with regard to the most recent, 1998 national elections, which statement is true for you?
 VariableLabel: Which is true for you with regards to 1998 national elections
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: adapted from Zambia96
 Note: 
 
-Pk: 254
+Pk: 479
 Id: Q91A
 Text: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  a.  participate with others to address an important problem affecting the community or nation (other than an elections)
 VariableLabel: Address problems facing the community with others
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 358
+List_PkSurvey: 4,5
+PkVariable: 
 Source: adapted from Zambia 96
 Note: 
 
-Pk: 255
+Pk: 480
 Id: Q91B
 Text: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  b.  attend an election rally
 VariableLabel: Attend election rally
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 84
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: 
 
-Pk: 255
+Pk: 480
 Id: Q91B
 Text: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  b.  attend an election rally
 VariableLabel: Attend election rally
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 84
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: 
 
-Pk: 255
+Pk: 480
 Id: Q91B
 Text: here is a list of things that people sometimes do as citizens.  for each of these, please tell me whether you have engaged in this activity or not?  if yes-read out options 1-3, if no-read out options 4 and 5.  b.  attend an election rally
 VariableLabel: Attend election rally
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 84
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: 
 
-Pk: 0
+Pk: 481
 Id: Q92A
 Text: we would like to remind you that your responses to this interview are confidential.  here is a list of action ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  a.  claim government benefits to which you are not entitled (like a pension, maintenance, or unemployment payment)
 VariableLabel: Claimed government benefits to which you are not entitled
 Language: English
-List_PkSurvey: 3
-PkVariable: 361
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 256
+Pk: 482
 Id: Q92B
 Text: we would like to remind you that your responses to this interview are confidential.  here is a list of action ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  b.  avoid paying municipal or local rates
 VariableLabel: Avoid paying development levy or property taxes
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 362
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 256
+Pk: 482
 Id: Q92B
 Text: we would like to remind you that your responses to this interview are confidential.  here is a list of action ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  b.  avoid paying municipal or local rates
 VariableLabel: Avoid paying development levy or property taxes
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 362
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 257
+Pk: 483
 Id: Q92D
 Text: we would like to remind you that your responses to this interview are confidential.  here is a list of action ordinary people are taking in a political system.  for each of these, please tell me whether you have engaged in this activity or not?  d.  get services like electricity or water without paying for them
 VariableLabel: Get services without paying
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 364
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 258
+Pk: 484
 Id: Q93A
 Text: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  a.  attend a demostartion or protest march
 VariableLabel: Attend a demostartion or protest march
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 365
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia96
 Note: 
 
-Pk: 258
+Pk: 484
 Id: Q93A
 Text: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  a.  attend a demostartion or protest march
 VariableLabel: Attend a demostartion or protest march
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 365
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia96
 Note: 
 
-Pk: 258
+Pk: 484
 Id: Q93A
 Text: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  a.  attend a demostartion or protest march
 VariableLabel: Attend a demostartion or protest march
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 365
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia96
 Note: 
 
-Pk: 259
+Pk: 485
 Id: Q93D
 Text: here are a number of different actions people might take if government were to do something they thought was wrong or harmful.  for each of these, please tell me whether you have engaged in this activity or not.  if yes-read out options 1-3, if no-read out options 4-6.  d.  use force or violent methods (such as damaging public property)
 VariableLabel: Use force or violent methods
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 368
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
@@ -1893,78 +1893,78 @@ Id: Q94
 Text: shut down newspapers, or radio, or television stations that were critical of it
 VariableLabel: Support for shutting down media
 Language: English
-List_PkSurvey: 3
+List_PkSurvey: 5
 PkVariable: 
 Source: NDB
 Note: Enumerator introduced by the question by saying:  If the government were to take the following actions, would you support it, neither support nor oppose it, or oppose it.  Then, the enumerator probed for strength of opinion.
 
-Pk: 260
+Pk: 486
 Id: Q95A-D
 Text: what is anything would you do about it?
 VariableLabel: Response to shutting down media
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 370
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Respondent could give up to four answers.
 
-Pk: 0
+Pk: 487
 Id: Q96
 Text: dismissed judges who ruled against the government
 VariableLabel: Support for dismissing judges
 Language: English
-List_PkSurvey: 3
-PkVariable: 371
-Source: NDB
-Note: Enumerator introduced by the question by saying:  If the government were to take the following actions, would you support it, neither support nor oppose it, or oppose it.  Then, the enumerator probed for strength of opinion.
-
-Pk: 260
-Id: Q95A-D
-Text: what is anything would you do about it?
-VariableLabel: Response to shutting down media
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 370
-Source: NDB
-Note: Respondent could give up to four answers.
-
-Pk: 261
-Id: Q98
-Text: banned political parties
-VariableLabel: Support for banning political parties
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 373
-Source: SAB
-Note: Enumerator introduced by the question by saying:  If the government were to take the following actions, would you support it, neither support nor oppose it, or oppose it.  Then, the enumerator probed for strength of opinion.
-
-Pk: 260
-Id: Q95A-D
-Text: what is anything would you do about it?
-VariableLabel: Response to shutting down media
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 370
-Source: NDB
-Note: Respondent could give up to four answers.
-
-Pk: 262
-Id: Q100
-Text: suspended the parliament and cancelled the next elections?
-VariableLabel: How do you feel about the suspension of parliament and cancellation of elections
-Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: NDB
 Note: Enumerator introduced by the question by saying:  If the government were to take the following actions, would you support it, neither support nor oppose it, or oppose it.  Then, the enumerator probed for strength of opinion.
 
-Pk: 260
+Pk: 486
 Id: Q95A-D
 Text: what is anything would you do about it?
 VariableLabel: Response to shutting down media
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 370
+List_PkSurvey: 4,5
+PkVariable: 
+Source: NDB
+Note: Respondent could give up to four answers.
+
+Pk: 0
+Id: Q98
+Text: banned political parties
+VariableLabel: Support for banning political parties
+Language: English
+List_PkSurvey: 5
+PkVariable: 
+Source: SAB
+Note: Enumerator introduced by the question by saying:  If the government were to take the following actions, would you support it, neither support nor oppose it, or oppose it.  Then, the enumerator probed for strength of opinion.
+
+Pk: 486
+Id: Q95A-D
+Text: what is anything would you do about it?
+VariableLabel: Response to shutting down media
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: NDB
+Note: Respondent could give up to four answers.
+
+Pk: 0
+Id: Q100
+Text: suspended the parliament and cancelled the next elections?
+VariableLabel: Support for the suspension of parliament and cancellation of elections
+Language: English
+List_PkSurvey: 5
+PkVariable: 
+Source: NDB
+Note: Enumerator introduced by the question by saying:  If the government were to take the following actions, would you support it, neither support nor oppose it, or oppose it.  Then, the enumerator probed for strength of opinion.
+
+Pk: 486
+Id: Q95A-D
+Text: what is anything would you do about it?
+VariableLabel: Response to shutting down media
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
 Source: NDB
 Note: Respondent could give up to four answers.
 
@@ -1973,168 +1973,168 @@ Id: Q101A1
 Text: if a non-elected government or leader could impose law and order, and deliver houses and jobs: how willing or unwilling would you be to give up regular elections and live under such a government?
 VariableLabel: Willingness to live under non-elected leader
 Language: English
-List_PkSurvey: 3
-PkVariable: 544
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
-Pk: 263
+Pk: 0
 Id: Q102
-Text: a.  it will take years for our system of government to deal with the problems inherited from the british colonial government  b.  our system of government ought to be able to deal with problems right now regardless of who caused them
+Text: a.  it will take years for our system of government to deal with the problems inherited from apartheid.  b.  our system of government ought to be able to deal with problems right now regardless of who caused them
 VariableLabel: Patience to deal with problems VS solve now
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 377
+List_PkSurvey: 5
+PkVariable: 
 Source: adapted from NDB
 Note: Enumerator introduced the question by saying, Please tell me whether you agree more with Statement A or B? Enumerator then probed for strength of opinion.
 
-Pk: 264
+Pk: 488
 Id: Q103A
 Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these:  a.  majority rule
 VariableLabel: Democratic society and majority rule
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 378
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 265
+Pk: 489
 Id: Q103B
 Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  b. complete freedom for anyone to criticize the government
 VariableLabel: Democratic society and freedom to criticize the government
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 264
+Pk: 488
 Id: Q103A
 Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these:  a.  majority rule
 VariableLabel: Democratic society and majority rule
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 378
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 266
+Pk: 490
 Id: Q103D
 Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  d.  at least two political parties competing with each other
 VariableLabel: Democratic society and at least 2 parties competing
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 381
-Source: SAB
-Note: 
-
-Pk: 267
-Id: Q103E
-Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  e.  basic necessities like shelter, food, and water for everyone
-VariableLabel: Democratic society and basic necessities
-Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 264
+Pk: 491
+Id: Q103E
+Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  e.  basic necessities like shelter, food, and water for everyone
+VariableLabel: Democratic society and basic necessities
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: 
+
+Pk: 488
 Id: Q103A
 Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these:  a.  majority rule
 VariableLabel: Democratic society and majority rule
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 378
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 264
+Pk: 488
 Id: Q103A
 Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these:  a.  majority rule
 VariableLabel: Democratic society and majority rule
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 378
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 268
+Pk: 492
 Id: Q103H
 Text: people associate democracy with many diverse meanings such as the ones that i will mention now.  in order for a society to be called democratic, is each of these.  h.  a small income gap between rich and poor
 VariableLabel: Democratic society and small income gap between rich and poor
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 385
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 269
+Pk: 493
 Id: Q104
 Text: sometimes democracy does not work.  when this happens, some people say that we need a strong leader who does not have to bother with elections.  others say that even when things don’t work, democracy is always best. what do you think. a.  need strong leader. b.  democracy always best
 VariableLabel: Need a strong leader VS democracy is always best
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 386
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator probed for strength of opinion.
 
-Pk: 270
+Pk: 494
 Id: Q105
 Text: on the whole, is the way [country] governed:
 VariableLabel: Is [country] democratic
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 387
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Ghana 97
 Note: 
 
-Pk: 271
-Id: Q106
-Text: overall, how satisfied are you with the way democracy works in [country]?
-VariableLabel: How satisfied are you with democracy in [country]
+Pk: 89
+Id: Q40
+Text: overall, how satisfied are you with the way democracy works in [country]? are you:
+VariableLabel: Satisfaction with democracy
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 388
+List_PkSurvey: 1,2,3,4,5
+PkVariable: 
 Source: Eurobarometer
-Note: 
+Note: Interviewer stated the word democracy in English, not in a local language.
 
-Pk: 272
+Pk: 495
 Id: Q107A-D
 Text: what are the most important things that need to be changed about the way we govern our country?
 VariableLabel: Most important changes about way country is governed
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 389
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 273
+Pk: 496
 Id: Q108A
 Text: do you usually think of yourself as close to any particular political party?
 VariableLabel: Are you close to any political party
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 390
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: If no, then the enumerator goes to Question 110A after entering 2" for Question 108A.
 
-Pk: 274
+Pk: 497
 Id: Q108B
 Text: which party is that?
 VariableLabel: Which party are you close to
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 391
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia 96
 Note: Only asked if respondent answered yes to question 108A.  Otherwise, enumerator postcoded response as 97 (No party).
 
-Pk: 275
+Pk: 498
 Id: Q109
 Text: do you feel very close to this party, somewhat close, or not very close?
 VariableLabel: How close do you feel to this party
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 392
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
@@ -2143,8 +2143,8 @@ Id: Q100A1
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a1: the trc initiative was important for building a united [country]n nation
 VariableLabel: TRC was important for building a united SA nation
 Language: English
-List_PkSurvey: 3
-PkVariable: 545
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
@@ -2153,8 +2153,8 @@ Id: Q100A2
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a2: national reconciliation is a natural process. it does not require any intervention
 VariableLabel: National reconciliation does not require intervention
 Language: English
-List_PkSurvey: 3
-PkVariable: 546
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
@@ -2163,8 +2163,8 @@ Id: Q100A3
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a3: national reconciliation requires that [country]ns understand one another better
 VariableLabel: Reconciliation requires that [country] understand one another better
 Language: English
-List_PkSurvey: 3
-PkVariable: 547
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
@@ -2173,8 +2173,8 @@ Id: Q100A2
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a2: national reconciliation is a natural process. it does not require any intervention
 VariableLabel: National reconciliation does not require intervention
 Language: English
-List_PkSurvey: 3
-PkVariable: 546
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
@@ -2183,8 +2183,8 @@ Id: Q100A2
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a2: national reconciliation is a natural process. it does not require any intervention
 VariableLabel: National reconciliation does not require intervention
 Language: English
-List_PkSurvey: 3
-PkVariable: 546
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
@@ -2193,8 +2193,8 @@ Id: Q100A3
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a3: national reconciliation requires that [country]ns understand one another better
 VariableLabel: Reconciliation requires that [country] understand one another better
 Language: English
-List_PkSurvey: 3
-PkVariable: 547
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
@@ -2203,8 +2203,8 @@ Id: Q100A3
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a3: national reconciliation requires that [country]ns understand one another better
 VariableLabel: Reconciliation requires that [country] understand one another better
 Language: English
-List_PkSurvey: 3
-PkVariable: 547
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
@@ -2213,8 +2213,8 @@ Id: Q100A2
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a2: national reconciliation is a natural process. it does not require any intervention
 VariableLabel: National reconciliation does not require intervention
 Language: English
-List_PkSurvey: 3
-PkVariable: 546
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
@@ -2223,118 +2223,118 @@ Id: Q100A9
 Text: the truth and reconciliation commission (trc) was set up to contribute to the process of national unity and national reconciliation. please tell me whether you disagree, neither disagree nor agree, or agree with these statements. a9:  it is my responsibility as a citizen to contribute to the process of national reconciliation
 VariableLabel: It is my responsibility as a citizen to contribute to the process of reconciliation
 Language: English
-List_PkSurvey: 3
-PkVariable: 553
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: 
 
-Pk: 276
+Pk: 499
 Id: Q110A
 Text: how old were you at your last birthday? if respondent can’t answer:  in which year were you born?
 VariableLabel: How old were you on your last birthday
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 393
+List_PkSurvey: 4,5
+PkVariable: 
 Source: 
 Note: 
 
-Pk: 277
+Pk: 500
 Id: Q110B
 Text: let’s think for a moment about the languages that you use.  what language do you speak most at home?
 VariableLabel: What is your home language
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 394
+List_PkSurvey: 4,5
+PkVariable: 
 Source: 
 Note: 
 
-Pk: 278
-Id: Q111
+Pk: 0
+Id: Q113
 Text: what was the highest grade, standard or form you completed?
 VariableLabel: What is the highest grade, std, form completed
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 395
+List_PkSurvey: 5
+PkVariable: 
 Source: Zambia 96
 Note: 
 
-Pk: 279
+Pk: 501
 Id: Q112
 Text: do you have a job that pays a weekly or monthly cash income?  is it full-time or part-time?  and are you looking for a cash job (or looking for another one if you are presently working)?
 VariableLabel: Is your job part-time or full-time or are you looking for work
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 396
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 280
+Pk: 502
 Id: Q113
 Text: in the past twelve months, have you been unemployed (that is, without a cash job) at any time for a period of at least one month or more?
 VariableLabel: Last 12 months been without a cash job
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: If respondent answers 2 (no), skip to Q115.
 
-Pk: 281
+Pk: 503
 Id: Q114
 Text: how many months did this amount to?
 VariableLabel: For how many months were you unemployed
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 398
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 282
+Pk: 504
 Id: Q115
 Text: do you do any regular work without getting paid cash?  if yes, what type of job?  is this a part-time or full-time job?
 VariableLabel: Do you do regular work without cash pay
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 399
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 283
+Pk: 505
 Id: Q116
 Text: what is your present occupation or last occupation if unemployed?
 VariableLabel: What is your present or last occupation
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 555
+List_PkSurvey: 4,5
+PkVariable: 
 Source: Zambia96
 Note: 
 
-Pk: 284
+Pk: 506
 Id: Q117
 Text: would that be:
 VariableLabel: Type of occupation
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 401
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 
 
-Pk: 286
-Id: Q121
+Pk: 193
+Id: Q94
 Text: do you know a close friend or relative who has died of aids?
-VariableLabel: Do you know of a close friend or relative who died of AIDS
+VariableLabel: Died of AIDS
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 403
+List_PkSurvey: 1,2,4,5
+PkVariable: 
 Source: SAB
-Note: Note that before moving on to the section completed by the enumerator below, the respondent was asked questions 201-210, which appear at the end of the data set.  The Following Questions were completed by the enumerator after the interview had ended.
+Note: 
 
 Pk: 0
 Id: Q120A1
 Text: if there were elections for national government tomorrow, which political party or organization would you vote for? this is a secret vote, so i do not want you to tell me who you voted for. please make a cross next to your choice of party on a national level
 VariableLabel: National government vote
 Language: English
-List_PkSurvey: 3
-PkVariable: 556
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: Interviewer hands respondent national ballot card.
 
@@ -2343,8 +2343,8 @@ Id: Q120A2
 Text: now with regard to the upcoming local government elections, please remember that local organizations other than political parties may also stand for office. please make a cross next to your choice of party or organization
 VariableLabel: Local government vote-party
 Language: English
-List_PkSurvey: 3
-PkVariable: 557
+List_PkSurvey: 5
+PkVariable: 
 Source: SA
 Note: Interviewer hands respondent local party ballot card.
 
@@ -2353,7 +2353,7 @@ Id: Q120A3
 Text: finally, people living in towns and cities will also be able to vote for an individual candidate to represent their ward. would you vote for an independent candidate or for somebody affiliated with a political party or local organization? please make a cross next to the correct block on your ballot
 VariableLabel: Local government vote-canidate
 Language: English
-List_PkSurvey: 3
+List_PkSurvey: 5
 PkVariable: 
 Source: SA
 Note: Interviewer hands respondent local candidate.   The Following Questions were completed by the enumerator after the interview had ended.
@@ -2363,8 +2363,8 @@ Id: Q121
 Text: suburb?
 VariableLabel: Suburb
 Language: English
-List_PkSurvey: 3
-PkVariable: 559
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: SAB
 
@@ -2373,678 +2373,678 @@ Id: Q122
 Text: town or city
 VariableLabel: Town or city
 Language: English
-List_PkSurvey: 3
+List_PkSurvey: 5
 PkVariable: 
 Source: SAB
 Note: Question was completed by the enumerator.  There is no data for question 122.
 
-Pk: 288
+Pk: 509
 Id: Q123A
 Text: district or province?
 VariableLabel: District or province
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was completed by the enumerator.
 
-Pk: 289
+Pk: 510
 Id: Q123B
 Text: country: [country]?
 VariableLabel: Country
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 406
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was completed by the enumerator.
 
-Pk: 290
-Id: Q124
-Text: which language or s was the interview conducted in?
-VariableLabel: Language interview was conducted in
+Pk: 197
+Id: Q97
+Text: which languages was the interview conducted in?
+VariableLabel: Language of interview
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 407
+List_PkSurvey: 1,2,4,5
+PkVariable: 
 Source: SAB
-Note: Question was completed by the enumerator.
+Note: Answered by interviewer
 
-Pk: 2
+Pk: 248
 Id: Q1
 Text: interviewer:  respondent’s gender
 VariableLabel: Sex of respondent
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 2
+List_PkSurvey: 3,4,5
+PkVariable: 
 Source: SAB99
 Note: Question was answered by enumerator.
 
-Pk: 291
+Pk: 511
 Id: Q126
 Text: respondent’s race
 VariableLabel: Respondent’s race
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 292
+Pk: 512
 Id: Q127
 Text: did the respondent have any physical disabilities:  missing limbs?
 VariableLabel: Did respondent have missing limbs
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 410
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 293
+Pk: 513
 Id: Q128
 Text: did the respondent have any physical disabilities:  blind, or nearly blind?
 VariableLabel: Was respondent blind, or nearly blind
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 411
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 294
+Pk: 514
 Id: Q129
 Text: did the respondent have any physical disabilities?
 VariableLabel: Did respondent cough repeatedly during the interview
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 412
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 142
-Id: Q91
-Text: in what type of shelter did the respondent live?
-VariableLabel: Respondent’s shelter
+Pk: 198
+Id: Q98
+Text: in what type of shelter does the respondent live?
+VariableLabel: Housing type
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 413
+List_PkSurvey: 1,2,3,4,5
+PkVariable: 
 Source: Nigeria00
-Note: Question was answered by enumerator.
+Note: Answered by interviewer
 
-Pk: 295
+Pk: 515
 Id: Q131
 Text: did the household have windows?
 VariableLabel: Did the household have windows
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 414
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 296
+Pk: 516
 Id: Q132
 Text: did the household have glass in windows?
 VariableLabel: Did household have glass in windows
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 415
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 297
+Pk: 517
 Id: Q133
 Text: what was the roof made of:
 VariableLabel: What was roof made of
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 416
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 145
-Id: Q93
-Text: were there any other people  immediately present who might be listening during the interview?
-VariableLabel: People present during interview
+Pk: 199
+Id: Q99
+Text: were there any other people immediately present who might be listening during the interview?
+VariableLabel: Persons present
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 205
+List_PkSurvey: 1,2,3,4,5
+PkVariable: 
 Source: Nigeria00
-Note: Question was answered by enumerator.
+Note: Answered by interviewer
 
-Pk: 146
-Id: Q94
+Pk: 200
+Id: Q100
 Text: did the respondent check with others for information to answer any question?
-VariableLabel: Check with others
+VariableLabel: Checked with others
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 206
+List_PkSurvey: 1,2,3,4,5
+PkVariable: 
 Source: Nigeria00
-Note: Question was answered by enumerator.
+Note: Answered by interviewer
 
-Pk: 147
-Id: Q95
-Text: do you think anyone influenced the respondent’s answers during the interview
-VariableLabel: Influence by others
+Pk: 201
+Id: Q101
+Text: do you think that anyone influenced the respondent’s answers during the interview?
+VariableLabel: Influenced by others
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 207
+List_PkSurvey: 1,2,3,4,5
+PkVariable: 
 Source: SAB99
-Note: Question was answered by enumerator.
+Note: Answered by interviewer
 
-Pk: 148
-Id: Q96
+Pk: 202
+Id: Q102
 Text: what proportion of the questions do you feel the respondent had difficulty answering?
 VariableLabel: Difficulty answering
 Language: English
-List_PkSurvey: 1,2,3
+List_PkSurvey: 1,2,3,4,5
 PkVariable: 
 Source: Nigeria00
-Note: Question was answered by enumerator.
+Note: Answered by interviewer
 
-Pk: 298
+Pk: 518
 Id: Q138
 Text: where was the interview conducted:
 VariableLabel: Where was interview conducted
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 421
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 299
-Id: Q139
-Text: what was the respondent’s attitude toward you during the interview?  friendly or hostile?
-VariableLabel: What was respondent’s attitude
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 423
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 300
-Id: Q140
-Text: what was the respondent’s attitude toward you during the interview?  interested or bored?
-VariableLabel: What was respondent's attitude during interview
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 423
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 300
-Id: Q140
-Text: what was the respondent’s attitude toward you during the interview?  interested or bored?
-VariableLabel: What was respondent's attitude during interview
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 423
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 299
-Id: Q139
-Text: what was the respondent’s attitude toward you during the interview?  friendly or hostile?
-VariableLabel: What was respondent’s attitude
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 423
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 300
-Id: Q140
-Text: what was the respondent’s attitude toward you during the interview?  interested or bored?
-VariableLabel: What was respondent's attitude during interview
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 423
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 300
-Id: Q140
-Text: what was the respondent’s attitude toward you during the interview?  interested or bored?
-VariableLabel: What was respondent's attitude during interview
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 423
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 301
-Id: Q145
-Text: did your presence in the area arouse interest from the neighbors?
-VariableLabel: Did your presence arouse interest from neighbors
-Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 302
-Id: Q146
-Text: did your presence in the area arouse suspicion from neighbors?
-VariableLabel: Did your presence arouse suspicion from neighbours
+Pk: 519
+Id: Q139
+Text: what was the respondent’s attitude toward you during the interview?  friendly or hostile?
+VariableLabel: What was respondent’s attitude
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 425
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 302
-Id: Q146
-Text: did your presence in the area arouse suspicion from neighbors?
-VariableLabel: Did your presence arouse suspicion from neighbours
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 425
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 303
-Id: Q148
-Text: were you approached by community and or or political party representatives?
-VariableLabel: Were you approached by community or party representatives
-Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 304
-Id: Q149
+Pk: 520
+Id: Q140
+Text: what was the respondent’s attitude toward you during the interview?  interested or bored?
+VariableLabel: What was respondent's attitude during interview
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 520
+Id: Q140
+Text: what was the respondent’s attitude toward you during the interview?  interested or bored?
+VariableLabel: What was respondent's attitude during interview
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 519
+Id: Q139
+Text: what was the respondent’s attitude toward you during the interview?  friendly or hostile?
+VariableLabel: What was respondent’s attitude
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 520
+Id: Q140
+Text: what was the respondent’s attitude toward you during the interview?  interested or bored?
+VariableLabel: What was respondent's attitude during interview
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 520
+Id: Q140
+Text: what was the respondent’s attitude toward you during the interview?  interested or bored?
+VariableLabel: What was respondent's attitude during interview
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 206
+Id: Q104A
+Text: did your presence in the area arouse interest from neighbors?
+VariableLabel: Neighbors interested
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 206
+Id: Q104A
+Text: did your presence in the area arouse interest from neighbors?
+VariableLabel: Neighbors interested
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 206
+Id: Q104A
+Text: did your presence in the area arouse interest from neighbors?
+VariableLabel: Neighbors interested
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 207
+Id: Q104D
+Text: were you approached by community and, or political party representatives?
+VariableLabel: Approached by community/political representatives
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 208
+Id: Q104E
 Text: did you feel threatened during the interview?
-VariableLabel: Did you feel threatened during interview
+VariableLabel: Interviewer feel threatened
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 427
+List_PkSurvey: 1,2,4,5
+PkVariable: 
 Source: SAB
-Note: Question was answered by enumerator.
+Note: Answered by interviewer
 
-Pk: 305
-Id: Q150
+Pk: 209
+Id: Q104F
 Text: were you physically threatened during the interview?
-VariableLabel: Were physically threatened during interview
+VariableLabel: Interviewer physically threatened
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 428
+List_PkSurvey: 1,2,4,5
+PkVariable: 
 Source: SAB
-Note: Question was answered by enumerator.
+Note: Answered by interviewer
 
-Pk: 306
+Pk: 521
 Id: Q151
 Text: did anything else significant happen during the interview?
 VariableLabel: Anything else significant happen during interview
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 429
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Enumerator Details
 
-Pk: 307
+Pk: 522
 Id: Q152
 Text: interview number
 VariableLabel: Interviewer number
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 430
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: 1=Bhebhe, 2=Dewa, 3=Dhibhi, 4=Hove, 5=Kwezera, 6=Madhumbu, 7=Mahati, 8=Makwebere, 9=Mashiri, 10=Matanga, 11=Matshanga, 12=Mukorovera, 13=Mutisi, 14=Mwareya, 15=Nhenqu, 16=Nyamurera, 17=Nyamwera, 18=Nyongo, 19=Sigauke, 20=Siziba, 21=Edith Mda, 22=Hlalele Hlalele, 23=Napo Bokaako, 24=Thato Lepele, 25=Morakane Nketsa, 26=Letsie Molapo. 27=Mosa Mamonyane, 28=Rabahlakoana Lehasa, 29=Ntjapeli Matlanyane, 30=Thato Letsatsi, 31=Maliantle Moshabesha,
 
-Pk: 1
-Id: QDate
-Text: date
-VariableLabel: Date of interview
+Pk: 210
+Id: Q107
+Text: interviewer’s age
+VariableLabel: Interviewer’s age
 Language: English
-List_PkSurvey: 1,2,3
-PkVariable: 1
-Source: 
-Note: 
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Answered by interviewer
 
-Pk: 308
+Pk: 523
 Id: Q154
 Text: interviewer:  do you come from a rural or urban area?
 VariableLabel: Do you come from rural or urban area
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 432
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 309
-Id: Q155
-Text: interviewer’s home language?
-VariableLabel: Interviewer's home language
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 433
-Source: SAB
-Note: 
-
-Pk: 310
-Id: Q156
-Text: interviewer:  interviewer’s gender
-VariableLabel: Interviewer's gender
-Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 311
-Id: Q156B
-Text: interviewer’s race
+Pk: 213
+Id: Q110
+Text: interviewer’s home language
+VariableLabel: Interviewer’s home language
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 211
+Id: Q108
+Text: interviewer’s gender
+VariableLabel: Interviewer’s gender
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Answered by interviewer
+
+Pk: 0
+Id: Q157
+Text: interviewer’s race?
 VariableLabel: Interviewer's race
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 434
-Source: SAB
-Note: Question was answered by enumerator. Question 156B is not in the questionnaire. Interviewer’s race data was included afterward.
-
-Pk: 312
-Id: Q157
-Text: interviewer’s highest level of education?
-VariableLabel: Interviewer's highest level of education
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 435
-Source: SAB
-Note: Question was answered by enumerator.  The following questions are to be filled in conjunction with the Field Supervisor and the rest of the Fieldwork Team.
-
-Pk: 313
-Id: Q158
-Text: are the following services present in the primary sampling unit or enumerator area:  post office?
-VariableLabel: Is there a post-office in PSU
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 436
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 313
-Id: Q158
-Text: are the following services present in the primary sampling unit or enumerator area:  post office?
-VariableLabel: Is there a post-office in PSU
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 436
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 313
-Id: Q158
-Text: are the following services present in the primary sampling unit or enumerator area:  post office?
-VariableLabel: Is there a post-office in PSU
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 436
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 314
-Id: Q161
-Text: are the following services present in the primary sampling unit or enumerator area:  regular bus or taxi service?
-VariableLabel: Is there a regular bus or taxi service in the PSU
-Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 315
-Id: Q162
-Text: are the following services present in the primary sampling unit or enumerator area:  electricity grid that most houses could access?
-VariableLabel: Is there an electricity grid accessible to most houses
+Pk: 214
+Id: Q111
+Text: interviewer’s highest level of education
+VariableLabel: Interviewer’s education
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 440
+List_PkSurvey: 1,2,4,5
+PkVariable: 
 Source: SAB
-Note: Question was answered by enumerator.
+Note: Answered by interviewer
 
-Pk: 315
-Id: Q162
-Text: are the following services present in the primary sampling unit or enumerator area:  electricity grid that most houses could access?
-VariableLabel: Is there an electricity grid accessible to most houses
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 440
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 315
-Id: Q162
-Text: are the following services present in the primary sampling unit or enumerator area:  electricity grid that most houses could access?
-VariableLabel: Is there an electricity grid accessible to most houses
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 440
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 313
+Pk: 524
 Id: Q158
 Text: are the following services present in the primary sampling unit or enumerator area:  post office?
 VariableLabel: Is there a post-office in PSU
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 436
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 313
-Id: Q158
-Text: are the following services present in the primary sampling unit or enumerator area:  post office?
-VariableLabel: Is there a post-office in PSU
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 436
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 316
-Id: Q167
-Text: are the following services present in the primary sampling unit or enumerator area:  recreational facilities for eg a sports field?
-VariableLabel: Are there recreational facilities
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 444
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 317
-Id: Q168
-Text: are the following services present in the primary sampling unit or enumerator area:  any churches, mosques, temples, or other places of worship?
-VariableLabel: Are there any places of worship such as churches, mosques
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 445
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 318
-Id: Q169
-Text: are the following services present in the primary sampling unit or enumerator area:  any townhalls or community buildings that can be used for meetings?
-VariableLabel: Are there any townhalls or community buildings
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 446
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 313
-Id: Q158
-Text: are the following services present in the primary sampling unit or enumerator area:  post office?
-VariableLabel: Is there a post-office in PSU
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 436
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 313
-Id: Q158
-Text: are the following services present in the primary sampling unit or enumerator area:  post office?
-VariableLabel: Is there a post-office in PSU
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 436
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 319
-Id: Q172
-Text: are the following services present in the primary sampling unit or enumerator area:  supermarket (food and or or clothing)?
-VariableLabel: Is there a supermarket (food or clothing)
-Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 320
+Pk: 524
+Id: Q158
+Text: are the following services present in the primary sampling unit or enumerator area:  post office?
+VariableLabel: Is there a post-office in PSU
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 524
+Id: Q158
+Text: are the following services present in the primary sampling unit or enumerator area:  post office?
+VariableLabel: Is there a post-office in PSU
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 216
+Id: Q112D
+Text: were the following services present in the primary sampling unit or sector: regular bus or taxi service?
+VariableLabel: Regular bus or taxi service
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 217
+Id: Q112E
+Text: were the following services present in the primary sampling unit or sector: electricity grid that most houses could access?
+VariableLabel: Public electricity grid
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Question was filled in conjunction with  field supervisor
+
+Pk: 525
+Id: Q163
+Text: are the following services present in the primary sampling unit or enumerator area:  piped water system that most houses could access?
+VariableLabel: Is there a piped water system accessible to most houses
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 525
+Id: Q163
+Text: are the following services present in the primary sampling unit or enumerator area:  piped water system that most houses could access?
+VariableLabel: Is there a piped water system accessible to most houses
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 524
+Id: Q158
+Text: are the following services present in the primary sampling unit or enumerator area:  post office?
+VariableLabel: Is there a post-office in PSU
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 524
+Id: Q158
+Text: are the following services present in the primary sampling unit or enumerator area:  post office?
+VariableLabel: Is there a post-office in PSU
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 219
+Id: Q112J
+Text: were the following services present in the primary sampling unit or sector: recreational facilities for e.g. a sports field?
+VariableLabel: Recreational facilities
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 220
+Id: Q112K
+Text: were the following services present in the primary sampling unit or sector: any churches, mosques, temples or other places of worship?
+VariableLabel: Places of worship
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 221
+Id: Q112L
+Text: were the following services present in the primary sampling unit or sector: any town halls or community buildings that can be used for meetings?
+VariableLabel: Town halls
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 524
+Id: Q158
+Text: are the following services present in the primary sampling unit or enumerator area:  post office?
+VariableLabel: Is there a post-office in PSU
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 524
+Id: Q158
+Text: are the following services present in the primary sampling unit or enumerator area:  post office?
+VariableLabel: Is there a post-office in PSU
+Language: English
+List_PkSurvey: 4,5
+PkVariable: 
+Source: SAB
+Note: Question was answered by enumerator.
+
+Pk: 223
+Id: Q112O
+Text: were the following services present in the primary sampling unit or sector: supermarket (food and or or clothing)?
+VariableLabel: Supermarket
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 526
 Id: Q173
 Text: are the following services present in the primary sampling unit or enumerator area:  cafes or corner shops or spaza shops?
 VariableLabel: Are there cafes, corner shops
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 450
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 321
+Pk: 527
 Id: Q174
 Text: are the following services present in the primary sampling unit or enumerator area:  market stalls (selling food and or or clothing)?
 VariableLabel: Are there any market stalls (selling food or clothing)
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 322
+Pk: 528
 Id: Q175
 Text: at the psu or ea did you (or any of your colleagues) see:  any policemen or police vehicles?
 VariableLabel: Were there any police or police vehicles at PSU or EA
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 452
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 322
+Pk: 528
 Id: Q175
 Text: at the psu or ea did you (or any of your colleagues) see:  any policemen or police vehicles?
 VariableLabel: Were there any police or police vehicles at PSU or EA
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 452
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 323
+Pk: 529
 Id: Q177
 Text: at the psu or ea did you (or any of your colleagues) see:  any pavement along the roads or streets?
 VariableLabel: Were there any pavement along roads
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 324
+Pk: 530
 Id: Q178
 Text: at the psu or ea did you (or any of your colleagues) see:  any gardens or fields attached to households containing evidence of crops or vegetables being grown?
 VariableLabel: Any household yards with crops or vegetables being grown
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 325
+Pk: 531
 Id: Q179
 Text: at the psu or ea did you (or any of your colleagues) see:  any yards or fields attached to households containing livestock such as goats, sheep, cows, or horses?
 VariableLabel: Any household yards or fields containing livestock
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 326
+Pk: 532
 Id: Q180
 Text: at the psu or ea did you (or any of your colleagues) see:  any yards, gardens, or fields attached to households with trees growing in them that were large than one story in height?
 VariableLabel: Any household yards or fields with trees higher than one story
 Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 327
+Pk: 533
 Id: Q181
 Text: how many houses within the primary sampling unit are formal houses?
 VariableLabel: How many formal houses in PSU
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 458
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 328
-Id: Q182
-Text: type of area in which interview was conducted?
-VariableLabel: Type of area in which interview was conducted in
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 459
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 329
-Id: Q183
-Text: thinking of the journey here:  was the psu clearly sign posted along the last 10km of your journey?
-VariableLabel: Was the PSU clearly sign-posted the last 10km of journey
-Language: English
-List_PkSurvey: 2,3
-PkVariable: 460
-Source: SAB
-Note: Question was answered by enumerator.
-
-Pk: 330
-Id: Q184
-Text: thinking of the journey here:  were there any stop or give way signs along the last 10km of your journey?
-VariableLabel: Any stop or give way signs along last 10km of journey
-Language: English
-List_PkSurvey: 2,3
+List_PkSurvey: 4,5
 PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 331
-Id: Q185
-Text: thinking of the journey here:  were there any traffic lights or robots along the last 10km of your journey?
-VariableLabel: Any traffic lights or robots along last 10km of journey
+Pk: 534
+Id: Q182
+Text: type of area in which interview was conducted?
+VariableLabel: Type of area in which interview was conducted in
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 462
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
-Pk: 332
-Id: Q186
-Text: thinking of the journey here:  if yes above, were all of them in working order?
-VariableLabel: Were they in working order
+Pk: 230
+Id: Q114A
+Text: thinking of the journey here: was your destination clearly sign posted along the last 10km of your journey?
+VariableLabel: Destination sign posted
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 463
+List_PkSurvey: 1,2,4,5
+PkVariable: 
 Source: SAB
-Note: Question was answered by enumerator.
+Note: Question was filled in conjunction with field supervisor
 
-Pk: 333
+Pk: 231
+Id: Q114B
+Text: thinking of the journey here: were there any stop or give way signs along the last 10km of your journey?
+VariableLabel: Stop or give way signs
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 232
+Id: Q114C
+Text: thinking of the journey here: were there any traffic lights or warden along the last 10km of your journey?
+VariableLabel: Traffic lights or warden
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: SAB
+Note: Question was filled in conjunction with field supervisor
+
+Pk: 233
+Id: Q114D
+Text: thinking of the journey here: if yes to c above, were all of them in working order?
+VariableLabel: Traffic lights working
+Language: English
+List_PkSurvey: 1,2,4,5
+PkVariable: 
+Source: 
+Note: 
+
+Pk: 535
 Id: Q187
 Text: thinking of the journey here:  did you (or any of your colleagues) see a water filled river during the last 1km of your journey?
 VariableLabel: Water-filled river in last 10km of journey
 Language: English
-List_PkSurvey: 2,3
-PkVariable: 464
+List_PkSurvey: 4,5
+PkVariable: 
 Source: SAB
 Note: Question was answered by enumerator.
 
@@ -3053,8 +3053,8 @@ Id: Q189
 Text: 
 VariableLabel: 
 Language: English
-List_PkSurvey: 3
-PkVariable: 211
+List_PkSurvey: 5
+PkVariable: 
 Source: 
 Note: 
 

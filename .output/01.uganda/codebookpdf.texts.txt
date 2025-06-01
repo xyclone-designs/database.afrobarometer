@@ -20,7 +20,6 @@ Q70: a.  women in [country] should be allowed to buy, inherit, or co-own land.  
 Q67: a.  women in [country] should have equal rights and receive the same treatment as men do.  b.  women have always been subject to traditional african law, and should remain so
 Q52: a. the best way to create jobs is to encourage people to start their own businesses.  b.  the government should provide employment for everyone who wants to work
 Q33: are you a registered voter?
-Q2: are you the head of the household?
 Q72B: b.  even without political parties, we already have enough choice among candidate for office
 Q48B: b.  to take part in a referendum in [country], it is first necessary to register as a voter
 Q48C: c.  in a referendum, voters choose candidates for political office
@@ -29,21 +28,21 @@ Q80: consequences from whom?
 Q64: corruption is a fact of life in [country] today; there is little that anyone can do about it
 Q48D: d.  a referendum does not have a secret ballot, so others will know how you voted
 Q72D: d.  political parties will not necessarily include me in political discussions and decisions
-QDate: date
-Q94: did the respondent check with others for information to answer any question?
+Qdateintr: date of interview
+Q100: did the respondent check with others for information to answer any question?
 Q89: district coded
 Q83: do you feel close to any particular party?
-Q95: do you think anyone influenced the respondent’s answers during the interview
+Q101: do you think that anyone influenced the respondent’s answers during the interview?
 Q26: does having women in government make any difference to whether the government addresses your concerns?
 Q48E: e.  in [country]’s upcoming referendum, voters will choose a system of government for the country, including whether political parties can compete in elections
 Q72E: e.  political parties help to ensure that people in government don’t abuse their power
 Q48F: f.  if citizens do not like the results of a referendum, they do not need to abide by them
 Q72F: f.  in order to get elected, political parties simply make promises that they can never fulfill
+Q42A: for each of the following statements, please tell me whether you disagree or agree: our constitution expresses the values and aspirations of the [country]n people
 Q48G: g.  the results of the referendum require that changes be made to the constitution of [country]
 Q72G: g.  through political parties, young leaders will arise to replace older leaders who used to run this country
 Q90: generally speaking, how would you describe the settlement pattern?
 Q59: generally speaking, would you say that most people can be trusted or that you must be very careful in dealing with people?
-Q30: generally, how satisfied or dissatisfied are you with the way democracy works in [country]?
 Q72H: h.  by causing conflict and confusion, political parties will undermine national unity
 Q48H: h.  if the voters in the referendum reject the movement system, the government will have to resign
 Q75: has anyone tried to influence your vote in the referendum by promising rewards to you personally?
@@ -54,25 +53,25 @@ Q31B: how important is it to you that government of [country] protects the follo
 Q31C: how important is it to you that government of [country] protects the following rights?  c.  the private property of individuals is protected by law
 Q31D: how important is it to you that government of [country] protects the following rights?  d.  the rights of minority group are protected
 Q12: how interested are you in politics and government?
+Q51B: how many of the following people do you think are involved in corruption: elected leaders?
 Q6: how much education have you had?
 Q45A: how much have you heard about the referendum from each of the following sources?  a.  a family member
 Q45B: how much have you heard about the referendum from each of the following sources?  b.  a friend or acquaintance
 Q45D: how much have you heard about the referendum from each of the following sources?  d.  a political party official
 Q44: how much have you heard about the upcoming referendum of june 2000 or haven’t you had an opportunity to hear about it yet?
 Q13A: how often do you get news about politics and government from:  a.  discussions with others?
-Q13B: how often do you get news about politics and government from:  b.  the radio?
-Q3: how old were you at your last birthday? or what year were you born?
-Q8A: how satisfied are you with:  a.  your own living conditions today?
+Q13C: how often do you get news about politics and government from:  c.  television?
+Q26A: how often do you get news from the following sources: radio?
 Q8B: how satisfied are you with:  b.  the condition of the [country]n economy today?
 Q8C: how satisfied are you with:  c.  the general situation in the country today?
 Q50: how satisfied or unsatisfied are you with the sap?
-Q22A: how well would you say the current government is handling the following problems?  a.  creating jobs
+Q45G: how well or badly would you say the current government is handling the following matters: addressing educational needs?
+Q45J: how well or badly would you say the current government is handling the following matters: fighting corruption in government?
+Q22B: how well would you say the current government is handling the following problems?  b.  keeping prices low
 Q22C: how well would you say the current government is handling the following problems?  c.  narrowing income gaps between rich and poor
 Q22E: how well would you say the current government is handling the following problems?  e.  reducing domestic violence
-Q22F: how well would you say the current government is handling the following problems?  f.  addressing educational needs
 Q22G: how well would you say the current government is handling the following problems?  g.  improving basic health services
 Q22J: how well would you say the current government is handling the following problems?  j.  providing access to land for women
-Q22K: how well would you say the current government is handling the following problems?  k.  fighting corruption in government
 Q60A: i am know going to read you a list of people and organizations.  how much do you trust each of them to do what is right?  a.  someone from your own ethnic group
 Q60C: i am know going to read you a list of people and organizations.  how much do you trust each of them to do what is right?  c.  the police
 Q60E: i am know going to read you a list of people and organizations.  how much do you trust each of them to do what is right?  e.  the national resistance movement
@@ -81,14 +80,12 @@ Q38A: i will read out a list of things that people sometimes do as citizens.  pl
 Q38C: i will read out a list of things that people sometimes do as citizens.  please tell me how often you personally have done any of these things in the last five years?  c.  taught children about government
 Q24A: in particular, how satisfied are you with the performance of:  a.  your lc 5 representative
 Q24B: in particular, how satisfied are you with the performance of:  b.  your member of parliament?
-Q24D: in particular, how satisfied are you with the performance of:  d.  president museveni?
 Q39A: in the last five years, have you contacted any of the following persons for help to solve a problem?  a.  a traditional ruler
 Q39D: in the last five years, have you contacted any of the following persons for help to solve a problem?  d. an official of a government ministry
 Q39F: in the last five years, have you contacted any of the following persons for help to solve a problem?  f. some other influential person
 Q74: in the upcoming referendum in june 2000, will you vote for the movement system or for a multiparty system?
-Q91: in what type of shelter did the respondent live?
+Q98: in what type of shelter does the respondent live?
 Q46A: in your opinion, do you think that the following media have given equal coverage to different points of view about the referendum?  a.  radio
-Q29: in your opinion, how much of a democracy is [country] today?
 Q19: in your opinion, how often are _______(respondent’s identity from q18) treated unfairly by the government?
 Q25A: in your opinion, should women be permitted:  a.  to vote
 Q25B: in your opinion, should women be permitted:  b.  to join political organizations
@@ -106,18 +103,20 @@ Q63: it is acceptable to bend the law, as long as one does not break it
 Q20A: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member of that type of organization?  a.  a religious organization like a church or a mosque
 Q20E: now i am going to read out a list of voluntary organizations.  for each one, could you tell me whether you are an official leader, an active member, an inactive member, or not a member of that type of organization?  e.  professional or business organization
 Q87: on an average day, how much is your daily routine affected by feeling tired, stressed, or sick?
-Q86A: on an average day, roughly how much time do you spend on the following activities:  a.  working to earn money
 Q86C: on an average day, roughly how much time do you spend on the following activities:  c.  doing household work
-Q86E: on an average day, roughly how much time do you spend on the following activities:  e.  caring for other household members
+Q86D: on an average day, roughly how much time do you spend on the following activities:  d.  taking care of children
+Q8E: on an average day, roughly how much time do you spend on the following activities: caring for sick household members?
+Q8A: on an average day, roughly how much time do you spend on the following activities: working to earn money?
 Q40 (options 1-4): on those occasions that you contacted a leader or attended a community meeting, what was your main reason for doing so?
 Q41A-C: on those occasions when you did not participate, what was your main reason for not joining in?
-Q42: our constitution expresses the values and aspirations of the [country]n people?
 Q43: our government has the right to make decisions that all people have to abide by whether or not they agree with them
-Q65A: please tell me how common you think corruption is within each of the following group or organizations.  a.  elected leaders
+Q40: overall, how satisfied are you with the way democracy works in [country]? are you:
+Q65B: please tell me how common you think corruption is within each of the following group or organizations.  b.  civil servants
+Q65F: please tell me how common you think corruption is within each of the following group or organizations.  f.  [country]n businessmen
 Q62: politicians and civil servants are trying their best to look after the interests of people like me
 Q85: roughly how much do you and your spouse together earn per month?
-Q92A: roughly how much of the last 10km of your journey were spent on these different sorts of roads:  a.  graded sand or dirt roads?
-Q92C: roughly how much of the last 10km of your journey were spent on these different sorts of roads:  c.  off road?
+Q115A: roughly how much of the last 10 km of your journey were spent on these different sorts of roads: graded sand or dirt roads?
+Q115C: roughly how much of the last 10 km of your journey were spent on these different sorts of roads: off road?
 Q61: the best way to get ahead in this life is to have contacts with important people in high places
 Q73A: there are many ways to govern a country.  what do you think about the following options?  a.  we should keep the present movement system
 Q73B: there are many ways to govern a country.  what do you think about the following options?  b.  we should have many political parties that compete in free elections
@@ -128,20 +127,19 @@ Q73F: there are many ways to govern a country.  what do you think about the foll
 Q73G: there are many ways to govern a country.  what do you think about the following options?  g.  the most important decisions, for example, on the economy, should be left to experts
 Q35: understanding that some [country]ns choose not to vote, let me ask you:  did you vote in the presidential election of may 1996?
 Q18: we have spoken to many [country]ns and they have all described themselves in different ways.  some people describe themselves in terms of their region, language, ethnic group, religion, or gender.  others describe themselves in economic terms, such as working class, middle class, or according to their occupation (e.g. a farmer or a housewife).  besides being [country]n, which specific group do you feel you belong to first and foremost?
-Q93: were there any other people  immediately present who might be listening during the interview?
+Q99: were there any other people immediately present who might be listening during the interview?
 Q4: what is your home language
 Q7: what is your main occupation?
 Q23: what is your overall assessment of the performance of the current government?
-Q5: what is your religion, if any?
 Q79: what kind of consequences?
 Q77: what kind of rewards?
-Q96: what proportion of the questions do you feel the respondent had difficulty answering?
+Q102: what proportion of the questions do you feel the respondent had difficulty answering?
 Q71: when you hear the term political party, what is the first thing that comes to your mind?
 Q27 (responses 1-3).: when you hear the word democracy, what is the first thing that comes to your mind?
 Q10: when you look at your life today, how satisfied do you feel compared with five years ago?
 Q11: when you look forward at your life’s prospects, how satisfied do you expect to be in one year’s time?
 Q37: which of the following statements best describes what you will do in the upcoming referendum?
-Q28: which of these three statements is closest to your own opinion?     a.  democracy is preferable to any other form of government b.  in certain circumstances, a non-democratic government can be preferable. c.  to people like me, it doesn’t matter what form of government we have
+Q38: which of these three statements is closest to your own opinion?  a: democracy is preferable to any other kind of government b: in some circumstances, a non-democratic government can be preferable. c: for someone like me, it doesn’t matter what kind of government we have
 Q84: which one?
 Q82 (Options 1-4).: which services?
 Q76: who promised?
