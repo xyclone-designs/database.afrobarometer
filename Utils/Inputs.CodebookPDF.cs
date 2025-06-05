@@ -165,7 +165,7 @@ namespace Database.Afrobarometer
 				{
 					StringBuilder stringbuilder = new();
 
-					for (int pagenumber = 1; pagenumber < pdfdocument.NumberOfPages; pagenumber++)
+					for (int pagenumber = 1; pagenumber <= pdfdocument.NumberOfPages; pagenumber++)
 					{
 						Page page = pdfdocument.GetPage(pagenumber);
 
