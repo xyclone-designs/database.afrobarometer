@@ -312,7 +312,7 @@ namespace Database.Afrobarometer
 							.Commit();
 					}
 
-					//_Variables();
+					_Variables();
 					_Questions();
 					_Interviews();
 
