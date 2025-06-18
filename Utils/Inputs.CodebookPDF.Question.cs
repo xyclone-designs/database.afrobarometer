@@ -1,15 +1,14 @@
-﻿using Database.Afrobarometer.Enums;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Text.RegularExpressions;
 
+using XycloneDesigns.Apis.General.Tables;
+
 using CodebookPDFQuestion = Database.Afrobarometer.Inputs.CodebookPDF.Question;
-using TablesQuestion = Database.Afrobarometer.Tables.Question;
-using TablesVariable = Database.Afrobarometer.Tables.Variable;
+using TablesQuestion = XycloneDesigns.Apis.Afrobarometer.Tables.Question;
+using TablesVariable = XycloneDesigns.Apis.Afrobarometer.Tables.Variable;
 
 namespace Database.Afrobarometer
 {
@@ -175,7 +174,7 @@ namespace Database.Afrobarometer
 						}
 					}
 
-					public static string? Id(string? questionid, Languages language)
+					public static string? Id(string? questionid, string language)
 					{
 						if (questionid is null)
 							return null;
@@ -188,7 +187,7 @@ namespace Database.Afrobarometer
 
 						return questionid;
 					}
-					public static string? Text(string? questiontext, Languages language)
+					public static string? Text(string? questiontext, string language)
 					{
 						if (questiontext is null)
 							return null;
@@ -199,16 +198,16 @@ namespace Database.Afrobarometer
 
 						questiontext = questiontext.ToLower().Trim(language switch
 						{
-							Languages.French => Replacements.French.Text.Trim,
-							Languages.Portuguese => Replacements.Portuguese.Text.Trim,
-							Languages.English or _ => Replacements.English.Text.Trim,
+							Language.Codes.French => Replacements.French.Text.Trim,
+							Language.Codes.Portuguese => Replacements.Portuguese.Text.Trim,
+							Language.Codes.English or _ => Replacements.English.Text.Trim,
 						});
 
 						foreach (string[] _ValueLabelsGeneral in language switch
 						{
-							Languages.French => Replacements.French.Text.GeneralRegex,
-							Languages.Portuguese => Replacements.Portuguese.Text.GeneralRegex,
-							Languages.English or _ => Replacements.English.Text.GeneralRegex,
+							Language.Codes.French => Replacements.French.Text.GeneralRegex,
+							Language.Codes.Portuguese => Replacements.Portuguese.Text.GeneralRegex,
+							Language.Codes.English or _ => Replacements.English.Text.GeneralRegex,
 
 						}) questiontext = Regex.Replace(questiontext, _ValueLabelsGeneral[0], _ValueLabelsGeneral[1]);
 
@@ -217,22 +216,22 @@ namespace Database.Afrobarometer
 
 						return questiontext.Trim(language switch
 						{
-							Languages.French => Replacements.French.Text.Trim,
-							Languages.Portuguese => Replacements.Portuguese.Text.Trim,
-							Languages.English or _ => Replacements.English.Text.Trim,
+							Language.Codes.French => Replacements.French.Text.Trim,
+							Language.Codes.Portuguese => Replacements.Portuguese.Text.Trim,
+							Language.Codes.English or _ => Replacements.English.Text.Trim,
 						});
 					}
-					public static string? VariableLabel(string? variablelabel, Languages language)
+					public static string? VariableLabel(string? variablelabel, string language)
 					{
 						return variablelabel;
 					}
-					public static string[]? Values(string? values, Languages language, out bool changed)
+					public static string[]? Values(string? values, string language, out bool changed)
 					{
 						changed = false;
 
 						return values?.Split(',');
 					}
-					public static string[]? ValueLabels(string? valuelabels, Languages language, out bool changed)
+					public static string[]? ValueLabels(string? valuelabels, string language, out bool changed)
 					{
 						changed = false;
 
@@ -243,25 +242,25 @@ namespace Database.Afrobarometer
 
 						foreach ((string _Regex, Func<MatchCollection, string, string> _OnMatches) in language switch
 						{
-							Languages.French => Replacements.French.ValueLabels.GeneralRegex,
-							Languages.Portuguese => Replacements.Portuguese.ValueLabels.GeneralRegex,
-							Languages.English or _ => Replacements.English.ValueLabels.GeneralRegex,
+							Language.Codes.French => Replacements.French.ValueLabels.GeneralRegex,
+							Language.Codes.Portuguese => Replacements.Portuguese.ValueLabels.GeneralRegex,
+							Language.Codes.English or _ => Replacements.English.ValueLabels.GeneralRegex,
 						
 						}) valuelabels = _OnMatches(Regex.Matches(valuelabels, _Regex), valuelabels);
 
 						foreach (string[] _ValueLabelsGeneral in language switch
 						{
-							Languages.French => Replacements.French.ValueLabels.General,
-							Languages.Portuguese => Replacements.Portuguese.ValueLabels.General,
-							Languages.English or _ => Replacements.English.ValueLabels.General,
+							Language.Codes.French => Replacements.French.ValueLabels.General,
+							Language.Codes.Portuguese => Replacements.Portuguese.ValueLabels.General,
+							Language.Codes.English or _ => Replacements.English.ValueLabels.General,
 
 						}) valuelabels = valuelabels.Replace(_ValueLabelsGeneral[0], _ValueLabelsGeneral[1]);
 						
 						foreach (string[] _ValueLabelsGeneral in language switch
 						{
-							Languages.French => Replacements.French.ValueLabels.General,
-							Languages.Portuguese => Replacements.Portuguese.ValueLabels.General,
-							Languages.English or _ => Replacements.English.ValueLabels.General,
+							Language.Codes.French => Replacements.French.ValueLabels.General,
+							Language.Codes.Portuguese => Replacements.Portuguese.ValueLabels.General,
+							Language.Codes.English or _ => Replacements.English.ValueLabels.General,
 
 						}) valuelabels = valuelabels.Replace(_ValueLabelsGeneral[0], _ValueLabelsGeneral[1]);
 
@@ -276,9 +275,9 @@ namespace Database.Afrobarometer
 
 						if (language switch
 						{
-							Languages.French => Replacements.French.ValueLabels.NotApplicables,
-							Languages.Portuguese => Replacements.Portuguese.ValueLabels.NotApplicables,
-							Languages.English or _ => Replacements.English.ValueLabels.NotApplicables,
+							Language.Codes.French => Replacements.French.ValueLabels.NotApplicables,
+							Language.Codes.Portuguese => Replacements.Portuguese.ValueLabels.NotApplicables,
+							Language.Codes.English or _ => Replacements.English.ValueLabels.NotApplicables,
 
 						} is IEnumerable<string> _NotApplicables)
 							for (int index = 0; index < _valuelabels.Length; index++)
@@ -286,9 +285,9 @@ namespace Database.Afrobarometer
 								{
 									foreach (string[] _ValueLabelsGeneral in language switch
 									{
-										Languages.French => Substitutions.French.ValueLabels.General,
-										Languages.Portuguese => Substitutions.Portuguese.ValueLabels.General,
-										Languages.English or _ => Substitutions.English.ValueLabels.General,
+										Language.Codes.French => Substitutions.French.ValueLabels.General,
+										Language.Codes.Portuguese => Substitutions.Portuguese.ValueLabels.General,
+										Language.Codes.English or _ => Substitutions.English.ValueLabels.General,
 
 									}) if (_valuelabels[index] == _ValueLabelsGeneral[0]) _valuelabels[index] = _ValueLabelsGeneral[1];
 
@@ -308,37 +307,37 @@ namespace Database.Afrobarometer
 
 						return _valuelabels;
 					}
-					public static string? Source(string? source, Languages language)
+					public static string? Source(string? source, string language)
 					{
 						return source;
 					}
-					public static string? Note(string? note, Languages language)
+					public static string? Note(string? note, string language)
 					{
 						return note;
 					}
 
-					public static bool NotApplicables(string? str, Languages language)
+					public static bool NotApplicables(string? str, string language)
 					{
 						if (str is null)
 							return false;
 
 						return (language switch
 						{
-							Languages.French => Replacements.French.ValueLabels.NotApplicables,
-							Languages.Portuguese => Replacements.Portuguese.ValueLabels.NotApplicables,
-							Languages.English or _ => Replacements.English.ValueLabels.NotApplicables,
+							Language.Codes.French => Replacements.French.ValueLabels.NotApplicables,
+							Language.Codes.Portuguese => Replacements.Portuguese.ValueLabels.NotApplicables,
+							Language.Codes.English or _ => Replacements.English.ValueLabels.NotApplicables,
 
 						}).Contains(str);
 					}
 
-					public static string[] SplitValueLabels(string? valuelabels, Languages language)
+					public static string[] SplitValueLabels(string? valuelabels, string language)
 					{
 						if (valuelabels is null)
 							return [];
 
 						return SplitValueLabels(valuelabels.SplitRemoveTrim(','), language);
 					}
-					public static string[] SplitValueLabels(string[]? valuelabels, Languages language)
+					public static string[] SplitValueLabels(string[]? valuelabels, string language)
 					{
 						if (valuelabels is null)
 							return [];
@@ -361,7 +360,7 @@ namespace Database.Afrobarometer
 						return valuelabels;
 					}
 
-					public static TablesQuestion ToTablesQuestion(CodebookPDFQuestion question, Languages language, out TablesVariable tablesvariable, params StreamWriter[] loggers)
+					public static TablesQuestion ToTablesQuestion(CodebookPDFQuestion question, string language, out TablesVariable tablesvariable, params StreamWriter[] loggers)
 					{
 						string? id = Utils.Inputs.CodebookPDF.Question.Id(question.Id, language);
 						string? text = Utils.Inputs.CodebookPDF.Question.Text(question.Text, language);
@@ -405,7 +404,7 @@ namespace Database.Afrobarometer
 							Source = source,
 							VariableLabel = variablecleanlabel ?? variablelabel,
 							Note = note,
-							_Language = language,
+							Language = language,
 						};
 					}
 				}

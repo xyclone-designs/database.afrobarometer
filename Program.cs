@@ -1,6 +1,5 @@
 ﻿using Database.Afrobarometer.Enums;
 using Database.Afrobarometer.Inputs;
-using Database.Afrobarometer.Tables;
 
 using ICSharpCode.SharpZipLib.GZip;
 
@@ -15,8 +14,13 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 
+using XycloneDesigns.Apis.General.Tables;
+using XycloneDesigns.Apis.Afrobarometer.Enums;
+using XycloneDesigns.Apis.Afrobarometer.Tables;
+
 using ISpsslyRawRecord = Spssly.SpssDataset.IRawRecord;
 using SurveySAVVariable = Spssly.SpssDataset.Variable;
+using _TableGeneral = XycloneDesigns.Apis.General.Tables._Table;
 
 namespace Database.Afrobarometer
 {
@@ -28,14 +32,13 @@ namespace Database.Afrobarometer
 			public Args(string[] args) { }
 
 			public ZipArchiveContainer[] Inputs { get; set; } = [];
-			public Countries[] Countries { get; set; } = Enum.GetValues<Countries>();
-			public Languages[] Languages { get; set; } = Enum.GetValues<Languages>();
+			public string[] CountryCodes { get; set; } = Country.Codes._All;
+			public string[] LanguageCodes { get; set; } = Language.Codes._All;
 			public Rounds[] Rounds { get; set; } = Enum.GetValues<Rounds>();
 		}
 
-		static readonly string DirectoryCurrent =
-			Directory.GetCurrentDirectory();
-			//Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName!;
+		static readonly string DirectoryCurrent = Directory.GetCurrentDirectory();
+		//static readonly string DirectoryCurrent = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName!;
 
 		static readonly string DirectoryOutput = Path.Combine(DirectoryCurrent, ".output");
 		static readonly string DirectoryTemp = Path.Combine(DirectoryCurrent, ".temp");
@@ -44,13 +47,13 @@ namespace Database.Afrobarometer
 		static readonly string DirectoryInputSurveys = Path.Combine(DirectoryInput, "surveys");
 		static readonly string DirectoryInputTopics = Path.Combine(DirectoryInput, "topics");
 
-		static string DirectoryOutputFolder(Rounds? round, Countries? country)
+		static string DirectoryOutputFolder(Rounds? round, string? country)
 		{
 			string directoryoutputfolder = true switch
 			{
-				true when round.HasValue && country.HasValue => string.Format("{0}.{1}", round.Value.AsString(), country.Value),
+				true when round.HasValue && country is not null => string.Format("{0}.{1}", round.Value.AsString(), country),
 				true when round.HasValue => round.Value.AsString(),
-				true when country.HasValue => country.Value.ToString(),
+				true when country is not null => country,
 
 				_ => string.Empty
 			};
@@ -70,7 +73,7 @@ namespace Database.Afrobarometer
 			Args _args = new(args)
 			{
 				//Rounds = [Rounds.One],
-				Languages = [Languages.English],
+				LanguageCodes = [Language.Codes.English],
 				Inputs = ZipArchiveContainer
 					.FromZipPaths(DirectoryInputSurveys, DirectoryInputCodebooks)
 					.ToArray(),
@@ -81,8 +84,8 @@ namespace Database.Afrobarometer
 				return
 					_.InputType == InputTypes.SurveySAV &&
 					_args.Rounds.Contains(_.Round) &&
-					_args.Countries.Contains(_.Country) &&
-					_args.Languages.Contains(_.Language);
+					_args.CountryCodes.Contains(_.Country) &&
+					_args.LanguageCodes.Contains(_.Language);
 			});
 
 			foreach (IGrouping<string, ZipArchiveContainer> surveysziparchivecontainergrouping in inputs.GroupBy(_ => _.ZipPath))
@@ -138,8 +141,8 @@ namespace Database.Afrobarometer
 					{
 						CountryCode = inputcontainer.Country.ToCode(),
 						InterviewCount = surveysav.Records.Count(),
+						Round = inputcontainer.Round,
 
-						_Round = inputcontainer.Round,
 						_Language = inputcontainer.Language,
 					});
 
@@ -175,7 +178,7 @@ namespace Database.Afrobarometer
 							.ToList());
 
 						foreach (Variable _variable in variables)
-							survey.List_PkVariable = _AfrobarometerModel.AddPKIfUnique(survey.List_PkVariable, _variable.Pk);
+							survey.List_PkVariable = _TableGeneral.AddPKIfUnique(survey.List_PkVariable, _variable.Pk);
 
 						foreach (Variable variable in variables.OrderBy(_ => _.Label))
 							streamwriters.PerformAction(_ => _.WriteLine("{0} [{1}]: {2}", variable.Pk, variable.Id, variable.Label), "table.variable.label");
@@ -207,7 +210,7 @@ namespace Database.Afrobarometer
 							{
 								OnQuestion = question =>
 								{
-									question.List_PkSurvey = _AfrobarometerModel.AddPKIfUnique(question.List_PkSurvey, survey.Pk);
+									question.List_PkSurvey = _TableGeneral.AddPKIfUnique(question.List_PkSurvey, survey.Pk);
 								}
 							};
 
@@ -238,7 +241,7 @@ namespace Database.Afrobarometer
 								.ToList());
 
 							foreach (Question _question in questions)
-								survey.List_PkQuestion = _AfrobarometerModel.AddPKIfUnique(survey.List_PkQuestion, _question.Pk);
+								survey.List_PkQuestion = _TableGeneral.AddPKIfUnique(survey.List_PkQuestion, _question.Pk);
 
 							foreach (Question question in questions.OrderBy(_ => _.Text))
 								streamwriters.PerformAction(_ => _.WriteLine("{0} [{1}]: {2}", question.Id, question.Pk, question.VariableLabel), "table.question.text");
@@ -292,7 +295,7 @@ namespace Database.Afrobarometer
 									if (spsslyrawrecord.GetValue(pair.Item1)?.ToString()?.Replace(":", ";").Replace(",c", "|") is not string value)
 										streamwriters["surveysav.records"].WriteLine("{0}: value not found", pair.Item1.Name);
 									else if (pair.Item2 is not null)
-										interview.List_PkVariable_Record = _AfrobarometerModel.AddPKPair(interview.List_PkVariable_Record, pair.Item2.Pk, value);
+										interview.List_PkVariable_Record = _TableGeneral.AddPKPair(interview.List_PkVariable_Record, pair.Item2.Pk, value);
 
 								interviews.Add(interview);
 							}
@@ -315,8 +318,6 @@ namespace Database.Afrobarometer
 					_Variables();
 					_Questions();
 					_Interviews();
-
-					continue;
 
 					string sqliteconnectionindividualpath = Path.Combine(
 						streamwriters.PathBase,
@@ -444,20 +445,10 @@ namespace Database.Afrobarometer
 		{
 			SQLiteConnection sqliteconnection = new(path);
 
-			if (individual)
-			{
-				sqliteconnection.CreateTable<Interview>();
-				sqliteconnection.CreateTable<Question>();
-				sqliteconnection.CreateTable<Survey>();
-				sqliteconnection.CreateTable<Variable>();
-			}
-			else
-			{
-				sqliteconnection.CreateTable<Interview.Individual>();
-				sqliteconnection.CreateTable<Question.Individual>();
-				sqliteconnection.CreateTable<Survey.Individual>();
-				sqliteconnection.CreateTable<Variable.Individual>();
-			}
+			sqliteconnection.CreateTable<Interview>();
+			sqliteconnection.CreateTable<Question>();
+			sqliteconnection.CreateTable<Survey>();
+			sqliteconnection.CreateTable<Variable>();
 
 			return sqliteconnection;
 		}
@@ -465,7 +456,7 @@ namespace Database.Afrobarometer
 
 	public static class Extensions
 	{
-		public static void Add(this JArray jarray, string filename, Rounds? round, Countries? country)
+		public static void Add(this JArray jarray, string filename, Rounds? round, string? country)
 		{
 			string description = filename.Split('.').Last() switch
 			{
@@ -483,10 +474,10 @@ namespace Database.Afrobarometer
 				{ "Url", string.Format("https://raw.githubusercontent.com/xyclone-designs/database.afrobarometer/refs/heads/main/.output/{0}", filename) },
 				{ "Description", true switch
 					{
-						true when round.HasValue && country.HasValue
-							=> string.Format("individual {0}database for {1} from round {2}", description, country.Value.ToString(), round.Value.AsString()),
+						true when round.HasValue && country is not null
+							=> string.Format("individual {0}database for {1} from round {2}", description, country, round.Value.AsString()),
 						true when round.HasValue => string.Format("individual {0}database for round {1}", description, round.Value.AsString()),
-						true when country.HasValue => string.Format("individual {0}database for {1}", description, country.Value.ToString()),
+						true when country is not null => string.Format("individual {0}database for {1}", description, country),
 
 						_ => string.Format("{0}database", description)
 					}

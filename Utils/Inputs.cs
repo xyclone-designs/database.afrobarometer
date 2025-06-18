@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
+using XycloneDesigns.Apis.General.Tables;
+
 namespace Database.Afrobarometer
 {
 	public static partial class Utils
@@ -33,13 +35,13 @@ namespace Database.Afrobarometer
 				}
 				public static partial class Replacements
 				{
-					public static string _Id(string input, Languages language)
+					public static string _Id(string input, string language)
 					{
 						(IEnumerable<string> id, string replacemenid) = language switch
 						{
-							Languages.French => (French.Id, French.IdReplacement),
-							Languages.Portuguese => (Portuguese.Id, Portuguese.IdReplacement),
-							Languages.English or _ => (English.Id, English.IdReplacement),
+							Language.Codes.French => (French.Id, French.IdReplacement),
+							Language.Codes.Portuguese => (Portuguese.Id, Portuguese.IdReplacement),
+							Language.Codes.English or _ => (English.Id, English.IdReplacement),
 						};
 
 						foreach (string _id in id)
@@ -47,45 +49,45 @@ namespace Database.Afrobarometer
 
 						return input.ToLower();
 					}
-					public static string _General(string input, Languages language)
+					public static string _General(string input, string language)
 					{
 						foreach (string[] _General in language switch
 						{
-							Languages.French => French.General,
-							Languages.Portuguese => Portuguese.General,
-							Languages.English or _ => English.General,
+							Language.Codes.French => French.General,
+							Language.Codes.Portuguese => Portuguese.General,
+							Language.Codes.English or _ => English.General,
 
 						}) input = input.Replace(_General[0], _General[1]);
 
 						return input;
 					}
-					public static string _GeneralRegex(string input, Languages language)
+					public static string _GeneralRegex(string input, string language)
 					{
 						foreach (string[] _GeneralRegex in language switch
 						{
-							Languages.French => French.GeneralRegex,
-							Languages.Portuguese => Portuguese.GeneralRegex,
-							Languages.English or _ => English.GeneralRegex,
+							Language.Codes.French => French.GeneralRegex,
+							Language.Codes.Portuguese => Portuguese.GeneralRegex,
+							Language.Codes.English or _ => English.GeneralRegex,
 
 						}) input = Regex.Replace(input, _GeneralRegex[0], _GeneralRegex[1]);
 
 						return input;
 					}
-					public static string _Country(string input, Languages language)
+					public static string _Country(string input, string language)
 					{
 						switch (language)
 						{
-							case Languages.French:
+							case Language.Codes.French:
 								foreach (string _FrenchCountry in French.Country)
 									input = input.ReplaceOrdinalIgnoreCase(_FrenchCountry, French.CountryReplacement);
 								break;
 
-							case Languages.Portuguese:
+							case Language.Codes.Portuguese:
 								foreach (string _PortugueseCountry in Portuguese.Country)
 									input = input.ReplaceOrdinalIgnoreCase(_PortugueseCountry, Portuguese.CountryReplacement);
 								break;
 
-							case Languages.English:
+							case Language.Codes.English:
 							default:
 								foreach (string _EnglishCountry in English.Country)
 									input = input.ReplaceOrdinalIgnoreCase(_EnglishCountry, English.CountryReplacement);
@@ -94,21 +96,21 @@ namespace Database.Afrobarometer
 
 						return input;
 					}
-					public static string _Nationality(string input, Languages language)
+					public static string _Nationality(string input, string language)
 					{
 						switch (language)
 						{
-							case Languages.French:
+							case Language.Codes.French:
 								foreach (string _FrenchNationality in French.Nationality)
 									input = input.ReplaceOrdinalIgnoreCase(_FrenchNationality, French.CountryReplacement);
 								break;
 
-							case Languages.Portuguese:
+							case Language.Codes.Portuguese:
 								foreach (string _PortugueseNationality in Portuguese.Nationality)
 									input = input.ReplaceOrdinalIgnoreCase(_PortugueseNationality, Portuguese.CountryReplacement);
 								break;
 
-							case Languages.English:
+							case Language.Codes.English:
 							default:
 								foreach (string _EnglishNationality in English.Nationality)
 									input = input.ReplaceOrdinalIgnoreCase(_EnglishNationality, English.CountryReplacement);

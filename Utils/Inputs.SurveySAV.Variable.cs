@@ -5,8 +5,11 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-using TablesVariable = Database.Afrobarometer.Tables.Variable;
+using XycloneDesigns.Apis.General.Tables;
+using XycloneDesigns.Apis.Afrobarometer.Tables;
+
 using SpsslyVariable = Spssly.SpssDataset.Variable;
+using TablesVariable = XycloneDesigns.Apis.Afrobarometer.Tables.Variable;
 
 namespace Database.Afrobarometer
 {
@@ -20,37 +23,37 @@ namespace Database.Afrobarometer
 				{
 					public static class Replacements
 					{
-						public static string _LabelGeneral(string input, Languages language)
+						public static string _LabelGeneral(string input, string language)
 						{
 							foreach (string[] _General in language switch
 							{
-								Languages.French => French.Label.General,
-								Languages.Portuguese => Portuguese.Label.General,
-								Languages.English or _ => English.Label.General,
+								Language.Codes.French => French.Label.General,
+								Language.Codes.Portuguese => Portuguese.Label.General,
+								Language.Codes.English or _ => English.Label.General,
 
 							}) input = input.Replace(_General[0], _General[1]);
 
 							return input;
 						}
-						public static string _LabelGeneralRegex(string input, Languages language)
+						public static string _LabelGeneralRegex(string input, string language)
 						{
 							foreach (string[] _General in language switch
 							{
-								Languages.French => French.Label.GeneralRegex,
-								Languages.Portuguese => Portuguese.Label.GeneralRegex,
-								Languages.English or _ => English.Label.GeneralRegex,
+								Language.Codes.French => French.Label.GeneralRegex,
+								Language.Codes.Portuguese => Portuguese.Label.GeneralRegex,
+								Language.Codes.English or _ => English.Label.GeneralRegex,
 
 							}) input = Regex.Replace(input, _General[0], _General[1]);
 
 							return input;
 						}
-						public static string _ValueLabelsGeneral(string input, Languages language)
+						public static string _ValueLabelsGeneral(string input, string language)
 						{
 							foreach (string[] _General in language switch
 							{
-								Languages.French => French.ValueLabels.General,
-								Languages.Portuguese => Portuguese.ValueLabels.General,
-								Languages.English or _ => English.ValueLabels.General,
+								Language.Codes.French => French.ValueLabels.General,
+								Language.Codes.Portuguese => Portuguese.ValueLabels.General,
+								Language.Codes.English or _ => English.ValueLabels.General,
 
 							}) input = input.Replace(_General[0], _General[1]);
 
@@ -114,50 +117,50 @@ namespace Database.Afrobarometer
 					}
 					public static class Substitutions
 					{
-						public static string _LabelGeneral(string input, Languages language)
+						public static string _LabelGeneral(string input, string language)
 						{
 							foreach (string[] _General in language switch
 							{
-								Languages.French => French.Label.General,
-								Languages.Portuguese => Portuguese.Label.General,
-								Languages.English or _ => English.Label.General,
+								Language.Codes.French => French.Label.General,
+								Language.Codes.Portuguese => Portuguese.Label.General,
+								Language.Codes.English or _ => English.Label.General,
 
 							}) if (input == _General[0]) input = input = _General[1];
 
 							return input;
 						}
-						public static string _LabelGeneralStartsWith(string input, Languages language)
+						public static string _LabelGeneralStartsWith(string input, string language)
 						{
 							foreach (string[] _GeneralStartsWith in language switch
 							{
-								Languages.French => French.Label.GeneralStartsWith,
-								Languages.Portuguese => Portuguese.Label.GeneralStartsWith,
-								Languages.English or _ => English.Label.GeneralStartsWith,
+								Language.Codes.French => French.Label.GeneralStartsWith,
+								Language.Codes.Portuguese => Portuguese.Label.GeneralStartsWith,
+								Language.Codes.English or _ => English.Label.GeneralStartsWith,
 
 							}) if (input.StartsWith(_GeneralStartsWith[0])) input = input = _GeneralStartsWith[1];
 
 							return input;
 						}
 
-						public static string _ValueLabelsGeneral(string input, Languages language)
+						public static string _ValueLabelsGeneral(string input, string language)
 						{
 							foreach (string[] _General in language switch
 							{
-								Languages.French => French.ValueLabels.General,
-								Languages.Portuguese => Portuguese.ValueLabels.General,
-								Languages.English or _ => English.ValueLabels.General,
+								Language.Codes.French => French.ValueLabels.General,
+								Language.Codes.Portuguese => Portuguese.ValueLabels.General,
+								Language.Codes.English or _ => English.ValueLabels.General,
 
 							}) if (input == _General[0]) input = input = _General[1];
 
 							return input;
 						}
-						public static string _ValueLabelsGeneralStartsWith(string input, Languages language)
+						public static string _ValueLabelsGeneralStartsWith(string input, string language)
 						{
 							foreach (string[] _GeneralStartsWith in language switch
 							{
-								Languages.French => French.ValueLabels.GeneralStartsWith,
-								Languages.Portuguese => Portuguese.ValueLabels.GeneralStartsWith,
-								Languages.English or _ => English.ValueLabels.GeneralStartsWith,
+								Language.Codes.French => French.ValueLabels.GeneralStartsWith,
+								Language.Codes.Portuguese => Portuguese.ValueLabels.GeneralStartsWith,
+								Language.Codes.English or _ => English.ValueLabels.GeneralStartsWith,
 
 							}) if (input.StartsWith(_GeneralStartsWith[0])) input = input = _GeneralStartsWith[1];
 
@@ -250,7 +253,7 @@ namespace Database.Afrobarometer
 						}
 					}
 
-					public static string CleanLabel(string label, Languages language)
+					public static string CleanLabel(string label, string language)
 					{
 						label = Replacements._LabelGeneral(label, language);
 						label = Replacements._LabelGeneralRegex(label, language);
@@ -261,7 +264,7 @@ namespace Database.Afrobarometer
 						
 						return label.Trim();
 					}
-					public static string CleanValueLabel(string valuelabel, Languages language)
+					public static string CleanValueLabel(string valuelabel, string language)
 					{
 						valuelabel = valuelabel.Trim(',', ' ');
 						valuelabel = Replacements._ValueLabelsGeneral(valuelabel, language);
@@ -271,7 +274,7 @@ namespace Database.Afrobarometer
 						return valuelabel;
 					}
 
-					public static TablesVariable ToTableVariable(SpsslyVariable spsslyvariable, Languages language, params StreamWriter[] loggers)
+					public static TablesVariable ToTableVariable(SpsslyVariable spsslyvariable, string language, params StreamWriter[] loggers)
 					{
 						List<string> log = [];
 
@@ -282,21 +285,20 @@ namespace Database.Afrobarometer
 						if (cleanedlabel != spsslyvariable.Label)
 							log.Add(string.Format("Label: '{0}' => {1}", spsslyvariable.Label, cleanedlabel));
 
-						TablesVariable tablesvariable = new(spsslyvariable)
-						{
-							Id = cleanedlabel is null ? null : _Base.Replacements._Id(cleanedlabel, language),
-							Label = cleanedlabel,
-							ValueLabelsDictionary = spsslyvariable.ValueLabels
-								.ToDictionary(_ => _.Key, _ =>
-								{
-									string cleanvalue = CleanValueLabel(_.Value, language);
+						TablesVariable tablesvariable = new TablesVariable().FromSpsslyVariable(spsslyvariable);
+						tablesvariable.Id = cleanedlabel is null ? null : _Base.Replacements._Id(cleanedlabel, language);
+						tablesvariable.Label = cleanedlabel;
+						tablesvariable.ValueLabels = spsslyvariable.ValueLabels
+							.ToDictionary(_ => _.Key, _ =>
+							{
+								string cleanvalue = CleanValueLabel(_.Value, language);
 
-									if (_.Value != cleanvalue)
-										log.Add(string.Format("Value Label: {0} => {1}", _.Value, cleanvalue));
+								if (_.Value != cleanvalue)
+									log.Add(string.Format("Value Label: {0} => {1}", _.Value, cleanvalue));
 
-									return cleanvalue;
-								})
-						};
+								return cleanvalue;
+
+							}).ToValueLabels();
 
 						if (log.Count > 0)
 							foreach (StreamWriter logger in loggers)

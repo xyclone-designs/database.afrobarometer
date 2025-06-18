@@ -1,12 +1,7 @@
-﻿using Database.Afrobarometer.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-using UglyToad.PdfPig;
-using UglyToad.PdfPig.Content;
+using XycloneDesigns.Apis.General.Tables;
 
 namespace Database.Afrobarometer
 {
@@ -18,29 +13,29 @@ namespace Database.Afrobarometer
 			{
 				public static class Replacements
 				{
-					public static string _General(string input, Languages language)
+					public static string _General(string input, string language)
 					{
 						input = _Base.Replacements._General(input, language);
 
 						foreach (string[] _General in language switch
 						{
-							Languages.French => French.General,
-							Languages.Portuguese => Portuguese.General,
-							Languages.English or _ => English.General,
+							Language.Codes.French => French.General,
+							Language.Codes.Portuguese => Portuguese.General,
+							Language.Codes.English or _ => English.General,
 
 						}) input = input.Replace(_General[0], _General[1]);
 
 						return input;
 					}
-					public static string _GeneralRegex(string input, Languages language)
+					public static string _GeneralRegex(string input, string language)
 					{
 						input = _Base.Replacements._GeneralRegex(input, language);
 
 						foreach (string[] _GeneralRegex in language switch
 						{
-							Languages.French => French.GeneralRegex,
-							Languages.Portuguese => Portuguese.GeneralRegex,
-							Languages.English or _ => English.GeneralRegex,
+							Language.Codes.French => French.GeneralRegex,
+							Language.Codes.Portuguese => Portuguese.GeneralRegex,
+							Language.Codes.English or _ => English.GeneralRegex,
 
 						}) input = Regex.Replace(input, _GeneralRegex[0], _GeneralRegex[1]);
 

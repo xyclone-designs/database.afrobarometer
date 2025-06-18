@@ -1,6 +1,5 @@
 ﻿using Database.Afrobarometer.Enums;
 using Database.Afrobarometer.Inputs;
-using Database.Afrobarometer.Tables;
 
 using SQLite;
 
@@ -10,7 +9,10 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 
-using SurveySAVVariable = Spssly.SpssDataset.Variable;
+using XycloneDesigns.Apis.Afrobarometer.Enums;
+using XycloneDesigns.Apis.Afrobarometer.Tables;
+
+using SurveySAVVariable = Spssly.SpssDataset.Variable; 
 
 namespace Database.Afrobarometer
 {
@@ -18,7 +20,7 @@ namespace Database.Afrobarometer
 	{
 		public class ProcessArgs
 		{
-			public ProcessArgs(SQLiteConnection sqliteconnection, Languages language, params StreamWriters[] streamwriters)
+			public ProcessArgs(SQLiteConnection sqliteconnection, string language, params StreamWriters[] streamwriters)
 			{
 				Sqliteconnection = sqliteconnection;
 				Language = language;
@@ -33,7 +35,7 @@ namespace Database.Afrobarometer
 			public Languages Language { get; set; }
 			public List<Question>? Questions { get; set; }
 			public List<Variable>? Variables { get; set; }
-			public StreamWriters[] Streamwriters { get; set; }
+			public StreamWriters Streamwriters { get; set; }
 			public SQLiteConnection Sqliteconnection { get; set; }
 		}
 
@@ -54,10 +56,9 @@ namespace Database.Afrobarometer
 		{
 			List<Variable> variables = [];
 
-			args.Streamwriters.TryAdd(
-				[Key_SurveySAV_Log, string.Format("{0}.txt", Key_SurveySAV_Log)],
-				[Key_SurveySAV_Error, string.Format("{0}.txt", Key_SurveySAV_Error)],
-				[Key_SurveySAV_Operations, string.Format("{0}.txt", Key_SurveySAV_Operations)]);
+			args.Streamwriters.TryAdd(Key_SurveySAV_Log, string.Format("{0}.txt", Key_SurveySAV_Log));
+			args.Streamwriters.TryAdd(Key_SurveySAV_Error, string.Format("{0}.txt", Key_SurveySAV_Error));
+			args.Streamwriters.TryAdd(Key_SurveySAV_Operations, string.Format("{0}.txt", Key_SurveySAV_Operations));
 
 			foreach (SurveySAVVariable surveysavvariable in surveysav.Variables)
 				if (ProcessSurveySAVVariable(surveysavvariable, args) is Variable variable)
@@ -139,6 +140,7 @@ namespace Database.Afrobarometer
 				language: args.Language,
 				spsslyvariable: surveysavvariable, 
 				loggers: args.Streamwriters.Get(Key_SurveySAV_Operations));
+			Dictionary<double, string> valuelablesditionary = variable.GetValueLabelsDictionary();
 
 			Console.WriteLine("SurveySAVVariable.Label: {0}", surveysavvariable.Label ?? "null");
 
@@ -147,6 +149,9 @@ namespace Database.Afrobarometer
 				.Where(_ => variable.Id == _.Id);
 
 			foreach (Variable _variable in variables)
+			{
+				Dictionary<double, string> _valuelablesditionary = variable.GetValueLabelsDictionary();
+
 				switch (true)
 				{
 					case true when variable.ValueLabels?.EqualsOrdinalIgnoreCase(_variable.ValueLabels) ?? false:
@@ -184,6 +189,7 @@ namespace Database.Afrobarometer
 
 					default: break;
 				}
+			}
 
 			if (variable.Pk is not 0)
 				return variable;

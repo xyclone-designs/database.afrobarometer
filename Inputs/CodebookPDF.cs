@@ -1,12 +1,13 @@
-﻿using Database.Afrobarometer.Enums;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
 using UglyToad.PdfPig;
+
+using XycloneDesigns.Apis.General.Tables;
+using XycloneDesigns.Apis.Afrobarometer.Enums;
 
 namespace Database.Afrobarometer.Inputs
 {
@@ -17,14 +18,7 @@ namespace Database.Afrobarometer.Inputs
 			Text = string.Empty;
 			Filepath = filepath;
 			Filename = Filepath.Split('\\')[^1];
-
-			Country = default;
-			Round = default;
-			Language = default;
-
 			Round = Round.FromFilename(Filename);
-			Country = Country.FromFilename(Filename);
-			Language = Language.FromFilename(Filename, Round, Country);
 		}
 
 		private PdfDocument? pdfdocument;
@@ -33,8 +27,8 @@ namespace Database.Afrobarometer.Inputs
 		public string Filename { get; set; }
 		public string Filepath { get; set; }
 
-		public Countries Country { get; set; }
-		public Languages Language { get; set; }
+		public string? CountryCode { get; set; }
+		public string? LanguageCode { get; set; }
 		public Rounds Round { get; set; }
 
 		public IEnumerable<Question> Questions
@@ -43,7 +37,7 @@ namespace Database.Afrobarometer.Inputs
 			{
 				pdfdocument ??= PdfDocument.Open(Filepath);
 
-				string[] split = Utils.Inputs.CodebookPDF.SplitText(pdfdocument, Language, out string rawtext); Text = rawtext;
+				string[] split = Utils.Inputs.CodebookPDF.SplitText(pdfdocument, LanguageCode ?? Language.Codes.English, out string rawtext); Text = rawtext;
 
 				for (int index = 0; index < split.Length; index++)
 				{

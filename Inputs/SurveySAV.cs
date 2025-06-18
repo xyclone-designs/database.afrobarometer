@@ -1,9 +1,9 @@
-﻿using Database.Afrobarometer.Enums;
-
-using Spssly.DataReader;
-
+﻿using Spssly.DataReader;
+using SQLite;
 using System;
 using System.IO;
+
+using XycloneDesigns.Apis.Afrobarometer.Enums;
 
 using SurveySAVVariable = Spssly.SpssDataset.Variable;
 
@@ -19,10 +19,6 @@ namespace Database.Afrobarometer.Inputs
 			Text = string.Empty;
 			Filepath = filepath;
 			Filename = Filepath.Split('\\')[^1];
-
-			try { Country = default(Countries).FromFilename(Filename); } catch (Exception) { throw new ArgumentException(string.Format("Error: Country '{0}'", Filename)); }
-			try { Round = default(Rounds).FromFilename(Filename); } catch (Exception) { throw new ArgumentException(string.Format("Error: Round '{0}'", Filename)); }
-			try { Language = default(Languages).FromFilename(Filename, Round, Country); } catch (Exception) { throw new ArgumentException(string.Format("Error: Language '{0}'", Filename)); }
 		}
 
 		private readonly FileStream _FileStream;
@@ -31,8 +27,8 @@ namespace Database.Afrobarometer.Inputs
 		public string Filename { get; set; }
 		public string Filepath { get; set; }
 
-		public Countries Country { get; set; }
-		public Languages Language { get; set; }
+		public string? CountryCode { get; set; }
+		public string? LanguageCode { get; set; }
 		public Rounds Round { get; set; }
 
 		public new void Dispose()
@@ -46,7 +42,7 @@ namespace Database.Afrobarometer.Inputs
 
 	public static partial class StreamWriterExtensions
 	{
-		public static string? GetId(this SurveySAVVariable surveysavvariable, Languages language) 
+		public static string? GetId(this SurveySAVVariable surveysavvariable, string language) 
 		{
 			if (string.IsNullOrWhiteSpace(surveysavvariable.Label))
 				return null;
@@ -56,13 +52,5 @@ namespace Database.Afrobarometer.Inputs
 
 			return id;
 		}
-	}
-	public static partial class StreamWriterExtensions
-	{
-		public static void Log(this StreamWriter streamwriter, SurveySAV surveysav) { }
-		public static void Log(this StreamWriter streamwriter, SurveySAVVariable surveysavvariable) { }
-
-		public static void LogError(this StreamWriter streamwriter, SurveySAV surveysav) { }
-		public static void LogError(this StreamWriter streamwriter, SurveySAVVariable surveysavvariable) { }
 	}
 }
