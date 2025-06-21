@@ -11,7 +11,7 @@ using System.Linq.Expressions;
 
 using XycloneDesigns.Apis.Afrobarometer.Enums;
 using XycloneDesigns.Apis.Afrobarometer.Tables;
-
+using XycloneDesigns.Apis.General.Tables;
 using SurveySAVVariable = Spssly.SpssDataset.Variable; 
 
 namespace Database.Afrobarometer
@@ -20,23 +20,27 @@ namespace Database.Afrobarometer
 	{
 		public class ProcessArgs
 		{
-			public ProcessArgs(SQLiteConnection sqliteconnection, string language, params StreamWriters[] streamwriters)
+			public ProcessArgs(SQLiteConnection sqliteconnection, string languagecode, StreamWriters streamwriters)
 			{
 				Sqliteconnection = sqliteconnection;
-				Language = language;
+				LanguageCode = languagecode;
 				Streamwriters = streamwriters;
 			}
 
 			public Action<Question>? OnQuestion { get; set; }
 			public Action<Variable>? OnVariable { get; set; }
 
-			public Languages Round { get; set; }
-			public Languages Country { get; set; }
-			public Languages Language { get; set; }
+			public Rounds Round { get; set; }
+			public string? CountryCode { get; set; }
+			public string LanguageCode { get; set; }
 			public List<Question>? Questions { get; set; }
 			public List<Variable>? Variables { get; set; }
 			public StreamWriters Streamwriters { get; set; }
 			public SQLiteConnection Sqliteconnection { get; set; }
+			public SQLiteConnection? SqliteconnectionCountries { get; set; }
+			public SQLiteConnection? SqliteconnectionLanguages { get; set; }
+			public SQLiteConnection? SqliteconnectionMunicipalities { get; set; }
+			public SQLiteConnection? SqliteconnectionProvinces { get; set; }
 		}
 
 		public static string 
@@ -70,12 +74,12 @@ namespace Database.Afrobarometer
 						variables[index] = variable;
 					else variables.Add(variable);
 
-					args.Streamwriters.For(Key_SurveySAV_Log, _ => _.Log(variable));
-					args.Streamwriters.For(Key_SurveySAV_Error, _ => _.LogError(variable));
+					args.Streamwriters.PerformAction(_ => _.Log(variable), Key_SurveySAV_Log);
+					args.Streamwriters.PerformAction(_ => _.LogError(variable), Key_SurveySAV_Error);
 				}
 
 			foreach (Variable _variable in variables.OrderBy(_ => _.Label))
-				args.Streamwriters.For(Key_SurveySAV_Labels, _ => _.WriteLine("{0}: {1}", _variable.Id, _variable.Label ?? "\"null\""));
+				args.Streamwriters.PerformAction(_ => _.WriteLine("{0}: {1}", _variable.Id, _variable.Label ?? "\"null\""), Key_SurveySAV_Labels);
 
 			args.Variables?.Clear();
 			args.Streamwriters.Dispose(true, Key_SurveySAV_Log, Key_SurveySAV_Error, Key_SurveySAV_Operations);
@@ -86,12 +90,11 @@ namespace Database.Afrobarometer
 		{
 			List<Question> questions = []; variables = [];
 
-			args.Streamwriters.TryAdd(
-				[Key_CodebookPDF_Error, string.Format("{0}.txt", Key_CodebookPDF_Error)],
-				[Key_CodebookPDF_Log, string.Format("{0}.txt", Key_CodebookPDF_Log)],
-				[Key_CodebookPDF_Operations, string.Format("{0}.txt", Key_CodebookPDF_Operations)],
-				[Key_CodebookPDF_Texts, string.Format("{0}.txt", Key_CodebookPDF_Texts)],
-				[Key_CodebookPDF_VariableLabels, string.Format("{0}.txt", Key_CodebookPDF_VariableLabels)]);
+			args.Streamwriters.Add(Key_CodebookPDF_Error, string.Format("{0}.txt", Key_CodebookPDF_Error));
+			args.Streamwriters.Add(Key_CodebookPDF_Log, string.Format("{0}.txt", Key_CodebookPDF_Log));
+			args.Streamwriters.Add(Key_CodebookPDF_Operations, string.Format("{0}.txt", Key_CodebookPDF_Operations));
+			args.Streamwriters.Add(Key_CodebookPDF_Texts, string.Format("{0}.txt", Key_CodebookPDF_Texts));
+			args.Streamwriters.Add(Key_CodebookPDF_VariableLabels, string.Format("{0}.txt", Key_CodebookPDF_VariableLabels));
 
 			foreach (CodebookPDF.Question codebookpdfquestion in codebookpdf.Questions)
 			{
@@ -102,7 +105,10 @@ namespace Database.Afrobarometer
 
 					if (variable is not null)
 					{
-						question._Language = args.Language;
+						if (args.SqliteconnectionLanguages?
+							.Table<Language>()
+							.FirstOrDefault(_ => _.Code == args.LanguageCode) is Language language)
+							question.PkLanguage = language.Pk;
 
 						if (question.Text is not null)
 							variables.TryAdd(question.Text, variable);
@@ -117,16 +123,16 @@ namespace Database.Afrobarometer
 						questions[index] = question;
 					else questions.Add(question);
 
-					args.Streamwriters.For(Key_CodebookPDF_Log, _ => _.Log(question));
-					args.Streamwriters.For(Key_CodebookPDF_Error, _ => _.LogError(question));
+					args.Streamwriters.PerformAction(_ => _.Log(question), Key_CodebookPDF_Log);
+					args.Streamwriters.PerformAction(_ => _.LogError(question), Key_CodebookPDF_Error);
 				}
 			}
 
 			foreach (Question _question in questions.OrderBy(_ => _.Text))
-				args.Streamwriters.For(Key_CodebookPDF_Texts, _ => _.WriteLine("{0}: {1}", _question.Id, _question.Text ?? "\"null\""));
+				args.Streamwriters.PerformAction(_ => _.WriteLine("{0}: {1}", _question.Id, _question.Text ?? "\"null\""), Key_CodebookPDF_Texts);
 
 			foreach (Question _question in questions.OrderBy(_ => _.VariableLabel))
-				args.Streamwriters.For(Key_CodebookPDF_VariableLabels, _ => _.WriteLine("{0}: {1}", _question.Id, _question.VariableLabel ?? "\"null\""));
+				args.Streamwriters.PerformAction(_ => _.WriteLine("{0}: {1}", _question.Id, _question.VariableLabel ?? "\"null\""), Key_CodebookPDF_VariableLabels);
 
 			args.Questions?.Clear();
 			args.Streamwriters.Dispose(true, Key_CodebookPDF_Error, Key_CodebookPDF_Log, Key_CodebookPDF_Operations, Key_CodebookPDF_Texts, Key_CodebookPDF_VariableLabels);
@@ -137,9 +143,9 @@ namespace Database.Afrobarometer
 		public static Variable? ProcessSurveySAVVariable(SurveySAVVariable surveysavvariable, ProcessArgs args) 
 		{
 			Variable variable = Utils.Inputs.SurveySAV.Variable.ToTableVariable(
-				language: args.Language,
+				language: args.LanguageCode,
 				spsslyvariable: surveysavvariable, 
-				loggers: args.Streamwriters.Get(Key_SurveySAV_Operations));
+				loggers: args.Streamwriters[Key_SurveySAV_Operations]);
 			Dictionary<double, string> valuelablesditionary = variable.GetValueLabelsDictionary();
 
 			Console.WriteLine("SurveySAVVariable.Label: {0}", surveysavvariable.Label ?? "null");
@@ -158,31 +164,30 @@ namespace Database.Afrobarometer
 						variable = _variable;
 						break;
 					
-					case true when variable.ValueLabelsDictionary.All(_ =>
+					case true when valuelablesditionary.All(_ =>
 					{
-						return _variable.ValueLabelsDictionary.TryGetValue(_.Key, out string? _value) && _.Value.EqualsOrdinalIgnoreCase(_value);
-					
+						return _valuelablesditionary.TryGetValue(_.Key, out string? _value) && _.Value.EqualsOrdinalIgnoreCase(_value);
 					}): 
-						variable.ValueLabelsDictionary = _variable.ValueLabelsDictionary;
+						variable.ValueLabels = _valuelablesditionary.ToValueLabels();
 						variable = _variable; 
 						break;
 
-					case true when _variable.ValueLabelsDictionary.All(_ =>
+					case true when _valuelablesditionary.All(_ =>
 					{
-						return variable.ValueLabelsDictionary.TryGetValue(_.Key, out string? _value) && _.Value.EqualsOrdinalIgnoreCase(_value);
+						return valuelablesditionary.TryGetValue(_.Key, out string? _value) && _.Value.EqualsOrdinalIgnoreCase(_value);
 					}):
-						_variable.ValueLabelsDictionary = variable.ValueLabelsDictionary;
+						_variable.ValueLabels = valuelablesditionary.ToValueLabels();
 						args.Sqliteconnection.Update(_variable);
 						variable = _variable;
 						break;
 
-					case true when variable.ValueLabelsDictionary.Keys
-						.Where(_ => _variable.ValueLabelsDictionary.ContainsKey(_))
-						.All(_ => _variable.ValueLabelsDictionary[_].EqualsOrdinalIgnoreCase(variable.ValueLabelsDictionary[_])):
-						foreach (double variablekey in variable.ValueLabelsDictionary.Keys)
-							_variable.ValueLabelsDictionary.TryAdd(variablekey, variable.ValueLabelsDictionary[variablekey]);
+					case true when valuelablesditionary.Keys
+						.Where(_ => _valuelablesditionary.ContainsKey(_))
+						.All(_ => _valuelablesditionary[_].EqualsOrdinalIgnoreCase(valuelablesditionary[_])):
+						foreach (double variablekey in valuelablesditionary.Keys)
+							_valuelablesditionary.TryAdd(variablekey, valuelablesditionary[variablekey]);
 
-						variable.ValueLabelsDictionary = _variable.ValueLabelsDictionary;
+						variable.ValueLabels = _valuelablesditionary.ToValueLabels();
 						args.Sqliteconnection.Update(_variable);
 						variable = _variable;
 						break;
@@ -227,10 +232,10 @@ namespace Database.Afrobarometer
 			Console.WriteLine("CodebookPDF.Question.Id: {0}", codebookpdfquestion.Id); variable = null;
 
 			Question question = Utils.Inputs.CodebookPDF.Question.ToTablesQuestion(
-				language: args.Language,
+				language: args.LanguageCode,
 				question: codebookpdfquestion,
 				tablesvariable: out Variable _variable,
-				loggers: args.Streamwriters.Get(Key_CodebookPDF_Operations));
+				loggers: args.Streamwriters[Key_CodebookPDF_Operations]);
 
 			bool nulltexts = string.IsNullOrWhiteSpace(question.Text), nullvariblelabels = string.IsNullOrWhiteSpace(question.VariableLabel);
 			

@@ -3,7 +3,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using XycloneDesigns.Apis.Afrobarometer.Enums; 
+using XycloneDesigns.Apis.Afrobarometer.Enums;
+using XycloneDesigns.Apis.General.Tables;
 
 namespace System.IO.Compression
 {
@@ -14,11 +15,12 @@ namespace System.IO.Compression
 		{
 			ZipPath = zippath;
 			ZipFullName = zipfullname;
+			LanguageCode = Language.Codes.English;
 		}
 
 		public InputTypes InputType { get; set; }
-		public Countries Country { get; set; }
-		public Languages Language { get; set; }
+		public string? CountryCode { get; set; }
+		public string LanguageCode { get; set; }
 		public Rounds Round { get; set; }
 
 		public string ZipPath { get; set; }
@@ -42,12 +44,16 @@ namespace System.IO.Compression
 				using ZipArchive ziparchive = new(filestream);
 
 				foreach (ZipArchiveEntry ziparchiveentry in ziparchive.Entries)
+				{
+					Rounds round = default(Rounds).FromFilename(ziparchiveentry.Name);
+					string? countrycode = ziparchiveentry.Name.FindCountryCode();
+					string? languagecode = ziparchiveentry.Name.GetLanguageCode(round, countrycode);
+
 					yield return new ZipArchiveContainer(zippath, ziparchiveentry.FullName)
 					{
-						Country = default(Countries).FromFilename(ziparchiveentry.Name),
-						Language = default(Languages).FromFilename(ziparchiveentry.Name),
-						Round = default(Rounds).FromFilename(ziparchiveentry.Name),
-
+						Round = round,
+						CountryCode = countrycode,
+						LanguageCode = languagecode,
 						InputType = ziparchiveentry.FullName.Split('.')[^1] is string ext ? ext switch
 						{
 							"pdf" => InputTypes.CodebookPDF,
@@ -57,6 +63,7 @@ namespace System.IO.Compression
 
 						} : throw new ArgumentException("Shouldnt be happening"),
 					};
+				}
 			}
 		}
 	}

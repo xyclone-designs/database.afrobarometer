@@ -403,8 +403,7 @@ namespace Database.Afrobarometer
 							Text = text,
 							Source = source,
 							VariableLabel = variablecleanlabel ?? variablelabel,
-							Note = note,
-							Language = language,
+							Note = note,						
 						};
 					}
 				}

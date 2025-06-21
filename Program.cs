@@ -9,7 +9,6 @@ using SQLite;
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Metrics;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
@@ -37,13 +36,14 @@ namespace Database.Afrobarometer
 			public Rounds[] Rounds { get; set; } = Enum.GetValues<Rounds>();
 		}
 
-		static readonly string DirectoryCurrent = Directory.GetCurrentDirectory();
-		//static readonly string DirectoryCurrent = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName!;
+		//static readonly string DirectoryCurrent = Directory.GetCurrentDirectory();
+		static readonly string DirectoryCurrent = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName!;
 
 		static readonly string DirectoryOutput = Path.Combine(DirectoryCurrent, ".output");
 		static readonly string DirectoryTemp = Path.Combine(DirectoryCurrent, ".temp");
 		static readonly string DirectoryInput = Path.Combine(DirectoryCurrent, ".input");
 		static readonly string DirectoryInputCodebooks = Path.Combine(DirectoryInput, "codebooks");
+		static readonly string DirectoryInputDatabases = Path.Combine(DirectoryInput, "databases");
 		static readonly string DirectoryInputSurveys = Path.Combine(DirectoryInput, "surveys");
 		static readonly string DirectoryInputTopics = Path.Combine(DirectoryInput, "topics");
 
@@ -65,14 +65,39 @@ namespace Database.Afrobarometer
 		{
 			_CleaningPre();
 
+			using FileStream filestream_countries = File.OpenRead(Path.Combine(DirectoryInputDatabases, "countries.db.zip"));
+			using FileStream filestream_languages = File.OpenRead(Path.Combine(DirectoryInputDatabases, "languages.db.zip"));
+			using FileStream filestream_municipalities = File.OpenRead(Path.Combine(DirectoryInputDatabases, "municipalities.db.zip"));
+			using FileStream filestream_provinces = File.OpenRead(Path.Combine(DirectoryInputDatabases, "provinces.db.zip"));
+
+			string sqlconnectionpathcountries = Path.Combine(DirectoryTemp, "countries.db");
+			string sqlconnectionpathlanguages = Path.Combine(DirectoryTemp, "languages.db");
+			string sqlconnectionpathmunicipalities = Path.Combine(DirectoryTemp, "municipalities.db");
+			string sqlconnectionpathprovinces = Path.Combine(DirectoryTemp, "provinces.db");
+
+			new ZipArchive(filestream_countries).ExtractToDirectory(DirectoryTemp);
+			new ZipArchive(filestream_languages).ExtractToDirectory(DirectoryTemp);
+			new ZipArchive(filestream_municipalities).ExtractToDirectory(DirectoryTemp);
+			new ZipArchive(filestream_provinces).ExtractToDirectory(DirectoryTemp);
+
+			SQLiteConnection? sqliteconnection_countries = File.Exists(sqlconnectionpathcountries) ? new (sqlconnectionpathcountries) : null;
+			SQLiteConnection? sqliteconnection_languages = File.Exists(sqlconnectionpathlanguages) ? new (sqlconnectionpathlanguages) : null;
+			SQLiteConnection? sqliteconnection_municipalities = File.Exists(sqlconnectionpathmunicipalities) ? new (sqlconnectionpathmunicipalities) : null;
+			SQLiteConnection? sqliteconnection_provinces = File.Exists(sqlconnectionpathprovinces) ? new (sqlconnectionpathprovinces) : null;
+
+			sqliteconnection_countries?.CreateTable<Country>();
+			sqliteconnection_languages?.CreateTable<Language>();
+			sqliteconnection_municipalities?.CreateTable<Municipality>();
+			sqliteconnection_provinces?.CreateTable<Province>();
+
 			string sqlconnectionpath = Path.Combine(DirectoryOutput, "afrobarometer.db");
 
 			SQLiteConnection sqliteconnection = _SQLiteConnection(sqlconnectionpath, false);
+
 			JArray apifiles = [];
 			StreamWriters streamwriters = [];
 			Args _args = new(args)
 			{
-				//Rounds = [Rounds.One],
 				LanguageCodes = [Language.Codes.English],
 				Inputs = ZipArchiveContainer
 					.FromZipPaths(DirectoryInputSurveys, DirectoryInputCodebooks)
@@ -84,8 +109,8 @@ namespace Database.Afrobarometer
 				return
 					_.InputType == InputTypes.SurveySAV &&
 					_args.Rounds.Contains(_.Round) &&
-					_args.CountryCodes.Contains(_.Country) &&
-					_args.LanguageCodes.Contains(_.Language);
+					_args.CountryCodes.Contains(_.CountryCode) &&
+					_args.LanguageCodes.Contains(_.LanguageCode);
 			});
 
 			foreach (IGrouping<string, ZipArchiveContainer> surveysziparchivecontainergrouping in inputs.GroupBy(_ => _.ZipPath))
@@ -122,7 +147,7 @@ namespace Database.Afrobarometer
 						{
 							return
 								default(Rounds).FromFilename(_.Name) == inputcontainer.Round &&
-								default(Countries).FromFilename(_.Name) == inputcontainer.Country;
+								_.Name.FindCountryCode() == inputcontainer.CountryCode;
 
 						})?.ExtractToDirectory(DirectoryTemp);
 
@@ -131,7 +156,7 @@ namespace Database.Afrobarometer
 
 					Console.WriteLine("\n{0}\n{1}\n", surveysavname, codebookpdfname);
 
-					string directoryoutputfolder = DirectoryOutputFolder(inputcontainer.Round, inputcontainer.Country);
+					string directoryoutputfolder = DirectoryOutputFolder(inputcontainer.Round, inputcontainer.CountryCode);
 					string directoryoutputpath = Path.Combine(DirectoryOutput, directoryoutputfolder);
 
 					Directory.CreateDirectory(streamwriters.PathBase = directoryoutputpath);
@@ -139,11 +164,10 @@ namespace Database.Afrobarometer
 					SurveySAV surveysav = new(surveytempfilepath);
 					Survey survey = sqliteconnection.InsertAndReturn(new Survey
 					{
-						CountryCode = inputcontainer.Country.ToCode(),
 						InterviewCount = surveysav.Records.Count(),
 						Round = inputcontainer.Round,
-
-						_Language = inputcontainer.Language,
+						PkCountry = sqliteconnection_countries?.Table<Country>().FirstOrDefault(_ => _.Code == surveysav.CountryCode)?.Pk,
+						PkLanguage = sqliteconnection_languages?.Table<Language>().FirstOrDefault(_ => _.Code == surveysav.LanguageCode)?.Pk,
 					});
 
 					List<Variable> variables = [];
@@ -160,8 +184,8 @@ namespace Database.Afrobarometer
 
 						variables = ProcessSurveySAV(surveysav, new ProcessArgs(
 							streamwriters: streamwriters,
-							language: inputcontainer.Language,
-							sqliteconnection: sqliteconnection));
+							sqliteconnection: sqliteconnection,
+							languagecode: inputcontainer.LanguageCode));
 
 						variablesupdate = variables.Where(_ => _.Pk != 0);
 						variablesinsert = variables.Where(_ => _.Pk == 0);
@@ -206,7 +230,7 @@ namespace Database.Afrobarometer
 							streamwriters.TryAdd("table.question.variablelabel", "table.question.variablelabel.txt", true);
 
 							CodebookPDF codebookpdf = new(codebooktempfilepath);
-							ProcessArgs processargs = new(sqliteconnection, inputcontainer.Language, streamwriters)
+							ProcessArgs processargs = new(sqliteconnection, inputcontainer.LanguageCode, streamwriters)
 							{
 								OnQuestion = question =>
 								{
@@ -268,7 +292,7 @@ namespace Database.Afrobarometer
 
 						if (surveysav.Variables.Select(surveysavvariable =>
 						{
-							string? id = surveysavvariable.GetId(surveysav.Language);
+							string? id = surveysav.LanguageCode is null ? null : surveysavvariable.GetId(surveysav.LanguageCode);
 							Variable? variable = id is null ? null : variables.FirstOrDefault(_ => _.Id == id);
 
 							if (id is null) streamwriters["surveysav.records"].WriteLine("{0}: id not found", surveysavvariable.Name);
@@ -283,12 +307,12 @@ namespace Database.Afrobarometer
 
 								Console.WriteLine("{0}: {1}", index, survey.InterviewCount);
 
+								Language? language = sqliteconnection_languages?.Table<Language>().FirstOrDefault(_ => _.Code == surveysav.LanguageCode);
 								Interview interview = new()
 								{
 									PkSurvey = survey.Pk,
+									PkLanguage = language?.Pk,
 									Round = survey.Round,
-
-									_Language = surveysav.Language,
 								};
 
 								foreach ((SurveySAVVariable, Variable?) pair in surveysavvariables)
@@ -321,7 +345,7 @@ namespace Database.Afrobarometer
 
 					string sqliteconnectionindividualpath = Path.Combine(
 						streamwriters.PathBase,
-						string.Format("afrobarometer.{0}.{1}.db", inputcontainer.Round.AsString(), inputcontainer.Country.ToCode()));
+						string.Format("afrobarometer.{0}.{1}.db", inputcontainer.Round.AsString(), inputcontainer.CountryCode));
 
 					_SQLiteConnection(sqliteconnectionindividualpath, true)
 						.Insert(survey, out int _)
@@ -333,8 +357,8 @@ namespace Database.Afrobarometer
 					string sqliteconnectionindividualzipname = string.Join('/', ZipFile(sqliteconnectionindividualpath).Split('\\')[^2..^0]);
 					string sqliteconnectionindividualgzipname = string.Join('/', GZipFile(sqliteconnectionindividualpath).Split('\\')[^2..^0]);
 
-					apifiles.Add(sqliteconnectionindividualzipname, inputcontainer.Round, inputcontainer.Country);
-					apifiles.Add(sqliteconnectionindividualgzipname, inputcontainer.Round, inputcontainer.Country);
+					apifiles.Add(sqliteconnectionindividualzipname, inputcontainer.Round, inputcontainer.CountryCode);
+					apifiles.Add(sqliteconnectionindividualgzipname, inputcontainer.Round, inputcontainer.CountryCode);
 					
 					surveysav.Dispose();
 
