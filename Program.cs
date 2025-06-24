@@ -354,8 +354,9 @@ namespace Database.Afrobarometer
 						.InsertAll(interviews, out int _)
 						.CommitAndClose();
 
-					string sqliteconnectionindividualzipname = string.Join('/', ZipFile(sqliteconnectionindividualpath).Split('\\')[^2..^0]);
-					string sqliteconnectionindividualgzipname = string.Join('/', GZipFile(sqliteconnectionindividualpath).Split('\\')[^2..^0]);
+					FileInfo sqliteconnectionindividualfileinfo = new (sqliteconnectionindividualpath);
+					string sqliteconnectionindividualzipname = string.Join('/', sqliteconnectionindividualfileinfo.ZipFile().Split('\\')[^2..^0]);
+					string sqliteconnectionindividualgzipname = string.Join('/', sqliteconnectionindividualfileinfo.GZipFile().Split('\\')[^2..^0]);
 
 					apifiles.Add(sqliteconnectionindividualzipname, inputcontainer.Round, inputcontainer.CountryCode);
 					apifiles.Add(sqliteconnectionindividualgzipname, inputcontainer.Round, inputcontainer.CountryCode);
@@ -387,8 +388,9 @@ namespace Database.Afrobarometer
 				streamwritersround.Dispose();
 				sqliteconnectionround.Close();
 
-				string sqliteconnectionroundzipname = string.Join('/', ZipFile(sqliteconnectionroundpath).Split('\\')[^2..^0]);
-				string sqliteconnectionroundgzipname = string.Join('/', GZipFile(sqliteconnectionroundpath).Split('\\')[^2..^0]);
+				FileInfo sqliteconnectionroundfileinfo = new(sqliteconnectionroundpath);
+				string sqliteconnectionroundzipname = string.Join('/', sqliteconnectionroundfileinfo.ZipFile().Split('\\')[^2..^0]);
+				string sqliteconnectionroundgzipname = string.Join('/', sqliteconnectionroundfileinfo.GZipFile().Split('\\')[^2..^0]);
 
 				apifiles.Add(sqliteconnectionroundzipname, surveysziparchivecontainer.Round, null);
 				apifiles.Add(sqliteconnectionroundgzipname, surveysziparchivecontainer.Round, null);
@@ -398,8 +400,9 @@ namespace Database.Afrobarometer
 
 			sqliteconnection.CommitAndClose();
 
-			string sqliteconnectionzipname = ZipFile(sqlconnectionpath).Split('\\').Last();
-			string sqliteconnectiongzipname = GZipFile(sqlconnectionpath).Split('\\').Last();
+			FileInfo sqlconnectionfileinfo = new(sqlconnectionpath);
+			string sqliteconnectionzipname = sqlconnectionfileinfo.ZipFile().Split('\\').Last();
+			string sqliteconnectiongzipname = sqlconnectionfileinfo.GZipFile().Split('\\').Last();
 
 			apifiles.Add(sqliteconnectionzipname, null, null);
 			apifiles.Add(sqliteconnectiongzipname, null, null);
@@ -436,34 +439,6 @@ namespace Database.Afrobarometer
 			Console.WriteLine("Cleaning Up...");
 
 			Directory.Delete(DirectoryTemp, true);
-		}
-		static string ZipFile(string filepath)
-		{
-			string name = filepath.Split("\\").Last();
-			string zipfilepath = filepath + ".zip";
-
-			using FileStream filestream = File.OpenRead(filepath);
-			using FileStream filestreamzip = File.Create(zipfilepath);
-			using ZipArchive ziparchive = new(filestreamzip, ZipArchiveMode.Create, true);
-			using Stream stream = ziparchive
-				.CreateEntry(name)
-				.Open();
-
-			filestream.CopyTo(stream);
-			filestream.Close();
-
-			return zipfilepath;
-		}
-		static string GZipFile(string filepath)
-		{
-			string gzipfilepath = filepath + ".gz";
-
-			using FileStream filestream = File.OpenRead(filepath);
-			using FileStream filestreamgzip = File.Create(gzipfilepath);
-
-			GZip.Compress(filestream, filestreamgzip, true, 512, 6);
-
-			return gzipfilepath;
 		}
 		static SQLiteConnection _SQLiteConnection(string path, bool individual)
 		{
