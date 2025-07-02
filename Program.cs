@@ -36,8 +36,8 @@ namespace Database.Afrobarometer
 			public Rounds[] Rounds { get; set; } = Enum.GetValues<Rounds>();
 		}
 
-		//static readonly string DirectoryCurrent = Directory.GetCurrentDirectory();
-		static readonly string DirectoryCurrent = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName!;
+		static readonly string DirectoryCurrent = Directory.GetCurrentDirectory();
+		//static readonly string DirectoryCurrent = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName!;
 
 		static readonly string DirectoryOutput = Path.Combine(DirectoryCurrent, ".output");
 		static readonly string DirectoryTemp = Path.Combine(DirectoryCurrent, ".temp");
@@ -85,19 +85,16 @@ namespace Database.Afrobarometer
 			SQLiteConnection? sqliteconnection_municipalities = File.Exists(sqlconnectionpathmunicipalities) ? new (sqlconnectionpathmunicipalities) : null;
 			SQLiteConnection? sqliteconnection_provinces = File.Exists(sqlconnectionpathprovinces) ? new (sqlconnectionpathprovinces) : null;
 
-			sqliteconnection_countries?.CreateTable<Country>();
-			sqliteconnection_languages?.CreateTable<Language>();
-			sqliteconnection_municipalities?.CreateTable<Municipality>();
-			sqliteconnection_provinces?.CreateTable<Province>();
-
 			string sqlconnectionpath = Path.Combine(DirectoryOutput, "afrobarometer.db");
 
 			SQLiteConnection sqliteconnection = _SQLiteConnection(sqlconnectionpath, false);
 
 			JArray apifiles = [];
-			StreamWriters streamwriters = [];
+			StreamWriters streamwriters = new() { PathBase = DirectoryOutput };
 			Args _args = new(args)
 			{
+				Rounds = [Rounds.One],
+				CountryCodes = [Country.Codes.SouthAfrica],
 				LanguageCodes = [Language.Codes.English],
 				Inputs = ZipArchiveContainer
 					.FromZipPaths(DirectoryInputSurveys, DirectoryInputCodebooks)
@@ -132,9 +129,11 @@ namespace Database.Afrobarometer
 				using FileStream? codebooksstream = codebookssziparchivecontainer is null ? null : File.OpenRead(codebookssziparchivecontainer.ZipPath);
 				using ZipArchive? codebookszip = codebooksstream is null ? null : new(codebooksstream);
 
-				StreamWriters streamwritersround = [];
-				Directory.CreateDirectory(streamwritersround.PathBase = Path.Combine(DirectoryOutput, DirectoryOutputFolder(surveysziparchivecontainer.Round, null)));
-				string sqliteconnectionroundpath = Path.Combine(streamwritersround.PathBase, string.Format("afrobarometer.{0}.db", round));
+				string diretory_round = Path.Combine(DirectoryOutput, DirectoryOutputFolder(surveysziparchivecontainer.Round, null));
+				string sqliteconnectionroundpath = Path.Combine(diretory_round, string.Format("afrobarometer.{0}.db", round));
+
+				Directory.CreateDirectory(diretory_round);
+
 				SQLiteConnection sqliteconnectionround = _SQLiteConnection(sqliteconnectionroundpath, true);
 
 				foreach (ZipArchiveContainer inputcontainer in surveysziparchivecontainergrouping)
@@ -179,7 +178,7 @@ namespace Database.Afrobarometer
 
 					void _Variables()
 					{
-						streamwriters.PathBase ??= directoryoutputpath;
+						streamwriters.PathBase = directoryoutputpath;
 						streamwriters.TryAdd("table.variable.label", "table.variable.label.txt", true);
 
 						variables = ProcessSurveySAV(surveysav, new ProcessArgs(
@@ -219,7 +218,7 @@ namespace Database.Afrobarometer
 					}
 					void _Questions()
 					{
-						streamwriters.PathBase ??= directoryoutputpath;
+						streamwriters.PathBase = directoryoutputpath;
 
 						if (codebooktempfilepath is null)
 							File.Create(Path.Combine(streamwriters.PathBase, "codebookpdf.notfound.txt"));
@@ -287,7 +286,7 @@ namespace Database.Afrobarometer
 					}
 					void _Interviews()
 					{
-						streamwriters.PathBase ??= directoryoutputpath;
+						streamwriters.PathBase = directoryoutputpath;
 						streamwriters.TryAdd("surveysav.records", "surveysav.records.txt", true);
 
 						if (surveysav.Variables.Select(surveysavvariable =>
@@ -369,24 +368,24 @@ namespace Database.Afrobarometer
 					Console.WriteLine();
 				}
 
-				streamwritersround.TryAdd("table.variable.label", "table.variable.label.txt", true);
-				streamwritersround.TryAdd("table.question.text", "table.question.text.txt", true);
-				streamwritersround.TryAdd("table.question.variablelabel", "table.question.variablelabel.txt", true);
+				streamwriters.TryAdd("table.variable.label.round", Path.Combine(diretory_round, "table.variable.label.txt"));
+				streamwriters.TryAdd("table.question.text.round", Path.Combine(diretory_round, "table.question.text.txt"));
+				streamwriters.TryAdd("table.question.variablelabel.round", Path.Combine(diretory_round, "table.question.variablelabel.txt"));
 
 				List<Variable> variablesround = [.. sqliteconnectionround.Table<Variable>()];
 				List<Question> questionsround = [.. sqliteconnectionround.Table<Question>()];
 
 				foreach (Variable variable in variablesround.OrderBy(_ => _.Label))
-					streamwritersround["table.variable.label"].WriteLine("{0} {1}\n{2} {3}\n", variable.Pk.ToString(variablesround.Count), variable.Id, variablesround.Count.ToEmptyCharacters(), variable.Label);
+					streamwriters["table.variable.label.round"].WriteLine("{0} {1}\n{2} {3}\n", variable.Pk.ToString(variablesround.Count), variable.Id, variablesround.Count.ToEmptyCharacters(), variable.Label);
 
 				foreach (Question question in questionsround.OrderBy(_ => _.Text))
-					streamwritersround["table.question.text"].WriteLine("{0} [{1}]: {2}", question.Pk.ToString(questionsround.Count), question.Id, question.Text);
+					streamwriters["table.question.text.round"].WriteLine("{0} [{1}]: {2}", question.Pk.ToString(questionsround.Count), question.Id, question.Text);
 
 				foreach (Question question in questionsround.OrderBy(_ => _.VariableLabel))
-					streamwritersround["table.question.variablelabel"].WriteLine("{0} [{1}]: {2}", question.Pk.ToString(questionsround.Count), question.Id, question.VariableLabel);
+					streamwriters["table.question.variablelabel.round"].WriteLine("{0} [{1}]: {2}", question.Pk.ToString(questionsround.Count), question.Id, question.VariableLabel);
 
-				streamwritersround.Dispose();
 				sqliteconnectionround.Close();
+				streamwriters.Dispose(true, "table.variable.label.round", "table.question.text.round", "table.question.variablelabel.round");
 
 				FileInfo sqliteconnectionroundfileinfo = new(sqliteconnectionroundpath);
 				string sqliteconnectionroundzipname = string.Join('/', sqliteconnectionroundfileinfo.ZipFile().Split('\\')[^2..^0]);
@@ -399,6 +398,10 @@ namespace Database.Afrobarometer
 			}
 
 			sqliteconnection.CommitAndClose();
+			sqliteconnection_countries?.Close();
+			sqliteconnection_languages?.Close();
+			sqliteconnection_municipalities?.Close();
+			sqliteconnection_provinces?.Close();
 
 			FileInfo sqlconnectionfileinfo = new(sqlconnectionpath);
 			string sqliteconnectionzipname = sqlconnectionfileinfo.ZipFile().Split('\\').Last();

@@ -60,9 +60,9 @@ namespace Database.Afrobarometer
 		{
 			List<Variable> variables = [];
 
-			args.Streamwriters.TryAdd(Key_SurveySAV_Log, string.Format("{0}.txt", Key_SurveySAV_Log));
-			args.Streamwriters.TryAdd(Key_SurveySAV_Error, string.Format("{0}.txt", Key_SurveySAV_Error));
-			args.Streamwriters.TryAdd(Key_SurveySAV_Operations, string.Format("{0}.txt", Key_SurveySAV_Operations));
+			args.Streamwriters.TryAdd(Key_SurveySAV_Log, string.Format("{0}.txt", Key_SurveySAV_Log), true);
+			args.Streamwriters.TryAdd(Key_SurveySAV_Error, string.Format("{0}.txt", Key_SurveySAV_Error), true);
+			args.Streamwriters.TryAdd(Key_SurveySAV_Operations, string.Format("{0}.txt", Key_SurveySAV_Operations), true);
 
 			foreach (SurveySAVVariable surveysavvariable in surveysav.Variables)
 				if (ProcessSurveySAVVariable(surveysavvariable, args) is Variable variable)
@@ -90,11 +90,11 @@ namespace Database.Afrobarometer
 		{
 			List<Question> questions = []; variables = [];
 
-			args.Streamwriters.Add(Key_CodebookPDF_Error, string.Format("{0}.txt", Key_CodebookPDF_Error));
-			args.Streamwriters.Add(Key_CodebookPDF_Log, string.Format("{0}.txt", Key_CodebookPDF_Log));
-			args.Streamwriters.Add(Key_CodebookPDF_Operations, string.Format("{0}.txt", Key_CodebookPDF_Operations));
-			args.Streamwriters.Add(Key_CodebookPDF_Texts, string.Format("{0}.txt", Key_CodebookPDF_Texts));
-			args.Streamwriters.Add(Key_CodebookPDF_VariableLabels, string.Format("{0}.txt", Key_CodebookPDF_VariableLabels));
+			args.Streamwriters.Add(Key_CodebookPDF_Error, string.Format("{0}.txt", Key_CodebookPDF_Error), true);
+			args.Streamwriters.Add(Key_CodebookPDF_Log, string.Format("{0}.txt", Key_CodebookPDF_Log), true);
+			args.Streamwriters.Add(Key_CodebookPDF_Operations, string.Format("{0}.txt", Key_CodebookPDF_Operations), true);
+			args.Streamwriters.Add(Key_CodebookPDF_Texts, string.Format("{0}.txt", Key_CodebookPDF_Texts), true);
+			args.Streamwriters.Add(Key_CodebookPDF_VariableLabels, string.Format("{0}.txt", Key_CodebookPDF_VariableLabels), true);
 
 			foreach (CodebookPDF.Question codebookpdfquestion in codebookpdf.Questions)
 			{
