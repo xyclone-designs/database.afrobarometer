@@ -93,8 +93,6 @@ namespace Database.Afrobarometer
 			StreamWriters streamwriters = new() { PathBase = DirectoryOutput };
 			Args _args = new(args)
 			{
-				Rounds = [Rounds.One],
-				CountryCodes = [Country.Codes.SouthAfrica],
 				LanguageCodes = [Language.Codes.English],
 				Inputs = ZipArchiveContainer
 					.FromZipPaths(DirectoryInputSurveys, DirectoryInputCodebooks)
