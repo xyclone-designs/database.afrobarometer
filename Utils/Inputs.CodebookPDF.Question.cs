@@ -94,14 +94,13 @@ namespace Database.Afrobarometer
 								public static string RegexOne(MatchCollection matches, string input)
 								{
 									for (int index = 0; index < matches.Count; index++)
-									{
-										int num = int.Parse(matches[index].Value.Split('=')[0]);
+										if (int.TryParse(matches[index].Value.Split('=')[0], out int num))
+										{
+											string _was = string.Join(string.Empty, matches[index].Value[0..^2]);
+											string _is = string.Format("{0}{1}", _was, num + 1);
 
-										string _was = string.Join(string.Empty, matches[index].Value[0..^2]);
-										string _is = string.Format("{0}{1}", _was, num + 1);
-
-										input = input.Replace(_was, _is);
-									}
+											input = input.Replace(_was, _is);
+										}
 
 									return input;
 								}
@@ -378,7 +377,7 @@ namespace Database.Afrobarometer
 						if (question.Text != text) logs.AddFormat("Text: '{0}'\n      '{1}'", question.Text, text);
 						if (question.VariableLabel != variablelabel) logs.AddFormat("VariableLabel: '{0}'\n               '{1}'", question.VariableLabel, variablelabel);
 						if (valueschanged) logs.AddFormat("Values:\n    '{0}'\n    =>\n    '{1}'", question.Values, string.Join("\n    ", values ?? []));
-						if (valuelabels?.Select(_ => double.Parse(_.Split('=')[0])) is IEnumerable<double> all && all.Distinct().Count() == all.Count())
+						if (valuelabels?.Select(_ => double.TryParse(_.Split('=')[0], out double _valuelabel) ? _valuelabel : new double?()).OfType<double>() is IEnumerable<double> all && all.Distinct().Count() == all.Count())
 							logs.AddFormat("ValueLabels: Duplicates Found '{0}'", string.Join(", ", all));
 						if (valueslabelschanged) logs.AddFormat("ValueLabels: {0}\n             {1}", question.ValueLabels, string.Join("\n             ", valuelabels ?? []));
 						if (question.Source != source) logs.AddFormat("Source: '{0}'\n        '{1}'", question.Source, source);
