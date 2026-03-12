@@ -1,8 +1,6 @@
 # Database.Afrobarometer
 Afrobarometer results database built from data supplied by the Afrobarometer and used for the api found at https://api.xyclonedesigns.co.za/afrobarometer/rest
 
-# * DATABASE CREATION IN PROGRESS *
-
 Data for the following rounds is present
 - Round 01 (1999/2001)
 - Round 02 (2002/2003)
@@ -25,6 +23,8 @@ Data, (Merged and Single), Instructional Codebooks were sourced from the followi
 Question topic segmentation & sections were sourced and edited from the below link
 
 - https://www.afrobarometer.org/online-data-analysis/  
+
+# * DATABASE CREATION IN PROGRESS *
 
 # Disclaimer
 
